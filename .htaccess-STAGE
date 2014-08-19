@@ -1,0 +1,4 @@
+Redirect 301 /index.html https://ppg.4patriots.net/checkout/index.php
+IndexIgnore *
+
+php_value auto_prepend_file "/var/www/vhosts/ppg.4patriots.net/includes/AUTO-PREPEND-STAGE.php"

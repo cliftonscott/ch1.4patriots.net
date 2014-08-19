@@ -1,0 +1,13 @@
+Redirect 301 /index.html https://secure.patriotpowergenerator.com/index.php
+
+IndexIgnore *
+
+#AuthUserFile /var/www/vhosts/secure.patriotpowergenerator.com/includes/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "4Patriots, LLC Production Server"
+#AuthType Basic
+
+#require valid-user
+#password = ppg
+
+php_value auto_prepend_file "/var/www/vhosts/secure.patriotpowergenerator.com/includes/AUTO-PREPEND-PROD.php"
