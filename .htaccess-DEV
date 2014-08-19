@@ -1,4 +1,4 @@
-Redirect 301 /index.html https://dev02.4patriots.net/checkout/index.php
+Redirect 301 /index.html https://dev.sf4p.4patriots.net/checkout/index.php
 IndexIgnore *
 
-php_value auto_prepend_file "/var/www/vhosts/dev02.4patriots.net/includes/AUTO-PREPEND-DEV.php"
+php_value auto_prepend_file "/var/www/vhosts/dev.sf4p.4patriots.net/includes/AUTO-PREPEND-DEV.php"
