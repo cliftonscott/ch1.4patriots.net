@@ -1,0 +1,33 @@
+<script>
+	function flipTV() {
+		tvBadges = document.getElementById("tvBadges");
+		tvText = document.getElementById("tvText");
+		if(tvBadges.style.visibility == "visible") {
+			tvBadges.style.visibility = "hidden";
+			tvBadges.style.display = "none";
+			tvText.style.visibility = "visible";
+			tvText.style.display = "block";
+		} else {
+			tvBadges.style.visibility = "visible";
+			tvBadges.style.display = "block";
+			tvText.style.visibility = "hidden";
+			tvText.style.display = "none";			
+		}
+		
+		
+	}
+</script>
+<div class="tv">
+	<div id="tvBadges" style="visibility: visible; display: block;">
+		<p><img src="/assets/images/video-lander/as-seen-advertised-on-01.jpg" class="img-responsive center-block" onclick="flipTV();"></p>
+	</div>
+	<div id="tvText" style="visibility: hidden; display: none;">
+		<p><span id="tvClose" class="glyphicon glyphicon glyphicon-remove" onclick="flipTV();"></span>
+			PatriotPowerGenerator has been seen and advertised on 100's of websites (GlennBeck.com, PersonalLiberty.com) and news 
+			outlets (TheBlaze, WND, etc) since it's launch. For recent news stories, interviews and press 
+			releases about PatriotPowerGenerator, please visit our 
+			<a href="/newsroom.php" target="_blank">Newsroom</a>.
+		</p>
+	</div>
+</div>
+<div id="clear"></div>
