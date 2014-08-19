@@ -1,10 +1,10 @@
 <?php
 /*
  * temporary redirect while sold out
- */
+
 header("Location: /checkout/index.php");
 exit;
-
+ */
 
 $template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
 // SET PRODUCT ID
