@@ -1,0 +1,334 @@
+/* BASIC TYPOGRAPHY
+-------------------------------------------------- */
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-bottom: 25px;
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+h1 {
+	font-size: 28pt;
+}
+.darkRed {
+	/*text-align:center;*/
+	color:#cc0000;
+	font-weight:bold;
+}
+.brightBlue {
+	color: #0000FF;	
+}
+.caption {
+	margin-bottom:10px !important;
+	margin-top:5px !important;
+	font-size: 12px;
+}
+.thumbnail {
+	margin-bottom: 0px !important; 
+}
+/* GENERAL SUPPORT PAGE CSS TWEAKS
+-------------------------------------------------- */
+.question {
+	font-weight: bold;
+	color:#cc0000;
+}
+.answer {
+	
+}
+.testimonial{
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #E9F4FF;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height: 60px;
+	max-width: 600px;
+	
+}
+.fa-quote-right, .fa-quote-left {
+	color: #D9D9D9;
+}
+/* GENERAL CSS TWEAKS
+-------------------------------------------------- */
+.nopadding {
+	padding: 0px;
+}
+.margin-tb-20{
+	margin-top: 20px !important;
+	margin-bottom: 40px !important;
+}
+.img-padding-right {
+	padding-right: 10px;
+}
+.img-padding-left {
+	padding-left: 10px;
+}
+/* LOADING DIV
+-------------------------------------------------- */
+#LoadingDiv{
+  margin:0px 0px 0px 0px;
+  position:fixed;
+  height: 100%;
+  z-index:9999;
+  padding-top:350px;
+  width:100%;
+  clear:none;
+  background:url("https://secure.food4patriots.com/checkout/assets/trans.png");
+  text-align:center;
+  color:#FFF;
+  font-weight:bold;
+  font-size:20px;
+  /*background-color:#666666;
+  border:1px solid #000000;*/
+  }
+/*IE will need an 'adjustment'*/
+* html #LoadingDiv{
+     position: absolute;
+     height: expression(document.body.scrollHeight &gt; document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+  }
+
+/* THE FLOATING TIMER STYLES
+-------------------------------------------------- */
+.timeClass {
+	font-family:arial,verdana,helvetica,sans-serif;
+	font-weight:normal;
+	font-size:15pt;
+}
+#time-container{
+	font-size: 12px;
+	text-align: center;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 35px;
+	padding-right: 3px;
+	padding-top: 5px;
+}
+#floatingTimer {
+	position: absolute;
+	width: 150px;
+	height: 60px;
+	top: 10px;
+	right: 10px;
+	background-color: #C00;
+	z-index: 100;
+	background-image: url(/assets/images/misc/timerbg.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+
+/* VIDEO CONTAINER EDITS
+-------------------------------------------------- */
+#videobox{	
+	width: 98%;
+	max-width: 635px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#videobox iframe{
+	right: 5px;
+}
+/* AS SEEN ON CONTAINER EDITS
+-------------------------------------------------- */
+.tv {
+	width:100%;
+	margin:auto;
+	margin-top:25px;
+	margin-bottom: 25px;
+	text-align:center;
+	cursor:pointer;
+}
+#tvBadges {
+	margin:auto;
+}
+#tvText {
+	width: 95%;
+	margin: auto;
+	visibility: hidden;
+	display: none;
+	border: 1px solid #0A427A;
+	border-radius: 3px;
+	background-color: #fff;
+}
+#tvText p {
+	font-family:Verdana,Helvetica,Arial;
+	font-size:11pt;
+	padding:10px;
+	cursor:auto;
+}
+#tvClose {
+	float:right;
+	cursor:pointer;
+}
+/* CHECKOUT PAGE STYLES 
+-------------------------------------------------- */
+.guaranteeBox p {margin:0px;}
+.audio-message {
+	padding-top: 10px;
+	font-weight: bold;
+	color: #cc0000;
+	font-size: 17px;
+}
+/* OTO PAGE STYLES 
+-------------------------------------------------- */
+.oto-width {
+	max-width: 750px !important;
+}
+.noThanks {
+padding-top:10px;
+padding-bottom:30px;
+text-align:center;
+}
+.noThanks a {
+font-weight:bold;
+} 
+.terms {
+	position:relative;
+	text-align:left;
+	margin-top:10px;
+	max-width:620px;
+	margin-right:auto;
+	margin-left:auto;	
+}
+.johnson-box-01 {
+	max-width: 600px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	background: #FFFFCC; 
+	border: 4px dashed #666666; 
+	padding-top: 10px; 
+	padding-right: 15px; 
+	padding-bottom: 10px; 
+	padding-left: 15px; 
+	font-family: 'Courier New', Courier, monospace; 
+	font-size: large;	
+}
+.johnson-box-02 {
+	background-color: #FCFFA6;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	border: 1px solid #3E5F59;
+	padding: 12px;
+	line-height: 1.2em;
+}
+.rcBoxR15 {
+	max-width: 400px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	background-color: #E9EFFF; 
+	border-radius: 15px; 
+	padding: 10px;
+}
+.rcBoxR10 {
+	max-width: 700px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom:25px;
+	background-color: #E9EFFF; 
+	border-radius: 10px; 
+	padding: 20px; 
+}
+.outLineBoxDarkBlue {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 600px;
+	padding: 20px;
+	border: 2px solid #125597;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.outLineBoxDarkBlue h3 {
+	display:inline;
+	color:#0000FF;
+	font-size:1em;
+	font-weight:bold;
+}
+.numberCircle { 
+	border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin-right: 5px;
+	text-align: center;
+	width: 1.6em;
+	background-color: #0C0;
+}
+.read-warning{
+	background-color: #FFFE00;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 400px;
+	margin-right: auto;
+	margin-left:auto;
+}
+/* TITLE MAX WIDTH - FORCE LINE_BREAK
+-------------------------------------------------- */
+.title-max-600{
+	max-width: 600px;
+}
+.title-max-560{
+	max-width: 560px;
+}
+.title-max-400{
+	max-width: 400px;
+}
+
+/* ADOBE READER
+-------------------------------------------------- */
+.adobeReaderBox {
+	width: 80%;
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom:25px;
+	border-radius: 10px; 
+	padding-top: 10px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 10px;
+	border: 1px solid #125597;
+	background-color:#FFFFFF;
+}
+.adobeReaderBox p {
+	margin-bottom:30px;
+}
+ /* CUSTOMIZE THE AUDIO CONTROLS
+-------------------------------------------------- */
+img.audioControl {
+	margin:3px;
+	width:36px;
+	height:36px;
+	cursor:pointer;
+}
+ /* CUSTOMIZE THE article styles for the privacy, disclaimers, etc. series
+-------------------------------------------------- */
+article.content  {
+	padding:20px;
+}
+article.content .header {
+	font-size:1.25em;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-transform: uppercase;
+}
+article.content .effective-date {
+	font-weight:bold;
+	margin-bottom:10px;
+}
+ /* CUSTOMIZE FONT AWSOME ICONS
+-------------------------------------------------- */
+.fa-check {
+	color: #34C901;
+}
+.fa-check-square {
+	color: #001F98;
+}
