@@ -36,7 +36,7 @@ include_once ('template-top.php');
 			<?php
 			if($_SESSION["soldout"]["flag"] !== true) {
 			?>
-				<audio id="frankCheckoutAudioSrc" src="/media/audio/ppg-checkout-audio-01.mp3" preload="auto"></audio>
+				<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-01.mp3" preload="auto"></audio>
 				<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('frankCheckout');">
 				<div class="audio-message"><span class="hidden-xs">Now Playing:</span> Special Message From Frank</div>
 			<?php

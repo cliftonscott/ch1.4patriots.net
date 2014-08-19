@@ -53,6 +53,9 @@ p {
 .navbar {
 	border-radius: 0px;	
 	margin-bottom: 0px;
+	max-width: 950px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .navbar-default {
 	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(227,227,227,1.00) 100%);
@@ -95,8 +98,11 @@ background-color: #B6B6B6;
 }
 .navbar-phone-contain {
 	background-color: #B90003;
-	height: 65px;
+	height: 10px;
 	border-bottom-color: #FFFFFF;
+	max-width: 950px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .navbar-phone {
 	color: #FFFFFF;
@@ -109,7 +115,7 @@ background-color: #B6B6B6;
 	padding-top: 10px;
 }
 .navbar-phone-contain .btn{
-	font-size: 22px;
+	font-size: 10px;
 }
 .navbar-phone-contain .btn a {
 	color: #FFFFFF;
@@ -513,7 +519,7 @@ input[type=number]::-webkit-outer-spin-button {
 	padding-top: 0px;
 }
 .navbar-phone-contain {
-	height: 22px;
+	height: 10px;
 }
 #phone-txt {
 	display:block;
