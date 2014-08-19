@@ -7,7 +7,7 @@
  * file as you would say an apache config file or a php.ini file.
  */
 if(!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) {
-	header("Location: https://secure.patriotpowergenerator.com" . $_SERVER["REQUEST_URI"]);
+	header("Location: https://secure.food4patriots.com" . $_SERVER["REQUEST_URI"]);
 	exit();
 }
 $some_session = session_name("f4p_session");
