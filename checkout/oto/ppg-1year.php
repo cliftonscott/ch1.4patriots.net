@@ -419,9 +419,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
             <h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1 Year 
             	Food4Patriots Kit For $1000.00 Off Right Now!</h2>
 			          	
-			<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. 
-				This kit normally sells for $2,200, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your 
-				trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,997.</p>
+			<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,997.</p>
 				
 			<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 			
