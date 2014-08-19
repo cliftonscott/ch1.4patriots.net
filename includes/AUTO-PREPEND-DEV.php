@@ -9,12 +9,12 @@
 $some_session = session_name("f4p_session");
 session_start();
 //ini_set("error_reporting", E_ALL);
-ini_set("display_errors", TRUE);
+ini_set("display_errors", FALSE);
 const APP_MODE_LOG = FALSE; //options FALSE or DEBUG
-$addPath[] = "/var/www/vhosts/dev02.4patriots.net/includes";
-$addPath[] = "/var/www/vhosts/dev02.4patriots.net/templates";
-$addPath[] = "/var/www/vhosts/dev02.4patriots.net/content";
-$addPath[] = "/var/www/vhosts/dev02.4patriots.net/libraries";
+$addPath[] = "/var/www/vhosts/dev.sf4p.4patriots.net/includes";
+$addPath[] = "/var/www/vhosts/dev.sf4p.4patriots.net/templates";
+$addPath[] = "/var/www/vhosts/dev.sf4p.4patriots.net/content";
+$addPath[] = "/var/www/vhosts/dev.sf4p.4patriots.net/libraries";
 $appConfig["path"] = implode(PATH_SEPARATOR, $addPath);
 set_include_path(get_include_path() . PATH_SEPARATOR . $appConfig["path"]);
 unset($addPath);
