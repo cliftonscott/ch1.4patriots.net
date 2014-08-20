@@ -15,7 +15,7 @@ class Dblog {
 	static $applicationMessages = array();
 	static $applicationErrors = array();
 	
-	const DB_TABLE = "ppg";
+	const DB_TABLE = "sf4p";
 	 
 	function getDblog() {
 	 		
@@ -141,13 +141,15 @@ class Dblog {
 		}
 		
 		$userIpStr = self::getIpAddress();
+		$serverId = getenv("DESIGNATION");
 		
-		$sql = "INSERT INTO `" . self::DB_TABLE . "` SET process=:processStr, userIp=:userIpStr, log =:inputStr";
+		$sql = "INSERT INTO `" . self::DB_TABLE . "` SET process=:processStr, userIp=:userIpStr, log =:inputStr, serverId=:serverId";
 		$insert = $db->prepare($sql);
 		$insert->bindParam(':processStr', $processStr, PDO::PARAM_STR, 12);
 		$insert->bindParam(':inputStr', $inputStr, PDO::PARAM_STR, 12);
 		$insert->bindParam(':userIpStr', $userIpStr, PDO::PARAM_STR, 12);
-		
+		$insert->bindParam(':serverId', $serverId, PDO::PARAM_STR, 12);
+
 		if($insert->execute()) {
 			self::setMsg("Inserted into devlog: " . $inputStr);
 			$setDblog->success = true;
