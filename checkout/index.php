@@ -15,7 +15,8 @@ if($_SESSION["soldout"]["flag"] !== true) {
 
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
-$_SESSION['productId'] = 162; //please keep as an integer
+// THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
+$_SESSION['productId'] = 19; //please keep as an integer
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
