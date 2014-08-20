@@ -6,34 +6,30 @@
  * @author Brian Gibbins
  * @copyright 2014
  * @see http://en.wikipedia.org/wiki/PHPDoc
- * $AFID = $_GET['AFID'];
- * $CID = $_GET['CID'];
- * $click_id = $_GET['click_id'];
- * $subid = $_GET['subid'];
- * $sspdata = $_GET['sspdata'];
- * $subid2 = $_GET['subid2'];
- * $offerid = $_GET['offer_id'];
- * $aff_sub2 = $_GET['aff_sub2'];
- * $email = $_GET['email'];
  * 
  */
 class Analytics {
 	
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
-	const ANALYTICS_GOOGLE_ACCT = "UA-31877487-8";
-	const ANALYTICS_GOOGLE_DOMAIN = "secure.patriotpowergenerator.com";
-	
+
+	//CHANGE THESE VALUES BASED ON SITE
+	const PROD_GA_ACCT = "UA-31877487-4";
+	const PROD_GA_DOMAIN = "food4patriots.com";
+
+	//LEAVE THESE DEV VALUES AS IS
+	const DEV_GA_ACCT = "UA-31877487-9";
+	const DEV_GA_DOMAIN = "dev.4patriots.net";
+
 	static $subId = null;
 	static $subId2 = null;
 	static $clickId = null; //has offers unique visitor tracking number
 	static $offerId = null; //has offers offerId / campaignId
 	static $affiliateId = null; //has offers affiliateId
 	static $affSub2 = null; //CPV unique visitor tracking number
-	static $sspData = null; //TODO Jeremy what is this again?
 	static $googleAccount = null;
 	static $googleDomain = null;
+	static $serverId = null;
 	
 	
 	public function __construct() {
@@ -46,10 +42,9 @@ class Analytics {
 		$this->affiliateId = self::$affiliateId;
 		$this->offerId = self::$offerId;
 		$this->affSub2 = self::$affSub2;
-		$this->sspData = self::$sspData;
-		$this->googleAccount = self::ANALYTICS_GOOGLE_ACCT;
-		$this->googleDomain = self::ANALYTICS_GOOGLE_DOMAIN;
-				
+		$this->googleAccount = self::$googleAccount;
+		$this->googleDomain = self::$googleDomain;
+		$this->serverId = self::$serverId;
 		
 		return $this;
 		
@@ -57,6 +52,17 @@ class Analytics {
 	
 
 	function initializeValues() {
+
+		$serverId = getenv("DESIGNATION");
+		self::$serverId = $serverId;
+
+		if($serverId !== "RB03") {
+			self::$googleAccount = self::PROD_GA_ACCT;
+			self::$googleDomain = self::PROD_GA_DOMAIN;
+		} else {
+			self::$googleAccount = self::DEV_GA_ACCT;
+			self::$googleDomain = self::DEV_GA_DOMAIN;
+		}
 		
 		if(!empty($_GET["subid"])) {
 			$this->setSubId(trim($_GET["subid"]));
@@ -106,16 +112,8 @@ class Analytics {
 			$this->setAffSub2(null);
 		}
 		
-		if(!empty($_GET["sspdata"])) {
-			$this->setSspData(trim($_GET["sspdata"]));
-		} elseif (!empty($_SESSION["sspData"])) {
-			$this->setSspData($_SESSION["sspData"]);
-		} else {
-			$this->setSspData(null);
-		}
-		
 	}
-	
+
 	function setSubId($subId) {
 		self::$subId = $subId;
 		$_SESSION["subId"] = $subId;
@@ -140,10 +138,6 @@ class Analytics {
 	function setAffSub2($affSub2) {
 		self::$affSub2 = $affSub2;
 		$_SESSION["affSub2"] = $affSub2;
-	}
-	function setSspData($sspData) {
-		self::$sspData = $sspData;
-		$_SESSION["sspData"] = $sspData;
 	}
 		
 
