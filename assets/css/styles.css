@@ -53,7 +53,7 @@ p {
 .navbar {
 	border-radius: 0px;	
 	margin-bottom: 0px;
-	max-width: 950px;
+	max-width: 990px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -100,7 +100,7 @@ background-color: #B6B6B6;
 	background-color: #B90003;
 	height: 10px;
 	border-bottom-color: #FFFFFF;
-	max-width: 950px;
+	max-width: 990px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -115,7 +115,7 @@ background-color: #B6B6B6;
 	padding-top: 10px;
 }
 .navbar-phone-contain .btn{
-	font-size: 10px;
+	font-size: 22px;
 }
 .navbar-phone-contain .btn a {
 	color: #FFFFFF;
@@ -519,7 +519,7 @@ input[type=number]::-webkit-outer-spin-button {
 	padding-top: 0px;
 }
 .navbar-phone-contain {
-	height: 10px;
+	height: 22px;
 }
 #phone-txt {
 	display:block;

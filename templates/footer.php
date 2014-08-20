@@ -1,10 +1,10 @@
 <div class="container footer">
 	<div>
 		<address>
-			<strong>Patriot Power Generator</strong><br>
+			<strong>Food4Patriots</strong><br>
 			4322 Harding Pike Suite 417, PMB 121<br>
 			Nashville, TN 37205<br>
-			1-800-680-8504
+			1-800-728-0008
 		</address>
 	</div>
 <?php
@@ -13,6 +13,6 @@ if(strpos($_SERVER["PHP_SELF"], "/oto/") === FALSE) {
 }
 
 ?>
-	<div><br />Copyright &copy; <?php echo date("Y");?> Patriot Power Generator<strong>&reg;</strong> — All rights reserved.<br /><br /></div>
+	<div><br />Copyright &copy; <?php echo date("Y");?> Food4Patriots<strong>&reg;</strong> — All rights reserved.<br /><br /></div>
 </div>
 <!-- /footer -->

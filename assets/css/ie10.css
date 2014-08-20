@@ -63,7 +63,7 @@ article.content .effective-date {
 .navbar {
 	border-radius: 0px;	
 	margin-bottom: 0px;
-	max-width: 950px;
+	max-width: 990px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -105,9 +105,9 @@ background-color: #B6B6B6;
 }
 .navbar-phone-contain {
 	background-color: #B90003;
-	height: 10px;
+	height: 22px;
 	border-bottom-color: #FFFFFF;
-	max-width: 950px;
+	max-width: 990px;
 	margin-right: auto;
 	margin-left: auto;
 }

@@ -19,8 +19,8 @@ if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
 <div class="navbar-phone-contain">
 	<div class="container nopadding">
     	<div class="navbar-phone">
-        	<!--<div id="phone-txt"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-680-8504</div>-->
-			<div id="phone-button"><button type="button" class="btn btn-primary"><a href="tel:1-800-680-8504"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-680-8504</a></button></div>
+        	<div id="phone-txt"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</div>
+			<div id="phone-button"><button type="button" class="btn btn-primary"><a href="tel:1-800-728-0008"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</a></button></div>
 		</div>
 	</div>
 </div><!-- /navbar phone --> 
