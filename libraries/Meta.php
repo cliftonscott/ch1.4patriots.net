@@ -14,9 +14,9 @@ class Meta {
 	static $applicationMessages = array();
 	static $applicationErrors = array();
 	
-	const PAGE_TITLE = "Patriot Power Generator";
-	const PAGE_DESCRIPTION = "The Patriot Power Generator is a portable solar generator that comes with an integrated 1500 watt inverter / 600Wh lithium battery, 100 watt foldable solar panel and a 25 foot long extension cord. It is designed to provide electricity for critical devices and equipment during a power outage or disaster situation.";
-	const PAGE_KEYWORDS = "power generator patriots, patriots generator power, power self-reliant";
+	const PAGE_TITLE = "Food4Patriots - Pre-Packaged Kits of 25-Year Storage Survival Food";
+	const PAGE_DESCRIPTION = "Food4Patriots offers pre-packaged kits of high-quality survival food rated to last for 25 years, packed in secure, lightweight, waterproof storage totes. Food4Patriots meals are non-GMO, take less than 15 minutes to prepare and taste delicious.";
+	const PAGE_KEYWORDS = "";
 	const PAGE_ROBOTS = "index, follow";
 
 	public function __construct() {
