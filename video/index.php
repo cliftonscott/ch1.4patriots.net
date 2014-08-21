@@ -34,8 +34,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				else {
 
 			 		var hours = 0;
-	                var minutes = 28; 
-	                var seconds = 30;
+	                var minutes = 51; 
+	                var seconds = 27;
 				
 				}
 		 	
@@ -55,6 +55,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	                $("#buyButton").oneTime(time, function() {
 	 
 	                        $("#buyButton").css("display", "block");
+							$("#buyButton2").css("display", "block");
 	                        
 	                });
 				
@@ -66,6 +67,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	                $("#buyButton").oneTime(time, function() {
 	 
 	                        $("#buyButton").css("display", "block");
+							$("#buyButton2").css("display", "block");
 	                        
 	                        
 	                        
@@ -84,21 +86,29 @@ if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexO
 document.location = "<?php echo $productDataObj->mobileLink ?>"; }
 
 </script>
+<div class="container subheader"></div>
 <div class="container-main">
 	<div class="container">
     	<div class="row">
 			<div class="col-md-12">
             	<div class="center-block text-center">
-            	  <h1><strong><span class="darkRed">FREE</span> Video Reveals <span class="darkRed">&quot;Magic Bullet&quot;</span> That Protects You 100% Against Blackouts, Power Failures & The Crumbling Electric Grid</strong></h1></div>
+            	  <h1><strong>I Couldn't Believe FEMA Tried This!<br>
+			      (Then He Showed Me Proof</strong>)</h1></div>
 			</div>
-            <div class="col-md-12">
-                <div id="videobox">
-                   <script type="text/javascript" src="https://reboot.evsuite.com/player/UFBHLVZTTDFfNzJoci1GSU5BTF9VbmNvbXByZXNzZWQubXA0/?container=evp-27J515ZOKH"></script><div id="evp-27J515ZOKH" data-role="evp-video" data-evp-id="UFBHLVZTTDFfNzJoci1GSU5BTF9VbmNvbXByZXNzZWQubXA0"></div>
-            	</div>               
             <div class="col-md-12">
             	<!-- Button Stuff -->
                 <div id="buyButton" class="center-block text-center" style="display:none">
-                    <a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'power-generator-vsl-accept', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-add-cart-01.jpg" alt="Order Now!"></a>
+                    <a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div id="videobox">
+                   <script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+            	</div>               
+            <div class="col-md-12">
+            	<!-- Button Stuff -->
+                <div id="buyButton2" class="center-block text-center" style="display:none">
+                    <a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
                 </div>
             </div>
 		</div>
@@ -107,8 +117,12 @@ document.location = "<?php echo $productDataObj->mobileLink ?>"; }
     	<div class="row">
 			<div class="col-md-12">
             	<!-- Start of Advertise Pop Up Code -->
-				<?php include("snippets/video-references.html");?>
+				<?php include("snippets/as-seen-on-tv.html");?>
                 <!-- End of Advertise Pop Up Code -->
+                <!-- Start References -->
+                <?php include("snippets/video-references.html");?>
+                <!-- End References -->
+                
 			</div>
             <div class="col-md-12">
                 
