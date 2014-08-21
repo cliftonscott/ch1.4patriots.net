@@ -113,20 +113,26 @@ class Limelight {
 			$postSale->orderId = $resultsArray["orderId"];
 			
 			if($productDataObj->isBonus !== TRUE) {
+
 				$_SESSION["orders"][] = $productDataObj->metaTitle . " - Ref. #" . $resultsArray["orderId"];
 				$_SESSION['vwoRevenue'] = $_SESSION['vwoRevenue'] + $productDataObj->netRevenueEach;
-				$_SESSION['orderTotalg'] = $resultsArray['orderTotal'];
-				$_SESSION['taxg'] = $resultsArray['orderSalesTaxAmount'];
-				$_SESSION['customerIdg'] = $resultsArray['customerId'];
-				$_SESSION['orderIdg'] = $resultsArray['orderId'];	
-						
-				$_SESSION['productg'] = $productDataObj->googleProductName;
-				$_SESSION['priceg'] = $productDataObj->price;
-				$_SESSION['orderQty'] = $saleDataObj->quantity;
+
+				//create specific session array for google posting w/ecommerce on next page
+				$_SESSION["googleTransaction"]["customerId"] = $resultsArray['customerId'];
+				$_SESSION["googleTransaction"]["orderTotal"] = $resultsArray['orderTotal'];
+				$_SESSION["googleTransaction"]["orderId"] = $resultsArray['orderId'];
+				$_SESSION["googleTransaction"]["tax"] = $resultsArray['orderSalesTaxAmount'];
+				$_SESSION["googleTransaction"]["orderQty"] = $saleDataObj->quantity;
+				$_SESSION["googleTransaction"]["product"] = $productDataObj->googleProductName;
+				$_SESSION["googleTransaction"]["price"] = $productDataObj->price;
+				$_SESSION["googleTransaction"]["orderSku"] = $productDataObj->googleProductSKU;
+				$_SESSION["googleTransaction"]["orderCategory"] = $productDataObj->googleProductCategory;
+
 			}
 			
 
 		}
+
 
 		return $postSale;
 		
