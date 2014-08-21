@@ -42,6 +42,7 @@ class Limelight {
 			//'SID' => $_SESSION['subid'],
 			'C1' => $_SESSION['sspdata'],
 			'C2' => $_SESSION['subid2'],
+			'OPT' => $analyticsObj->serverId,
 			
 			'productId' => $productDataObj->productId,
 			'campaignId' => $productDataObj->campaignId,
