@@ -3,7 +3,7 @@
  * use session soldout multidimensional array to indicate sold out conditions and associated
  * variables
  */
-$_SESSION["soldout"]["flag"] = true; //this is the primary trigger
+$_SESSION["soldout"]["flag"] = false; //this is the primary trigger
 $_SESSION["soldout"]["audio"] = null;
 //$_SESSION["soldout"]["waitlist"] = false;
 if($_SESSION["soldout"]["flag"] !== true) {

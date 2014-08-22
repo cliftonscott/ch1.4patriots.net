@@ -11,32 +11,51 @@ class Hasoffers {
 	
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
+
+	const HO_BASE_URL = "https://trk.rebootmarketing.com/";
 	
 	public function __construct() {
 		
 	}
 	
-	function postSale($amount) {
-
-		include_once("Analytics.php");
-		$analyticsData = new Analytics();
-		$transactionId = $analyticsData->clickId;
-
-
-		//TODO decide which offerIds are applicable here
-		switch($analyticsData->offerId) {
-			case 37:
-				$postUrl = "https://trk.rebootmarketing.com/SP6b";
-				break;
-			default:
-				//TODO make this an error state
-				break;
-		}
-
+	function postSale($productId, $offerId, $transactionId, $amount) {
 
 		$postSale = new stdClass();
 
-		//TODO error check that these values are the correct type
+		/*
+		 * $hoArray defines the productId and offerId relationship
+		 * and is used to determine the final postback url for HO
+		 *
+		 */
+		$hoArray[19] = array ( //productId
+			28 => "GP3M",
+			30 => "SP2w",
+			0 => "GP1k" //default
+		);
+		$hoArray[18] = array ( //productId
+			28 => "GP3G",
+			30 => "SP2w",
+			0 => "GP1e" //default
+		);
+		$hoArray[17] = array ( //productId
+			28 => "GP3A",
+			30 => "SP2w",
+			0 => "GP1Y" //default
+		);
+
+
+		if($postBack = $hoArray[$productId][$offerId]) {
+			$postUrl = self::HO_BASE_URL . $postBack;
+		} elseif($postBack = $hoArray[$productId][0]) {
+			$postUrl = self::HO_BASE_URL . $postBack;
+		} else {
+			self::setError("productId not found in the hoArray");
+			//exit and return to calling script
+			$postSale->success = false;
+			$postSale->messages = self::getMessages();
+			$postSale->errors = self::getErrors();
+			return $postSale;
+		}
 
 		$hoParams = array (
 			"transaction_id" => $transactionId,
@@ -66,7 +85,6 @@ class Hasoffers {
 		} else {
 			$postSale->success = FALSE;
 		}
-
 		return $postSale;
 		
 	}
