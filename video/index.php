@@ -52,10 +52,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				
 					// If return visitor that saw button, show alt button
 
-	                $("#buyButton").oneTime(time, function() {
+	                $("#reserve").oneTime(time, function() {
 	 
-	                        $("#buyButton").css("display", "block");
-							$("#buyButton2").css("display", "block");
+	                        $("#reserve").css("display", "block");
+	                        $("#reserve").oneTime(5000, function() {
+									$("#reserve").css("display", "none");
+									$("#buyButton").css("display", "block");
+									$("#buyButton2").css("display", "block");
+							   });
 	                        
 	                });
 				
@@ -64,12 +68,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				
 					// If visitor hasn't seen button yet, show default button
  
-	                $("#buyButton").oneTime(time, function() {
+	                $("#reserve").oneTime(time, function() {
 	 
-	                        $("#buyButton").css("display", "block");
-							$("#buyButton2").css("display", "block");
-	                        
-	                        
+	                        $("#reserve").css("display", "block");
+	                        $("#reserve").oneTime(5000, function() {
+									$("#reserve").css("display", "none");
+									$("#buyButton").css("display", "block");
+									$("#buyButton2").css("display", "block");
+							   });
 	                        
 	                });
 	                
@@ -106,8 +112,13 @@ document.location = "<?php echo $productDataObj->mobileLink ?>"; }
                    <script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
             	</div>               
             <div class="col-md-12">
+            	<div id="reserve" style="display:none;">
+					<div class="text-center center-block"><img src="/assets/images/misc/loading-01.gif" width="600" height="205" alt=""/> </div>
+				</div>
             	<!-- Button Stuff -->
                 <div id="buyButton2" class="center-block text-center" style="display:none">
+                	<h2 class="darkRed"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
+               	  <div>(Add Timer Here)</div>
                     <a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
                 </div>
             </div>
