@@ -32,8 +32,6 @@ if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
                 <li><a href="/privacy.php">Privacy Policy</a></li>
                 <li><a href="/terms.php">Terms Conditions</a></li>
                 <li><a href="/disclaimer.php">Disclaimer</a></li>
-                <li class="divider"></li>
-                <li><a href="/media/pdf/manuals/Patriot_Power_Generator_manual_063014_C.pdf" target="_blank">Manual</a></li>
               </ul>
             </li>
           </ul>
