@@ -16,10 +16,12 @@ class Analytics {
 	//CHANGE THESE VALUES BASED ON SITE
 	const PROD_GA_ACCT = "UA-31877487-4";
 	const PROD_GA_DOMAIN = "food4patriots.com";
+	const PROD_GA_AFFILIATION = "F4P";
 
 	//LEAVE THESE DEV VALUES AS IS
 	const DEV_GA_ACCT = "UA-31877487-9";
 	const DEV_GA_DOMAIN = "dev.4patriots.net";
+	const DEV_GA_AFFILIATION = "DEV";
 
 	static $subId = null;
 	static $subId2 = null;
@@ -29,6 +31,7 @@ class Analytics {
 	static $affSub2 = null; //CPV unique visitor tracking number
 	static $googleAccount = null;
 	static $googleDomain = null;
+	static $googleAffiliation = null;
 	static $serverId = null;
 	
 	
@@ -44,8 +47,9 @@ class Analytics {
 		$this->affSub2 = self::$affSub2;
 		$this->googleAccount = self::$googleAccount;
 		$this->googleDomain = self::$googleDomain;
+		$this->googleAffiliation = self::$googleAffiliation;
 		$this->serverId = self::$serverId;
-		
+
 		return $this;
 		
 	}
@@ -59,9 +63,11 @@ class Analytics {
 		if($serverId !== "RB03") {
 			self::$googleAccount = self::PROD_GA_ACCT;
 			self::$googleDomain = self::PROD_GA_DOMAIN;
+			self::$googleAffiliation = self::PROD_GA_AFFILIATION;
 		} else {
 			self::$googleAccount = self::DEV_GA_ACCT;
 			self::$googleDomain = self::DEV_GA_DOMAIN;
+			self::$googleAffiliation = self::DEV_GA_AFFILIATION;
 		}
 		
 		if(!empty($_GET["subid"])) {

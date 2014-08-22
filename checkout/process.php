@@ -214,13 +214,12 @@ $stepTimerStart = microtime(true);
 
 if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 
-
 	include_once("Hasoffers.php");
 	$hasOffers = new Hasoffers();
 	$hasOffersRevenue = $productDataObj->netRevenueEach * $quantity;
-	$postHasOffers = $hasOffers->postSale($hasOffersRevenue);
+	$postHasOffers = $hasOffers->postSale($productDataObj->productId, $analyticsObj->offerId, $analyticsObj->clickId, $hasOffersRevenue);
 	if($postHasOffers->success === FALSE) {
-		//do something because we did not successfully post to HO
+		//TODO send email to dev w/ results of failure because we did not successfully post to HO
 	}
 	$saleDataObj->setHasOffers($postHasOffers->success);
 

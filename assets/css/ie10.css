@@ -63,7 +63,7 @@ article.content .effective-date {
 .navbar {
 	border-radius: 0px;	
 	margin-bottom: 0px;
-	max-width: 950px;
+	max-width: 958px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -105,9 +105,9 @@ background-color: #B6B6B6;
 }
 .navbar-phone-contain {
 	background-color: #B90003;
-	height: 10px;
+	height: 22px;
 	border-bottom-color: #FFFFFF;
-	max-width: 950px;
+	max-width: 958px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -144,6 +144,13 @@ background-color: #B6B6B6;
   }
 .dropdown-backdrop {
     position: static !important;
+}
+.subheader {
+	max-width: 958px;
+	height: 110px;
+	background-image: url(/media/images/f4p/f4p-video-header-01.jpg);
+	background-color: #B90003;
+	background-repeat: no-repeat;
 }
 /* CUSTOMIZE THE BREADCRUMB
 -------------------------------------------------- */

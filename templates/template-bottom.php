@@ -24,17 +24,20 @@ ldiv.style.display='block';
 	</body>
 </html>
 <?php
-/*
-echo "<pre style='margin:10px;background-color:white;'>";
+echo "<pre style='margin:10px;background-color:silver;font-size:.65em;'>";
 echo "<h3>---Disregard Debugging Stuff---</h3>";
+echo "<div style='float:left;width:30%;'>";
+echo "<h4>Analytics Data:</h4>";
+var_dump($analyticsObj);
+echo "</div>";
+echo "<div style='float:left;width:30%;'>";
 echo "<h4>Product Data:</h4>";
 var_dump($productDataObj);
-
+echo "</div>";
+echo "<div style='float:left;width:30%;'>";
 echo "<h4>Customer Data (if form already submitted):</h4>";
 var_dump($customerDataObj);
 echo "<h4>Pre-fill Customer Data (if form already submitted):</h4>";
 var_dump($preFill);
-var_dump(substr_count($_SERVER["PHP_SELF"],"/"));
-*/
-
+echo "</div>";
 ?>
