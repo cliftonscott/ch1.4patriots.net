@@ -21,6 +21,11 @@ var ldiv = document.getElementById('LoadingDiv');
 ldiv.style.display='block';
 }
 </script>
+<?php
+if($template["exitPopType"] == "vwo") {
+	include_once ('exit-pop-vwo.php');
+} //designates that this should have an exit pop of type video
+?>
 	</body>
 </html>
 <?php
