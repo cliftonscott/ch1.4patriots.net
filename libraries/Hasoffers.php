@@ -27,21 +27,58 @@ class Hasoffers {
 		 * and is used to determine the final postback url for HO
 		 *
 		 */
-		$hoArray[19] = array ( //productId
-			28 => "GP3M",
+		$hoArray[17] = array ( //productId
+			28 => "GP3A",
 			30 => "SP2w",
-			0 => "GP1k" //default
+			0 => "GP1Y" //default
 		);
 		$hoArray[18] = array ( //productId
 			28 => "GP3G",
 			30 => "SP2w",
 			0 => "GP1e" //default
 		);
-		$hoArray[17] = array ( //productId
-			28 => "GP3A",
+		$hoArray[19] = array ( //productId
+			28 => "GP3M",
+			30 => "SP2w",
+			0 => "GP1k" //default
+		);
+
+		//21 is missing from process file
+
+		$hoArray[22] = array (
+			28 => "GP3S",
+			30 => "SP2w",
+			0 => "GP1q" //default
+		);
+		$hoArray[23] = array (
+			28 => "GP3Y",
+			30 => "SP2w",
+			0 => "GP1w" //default
+		);
+		$hoArray[27] = array (
 			30 => "SP2w",
 			0 => "GP1Y" //default
 		);
+		$hoArray[40] = array (
+			28 => "GP34",
+			30 => "SP2w",
+			0 => "GP2E" //default
+		);
+		$hoArray[120] = array (
+			28 => "GP34",
+			30 => "SP2w",
+			0 => "GP2E" //default
+		);
+		$hoArray[128] = array (
+			28 => "GP6L",
+			30 => "SP2w",
+			0 => "GP6R" //default
+		);
+
+
+
+
+
 
 
 		if($postBack = $hoArray[$productId][$offerId]) {
