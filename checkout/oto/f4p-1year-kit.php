@@ -322,7 +322,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>The other good news is since I don’t have to spend a ton of money on sprucing up the outside I can give you this great tasting food 
 			for a fraction of what the other guys are charging. I’m calling it Food4Patriots! </p>
 			
-			<p><img class="img-responsive center-block" src="/media/images/f4p/1-year-tote-06.jpg" title="1-year Food Kit"></p>
+			<p><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-tote-01.jpg" title="1-year Food Kit"></p>
 
 			<p>Let me tell you about what you’re getting in your Food4Patriots kit:</p>
 			
@@ -438,7 +438,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
 
 			<div>
-                <div><img class="img-responsive center-block" src="/media/images/f4p/1-year-tote-06.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
+                <div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-tote-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
                 <div><img class="img-responsive center-block" src="/media/images/f4p/value-chart-3.jpg" alt="Value Chart"/></div>
                 <div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
               
