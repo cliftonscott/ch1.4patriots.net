@@ -385,7 +385,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 <div class="container oto-width">
             <h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 			  	
-			<p><img src="/assets/images/misc/free-shipping-burst-01" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll 
+			<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll 
 				get FREE Shipping &amp; Handling on your 1 Year Food4Patriots Kit and all $800 worth of bonuses when you upgrade today!</p>
 				
 			<p>Because we're already going to be sending you your Patriot Power Generator 1500, we can add the 1Year kit to your order and 
@@ -394,7 +394,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
             <h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 			<div class="outLineBoxDarkBlue">
-				<p><img src="/assets/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not 
 					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase 
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for 
@@ -403,7 +403,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
           
 			<div class="outLineBoxDarkBlue">
-				<p><img src="/assets/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
 				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
 				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
 				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
@@ -470,7 +470,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                     <div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
                         <div style="float:left;margin-right:5px;">
                             <input type="checkbox" id="check1" name="check1">
-                            <img src="/assets/images/misc/yes_2.jpg" width="74" height="34" alt="Yes">
+                            <img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
                         </div>
                         <div id="terms">I want to add the 1 Year Food4Patriots Kit to my order at the 1-time discount sale price of $1,997. 
                             I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters 
@@ -486,7 +486,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                     <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
                 </form>
                 <div class="noThanks">
-                    <a href="/checkout/oto/ppg-1year-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up 
+                    <a href="/checkout/oto/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up 
                     this opportunity.<br />I understand that I will not receive this special offer again.
                 </div>
               

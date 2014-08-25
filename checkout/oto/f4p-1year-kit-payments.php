@@ -60,7 +60,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="terms">
 				<div style="margin-right:5px;float: left;">
 					<input type="checkbox" id="check1" name="check1">
-						<img src="/assets/images/misc/yes_2.jpg" width="74" height="34" alt="Yes">
+						<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 				</div>
 				<div style="line-height: 1.2;">I want to add the 1 Year Food4Patriots Kit to my order at the 1-time discount sale price of $597 today plus two more payments of $597 30 days apart. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds.</div>
 				</div>
