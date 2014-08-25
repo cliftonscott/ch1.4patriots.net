@@ -67,301 +67,34 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         <a>ORDER CONFIRMATION</a>
     </div>
 <div class="container oto-width">
-		<div><h1 class="darkRed text-center">I Couldn't Believe FEMA Tried This!<br>(Then He Showed Me Proof)</h1></div>
+		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
+		</div>
         <div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/psimm32qmd?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="352"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+			<iframe src="//fast.wistia.net/embed/iframe/p5l8v3n48p?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="352"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 		</div>
         <div style="margin-top:50px;">
-			<p>Hi again <?php echo $firstName;?>,  once again I wanted to say CONGRATULATIONS for claiming your Patriot Power Generator 1500.</p>
-			<p>Because you've taken this important 1st step and proven that you take action, I've made a special FREE video for you about some urgent developments that I've just discovered that you really need to know about.		</p>
+			<p><?php echo $firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
+            <p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
+          <p>But before you move on, I've got a <strong>special 1-time offer</strong> for you... </p>
+            <p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
+            <img class="img-responsive center-block" src="/media/images/f4p//f4p-testimonials-10.png" alt="L. Graeser's Testimonial" style="margin-bottom:20px;">
         </div>
         <div>
-        	<p class="text-center read-warning">Please watch this entire video presentation and accept or decline the offer at 
-        		the bottom of this page...</p>
-        	
-        	<h2 class="darkRed text-center">The 4 Food Crisis Warning Signs I’m About To Show You Shake Me To My Core.</h2>
-			
-			<p>They could spark a “food mob” that rampages through the continental United States and the entire globe. And if you 
-				don’t have your personal food stockpile in tip-top shape before this hits, what I’m about to say could shake you too.</p>
-			
-			<p>Now to be frank, this isn’t some “guaranteed” prediction. I can’t see the future.</p>
-			
-			<p>But we can all see the United States is barely holding on – we’re in mountains of debt, more people than in the entire 
-				history of our nation are on welfare and our freedoms are being steadily sapped away. When I follow my research to 
-				its logical conclusion, it’s clear these 4 food crisis warning signs could snap the thin thread this country is 
-				holding on to – kick starting a “once in a hundred years” food depression.</p>
-
-			<h2 class="darkRed text-center">I Really Hope I’m Not Right About This.</h2>
-			
-			<p><img class="img-responsive pull-left img-padding-right media" src="/media/images/misc/f4p-l-mob3.jpg" title="Mob Scene">If I’m wrong, 
-				life will go on as normal, and I’ll happily admit that I was off my rocker.</p>
-			
-			<p>But if I’m right this could mutate everyday “good people”, your neighbors and you’re your friends, into hunger-crazed 
-				raiders who are ready to kill or be killed... completely transforming them in 72 hours or less.</p>
-				
-			<p>And it could all start with the predictions you’re about to see.</p>
-			
-			<p>The government can see just as clearly as you and I that there’s a major food crisis that could strike at any moment. 
-				In fact, they’re at fault for quite a few of these threats – even if they’d never admit it.</p>
-				
-			<p>So look: we don’t have much time. Let’s jump right in. First up is: </p>
-			
-			<h2 class="darkRed text-center">Food Crisis Warning Sign #1... Communist “Food Brainwashing” Is Infecting America. </h2>
-
-
-			<p>No one wants to say this, but everywhere you look, you can see signs that there are freeloading people embracing the 
-			idea of a few hardworking patriots supplying all the food and the labor in this country…and the rest sitting back and getting 
-			a handout.</p>
-			
-			<p>There are more people on welfare than any other time in the history of the United States. Even during the Great Depression 
-			just 700,000 people were on the books to get that kind of government help.</p>
-			
-			<p>But now there are over 47.3 million people on food stamps alone. That’s more than the entire population of Spain, Canada 
-			or Australia and it’s a 6,757% increase since the ‘30s. </p>
-			
-			<p>Over the past 5 years the people depending on the government for food has gotten much worse. Just take a look at this 
-			chart that shows how much the government has paid in Food Stamps per year: </p>
-
-			<p><img class="img-responsive center-block" src="/media/images/misc/food-stamp-chart.png" title="Food Stamp Chart"></p>
-	
-			<p>You can see there’s a massive jump between 2001 and 2008. And the way this “hand out” mentality has been increasing, 
-			that number will probably keep going up. There are just too many people who want to rely on the government for food, water & 
-			money. They’re pushing the rest of the United States to the brink of a food crisis, and it’s all being paid for by the Americans 
-			who are working two or three jobs just to make ends meet.</p>
-			
-			<p>But when the government’s piggy-bank runs out and the handouts dry up, we could be dealing with a food mob 47 million people 
-			strong. That’s like being invaded by a country the size of Colombia! A food mob that size could strip shelves bare across the 
-			United States and seize control of whole system. The government has built up too many people who are depending on them for food. 
-			In fact, by trying to keep control of America’s food, the Government has accidentally created...</p>
-			
-			<h2 class="darkRed text-center">Food Crisis Warning Sign #2... Anti-Hoarding Law Sparks Food Riots</h2>
-			
-			<p><img class="img-responsive pull-left img-padding-right media" src="/media/images/misc/f4p-l-president2.jpg" title="President Omaba">Not too long ago, President Obama reinstated a radical executive order called 
-				“National Defense Resources Preparedness Act”. </p>
-			
-			<p>It lets the government seize and “redistribute” food whenever they declare a “state of emergency”. But most Americans have no 
-			idea this even exists. It was slyly released on a Friday afternoon, and traditional media said almost nothing about it.</p>
-			
-			<p>Some people have tried to say it isn’t a big deal. Their argument is that executive orders that give the government special 
-			powers in a state of emergency is normal. Roosevelt, JFK and Bush all had similar powers.</p>
-			
-			<p>But if you think about the fact the government is banning guns, stockpiling ammo and putting more and more surveillance on the 
-			U.S. people, this executive order becomes an obvious power grab that will set the government up to take your food.</p>
-			
-			<p>Once people realize that any and all of their food stockpiles can be seized by the government, there will be a run on stores as 
-			they try to get food they can hide.</p>
-			
-			<p>A run like that could be a food crisis warning sign bigger than a hurricane. And the government knows it.</p>
-			
-			<p>To avoid this food crisis warning sign you absolutely must have your own, covert stockpile…or the supplies you paid for with 
-			your own money could be snatched up to satisfy the rest of the unprepared freeloaders in this country.</p>
-			
-			<p>But the next obvious threat is something that not even Uncle Sam can control... </p>
-			
-			<h2 class="darkRed text-center">Food Crisis Warning Sign #3.. Once-in-a-Century Super-Storms, Solar Flares and Asteroid Collisions</h2>
-			
-			<p><img class="img-responsive pull-right media" src="/media/images/misc/f4p-disasters.jpg" title="Natural Disasters">Natural disasters have been on the rise in the United States and all over the world. It’s like Mother Nature has been going haywire. 
-			Each and every event has the potential to disrupt your food – even if you live in a major city.</p>
-			
-			<p>But even knowing that, most people think something like this could quote “never happen to them”. That’s just not the case – just look
-			 at some of the disasters of the past few years:</p>
-			
-			<ul class="fa-ul">
-				<li><i class="fa-li fa fa-arrow-circle-right"></i> Hurricane Sandy completely crippled New York City. Forcing even quote “well off” residents to go dumpster diving to feed their children. Some people who couldn’t make it to FEMA camps thought they were going to starve and nearly did without food and power in cold times.</li>
-				
-				<li><i class="fa-li fa fa-arrow-circle-right"></i> Earthquakes rocked Haiti and Chile killing over 300,000 people and making food a rare commodity. (The scary part is the United States has 5 major fault lines that could fracture the country into pieces if a large earthquake struck. I’m not so sure the rest of the world would come to our aid like we did in Haiti...)</li>
-				
-				<li><i class="fa-li fa fa-arrow-circle-right"></i> And the largest X class solar flare in years silently struck China and crippled their communications. But that’s not the worst  of it: it jolted their power grids and could do the exact same thing to the United States.</li>
-				
-				<li> <i class="fa-li fa fa-arrow-circle-right"></i> Plus, don’t forget Hurricane Katrina single-handedly knocked out every bit of the New Orleans’ food supply chain. Thousands of people were herded (against their will) into FEMA camps.</li>
-				
-				<li><i class="fa-li fa fa-arrow-circle-right"></i> And everybody remembers when the meteor exploded in the sky above Russia injuring almost 1,100 people and leaving a 26-foot wide crater. It blew out more than a million square feet of glass. The scary part is a football field-sized asteroid skimmed by the earth just a day later. If it had hit it would’ve been like blowing up 2.4 million tons of TNT and would’ve wiped out 750 square miles. And that was a “small” asteroid. </li>
-			</ul>
-
-			<p>But even if Mother Nature magically calmed down, the world has already kick started one disaster that will be nearly impossible to stop...</p>
-
-			<h2 class="darkRed text-center">Food Crisis Warning Sign #4: The Worldwide Famine Time Bomb Is Ticking Down...</h2>
-
-			<p><img class="img-responsive pull-left img-padding-right media" src="/media/images/misc/f4p-l-president1.jpg" title="FEMA Meeting">With the way the world’s population is growing and resources are getting scarcer, food prices are expected to double again.</p>
-			
-			<p>But a worldwide famine isn’t something 10 or 15 years away. It could happen in the next 12 months. Not only have analysts predicted 
-			2013 could be a year of famine, entire nations have begun stockpiling food. </p>
-			
-			<p>"This is only the start of the panic buying," said one commodities analyst recently, and "I expect we'll have more countries coming 
-			in”.</p>
-			
-			<p>The U.S. is no exception. FEMA was spotted putting out a request for a whopping 420 million emergency meals. That’s over 7,000% 
-			more than they normally keep on hand. They pulled the request as soon as the news caught wind of it and tried to play it off as a “training 
-			exercise”, but I’m not buying it.</p>
-			
-			<p>The fact is American food is in a tight spot. The head of one major non-profit said: “[…] we are going to see Depression style 
-			hunger, Darfur style hunger, Calcutta style hunger happening here in New York.”  And I believe him.</p>
-			
-			<p>Russia has been boosting their grain stockpiles as well. That might not sound like a big deal but they can singlehandedly change 
-			the political climate of their entire continent.</p>
-			
-			<p>In fact, when they restricted the amount of grain they sent out of the country in 2010, the hunger riots it caused helped spark the 
-			violent revolts of the Arab Spring. </p>
-			
-			<p>See while people think these uprisings were all about politics the real match that set it off was the lack of food. And the United 
-			States is closer than most people could ever imagine to that kind of food problem. Grocery stores keep less than 3 days of food in stock, 
-			and any of these 4 crisis warning signs could force hundreds of people to go hungry.</p>
-			
-			<p>This is something you’ve probably noticed in your area. Before a big storm do people start to panic?  All of a sudden is it near-
-			impossible to find bread, milk or bottled water for miles?  If so, you know that in situations like that shelves can be stripped completely 
-			bare in minutes.</p>
-			
-			<p>Now I’ve got to admit: When I stopped to look at these 4 food crisis warning signs it all seemed like too much to handle.</p>
-			
-			<p>When I looked at these elements plus all the other threats like </p>
-			
-			<ul>
-				<li style="font-weight:bold;">Terrorist attacks, </li>
-				
-				<li style="font-weight:bold;">Food poisoning </li>
-				
-				<li style="font-weight:bold;">And all out war between North Korea, Iran or even China </li>
-			</ul>
-
-			<p>I realized I had to make a decision for me and my family...</p>
-			
-			<p>A decision you’ll have to make too: </p>
-			
-			<h2 class="darkRed text-center">You Can Either Sit By And Wait For Government Food Handouts... Or You Can Gather Your Own Covert Food Stockpile 
-				To Keep Your Independence.</h2>
-			
-			<p><img class="img-responsive pull-right img-padding-left media" src="/media/images/misc/f4p-l-canfood1.jpg" title="Empty Pantry">See, most people are going to wait and hope the government can protect them. They’re 
-			willing to give up all their freedoms and independence for the hope they won’t have to provide for their own food needs.</p>
-			
-			<p>Now, that may be what millions of Americans choose, but there’s another group of people who aren’t going to take this lying down. 
-			They’re preparing for this food crisis.</p>
-			
-			<p>Are you going to be one of them?</p>
-			
-			<p>From what I can see, the government knows that if you control food you control the people. After all, there’s no way to live without 
-			food and water. </p>
-			
-			<p>Which is exactly why you need to have your own personal food stockpile.</p>
-			
-			<p>But here’s the catch... </p>
-			
-			<h2 class="darkRed text-center">If You Stockpile The Wrong Foods You Could Be Setting Your Family Up To Starve. </h2>
-			
-			<p>It sounds harsh, but the truth is most people are giving themselves a false sense of security.</p>
-			
-			<p>Maybe it’s by...</p>
-			
-			<ul class="fa-ul">
-				<li><i class="fa-li fa fa-arrow-circle-o-right"></i>Buying MREs with a 5 year shelf life (depending on where you buy them from they could be near expired)...</li>
-				
-				<li><i class="fa-li fa fa-arrow-circle-o-right"></i>Getting gross survival foods that are tough to stomach and so high in salt, MSG and preservatives you could clog 
-				your arteries and make you sick...</li>
-				
-				<li><i class="fa-li fa fa-arrow-circle-o-right"></i>Or simply buying the wrong foods and leaving a critical hole in your meal plan which means your family can become
-				 malnourished...</li>
-			</ul>
-			
-			<p>The bottom line is if you make any of the million-and-one mistakes while you’re designing your food stockpile, your family won’t 
-			just pay for it with unhealthy eating...</p>
-			
-			<p>It can cripple their hope.</p>
-			
-			<p>Imagine thinking you’ve got an entire stockpile of food just to find it crawling with maggots, roaches and rats…and having to walk 
-			up to your spouse and kids and tell them your plan failed.</p>
-			
-			<p>A lot of people already doubt folks like us who believe in being prepared. They think having food ready for a disaster is silly or 
-			even a little crazy...</p>
-			
-			<p>And if you make these food-stockpiling mistakes you’ll just prove them right.</p>
-			
-			<p>This is just too serious not to do something about it. You’ve seen the evidence, and if you’re anything like me you’re probably 
-			racking your mind trying to come up with the best way to make sure your family isn’t forced to go hungry when a food crisis hits.</p>
-			
-			<p>Well, I decided to stop worrying.</p>
-			
-			<p>I started looking around to figure out what our options are. </p>
-
-			<p><img class="img-responsive pull-left img-padding-right media" src="/media/images/misc/f4p-l-mre2.jpg" title="MRE Stockpile">Stockpiling MREs seemed like a good idea, until I found out how bad those things are for 
-			you. Just ask any soldier and they’ll tell you they’re tough on your body and should ONLY be eaten for a short period of time in combat.</p>
-			
-			<p>And waiting for the government to give me and my family a handout in a disaster just wasn’t an option.</p>
-			
-			<p>The only thing I could find that made much sense was a long-term food stockpile.</p>
-			
-			<p>Now cans were too much work. You’ve got to rotate them regularly or they go bad. And that means wasting a whole lot of food or having to 
-			put in quite a bit of work.</p>
-			
-			<p>So when I came across the “long term survival food” suppliers I thought I’d struck gold. The food lasts up to 25 years and would be a 
-			quick and easy way to feed my family of four for up to 1 full year – no problem.</p>
-			
-			<p>But there’s a catch...</p>
-			
-			<p>They wanted me to shell out more than $5,000 just to get started!</p>
-			
-			<p>Honestly, I couldn’t understand why it was so expensive.</p>
-			
-			<p>There’s just no way most people can afford something like that. And I knew that if I couldn’t find a way to get food for myself and my 
-			family we’d be at the mercy of our neighbors and Uncle Sam. So I started doing some digging, and what I found was a little surprising.</p>
-			
-			<p>The long-term food suppliers had consumers by the belt... And were jacking up prices by turning it into a “name brand” game. </p>
-
-			<h2 class="darkRed text-center">I Knew Something Most People Don’t...</h2>
-			
-			<p>If I could cutout the middleman and go directly to the supplier, I could save hundreds, if not thousands of dollars on my long-term 
-			food stockpile.</p>
-			
-			<p>So I went to my supplier and asked if I could put together my own survival food kit containing the “cream of the crop” food they had to 
-			offer. I wanted the absolute best-tasting meals that provided the most nutrition for breakfast, lunch and dinner… AND was useful for the long 
-			haul. That means they had to be conveniently packed in airtight containers that would be easy to move and store for up to 25 years.</p>
-			
-			<p>Well, we figured out exactly what to put in the package to make it the kind of food package I knew my family would love. And the results 
-			were terrific. The food was delicious, easy to store long term and best of all is packaged right here in the U.S of A.</p>
-			
-			<p>Plus it didn’t have any of those harmful chemicals or genetically modified ingredients. No MSG and no “franken-food.” </p>
-			
-			<p>The other good news is since I don’t have to spend a ton of money on sprucing up the outside I can give you this great tasting food 
-			for a fraction of what the other guys are charging. I’m calling it Food4Patriots! </p>
-			
-			<p><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-tote-01.jpg" title="1-year Food Kit"></p>
-
-			<p>Let me tell you about what you’re getting in your Food4Patriots kit:</p>
-			
-			<p><span class="numberCircle"><strong>1</strong></span><strong>First is delicious food that you can prepare in 3 simple steps...</strong></p>
-			
-			<p>You don’t want to have to worry about cooking complex recipes when you’re stuck in a disaster. You can make these meals in less than 20 
-				minutes with no hassle; just add boiling water, simmer, and serve. It’s so simple even kids can make them! And don’t worry – you’ll get a 
-				whole slew of choices for breakfast, lunch and dinner so you don’t get stuck eating the same thing day-in and day-out.</p>
-				
-			<p><span class="numberCircle"><strong>2</strong></span><strong>Second, you get my guaranteed “Disaster-proof” Packaging</strong></p>
-			
-			<p>I may not have used “showy” packaging for expensive branding, but I did make sure it’s military-grade sturdy-stuff and can stand up to the 
-				crazy things that happen in a crisis. This food has a shelf life of up to 25 years, so you have complete peace of mind for the long term. 
-				I’ve used Mylar pouches –the same material used in space suits. This means you’ll keep all the air, moisture and light out of the package.
-				 It’ll also keep the food nutritionally sound and tasting great. So when you need your food stockpile it’ll be guaranteed to be as fresh as 
-				 the day you bought it.</p>
-				 
-			<p><span class="numberCircle"><strong>3</strong></span><strong>Third, you get foods jam-packed with nutritional value</strong></p>
-			
-			<p>Since I had a chance to go direct to the supplier to build this kit, I was able to throw out all the filler and poor-quality ingredients 
-				other guys stuff into their meals. All the food you’ll receive is at the tip-top of the long-term food reserve industry. But here’s the 
-				other important part. You don’t have to settle for smaller serving sizes for kids. Some people use “kids’ meals” to skimp on the amount 
-				of food they give you. In Food4Patriots kids get a full adult-sized portion without getting charged extra.</p>
-				
-			<p><span class="numberCircle"><strong>4</strong></span><strong>And Fourth, You Get An Easy-To-Store Package That Takes Up Minimal Space</strong></p>
-			
-			<p>Nobody wants to cram their house full of clunky food packages. So many food storage containers are ultra-bulky and come in a slew of 
-			awkward shapes a</p>nd sizes, which makes it difficult to discreetly store food reserves in the average American home. I’ve selected the most 
-			compact kits I could find so you can store them without any extra hassle.</p>
-			
-			<p>But the big question most people have is “What kind of food will I get to eat?!?”  Since nobody likes eating the same thing over and 
-			over, I’ve picked some of my favorites to give you variety.</p>
-
-
-		</div>
+			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a ONE YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
+            <p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
+            <p><?php echo $firstName;?>, would you like to accelerate your results by adding the 1 Year Food4Patriots Kit to your order at a 1-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies…you&rsquo;ll get 1 year&rsquo;s worth of food for just $1.11 per serving!)</p>
+            
+       	  <p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
+	</div>
 </div>
-<?php include("f4p-1year-whatsincluded.html");?>
 <?php include("f4p-1year-glenbeck.html");?>
+<?php include("f4p-1year-whatsincluded.html");?>
 <div class="container oto-width">
+    <h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
+			  	
+			<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1 Year Food4Patriots Kit when you upgrade today!</p>
+            <p>Because we're already going to be sending you a 3-month kit, we can add the 1Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+                
 	<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1 Year Kit!</h2>
 	
 	<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1 Year Kit!</p>
@@ -383,14 +116,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 
 <div class="container oto-width">
-            <h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-			  	
-			<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll 
-				get FREE Shipping &amp; Handling on your 1 Year Food4Patriots Kit and all $800 worth of bonuses when you upgrade today!</p>
-				
-			<p>Because we're already going to be sending you your Patriot Power Generator 1500, we can add the 1Year kit to your order and 
-				save on fulfillment costs. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier 
-				to upgrade.</p>
+           
 
             <h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 			<div class="outLineBoxDarkBlue">
