@@ -1,3 +1,8 @@
+<?php
+// DEFINE PRODUCT
+$_SESSION['productId'] = 128;
+$_SESSION["quantity"] = 1;
+?>
 <style>
 #belcher-box {
 	width: 100%;
@@ -70,8 +75,6 @@
 	font-style:italic;
 }
 </style>
-<script type="text/javascript" src="/js/fancyb/jquery.fancybox.js?v=2.1.5"></script>
-<link rel="stylesheet" type="text/css" href="/js/fancyb/jquery.fancybox.css?v=2.1.5" media="screen" />
 <script>
 //setInterval(function(timerChange),1000);
 var jsTimer = setInterval(function(){timerChange()},1000);
@@ -110,7 +113,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 
 	function changeKitQuantity() {
 
-		jsKitCost = 27;
+		jsKitCost = 97;
 
 		orderSummaryParagraph = document.getElementById("orderSummary");
 		jsQuantityInput = document.getElementById("quantity")
@@ -121,10 +124,10 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 		}
 
 		if(jsQuantity == 1) {
-			jsSummaryText = "Add 1 vault to my order for $" + jsKitCost + ".";
+			jsSummaryText = "Add 1 kit to my order for $" + jsKitCost + ".";
 		} else {
 			jsTotal = (jsQuantity * jsKitCost);
-			jsSummaryText = "Add " + jsQuantity + " vaults to my order for $" + jsKitCost + " each (total $" + jsTotal + ").";
+			jsSummaryText = "Add " + jsQuantity + " kits to my order for $" + jsKitCost + " each (total $" + jsTotal + ").";
 		}
 		jsState = "<?php echo $_SESSION["State"];?>";
 		switch(jsState) {
@@ -157,7 +160,7 @@ $offerName = $_SESSION["firstName"];
 		<div class="box-title">Exclusive Offer for Food4Patriots Customers...</div>
 		<div class="box-body">
 			<div class="timer-box">
-				<a id="fancybox-veggies" href="javascript:;"><img src="/checkout/images/f4p-img/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
+				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
 					<div id="timer">10:00</div></a>
 			</div>
 			<p><?php echo $offerName;?>,
@@ -173,10 +176,10 @@ $offerName = $_SESSION["firstName"];
 				<b>Click the big, green 'Add to Order'</b> button below now.</p>
 			<p class="small">An additional $97 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back
 				guarantee and are 100% refundable.</p>
-			<form action="../process.php" method="post" accept-charset="utf-8" id="optin-form">
+			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
 				<p style="text-align:center;">
-					<input id="veggieSubmitButton" type="image" src="../assets/add-to-order-2.jpg" name="submit" class="fvskit" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
+					<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
 				</p>
 			</form>
 			<p id="orderSummary" style="text-align:center;">Add 1 kit to my order for $97.
@@ -194,9 +197,9 @@ $offerName = $_SESSION["firstName"];
 	}
 </script>
 <div id="timerModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg" style="width:700px;height:500px;">
-		<div class="modal-content" style="background-image:url(/media/images/p4p/P4P-platinum-package-01.jpg);">
-			<div style="text-align:center;padding:10px;width:700px;height:500px;">
+	<div class="modal-dialog modal-lg" style="width:700px;height:750px;">
+		<div class="modal-content" style="background-image:url(/media/images/f4p/3-month-tote-08-snack-details.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
+			<div style="text-align:center;padding:10px;width:700px;height:750px;">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
 			</div>
 		</div>
