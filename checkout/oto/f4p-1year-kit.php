@@ -10,7 +10,6 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<div class="container-main">
 <script src="/js/audio.js"></script>
 <script language="javascript">
     $(document).ready(function() {
@@ -61,11 +60,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			
 	}
 </script>
-<div class="breadcrumb1">
-	<a>CHECKOUT</a>
-	<a class="current">ORDER CUSTOMIZATION</a>
-	<a>ORDER CONFIRMATION</a>
-</div>
+<div class="container-main">
+    <div class="breadcrumb1">
+        <a>CHECKOUT</a>
+        <a class="current">ORDER CUSTOMIZATION</a>
+        <a>ORDER CONFIRMATION</a>
+    </div>
 <div class="container oto-width">
 		<div><h1 class="darkRed text-center">I Couldn't Believe FEMA Tried This!<br>(Then He Showed Me Proof)</h1></div>
         <div id="videobox" class="hidden-xs">
@@ -359,16 +359,16 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 		</div>
 </div>
-<?php include("ppg-1year-whatsincluded.html");?>
-<?php include("ppg-1year-glenbeck.html");?>
+<?php include("f4p-1year-whatsincluded.html");?>
+<?php include("f4p-1year-glenbeck.html");?>
 <div class="container oto-width">
 	<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1 Year Kit!</h2>
 	
 	<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1 Year Kit!</p>
 </div>
-<?php include("ppg-1year-bonus-lifestraw.html");?>
-<?php include("ppg-1year-bonus-survivalbooks.html");?>
-<?php include("ppg-1year-bonus-pam.html");?>
+<?php include("f4p-1year-bonus-lifestraw.html");?>
+<?php include("f4p-1year-bonus-survivalbooks.html");?>
+<?php include("f4p-1year-bonus-pam.html");?>
 <div class="container oto-width">
 	<h2 class="darkRed text-center">You Will Also Get FOUR More Sets Of All Of Your Original FREE Bonuses When 
 		You Take Advantage Of This Special Upgrade Offer! 
@@ -377,15 +377,15 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<p>Add to your own stockpile, keep at multiple locations or give to friends and loved ones so they can 
 		experience the same peace of mind. Your FREE bonuses include:</p>
 </div>
-<?php include("ppg-1year-bonus-seeds.html");?>
-<?php include("ppg-1year-bonus-tool.html");?>
-<?php include("ppg-1year-bonus-reports.html");?>
+<?php include("f4p-1year-bonus-seeds.html");?>
+<?php include("f4p-1year-bonus-tool.html");?>
+<?php include("f4p-1year-bonus-reports.html");?>
 
 
 <div class="container oto-width">
             <h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 			  	
-			<p><img src="/assets/images/misc/burst_2A.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll 
+			<p><img src="/assets/images/misc/free-shipping-burst-01" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll 
 				get FREE Shipping &amp; Handling on your 1 Year Food4Patriots Kit and all $800 worth of bonuses when you upgrade today!</p>
 				
 			<p>Because we're already going to be sending you your Patriot Power Generator 1500, we can add the 1Year kit to your order and 
@@ -394,7 +394,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
             <h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/f4p/f4p-l-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
+				<p><img src="/assets/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not 
 					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase 
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for 
@@ -403,7 +403,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
           
 			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/f4p/f4p-l-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
+				<p><img src="/assets/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
 				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
 				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
 				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>

@@ -10,7 +10,6 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<div class="container-main">
 <script src="/js/audio.js"></script>
 <script language="javascript">
     $(document).ready(function() {
@@ -32,11 +31,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		
 	});
 </script>
-<div class="breadcrumb1">
-	<a>CHECKOUT</a>
-	<a class="current">ORDER CUSTOMIZATION</a>
-	<a>ORDER CONFIRMATION</a>
-</div>
+<div class="container-main">
+    <div class="breadcrumb1">
+        <a>CHECKOUT</a>
+        <a class="current">ORDER CUSTOMIZATION</a>
+        <a>ORDER CONFIRMATION</a>
+    </div>
 <div class="container oto-width">
         <div>
 			<div>
