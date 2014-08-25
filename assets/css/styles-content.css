@@ -286,16 +286,13 @@ font-weight:bold;
 /* ADOBE READER
 -------------------------------------------------- */
 .adobeReaderBox {
-	width: 80%;
 	margin-right: auto; 
 	margin-left: auto; 
 	margin-bottom:25px;
-	border-radius: 10px; 
 	padding-top: 10px; 
 	padding-left: 10px; 
 	padding-right: 10px; 
 	padding-bottom: 10px;
-	border: 1px solid #125597;
 	background-color:#FFFFFF;
 }
 .adobeReaderBox p {
@@ -331,4 +328,19 @@ article.content .effective-date {
 }
 .fa-check-square {
 	color: #001F98;
+}
+/* Bonus Materials
+-------------------------------------------------- */
+.bonus-materials {
+    border:2px solid black;
+    padding:25px;
+    margin: auto;
+}
+.bonus-materials h3 {
+    font-weight: bold;
+    color:#CC0000;
+    text-align: center;
+}
+.bonus-materials p {
+    text-align:center;
 }
