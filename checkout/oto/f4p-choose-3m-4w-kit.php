@@ -37,7 +37,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="terms">
 					<div style="margin-right:5px;float: left;">
                             <input type="checkbox" id="check2" name="check2">
-                            <img src="/assets/images/misc/yes_2.jpg" width="74" height="34" alt="Yes">
+                            <img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 					</div>
 				  <div style="line-height: 1.2;">I want to add the Platinum Upgrade to my order at the 1-time discount sale price of $997.  I will get FREE Shipping with my EMP Bag and Solar Panel (a $100 value) as well as a 365-day guarantee and 3-year extended warranty.</div>
 				</div>
