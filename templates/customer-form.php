@@ -103,6 +103,7 @@ if($_SESSION['errorMessage'] != '') {
         <label for="billing-country">Country:</label>
         <select class="form-control" id="billing-country" name="billing-country"  onchange="changeCountry('billing');">
 			<option value="US">United States</option>
+			<option value="CA">Canada</option>
         </select>
       </div>
       <div class="form-group">
@@ -140,6 +141,7 @@ if($_SESSION['errorMessage'] != '') {
         <label for="shipping-country">Country:</label>
         <select class="form-control" id="shipping-country" name="shipping-country"  onchange="changeCountry('shipping');">
 			<option value="US">United States</option>
+			<option value="CA">Canada</option>
         </select>
       </div>
       <div class="form-group">
@@ -278,6 +280,7 @@ if(isset($preFill)) {
 			});
 		setStateTax();
 	});
+
 	$('#sameas').change(function(){
 		changeCountry('shipping');
 		if (this.checked) {
