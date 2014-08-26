@@ -118,6 +118,7 @@ class Limelight {
 
 				$_SESSION["orders"][] = $productDataObj->metaTitle . " - Ref. #" . $resultsArray["orderId"];
 				$_SESSION['vwoRevenue'] = $_SESSION['vwoRevenue'] + $productDataObj->netRevenueEach;
+				$_SESSION["purchasedIds"][] = $productDataObj->productId;
 
 				//create specific session array for google posting w/ecommerce on next page
 				$_SESSION["googleTransaction"]["customerId"] = $resultsArray['customerId'];
