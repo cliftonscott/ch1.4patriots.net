@@ -2,6 +2,10 @@
 // DEFINE PRODUCT
 $_SESSION['productId'] = 128;
 $_SESSION["quantity"] = 1;
+include_once("Customer.php");
+if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
+	include_once("Product.php");
+	$productDataObj = Product::getProduct($_SESSION["productId"]);
 ?>
 <style>
 #belcher-box {
@@ -205,3 +209,6 @@ $offerName = $_SESSION["firstName"];
 		</div>
 	</div>
 </div>
+<?php
+}
+?>
