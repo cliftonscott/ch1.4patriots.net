@@ -100,6 +100,14 @@ class Customer {
 
 		
 	}
+
+	function havePurchased($productId) {
+		if(in_array($productId, $_SESSION["purchasedIds"])) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 	
 	function getCardTypeByNumber($cardNumber) {
 		
