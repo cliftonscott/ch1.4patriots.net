@@ -1,7 +1,7 @@
 <?php
 $firstName = $_SESSION["customerDataArray"]["firstName"];
 // SET PRODUCT ID
-$_SESSION['productId'] = 164; //please keep as an integer
+$_SESSION['productId'] = 11; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
@@ -17,44 +17,47 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	    <a class="current">ORDER CUSTOMIZATION</a>
 	    <a>ORDER CONFIRMATION</a>
 	</div>
-<div class="container oto-width">
-        <div>
-          <h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Double Your Power, Charge 2X Faster…and Protect Yourself From the #1 Most Deadly Threat&quot;</h1>
+	<div class="container oto-width">
+		<div>
+			<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Can I Give You 150 Heirloom Tomato Seeds... 100% FREE? </span></h1>
         </div>
-        <div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/m1kcfcm5tn?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="352"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+        <div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ss4p/ss4p-rutgers-tomato.jpg" alt="Rutgers Tomato Seeds"/></div>
+        <div class="caption text-center" style="padding-bottom:30px;">Get 150 heirloom tomato "super-seeds" added to your order <br>
+              absolutely FREE. <a href="../process.php" onClick="patriotTrack('click-to-accept-text');"><u>Click Here To Accept >></u></a>
 		</div>
-  <div>
-            <p><?php echo $firstName;?>, I&rsquo;d like to personally congratulate you on taking action and getting the state-of-the-art Patriot Power Generator 1500. You&rsquo;re going to absolutely love it and the peace of mind it will give you and your family.          </p>
-          <div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ppg/ppg-product-platinum-02.jpg" alt="Platinum Package"/></div>
-          <p class="text-center">Click the &ldquo;CLICK TO ACCEPT&rdquo; button below.</p>
-<div>
-        <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
-				<div class="text-center center-block">
-					<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
-				</div>
-				<input type="hidden" name="quantity" id="quantity" value="1">
-				<div class="terms">
-					<div style="margin-right:5px;float: left;">
-                            <input type="checkbox" id="check2" name="check2">
-                            <img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
-					</div>
-				  <div style="line-height: 1.2;">I want to add the Platinum Upgrade to my order at the 1-time discount sale price of $997.  I will get FREE Shipping with my EMP Bag and Solar Panel (a $100 value) as well as a 365-day guarantee and 3-year extended warranty.</div>
-				</div>
-                  
-                  <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-      </form>
-                <div class="noThanks">
-                <a href="/checkout/oto/ppg-platinum-payments.php" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
-                I understand that I will not receive this special offer again.
+		<div>
+			<p>Congratulations on  starting your emergency food stockpile! I know you&rsquo;ll sleep better at night knowing that you and your family are protected. </p>
+			<p>The perfect complement to your food stockpile is a backyard garden. In a time of crisis or national emergency, fresh produce is one of the first things to disappear from the shelves. That's why I want to flat out GIVE you 150 heirloom tomato &quot;super seeds!”</p>
+			<p>These aren't ordinary seeds... these are heirloom, non-genetically modified &ldquo;super survival seeds&rdquo; that are open-pollinated and can be grown, harvested, and replanted endlessly!</p>
+			<p>Get over 150 Rutgers Tomato Survival Seeds&nbsp;<strong>FREE</strong>&nbsp;while supplies last!</p>
+          
+			<ul class="fa-ul">
+				<li><i class="fa-li fa fa-check"></i>150+ survival seeds packed in a special triple-layered, re-sealable, re-usable Mylar packet designed to significantly increase the shelf life and viability of your heritage seeds.</li>
+				<li><i class="fa-li fa fa-check"></i>The legendary Rutgers Tomato is an heirloom variety introduced in the 1930s and famous for its delicious taste, abundant nutrition and high germination rates.</li>
+				<li><i class="fa-li fa fa-check"></i>100% Non-GMO, open-pollinated seeds from proud American farmers that you can harvest and plant endlessly. </li>
+			</ul>
+			<p><strong>Regularly priced at $9.95, FREE while supplies (limit 1 per household)</strong></p>
+            
+            <h2 class="darkRed text-center">It's 100% FREE... So What&rsquo;s The Catch?</h2>
+            <p>The one thing I would ask is that you actually plant these seeds and take advantage of the opportunity to have your own delicious, heirloom-quality vegetables at your fingertips. And I would love it if you sent me pictures of your garden and let me know how they work out for you!</p> 
+			<p>Click the &quot;Accept&quot; button below to get your 150 heirloom tomato &quot;super seeds&quot; 100% FREE while supplies last.</p>
+        <div>
+            <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
+                <div class="text-center center-block">
+                    <input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
+                    </div>
+                    <input type="hidden" name="quantity" id="quantity" value="1">
+                    <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
+            </form>
+            <div class="noThanks">
+                <a href="/checkout/oto/f4p-messenger-trial.php" onClick="">No Thanks</a> – I want to give up this opportunity.<br>
+                    I understand that I will not receive this special offer again.
             </div>
-            
-	</div>
-            
-            
+                
+        </div>                   
     
-  </div>
-    </div>
+		</div>
+</div>
     
 
 <?php include_once("template-bottom.php"); ?>
