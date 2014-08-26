@@ -1,7 +1,4 @@
 <?php
-$_SESSION["productId"] = 128;
-include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
