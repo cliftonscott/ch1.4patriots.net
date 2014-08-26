@@ -22,7 +22,8 @@ class Product {
 		// is #21 new? isn't in old process file
 		
 		$productObj = new stdClass();
-		
+
+		//TODO move these vars to the Platform.php library
 		$productObj->offerLink = "/checkout/index.php";
 		$productObj->exitLink = "/letter/index.php";
 		$productObj->mobileLink = "/letter/index.php";
@@ -38,8 +39,8 @@ class Product {
 				$productObj->originalPrice = 27;
 				$productObj->shippingIdDomestic = 14;
 				$productObj->shippingIdInternational = 19;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 5.95;
+				$productObj->shippingCostInternational = 5.95;
 				$productObj->mpsId = 17;
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 17;
@@ -63,8 +64,8 @@ class Product {
 				$productObj->originalPrice = 197;
 				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 18;
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 110;
@@ -88,8 +89,8 @@ class Product {
 				$productObj->originalPrice = 497;
 				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 19;
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 245;
@@ -118,9 +119,9 @@ class Product {
 				$productObj->tags = "4WKITUP";
 				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
-				//TODO add something for skip rutgers nextpage
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				//TODO add something for skip rutgers nextpage?
 				$productObj->mpsId = 18;
 				//Limelight
 				$productObj->price = 147;
@@ -148,8 +149,8 @@ class Product {
 				$productObj->tags = "3MKITUP";
 				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 18;
 				//Limelight
 				$productObj->price = 397;
@@ -177,8 +178,8 @@ class Product {
 				$productObj->tags = "FREEFOOD";
 				$productObj->shippingIdDomestic = 20;
 				$productObj->shippingIdInternational = 21;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 27;
 				//Limelight
 				$productObj->price = 0;
@@ -206,8 +207,8 @@ class Product {
 				$productObj->tags = "1YRKIT";
 				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 40;
 				//Limelight
 				$productObj->price = 1997;
@@ -235,8 +236,8 @@ class Product {
 				$productObj->tags = "1YRKIT3PAYMENT";
 				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 40;
 				//Limelight
 				$productObj->price = 597;
@@ -264,8 +265,8 @@ class Product {
 				$productObj->tags = "3MKITSNACK";
 				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = null;
-				$productObj->shippingCostInternational = null;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 128;
 				//Limelight
 				$productObj->price = 97;
