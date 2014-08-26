@@ -259,7 +259,7 @@ class Product {
 			case 128: // FRUIT VEGGIE SNACK KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/registration/thankyou-snack.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "3MKITSNACK";
 				$productObj->shippingIdDomestic = 7;
