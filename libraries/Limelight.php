@@ -40,8 +40,9 @@ class Limelight {
 			'click_id' => $analyticsObj->clickId,
 			'product_qty_' . $productDataObj->productId => $saleDataObj->quantity,
 			//'SID' => $_SESSION['subid'],
-			'C1' => $_SESSION['sspdata'],
-			'C2' => $_SESSION['subid2'],
+			//'C1' => $_SESSION['sspdata'],
+			//'C2' => $_SESSION['subid2'],
+			'C3' => $productDataObj->netRevenueEach,
 			'OPT' => $analyticsObj->serverId,
 			
 			'productId' => $productDataObj->productId,
@@ -81,6 +82,7 @@ class Limelight {
 
 		//SID for LL
 		//TODO use better equality checking here as we should be more confident in our values
+
 		if($analyticsObj->subId == '' && $analyticsObj->affSub2 != ''){
 			$limelightParams['SID'] = $analyticsObj->affSub2;
 		} else{
