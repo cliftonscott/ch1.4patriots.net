@@ -105,7 +105,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		echo "\n<script src='/js/jquery.validate.min.js'></script>";
 		//set this variable on a page that uses the customer-form.php template file to provide validation/states functions
 		if($template["formType"] === "customerForm") {
-			echo "\n<script src='/js/checkout-states-lower48.js'></script>";
+			echo "\n<script src='/js/checkout-states.js'></script>";
 			echo "\n<script src='/js/customer-form-validation.js'></script>";
 		}
 		?>

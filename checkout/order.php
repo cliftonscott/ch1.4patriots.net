@@ -4,6 +4,7 @@ if(empty($_SESSION['productId'])) {
 }
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+$template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
