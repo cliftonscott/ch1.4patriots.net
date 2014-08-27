@@ -356,6 +356,11 @@ background-color: #B6B6B6;
 	padding-bottom: 10px;
 	font-size: 15px;
 }
+#productInfoOTO {
+	padding-top: 10px;
+	padding-left: 23px;
+	padding-bottom: 10px;
+}
 #secure-guarantee {
 	background-color: #F5FAF5; 
 	margin-top: 10px; 
@@ -726,6 +731,11 @@ input[type=number]::-webkit-outer-spin-button {
 	padding-left: 50px;
 	padding-bottom: 10px;
 	font-size: 14px;
+}
+#productInfoOTO {
+	padding-top: 10px;
+	padding-left: 23px;
+	padding-bottom: 10px;
 }
 #secure-guarantee {
 	background-color: #F5FAF5; 

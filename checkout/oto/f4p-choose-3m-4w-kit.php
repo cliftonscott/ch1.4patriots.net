@@ -22,11 +22,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
           <h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, FREE Video Reveals #1 Most Critical Item To Hoard Now…</span></h1>
         </div>
         <div id="videobox" class="hidden-xs">
-			<!--<iframe src="https://fast.wistia.net/embed/iframe/jwue4kdjoj?autoPlay=true&fullscreenButton=false&playButton=false&playbar=false&playerColor=ffffff&smallPlayButton=false&version=v1&videoHeight=360&videoWidth=640" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>-->
+			<iframe src="https://fast.wistia.net/embed/iframe/jwue4kdjoj?autoPlay=true&fullscreenButton=false&playButton=false&playbar=false&playerColor=ffffff&smallPlayButton=false&version=v1&videoHeight=360&videoWidth=640" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
 		</div>
   <div> 
-  			<a href="#addtoorder"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" class="img-responsive center-block" /></a>
-            <p class="text-center read-warning" style="max-width:600px;">Click the button above to choose your package now… or read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
+  			<a href="#addtoorder"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" alt="Add To Order" class="img-responsive center-block" /></a>
+    <p class="text-center read-warning" style="max-width:600px;">Click the button above to choose your package now… or read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
             <p>Hi <?php echo $firstName;?>, this is Franks Bates, founder of Food4Patriots, and I just wanted to say <strong>CONGRATULATIONS</strong> for claiming your <strong>FREE</strong> Survival Food today. </p>
             <p>You got yours before we ran out, so nice job. You&rsquo;ve made a real smart decision to take action! I know you&rsquo;re going to <strong>love</strong> the peace of mind and sense of pride that comes from building your food stockpile. And with <strong>every addition </strong>to your stockpile, you&rsquo;ll get more independence, more self-reliance and more protection for you &amp; your family in case of a disaster.</p>
             <p>Because you&rsquo;ve taken this 1st important step, I&rsquo;ve got some exclusive information for you that I think you&rsquo;re really going to like.&nbsp;&nbsp;</p>
@@ -176,25 +176,248 @@ Be For Well-Off Americans</h2>
           <p>Now I know every family is different. There&rsquo;s no &ldquo;one size fits all&rdquo; survival food solution. </p>
           <p>So I&rsquo;ve put together different Food4Patriots kits based on servings to feed one adult, and you can customize your kit to keep your family healthy and happy. There&rsquo;s no need to worry about stretching portions to feed a larger family or being forced to order more than you really need.</p>
           <p>And just to make this a real &ldquo;no-brainer&rdquo; for you, I&rsquo;m also going to add 4 <strong>free</strong> bonuses to sweeten the pot. </p>
-          <p class="text-center">&nbsp;</p>
-<div>
-        <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
-				<div class="text-center center-block">
-					<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
+          
+          
+    <div class="outLineBoxDarkBlue">
+          <div>
+            <img src="/media/images/f4p/F4P-eBook-10-items-after-crisis-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />
+            <div style="padding-top:0px;">
+                <p><strong class="brightBlue">Free Bonus #1: </strong><strong>Top 10 Items Sold Out After Crisis</strong>&nbsp;– in this report you&rsquo;ll learn the 10 items you absolutely need to hoard. If you miss this you&rsquo;ll be forced to go without &lsquo;em in a crisis. And you should know - this is an updated list so if you think you&rsquo;ve seen these before, think again!  You&rsquo;ll also learn how to snag them on the cheap, store them securely and pump out every ounce of nutrition they have to offer.</p>
+            </div>
+            </div>
+              <div class="clearfix"></div>
+              <div>
+                <div style="padding-top:0px;">
+                <p><strong class="brightBlue"><img src="/media/images/f4p/F4P-eBook-the-water-survival-guide-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />Free Bonus #2:</strong><strong> The Water Survival Guide </strong>– Look, without clean water you can&rsquo;t prepare a scrap of food. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. So don&rsquo;t be stuck relying on water sources everyone knows about. This down-n-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It&rsquo;ll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency. </p>
+              </div>
+            </div>
+              <div class="clearfix"></div>
+              <div>
+                <div style="padding-top:0px;">
+                <p><strong class="brightBlue"><img src="/media/images/f4p/F4P-eBook-the-survival-garden-guide-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />Free Bonus #3:</strong><strong> The Survival Garden Guide</strong> – A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing and long-term storage. This is like &ldquo;food insurance&rdquo; so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
+              </div>
+            </div>
+              <div class="clearfix"></div>
+              <div>
+              <img src="/media/images/f4p/F4P-eBook-cut-grocery-bills-half-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />
+              <div style="padding-top:0px;">
+                <p><strong class="brightBlue">Free Bonus #4: </strong><strong>How To Cut Your Grocery Bills in Half </strong>– It&rsquo;s sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you&rsquo;ve seen an increase in spending too. Well, it doesn&rsquo;t have to be like that. To help out I&rsquo;m going to show you my down-n-dirty tricks to getting the best deal. But let me warn you: couponing is only one part of this bill shredding strategy, so pay close attention to what&rsquo;s inside!</p>
+              </div>
+              <div class="clearfix"></div>
+              </div>
+          </div>
+          
+			<h2 class="darkRed text-center">Food Stockpiles Shouldn’t Only 
+Be For Well-Off Americans</h2>
+			<div class="outLineBoxDarkBlue">
+            	<h2 class="text-center center-block"><strong>&quot;Basic&quot; - 4 Week Supply For $197</strong></h2>
+            	<p><strong><img src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food Kit" class="img-padding-left pull-right img-responsive media" style="max-width:235px;"/>The Basic Food4 Patriots Kit</strong> includes a 4-week food supply for just $197. That&rsquo;s just $7 per day for 3+ meals a day, plus I&rsquo;ll throw in <strong>FREE SHIPPING!</strong></p>
+                <p>This is the bare minimum most experts agree you should have on hand to weather any kind of crisis.</p>
+                <p>When you add in the 4 information-packed bonus reports you're getting <strong>FREE</strong>, you have to admit this is a heck of a deal.</p>
+                
+            </div>
+            
+            <h1 class="text-center"><strong>OR</strong></h1>
+            
+    <div class="outLineBoxDarkBlue">
+   	  <h2 class="text-center center-block"><strong>"Deluxe" - 3 Month Supply For $497</strong></h2>
+       	<p><strong><img src="/media/images/f4p/f4p-3-month-kit-01.jpg" alt="3 Month Food Kit" class="img-padding-left pull-right img-responsive media" style="max-width:273px;"/>The Deluxe Food4Patriots kit</strong>, which I strongly recommend, includes a 3-month food supply to give you real peace of mind. You&rsquo;ll get a whopping <strong>450 servings</strong> of delicious, easy-to-prepare survival food. Best of all, you can get it today for just $497 with <strong>FREE SHIPPING!</strong> That&rsquo;s just about 5 bucks per day for 3+ meals for 3 months… WOW! That&rsquo;s a savings of about 100 bucks PLUS I have some extra special bonuses you can <strong>ONLY</strong> get with the 3-month kit…</p>
+            	<p><strong>1st</strong>, we&rsquo;ll upgrade your 4 <strong>FREE</strong> bonus reports from digital online access to <span class="underline"><strong>professionally bound hard copy books</strong></span> that you can keep on your bookshelf. You&rsquo;ll love the convenience.</p>
+            	<p><strong><img src="/media/images/misc/free-burst-01.jpg" alt="FREE BONUS" class="img-padding-right pull-left img-responsive media" />2nd</strong>, I am going to include a <strong>FREE</strong> Liberty Seed Vault to take you the next level of food independence. You&rsquo;ll get more than 5,640 survival seeds from 22 varieties of hardy &amp; delicious heirloom seeds passed down from our forefathers in an airtight storage vault rated for 5+ years of storage. There are no hybrids, GMOs or outdated seeds here. All harvested seeds are reusable. Each vault can produce 1000s of pounds of nutrient-dense food for pennies per pound... Enough to feed you and family forever! Survival seeds are the perfect compliment to your emergency food stockpile. Some companies charge well over $200 for seeds that are nowhere near the quality of what you&rsquo;re getting <strong>FREE</strong> here.</p>
+                <div class="container">
+				<div class="row">
+				  <div class="col-sm-12 col-md-5 "><img src="/media/images/ss4p/ss4p-lsv-single.jpg" alt="Survival Seeds" class="img-responsive center-block" /></div>
+                    <div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
+                      <ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
+                        <li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Califovrnia Wonder Bell Pepper - over 70 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Golden Acre Cabbage - over 530 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Detroit Dark Red Beet - over 260 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweat Pea - over 100 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Beefsteak Tomato - over 180 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Champion Radish - over 320 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Green Sprouting Broccoli - over 500 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Waltham Butternut Winter Squash - over 100 seeds</li>
+                        <li><i class="fa-li fa fa-check"></i>Bloomsdale Long Standing Spinach - over 260 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Yellow Sweet Spanish Onion - over 145 seeds</li>
+                        <li><i class="fa-li fa fa-check"></i>Black Turtle Bean – over 70 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Stowell's Evergreen Sweet Corn - over 250 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Hales Best Cantaloupe - over 70 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Snowball Cauliflower - over 285 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Black Beauty Zucchini - over 50 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Crimson Sweet Watermelon - over 60 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Dwarf Blue Curled Scotch Kale - over 250 seeds </li>
+                        <li><i class="fa-li fa fa-check"></i>Pinto Bean - over 85 seeds </li>
+                      </ul>
+                    </div>
 				</div>
-				<input type="hidden" name="quantity" id="quantity" value="1">
-				<div class="terms">
-					<div style="margin-right:5px;float: left;">
-                            <input type="checkbox" id="check2" name="check2">
-                            <img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
-					</div>
-				  <div style="line-height: 1.2;">I want to add the Platinum Upgrade to my order at the 1-time discount sale price of $997.  I will get FREE Shipping with my EMP Bag and Solar Panel (a $100 value) as well as a 365-day guarantee and 3-year extended warranty.</div>
+			</div>
+            
+            <p><strong>And last but definitely not least</strong>, you&rsquo;ll get this compact but powerful survival tool absolutely <strong>FREE</strong>. This amazing gadget packs 11 functions into a tool no bigger than a credit card and fits right in your wallet, so you'll always have it handy.</p>
+    <p><strong><img src="/media/images/misc/free-burst-01.jpg" alt="FREE BONUS" class="img-padding-right pull-left img-responsive media" />FREE 11-in-1 Survival Tool</strong> – this amazing tool could be a real life-saver yet is no bigger than a credit card so you&rsquo;ll always have it handy.</p>
+    <img src="/media/images/f4p/multi-tool-01.jpg" alt="Survival Tool" class="img-responsive center-block" />
+        
+      </div>
+          
+     <h2 class="darkRed text-center">And Just To Show You How Serious I Am, I’m Offering My Outrageous Double Guarantee!</h2>
+     <div class="outLineBoxDarkBlue">
+				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
+	   <h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+				<div class="clearfix"></div>
+	</div>
+	<div class="outLineBoxDarkBlue">
+				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
+				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
+				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
+				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
+				
+				<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is 
+					on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not 
+					really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon 
+					as you have it in your hands.</p>
+	</div>
+     <p>But whether you choose to start dipping into your Food4Patriots stockpile right away to stretch your food dollars…</p>
+     <p>Or you decide to keep it under lock-and-key so you&rsquo;re ready for any kind of crisis, you need to know one thing…</p>
+     <p>By claiming your Food4Patriots kit you&rsquo;ve made the decision not just to get food for your family, you&rsquo;ve made the decision to get peace of mind. Heck, if you&rsquo;ve got an elderly friend or family member near by, you can claim a kit for them so you don&rsquo;t have to worry if they&rsquo;re eating in a disaster.</p>
+     <p>Now, the last reminder: there&rsquo;s no obligation to claim your Food4Patriots kit… in fact, if you don&rsquo;t want it, you can step aside. No hard feelings – there are plenty of other people who are dead set on preparing right now.</p>
+     <p> But  if you&rsquo;re serious about your family&rsquo;s stockpile and want to get real food independence &amp; security, just choose the Basic or Deluxe Food 4Patriots Kit below and let me know how many kits you&rsquo;d like to make sure your family is covered (remember, each kit serves one adult). You&rsquo;ll be glad you did. This is about peace of mind, knowing that you and your family are well protected in the case of food shortages and natural disasters.<br>
+       <br>
+       Click on the &ldquo;Add to Order&rdquo; button below, choose your quantity, and get your Food4Patriots stockpile started now… and then rest assured knowing that you will be able to feed your family well into the future no matter what happens.</p>
+     <p>To claim your Food4Patriots kit at this special price, plus the 4 <strong>FREE</strong> bonuses  click the big &ldquo;Add to Order&rdquo; button below.<a id="addtoorder"></a></p>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<div class="rcBoxR15-red-dot-border">
+                        	<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
+                            <input name="productSelect" type="hidden" value="19">
+                        	<img src="/media/images/f4p/f4p-4-week-kit-02.jpg" alt="4 Week Kit" class="img-responsive center-block" />
+                            <ul>
+							  <li>140 Servings <a href="#info" id="4wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+                				<li>$7 Per Day</li>
+								<li><strong>FREE Shipping</strong></li>
+								<li><strong>4 FREE Digital Bonus Reports</strong></li>
+							</ul>
+                            
+                            <!-- *PRODUCT INFO -->
+                              <div id="productInfoOTO">
+                              <div class="row">
+                                <div class="col-xs-2"><strong>Qty:</strong></div>
+                                <div class="col-xs-10">
+                                	<select name="quantity1" id="quantity1" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange1();">
+										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
+									</select>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-2"><strong>Price:</strong></div>
+                                <div class="col-xs-10">
+                        <?php
+                                $oldPrice = $productDataObj->originalPrice;
+                                $newPrice = $productDataObj->price;
+                                if($oldPrice > $newPrice) {
+                                    echo "<span class='stike01'>$";
+                                    echo number_format($productDataObj->originalPrice, 2, ".", "");
+                                    echo "</span>&nbsp;&nbsp;";
+                                    echo "<span class='red01'>$";
+                                    echo number_format($productDataObj->price, 2, ".", "");
+                                    echo "</span>";
+                                } else {
+                                    echo "<span class='red01'>$";
+                                    echo number_format($productDataObj->price, 2, ".", "");
+                                    echo "</span>";
+                                }
+                        ?>        
+                                </div>
+                              </div>
+                              <div id="taxRow" class="row">
+                                <div class="col-xs-2"><strong>Tax:</strong></div>
+                                <div id="taxAmount" class="col-xs-10 show">$0.00</div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-2"><strong>Total:</strong></div>
+                                <div id="totalAmount" class="col-xs-10">$<?php echo number_format($productDataObj->price, 2, ".", ","); ?> USD (One Time)</div>
+                              </div>
+                              
+                              </div><!-- *PRODUCT INFO -->
+                              	
+                            <div class="text-center center-block">
+                                <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+                            </div>
+	  					</form>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+						<div class="rcBoxR15-red-dot-border">
+                        	<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
+                            <input name="productSelect" type="hidden" value="19">
+                        	<img src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit" class="img-responsive center-block" />
+                            <ul>
+							  <li><strong></strong>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li>$5 Per Day</li>
+								<li><strong>FREE Shipping</strong></li>
+								<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+                  				<li><strong>4 FREE <span class="underline">Hard Copy</span> Bonus Reports</strong></li>
+              				</ul>
+                            
+                            <!-- *PRODUCT INFO -->
+                              <div id="productInfoOTO">
+                              <div class="row">
+                                <div class="col-xs-2"><strong>Qty:</strong></div>
+                                <div class="col-xs-10">
+                                	<select name="quantity2" id="quantity2" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange2();">
+										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
+									</select>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-2"><strong>Price:</strong></div>
+                                <div class="col-xs-10">
+                        <?php
+                                $oldPrice = $productDataObj->originalPrice;
+                                $newPrice = $productDataObj->price;
+                                if($oldPrice > $newPrice) {
+                                    echo "<span class='stike01'>$";
+                                    echo number_format($productDataObj->originalPrice, 2, ".", "");
+                                    echo "</span>&nbsp;&nbsp;";
+                                    echo "<span class='red01'>$";
+                                    echo number_format($productDataObj->price, 2, ".", "");
+                                    echo "</span>";
+                                } else {
+                                    echo "<span class='red01'>$";
+                                    echo number_format($productDataObj->price, 2, ".", "");
+                                    echo "</span>";
+                                }
+                        ?>        
+                                </div>
+                              </div>
+                              <div id="taxRow" class="row">
+                                <div class="col-xs-2"><strong>Tax:</strong></div>
+                                <div id="taxAmount" class="col-xs-10 show">$0.00</div>
+                              </div>
+                              <div class="row">
+                                <div class="col-xs-2"><strong>Total:</strong></div>
+                                <div id="totalAmount" class="col-xs-10">$<?php echo number_format($productDataObj->price, 2, ".", ","); ?> USD (One Time)</div>
+                              </div>
+                              
+                              </div><!-- *PRODUCT INFO -->
+                              	
+                            <div class="text-center center-block">
+                                <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+                            </div>
+	  					</form>
+                        </div>
+                    </div>
 				</div>
-                  
-                  <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-      </form>
-                <div class="noThanks">
-                <a href="/checkout/oto/ppg-platinum-payments.php" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
+			</div>
+
+    <div>
+      <div class="noThanks">
+        <a href="/checkout/oto/f4p-choose-3m-4w-kit-discount.php" onClick="">No Thanks</a> – I want to give up this opportunity.<br>
                 I understand that I will not receive this special offer again.
             </div>
             
@@ -203,7 +426,60 @@ Be For Well-Off Americans</h2>
             
     
   </div>
-    </div>
-    
+</div>
+
+<script>
+$(document ).ready(function () {
+	$("#4wkPopover").popover({
+		html:true,
+		trigger: 'hover',
+		title:"4 Week Kit May Include:",
+		content: function() {
+          return $('#4wk').html();
+        },
+		});
+	
+});
+$(document ).ready(function () {
+	$("#3mkPopover").popover({
+		html:true,
+		trigger: 'hover',
+		title:"3 Month Kit May Include:",
+		content: function() {
+          return $('#3mk').html();
+        },
+		});
+	
+});
+$(document ).ready(function () {
+	$("#toolPopover").popover({
+		html:true,
+		trigger: 'hover',
+		title:"11-in-1 Survival Tool",
+		content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
+		});
+	
+});
+$(document ).ready(function () {
+	$("#seedsPopover").popover({
+		html:true,
+		trigger: 'hover',
+		title:"Liberty Seed Vault",
+		content: function() {
+          return $('#lsv').html();
+        },
+		});
+	
+});
+</script>   
+<div id="4wk" style="display:none;">
+<?php include_once("../../content/f4p-product-info-4wk.html"); ?>
+</div>
+<div id="3mk" style="display:none;">
+<?php include_once("../../content/f4p-product-info-3mk.html"); ?>
+</div>
+<div id="lsv" style="display:none;">
+<?php include_once("../../content/f4p-product-info-seeds-bonus.html"); ?>
+</div>
 
 <?php include_once("template-bottom.php"); ?>

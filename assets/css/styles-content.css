@@ -235,6 +235,13 @@ font-weight:bold;
 	border-radius: 10px; 
 	padding: 20px; 
 }
+.rcBoxR15-red-dot-border {
+	padding: 5px;
+	margin: 5px;
+	border: 2px dashed #CC0000;
+	border-radius: 15px;
+	-moz-border-radius: 25px;
+}
 .outLineBoxDarkBlue {
 	margin-right: auto;
 	margin-left: auto;
@@ -343,4 +350,16 @@ article.content .effective-date {
 }
 .bonus-materials p {
     text-align:center;
+}
+/* More Info Popup
+-------------------------------------------------- */
+.popul {
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+	margin: 0px;
+}
+.popul li {
+	padding: 0px;
+	margin: 0px;
 }
