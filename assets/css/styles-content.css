@@ -51,6 +51,16 @@ h1 {
 .fa-quote-right, .fa-quote-left {
 	color: #D9D9D9;
 }
+.adbox{
+	text-align: center;
+	border: 2px solid #00C;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
 /* GENERAL CSS TWEAKS
 -------------------------------------------------- */
 .nopadding {
