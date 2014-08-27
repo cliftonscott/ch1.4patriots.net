@@ -22,7 +22,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<h1 class="darkRed text-center"><?php echo $firstName;?>, <span class="titles">Add A 4-Week Food Kit <br>
 Today And Save $50.00?</span></h1>
  	</div>
-	<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="Platinum Package"/></div>
+	<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food4Patriots Kit"/></div>
 	<div>
 		<p><?php echo $firstName;?>, congratulations for making the great decision to get the 72-hour Food4Patriots kit. </p>
 		<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
@@ -32,11 +32,14 @@ Today And Save $50.00?</span></h1>
 		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 		<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
         
-        <p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick=""><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-responsive center-block" /></a></p>
-		<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick="">you're ready to accept the special offer now</a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
+        <p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
+		<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
           </section>
             
 		<?php include("f4p-4week-glenbeck.html");?>
+        
+        <div class="text-center"><img src="/media/images/f4p/f4p-testimonials-06.png" class="img-responsive center-block" alt="Testimonial"/></div>
+        
 		<?php include("f4p-4week-whatsincluded.html");?>    
     	
         <h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
@@ -45,12 +48,12 @@ Today And Save $50.00?</span></h1>
         
         <h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
         <div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" width="250" height="189" class="pull-left img-responsive media">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 				<div class="clearfix"></div>
 			</div>
         <div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" width="250" height="192" class="pull-left img-responsive media">
 				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
 				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
 				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
@@ -68,20 +71,18 @@ Today And Save $50.00?</span></h1>
         <p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 4-Week Food4Patriots to your order today!</p>
       <p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
         <p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
+		
 		<div>
-			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
-				<div class="text-center center-block">
-					<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
-				</div>
-				<input type="hidden" name="quantity" id="quantity" value="1">
-				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-		  </form>
+			<div class="text-center">
+				<a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+			</div>
+			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
+		  
 			<div class="noThanks">
-  				<a href="/checkout/oto/ppg-platinum-payments.php" onClick="">No Thanks</a> – I want to give up this opportunity.<br>
+  				<a href="/checkout/oto/f4p-seeds-rutgers.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
                 I understand that I will not receive this special offer again.
-            </div>
-            
-	  </div>                      
+            </div>   
+		</div>                      
     
 	</div>
 </div>    

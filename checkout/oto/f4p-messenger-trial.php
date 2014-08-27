@@ -57,8 +57,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 	<div><h4 class="text-center">Get <strong><u>8 FREE GIFTS</u></strong> When You Try <em>Patriot Alliance</em> <strong><u>FREE</u></strong> For 30 Days!</h4></div>
     <div>
-    	<img class="img-responsive center-block"src="/media/images/pa/pa-messenger-03.jpg" alt="Platinum Package"/>
-    	<p class="caption text-center center-block" style="max-width:500px;padding-bottom:20px;">Get your 1st issue of the brand-new Patriot Alliance printed newsletter for FREE plus 8 FREE bonus gifts valued over $200.00 when you accept this special offer today!</p>
+    	<img class="img-responsive center-block"src="/media/images/pa/pa-messenger-03.jpg" alt="Patriot Alliance Messenger"/>
+    	<p class="caption text-center center-block" style="max-width:500px;padding-bottom:20px;"><em>Get your 1st issue of the brand-new Patriot Alliance printed newsletter for FREE plus 8 FREE bonus gifts valued over $200.00 when you accept this special offer today!</em></p>
     </div>
     
     
@@ -70,7 +70,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
     <div class="margin-tb-20">
 		<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form1">
 			<div class="text-center center-block">
-				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
+				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class="img-responsive center-block" onClick="_gaq.push(['_trackEvent', 'upsell3-alliance', 'alliance-trial-buy', 'click-to-accept-top',19.95, false]);"/>
 			</div>
 				<input type="hidden" name="quantity" id="quantity" value="1">
 			<div class="terms">
@@ -92,14 +92,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
     <p><span class="brightBlue"><strong>Bonus 6:</strong></span><strong> &ldquo;Surviving Obamacare&rdquo; Report ($27 Value)</strong> -- Get the knowledge you need to survive the rapid decline in our healthcare you&rsquo;re soon going to experience as soon as incompetent bureaucrats take over the management of our public healthcare system.</p>
     <p><span class="brightBlue"><strong>Bonus 7:</strong></span><strong> &ldquo;Prepping for Pets&rdquo; Report ($27 Value)</strong> -- Get a detailed checklist of everything you need to have on hand during a crisis to make sure all your pet&rsquo;s needs are covered. </p>
     <p><span class="brightBlue"><strong>Bonus 8:</strong></span><strong> Off Grid Living DVD ($19.95 Value)</strong> -- In this 75-minute DVD you&rsquo;ll get your very own one-on-one walk-through of a completely off-the-grid household so you can do the same thing.</p>
-    <img class="img-responsive center-block margin-tb-20"src="/media/images/pa/pa-value-chart-01.jpg" alt="Platinum Package"/>
+    <img class="img-responsive center-block margin-tb-20"src="/media/images/pa/pa-value-chart-01.jpg" alt="Patriot Alliance Messenger"/>
     <p>WHEW! That’s a lot of goodies... and you get it all FREE when you try the brand-new Patriot Alliance printed newsletter for FREE. It's just $19.95 per month thereafter.</p>
     <p>Get your 1st newsletter plus the 8 bonus gifts before they&rsquo;re gone – click the big orange &ldquo;Click To Accept&rdquo; button below. </p>
             
 	<div>
 		<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
 			<div class="text-center center-block">
-				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
+				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="_gaq.push(['_trackEvent', 'upsell3-alliance', 'alliance-trial-buy', 'click-to-accept-button',19.95, false]);" />
 			</div>
 				<input type="hidden" name="quantity" id="quantity" value="1">
 			<div class="terms">
@@ -113,7 +113,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 	  </form>
 	  <div class="noThanks">
-		<a href="/checkout/thakyou.php" onClick="">No Thanks</a> – I want to give up this opportunity.<br>
+		<a href="/checkout/thakyou.php" onClick="_gaq.push(['_trackEvent', 'upsell3-alliance', 'alliance-trial-decline', 'no-thanks-link',0, false]);">No Thanks</a> – I want to give up this opportunity.<br>
                 I understand that I will not receive this special offer again.
             </div>
             
