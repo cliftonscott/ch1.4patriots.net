@@ -19,60 +19,71 @@ function setStateTax(productId) {
 
 	//TODO skip this whole thing if the country isn't US, will need to return "" to the calling function
 
-    taxState = document.getElementById('taxState_' + productId).value;
+	taxState = document.getElementById('taxState_' + productId).value;
 	quantity = document.getElementById('quantity_' + productId).value;
 
 	formSubTotal = document.getElementById('subTotal_' + productId);
 	formTaxAmount = document.getElementById('taxAmount_' + productId);
 	formTotalAmount = document.getElementById('totalAmount_' + productId);
 	formTaxRow = document.getElementById('taxRow_' + productId);
-    formShippingAmount = document.getElementById('shippingAmount_' + productId);
+	formShippingAmount = document.getElementById('shippingAmount_' + productId);
 	formShippingRow = document.getElementById('shippingRow_' + productId);
 
-    //get product data
-    //TODO get product data from Product.php via ajax
-    //TODO FFP-232 - refactor set-state-tax-multi-pid.js to pull data from Product.php
-    //TODO remove the on-form-page JSON product descriptions when above is completed
+	//get product data
+	//TODO get product data from Product.php via ajax
+	//TODO FFP-232 - refactor set-state-tax-multi-pid.js to pull data from Product.php
+	//TODO remove the on-form-page JSON product descriptions when above is completed
 	jsProductSrc = document.getElementById('productData[' + productId + ']');
 	jsProductData = jsProductSrc.value;
 	jsProductData = jsProductData.replace(/'/g,"\"");
 	jsProductObj = JSON.parse(jsProductData);
 
 	shippingPerItem = parseFloat(jsProductObj.shipping);
-    shippingCost = parseFloat(shippingPerItem * quantity);
-    formShippingAmount.innerHTML = "$" + shippingCost.toFixed(2);
-    if(shippingPerItem > 0) {
-        formShippingRow.setAttribute("style", "display:block;visibility:visible;");
-    } else {
-        formShippingRow.setAttribute("style", "display:none;visibility:hidden;");
-    }
+	shippingCost = parseFloat(shippingPerItem * quantity);
+	formShippingAmount.innerHTML = "$" + shippingCost.toFixed(2);
+
+	//hide shipping if shipping is free
+	if(shippingPerItem > 0) {
+		formShippingRow.setAttribute("style", "display:block;visibility:visible;");
+	} else {
+		formShippingRow.setAttribute("style", "display:none;visibility:hidden;");
+	}
+
+	if(jsProductObj.price < jsProductObj.originalPrice) {
+		originalPrice = jsProductObj.originalPrice;
+		originalPriceText = "<span style='text-decoration: line-through;font-weight: normal; color: #000000;'>$" + originalPrice + "</span> ";
+		formTotalAmount.setAttribute("style", "font-weight:bold;color:red;");
+	} else {
+		originalPriceText = "";
+	}
+
 
 	productPrice = parseFloat(jsProductObj.price);
 	productSubTotal = productPrice * quantity;
 
-    //TODO get state tax rates from Tax.php library via ajax
-    //TODO FFP-233 - refactor set-state-tax-multi-pid.js to get state taxes from Tax.php
+	//TODO get state tax rates from Tax.php library via ajax
+	//TODO FFP-233 - refactor set-state-tax-multi-pid.js to get state taxes from Tax.php
 	switch(taxState) {
-        case "tennessee":
-            stateTax = (productSubTotal + shippingCost) * .0925;
-            formTaxAmount.innerHTML = "$" + stateTax.toFixed(2);
-            formSubTotal.innerHTML = "$" + productSubTotal.toFixed(2);
-            formTotalAmount.innerHTML = "$" + (productSubTotal + stateTax + shippingCost).toFixed(2) + " USD (One Time)";
-            formTaxRow.setAttribute("style", "display:block;visibility:visible;");
-            break;
-        case "arizona":
-            stateTax = productSubTotal * .0810;
-            formTaxAmount.innerHTML = "$" + stateTax.toFixed(2);
-            formSubTotal.innerHTML = "$" + productSubTotal.toFixed(2);
-            formTotalAmount.innerHTML = "$" + (productSubTotal + stateTax + shippingCost).toFixed(2) + " USD (One Time)";
-            formTaxRow.setAttribute("style", "display:block;visibility:visible;");
-            break;
-        default:
-            formTaxAmount.innerHTML = "$0.00";
-            formSubTotal.innerHTML = "$" + productSubTotal.toFixed(2);
-            formTotalAmount.innerHTML = "$" + (productSubTotal + shippingCost).toFixed(2) + " USD (One Time)";
-            formTaxRow.setAttribute("style", "display:none;visibility:hidden;");
-            break;
+		case "tennessee":
+			stateTax = (productSubTotal + shippingCost) * .0925;
+			formTaxAmount.innerHTML = "$" + stateTax.toFixed(2) + " <span style='font-size: .75em;'>TN (9.25%)</span>";
+			formSubTotal.innerHTML = originalPriceText + "$" + productSubTotal.toFixed(2);
+			formTotalAmount.innerHTML = originalPriceText + "$" + (productSubTotal + stateTax + shippingCost).toFixed(2);
+			formTaxRow.setAttribute("style", "display:block;visibility:visible;");
+			break;
+		case "arizona":
+			stateTax = productSubTotal * .0810;
+			formTaxAmount.innerHTML = "$" + stateTax.toFixed(2) + " <span style='font-size: .75em;'>AZ (8.10%)";
+			formSubTotal.innerHTML = originalPriceText + "$" + productSubTotal.toFixed(2);
+			formTotalAmount.innerHTML = originalPriceText + "$" + (productSubTotal + stateTax + shippingCost).toFixed(2);
+			formTaxRow.setAttribute("style", "display:block;visibility:visible;");
+			break;
+		default:
+			formTaxAmount.innerHTML = "$0.00";
+			formSubTotal.innerHTML = originalPriceText + "$" + productSubTotal.toFixed(2);
+			formTotalAmount.innerHTML = originalPriceText + "$" + (productSubTotal + shippingCost).toFixed(2);
+			formTaxRow.setAttribute("style", "display:none;visibility:hidden;");
+			break;
 	}
 
 }
