@@ -1,12 +1,12 @@
 <?php
 $firstName = $_SESSION["customerDataArray"]["firstName"];
+$billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 // SET PRODUCT ID
 //$_SESSION['productId'] = 164; //please keep as an integer
 //$_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -293,7 +293,9 @@ Be For Well-Off Americans</h2>
 					<div class="col-sm-12 col-md-6">
 						<div class="rcBoxR15-red-dot-border">
                         	<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
-                            <input name="productSelect" type="hidden" value="19">
+                            <input name="productId" type="hidden" value="18">
+                            <input id="taxState_18" type="hidden" value="<?php echo strtolower($billingStateName);?>">
+							<input id="productData[18]" type="hidden" value="{'productId':18,'price':197,'shipping':0}">
                         	<img src="/media/images/f4p/f4p-4-week-kit-02.jpg" alt="4 Week Kit" class="img-responsive center-block" />
                             <ul>
 							  <li>140 Servings <a href="#info" id="4wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
@@ -307,39 +309,26 @@ Be For Well-Off Americans</h2>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Qty:</strong></div>
                                 <div class="col-xs-10">
-                                	<select name="quantity1" id="quantity1" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange1();">
+                                	<select name="quantity1" id="quantity_18" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(18);">
 										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
 									</select>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Price:</strong></div>
-                                <div class="col-xs-10">
-                        <?php
-                                $oldPrice = $productDataObj->originalPrice;
-                                $newPrice = $productDataObj->price;
-                                if($oldPrice > $newPrice) {
-                                    echo "<span class='stike01'>$";
-                                    echo number_format($productDataObj->originalPrice, 2, ".", "");
-                                    echo "</span>&nbsp;&nbsp;";
-                                    echo "<span class='red01'>$";
-                                    echo number_format($productDataObj->price, 2, ".", "");
-                                    echo "</span>";
-                                } else {
-                                    echo "<span class='red01'>$";
-                                    echo number_format($productDataObj->price, 2, ".", "");
-                                    echo "</span>";
-                                }
-                        ?>        
-                                </div>
+                                <div id="subTotal_18" class="col-xs-10"></div>
                               </div>
-                              <div id="taxRow" class="row">
+                              <div id="shippingRow_18" class="row">
+                                <div class="col-xs-2"><strong>S/H:</strong></div>
+                                <div id="shippingAmount_18" class="col-xs-10 show"></div>
+                              </div>
+                              <div id="taxRow_18" class="row">
                                 <div class="col-xs-2"><strong>Tax:</strong></div>
-                                <div id="taxAmount" class="col-xs-10 show">$0.00</div>
+                                <div id="taxAmount_18" class="col-xs-10 show"></div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Total:</strong></div>
-                                <div id="totalAmount" class="col-xs-10">$<?php echo number_format($productDataObj->price, 2, ".", ","); ?> USD (One Time)</div>
+                                <div id="totalAmount_18" class="col-xs-10"></div>
                               </div>
                               
                               </div><!-- *PRODUCT INFO -->
@@ -353,7 +342,9 @@ Be For Well-Off Americans</h2>
                     <div class="col-sm-12 col-md-6">
 						<div class="rcBoxR15-red-dot-border">
                         	<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
-                            <input name="productSelect" type="hidden" value="19">
+                            <input name="productId" type="hidden" value="19">
+							<input id="taxState_19" type="hidden" value="<?php echo strtolower($billingStateName);?>">
+							<input id="productData[19]" type="hidden" value="{'productId':19,'price':497,'shipping':0}">
                         	<img src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit" class="img-responsive center-block" />
                             <ul>
 							  <li><strong></strong>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
@@ -369,39 +360,26 @@ Be For Well-Off Americans</h2>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Qty:</strong></div>
                                 <div class="col-xs-10">
-                                	<select name="quantity2" id="quantity2" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange2();">
+                                	<select name="quantity2" id="quantity_19" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(19);">
 										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
 									</select>
                                 </div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Price:</strong></div>
-                                <div class="col-xs-10">
-                        <?php
-                                $oldPrice = $productDataObj->originalPrice;
-                                $newPrice = $productDataObj->price;
-                                if($oldPrice > $newPrice) {
-                                    echo "<span class='stike01'>$";
-                                    echo number_format($productDataObj->originalPrice, 2, ".", "");
-                                    echo "</span>&nbsp;&nbsp;";
-                                    echo "<span class='red01'>$";
-                                    echo number_format($productDataObj->price, 2, ".", "");
-                                    echo "</span>";
-                                } else {
-                                    echo "<span class='red01'>$";
-                                    echo number_format($productDataObj->price, 2, ".", "");
-                                    echo "</span>";
-                                }
-                        ?>        
-                                </div>
+                                <div id="subTotal_19" class="col-xs-10"></div>
                               </div>
-                              <div id="taxRow" class="row">
+							  <div id="shippingRow_19" class="row">
+								  <div class="col-xs-2"><strong>S/H:</strong></div>
+								  <div id="shippingAmount_19" class="col-xs-10 show"></div>
+							  </div>
+                              <div id="taxRow_19" class="row">
                                 <div class="col-xs-2"><strong>Tax:</strong></div>
-                                <div id="taxAmount" class="col-xs-10 show">$0.00</div>
+                                <div id="taxAmount_19" class="col-xs-10 show"></div>
                               </div>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Total:</strong></div>
-                                <div id="totalAmount" class="col-xs-10">$<?php echo number_format($productDataObj->price, 2, ".", ","); ?> USD (One Time)</div>
+                                <div id="totalAmount_19" class="col-xs-10"></div>
                               </div>
                               
                               </div><!-- *PRODUCT INFO -->
@@ -438,7 +416,7 @@ $(document ).ready(function () {
           return $('#4wk').html();
         },
 		});
-	
+
 });
 $(document ).ready(function () {
 	$("#3mkPopover").popover({
@@ -449,7 +427,7 @@ $(document ).ready(function () {
           return $('#3mk').html();
         },
 		});
-	
+
 });
 $(document ).ready(function () {
 	$("#toolPopover").popover({
@@ -471,15 +449,20 @@ $(document ).ready(function () {
 		});
 	
 });
-</script>   
+</script>
+<script src="/js/set-state-tax-multi-pid.js"></script>
+<script>
+	setStateTax(18);
+	setStateTax(19);
+</script>
 <div id="4wk" style="display:none;">
-<?php include_once("../../content/f4p-product-info-4wk.html"); ?>
+<?php include_once("f4p-product-info-4wk.html"); ?>
 </div>
 <div id="3mk" style="display:none;">
-<?php include_once("../../content/f4p-product-info-3mk.html"); ?>
+<?php include_once("f4p-product-info-3mk.html"); ?>
 </div>
 <div id="lsv" style="display:none;">
-<?php include_once("../../content/f4p-product-info-seeds-bonus.html"); ?>
+<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
 </div>
 
 <?php include_once("template-bottom.php"); ?>
