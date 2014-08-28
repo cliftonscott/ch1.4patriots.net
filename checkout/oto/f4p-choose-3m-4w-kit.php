@@ -309,7 +309,7 @@ Be For Well-Off Americans</h2>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Qty:</strong></div>
                                 <div class="col-xs-10">
-                                	<select name="quantity1" id="quantity_18" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(18);">
+                                	<select name="quantity" id="quantity_18" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(18);">
 										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
 									</select>
                                 </div>
@@ -319,7 +319,7 @@ Be For Well-Off Americans</h2>
                                 <div id="subTotal_18" class="col-xs-10"></div>
                               </div>
                               <div id="shippingRow_18" class="row">
-                                <div class="col-xs-2"><strong>S/H:</strong></div>
+                                <div class="col-xs-2"><strong>S&amp;H:</strong></div>
                                 <div id="shippingAmount_18" class="col-xs-10 show"></div>
                               </div>
                               <div id="taxRow_18" class="row">
@@ -360,7 +360,7 @@ Be For Well-Off Americans</h2>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Qty:</strong></div>
                                 <div class="col-xs-10">
-                                	<select name="quantity2" id="quantity_19" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(19);">
+                                	<select name="quantity" id="quantity_19" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(19);">
 										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
 									</select>
                                 </div>
@@ -370,7 +370,7 @@ Be For Well-Off Americans</h2>
                                 <div id="subTotal_19" class="col-xs-10"></div>
                               </div>
 							  <div id="shippingRow_19" class="row">
-								  <div class="col-xs-2"><strong>S/H:</strong></div>
+								  <div class="col-xs-2"><strong>S&amp;H:</strong></div>
 								  <div id="shippingAmount_19" class="col-xs-10 show"></div>
 							  </div>
                               <div id="taxRow_19" class="row">
