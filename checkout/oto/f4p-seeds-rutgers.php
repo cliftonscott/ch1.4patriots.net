@@ -22,8 +22,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Can I Give You 150 Heirloom Tomato Seeds... 100% FREE? </span></h1>
         </div>
         <div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ss4p/ss4p-rutgers-tomato.jpg" alt="Rutgers Tomato Seeds"/></div>
-        <div class="caption text-center" style="padding-bottom:30px;">Get 150 heirloom tomato "super-seeds" added to your order <br>
-              absolutely FREE. <a href="../process.php" onClick="patriotTrack('click-to-accept-text');"><u>Click Here To Accept >></u></a>
+        <div class="caption text-center" style="padding-bottom:30px;"><em>Get 150 heirloom tomato "super-seeds" added to your order <br>
+            absolutely FREE. <a href="../process.php" onClick="patriotTrack('click-to-accept-text');"><u>Click Here To Accept >></u></a></em><a href="../process.php" onClick="patriotTrack('click-to-accept-text');"><u></u></a>
 		</div>
 		<div>
 			<p>Congratulations on  starting your emergency food stockpile! I know you&rsquo;ll sleep better at night knowing that you and your family are protected. </p>
@@ -41,20 +41,18 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
             <h2 class="darkRed text-center">It's 100% FREE... So What&rsquo;s The Catch?</h2>
             <p>The one thing I would ask is that you actually plant these seeds and take advantage of the opportunity to have your own delicious, heirloom-quality vegetables at your fingertips. And I would love it if you sent me pictures of your garden and let me know how they work out for you!</p> 
 			<p>Click the &quot;Accept&quot; button below to get your 150 heirloom tomato &quot;super seeds&quot; 100% FREE while supplies last.</p>
-        <div>
-            <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
-                <div class="text-center center-block">
-                    <input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
-                    </div>
-                    <input type="hidden" name="quantity" id="quantity" value="1">
-                    <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-            </form>
-            <div class="noThanks">
-                <a href="/checkout/oto/f4p-messenger-trial.php" onClick="">No Thanks</a> – I want to give up this opportunity.<br>
+        
+            <div>
+                <div class="text-center">
+                    <a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+                </div>
+                <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
+              
+                <div class="noThanks">
+                    <a href="/checkout/oto/f4p-messenger-trial.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
                     I understand that I will not receive this special offer again.
-            </div>
-                
-        </div>                   
+                </div>   
+            </div>                    
     
 		</div>
 </div>

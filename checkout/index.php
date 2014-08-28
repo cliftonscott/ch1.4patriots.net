@@ -44,27 +44,65 @@ include_once ('template-top.php');
 			}
 			?>
 		</div>
-	  <div><a href="#info" onclick="showProductModal()"><img src="/media/images/ppg/ppg-product-checkout-01.jpg" class="img-responsive center-block"></a></div>
-	  <div class="text-center darkRed" style="margin-bottom:10px;"><strong>Patriot Power Generator 1500 Includes: </strong></div>
-	  <div class="row" style="font-size:14px;margin-left:5px">
-		<div class="col-md-12">
-			<ul style="padding-left: 15px;">
-				<li>Patriot Power Generator 1500</li>
-				<li>100 Watt Foldable Solar Panel</li>
-				<li><strong>FREE SHIPPING</strong></li>
-				<li><strong>FREE</strong> 25 Foot Ext Cord <a href="#info" id="extcordPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><img src="/assets/images/misc/info.png" width="16" height="16" alt="More Info"></a></li>
-				<li><strong>FREE</strong> Bonus Report Top 7 Reasons The Grid Will Fail</li>
-				<li><strong>FREE</strong> Bonus Report Blackout Response Guide</li>
-				<li><strong>FREE</strong> Bonus Report Your Power Failure Checklist</li>
-				<li><strong>FREE</strong> Bonus Report Hidden Dangers of Smart Grids</li>
-				<li><strong>FREE</strong> 72 Hour Food Kit <a href="#info" id="72hrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><img src="/assets/images/misc/info.png" width="16" height="16" alt="More Info"></a></li>
-				<li><strong>FREE</strong> LifeStraw  Water Filter <a href="#info" id="strawPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><img src="/assets/images/misc/info.png" width="16" height="16" alt="More Info"></a></li>
-				<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><img src="/assets/images/misc/info.png" width="16" height="16" alt="More Info"></a></li>
-				<li><strong>FREE</strong> Power Playing Cards <a href="#info" id="cardsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><img src="/assets/images/misc/info.png" width="16" height="16" alt="More Info"></a></li>
-			</ul>
-		</div>
-		<div class="col-md-12" style="margin-top:20px"><img class="img-responsive center-block" src="../assets/images/checkout/wounded-warrior-01.jpg" alt=""/></div>
-	  </div>
+		
+	<!--START CHOOSE PRODUCT ACCORDIAN-->      
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne">
+                <div class="panel-heading">
+                  <h4 class="panel-title">       
+                      72 Hour Kit        
+                  </h4>
+                </div>
+                </a>
+                <div id="chooseProductOne" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    A: The Patriot Power Generator is a portable solar generator that will provide electricity to a variety of critical devices and equipment in the event of a power outage.  The Patriot Power Generator contains a Lithium Ion battery that is rated for 1000+ life cycles and holds a charge for up to 6 months, is virtually silent and has no emissions.  The Patriot Power Generator is portable and small enough to take virtually anywhere.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo">
+                <div class="panel-heading">
+                  <h4 class="panel-title">       
+                      4 Week Kit         
+                  </h4>
+                </div>
+                </a>
+                <div id="chooseProductTwo" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    A: Your new Patriot Power Generator 1500 will come with the generator unit, a 100-watt foldable solar panel to charge your unit and a 25-foot extension cord for ease of placing the solar panel outside while the generator is inside.  It also comes with a multitude of bonus items including a Survival Essentials Kit (72-hour emergency food supply, 11-in-1 survival tool and a LifeStraw for purifying water), a deck of playing cards listing 52 ways to Save Power, and four hard-copy reports titled Your Complete Power Failure Preparation Checklist, Hidden Dangers of the Smart Grid, Top 7 Reasons the Power Grid Will Fail, and The Blackout Response Guide.  The Patriot Power Generator ships FREE to anywhere in the contiguous 48 states.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
+                <div class="panel-heading">
+                  <h4 class="panel-title">             
+                      3 Month Kit              
+                  </h4>
+                </div>
+                </a>
+                <div id="chooseProductThree" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <p>The Patriot Power Generator has a unique Sine Inverter which powers two 120V AC outlets, four USB outlets, one 12V DC cigarette lighter outlet and one 12V DC Anderson outlet.  Here are some examples of what you can run using these outlets:</p>
+                    <ul>
+                      <li>Power your 5 cubic foot freezer indefinitely, so you can have a long-lasting supply of food that&rsquo;s safe to eat.  Not to mention, use it to power your slow cooker, toaster oven and even your coffee maker.</li>
+                      <li>Power enough lights for safety and comfort.</li>
+                      <li>Recharge your cell phones, computers, tablets and radios so you can communicate with friends and family and stay informed.</li>
+                      <li>Power critical home medical devices, such as portable oxygen equipment, infusion pumps, CPAP machines, mobility devices and monitoring equipment.</li>
+                      <li>Power an electric blanket so you stay warm at night.</li>
+                      <li>And so much more!</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> <!--END CHOOSE PRODUCT ACCORDIAN-->
+
 	</div>
 
 	<div class="col-sm-6 col-md-5">
