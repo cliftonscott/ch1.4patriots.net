@@ -116,7 +116,9 @@ include_once ('template-top.php');
 	</div>
   
   <div class="guaranteeBox">
-            <p><img src="/assets/images/checkout/satisfaction-seal-01.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">365-Day 100% Money-Back Guarantee:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Patriot Power Generator, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.</p>         
+            <p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
+            <p>&nbsp;</p>
+            <p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>       
   <div class="clearfix"></div>
   </div>
   
