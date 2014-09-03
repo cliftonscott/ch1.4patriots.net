@@ -240,7 +240,7 @@ if($_SESSION['errorMessage'] != '') {
       
       </div><!-- *PRODUCT INFO -->
       
-      <div><input type="image" src="/assets/images/buttons/btn-orange-click-continue-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
+      <div><input type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
     </form>
 </div>
 

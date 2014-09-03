@@ -15,6 +15,10 @@ h1 {
 .brightBlue {
 	color: #0000FF;	
 }
+.gray13 {
+	font-size: 13px;
+	color:#666;
+}
 .caption {
 	margin-bottom: 10px !important;
 	margin-top: 5px !important;
@@ -338,6 +342,10 @@ article.content .header {
 article.content .effective-date {
 	font-weight:bold;
 	margin-bottom:10px;
+}
+.question p {
+	margin-bottom: 0px;
+	padding-bottom: 0px;	
 }
  /* CUSTOMIZE FONT AWSOME ICONS
 -------------------------------------------------- */

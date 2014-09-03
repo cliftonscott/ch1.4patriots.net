@@ -11,7 +11,26 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+<script language="javascript">
+    $(document).ready(function() {
 
+		$("#decline-form").validate({
+    		rules: {
+    			check1: {
+					required: true
+    			},
+  			},
+  			messages: { 
+		  check1: '<div class="warning-check"></div>',
+        },
+		submitHandler: function(form) {
+		 //optIn(); 
+		 form.submit();
+		}
+    	});
+		
+	});
+</script>
 <div class="container-main">
 	<div class="breadcrumb1">
 	    <a>CHECKOUT</a>
@@ -20,15 +39,25 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 <div class="container oto-width">
         <div>
-          <h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Double Your Power, Charge 2X Faster…and Protect Yourself From the #1 Most Deadly Threat&quot;</h1>
+          <h1 class="darkRed text-center"><?php echo $firstName;?>, Don't Leave Empty-Handed... Get Up To Another $100.00 Off Food4Patriots With This 1-Time Offer!</h1>
         </div>
-        <div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/m1kcfcm5tn?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="352"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
-		</div>
   <div>
-            <p><?php echo $firstName;?>, I&rsquo;d like to personally congratulate you on taking action and getting the state-of-the-art Patriot Power Generator 1500. You&rsquo;re going to absolutely love it and the peace of mind it will give you and your family.          </p>
-          <div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ppg/ppg-product-platinum-02.jpg" alt="Platinum Package"/></div>
-          <p class="text-center">Click the &ldquo;CLICK TO ACCEPT&rdquo; button below.</p>
+            <p>Hey <?php echo $firstName;?>, it&rsquo;s Frank with one last thing before you continue. I&rsquo;m trying something new here. I&rsquo;ve gotten some feedback that while folks really want to get a Food4Patriots kit, it might be more than they want to spend in these tough times, and I want you to know that I get that. </p>
+            <p>I still really want you to help you get your food stockpile, protect your family and accelerate your results. So as a <strong>special 1-time offer that is only valid while you are on this page, you can get Food4Patriots for up to another $100.00 off.</strong></p>
+          <div style="padding-bottom:20px;">
+          	<h2 class="darkRed text-center">Here Are 3 Reasons Why You Need To Get Food4Patriots Right Now...</h2>
+            <p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
+            <p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits
+              <?=$_SESSION['shipCity'];?>
+              ... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores throughout
+              <?=$_SESSION['shipStateCheck'];?>
+              . By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
+            <p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
+            <p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War One, when a pound of bread cost 3 BILLION marks! </p>
+            <p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
+            <p>You will get the best deal we have ever offered (and may never offer again) if you act now! It&rsquo;s a 1-time discount sale price of $147 for the 4-week kit and $397 for the 3-month kit – that&rsquo;s a <strong>another $50.00 to $100.00 discount off the already-low price </strong>– but only if you act now.</p>
+          </div>
+          <p class="text-center read-warning" style="max-width:600px;">Choose your package now… or decline the offer at the bottom of the page.</p>
 <!--FORMS-->
 	  <div class="container">
 		  <div class="row">
@@ -127,6 +156,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		  </div>
 	  </div>
 <!--END FORMS-->
+	<form action="/checkout/thankyou.php" method="post" accept-charset="utf-8" id="decline-form">
+			<div class="terms" style="position:relative;text-align: center; font-size: 15px; color: #555;max-width:400px;margin-bottom:20px;margin-top:20px;">
+			<input type="checkbox" id="check1" name="check1">  I acknowledge that I may never be offered Food4Patriots at a lower price than is available now.</div>
+			<p style="text-align: center;font-size:0.9em;"><a href="javascript:void(0);" onclick="$(this).closest('form').submit();">No Thanks</a> – I want to give up this opportunity.<br />
+		    I understand that I will not receive this special offer again.</p>
+		</form>
             
     
   </div>
