@@ -301,6 +301,11 @@ font-weight:bold;
 	max-width: 400px;
 }
 
+/* FOOTER DISCLAIMER */
+div.disclaimer {
+    margin-top:50px;
+}
+
 /* ADOBE READER
 -------------------------------------------------- */
 .adobeReaderBox {
