@@ -46,14 +46,14 @@ include_once ('template-top.php');
 		</div>
 		
 	<!--START CHOOSE PRODUCT ACCORDIAN-->      
-      <div class="row">
+      <div id="checkoutMenu" class="row">
         <div class="col-lg-12">
           <div class="panel-group" id="accordion">
               <div class="panel panel-default">
                 <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne">
                 <div class="panel-heading">
                   <h4 class="panel-title">       
-                      72 Hour Food Supply - $27 <span class="gray13">($11/day)</span>
+                      <div><input name="72hr" type="checkbox" id="72hr" onclick="" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
                   </h4>
                 </div>
                 </a>
@@ -67,7 +67,7 @@ include_once ('template-top.php');
                 <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo">
                 <div class="panel-heading">
                   <h4 class="panel-title">       
-                      4 Week Food Supply - $197 <span class="gray13">($7/day)</span>
+                      <div><input name="4week" type="checkbox" id="4week" onclick="" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
                   </h4>
                 </div>
                 </a>
@@ -78,11 +78,11 @@ include_once ('template-top.php');
                   </div>
                 </div>
               </div>
-              <div class="panel panel-default">
+              <div id="initial" class="panel panel-default">
                 <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
                 <div class="panel-heading">
                   <h4 class="panel-title">             
-                      3 Month Food Supply - $497 <span class="gray13">($5/day)</span>
+                      <div><input name="3month" type="checkbox" id="3month" checked onclick="" style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
                   </h4>
                 </div>
                 </a>
@@ -138,7 +138,14 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
    
 </div> 
 <script>
-$(document ).ready(function () {
+$('#initial').find('.panel-heading').addClass("active-panel");
+$('#accordion > .panel').on('show.bs.collapse', function (e) {
+		$(this).find('.panel-heading').addClass("active-panel");
+});
+$('#accordion > .panel').on('hide.bs.collapse', function (e) {
+		$(this).find('.panel-heading').removeClass('active-panel');
+});
+$(document).ready(function () {
 	$("#extcordPopover").popover({
 		html:true,
 		trigger: 'hover',
@@ -147,7 +154,7 @@ $(document ).ready(function () {
 		});
 	
 });
-$(document ).ready(function () {
+$(document).ready(function () {
 	$("#72hrPopover").popover({
 		html:true,
 		trigger: 'hover',
@@ -156,7 +163,7 @@ $(document ).ready(function () {
 		});
 	
 });
-$(document ).ready(function () {
+$(document).ready(function () {
 	$("#strawPopover").popover({
 		html:true,
 		trigger: 'hover',
@@ -165,7 +172,7 @@ $(document ).ready(function () {
 		});
 	
 });
-$(document ).ready(function () {
+$(document).ready(function () {
 	$("#toolPopover").popover({
 		html:true,
 		trigger: 'hover',
@@ -174,7 +181,7 @@ $(document ).ready(function () {
 		});
 	
 });
-$(document ).ready(function () {
+$(document).ready(function () {
 	$("#cardsPopover").popover({
 		html:true,
 		trigger: 'hover',
@@ -183,7 +190,7 @@ $(document ).ready(function () {
 		});
 	
 });
-$(document ).ready(function () {
+$(document).ready(function () {
 	if(isMobile() === false) {
 		toggleAudio('frankCheckout');
 	}

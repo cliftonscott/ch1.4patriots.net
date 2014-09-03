@@ -19,6 +19,10 @@ h1 {
 	font-size: 13px;
 	color:#666;
 }
+.black18 {
+	font-size: 18px;
+	color: black;
+}
 .caption {
 	margin-bottom: 10px !important;
 	margin-top: 5px !important;
@@ -33,6 +37,10 @@ h1 {
 .question {
 	font-weight: bold;
 	color:#cc0000;
+}
+.question p {
+	margin-bottom: 0px;
+	padding-bottom: 0px;	
 }
 .answer {
 	
@@ -63,6 +71,19 @@ h1 {
 	margin-right: 40px;
 	margin-bottom: 20px;
 	margin-left: 40px;
+}
+article.content  {
+	padding:20px;
+}
+article.content .header {
+	font-size:1.25em;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-transform: uppercase;
+}
+article.content .effective-date {
+	font-weight:bold;
+	margin-bottom:10px;
 }
 
 /* GENERAL CSS TWEAKS
@@ -188,6 +209,20 @@ h1 {
 	color: #cc0000;
 	font-size: 17px;
 }
+#checkoutMenu .panel-title{
+	font-size:18px;
+}
+#checkoutMenu a:hover{
+	text-decoration:none;
+}
+#checkoutMenu .panel-heading{
+	color: #000000;
+}
+#checkoutMenu .active-panel{
+	background-color: #67BC07;
+	color: #FFFFFF !important;
+}
+
 /* OTO PAGE STYLES 
 -------------------------------------------------- */
 .oto-width {
@@ -341,29 +376,13 @@ img.audioControl {
 	height:36px;
 	cursor:pointer;
 }
- /* CUSTOMIZE THE article styles for the privacy, disclaimers, etc. series
--------------------------------------------------- */
-article.content  {
-	padding:20px;
-}
-article.content .header {
-	font-size:1.25em;
-	font-weight:bold;
-	margin-bottom:10px;
-	text-transform: uppercase;
-}
-article.content .effective-date {
-	font-weight:bold;
-	margin-bottom:10px;
-}
-.question p {
-	margin-bottom: 0px;
-	padding-bottom: 0px;	
-}
  /* CUSTOMIZE FONT AWSOME ICONS
 -------------------------------------------------- */
 .fa-check {
 	color: #34C901;
+}
+.panel-title .fa-check {
+	color: #FFFFFF;
 }
 .fa-check-square {
 	color: #001F98;
