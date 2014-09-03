@@ -3,7 +3,11 @@ if(!empty($template["formType"])) {
 	include("security-seals.php");
 }
 ?>
+<div class="footer-disclaimer"><p>Information contained on Food4Patriots.com such as text, graphics, images and other materials are for educational
+	use only. Although not guaranteed, every attempt has been made for accuracy.</p>
 </div>
+
+</div> <!--end div from opening file-->
 <?php
 	if($template["floatingTimer"] > 0) {
 		include_once("snippets/timer-box.html");
