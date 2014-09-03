@@ -23,6 +23,10 @@ h1 {
 	font-size: 18px;
 	color: black;
 }
+.red17 {
+	font-size: 17px;
+	color:#cc0000;
+}
 .caption {
 	margin-bottom: 10px !important;
 	margin-top: 5px !important;
@@ -221,6 +225,14 @@ article.content .effective-date {
 #checkoutMenu .active-panel{
 	background-color: #67BC07;
 	color: #FFFFFF !important;
+}
+.productList {
+	max-width: 300px;
+	font-size: 15px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:30px;
+	margin-bottom:30px;
 }
 
 /* OTO PAGE STYLES 

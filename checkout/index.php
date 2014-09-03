@@ -59,7 +59,19 @@ include_once ('template-top.php');
                 </a>
                 <div id="chooseProductOne" class="panel-collapse collapse">
                   <div class="panel-body">
-                  	<img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block">
+                  	
+                    <img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block">
+					<div class="productList">
+						<p class="text-center red17"><strong>72 Hour Food Supply Includes:</strong></p>
+						<ul>
+							<li>16 Servings <a href="#info" id="72hPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+							<li>10 Items Sold Out After Crisis Report</li>
+							<li>Water Survival Guide Report</li>
+							<li>How to Cut Your Grocery Bills Report</li>
+							<li>Survival Garden Guide Report</li>
+						</ul>
+					</div>
+                    
                   </div>
                 </div>
               </div>
@@ -73,7 +85,19 @@ include_once ('template-top.php');
                 </a>
                 <div id="chooseProductTwo" class="panel-collapse collapse">
                   <div class="panel-body">
+                  
                     <img src="/media/images/f4p/f4p-4-week-kit-03.jpg" class="img-responsive center-block">
+                    <div class="productList">
+						<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
+                        <ul>
+                          <li>140 Servings <a href="#info" id="4wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+                          <li><strong>FREE</strong> Shipping</li>
+                          <li>10 Items Sold Out After Crisis Report</li>
+                          <li>Water Survival Guide Report</li>
+                          <li>How to Cut Your Grocery Bills Report</li>
+                          <li>Survival Garden Guide Report</li>
+                        </ul>
+					</div>
                     
                   </div>
                 </div>
@@ -89,6 +113,32 @@ include_once ('template-top.php');
                 <div id="chooseProductThree" class="panel-collapse collapse in">
                   <div class="panel-body">
                     <img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block">
+                    <div class="container nopadding">
+                        <div class="row">    
+                        	<div class="col-sm-12 col-md-5 nopadding">
+                            	<div class="productList">
+									<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+									<ul>
+                                      <li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+                                      <li><strong>FREE</strong> Shipping</li>
+                                      <li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+                                      <li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+									</ul>
+								</div>
+                            </div>  	
+                            <div class="col-sm-12 col-md-7 nopadding">
+                            	<div class="productList">
+									<p class="text-center red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
+									<ul>
+                                        <li>10 Items Sold Out After Crisis Report</li>
+                                        <li>Water Survival Guide Report</li>
+                                        <li>How to Cut Your Grocery Bills Report</li>
+                                        <li>Survival Garden Guide Report</li>
+									</ul>
+								</div>
+                            </div>
+                        </div>
+                    </div>
                     <img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" alt=""/>
                   </div>
                 </div>
@@ -119,7 +169,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 	</div>
 	</div>
   
-  <div class="row">      	
+	<div class="row">      	
         <div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
 		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" /></div>
@@ -145,51 +195,59 @@ $('#accordion > .panel').on('show.bs.collapse', function (e) {
 $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 		$(this).find('.panel-heading').removeClass('active-panel');
 });
-$(document).ready(function () {
-	$("#extcordPopover").popover({
-		html:true,
-		trigger: 'hover',
-		title:"25 Foot Extension Cord",
-		content: "<img src=/media/images/ppg/ppg-bonus-cord-01.jpg>"
+	$(document ).ready(function () {
+		$("#72hPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"72 Hour Kit May Include:",
+			content: function() {
+				return $('#72h').html();
+			},
 		});
-	
-});
-$(document).ready(function () {
-	$("#72hrPopover").popover({
-		html:true,
-		trigger: 'hover',
-		title:"The 72 Hour Kit May Include:",
-		content: "<img src=/media/images/ppg/ppg-bonus-72hr-01.jpg>"
+
+	});
+	$(document ).ready(function () {
+		$("#4wkPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"4 Week Kit May Include:",
+			content: function() {
+				return $('#4wk').html();
+			},
 		});
-	
-});
-$(document).ready(function () {
-	$("#strawPopover").popover({
-		html:true,
-		trigger: 'hover',
-		title:"LifeStraw Personal Water Filter",
-		content: "<img src=/media/images/ppg/ppg-bonus-straw-01.jpg>"
+
+	});
+	$(document ).ready(function () {
+		$("#3mkPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"3 Month Kit May Include:",
+			content: function() {
+				return $('#3mk').html();
+			},
 		});
-	
-});
-$(document).ready(function () {
-	$("#toolPopover").popover({
-		html:true,
-		trigger: 'hover',
-		title:"11-in-1 Survival Tool",
-		content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
+
+	});
+	$(document ).ready(function () {
+		$("#toolPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"11-in-1 Survival Tool",
+			content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
 		});
-	
-});
-$(document).ready(function () {
-	$("#cardsPopover").popover({
-		html:true,
-		trigger: 'hover',
-		title:"Slash Your Power Bill Playing Cards",
-		content: "<img src=/media/images/ppg/ppg-bonus-cards-01.jpg>"
+
+	});
+	$(document ).ready(function () {
+		$("#seedsPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"Liberty Seed Vault",
+			content: function() {
+				return $('#lsv').html();
+			},
 		});
-	
-});
+
+	});
 $(document).ready(function () {
 	if(isMobile() === false) {
 		toggleAudio('frankCheckout');
@@ -211,5 +269,17 @@ $(document).ready(function () {
             <img class="img-responsive center-block" src="/media/images/ppg/ppg-product-checkout-02.jpg">
 		</div>
 	</div>
+</div>
+<div id="72h" style="display:none;">
+	<?php include_once("f4p-product-info-72hr.html"); ?>
+</div>
+<div id="4wk" style="display:none;">
+	<?php include_once("f4p-product-info-4wk.html"); ?>
+</div>
+<div id="3mk" style="display:none;">
+	<?php include_once("f4p-product-info-3mk.html"); ?>
+</div>
+<div id="lsv" style="display:none;">
+	<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
 </div>
 <?php include_once ('template-bottom.php'); ?>
