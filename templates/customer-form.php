@@ -5,44 +5,64 @@ if($_SESSION["soldout"]["flag"] === true) {
 ?>
 <script>
 	function setStateTax() {
-		//TODO get tax values from tax class
-		//TODO move this entire block to a php include / not a js include
-		taxCountry = document.getElementById('billing-country').value.toLowerCase();
-		if(taxCountry == "us") {
-			shippingCost = <?php echo $productDataObj->shippingCostDomestic;?>;
-		} else {
-			shippingCost = <?php echo $productDataObj->shippingCostInternational;?>;
-		}
-		shippingAmount = document.getElementById('shippingAmount');
-		if(shippingAmount > 0) {
-			shippingAmount.innerHTML = "$" + shippingCost.toFixed(2);
-		} else {
-			shippingAmount.innerHTML = "FREE";
-		}
+		pId = document.getElementById("productId").value;
+		/*
+		TODO Refactor uses of api library in FFP to use global 4Patriots API (when available)
+		FFP-242 (original Jira issue)
+		*/
+		$.get("/api/product.php?pId=" + pId,function(data,status){
+			jsProductObj = JSON.parse(data);
+			taxCountry = document.getElementById('billing-country').value.toLowerCase();
+			if(taxCountry == "us") {
+				shippingCost = jsProductObj.shippingCostDomestic;
+			} else {
+				shippingCost = jsProductObj.shippingCostInternational;
+			}
+			shippingAmount = document.getElementById('shippingAmount');
+			if(shippingCost > 0) {
+				shippingAmount.innerHTML = "$" + shippingCost.toFixed(2);
+			} else {
+				shippingAmount.innerHTML = "FREE";
+			}
+			/*
+			TODO get tax values from tax class
+			FFP-243 (original Jira issue)
+			note that the taxes are calculated differently per state
+			on one the tax calculation is based on just the item cost
+			in the other it is the item cost plus the shipping,
+			this means that we should move the calculation to the api
+			and out of this switch statement
+			 */
+			taxState = document.getElementById('billing-state').value.toLowerCase();
+			productPrice = jsProductObj.price;
+			priceAmount = document.getElementById("priceAmount");
+			priceAmount.innerHTML = "$" + productPrice.toFixed(2);
+			productTitle = document.getElementById("productTitle");
+			metaTitle = jsProductObj.metaTitle;
+			productTitle.innerHTML = metaTitle;
 
-		taxState = document.getElementById('billing-state').value.toLowerCase();
-		productPrice = <?php echo $productDataObj->price;?>;
-		taxAmount = document.getElementById('taxAmount');
-		totalAmount = document.getElementById('totalAmount');
-		switch(taxState) {
-			case "tennessee":
-				tennesseeTax = (productPrice + shippingCost ) * .0925;
-				taxAmount.innerHTML = "$" + tennesseeTax.toFixed(2);
-				totalAmount.innerHTML = "$" + (productPrice + tennesseeTax + shippingCost).toFixed(2);
-				toggleTaxRow("show");
-				break;
-			case "arizona":
-				arizonaTax = productPrice * .0810;
-				taxAmount.innerHTML = "$" + arizonaTax.toFixed(2);			
-				totalAmount.innerHTML = "$" + (productPrice + arizonaTax + shippingCost).toFixed(2);
-				toggleTaxRow("show");
-				break;
-			default:
-				taxAmount.innerHTML = "$0.00";
-				totalAmount.innerHTML = "$" + (productPrice + shippingCost).toFixed(2);
-				toggleTaxRow("hide");
-				break;
-		}
+			taxAmount = document.getElementById('taxAmount');
+			totalAmount = document.getElementById('totalAmount');
+			switch(taxState) {
+				case "tennessee":
+					tennesseeTax = (productPrice + shippingCost ) * .0925;
+					taxAmount.innerHTML = "$" + tennesseeTax.toFixed(2);
+					totalAmount.innerHTML = "$" + (productPrice + tennesseeTax + shippingCost).toFixed(2);
+					toggleTaxRow("show");
+					break;
+				case "arizona":
+					arizonaTax = productPrice * .0810;
+					taxAmount.innerHTML = "$" + arizonaTax.toFixed(2);
+					totalAmount.innerHTML = "$" + (productPrice + arizonaTax + shippingCost).toFixed(2);
+					toggleTaxRow("show");
+					break;
+				default:
+					taxAmount.innerHTML = "$0.00";
+					totalAmount.innerHTML = "$" + (productPrice + shippingCost).toFixed(2);
+					toggleTaxRow("hide");
+					break;
+			}
+		});
 	
 	}
 	
@@ -75,6 +95,7 @@ if($_SESSION['errorMessage'] != '') {
 ?>
 
     <form role="form" action="/checkout/process.php" method="post" accept-charset="utf-8" id="billing-form">
+	    <input type="hidden" name="productId" id="productId" value="<?php echo $productDataObj->productId;?>" onchange="setStateTax();">
       <div class="form-group">
         <label for="firstName">First Name:</label>
         <input type="text" class="form-control" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
@@ -202,28 +223,11 @@ if($_SESSION['errorMessage'] != '') {
       <div id="productInfo">
       <div class="row">
       	<div class="col-xs-2"><strong>Item:</strong></div>
-        <div class="col-xs-10"><?php echo $productDataObj->metaTitle;?></div>
+        <div class="col-xs-10" id="productTitle"></div>
       </div>
       <div class="row">
       	<div class="col-xs-2"><strong>Price:</strong></div>
-        <div class="col-xs-10">
-<?php
-    	$oldPrice = $productDataObj->originalPrice;
-		$newPrice = $productDataObj->price;
-    	if($oldPrice > $newPrice) {
-    		echo "<span class='stike01'>$";
-			echo number_format($productDataObj->originalPrice, 2, ".", "");
-			echo "</span>&nbsp;&nbsp;";
-			echo "<span class='red01'>$";
-			echo number_format($productDataObj->price, 2, ".", "");
-			echo "</span>";
-    	} else {
- 			echo "<span class='red01'>$";
-			echo number_format($productDataObj->price, 2, ".", "");
-			echo "</span>";
-    	}
-?>        
-        </div>
+        <div class="col-xs-10" id="priceAmount"></div>
       </div>
       <div class="row">
       	<div class="col-xs-2"><strong>S&amp;H:</strong></div>
@@ -231,11 +235,11 @@ if($_SESSION['errorMessage'] != '') {
       </div>
       <div id="taxRow" class="row">
       	<div class="col-xs-2"><strong>Tax:</strong></div>
-        <div id="taxAmount" class="col-xs-10 show">$0.00</div>
+        <div id="taxAmount" class="col-xs-10 show"></div>
       </div>
       <div class="row">
       	<div class="col-xs-2"><strong>Total:</strong></div>
-        <div id="totalAmount" class="col-xs-10">$<?php echo number_format($productDataObj->price, 2, ".", ","); ?> USD (One Time)</div>
+        <div id="totalAmount" class="col-xs-10">$</div>
       </div>
       
       </div><!-- *PRODUCT INFO -->

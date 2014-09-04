@@ -26,7 +26,38 @@ include_once ('template-top.php');
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?> 
 <script src="/js/audio.js"></script>
-
+<script>
+	/*
+	This function works in parallel with the setStateTax() function found in the
+	/templates/customer-form.php file
+	by changing the productId on the form, and then triggering setStateTax()
+	the form is recalculated based on an ajax call using the new productId
+	*/
+	function switchProduct(what) {
+		document.getElementById("72hr").checked = false;
+		document.getElementById("4week").checked = false;
+		document.getElementById("3month").checked = false;
+		document.getElementById(what).checked = true;
+		switch (what) {
+			case "72hr":
+				productId = 17;
+				break;
+			case "4week":
+				productId = 18;
+				break;
+			case "3month":
+				productId = 19;
+				break;
+			default:
+				console.log("switchProduct() did not receive a valid 'what'.");
+				break;
+		}
+		if(productId) {
+			document.getElementById("productId").value = productId;
+			setStateTax();
+		}
+	}
+</script>
 <div class="container-main">
 
 <div class="container">
@@ -44,7 +75,7 @@ include_once ('template-top.php');
 			}
 			?>
 		</div>
-		
+
 	<!--START CHOOSE PRODUCT ACCORDIAN-->      
       <div id="checkoutMenu" class="row">
         <div class="col-lg-12">
@@ -53,7 +84,7 @@ include_once ('template-top.php');
                 <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne">
                 <div class="panel-heading">
                   <h4 class="panel-title">       
-                      <div><input name="72hr" type="checkbox" id="72hr" onclick="" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
+                      <div onclick="switchProduct('72hr');"><input name="72hr" type="checkbox" id="72hr" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
                   </h4>
                 </div>
                 </a>
@@ -79,7 +110,7 @@ include_once ('template-top.php');
                 <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo">
                 <div class="panel-heading">
                   <h4 class="panel-title">       
-                      <div><input name="4week" type="checkbox" id="4week" onclick="" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+                      <div onclick="switchProduct('4week');"><input name="4week" type="checkbox" id="4week" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
                   </h4>
                 </div>
                 </a>
@@ -106,7 +137,7 @@ include_once ('template-top.php');
                 <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
                 <div class="panel-heading">
                   <h4 class="panel-title">             
-                      <div><input name="3month" type="checkbox" id="3month" checked onclick="" style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+                      <div onclick="switchProduct('3month');"><input name="3month" type="checkbox" id="3month" checked style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
                   </h4>
                 </div>
                 </a>
