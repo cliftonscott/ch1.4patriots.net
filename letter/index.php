@@ -1,10 +1,4 @@
 <?php
-/*
- * temporary redirect while sold out
- */
-header("Location: /checkout/index.php");
-exit;
-
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;

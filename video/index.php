@@ -87,10 +87,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 </script>
 <script> 
-if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1) || (navigator.userAgent.indexOf('iPad') != -1) || (screen.width <= 699)) {
-
-document.location = "<?php echo $productDataObj->mobileLink ?>"; }
-
+if (isMobile()) {
+	document.location = "<?php echo $productDataObj->mobileLink ?>"; }
 </script>
 <div class="container subheader"></div>
 <div class="container-main">
