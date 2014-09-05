@@ -113,7 +113,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 	  </form>
 	  <div class="noThanks">
-		<a href="/checkout/thakyou.php" onClick="_gaq.push(['_trackEvent', 'upsell3-alliance', 'alliance-trial-decline', 'no-thanks-link',0, false]);">No Thanks</a> – I want to give up this opportunity.<br>
+		<a href="/checkout/thankyou.php" onClick="_gaq.push(['_trackEvent', 'upsell3-alliance', 'alliance-trial-decline', 'no-thanks-link',0, false]);">No Thanks</a> – I want to give up this opportunity.<br>
                 I understand that I will not receive this special offer again.
             </div>
             
