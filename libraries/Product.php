@@ -68,7 +68,7 @@ class Product {
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 18;
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 110;
+				$productObj->netRevenueEach = 115;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "4WKIT";
@@ -108,9 +108,6 @@ class Product {
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				$productObj->nextPage = "/checkout/oto/f4p-oto-1year.php";
 				break;
-			case 21:
-				//is this id new?
-				break;
 			case 22: // 4WEEK DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
@@ -127,7 +124,7 @@ class Product {
 				$productObj->price = 147;
 				$productObj->originalPrice = 197;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 65;
+				$productObj->netRevenueEach = 67;
 				$productObj->googleProductName = "F4P-4WK";
 				$productObj->googleProductSKU = "PID22";
 				$productObj->googleProductCategory = "1-PAY-147-DISCOUNT";
@@ -170,7 +167,7 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
-			case 27: // 3MONTH DISCOUNT KIT
+			case 27: // FREEFOOD
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/oto/f4p-oto-d.php";
@@ -214,7 +211,7 @@ class Product {
 				$productObj->price = 1997;
 				$productObj->originalPrice = 1997;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 952;
+				$productObj->netRevenueEach = 950;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSKU = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
@@ -243,7 +240,7 @@ class Product {
 				$productObj->price = 597;
 				$productObj->originalPrice = 597;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 411;
+				$productObj->netRevenueEach = 525;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSKU = "PID120";
 				$productObj->googleProductCategory = "3-PAY-597";
