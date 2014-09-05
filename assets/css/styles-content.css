@@ -204,6 +204,20 @@ article.content .effective-date {
 	float:right;
 	cursor:pointer;
 }
+
+/* Countdown timer on video/index page
+-------------------------------------------------- */
+#countDownTimer {
+    clear:both;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 25px;
+    font-size:4em;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+    color:#333333;
+}
+
 /* CHECKOUT PAGE STYLES 
 -------------------------------------------------- */
 .guaranteeBox p {margin:0px;}
