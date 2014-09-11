@@ -31,7 +31,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>These aren't ordinary seeds... these are heirloom, non-genetically modified &ldquo;super survival seeds&rdquo; that are open-pollinated and can be grown, harvested, and replanted endlessly!</p>
 			<p>Get over 150 Rutgers Tomato Survival Seeds&nbsp;<strong>FREE</strong>&nbsp;while supplies last!</p>
           
-			<ul class="fa-ul">
+			<ul class="fa-ul margin-b-16">
 				<li><i class="fa-li fa fa-check"></i>150+ survival seeds packed in a special triple-layered, re-sealable, re-usable Mylar packet designed to significantly increase the shelf life and viability of your heritage seeds.</li>
 				<li><i class="fa-li fa fa-check"></i>The legendary Rutgers Tomato is an heirloom variety introduced in the 1930s and famous for its delicious taste, abundant nutrition and high germination rates.</li>
 				<li><i class="fa-li fa fa-check"></i>100% Non-GMO, open-pollinated seeds from proud American farmers that you can harvest and plant endlessly. </li>

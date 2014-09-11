@@ -67,7 +67,7 @@ Anti-Hoarding Law Sparks Food Riots</h2>
             <h2 class="darkRed text-center">Food Crisis Warning Sign #3: Once-in-a-Century  Super-Storms, Solar Flares and Asteroid Collisions </h2>
             <p><img src="/media/images/misc/img-disasters.jpg" alt="Disasters" class="img-padding-left pull-right img-responsive media" />Natural disasters have been on the rise in the United States and all over the world. It&rsquo;s like Mother Nature has been going haywire. Each and every event has the potential to disrupt your food – even if you live in a major city. </p>
             <p>But even knowing that, most people think something like this could quote &ldquo;never happen to them&rdquo;. That&rsquo;s just not the case – just look at some of the disasters of the past few years:</p>
-            <ul>
+            <ul class="margin-b-16">
               <li>Hurricane Sandy completely crippled New York City. Forcing even quote &ldquo;well off&rdquo; residents to go dumpster diving to feed their children. Some people who couldn&rsquo;t make it to FEMA camps thought they were going to starve and nearly did without food and power in cold times.</li>
               <li>Earthquakes rocked Haiti and Chile killing over 300,000 people and making food a rare commodity. (The scary part is the United States has 5 major fault lines that could fracture the country into pieces if a large earthquake struck. I&rsquo;m not so sure the rest of the world would come to our aid like we did in Haiti…)</li>
               <li>And the largest X class solar flare in years silently struck China and crippled their communications. But that&rsquo;s not the worst of it: it jolted their power grids and could do the exact same thing to the United States.</li>
@@ -89,7 +89,7 @@ Anti-Hoarding Law Sparks Food Riots</h2>
             <p>This is something you&rsquo;ve probably noticed in your area. Before a big storm do people start to panic?  All of a sudden is it near-impossible to find bread, milk or bottled water for miles?  If so, you know that in situations like that shelves can be stripped completely bare in minutes.</p>
             <p>Now I&rsquo;ve got to admit: When I stopped to look at these 4 food crisis warning signs it all seemed like too much to handle.</p>
             <p>When I looked at these elements plus all the other threats like </p>
-            <ul>
+            <ul class="margin-b-16">
               <li><strong>Terrorist attacks, </strong></li>
               <li><strong>Food poisoning </strong></li>
               <li><strong>And all out war between North Korea, Iran or even China </strong></li>
@@ -110,10 +110,10 @@ Anti-Hoarding Law Sparks Food Riots</h2>
             <p>It sounds harsh, but the truth is most people are giving themselves a false sense of security.</p>
             <p>Maybe it&rsquo;s by…<br>
             </p>
-            <ul>
-              <li class="ulchecked">Buying MREs with a 5 year shelf life (depending on where you buy them from they could be near expired)…</li>
-              <li class="ulchecked">Getting gross survival foods that are tough to stomach and so high in salt, MSG and preservatives you could clog your arteries and make you sick…</li>
-              <li class="ulchecked">Or simply buying the wrong foods and leaving a critical hole in your meal plan which means your family can become malnourished…</li>
+            <ul class="fa-ul margin-b-16">
+              <li><i class="fa-li fa fa-check"></i> Buying MREs with a 5 year shelf life (depending on where you buy them from they could be near expired)…</li>
+              <li><i class="fa-li fa fa-check"></i> Getting gross survival foods that are tough to stomach and so high in salt, MSG and preservatives you could clog your arteries and make you sick…</li>
+              <li><i class="fa-li fa fa-check"></i> Or simply buying the wrong foods and leaving a critical hole in your meal plan which means your family can become malnourished…</li>
             </ul>
             <p>The bottom line is if you make any of the million-and-one mistakes while you&rsquo;re designing your food stockpile, your family won&rsquo;t just pay for it with unhealthy eating…</p>
             <p>It can cripple their hope.</p>
