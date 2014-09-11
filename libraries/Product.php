@@ -56,7 +56,7 @@ class Product {
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-oto-a.php";
+				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-a.php";
 				break;
 			case 18: //additional product
 				$productObj->pmaSku = null;
@@ -81,7 +81,7 @@ class Product {
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-oto-b.php";
+				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-b.php";
 				break;
 			case 19: //main product - 3 Month Kit
 				$productObj->pmaSku = null;
@@ -106,12 +106,12 @@ class Product {
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-oto-1year.php";
+				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
 				break;
 			case 22: // 4WEEK DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/oto/f4p-rutgers.php";
+				$productObj->nextPage = "/checkout/oto/f4p-seeds-rutgers.php";
 				$productObj->listId = 35;
 				$productObj->tags = "4WKITUP";
 				$productObj->shippingIdDomestic = 8;
@@ -141,7 +141,7 @@ class Product {
 			case 23: // 3MONTH DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/registration/thankyou.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "3MKITUP";
 				$productObj->shippingIdDomestic = 8;
@@ -170,7 +170,7 @@ class Product {
 			case 27: // FREEFOOD
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/oto/f4p-oto-d.php";
+				$productObj->nextPage = "/checkout/oto/f4p-choose-3m-4w-kit.php";
 				$productObj->listId = 42;
 				$productObj->tags = "FREEFOOD";
 				$productObj->shippingIdDomestic = 20;
@@ -199,7 +199,7 @@ class Product {
 			case 40: // 1YEAR KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/registration/thankyou.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "1YRKIT";
 				$productObj->shippingIdDomestic = 8;
@@ -228,7 +228,7 @@ class Product {
 			case 120: // 1YEAR KIT 3 PAYMENTS $597
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/registration/thankyou.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "1YRKIT3PAYMENT";
 				$productObj->shippingIdDomestic = 8;
@@ -280,6 +280,122 @@ class Product {
 				$productObj->taxable = TRUE;
 				$productObj->defaultQuantity = 1;
 				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 7: //Liberty Seed Vault
+				//process file
+				$productObj->campaignId = 6;
+				$productObj->nextPage = "/checkout/oto/f4p-seeds-bogo.php";
+				$productObj->listId = 18;
+				$productObj->tags = "f4pseeds";
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 7;
+				//Limelight
+				$productObj->price = 67;
+				$productObj->originalPrice = 67;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 43;
+				$productObj->googleProductName = "SS4P-LSV";
+				$productObj->googleProductSKU = "PID7";
+				$productObj->googleProductCategory = "1-PAY-67";
+				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
+				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 8: //Liberty Seed Vault BOGO
+				//process file
+				$productObj->campaignId = 6;
+				$productObj->nextPage = "/checkout/oto/f4p-messenger-trial.php";
+				$productObj->listId = 25;
+				$productObj->tags = "f4pseeds2";
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 8;
+				//Limelight
+				$productObj->price = 67;
+				$productObj->originalPrice = 67;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 33;
+				$productObj->googleProductName = "SS4P-LSV";
+				$productObj->googleProductSKU = "PID8";
+				$productObj->googleProductCategory = "BOGO";
+				$productObj->metaTitle = "Liberty Seed Vault Buy 1 More Get 1 More Free";
+				$productObj->metaDescription = "Liberty Seed Vault Buy 1 More Get 1 More Free";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 39: //Patriot Alliance Messenger Trial
+				//process file
+				$productObj->campaignId = 4;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = 43;
+				$productObj->tags = "boughtpamtrial";
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = null;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 19.95;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 25;
+				$productObj->googleProductName = "PA-MESSENGER";
+				$productObj->googleProductSKU = "PID39";
+				$productObj->googleProductCategory = "30-DAY-TRIAL";
+				$productObj->metaTitle = "Patriot Alliance Messenger Trial Subscription";
+				$productObj->metaDescription = "Patriot Alliance Messenger Trial Subscription";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (31); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 31: //Patriot Alliance Messenger Trial Bonuses
+				//process file
+				$productObj->campaignId = 5;
+				$productObj->nextPage = null;
+				$productObj->listId = null;
+				$productObj->tags = null;
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = null;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 0;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = null;
+				$productObj->googleProductSKU = null;
+				$productObj->googleProductCategory = null;
+				$productObj->metaTitle = null;
+				$productObj->metaDescription = null;
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = TRUE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
