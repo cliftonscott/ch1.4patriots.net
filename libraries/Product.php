@@ -19,7 +19,7 @@ class Product {
 	
 	function getProduct($productId) {
 
-		// is #21 new? isn't in old process file
+		// is #21 new? isn't in old process file 
 		
 		$productObj = new stdClass();
 
@@ -33,7 +33,65 @@ class Product {
 		$productObj->productId = intval($productId);
 		switch($productObj->productId) {
 
-			case 17: //additional product
+			case 7: //Liberty Seed Vault
+				//process file
+				$productObj->campaignId = 6;
+				$productObj->nextPage = "/checkout/oto/f4p-seeds-bogo.php";
+				$productObj->listId = 18;
+				$productObj->tags = "f4pseeds";
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 7;
+				//Limelight
+				$productObj->price = 67;
+				$productObj->originalPrice = 67;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 43;
+				$productObj->googleProductName = "SS4P-LSV";
+				$productObj->googleProductSKU = "PID7";
+				$productObj->googleProductCategory = "1-PAY-67";
+				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
+				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 8: //Liberty Seed Vault BOGO
+				//process file
+				$productObj->campaignId = 6;
+				$productObj->nextPage = "/checkout/oto/f4p-messenger-trial.php";
+				$productObj->listId = 25;
+				$productObj->tags = "f4pseeds2";
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 8;
+				//Limelight
+				$productObj->price = 67;
+				$productObj->originalPrice = 67;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 33;
+				$productObj->googleProductName = "SS4P-LSV";
+				$productObj->googleProductSKU = "PID8";
+				$productObj->googleProductCategory = "BOGO";
+				$productObj->metaTitle = "Liberty Seed Vault Buy 1 More Get 1 More Free";
+				$productObj->metaDescription = "Liberty Seed Vault Buy 1 More Get 1 More Free";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 17: //main product - 72 Hour Kit
 				$productObj->pmaSku = null;
 				$productObj->price = 27;
 				$productObj->originalPrice = 27;
@@ -58,7 +116,7 @@ class Product {
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-a.php";
 				break;
-			case 18: //additional product
+			case 18: //main product - 4 Week Kit
 				$productObj->pmaSku = null;
 				$productObj->price = 197;
 				$productObj->originalPrice = 197;
@@ -196,6 +254,64 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+			case 31: //Patriot Alliance Messenger Trial Bonuses
+				//process file
+				$productObj->campaignId = 5;
+				$productObj->nextPage = null;
+				$productObj->listId = null;
+				$productObj->tags = null;
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = null;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 0;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = null;
+				$productObj->googleProductSKU = null;
+				$productObj->googleProductCategory = null;
+				$productObj->metaTitle = null;
+				$productObj->metaDescription = null;
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = TRUE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 39: //Patriot Alliance Messenger Trial
+				//process file
+				$productObj->campaignId = 4;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = 43;
+				$productObj->tags = "boughtpamtrial";
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = null;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 19.95;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 25;
+				$productObj->googleProductName = "PA-MESSENGER";
+				$productObj->googleProductSKU = "PID39";
+				$productObj->googleProductCategory = "30-DAY-TRIAL";
+				$productObj->metaTitle = "Patriot Alliance Messenger Trial Subscription";
+				$productObj->metaDescription = "Patriot Alliance Messenger Trial Subscription";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (31); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 			case 40: // 1YEAR KIT
 				//process file
 				$productObj->campaignId = 9;
@@ -283,122 +399,9 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
-			case 7: //Liberty Seed Vault
-				//process file
-				$productObj->campaignId = 6;
-				$productObj->nextPage = "/checkout/oto/f4p-seeds-bogo.php";
-				$productObj->listId = 18;
-				$productObj->tags = "f4pseeds";
-				$productObj->shippingIdDomestic = 7;
-				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = 0;
-				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 7;
-				//Limelight
-				$productObj->price = 67;
-				$productObj->originalPrice = 67;
-				//GA Naming Wiki
-				$productObj->netRevenueEach = 43;
-				$productObj->googleProductName = "SS4P-LSV";
-				$productObj->googleProductSKU = "PID7";
-				$productObj->googleProductCategory = "1-PAY-67";
-				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
-				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
-				//Other
-				$productObj->pmaSku = null;
-				$productObj->taxable = TRUE;
-				$productObj->defaultQuantity = 1;
-				$productObj->isBonus = FALSE;
-				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
-				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				break;
-			case 8: //Liberty Seed Vault BOGO
-				//process file
-				$productObj->campaignId = 6;
-				$productObj->nextPage = "/checkout/oto/f4p-messenger-trial.php";
-				$productObj->listId = 25;
-				$productObj->tags = "f4pseeds2";
-				$productObj->shippingIdDomestic = 7;
-				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = 0;
-				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 8;
-				//Limelight
-				$productObj->price = 67;
-				$productObj->originalPrice = 67;
-				//GA Naming Wiki
-				$productObj->netRevenueEach = 33;
-				$productObj->googleProductName = "SS4P-LSV";
-				$productObj->googleProductSKU = "PID8";
-				$productObj->googleProductCategory = "BOGO";
-				$productObj->metaTitle = "Liberty Seed Vault Buy 1 More Get 1 More Free";
-				$productObj->metaDescription = "Liberty Seed Vault Buy 1 More Get 1 More Free";
-				//Other
-				$productObj->pmaSku = null;
-				$productObj->taxable = TRUE;
-				$productObj->defaultQuantity = 1;
-				$productObj->isBonus = FALSE;
-				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
-				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				break;
-			case 39: //Patriot Alliance Messenger Trial
-				//process file
-				$productObj->campaignId = 4;
-				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = 43;
-				$productObj->tags = "boughtpamtrial";
-				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 21;
-				$productObj->shippingCostDomestic = 0;
-				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = null;
-				//Limelight
-				$productObj->price = 0;
-				$productObj->originalPrice = 19.95;
-				//GA Naming Wiki
-				$productObj->netRevenueEach = 25;
-				$productObj->googleProductName = "PA-MESSENGER";
-				$productObj->googleProductSKU = "PID39";
-				$productObj->googleProductCategory = "30-DAY-TRIAL";
-				$productObj->metaTitle = "Patriot Alliance Messenger Trial Subscription";
-				$productObj->metaDescription = "Patriot Alliance Messenger Trial Subscription";
-				//Other
-				$productObj->pmaSku = null;
-				$productObj->taxable = TRUE;
-				$productObj->defaultQuantity = 1;
-				$productObj->isBonus = FALSE;
-				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
-				$productObj->bonusIds = array (31); //set this as a single integer in an array (1) or a string of integers (123,456)
-				break;
-			case 31: //Patriot Alliance Messenger Trial Bonuses
-				//process file
-				$productObj->campaignId = 5;
-				$productObj->nextPage = null;
-				$productObj->listId = null;
-				$productObj->tags = null;
-				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 21;
-				$productObj->shippingCostDomestic = 0;
-				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = null;
-				//Limelight
-				$productObj->price = 0;
-				$productObj->originalPrice = 0;
-				//GA Naming Wiki
-				$productObj->netRevenueEach = 0;
-				$productObj->googleProductName = null;
-				$productObj->googleProductSKU = null;
-				$productObj->googleProductCategory = null;
-				$productObj->metaTitle = null;
-				$productObj->metaDescription = null;
-				//Other
-				$productObj->pmaSku = null;
-				$productObj->taxable = TRUE;
-				$productObj->defaultQuantity = 1;
-				$productObj->isBonus = TRUE;
-				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
-				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				break;
+			
+			
+			
 
 		}
 		return $productObj;	
