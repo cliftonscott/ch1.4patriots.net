@@ -1,5 +1,6 @@
 <?php
 $firstName = $_SESSION["customerDataArray"]["firstName"];
+$shippingCity = $_SESSION["customerDataArray"]["shippingCity"];
 // SET PRODUCT ID
 $_SESSION['productId'] = 22; //please keep as an integer
 $_SESSION['quantity'] = '1';
