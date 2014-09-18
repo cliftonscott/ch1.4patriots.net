@@ -1,5 +1,10 @@
 <?php
-$firstName = $_SESSION["customerDataArray"]["firstName"];
+if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
+	$firstName = $_SESSION["customerDataArray"]["firstName"];
+	$_SESSION['upsell'] = TRUE; //must stay a boolean
+} else {
+	$firstName = "Fellow Patriot";
+}
 // SET PRODUCT ID
 $_SESSION['productId'] = 120; //please keep as an integer
 $_SESSION['quantity'] = '1';
@@ -52,6 +57,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<h3 class="text-center darkRed">$597 Today Plus 2 Monthly Payments Of $597 Later</h3>
             
 		<div>
+<?php
+if($isUpgrade) {
+	include_once("customer-upgrade-form.php");
+} else {
+	?>
         <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 			<div class="text-center center-block">
 				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="patriotTrack('no-payments-6-months');" />
@@ -71,7 +81,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<a href="/checkout/oto/f4p-3month-kit-discount.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
 					I understand that I will not receive this special offer again.
 				</div>
-            
+	<?php
+}
+	?>
 		</div>
                        
 	</div>
