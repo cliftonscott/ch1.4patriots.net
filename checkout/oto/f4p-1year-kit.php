@@ -1,9 +1,15 @@
 <?php
-$firstName = $_SESSION["customerDataArray"]["firstName"];
+if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
+	$firstName = $_SESSION["customerDataArray"]["firstName"];
+	$_SESSION['upsell'] = TRUE; //must stay a boolean
+} else {
+	$firstName = "Fellow Patriot";
+}
+
 // SET PRODUCT ID
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = '1';
-$_SESSION['upsell'] = TRUE; //must stay a boolean
+
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
@@ -169,7 +175,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
               
                 <a id="accept"></a>
-                
+				<?php
+				if($isUpgrade) {
+					include_once("customer-upgrade-form.php");
+				} else {
+				?>
                 <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
                     <div style="text-align:center;">
                         <input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-accept', 'click-to-accept-bottom');"/>
@@ -215,10 +225,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                     <a href="/checkout/oto/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up 
                     this opportunity.<br />I understand that I will not receive this special offer again.
                 </div>
-              
+					<?php
+					}
+					?>
 			</div>
-          
-          
 </div>
 </div>
 <?php
