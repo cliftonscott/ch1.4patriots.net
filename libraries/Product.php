@@ -233,18 +233,18 @@ class Product {
 				$productObj->tags = "FREEFOOD";
 				$productObj->shippingIdDomestic = 20;
 				$productObj->shippingIdInternational = 21;
-				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostDomestic = 1.95;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 27;
 				//Limelight
 				$productObj->price = 0;
-				$productObj->originalPrice = 0;
+				$productObj->originalPrice = 9.95;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-72HRK";
 				$productObj->googleProductSKU = "PID27";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
-				$productObj->metaTitle = "Food4Patriots FREE Survival Food Offer";
+				$productObj->metaTitle = "Food4Patriots FREE Food Offer";
 				$productObj->metaDescription = "Food4Patriots FREE Survival Food Offer";
 				//Other
 				$productObj->pmaSku = null;
