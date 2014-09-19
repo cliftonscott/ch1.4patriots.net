@@ -1,4 +1,12 @@
 Redirect 301 /index.html https://stage.sf4p.4patriots.net/checkout/index.php
 IndexIgnore *
+RewriteEngine On
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteRule ^/order/index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /order/index.php [L]
+</IfModule>
 
 php_value auto_prepend_file "/var/www/vhosts/stage.sf4p.4patriots.net/includes/AUTO-PREPEND-STAGE.php"

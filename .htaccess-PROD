@@ -1,6 +1,14 @@
 Redirect 301 /index.html https://secure.patriotpowergenerator.com/index.php
 
 IndexIgnore *
+RewriteEngine On
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteRule ^/order/index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /order/index.php [L]
+</IfModule>
 
 #AuthUserFile /var/www/vhosts/secure.patriotpowergenerator.com/includes/.htpasswd
 #AuthGroupFile /dev/null
