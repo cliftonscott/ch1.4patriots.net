@@ -1,5 +1,10 @@
 <?php
-$firstName = $_SESSION["customerDataArray"]["firstName"];
+if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
+	$firstName = $_SESSION["customerDataArray"]["firstName"];
+	$_SESSION['upsell'] = TRUE; //must stay a boolean
+} else {
+	$firstName = "Fellow Patriot";
+}
 $shippingCity = $_SESSION["customerDataArray"]["shippingCity"];
 // SET PRODUCT ID
 $_SESSION['productId'] = 22; //please keep as an integer
@@ -72,19 +77,24 @@ Today And Save $50.00?</span></h1>
         <p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 4-Week Food4Patriots to your order today!</p>
       <p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
         <p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
-		
+<?php
+if($isUpgrade) {
+	include_once("customer-upgrade-form.php");
+} else {
+?>
 		<div>
 			<div class="text-center">
 				<a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			</div>
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-		  
 			<div class="noThanks">
-  				<a href="/checkout/oto/f4p-seeds-rutgers.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
-                I understand that I will not receive this special offer again.
-            </div>   
+				<a href="/checkout/oto/f4p-seeds-rutgers.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
+				I understand that I will not receive this special offer again.
+			</div>
 		</div>                      
-    
+<?php
+}
+?>
 	</div>
 </div>    
 
