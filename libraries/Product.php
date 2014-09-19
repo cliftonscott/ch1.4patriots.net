@@ -136,6 +136,7 @@ class Product {
 				$productObj->metaTitle = "Food4Patriots 4 Week Food Supply";
 				$productObj->metaDescription = "Food4Patriots 4 Week Food Supply";
 				$productObj->defaultQuantity = 1;
+				$productObj->defaultImage = "/media/images/f4p/f4p-4-week-kit-02.jpg";
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
@@ -188,6 +189,7 @@ class Product {
 				$productObj->googleProductCategory = "1-PAY-147-DISCOUNT";
 				$productObj->metaTitle = "Additional Food4Patriots 4 Week Food Supply $50 Off";
 				$productObj->metaDescription = "Additional Food4Patriots 4 Week Food Supply $50 Off";
+				$productObj->defaultImage = "/media/images/f4p/f4p-4-week-kit-02.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -217,6 +219,7 @@ class Product {
 				$productObj->googleProductCategory = "1-PAY-397-DISCOUNT";
 				$productObj->metaTitle = "Additional Food4Patriots 3 Month Food Supply $100 Off";
 				$productObj->metaDescription = "Additional Food4Patriots 3 Month Food Supply $100 Off";
+				$productObj->defaultImage = "/media/images/f4p/f4p-3-month-kit-02.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -332,7 +335,8 @@ class Product {
 				$productObj->googleProductSKU = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply";
-				$productObj->metaDescription = "Food4Patriots 1 Year Food Supply";
+				$productObj->metaDescription = "Foood4Patriots 1 Year Food Supply";
+				$productObj->defaultImage = "/media/images/f4p/f4p-1-year-tote-01.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -362,6 +366,7 @@ class Product {
 				$productObj->googleProductCategory = "3-PAY-597";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply 3 Payments";
 				$productObj->metaDescription = "Food4Patriots 1 Year Food Supply 3 Payments";
+				$productObj->defaultImage = "/media/images/f4p/f4p-1-year-tote-01.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;

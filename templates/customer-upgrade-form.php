@@ -8,6 +8,13 @@
 				<p>
 					<?php echo $productDataObj->metaDescription; ?>
 				</p>
+				<?php
+				if(!empty($productDataObj->defaultImage)) {
+					echo "<p><img src='";
+					echo $productDataObj->defaultImage;
+					echo "' style='width:100%;'></p>\n";
+				}
+				?>
 			</div>
 		</div>
 	</div>
