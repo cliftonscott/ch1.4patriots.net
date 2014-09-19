@@ -9,7 +9,6 @@ $shippingCity = $_SESSION["customerDataArray"]["shippingCity"];
 // SET PRODUCT ID
 $_SESSION['productId'] = 22; //please keep as an integer
 $_SESSION['quantity'] = '1';
-$_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
@@ -38,7 +37,11 @@ Today And Save $50.00?</span></h1>
 		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 		<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
 <?php
-if(!$isUpgrade) {
+if($isUpgrade) {
+	?>
+	<p class="text-center"><a href="#upgrade-form" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
+	<?php
+} else {
 	?>
 	<p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
 	<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
@@ -83,6 +86,7 @@ if(!$isUpgrade) {
         <p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
 <?php
 if($isUpgrade) {
+	echo "<a name='upgrade-form'></a>";
 	include_once("customer-upgrade-form.php");
 } else {
 ?>
