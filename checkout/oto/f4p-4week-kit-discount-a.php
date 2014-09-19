@@ -37,10 +37,14 @@ Today And Save $50.00?</span></h1>
 		<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an <strong>exclusive</strong> <strong>$50.00 discount (that 25% off) on the 4-week food supply kit</strong> <strong>if you act now</strong>. But this special sale offer is only for customers who have already purchased the 72-hour kit of Food4Patriots. If you&rsquo;re seeing this, then good news, you qualify!</p>
 		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 		<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
-        
+<?php
+if(!$isUpgrade) {
+	?>
         <p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
 		<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
-          </section>
+	<?php
+}
+	?>
             
 		<?php include("f4p-4week-glenbeck.html");?>
         
