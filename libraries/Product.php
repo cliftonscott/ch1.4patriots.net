@@ -335,7 +335,8 @@ class Product {
 				$productObj->googleProductSKU = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply";
-				$productObj->metaDescription = "Food4Patriots 1 Year Food Supply";
+				$productObj->metaDescription = "Foood4Patriots 1 Year Food Supply";
+				$productObj->defaultImage = "/media/images/f4p/f4p-1-year-tote-01.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -365,6 +366,7 @@ class Product {
 				$productObj->googleProductCategory = "3-PAY-597";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply 3 Payments";
 				$productObj->metaDescription = "Food4Patriots 1 Year Food Supply 3 Payments";
+				$productObj->defaultImage = "/media/images/f4p/f4p-1-year-tote-01.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
