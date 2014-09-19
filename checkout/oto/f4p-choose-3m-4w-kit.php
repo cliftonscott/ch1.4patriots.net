@@ -1,5 +1,7 @@
 <?php
 $firstName = $_SESSION["customerDataArray"]["firstName"];
+$_SESSION['upsell'] = TRUE; //must stay a boolean
+
 $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 // SET PRODUCT ID
 //$_SESSION['productId'] = 164; //please keep as an integer
@@ -303,7 +305,7 @@ Be For Well-Off Americans</h2>
 								<li><strong>FREE Shipping</strong></li>
 								<li><strong>4 FREE Digital Bonus Reports</strong></li>
 							</ul>
-                            
+
                             <!-- *PRODUCT INFO -->
                               <div id="productInfoOTO">
                               <div class="row">
@@ -330,9 +332,9 @@ Be For Well-Off Americans</h2>
                                 <div class="col-xs-2"><strong>Total:</strong></div>
                                 <div id="totalAmount_18" class="col-xs-10"></div>
                               </div>
-                              
+
                               </div><!-- *PRODUCT INFO -->
-                              	
+
                             <div class="text-center center-block">
                                 <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
                             </div>

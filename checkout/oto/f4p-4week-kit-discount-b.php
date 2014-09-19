@@ -1,10 +1,14 @@
 <?php
-$firstName = $_SESSION["customerDataArray"]["firstName"];
+if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
+	$firstName = $_SESSION["customerDataArray"]["firstName"];
+	$_SESSION['upsell'] = TRUE; //must stay a boolean
+} else {
+	$firstName = "Fellow Patriot";
+}
 $shippingCity = $_SESSION["customerDataArray"]["shippingCity"];
 // SET PRODUCT ID
 $_SESSION['productId'] = 22; //please keep as an integer
 $_SESSION['quantity'] = '1';
-$_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
@@ -31,11 +35,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an <strong>exclusive</strong> <strong>$50.00 discount (that 25% off) on the 4-week food supply kit</strong> <strong>if you act now</strong>. But this special sale offer is only for customers who have already purchased the 4-week kit of Food4Patriots. If you&rsquo;re seeing this, then good news, you qualify!</p>
 		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 		<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
-        
-        <p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-responsive center-block" /></a></p>
-		<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
-          </section>
-            
+
+<?php
+if($isUpgrade) {
+	?>
+	<p class="text-center"><a href="#upgrade-form" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-responsive center-block" /></a></p>
+	<?php
+} else {
+	?>
+	<p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-responsive center-block" /></a></p>
+	<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
+<?php
+}
+?>
 		<?php include("f4p-4week-glenbeck.html");?>
         
         <div class="text-center"><img src="/media/images/f4p/f4p-testimonials-06.png" class="img-responsive center-block" alt="Testimonial"/></div>
@@ -71,7 +83,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         <p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add another 4-Week Food4Patriots to your order today!</p>
       <p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
         <p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get another 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
-		
+<?php
+if($isUpgrade) {
+	echo "<a name='upgrade-form'></a>";
+	include_once("customer-upgrade-form.php");
+} else {
+	?>
       <div>
 			<div class="text-center">
 				<a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
@@ -83,7 +100,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 I understand that I will not receive this special offer again.
             </div>   
 	  </div>                      
-    
+	<?php
+}
+	?>
 	</div>
 </div>    
 
