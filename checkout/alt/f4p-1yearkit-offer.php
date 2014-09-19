@@ -50,22 +50,24 @@ include_once ('template-top.php');
 						<img src="/media/images/f4p/f4p-1-year-kit-02.jpg" class="img-responsive center-block">
 						<div class="container nopadding">
 							<div class="row">    
-								<div class="col-sm-12 col-md-5 nopadding">
+								<div class="col-sm-12 col-md-6 nopadding">
 								  <div class="productList">
-									<p class="text-center red17"><strong>1 Year Supply Includes:</strong></p>
+									<p class="text-center red17"><strong>1 Year Food <br>
+								    Supply Includes:</strong></p>
 									  <ul>
 										  <li>1,800 Servings <a href="#info" id="1yrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 										  <li><strong>FREE</strong> Shipping</li>
 										  <li><strong>4 FREE</strong> Survival Tools <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 										  <li><strong>4 FREE</strong> Seed Vaults <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-											<li><strong>4 FREE</strong> LifeStraw Filters <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+											<li><strong>4 FREE</strong> LifeStraw Filters <a href="#info" id="strawPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 											<li><strong>FREE</strong> Playing Cards</li>
 									  </ul>
 									</div>
 								</div> 
-								<div class="col-sm-12 col-md-7 nopadding">
+								<div class="col-sm-12 col-md-6 nopadding">
 								  <div class="productList">
-									<p class="text-center red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
+									<p class="text-center red17"><strong>FREE Hard Copy <br>
+								    Bonus Reports</strong></p>
 									  <ul>
 										  <li>Survival 101: How to Bug Out</li>
 											<li>Survive Urban Chaos</li>
@@ -128,24 +130,11 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 
 	});
 	$(document ).ready(function () {
-		$("#4wkPopover").popover({
+		$("#strawPopover").popover({
 			html:true,
 			trigger: 'hover',
-			title:"4 Week Kit May Include:",
-			content: function() {
-				return $('#4wk').html();
-			},
-		});
-
-	});
-	$(document ).ready(function () {
-		$("#3mkPopover").popover({
-			html:true,
-			trigger: 'hover',
-			title:"3 Month Kit May Include:",
-			content: function() {
-				return $('#3mk').html();
-			},
+			title:"4 LifeStraw Personal Water Filters:",
+			content: "<img src=/media/images/w4p/w4p-lifestraw-02.jpg>"
 		});
 
 	});
@@ -154,7 +143,7 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 			html:true,
 			trigger: 'hover',
 			title:"11-in-1 Survival Tool",
-			content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
+			content: "<img src=/media/images/f4p/multi-tool-02.jpg>"
 		});
 
 	});
@@ -162,7 +151,7 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 		$("#seedsPopover").popover({
 			html:true,
 			trigger: 'hover',
-			title:"Liberty Seed Vault",
+			title:"4 Liberty Seed Vaults",
 			content: function() {
 				return $('#lsv').html();
 			},
@@ -189,5 +178,7 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 <div id="1yr" style="display:none;">
 	<?php include_once("f4p-product-info-1yr.html"); ?>
 </div>
-
+<div id="lsv" style="display:none;">
+	<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
+</div>
 <?php include_once ('template-bottom.php'); ?>
