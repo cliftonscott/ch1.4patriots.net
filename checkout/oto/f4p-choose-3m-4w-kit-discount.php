@@ -1,10 +1,14 @@
 <?php
-$firstName = $_SESSION["customerDataArray"]["firstName"];
+if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
+	$firstName = $_SESSION["customerDataArray"]["firstName"];
+	$_SESSION['upsell'] = TRUE; //must stay a boolean
+} else {
+	$firstName = "Fellow Patriot";
+}
 $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 // SET PRODUCT ID
 $_SESSION['productId'] = 164; //please keep as an integer
 $_SESSION['quantity'] = '1';
-$_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
@@ -61,8 +65,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 <!--FORMS-->
 	  <div class="container">
 		  <div class="row">
-			  <div class="col-sm-12 col-md-6">
-				  <div class="rcBoxR15-red-dot-border">
+				  <div class="col-sm-12 col-md-6">
+					  <div class="rcBoxR15-red-dot-border">
 					  <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
 						  <input name="productId" type="hidden" value="22">
 						  <input id="taxState_22" type="hidden" value="<?php echo strtolower($billingStateName);?>">
@@ -74,7 +78,15 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							  <li><strong>FREE Shipping</strong></li>
 							  <li><strong>4 FREE Digital Bonus Reports</strong></li>
 						  </ul>
-
+<?php
+if($isUpgrade) {
+?>
+						<div class="text-center center-block">
+							<a href="/order/22"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+						</div>
+	<?php
+} else {
+	?>
 						  <!-- *PRODUCT INFO -->
 						  <div id="productInfoOTO">
 							  <div class="row">
@@ -98,61 +110,73 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								  <div id="totalAmount_22" class="col-xs-10"></div>
 							  </div>
 
-						  </div><!-- *PRODUCT INFO -->
-
-						  <div class="text-center center-block">
-							  <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
-						  </div>
+						</div><!-- *PRODUCT INFO -->
+						<div class="text-center center-block">
+							<input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+						</div>
+	<?php
+}
+	?>
 					  </form>
+					  </div>
 				  </div>
-			  </div>
-			  <div class="col-sm-12 col-md-6">
-				  <div class="rcBoxR15-red-dot-border">
-					  <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
-						  <input name="productId" type="hidden" value="23">
-						  <input id="taxState_23" type="hidden" value="<?php echo strtolower($billingStateName);?>">
-						  <input id="productData[23]" type="hidden" value="{'productId':23,'price':397,'shipping':0,'originalPrice':497}">
-						  <img src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit" class="img-responsive center-block" />
-						  <ul>
-							  <li><strong></strong>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-							  <li>$5 Per Day</li>
-							  <li><strong>FREE Shipping</strong></li>
-							  <li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-							  <li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-							  <li><strong>4 FREE <span class="underline">Hard Copy</span> Bonus Reports</strong></li>
-						  </ul>
+				<div class="col-sm-12 col-md-6">
+					<div class="rcBoxR15-red-dot-border">
+						<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
+							<input name="productId" type="hidden" value="23">
+							<input id="taxState_23" type="hidden" value="<?php echo strtolower($billingStateName);?>">
+							<input id="productData[23]" type="hidden" value="{'productId':23,'price':397,'shipping':0,'originalPrice':497}">
+							<img src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit" class="img-responsive center-block" />
+							<ul>
+								<li><strong></strong>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li>$5 Per Day</li>
+								<li><strong>FREE Shipping</strong></li>
+								<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>4 FREE <span class="underline">Hard Copy</span> Bonus Reports</strong></li>
+							</ul>
+<?php
+if($isUpgrade) {
+	?>
+	<div class="text-center center-block">
+		<a href="/order/23"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+	</div>
+<?php
+} else {
+	?>
+							<!-- *PRODUCT INFO -->
+							<div id="productInfoOTO">
+								<div class="row">
+									<div class="col-xs-2"><strong>Qty:</strong></div>
+									<div class="col-xs-10">1<input type="hidden" id="quantity_23" name="quantity" value="1"></div>
+								</div>
+								<div class="row">
+									<div class="col-xs-2"><strong>Price:</strong></div>
+									<div id="subTotal_23" class="col-xs-10"></div>
+								</div>
+								<div id="shippingRow_23" class="row">
+									<div class="col-xs-2"><strong>S&amp;H:</strong></div>
+									<div id="shippingAmount_23" class="col-xs-10 show"></div>
+								</div>
+								<div id="taxRow_23" class="row">
+									<div class="col-xs-2"><strong>Tax:</strong></div>
+									<div id="taxAmount_23" class="col-xs-10 show"></div>
+								</div>
+								<div class="row">
+									<div class="col-xs-2"><strong>Total:</strong></div>
+									<div id="totalAmount_23" class="col-xs-10"></div>
+								</div>
 
-						  <!-- *PRODUCT INFO -->
-						  <div id="productInfoOTO">
-							  <div class="row">
-								  <div class="col-xs-2"><strong>Qty:</strong></div>
-								  <div class="col-xs-10">1<input type="hidden" id="quantity_23" name="quantity" value="1"></div>
-							  </div>
-							  <div class="row">
-								  <div class="col-xs-2"><strong>Price:</strong></div>
-								  <div id="subTotal_23" class="col-xs-10"></div>
-							  </div>
-							  <div id="shippingRow_23" class="row">
-								  <div class="col-xs-2"><strong>S&amp;H:</strong></div>
-								  <div id="shippingAmount_23" class="col-xs-10 show"></div>
-							  </div>
-							  <div id="taxRow_23" class="row">
-								  <div class="col-xs-2"><strong>Tax:</strong></div>
-								  <div id="taxAmount_23" class="col-xs-10 show"></div>
-							  </div>
-							  <div class="row">
-								  <div class="col-xs-2"><strong>Total:</strong></div>
-								  <div id="totalAmount_23" class="col-xs-10"></div>
-							  </div>
-
-						  </div><!-- *PRODUCT INFO -->
-
-						  <div class="text-center center-block">
-							  <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
-						  </div>
-					  </form>
-				  </div>
-			  </div>
+							</div><!-- *PRODUCT INFO -->
+							<div class="text-center center-block">
+								<input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+							</div>
+<?php
+}
+?>
+						</form>
+					</div>
+				</div>
 		  </div>
 	  </div>
 <!--END FORMS-->
