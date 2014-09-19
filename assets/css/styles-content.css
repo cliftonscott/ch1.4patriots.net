@@ -27,6 +27,10 @@ h1 {
 	font-size: 17px;
 	color:#cc0000;
 }
+.red21 {
+	font-size: 21px;
+	color:#cc0000;
+}
 .caption {
 	margin-bottom: 10px !important;
 	margin-top: 5px !important;
@@ -94,6 +98,9 @@ article.content .effective-date {
 -------------------------------------------------- */
 .nopadding {
 	padding: 0px;
+}
+.nomargin {
+	margin: 0px;
 }
 .margin-tb-20{
 	margin-top: 20px !important;
