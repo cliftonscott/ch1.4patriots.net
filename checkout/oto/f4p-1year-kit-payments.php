@@ -53,7 +53,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div>
             <p><?php echo $firstName;?>, people often email me, letting me know they want to grab their 1-Year Food4Patriots kit (before it's too late).  The only reason they didn't is because of the price.  I don't think price should EVER get in the way of your family's security.		    </p>
             <p>So here's the deal...  I'm offering you a payment plan on the 1-Year Food4Patriots kit... just $597 today plus 2 more monthly payments of $597. It's the exact same kit, and I'll ship it to you right away (I know you're good for the 2 additional payments).</p>
-			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-1-year-tote-01.jpg" alt="1 Year Food4Patriots Food Kit"/></div>
+			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="1 Year Food4Patriots Food Kit"/></div>
 			<h3 class="text-center darkRed">$597 Today Plus 2 Monthly Payments Of $597 Later</h3>
             
 		<div>
