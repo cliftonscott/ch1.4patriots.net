@@ -178,6 +178,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<?php
 				if($isUpgrade) {
 					include_once("customer-upgrade-form.php");
+					?>
+					<div class="noThanks">
+						<a href="/checkout/upgrade/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up
+						this opportunity.<br />I understand that I will not receive this special offer again.
+					</div>
+					<?php
 				} else {
 				?>
                 <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
@@ -221,6 +227,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                     </div>
                     <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
                 </form>
+
                 <div class="noThanks">
                     <a href="/checkout/oto/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up 
                     this opportunity.<br />I understand that I will not receive this special offer again.
