@@ -139,7 +139,7 @@ include_once ('template-top.php');
 					<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 					<div class="panel-heading">
 					<h4 class="panel-title">
-						<div>1 Year Food Supply - $1997 <span class="gray13">($2/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+						<div>1 Year Food Supply - $1997 <span class="gray13">($1.11/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 					</h4>
 					</div>
 					</a>
