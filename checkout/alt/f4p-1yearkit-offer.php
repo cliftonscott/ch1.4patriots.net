@@ -55,12 +55,12 @@ include_once ('template-top.php');
 									<p class="text-center red17"><strong>1 Year Food <br>
 								    Supply Includes:</strong></p>
 									  <ul>
-										  <li>1,800 Servings <a href="#info" id="1yrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-										  <li><strong>FREE</strong> Shipping</li>
-										  <li><strong>4 FREE</strong> Survival Tools <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-										  <li><strong>4 FREE</strong> Seed Vaults <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-											<li><strong>4 FREE</strong> LifeStraw Filters <a href="#info" id="strawPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-											<li><strong>FREE</strong> Playing Cards</li>
+										<li>1,800 Servings <a href="#info" id="1yrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+										<li><strong>FREE</strong> Shipping</li>
+										<li><strong>4 FREE</strong> Survival Tools <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+										<li><strong>4 FREE</strong> Seed Vaults <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+										<li><strong>4 FREE</strong> LifeStraw Filters <a href="#info" id="strawPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+										<li><strong>FREE</strong> Playing Cards</li>
 									  </ul>
 									</div>
 								</div> 
@@ -68,15 +68,30 @@ include_once ('template-top.php');
 								  <div class="productList">
 									<p class="text-center red17"><strong>FREE Hard Copy <br>
 								    Bonus Reports</strong></p>
-									  <ul>
-										  <li>Survival 101: How to Bug Out</li>
+										<ul>
+											<li>Survival 101: How to Bug Out</li>
 											<li>Survive Urban Chaos</li>
-										  <li>10 Items Sold Out After Crisis</li>
-										  <li>Water Survival Guide</li>
-										  <li>How to Cut Your Grocery Bills</li>
-										  <li>Survival Garden Guide</li>
-									  </ul>
+											<li>10 Items Sold Out After Crisis</li>
+											<li>Water Survival Guide</li>
+											<li>How to Cut Your Grocery Bills</li>
+											<li>Survival Garden Guide</li>
+										</ul>
 									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<p><strong>When you order Food4Patriots, you get:</strong></p>
+									<ul>
+										<li><strong>Great Tasting Food That&rsquo;s Easy To Prepare</strong><br>
+										Just Add Boiling Water, Simmer, And Serve In Less Than 20 Minutes!</li>
+										<li><strong>&ldquo;Disaster-Proof&rdquo; Packaging</strong><br>
+										Mylar Pouches Keep Out Air, Moisture And Light To Keep The Food Nutritionally Sound And Tasting Great For Up To 25 Years.</li>
+										<li><strong>Nutritional Value</strong><br>
+										Meets The Highest Standard Of The Long-Term Food Reserve Industry. Each Product Serving Is An Entire Cup For Children And Adults Alike. No Half-Size &ldquo;Kid Portions&rdquo; Here!<br></li>
+										<li><strong>Minimal Storage Space</strong><br>
+										Our Kits Are More Compact Than Traditional Food Storage Systems And Allow You To Discreetly Save And Store In Less Space.</li>
+									</ul>
 								</div>
 							</div>
 						</div>
