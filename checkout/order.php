@@ -62,6 +62,6 @@ if($_SESSION['upgrade'] == TRUE) {
             </div>
 		</div>
 	</div>
-</div>
+
 <?php
 include_once("template-bottom.php");
