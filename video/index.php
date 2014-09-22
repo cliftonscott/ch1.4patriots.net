@@ -6,7 +6,24 @@ header("Location: /checkout/index.php");
 exit;
  */
 
-$template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
+$variantsArray = array (
+	"gb", // Glenn Beck
+	"no-logo", // No logos/badges shown at the bottom
+	"np-nologo", // No exit pop, and no logos/badges
+	"np", // No exit pop
+	"pu" // Pop Under
+);
+if($_GET["v"]) {
+	if(in_array(trim($_GET["v"]),$variantsArray)) {
+		$variation = trim($_GET["v"]);
+	}
+}
+
+if($variation !== "np" & $variation !== "np-nologo") {
+	$template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
+}
+
+
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;
@@ -30,11 +47,11 @@ if (isMobile()) {
 
 				if ($.cookie("sawbutton")) {
 					var hours = 0;
-					var minutes = 0; 
+					var minutes = 0;
 					var seconds = 5;
 				} else {
 					var hours = 0;
-					var minutes = 51; 
+					var minutes = 51;
 					var seconds = 27;
 				}
 
@@ -53,7 +70,8 @@ if (isMobile()) {
 									$("#reserve").css("display", "none");
 									$("#buyButton").css("display", "block");
 									$("#buyButton2").css("display", "block");
-							});
+							   });
+
 					});
 				} else {
 					// If visitor hasn't seen button yet, show default button
@@ -63,7 +81,7 @@ if (isMobile()) {
 									$("#reserve").css("display", "none");
 									$("#buyButton").css("display", "block");
 									$("#buyButton2").css("display", "block");
-							});
+							   });
 					});
 				}
 				setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
@@ -103,8 +121,13 @@ if (isMobile()) {
 		<div class="row">
 			<div class="col-md-12">
 				<div class="center-block text-center">
-				  <h1><strong>I Couldn't Believe FEMA Tried This!<br>
-				  (Then He Showed Me Proof</strong>)</h1></div>
+					<?php
+					if($variation == "gb") {
+						echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
+					}
+					?>
+					<h1><strong>I Couldn't Believe FEMA Tried This!<br>
+					(Then He Showed Me Proof</strong>)</h1></div>
 			</div>
 			<div class="col-md-12">
 				<!-- Button Stuff -->
@@ -114,7 +137,22 @@ if (isMobile()) {
 			</div>
 			<div class="col-md-12">
 				<div id="videobox">
-				   <script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+					<?php
+					if($variation === "pu") {
+						?>
+						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?profile=no-autoplay&container=evp-0H6AGUENXM"></script><div id="evp-0H6AGUENXM" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<script type="text/javascript">
+							window.addEventListener("focus", function(event)
+								{ startTimer(); }
+								, false);
+						</script>
+						<?php
+					} else {
+						?>
+						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<?php
+					}
+					?>
 				</div>
 			<div class="col-md-12">
 				<div id="reserve" style="display:none;">
@@ -133,7 +171,11 @@ if (isMobile()) {
 		<div class="row">
 			<div class="col-md-12">
 				<!-- Start of Advertise Pop Up Code -->
-				<?php include("snippets/as-seen-on-tv.html");?>
+				<?php
+				if($variation !== "no-logo" && $variation !== "np-nologo") {
+					include("snippets/as-seen-on-tv.html");
+				}
+				?>
 				<!-- End of Advertise Pop Up Code -->
 				<!-- Start References -->
 				<?php include("snippets/video-references.html");?>
