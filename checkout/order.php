@@ -41,7 +41,7 @@ if($_SESSION['upgrade'] == TRUE) {
 <?php
 } else {
 ?>
-					<h2 class="text-danger">There was a problem processing your order for the special offer:</h3>
+					<h2 class="text-danger">There was a problem processing your order for the special offer:</h2>
 					<p class="text-success h3">
 						<?php echo $productDataObj->metaTitle; ?>
 					</p>
