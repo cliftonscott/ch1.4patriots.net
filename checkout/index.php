@@ -41,12 +41,14 @@ include_once ('template-top.php');
 		switch (what) {
 			case "72hr":
 				productId = 17;
+				document.getElementById("72hr").checked = true;
 				break;
 			case "4week":
 				productId = 18;
+				document.getElementById("4week").checked = true;
 				break;
 			case "3month":
-				productId = 19;
+				document.getElementById("3month").checked = true;
 				break;
 			default:
 				console.log("switchProduct() did not receive a valid 'what'.");
@@ -77,21 +79,21 @@ include_once ('template-top.php');
 		</div>
 
 	<!--START CHOOSE PRODUCT ACCORDIAN-->      
-      <div id="checkoutMenu" class="row">
-        <div class="col-lg-12">
-          <div class="panel-group" id="accordion">
-              <div class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne">
-                <div class="panel-heading">
-                  <h4 class="panel-title">       
-                      <div onclick="switchProduct('72hr');"><input name="72hr" type="checkbox" id="72hr" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
-                  </h4>
-                </div>
-                </a>
-                <div id="chooseProductOne" class="panel-collapse collapse">
-                  <div class="panel-body">
-                  	
-                    <img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block">
+	  <div id="checkoutMenu" class="row">
+		<div class="col-lg-12">
+		  <div class="panel-group" id="accordion">
+			  <div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct('72hr');">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					  <div><input name="72hr" type="checkbox" id="72hr" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
+				  </h4>
+				</div>
+				</a>
+				<div id="chooseProductOne" class="panel-collapse collapse">
+				  <div class="panel-body">
+
+					<img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block">
 					<div class="productList">
 						<p class="text-center red17"><strong>72 Hour Food Supply Includes:</strong></p>
 						<ul>
@@ -102,114 +104,114 @@ include_once ('template-top.php');
 							<li>Survival Garden Guide Report</li>
 						</ul>
 					</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo">
-                <div class="panel-heading">
-                  <h4 class="panel-title">       
-                      <div onclick="switchProduct('4week');"><input name="4week" type="checkbox" id="4week" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
-                  </h4>
-                </div>
-                </a>
-                <div id="chooseProductTwo" class="panel-collapse collapse">
-                  <div class="panel-body">
-                  
-                    <img src="/media/images/f4p/f4p-4-week-kit-03.jpg" class="img-responsive center-block">
-                    <div class="productList">
+
+				  </div>
+				</div>
+			  </div>
+			  <div class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct('4week');">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					  <div><input name="4week" type="checkbox" id="4week" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+				  </h4>
+				</div>
+				</a>
+				<div id="chooseProductTwo" class="panel-collapse collapse">
+				  <div class="panel-body">
+
+					<img src="/media/images/f4p/f4p-4-week-kit-03.jpg" class="img-responsive center-block">
+					<div class="productList">
 						<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
-                        <ul>
-                          <li>140 Servings <a href="#info" id="4wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-                          <li><strong>FREE</strong> Shipping</li>
-                          <li>10 Items Sold Out After Crisis Report</li>
-                          <li>Water Survival Guide Report</li>
-                          <li>How to Cut Your Grocery Bills Report</li>
-                          <li>Survival Garden Guide Report</li>
-                        </ul>
+						<ul>
+						  <li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+						  <li><strong>FREE</strong> Shipping</li>
+						  <li>10 Items Sold Out After Crisis Report</li>
+						  <li>Water Survival Guide Report</li>
+						  <li>How to Cut Your Grocery Bills Report</li>
+						  <li>Survival Garden Guide Report</li>
+						</ul>
 					</div>
-                    
-                  </div>
-                </div>
-              </div>
-              <div id="initial" class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
-                <div class="panel-heading">
-                  <h4 class="panel-title">             
-                      <div onclick="switchProduct('3month');"><input name="3month" type="checkbox" id="3month" checked style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
-                  </h4>
-                </div>
-                </a>
-                <div id="chooseProductThree" class="panel-collapse collapse in">
-                  <div class="panel-body">
-                    <img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block">
-                    <div class="container nopadding">
-                        <div class="row">    
-                        	<div class="col-sm-12 col-md-5 nopadding">
-                            	<div class="productList">
+
+				  </div>
+				</div>
+			  </div>
+			  <div id="initial" class="panel panel-default">
+				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct('3month');">
+				<div class="panel-heading">
+				  <h4 class="panel-title">
+					  <div><input name="3month" type="checkbox" id="3month" checked style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+				  </h4>
+				</div>
+				</a>
+				<div id="chooseProductThree" class="panel-collapse collapse in">
+				  <div class="panel-body">
+					<img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block">
+					<div class="container nopadding">
+						<div class="row">
+							<div class="col-sm-12 col-md-5 nopadding">
+								<div class="productList">
 									<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
 									<ul>
-                                      <li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-                                      <li><strong>FREE</strong> Shipping</li>
-                                      <li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-                                      <li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+									  <li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+									  <li><strong>FREE</strong> Shipping</li>
+									  <li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+									  <li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 									</ul>
 								</div>
-                            </div>  	
-                            <div class="col-sm-12 col-md-7 nopadding">
-                            	<div class="productList">
+							</div>
+							<div class="col-sm-12 col-md-7 nopadding">
+								<div class="productList">
 									<p class="text-center red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 									<ul>
-                                        <li>10 Items Sold Out After Crisis Report</li>
-                                        <li>Water Survival Guide Report</li>
-                                        <li>How to Cut Your Grocery Bills Report</li>
-                                        <li>Survival Garden Guide Report</li>
+										<li>10 Items Sold Out After Crisis Report</li>
+										<li>Water Survival Guide Report</li>
+										<li>How to Cut Your Grocery Bills Report</li>
+										<li>Survival Garden Guide Report</li>
 									</ul>
 								</div>
-                            </div>
-                        </div>
-                    </div>
-                    <img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" alt=""/>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
-      </div> <!--END CHOOSE PRODUCT ACCORDIAN-->
+							</div>
+						</div>
+					</div>
+					<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" alt=""/>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	  </div> <!--END CHOOSE PRODUCT ACCORDIAN-->
 
 	</div>
 
 	<div class="col-sm-6 col-md-5 nopadding">
-    	<div class="container">
-        	<div class="row">
-        		<div class="col-lg-12">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
 					<?php include_once ('customer-form.php'); ?>
-        		</div>
-            </div>
-            <div class="row">
-            	<div class="col-lg-12">
-                	<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
-                	<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
+					<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
 					<img id="beckCheckoutAudioControl" class="audioControl" style="float:right; margin-right: 30px;
 margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');">
-                    </div>
-                </div>
-            </div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	</div>
   
 	<div class="row">      	
-        <div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" /></a>
+		<div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
 		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" /></div>
 	</div>
   
   <div class="guaranteeBox">
-            <p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
-            <p>&nbsp;</p>
-            <p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>       
+			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
+			<p>&nbsp;</p>
+			<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
   <div class="clearfix"></div>
   </div>
   
@@ -219,6 +221,11 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
    
 </div> 
 <script>
+function doThis() {
+	alert("boo");
+}
+
+
 $('#initial').find('.panel-heading').addClass("active-panel");
 $('#accordion > .panel').on('show.bs.collapse', function (e) {
 		$(this).find('.panel-heading').addClass("active-panel");
@@ -235,7 +242,6 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 				return $('#72h').html();
 			},
 		});
-
 	});
 	$(document ).ready(function () {
 		$("#4wkPopover").popover({
@@ -246,7 +252,6 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 				return $('#4wk').html();
 			},
 		});
-
 	});
 	$(document ).ready(function () {
 		$("#3mkPopover").popover({
@@ -297,7 +302,7 @@ $(document).ready(function () {
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-            <img class="img-responsive center-block" src="/media/images/ppg/ppg-product-checkout-02.jpg">
+			<img class="img-responsive center-block" src="/media/images/ppg/ppg-product-checkout-02.jpg">
 		</div>
 	</div>
 </div>
