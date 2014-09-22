@@ -224,13 +224,28 @@ article.content .effective-date {
     clear:both;
     text-align: center;
     margin:auto;
-    padding-bottom: 25px;
     font-size:4em;
     font-weight: bold;
     font-family: 'Allerta Stencil', sans-serif;
     color:#333333;
 }
 
+/* References on video/index page
+-------------------------------------------------- */
+#video-references {
+	color: #767676;
+	font-style: normal;
+	max-width: 745px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#video-references p{
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+	line-height: 14px;
+}
 /* CHECKOUT PAGE STYLES 
 -------------------------------------------------- */
 .guaranteeBox p {margin:0px;}
