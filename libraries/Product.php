@@ -328,7 +328,7 @@ class Product {
 				$productObj->mpsId = 40;
 				//Limelight
 				$productObj->price = 1997;
-				$productObj->originalPrice = 1997;
+				$productObj->originalPrice = 2997;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 950;
 				$productObj->googleProductName = "F4P-1YK";
