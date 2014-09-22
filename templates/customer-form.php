@@ -64,7 +64,8 @@ if($_SESSION["soldout"]["flag"] === true) {
 			}
 			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
 				//priceAmount.innerHTML = "$" + productPrice.toFixed(2);
-				priceAmount.innerHTML = "<span style='text-decoration: line-through'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <strong>FREE</strong>";
+				priceAmount.innerHTML = "<span style='text-decoration: line-through'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
+				document.getElementById("submitButton").src = "/assets/images/buttons/btn-rush-free-01.png";
 			}
 		});
 	
@@ -248,7 +249,7 @@ if($_SESSION['errorMessage'] != '') {
       
       </div><!-- *PRODUCT INFO -->
       
-      <div><input type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
+      <div><input id="submitButton" type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
     </form>
 </div>
 
