@@ -93,7 +93,7 @@ include_once ('template-top.php');
 				<div id="chooseProductOne" class="panel-collapse collapse">
 				  <div class="panel-body">
 
-					<img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block">
+					<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block"></a>
 					<div class="productList">
 						<p class="text-center red17"><strong>72 Hour Food Supply Includes:</strong></p>
 						<ul>
@@ -119,7 +119,7 @@ include_once ('template-top.php');
 				<div id="chooseProductTwo" class="panel-collapse collapse">
 				  <div class="panel-body">
 
-					<img src="/media/images/f4p/f4p-4-week-kit-03.jpg" class="img-responsive center-block">
+					<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-03.jpg" class="img-responsive center-block"></a>
 					<div class="productList">
 						<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
 						<ul>
@@ -145,7 +145,7 @@ include_once ('template-top.php');
 				</a>
 				<div id="chooseProductThree" class="panel-collapse collapse in">
 				  <div class="panel-body">
-					<img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block">
+					<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block"></a>
 					<div class="container nopadding">
 						<div class="row">
 							<div class="col-sm-12 col-md-5 nopadding">
@@ -297,12 +297,40 @@ $(document).ready(function () {
 	function hideProductModal() {
 		$('#productModal').modal('hide');
 	}
+	function showProductModal2() {
+		$('#productModal2').modal('show');
+	}
+	function hideProductModal2() {
+		$('#productModal2').modal('hide');
+	}
+	function showProductModal3() {
+		$('#productModal3').modal('show');
+	}
+	function hideProductModal3() {
+		$('#productModal3').modal('hide');
+	}
 </script>
 <div id="productModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-			<img class="img-responsive center-block" src="/media/images/ppg/ppg-product-checkout-02.jpg">
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-72-hour-kit-02.jpg">
+		</div>
+	</div>
+</div>
+<div id="productModal2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal2();"></div>
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-04.jpg">
+		</div>
+	</div>
+</div>
+<div id="productModal3" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal3();"></div>
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-3-month-kit-04.jpg">
 		</div>
 	</div>
 </div>
