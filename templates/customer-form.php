@@ -62,6 +62,10 @@ if($_SESSION["soldout"]["flag"] === true) {
 					toggleTaxRow("hide");
 					break;
 			}
+			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
+				//priceAmount.innerHTML = "$" + productPrice.toFixed(2);
+				priceAmount.innerHTML = "<span style='text-decoration: line-through'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <strong>FREE</strong>";
+			}
 		});
 	
 	}
