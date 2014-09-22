@@ -137,7 +137,22 @@ if (isMobile()) {
 			</div>
 			<div class="col-md-12">
 				<div id="videobox">
-				   <script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+					<?php
+					if($variation === "pu") {
+						?>
+						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?profile=no-autoplay&container=evp-0H6AGUENXM"></script><div id="evp-0H6AGUENXM" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<script type="text/javascript">
+							window.addEventListener("focus", function(event)
+								{ startTimer(); }
+								, false);
+						</script>
+						<?php
+					} else {
+						?>
+						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<?php
+					}
+					?>
 				</div>
 			<div class="col-md-12">
 				<div id="reserve" style="display:none;">
