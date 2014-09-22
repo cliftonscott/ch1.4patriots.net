@@ -170,7 +170,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
 
 			<div>
-                <div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-tote-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
+                <div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
                 <div><img class="img-responsive center-block" src="/media/images/f4p/value-chart-3.jpg" alt="Value Chart"/></div>
                 <div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
               
@@ -237,6 +237,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					?>
 			</div>
 </div>
-</div>
+
 <?php
 include_once("template-bottom.php");

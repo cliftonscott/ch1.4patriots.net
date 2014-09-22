@@ -55,5 +55,5 @@ if($isUpgrade) {
 <?php
 }
 ?>
-</div>
+
 <?php include_once("template-bottom.php"); ?>

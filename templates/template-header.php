@@ -1,5 +1,5 @@
 <div class="navbar navbar-inverse navbar-static-top">
-      		<?php if($template["formType"] === "customerForm") { echo "<div class='hidden-xs' style='float:right; cursor:pointer;margin-top: 5px;'><a href='#csr' onclick='showCsrModal();'><img src='/assets/images/misc/customer-service-rep-02.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>";} ?>
+      		<?php if($template["formType"] === "customerForm") { echo "<div class='hidden-xs' style='float:right; cursor:pointer;margin-top: 5px;'><a href='#csr' onclick='showCsrModal();'><img src='/assets/images/misc/customer-service-rep-01.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>";} ?>
   <div class="navbar-header">
 <?php
 if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
