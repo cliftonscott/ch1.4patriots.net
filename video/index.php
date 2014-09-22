@@ -200,19 +200,19 @@ if (isMobile()) {
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-					<img src="media/images/f4p/food/f4p-header-almond-coconut-granola.jpg" alt="Patriot Power Generator">
+					<img src="/media/images/f4p/food/f4p-header-almond-coconut-granola.jpg" alt="Patriot Power Generator">
 					<div class="carousel-caption"></div>
 				</div>
 				<div class="item">
-					<img src="media/images/f4p/food/f4p-header-white-cheddar-shells.jpg" alt="Patriot Power Deluxe">
+					<img src="/media/images/f4p/food/f4p-header-white-cheddar-shells.jpg" alt="Patriot Power Deluxe">
 					<div class="carousel-caption"></div>
 				</div>
 				<div class="item">
-					<img src="media/images/f4p/food/f4p-header-cheesy-chicken-rice-casserole.jpg" alt="Patriot Power Accesories">
+					<img src="/media/images/f4p/food/f4p-header-cheesy-chicken-rice-casserole.jpg" alt="Patriot Power Accesories">
 					<div class="carousel-caption"></div>
 				</div>
 				<div class="item">
-					<img src="media/images/f4p/food/f4p-header-chili-and-dumplings.jpg" alt="Patriot Power Accesories">
+					<img src="/media/images/f4p/food/f4p-header-chili-and-dumplings.jpg" alt="Patriot Power Accesories">
 					<div class="carousel-caption"></div>
 				</div>
 				</div>
