@@ -79,9 +79,9 @@ include_once ('template-top.php');
 	<!--START CHOOSE PRODUCT ACCORDIAN-->      
       <div id="checkoutMenu" class="row">
         <div class="col-lg-12">
-          <div class="panel-group" id="accordion2">
+          <div class="panel-group" id="accordion">
               <div class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion2" href="#chooseProductOne">
+                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne">
                 <div class="panel-heading">
                   <h4 class="panel-title">       
                       <div onclick="switchProduct('72hr');"><input name="72hr" type="checkbox" id="72hr" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
@@ -107,7 +107,7 @@ include_once ('template-top.php');
                 </div>
               </div>
               <div class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion2" href="#chooseProductTwo">
+                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo">
                 <div class="panel-heading">
                   <h4 class="panel-title">       
                       <div onclick="switchProduct('4week');"><input name="4week" type="checkbox" id="4week" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
@@ -134,7 +134,7 @@ include_once ('template-top.php');
                 </div>
               </div>
               <div id="initial" class="panel panel-default">
-                <a data-toggle="collapse" data-parent="#accordion2" href="#chooseProductThree">
+                <a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
                 <div class="panel-heading">
                   <h4 class="panel-title">             
                       <div onclick="switchProduct('3month');"><input name="3month" type="checkbox" id="3month" checked style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
