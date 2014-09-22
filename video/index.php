@@ -115,7 +115,7 @@ if (isMobile()) {
 		}
 	}
 </script>
-<a href="#info" onclick="showProductModal()"><div class="container subheader"></div></a>
+<div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
 	<div class="container">
 		<div class="row">
