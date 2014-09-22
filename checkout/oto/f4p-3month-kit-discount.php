@@ -1,5 +1,8 @@
 <?php
-// was f4p-oto-c.php 
+// was f4p-oto-c.php
+if($_GET["upgrade"] == 1 ) {
+	$isUpgrade = TRUE;
+}
 if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
 	$firstName = $_SESSION["customerDataArray"]["firstName"];
 	$_SESSION['upsell'] = TRUE; //must stay a boolean
@@ -34,26 +37,29 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		    <p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an exclusive $100.00 discount on another 3-Month Food4Patiots Kit if you act now. That drops the price to only $397 (plus you'll get Free Shipping plus all the other Free bonuses included with the 3 Month Kit).</p>
 		    <p><?php echo $firstName;?>, please accept this opportunity to get an additional 3-Month Food4Patriots Kit for only $397 and save $100 today.          Just click on the big orange "Click To Accept" button below.</p>
 		</div>
+		<div>
 
 <?php
 if($isUpgrade) {
-	include_once("customer-upgrade-form.php");
+?>
+			<div class="text-center">
+				<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+			</div>
+<?php
 } else {
 ?>
-
-		<div>
 			<div class="text-center">
 				<a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			</div>
-			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-			<div class="noThanks">
-	            <a href="/checkout/thankyou.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
-	            I understand that I will not receive this special offer again.
-	        </div>
-		</div>
-	</div>
 <?php
 }
 ?>
+			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
+			<div class="noThanks">
+				<a href="/checkout/thankyou.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
+				I understand that I will not receive this special offer again.
+			</div>
+		</div>
+	</div>
 
 <?php include_once("template-bottom.php"); ?>

@@ -1,4 +1,7 @@
 <?php
+if($_GET["upgrade"] == 1 ) {
+	$isUpgrade = TRUE;
+}
 if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
 	$firstName = $_SESSION["customerDataArray"]["firstName"];
 	$_SESSION['upsell'] = TRUE; //must stay a boolean
@@ -177,11 +180,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <a id="accept"></a>
 				<?php
 				if($isUpgrade) {
-					include_once("customer-upgrade-form.php");
 					?>
-					<div class="noThanks">
-						<a href="/checkout/upgrade/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up
-						this opportunity.<br />I understand that I will not receive this special offer again.
+					<div style="text-align:center;">
+						<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-accept', 'click-to-accept-bottom');"></a>
 					</div>
 					<?php
 				} else {
@@ -227,14 +228,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                     </div>
                     <div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
                 </form>
-
-                <div class="noThanks">
-                    <a href="/checkout/oto/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up 
-                    this opportunity.<br />I understand that I will not receive this special offer again.
-                </div>
 					<?php
 					}
 					?>
+				<div class="noThanks">
+					<a href="/checkout/oto/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up
+					this opportunity.<br />I understand that I will not receive this special offer again.
+				</div>
 			</div>
 </div>
 

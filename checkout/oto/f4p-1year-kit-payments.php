@@ -1,4 +1,7 @@
 <?php
+if($_GET["upgrade"] == 1 ) {
+	$isUpgrade = TRUE;
+}
 if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
 	$firstName = $_SESSION["customerDataArray"]["firstName"];
 	$_SESSION['upsell'] = TRUE; //must stay a boolean
@@ -59,7 +62,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div>
 <?php
 if($isUpgrade) {
-	include_once("customer-upgrade-form.php");
+?>
+	<div class="text-center center-block">
+		<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="patriotTrack('no-payments-6-months');" /></a>
+	</div>
+	<?php
 } else {
 	?>
         <form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
@@ -77,13 +84,14 @@ if($isUpgrade) {
                   
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
       </form>
-                <div class="noThanks">
-					<a href="/checkout/oto/f4p-3month-kit-discount.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
-					I understand that I will not receive this special offer again.
-				</div>
+
 	<?php
 }
 	?>
+			<div class="noThanks">
+				<a href="/checkout/oto/f4p-3month-kit-discount.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
+				I understand that I will not receive this special offer again.
+			</div>
 		</div>
                        
 	</div>

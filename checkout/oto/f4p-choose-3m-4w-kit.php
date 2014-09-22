@@ -1,6 +1,13 @@
 <?php
-$firstName = $_SESSION["customerDataArray"]["firstName"];
-$_SESSION['upsell'] = TRUE; //must stay a boolean
+if($_GET["upgrade"] == 1 ) {
+	$isUpgrade = TRUE;
+}
+if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
+	$firstName = $_SESSION["customerDataArray"]["firstName"];
+	$_SESSION['upsell'] = TRUE; //must stay a boolean
+} else {
+	$firstName = "Fellow Patriot";
+}
 
 $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 // SET PRODUCT ID
@@ -26,7 +33,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         <div id="videobox" class="hidden-xs">
 			<iframe src="https://fast.wistia.net/embed/iframe/jwue4kdjoj?autoPlay=true&fullscreenButton=false&playButton=false&playbar=false&playerColor=ffffff&smallPlayButton=false&version=v1&videoHeight=360&videoWidth=640" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="360"></iframe>
 		</div>
-  <div> 
+  <div>
   			<a href="#addtoorder"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" alt="Add To Order" class="img-responsive center-block" /></a>
     <p class="text-center read-warning" style="max-width:600px;">Click the button above to choose your package now… or read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
             <p>Hi <?php echo $firstName;?>, this is Franks Bates, founder of Food4Patriots, and I just wanted to say <strong>CONGRATULATIONS</strong> for claiming your <strong>FREE</strong> Survival Food today. </p>
@@ -311,9 +318,19 @@ Be For Well-Off Americans</h2>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Qty:</strong></div>
                                 <div class="col-xs-10">
+								<?php
+								if($isUpgrade) {
+									?>
+									<input type="hidden" name="quantity" id="quantity_18" value="1">1
+								<?php
+								} else {
+								?>
                                 	<select name="quantity" id="quantity_18" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(18);">
 										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
 									</select>
+								<?php
+								}
+								?>
                                 </div>
                               </div>
                               <div class="row">
@@ -336,7 +353,17 @@ Be For Well-Off Americans</h2>
                               </div><!-- *PRODUCT INFO -->
 
                             <div class="text-center center-block">
-                                <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+<?php
+if($isUpgrade) {
+?>
+<a href="/order/18"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+<?php
+} else {
+?>
+<input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+<?php
+}
+?>
                             </div>
 	  					</form>
                         </div>
@@ -359,14 +386,25 @@ Be For Well-Off Americans</h2>
                             
                             <!-- *PRODUCT INFO -->
                               <div id="productInfoOTO">
-                              <div class="row">
-                                <div class="col-xs-2"><strong>Qty:</strong></div>
-                                <div class="col-xs-10">
+	                              <div class="row">
+		                              <div class="col-xs-2"><strong>Qty:</strong></div>
+		                              <div class="col-xs-10">
+			                 <?php
+							if($isUpgrade) {
+							?>
+								<input type="hidden" name="quantity" id="quantity_19" value="1">1
+							<?php
+							} else {
+							?>
+
                                 	<select name="quantity" id="quantity_19" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(19);">
 										<?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
 									</select>
-                                </div>
-                              </div>
+							<?php
+							}
+							?>
+	                              </div>
+							</div>
                               <div class="row">
                                 <div class="col-xs-2"><strong>Price:</strong></div>
                                 <div id="subTotal_19" class="col-xs-10"></div>
@@ -387,7 +425,19 @@ Be For Well-Off Americans</h2>
                               </div><!-- *PRODUCT INFO -->
                               	
                             <div class="text-center center-block">
-                                <input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+<?php
+if($isUpgrade) {
+?>
+	<a href="/order/19"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+
+<?php
+} else {
+?>
+	<input type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" />
+<?php
+}
+?>
+
                             </div>
 	  					</form>
                         </div>

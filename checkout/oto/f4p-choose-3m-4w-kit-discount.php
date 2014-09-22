@@ -1,4 +1,7 @@
 <?php
+if($_GET["upgrade"] == 1 ) {
+	$isUpgrade = TRUE;
+}
 if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
 	$firstName = $_SESSION["customerDataArray"]["firstName"];
 	$_SESSION['upsell'] = TRUE; //must stay a boolean
