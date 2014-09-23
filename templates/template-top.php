@@ -48,9 +48,9 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <meta charset="UTF-8">
-        <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+		<meta charset="UTF-8">
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
 		<?php echo $metaDataObj->title;?>
 		<?php echo $metaDataObj->description;?>
 		<?php echo $metaDataObj->keywords;?>
@@ -59,30 +59,29 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<link href="/assets/css/bootstrap.css" rel="stylesheet">
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link href="/assets/css/styles.css" rel="stylesheet">
-        <link href="/assets/css/styles-content.css" rel="stylesheet">
+		<link href="/assets/css/styles-content.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-        <!--Internet Explorer 9,8,7,....-->
-        <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie10.css"/><![endif]-->
+		<!--Internet Explorer 9,8,7,....-->
+		<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie10.css"/><![endif]-->
 		<!--Internet Explorer 10-->
-        <script>
-            if (/*@cc_on!@*/false) {
-                var headHTML = document.getElementsByTagName('head')[0].innerHTML;
-                headHTML += '<link type="text/css" rel="stylesheet" href="/assets/css/ie10.css">';
-                document.getElementsByTagName('head')[0].innerHTML = headHTML;
-            }
-        </script>
-        <!--Internet Explorer Cross Browsing Ends-->
-        <!--Enable HTML 5 Elements and Media Queries-->
-        <!--[if lte IE 9]>
-        <script type="text/javascript" src="/assets/js/html5shiv.js"></script>
-        <script type="text/javascript" src="/assets/js/respond.min.js"></script>
-        <![endif]-->
-        
-		<?php include_once("analytics-google-ecom.php"); ?>
+		<script>
+			if (/*@cc_on!@*/false) {
+				var headHTML = document.getElementsByTagName('head')[0].innerHTML;
+				headHTML += '<link type="text/css" rel="stylesheet" href="/assets/css/ie10.css">';
+				document.getElementsByTagName('head')[0].innerHTML = headHTML;
+			}
+		</script>
+		<!--Internet Explorer Cross Browsing Ends-->
+		<!--Enable HTML 5 Elements and Media Queries-->
+		<!--[if lte IE 9]>
+		<script type="text/javascript" src="/assets/js/html5shiv.js"></script>
+		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
+		<![endif]-->
+
 		<?php include_once("visualwo.php"); ?>
 		<?php
 			if(intval($_SESSION['productId']) > 0) {
@@ -113,8 +112,10 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		
 	</head>
 	<body>
-<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
-<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" /></div>
-<?php include_once("snippets/csr-modal.html");?>
+	<?php include_once("analytics-google-ecom.php"); ?>
+	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
+		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
+	</div>
+	<?php include_once("snippets/csr-modal.html");?>
 <div class="navbar navbar-default">
-  <div class="container">
+	<div class="container">
