@@ -13,7 +13,6 @@ if(!empty($template["formType"])) {
 ?>
 <!-- /main-container -->
 <?php include_once('footer.php'); ?>
-<?php include_once("chat-olark.php");?>
 <script>
 window.onbeforeunload = grayOut;
 function grayOut(){

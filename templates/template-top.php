@@ -82,7 +82,6 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
 		<![endif]-->
 
-		<?php include_once("visualwo.php"); ?>
 		<?php
 			if(intval($_SESSION['productId']) > 0) {
 				include_once("patriotTrack.php");
