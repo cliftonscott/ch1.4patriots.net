@@ -1,4 +1,4 @@
-<!-- Start Visual Website Optimizer Asynchronous Code -->
+<!-- ADDED TO GTM - Start Visual Website Optimizer Asynchronous Code -->
 <script type='text/javascript'>
 var _vwo_code=(function(){
 var account_id=827,
