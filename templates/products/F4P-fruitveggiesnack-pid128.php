@@ -167,7 +167,7 @@ $offerName = $_SESSION["firstName"];
 				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
 					<div id="timer">10:00</div></a>
 			</div>
-			<p><?php echo $offerName;?>,
+			<p><?php echo $customerDataObj->firstName;?>,
 				you’ve taken the first step in ensuring the safety and well-being of your loved ones in times of crisis
 				with your Food4Patriots order. </p>
 			<p>But wouldn’t it make sense to also safeguard their nutrition by <b>adding healthy fruits and vegetables</b> to your food stockpile?
