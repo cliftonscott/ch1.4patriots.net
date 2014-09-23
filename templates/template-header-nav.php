@@ -26,7 +26,7 @@ if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
               <ul class="dropdown-menu">
                 <li><a href="/faq.php">FAQ</a></li>
                 <li><a href="/testimonials.php">Testimonials</a></li>
-                <!--<li><a href="/newsroom.php">Newsroom</a></li>-->
+                <li><a href="/newsroom.php">Newsroom</a></li>
                 <li><a href="/returns.php">Returns</a></li>
                 <li class="divider"></li>
                 <li><a href="/privacy.php">Privacy Policy</a></li>

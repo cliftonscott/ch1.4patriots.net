@@ -18,17 +18,17 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="media/images/ppg/ppg-product-slide-01.jpg" alt="Patriot Power Generator">
+                  <img src="media/images/f4p/f4p-product-slide-01.jpg" alt="Patriot Power Generator">
                   <div class="carousel-caption">
                   </div>
                 </div>
                 <div class="item">
-                  <img src="media/images/ppg/ppg-product-slide-02.jpg" alt="Patriot Power Deluxe">
+                  <img src="media/images/f4p/f4p-product-slide-04.jpg" alt="Patriot Power Deluxe">
                   <div class="carousel-caption">
                   </div>
                 </div>
                  <div class="item">
-                  <img src="media/images/ppg/ppg-product-slide-03.jpg" alt="Patriot Power Accesories">
+                  <img src="media/images/f4p/f4p-product-slide-03.jpg" alt="Patriot Power Accesories">
                   <div class="carousel-caption">
                   </div>
                 </div>
@@ -71,11 +71,11 @@
 							</li>
 						</ol>
 						<div class="carousel-inner">
-							<div class="item active">															
+							<div class="item active">
 								<div class="testimonials  col-md-12">
 									
 										<p>
-											<i class="fa fa-quote-left fa-3x pull-left"></i>&quot;I salute you Frank! You make me proud of the American spirit; it is still alive and growing! Thank you for being all you are capable of being! You are an inspiration!&quot; - <strong>D. Robbins</strong>
+											<i class="fa fa-quote-left fa-3x pull-left"></i>&quot;I like that this is compact, protected and safe. I now feel more able to feed my family in time of crisis. I wish I could afford more of them.&quot; - <strong>Mark S.</strong>
 										</p>
 									
 								</div>
@@ -86,7 +86,7 @@
 								<div class="testimonials  col-md-12">
 									
 										<p>
-											<i class="fa fa-quote-right fa-3x pull-right"></i> &quot;Congratulations for making the move to independence and out of the rat race. And thanks, too, for encouraging others to become self-reliant.&quot; -<strong> L. Graeser</strong>
+											<i class="fa fa-quote-right fa-3x pull-right"></i> &quot;The packaging is fantastic - they went right on the shelf. Coming from you I know the product is a superior product and will be great when I need them. I feel even more secure with your product because it would be the first item that I would load up in an emergency. Yes, I would definitely recommend your superior product to others.&quot; - <strong>Molly S.</strong>
 										</p>
 									
 								</div>
@@ -97,7 +97,7 @@
 								<div class="testimonials  col-md-12">
 									
 										<p>
-											<i class="fa fa-quote-left fa-3x pull-left"></i>&quot;Thanks very much! I greatly appreciate your gracious customer service...&quot; - <strong>J. Charger  </strong>
+											<i class="fa fa-quote-left fa-3x pull-left"></i>&quot;I like the construction of the containers, the listing on the outer side panel of contents. They can be stacked 1 on top of the other. I do feel better knowing I have a year’s supply of food on hand.&quot; - <strong>J. Charger  </strong>
 										</p>
 									
 								</div>
