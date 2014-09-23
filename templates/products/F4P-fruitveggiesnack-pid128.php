@@ -160,7 +160,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 $offerName = $_SESSION["firstName"];
 ?>
 	<a name="exclusive-offer"></a>
-	<div id="belcher-box">
+	<div id="belcher-box" class="hidden-xs">
 		<div class="box-title">Exclusive Offer for Food4Patriots Customers...</div>
 		<div class="box-body">
 			<div class="timer-box">
