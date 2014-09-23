@@ -190,7 +190,7 @@ include_once ('template-top.php');
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-12 hidden-xs">
 					<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
 					<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
 					<img id="beckCheckoutAudioControl" class="audioControl" style="float:right; margin-right: 30px;
