@@ -5,11 +5,6 @@ if(!empty($template["formType"])) {
 ?>
 </div> <!--end div from opening file-->
 <?php
-	if($template["floatingTimer"] > 0) {
-		include_once("snippets/timer-box.html");
-	}
-?>
-<?php
 ?>
 <!-- /main-container -->
 <?php include_once('footer.php'); ?>
