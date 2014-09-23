@@ -106,6 +106,10 @@ article.content .effective-date {
 	margin-top: 20px !important;
 	margin-bottom: 20px !important;
 }
+.margin-tb-50 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 .margin-b-10{
 	margin-bottom: 10px;
 }
@@ -283,9 +287,12 @@ article.content .effective-date {
 	max-width: 750px !important;
 }
 .noThanks {
-padding-top:10px;
-padding-bottom:30px;
-text-align:center;
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .noThanks a {
 font-weight:bold;
