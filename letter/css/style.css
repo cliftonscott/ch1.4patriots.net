@@ -467,7 +467,7 @@ html{font-size: 14px;}
 .intro-content .inner{padding: 10px 15px;}
 
 .head-mid{position: relative;}
-.head-mid .holder{position: relative; min-height: 190px; display: block;}
+.head-mid .holder{position: relative; display: block;}
 .head-mid .mobile{position: absolute; right: 0!important; bottom: 0!important;}
 
 .head-dots,
@@ -557,7 +557,7 @@ section:first-child .block-head h1{text-align: left!important;}
 	}
 	.no-marg-bot{margin-bottom: 15px!important;}
 	.media.left, .media.right{margin-bottom: 15px;}
-	.head-mid{min-height: 300px;}
+	.head-mid{}
 }
 
 /* #Mobile (Landscape)
