@@ -91,6 +91,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+			case 11: //Rutgers Free Seeds
+				//process file
+				$productObj->campaignId = 6;
+				$productObj->nextPage = "/checkout/oto/f4p-seeds.php";
+				$productObj->listId = 38;
+				$productObj->tags = "RUTGERSUP";
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 11;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 0;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = "SS4P-RUTGERS";
+				$productObj->googleProductSKU = "PID11";
+				$productObj->googleProductCategory = "FREE";
+				$productObj->metaTitle = "Food4Patriots Free Rutgers Tomato Seeds";
+				$productObj->metaDescription = "Food4Patriots Free Rutgers Tomato Seeds";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 			case 17: //main product - 72 Hour Kit
 				$productObj->pmaSku = null;
 				$productObj->price = 27;
