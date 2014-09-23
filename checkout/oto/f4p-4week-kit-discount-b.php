@@ -21,14 +21,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 <script src="/js/audio.js"></script>
 <div class="container-main">
 	<div class="breadcrumb1">
-	    <a>CHECKOUT</a>
-	    <a class="current">ORDER CUSTOMIZATION</a>
-	    <a>ORDER CONFIRMATION</a>
+		<a>CHECKOUT</a>
+		<a class="current">ORDER CUSTOMIZATION</a>
+		<a>ORDER CONFIRMATION</a>
 	</div>
 <div class="container oto-width">
 	<div>
 		<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Want To Get Another 4-Week Kit For $50 Off? </span></h1>
- 	</div>
+	</div>
 	<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food4Patriots Kit"/></div>
 	<div>
 		<p><?php echo $firstName;?>, congratulations for making the great decision to get the 4-week Food4Patriots kit. </p>
@@ -53,22 +53,22 @@ if($isUpgrade) {
 }
 ?>
 		<?php include("f4p-4week-glenbeck.html");?>
-        
-        <div class="text-center"><img src="/media/images/f4p/f4p-testimonials-06.png" class="img-responsive center-block" alt="Testimonial"/></div>
-        
+
+		<div class="text-center"><img src="/media/images/f4p/f4p-testimonials-06.png" class="img-responsive center-block" alt="Testimonial"/></div>
+
 		<?php include("f4p-4week-whatsincluded.html");?>    
-    	
-        <h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-        <p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 4-Week Food4Patriots Kit when you upgrade today!</p>
-      <p>Because we're already going to be sending you a 4-week kit to your address in <?php echo $shippingCity;?>, we can add the 4-Week kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
-        
-        <h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
-        <div class="outLineBoxDarkBlue">
+
+		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
+		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 4-Week Food4Patriots Kit when you upgrade today!</p>
+	  <p>Because we're already going to be sending you a 4-week kit to your address in <?php echo $shippingCity;?>, we can add the 4-Week kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
+
+		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
+		<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 				<div class="clearfix"></div>
 			</div>
-        <div class="outLineBoxDarkBlue">
+		<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
 				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
 				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
@@ -79,14 +79,14 @@ if($isUpgrade) {
 					really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon 
 					as you have it in your hands.</p>
 			</div>
-        
-        <h2 class="darkRed text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ – Claim Your
+
+		<h2 class="darkRed text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ – Claim Your
 4-Week Food4Patriots Kit For $50.00 Off Right Now! </h2>
-        <p>Now I understand that the 4-Week Food4Patriots kit is the right choice for most people. This kit normally sells for $197, but because you&rsquo;ve already taken the 1st step by getting the 4-week kit, and because I appreciate you putting your trust in us by being a customer, you can get another 4-Week Food4Patriots kit today for just $147.</p>
-        <p>That&rsquo;s $50.00 – a massive 25% savings – off the already-discounted price. </p>
-        <p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add another 4-Week Food4Patriots to your order today!</p>
-      <p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
-        <p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get another 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
+		<p>Now I understand that the 4-Week Food4Patriots kit is the right choice for most people. This kit normally sells for $197, but because you&rsquo;ve already taken the 1st step by getting the 4-week kit, and because I appreciate you putting your trust in us by being a customer, you can get another 4-Week Food4Patriots kit today for just $147.</p>
+		<p>That&rsquo;s $50.00 – a massive 25% savings – off the already-discounted price. </p>
+		<p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add another 4-Week Food4Patriots to your order today!</p>
+	  <p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
+		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get another 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
 		<div>
 <?php
 if($isUpgrade) {
@@ -108,8 +108,7 @@ if($isUpgrade) {
 	?>
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-seeds-rutgers.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity.<br>
-				I understand that I will not receive this special offer again.
+				<a href="/checkout/oto/f4p-seeds-rutgers.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>
 	</div>

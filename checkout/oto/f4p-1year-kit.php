@@ -232,8 +232,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					}
 					?>
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-1year-kit-payments.php" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up
-					this opportunity.<br />I understand that I will not receive this special offer again.
+					<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a> – I want to give up this opportunity.<br />I understand that I will not receive this special offer again.
 				</div>
 			</div>
 </div>
