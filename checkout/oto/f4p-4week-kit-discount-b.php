@@ -64,12 +64,12 @@ if($isUpgrade) {
 
 		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 		<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 				<div class="clearfix"></div>
 			</div>
 		<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" class="pull-left img-responsive media margin-t-20">
 				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
 				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
 				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
