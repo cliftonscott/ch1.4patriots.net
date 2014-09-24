@@ -10,7 +10,30 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+<script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
+<script src="/js/jcookie.js" type="text/javascript"></script>
+<script type="text/javascript">
+// Change these values for the content within the "buttons" div to appear at this time.
+		$(document).ready(function(){
 
+			var hours = 0;
+			var minutes = 17;
+			var seconds = 45;
+			// Start by converting hours to milliseconds
+			var time = hours * 60 * 60 * 1000;
+
+			// Add minutes converted to milliseconds and add to total time
+			time += minutes * 60 * 1000;
+			// Add seconds to total time after converting to milliseconds
+			time += seconds * 1000;
+
+			setTimeout(function() {
+				$("#buyButton").css("display", "block");
+			}, time);
+
+
+		});
+</script>
 <div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -24,9 +47,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div id="videobox" class="hidden-xs">
 			<iframe src="//fast.wistia.net/embed/iframe/j04u9rv7k5" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 		</div>
-		<div>
-			<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-resposive center-block" /></a></p>
+		<div id="buyButton" style="padding-bottom:20px;display:none;">
+			<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			<p class="text-center">Get your Liberty Seed Vault (plus 4 FREE bonuses and FREE Shipping) for just $47 today by clicking the big orange &quot;click to accept&quot; button above.</p>
+		</div>
+		<div>
+
 			<p class="text-center read-warning" style="max-width:450px;">PLEASE READ THIS ENTIRE PAGE & ACCEPT OR DECLINE
 THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 			<p>Hey there <?php echo $firstName;?> , it’s Frank Bates, founder of SurvivalSeeds4Patriots, and I just wanted to say CONGRATULATIONS for claiming your free Heirloom Survival Seeds today.</p>
