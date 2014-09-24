@@ -25,7 +25,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<iframe src="//fast.wistia.net/embed/iframe/j04u9rv7k5" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 		</div>
 		<div>
-			<p class="text-center"><a href="process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-resposive center-block" /></a></p>
+			<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" class="img-resposive center-block" /></a></p>
 			<p class="text-center">Get your Liberty Seed Vault (plus 4 FREE bonuses and FREE Shipping) for just $47 today by clicking the big orange &quot;click to accept&quot; button above.</p>
 			<p class="text-center read-warning" style="max-width:450px;">PLEASE READ THIS ENTIRE PAGE & ACCEPT OR DECLINE
 THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
