@@ -189,7 +189,9 @@ article.content .effective-date {
 	overflow: hidden;
 }
 #videobox iframe{
-	right: 5px;
+	position: relative;
+	left: -2px;
+	top: -2px;
 }
 #videobox div{
 	z-index: 1;
@@ -274,6 +276,11 @@ article.content .effective-date {
 }
 #checkoutMenu a:hover{
 	text-decoration:none;
+}
+#checkoutMenu a:focus{
+	outline:none;
+	text-decoration:none;
+	border: 0;
 }
 #checkoutMenu .panel-heading{
 	color: #000000;
