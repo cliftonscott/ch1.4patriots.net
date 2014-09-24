@@ -27,7 +27,7 @@ class Product {
 		$productObj->offerLink = "/checkout/index.php";
 		$productObj->exitLink = "/letter/index.php";
 		$productObj->mobileLink = "/letter/index.php";
-		$productObj->trialLink = null;
+		$productObj->trialLink = "/checkout/alt/f4p-free-food-offer.php";
 		
 		//TODO ensure there is a variable here
 		$productObj->productId = intval($productId);
@@ -45,7 +45,7 @@ class Product {
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 7;
 				//Limelight
-				$productObj->price = 67;
+				$productObj->price = 47;
 				$productObj->originalPrice = 67;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 43;
