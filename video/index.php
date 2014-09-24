@@ -51,8 +51,8 @@ if (isMobile()) {
 					var seconds = 5;
 				} else {
 					var hours = 0;
-					var minutes = 51;
-					var seconds = 27;
+					var minutes = 27;
+					var seconds = 51;
 				}
 
 				// Start by converting hours to milliseconds
@@ -160,7 +160,7 @@ if (isMobile()) {
 				</div>
 				<!-- Button Stuff -->
 				<div id="buyButton2" class="center-block text-center" style="display:none">
-					<h2 class="darkRed"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
+					<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
 				  <div id="countDownTimer"></div>
 					<a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
 				</div>

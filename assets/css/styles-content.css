@@ -110,6 +110,9 @@ article.content .effective-date {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+.margin-t-20{
+	margin-top: 20px !important;
+}
 .margin-b-10{
 	margin-bottom: 10px;
 }
@@ -177,9 +180,9 @@ article.content .effective-date {
 
 /* VIDEO CONTAINER EDITS
 -------------------------------------------------- */
-#videobox{	
-	width: 98%;
-	max-width: 635px;
+#videobox{
+	max-width: 634px;
+	max-height: 352px;
 	background-color: #FFF;
 	margin-right: auto;
 	margin-left: auto;
@@ -188,13 +191,21 @@ article.content .effective-date {
 #videobox iframe{
 	right: 5px;
 }
+#videobox div{
+	z-index: 1;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	position: absolute;
+	left: -2px;
+	top: -2px;
+}
 /* AS SEEN ON CONTAINER EDITS
 -------------------------------------------------- */
 .tv {
 	width:100%;
 	margin:auto;
-	margin-top:25px;
-	margin-bottom: 25px;
 	text-align:center;
 	cursor:pointer;
 }
@@ -227,7 +238,7 @@ article.content .effective-date {
     clear:both;
     text-align: center;
     margin:auto;
-    font-size:4em;
+    font-size:55px;
     font-weight: bold;
     font-family: 'Allerta Stencil', sans-serif;
     color:#333333;
@@ -318,6 +329,9 @@ font-weight:bold;
 	padding-left: 15px; 
 	font-family: 'Courier New', Courier, monospace; 
 	font-size: large;	
+}
+.johnson-box-01 p {
+	margin-bottom: 10px;
 }
 .johnson-box-02 {
 	background-color: #FCFFA6;
