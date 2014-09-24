@@ -113,7 +113,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 			<p>These seeds have been specifically selected to be grown practically anywhere in America and have the ability to assimilate mineral and trace elements from the soil that genetically modified plants just don't seem to have.  </p>
 	<p>Check out all the included seeds... From blue lake bush bean to beefsteak tomato, to crimson sweet watermelon and much more... </p>
 
-			<div class="container">
+			<div>
 				<div class="row">
 				  <div class="col-sm-12 col-md-5 "><img src="/media/images/ss4p/ss4p-lsv-single.jpg" alt="Survival Seeds" class="img-responsive center-block" /></div>
 					<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">

@@ -68,13 +68,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<!--Internet Explorer 9,8,7,....-->
 		<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie10.css"/><![endif]-->
 		<!--Internet Explorer 10-->
-		<script>
-			if (/*@cc_on!@*/false) {
-				var headHTML = document.getElementsByTagName('head')[0].innerHTML;
-				headHTML += '<link type="text/css" rel="stylesheet" href="/assets/css/ie10.css">';
-				document.getElementsByTagName('head')[0].innerHTML = headHTML;
-			}
-		</script>
+
 		<!--Internet Explorer Cross Browsing Ends-->
 		<!--Enable HTML 5 Elements and Media Queries-->
 		<!--[if lte IE 9]>

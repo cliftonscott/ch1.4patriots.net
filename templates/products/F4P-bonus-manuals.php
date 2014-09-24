@@ -1,7 +1,7 @@
 <div class="bonus-materials">
 	<h3>Food4Patriots Bonus Manuals</h3>
 		<p>Here are all your Food4Patriots bonus manuals. </p>
-	<div class="container">
+	<div>
 		<div class="row">
 			<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-10-Items-After-Crisis.pdf"><img height="231" src="/media/images/f4p/F4P-eBook-10-items-after-crisis.jpg" alt="" /></a></div>
 			<div class="col-sm-12 col-md-8 margin-tb-50"><a target="_blank" href="/media/pdf/F4P-10-Items-After-Crisis.pdf">Right Click Here for Top 10 Items Sold Out After Crisis</a><br />

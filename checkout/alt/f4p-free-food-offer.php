@@ -23,7 +23,7 @@ include_once ('template-top.php');
 
 	<div class="row">
         <div class="col-sm-6 col-sm-push-6 col-md-7 col-md-push-5 nopadding">
-    		<div class="container" style="padding-top: 0px;">
+    		<div style="padding-top: 0px;">
                 <div class="row">
                 	<div class="col-lg-12">
                     	<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Food Is Almost Gone...</strong></h2>

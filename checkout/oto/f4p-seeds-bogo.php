@@ -34,7 +34,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="text-center center-block"> <a href="/checkout/process.php" onClick="patriotTrack('click-to-accept-bottom');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/></a></div>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-messenger-trial.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="/checkout/oto/f4p-messenger-trial.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 				</div>
 
 			</div>

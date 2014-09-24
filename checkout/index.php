@@ -146,7 +146,7 @@ include_once ('template-top.php');
 				<div id="chooseProductThree" class="panel-collapse collapse in">
 				  <div class="panel-body">
 					<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block"></a>
-					<div class="container nopadding">
+					<div class="nopadding">
 						<div class="row">
 							<div class="col-sm-12 col-md-5 nopadding">
 								<div class="productList">
@@ -163,10 +163,10 @@ include_once ('template-top.php');
 								<div class="productList">
 									<p class="text-center red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 									<ul>
-										<li>10 Items Sold Out After Crisis Report</li>
-										<li>Water Survival Guide Report</li>
-										<li>How to Cut Your Grocery Bills Report</li>
-										<li>Survival Garden Guide Report</li>
+										<li>10 Items Sold Out After Crisis</li>
+										<li>Water Survival Guide</li>
+										<li>How to Cut Your Grocery Bills</li>
+										<li>Survival Garden Guide</li>
 									</ul>
 								</div>
 							</div>
@@ -182,8 +182,8 @@ include_once ('template-top.php');
 
 	</div>
 
-	<div class="col-sm-6 col-md-5 nopadding">
-		<div class="container">
+	<div class="col-sm-6 col-md-5">
+		<div>
 			<div class="row">
 				<div class="col-lg-12">
 					<?php include_once ('customer-form.php'); ?>

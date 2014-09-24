@@ -22,7 +22,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 <div class="container oto-width">
 		<div>
-			<h1 class="darkRed text-center">We Want You Back... Get Up To $100.00 Off Food4Patriots Plus FREE Shipping With This 1-Time Offer!</div>
+			<h1 class="darkRed text-center">We Want You Back... Get Up To $100.00 Off Food4Patriots Plus FREE Shipping With This 1-Time Offer!</h1></div>
 			<div>
 				<p>Welcome back! You visited my site recently but you left before completing your purchase. </p>
 				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special 1-time offer that is only valid while you are on this page, you can get Food4Patriots for up to $100.00 off, plus get FREE Shipping and up to 6 FREE Bonus Gifts.</strong></p>
@@ -36,7 +36,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It&rsquo;s a 1-time discount sale price of $147 for the 4-week kit and $397 for the 3-month kit – that&rsquo;s a <strong>another $50.00 to $100.00 discount off the already-low price </strong>– but only if you act now.</p>
 				</div>
 <!--FORMS-->
-	  <div class="container">
+	  <div>
 		  <div class="row">
 			  <div class="col-sm-12 col-md-6">
 				  <div class="rcBoxR15-red-dot-border">

@@ -146,7 +146,7 @@ include_once ('template-top.php');
 					<div id="chooseProductThree" class="panel-collapse collapse in">
 						<div class="panel-body">
 						<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-kit-02.jpg" class="img-responsive center-block"></a>
-						<div class="container nopadding">
+						<div class="nopadding">
 							<div class="row">    
 								<div class="col-sm-12 col-md-6 nopadding">
 								  <div class="productList">
@@ -198,8 +198,8 @@ include_once ('template-top.php');
 
 	</div>
 
-	<div class="col-sm-6 col-md-5 nopadding">
-		<div class="container" style="padding-top: 0px; */">
+	<div class="col-sm-6 col-md-5">
+		<div style="padding-top: 0px; */">
 			<div class="row">
 				<div class="col-lg-12">
 					<?php include_once ('customer-form.php'); ?>
