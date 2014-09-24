@@ -80,6 +80,11 @@ class Limelight {
 			$limelightParams["phone"] = "1111111111";
 		}
 
+		//check for custom pricing
+		if($productDataObj->isCustomPrice === true) {
+			$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $productDataObj->price;
+		}
+
 		//SID for LL
 		//TODO use better equality checking here as we should be more confident in our values
 
