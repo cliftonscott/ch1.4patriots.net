@@ -46,6 +46,7 @@ class Product {
 				$productObj->mpsId = 7;
 				//Limelight
 				$productObj->price = 47;
+				$productObj->isCustomPrice = true;
 				$productObj->originalPrice = 67;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 23;
