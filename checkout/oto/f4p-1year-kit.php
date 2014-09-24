@@ -110,7 +110,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 </div>
 <?php include("f4p-1year-bonus-lifestraw.html");?>
 <?php include("f4p-1year-bonus-survivalbooks.html");?>
-<?php //include("f4p-1year-bonus-pam.html");?>
+<?php include("f4p-1year-bonus-cards.html");?>
 <div class="container oto-width">
 	<h2 class="darkRed text-center">You Will Also Get FOUR More Sets Of All Of Your Original FREE Bonuses When 
 		You Take Advantage Of This Special Upgrade Offer! 
