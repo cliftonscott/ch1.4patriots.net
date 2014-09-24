@@ -37,7 +37,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 6;
 				$productObj->nextPage = "/checkout/oto/f4p-seeds-bogo.php";
-				$productObj->listId = 18;
+				$productObj->listId = 14;
 				$productObj->tags = "f4pseeds";
 				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
@@ -48,10 +48,10 @@ class Product {
 				$productObj->price = 47;
 				$productObj->originalPrice = 67;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 43;
+				$productObj->netRevenueEach = 23;
 				$productObj->googleProductName = "SS4P-LSV";
 				$productObj->googleProductSKU = "PID7";
-				$productObj->googleProductCategory = "1-PAY-67";
+				$productObj->googleProductCategory = "1-PAY-47";
 				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
 				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
 				//Other
