@@ -672,135 +672,153 @@ input[type=number]::-webkit-outer-spin-button {
 }
 }
 @media (min-width: 768px) {
-.container {
-	width: 100%;
-}
+	.container {
+		width: 100%;
+	}
 
-/* CUSTOMIZE CHECKOUT FORM
--------------------------------------------------- */
-.form-container {
-	float: right;
-	width: 360px;
-}
-.form-container label {
-	width: 138px;
-	display: block;
-	float: left;
-	margin-right: 10px;
-	text-align: right;
-	font-size: 13px;
-	margin-top: 4px;
-}
-.form-container input[type="text"],input[type="email"],input[type="number"],input[type="tel"] {
-	width: 200px;
-	margin: 0px;
-}
-.form-container select {
-	padding: 2px;
-	width: 200px;
-	margin-left:1px;
-	margin: 0px;
-}
-.sameas-select{
-	width: 94% !important;
-	margin-right: inherit !important;
-	margin-left: inherit !important;
-	text-align: right !important;
-}
-.cc-align{
-	padding-left: 140px;
-	padding-bottom: 5px;
-	text-align: left;
-}
-.expiration {
-	margin-bottom: 5px;
-}
-.expiration select{
-	margin-left: auto !important;
-}
-.cvv2-field {
-	width: 60px !important;
-	margin: 0px !important;
-}
-.zip-field {
-	width: 100px !important;
-	margin: 0px !important;
-}
-#productInfo {
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-left: 50px;
-	padding-bottom: 10px;
-	font-size: 14px;
-}
-#productInfoOTO {
-	padding-top: 10px;
-	padding-left: 23px;
-	padding-bottom: 10px;
-}
-#secure-guarantee {
-	background-color: #F5FAF5; 
-	margin-top: 10px; 
-	margin-bottom: 10px;
-	text-align: center;
-}
-#secure-guarantee-header {
-	font-size: 13px; 
-	font-weight: bold; 
-	width: 360px; 
-	background-color: #CCF8CD; 
-	color: #4D4D4D;
-	
-}
-#secure-guarantee-body {
-	font-size: 12px; 
-	width: 80%;
-	padding: 10px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.warning-check {
-	background-image: url(../images/misc/warning-check.gif);
-	position:absolute;left: -120px;top:-10px;
-}
+	/* CUSTOMIZE CHECKOUT FORM
+	-------------------------------------------------- */
+	.form-container {
+		float: right;
+		width: 360px;
+	}
 
+	.form-container label {
+		width: 138px;
+		display: block;
+		float: left;
+		margin-right: 10px;
+		text-align: right;
+		font-size: 13px;
+		margin-top: 4px;
+	}
 
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-  }
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
+	.form-container input[type="text"], input[type="email"], input[type="number"], input[type="tel"] {
+		width: 200px;
+		margin: 0px;
+	}
 
-/* CUSTOMIZE THE BREADCRUMB
--------------------------------------------------- */
-.breadcrumb1 {
-	font-size: 14px;
-}
-.breadcrumb1 a:before {
-    width: 0;
-    height: 0;
-    border-top: 20px inset transparent;
-    border-bottom: 20px inset transparent;
-    border-left: 20px solid #fff;
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-}
-.breadcrumb1 a:after {
-    width: 0;
-    height: 0;
-    border-top: 20px inset transparent;
-    border-bottom: 20px inset transparent;
-    border-left: 20px solid #f0f4f9;
-    position: absolute;
-    content: "";
-    top: 0;
-    right: -20px;
-    z-index: 2;
-}
-}
+	.form-container select {
+		padding: 2px;
+		width: 200px;
+		margin-left: 1px;
+		margin: 0px;
+	}
+
+	.sameas-select {
+		width: 94% !important;
+		margin-right: inherit !important;
+		margin-left: inherit !important;
+		text-align: right !important;
+	}
+
+	.cc-align {
+		padding-left: 140px;
+		padding-bottom: 5px;
+		text-align: left;
+	}
+
+	.expiration {
+		margin-bottom: 5px;
+	}
+
+	.expiration select {
+		margin-left: auto !important;
+	}
+
+	.cvv2-field {
+		width: 60px !important;
+		margin: 0px !important;
+	}
+
+	.zip-field {
+		width: 100px !important;
+		margin: 0px !important;
+	}
+
+	#productInfo {
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-left: 50px;
+		padding-bottom: 10px;
+		font-size: 14px;
+	}
+
+	#productInfoOTO {
+		padding-top: 10px;
+		padding-left: 23px;
+		padding-bottom: 10px;
+	}
+
+	#secure-guarantee {
+		background-color: #F5FAF5;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	#secure-guarantee-header {
+		font-size: 13px;
+		font-weight: bold;
+		width: 360px;
+		background-color: #CCF8CD;
+		color: #4D4D4D;
+
+	}
+
+	#secure-guarantee-body {
+		font-size: 12px;
+		width: 80%;
+		padding: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.warning-check {
+		background-image: url(../images/misc/warning-check.gif);
+		position: absolute;
+		left: -120px;
+		top: -10px;
+	}
+
+	/* Navbar positioning foo */
+	.navbar-wrapper {
+		margin-top: 20px;
+		margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	}
+
+	/* The navbar becomes detached from the top, so we round the corners */
+	.navbar-wrapper .navbar {
+		border-radius: 4px;
+	}
+
+	/* CUSTOMIZE THE BREADCRUMB
+	-------------------------------------------------- */
+	.breadcrumb1 {
+		font-size: 14px;
+	}
+
+	.breadcrumb1 a:before {
+		width: 0;
+		height: 0;
+		border-top: 20px inset transparent;
+		border-bottom: 20px inset transparent;
+		border-left: 20px solid #fff;
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+	}
+
+	.breadcrumb1 a:after {
+		width: 0;
+		height: 0;
+		border-top: 20px inset transparent;
+		border-bottom: 20px inset transparent;
+		border-left: 20px solid #f0f4f9;
+		position: absolute;
+		top: 0;
+		right: -20px;
+		z-index: 2;
+	}
+}}

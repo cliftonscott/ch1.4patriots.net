@@ -143,7 +143,6 @@ article.content .effective-date {
 /*IE will need an 'adjustment'*/
 * html #LoadingDiv{
      position: absolute;
-     height: expression(document.body.scrollHeight &gt; document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
   }
 
 /* THE FLOATING TIMER STYLES
