@@ -97,6 +97,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 </div>
 <?php include("f4p-1year-glenbeck.html");?>
+	<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" width="550" height="133" alt=""/><div>Add To Cart $1997</div></a></div>
 <?php include("f4p-1year-whatsincluded.html");?>
 <div class="container oto-width">
 	<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
