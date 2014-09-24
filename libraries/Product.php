@@ -433,6 +433,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+			case 142: //Liberty Seed Vault $23.50 X 2
+				//process file
+				$productObj->campaignId = 6;
+				$productObj->nextPage = "/checkout/oto/f4p-messenger-trial.php";
+				$productObj->listId = 39;
+				$productObj->tags = "F4PSEEDS23UP";
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 7;
+				//Limelight
+				$productObj->price = 23.50;
+				$productObj->originalPrice = 67;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 23.50;
+				$productObj->googleProductName = "SS4P-LSV";
+				$productObj->googleProductSKU = "PID142";
+				$productObj->googleProductCategory = "2-PAY-23";
+				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
+				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 			
 			
 			
