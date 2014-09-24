@@ -15,10 +15,7 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	margin-bottom: 40px;
 	font-size: 16px;
 	background: #eeeeee;
-	box-shadow: 2px 2px 15px 4px #C6C6C6;
-	-webkit-box-shadow: 2px 2px 15px 4px #C6C6C6;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+	border-radius: 15px;
 }
 #belcher-box .box-title {
 	padding: 10px;
@@ -28,6 +25,8 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	border: 2px solid #777777;
 	background-color: #777777;
 	color: #FFFFFF;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 #belcher-box .box-body {
 	padding: 10px;
