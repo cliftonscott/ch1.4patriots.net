@@ -111,7 +111,7 @@ include_once ('template-top.php');
 
 			<div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
-				<div><img class="img-responsive center-block" src="/media/images/f4p/value-chart-3.jpg" alt="Value Chart"/></div>
+				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
 				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 
 				<a id="accept"></a>
@@ -256,7 +256,7 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 			html:true,
 			trigger: 'hover',
 			title:"4 11-in-1 Survival Tool",
-			content: "<img src=/media/images/f4p/multi-tool-02.jpg>"
+			content: "<img src=/media/images/bonuses/bonus-multi-tool-02.jpg>"
 		});
 
 	});

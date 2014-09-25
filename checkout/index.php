@@ -206,6 +206,11 @@ $('#accordion > .panel').on('show.bs.collapse', function (e) {
 $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 		$(this).find('.panel-heading').removeClass('active-panel');
 });
+$('#accordion .panel-heading').on('click',function(e){
+	if($(this).parents('.panel').children('.panel-collapse').hasClass('in')){
+		e.stopPropagation();
+	}
+});
 	$(document ).ready(function () {
 		$("#72hPopover").popover({
 			html:true,

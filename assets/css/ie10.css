@@ -346,6 +346,9 @@ background-color: #B6B6B6;
 	width: 100px !important;
 	margin: 0px !important;
 }
+#quantity {
+	width:45px;
+}
 #productInfo {
 	padding-top: 10px;
 	padding-right: 10px;

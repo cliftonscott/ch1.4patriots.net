@@ -201,7 +201,7 @@ $offerName = $_SESSION["firstName"];
 </script>
 <div id="timerModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" style="width:700px;height:750px;">
-		<div class="modal-content" style="background-image:url(/media/images/f4p/3-month-tote-08-snack-details.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
+		<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-fvs-mix-details-01.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
 			<div style="text-align:center;padding:10px;width:700px;height:750px;">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
 			</div>
