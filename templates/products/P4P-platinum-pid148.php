@@ -157,7 +157,7 @@ $offerName = $_SESSION["firstName"];
 	<div class="box-title">Exclusive Offer for Our Customers...</div>
 	<div class="box-body">
 		<div class="timer-box">
-			<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/p4p/P4P-platinum-package-01.jpg" width="360" height="230" alt="3 Month Food Supply">
+			<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/p4p/p4p-platinum-package-01.jpg" width="360" height="230" alt="3 Month Food Supply">
 			<div id="timer" style="top:-135px;">10:00</div></a>
 			</div>
 		<p><?php echo $offerName;?>, 
@@ -242,7 +242,7 @@ if($typUpsellMaxQuantity > 1) {
 </script>
 <div id="timerModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" style="width:700px;height:500px;">
-		<div class="modal-content" style="background-image:url(/media/images/p4p/P4P-platinum-package-01.jpg);">
+		<div class="modal-content" style="background-image:url(/media/images/p4p/p4p-platinum-package-01.jpg);">
 			<div style="text-align:center;padding:10px;width:700px;height:500px;">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
 			</div>
