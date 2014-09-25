@@ -736,6 +736,10 @@ input[type=number]::-webkit-outer-spin-button {
 		margin: 0px !important;
 	}
 
+	#quantity {
+		width:45px;
+	}
+
 	#productInfo {
 		padding-top: 10px;
 		padding-right: 10px;
