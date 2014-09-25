@@ -284,10 +284,20 @@ article.content .effective-date {
 }
 #checkoutMenu .panel-heading{
 	color: #000000;
+    background-image: url(/assets/images/checkout/box-unchecked.png);
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 20px 20px;
 }
 #checkoutMenu .active-panel{
 	background-color: #67BC07;
 	color: #FFFFFF !important;
+    background-image: url(/assets/images/checkout/box-checked.png);
+    background-position: 5px 10px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-size: 20px 20px;
 }
 .productList {
 	max-width: 310px;
