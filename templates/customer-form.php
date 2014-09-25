@@ -233,11 +233,11 @@ if($_SESSION['errorMessage'] != '') {
 			<?php
 			if($maxQuantity > 1) {
 			?>
-			<div class="row">
+			<div class="row" style="margin-bottom: 10px;">
 				<div class="col-xs-7 darkRed" style="margin-top:4px;">Choose Quantity:</div>
 				<div class="col-xs-5">
 						<div class="form-group">
-							<select class="form-control" id="quantity" name="quantity" onchange="setStateTax();">
+							<select class="form-control pull-right" id="quantity" name="quantity" onchange="setStateTax();">
 								<?php
 								for ($i = 1; $i <= $maxQuantity; $i++) {
 									echo "<option value='" . $i . "'>" . $i . "</option>";
