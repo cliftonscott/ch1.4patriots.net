@@ -76,11 +76,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
 		<![endif]-->
 
-		<?php
-			if(intval($_SESSION['productId']) > 0) {
-				include_once("patriotTrack.php");
-			}
-		?>
+
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/assets/js/bootstrap.min.js"></script>
 		<script src="/js/patriot.js"></script>
