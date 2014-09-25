@@ -175,7 +175,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 			<div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
-				<div><img class="img-responsive center-block" src="/media/images/f4p/value-chart-3.jpg" alt="Value Chart"/></div>
+				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
 				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 
 				<a id="accept"></a>

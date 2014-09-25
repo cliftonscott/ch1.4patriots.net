@@ -189,7 +189,7 @@ Be For Well-Off Americans</h2>
 
 	<div class="outLineBoxDarkBlue">
 		  <div>
-			<img src="/media/images/f4p/F4P-eBook-10-items-after-crisis-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />
+			<img src="/media/images/f4p/f4p-eBook-10-items-after-crisis-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />
 			<div style="padding-top:0px;">
 				<p><strong class="brightBlue">Free Bonus #1: </strong><strong>Top 10 Items Sold Out After Crisis</strong>&nbsp;– in this report you&rsquo;ll learn the 10 items you absolutely need to hoard. If you miss this you&rsquo;ll be forced to go without &lsquo;em in a crisis. And you should know - this is an updated list so if you think you&rsquo;ve seen these before, think again!  You&rsquo;ll also learn how to snag them on the cheap, store them securely and pump out every ounce of nutrition they have to offer.</p>
 			</div>
@@ -197,18 +197,18 @@ Be For Well-Off Americans</h2>
 			  <div class="clearfix"></div>
 			  <div>
 				<div style="padding-top:0px;">
-				<p><strong class="brightBlue"><img src="/media/images/f4p/F4P-eBook-the-water-survival-guide-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />Free Bonus #2:</strong><strong> The Water Survival Guide </strong>– Look, without clean water you can&rsquo;t prepare a scrap of food. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. So don&rsquo;t be stuck relying on water sources everyone knows about. This down-n-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It&rsquo;ll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency. </p>
+				<p><strong class="brightBlue"><img src="/media/images/f4p/f4p-eBook-the-water-survival-guide-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />Free Bonus #2:</strong><strong> The Water Survival Guide </strong>– Look, without clean water you can&rsquo;t prepare a scrap of food. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. So don&rsquo;t be stuck relying on water sources everyone knows about. This down-n-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It&rsquo;ll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency. </p>
 			  </div>
 			</div>
 			  <div class="clearfix"></div>
 			  <div>
 				<div style="padding-top:0px;">
-				<p><strong class="brightBlue"><img src="/media/images/f4p/F4P-eBook-the-survival-garden-guide-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />Free Bonus #3:</strong><strong> The Survival Garden Guide</strong> – A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing and long-term storage. This is like &ldquo;food insurance&rdquo; so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
+				<p><strong class="brightBlue"><img src="/media/images/f4p/f4p-eBook-the-survival-garden-guide-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />Free Bonus #3:</strong><strong> The Survival Garden Guide</strong> – A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing and long-term storage. This is like &ldquo;food insurance&rdquo; so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
 			  </div>
 			</div>
 			  <div class="clearfix"></div>
 			  <div>
-			  <img src="/media/images/f4p/F4P-eBook-cut-grocery-bills-half-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />
+			  <img src="/media/images/f4p/f4p-eBook-cut-grocery-bills-half-02.jpg" alt="Bonus 1" class="img-padding-right pull-left img-responsive media" />
 			  <div style="padding-top:0px;">
 				<p><strong class="brightBlue">Free Bonus #4: </strong><strong>How To Cut Your Grocery Bills in Half </strong>– It&rsquo;s sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you&rsquo;ve seen an increase in spending too. Well, it doesn&rsquo;t have to be like that. To help out I&rsquo;m going to show you my down-n-dirty tricks to getting the best deal. But let me warn you: couponing is only one part of this bill shredding strategy, so pay close attention to what&rsquo;s inside!</p>
 			  </div>
@@ -267,7 +267,7 @@ Be For Well-Off Americans</h2>
 
 			<p><strong>And last but definitely not least</strong>, you&rsquo;ll get this compact but powerful survival tool absolutely <strong>FREE</strong>. This amazing gadget packs 11 functions into a tool no bigger than a credit card and fits right in your wallet, so you'll always have it handy.</p>
 	<p><strong><img src="/media/images/misc/free-burst-01.jpg" alt="FREE BONUS" class="img-padding-right pull-left img-responsive media" />FREE 11-in-1 Survival Tool</strong> – this amazing tool could be a real life-saver yet is no bigger than a credit card so you&rsquo;ll always have it handy.</p>
-	<img src="/media/images/f4p/multi-tool-01.jpg" alt="Survival Tool" class="img-responsive center-block" />
+	<img src="/media/images/bonuses/bonus-multi-tool-01.jpg" alt="Survival Tool" class="img-responsive center-block" />
 
 	  </div>
 
