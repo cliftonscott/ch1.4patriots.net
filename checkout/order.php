@@ -25,10 +25,10 @@ if($_SESSION['upgrade'] == TRUE) {
 	$_SESSION["upgrade"] = FALSE;
 	//use only values available in the Product.php file OR use only generic text, non-product specific
 ?>
-					<p class="text-success h3">
+					<p class="text-success h3 title-max-400 center-block">
 						<?php echo $productDataObj->metaTitle; ?>
 					</p>
-					<p>
+					<p class="hidden">
 						<?php echo $productDataObj->metaDescription; ?>
 					</p>
 					<?php
@@ -43,10 +43,10 @@ if($_SESSION['upgrade'] == TRUE) {
 } else {
 ?>
 					<h2 class="text-danger">There was a problem processing your order for the special offer:</h2>
-					<p class="text-success h3">
+					<p class="text-success h3 title-max-400 center-block">
 						<?php echo $productDataObj->metaTitle; ?>
 					</p>
-					<p>
+					<p class="hidden">
 						<?php echo $productDataObj->metaDescription; ?>
 					</p>
 					<p><u><strong>Don't worry!</strong></u><strong> If you have another method for payment, you can enter it and still receive the special offer!</strong></p>
