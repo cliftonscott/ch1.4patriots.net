@@ -2,6 +2,7 @@
 if(empty($_SESSION['productId'])) {
 	$_SESSION['productId'] = 148; //please keep as an integer	
 }
+$maxQuantity = 10;
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form

@@ -54,23 +54,25 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 						  <!-- *PRODUCT INFO -->
 						  <div id="productInfoOTO">
-							  <div class="row">
+							  <div class="row hidden">
 								  <div class="col-xs-2"><strong>Qty:</strong></div>
-								  <div class="col-xs-10">1<input type="hidden" id="quantity_22" name="quantity" value="1"></div>
+								  <div class="col-xs-10"><select name="quantity" id="quantity_22" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(22);">
+										  <?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
+									  </select></div>
 							  </div>
 							  <div class="row">
 								  <div class="col-xs-2"><strong>Price:</strong></div>
 								  <div id="subTotal_22" class="col-xs-10"></div>
 							  </div>
-							  <div id="shippingRow_22" class="row">
+							  <div id="shippingRow_22" class="row hidden">
 								  <div class="col-xs-2"><strong>S&amp;H:</strong></div>
 								  <div id="shippingAmount_22" class="col-xs-10 show"></div>
 							  </div>
-							  <div id="taxRow_22" class="row">
+							  <div id="taxRow_22" class="row hidden">
 								  <div class="col-xs-2"><strong>Tax:</strong></div>
 								  <div id="taxAmount_22" class="col-xs-10 show"></div>
 							  </div>
-							  <div class="row">
+							  <div class="row hidden">
 								  <div class="col-xs-2"><strong>Total:</strong></div>
 								  <div id="totalAmount_22" class="col-xs-10"></div>
 							  </div>
@@ -100,23 +102,25 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 						  <!-- *PRODUCT INFO -->
 						  <div id="productInfoOTO">
-							  <div class="row">
+							  <div class="row hidden">
 								  <div class="col-xs-2"><strong>Qty:</strong></div>
-								  <div class="col-xs-10">1<input type="hidden" id="quantity_23" name="quantity" value="1"></div>
+								  <div class="col-xs-10"><select name="quantity" id="quantity_23" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="setStateTax(23);">
+										  <?php for ($i=1; $i<=10; $i++){ echo "<option>". $i . "</option>"; }?>
+									  </select></div>
 							  </div>
 							  <div class="row">
 								  <div class="col-xs-2"><strong>Price:</strong></div>
 								  <div id="subTotal_23" class="col-xs-10"></div>
 							  </div>
-							  <div id="shippingRow_23" class="row">
+							  <div id="shippingRow_23" class="row hidden">
 								  <div class="col-xs-2"><strong>S&amp;H:</strong></div>
 								  <div id="shippingAmount_23" class="col-xs-10 show"></div>
 							  </div>
-							  <div id="taxRow_23" class="row">
+							  <div id="taxRow_23" class="row hidden">
 								  <div class="col-xs-2"><strong>Tax:</strong></div>
 								  <div id="taxAmount_23" class="col-xs-10 show"></div>
 							  </div>
-							  <div class="row">
+							  <div class="row hidden">
 								  <div class="col-xs-2"><strong>Total:</strong></div>
 								  <div id="totalAmount_23" class="col-xs-10"></div>
 							  </div>
