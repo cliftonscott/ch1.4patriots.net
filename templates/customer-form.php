@@ -33,7 +33,10 @@ if($_SESSION["soldout"]["flag"] === true) {
 			this means that we should move the calculation to the api
 			and out of this switch statement
 			 */
-			taxState = document.getElementById('billing-state').value.toLowerCase();
+			taxState = document.getElementById('shipping-state').value.toLowerCase();
+			if(taxState === "") {
+				taxState = document.getElementById('billing-state').value.toLowerCase();
+			}
 			quantity = document.getElementById("quantity").value;
 			productPrice = jsProductObj.price * quantity;
 			priceAmount = document.getElementById("priceAmount");
