@@ -18,6 +18,8 @@ $template["formType"] = "customerForm"; //designates that this is a form using c
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = 1;
+$maxQuantity = 5;
+
 include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
