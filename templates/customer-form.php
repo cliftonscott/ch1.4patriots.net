@@ -34,7 +34,8 @@ if($_SESSION["soldout"]["flag"] === true) {
 			and out of this switch statement
 			 */
 			taxState = document.getElementById('billing-state').value.toLowerCase();
-			productPrice = jsProductObj.price;
+			quantity = document.getElementById("quantity").value;
+			productPrice = jsProductObj.price * quantity;
 			priceAmount = document.getElementById("priceAmount");
 			priceAmount.innerHTML = "$" + productPrice.toFixed(2);
 			productTitle = document.getElementById("productTitle");
@@ -63,7 +64,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 					break;
 			}
 			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
-				//priceAmount.innerHTML = "$" + productPrice.toFixed(2);
 				priceAmount.innerHTML = "<span style='text-decoration: line-through'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
 				document.getElementById("submitButton").src = "/assets/images/buttons/btn-rush-free-01.png";
 			}
@@ -224,6 +224,26 @@ if($_SESSION['errorMessage'] != '') {
         	CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
         <input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
       </div>
+	    <?php
+	    if($maxQuantity > 1) {
+	    ?>
+		<div class="form-group">
+		    <label for="quantity">Qty:</label>
+		    <select class="form-control" id="quantity" name="quantity" onchange="setStateTax();">
+			    <?php
+			    for ($i = 1; $i <= $maxQuantity; $i++) {
+				    echo "<option value='" . $i . "'>" . $i . "</option>";
+			    }
+			    ?>
+		    </select>
+		</div>
+	    <?php
+	    } else {
+		?>
+	    <input type="hidden" name="quantity" id="quantity" value="1">
+	    <?php
+	    }
+	    ?>
       <!-- *PRODUCT INFO -->
       <div id="productInfo">
       <div class="row">

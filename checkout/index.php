@@ -11,7 +11,7 @@ if($_SESSION["soldout"]["flag"] !== true) {
 } else {
 	$template["floatingTimer"] = 0; //minutes to pass to the timer / will not display if not greater than zero
 }
-
+$maxQuantity = 5;
 
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
@@ -33,31 +33,9 @@ include_once ('template-top.php');
 	by changing the productId on the form, and then triggering setStateTax()
 	the form is recalculated based on an ajax call using the new productId
 	*/
-	function switchProduct(what) {
-		document.getElementById("72hr").checked = false;
-		document.getElementById("4week").checked = false;
-		document.getElementById("3month").checked = false;
-		document.getElementById(what).checked = true;
-		switch (what) {
-			case "72hr":
-				productId = 17;
-				document.getElementById("72hr").checked = true;
-				break;
-			case "4week":
-				productId = 18;
-				document.getElementById("4week").checked = true;
-				break;
-			case "3month":
-				document.getElementById("3month").checked = true;
-				break;
-			default:
-				console.log("switchProduct() did not receive a valid 'what'.");
-				break;
-		}
-		if(productId) {
-			document.getElementById("productId").value = productId;
-			setStateTax();
-		}
+	function switchProduct(productId) {
+		document.getElementById("productId").value = productId;
+		setStateTax();
 	}
 </script>
 <div class="container-main">
@@ -83,10 +61,10 @@ include_once ('template-top.php');
 		<div class="col-lg-12">
 		  <div class="panel-group" id="accordion">
 			  <div class="panel panel-default">
-				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct('72hr');">
+				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct(17);">
 				<div class="panel-heading">
 				  <h4 class="panel-title">
-					  <div><input name="72hr" type="checkbox" id="72hr" style="margin-right:10px;"/>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
+					  <div>72 Hour Food Supply - $27 <span class="gray13">($11/day)</span></div>
 				  </h4>
 				</div>
 				</a>
@@ -109,10 +87,10 @@ include_once ('template-top.php');
 				</div>
 			  </div>
 			  <div class="panel panel-default">
-				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct('4week');">
+				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct(18);">
 				<div class="panel-heading">
 				  <h4 class="panel-title">
-					  <div><input name="4week" type="checkbox" id="4week" style="margin-right:10px;"/>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+					  <div>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 				  </h4>
 				</div>
 				</a>
@@ -136,10 +114,10 @@ include_once ('template-top.php');
 				</div>
 			  </div>
 			  <div id="initial" class="panel panel-default">
-				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct('3month');">
+				<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
 				<div class="panel-heading">
 				  <h4 class="panel-title">
-					  <div><input name="3month" type="checkbox" id="3month" checked style="margin-right:10px;"/>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+					  <div>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 				  </h4>
 				</div>
 				</a>
@@ -221,11 +199,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
    
 </div> 
 <script>
-function doThis() {
-	alert("boo");
-}
-
-
 $('#initial').find('.panel-heading').addClass("active-panel");
 $('#accordion > .panel').on('show.bs.collapse', function (e) {
 		$(this).find('.panel-heading').addClass("active-panel");
