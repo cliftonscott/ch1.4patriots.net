@@ -231,7 +231,7 @@ if($_SESSION['errorMessage'] != '') {
 			if($maxQuantity > 1) {
 			?>
 			<div class="row">
-				<div class="col-xs-7 darkRed" style="margin-top: 4px;">Choose Quantity:</div>
+				<div class="col-xs-7 darkRed">Choose Quantity:</div>
 				<div class="col-xs-5">
 						<div class="form-group">
 							<select class="form-control" id="quantity" name="quantity" onchange="setStateTax();">
@@ -246,12 +246,11 @@ if($_SESSION['errorMessage'] != '') {
 			</div>
 			<?php
 				} else {
-				?>
-				<input type="hidden" name="quantity" id="quantity" value="1">
+				?><input type="hidden" name="quantity" id="quantity" value="1">
 			<?php
 				}
 			?>
-			<div class="row hidden-xs">
+			<div class="row hidden">
 				<div class="col-xs-2 darkRed"><strong>Item:</strong></div>
 				<div class="col-xs-10" id="productTitle"></div>
 			</div>
@@ -320,16 +319,16 @@ if(isset($preFill)) {
 		if (this.checked) {
 			$('#shipaddd').show('fast');
 			billingAddress = $("#billing-address").val();
-			$('#shipping-address').val(billingAddress);
+			//$('#shipping-address').val(billingAddress);
 			
 			billingCity = $("#billing-city").val();
-			$('#shipping-city').val(billingCity);
+			//$('#shipping-city').val(billingCity);
 			
 			billingState = $("#billing-state").val();
 			$('#shipping-state').val(billingState);
 			
 			billingZip = $("#billing-zip").val();
-			$('#shipping-zip').val(billingZip);
+			//$('#shipping-zip').val(billingZip);
 			
 			billingCountry = $("#billing-country").val();
 			$('#shipping-country').val(billingCountry);
