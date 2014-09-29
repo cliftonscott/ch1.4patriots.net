@@ -18,6 +18,8 @@ $template["formType"] = "customerForm"; //designates that this is a form using c
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = 1;
+$maxQuantity = 5;
+
 include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
@@ -46,6 +48,9 @@ include_once ('template-top.php');
 		</div>
 </div>
 <?php include("f4p-1year-glenbeck.html");?>
+	<div style="text-align:center;">
+		<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"></a>
+	</div>
 <?php include("f4p-1year-whatsincluded.html");?>
 <div class="container oto-width">
 	<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses You Can ONLY Get With The 1 Year Kit!</h2>
@@ -66,7 +71,7 @@ include_once ('template-top.php');
 
 			<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" width="250" height="189" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not 
 					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase 
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for 
@@ -75,7 +80,7 @@ include_once ('template-top.php');
 			</div>
 
 			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" width="250" height="192" class="pull-left img-responsive media">
+				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
 				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
 				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>

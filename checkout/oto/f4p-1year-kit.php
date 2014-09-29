@@ -11,7 +11,8 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 
 // SET PRODUCT ID
 $_SESSION['productId'] = 40; //please keep as an integer
-$_SESSION['quantity'] = '1';
+$_SESSION['quantity'] = 1;
+$maxQuantity = 5;
 
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
