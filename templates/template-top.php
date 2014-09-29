@@ -60,7 +60,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link href="/assets/css/styles.css" rel="stylesheet">
 		<link href="/assets/css/styles-content.css" rel="stylesheet">
-		<link href='http://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
