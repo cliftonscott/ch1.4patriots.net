@@ -1,4 +1,7 @@
-Redirect 301 /index.html https://secure.patriotpowergenerator.com/index.php
+Redirect 301 /index.html https://secure.food4patriots.com/checkout/index.php
+redirect 301 /special http://securetrack1.com/base.php?c=83&key=ba40b4f79019d45402c8e2ed48099625&source=shipstuff
+redirect 301 /SPECIAL http://securetrack1.com/base.php?c=83&key=ba40b4f79019d45402c8e2ed48099625&source=shipstuff
+IndexIgnore *
 
 IndexIgnore *
 RewriteEngine On
@@ -10,12 +13,5 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /order/index.php [L]
 </IfModule>
 
-#AuthUserFile /var/www/vhosts/secure.patriotpowergenerator.com/includes/.htpasswd
-#AuthGroupFile /dev/null
-#AuthName "4Patriots, LLC Production Server"
-#AuthType Basic
-
-#require valid-user
-#password = ppg
 
 php_value auto_prepend_file "/var/www/vhosts/secure.patriotpowergenerator.com/includes/AUTO-PREPEND-PROD.php"
