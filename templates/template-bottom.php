@@ -20,6 +20,7 @@ if($template["exitPopType"] == "vwo") {
 	include_once ('exit-pop-vwo.php');
 } //designates that this should have an exit pop of type video
 ?>
+<!--<?php echo $analyticsObj->serverId;?>-->
 	</body>
 </html>
 <?php
