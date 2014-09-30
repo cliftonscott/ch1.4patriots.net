@@ -21,7 +21,7 @@ if($_SESSION["googleTransaction"]) {
 					'shipping': '0',
 					'coupon': ''
 				},
-				'products': [{                            // List of productFieldObjects.
+				'products': {                            // List of productFieldObjects.
 					'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
 					'id': '<?php echo $googleTransaction["orderSku"];?>',
 					'price': '<?php echo $googleTransaction["price"];?>',
@@ -30,7 +30,7 @@ if($_SESSION["googleTransaction"]) {
 					'variant': '<?php echo $googleTransaction["orderCategory"];?>',
 					'quantity': <?php echo $googleTransaction["orderQty"];?>,
 					'coupon': ''	// Optional fields may be omitted or set to empty string.
-				}]
+				}
 			}
 		}
 	});
