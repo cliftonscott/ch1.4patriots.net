@@ -98,10 +98,10 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 			echo "\n<script src='/js/customer-form-validation.js'></script>";
 		}
 		?>
-		
+		<?php include_once("analytics-google-ecom.php"); ?>
 	</head>
 	<body>
-	<?php include_once("analytics-google-ecom.php"); ?>
+
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
 	</div>
