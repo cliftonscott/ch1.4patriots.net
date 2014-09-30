@@ -694,9 +694,6 @@ var exitsplashpage = '<? echo $triallink; ?>';
 </script>-->
 
 <!-- End of ExitSplash.com Code -->
-<? include ('../includes/clickytrack.php'); ?>
-<!-- Start of ubertags Code -->
-<? include ('../includes/ubertags.php'); ?>
-
+<? include ('clickytrack.php'); ?>
 </body>
 </html>
