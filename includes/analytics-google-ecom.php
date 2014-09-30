@@ -14,7 +14,7 @@ if($_SESSION["googleTransaction"]) {
 		'ecommerce': {
 			'purchase': {
 				'actionField': {
-					'id': '<?php echo $googleTransaction["orderSku"];?>',	// Transaction ID. Required for purchases and refunds.
+					'id': '<?php echo $googleTransaction["customerId"];?>',	// Transaction ID. Required for purchases and refunds.
 					'affiliation': '<?php echo $analyticsObj->googleAffiliation;?>',
 					'revenue': '<?php echo $googleTransaction["orderTotal"];?>',	// Total transaction value (incl. tax and shipping)
 					'tax':'<?php echo $googleTransaction["tax"];?>',
