@@ -14,4 +14,4 @@ RewriteRule . /order/index.php [L]
 </IfModule>
 
 
-php_value auto_prepend_file "/var/www/vhosts/secure.patriotpowergenerator.com/includes/AUTO-PREPEND-PROD.php"
+php_value auto_prepend_file "/var/www/vhosts/secure.food4patriots.com/includes/AUTO-PREPEND-PROD.php"
