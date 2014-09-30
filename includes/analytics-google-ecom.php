@@ -28,8 +28,7 @@ if($_SESSION["googleTransaction"]) {
 					'brand': '<?php echo $analyticsObj->googleAffiliation;?>',
 					'category': '<?php echo $googleTransaction["orderCategory"];?>',
 					'variant': '<?php echo $googleTransaction["orderCategory"];?>',
-					'quantity': '<?php echo $googleTransaction["orderQty"];?>',
-					'coupon': ''	// Optional fields may be omitted or set to empty string.
+					'quantity': <?php echo $googleTransaction["orderQty"];?>,
 				}
 			}
 		}
