@@ -6,7 +6,7 @@
  * The downside is that changing this file can take the site down. So you have to take as much care changing this
  * file as you would say an apache config file or a php.ini file.
  */
-if(!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) {
+if((!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) && (strpos($_SERVER["PHP_SELF"],"/checkout/") !== FALSE)) {
 	header("Location: https://secure.food4patriots.com" . $_SERVER["REQUEST_URI"]);
 	exit();
 }
