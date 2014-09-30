@@ -80,8 +80,8 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/assets/js/bootstrap.min.js"></script>
 		<script src="/js/patriot.js"></script>
-		
 
+		<?php include_once("visualwo.php"); ?>
 		<!--TODO only pull in if we need the exit confirm-->
 		<script src="/js/floating-1.12.js"></script>
 		<?php
