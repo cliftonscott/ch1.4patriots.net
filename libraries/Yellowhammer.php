@@ -7,65 +7,73 @@
  * @copyright 2014
  * @see http://en.wikipedia.org/wiki/PHPDoc
  */
-class Patriots {
+
+
+// YELLOWHAMMER POST
+if ($_SESSION['sspdata'] != ''){
+//	$sspdata = $_SESSION['sspdata'];
+	$order_revenue = $_SESSION['orderTotal'];
+//	$order_date = $_SESSION['orderDate'];
+	$customer_id = $_SESSION['customerId'];
+	$order_id = $_SESSION['orderId'];
+	$subid2 = $_SESSION['subid2'];
+
+
+
+
+
+}
+
+
+class Yellowhammer {
 	
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
 	
-	//TODO secure this access w/ username/password
 	const USERNAME = "";
 	const PASSWORD = "";
-	const URL = "https://secure.power4patriots.com/csr2/rebootmcdb.php";
+	const URL = "https://jump.omnitarget.com/tr1ec0dd";
 	
 	public function __construct() {
 		
 	}
 	
-	function postSale($saleDataObj, $customerDataObj) {
-		
+	function postSale($saleDataObj, $orderRevenue) {
+
 		$postSale = new stdClass();
-		
-		//TODO error check that these values are the correct type
-		
-		$insertFields = array (
-		
-		
-			"date_of_sale" => date("Y-m-d"),
-			"page_url" =>  $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"],			
-			
-			"order_id" => $saleDataObj->orderId,
-			"product_id" => $saleDataObj->productId,
-			"quantity" => $saleDataObj->quantity,
-			
-			"member_login" => null, //WHAT IS THIS?
-			"customer_number" => $saleDataObj->customerId, //AND THIS?
-			
-			"bill_first" => $customerDataObj->firstName,
-			"bill_last" => $customerDataObj->lastName,
-			"bill_address1" => $customerDataObj->billingAddress1,
-			"bill_address2" => $customerDataObj->billingAddress2,
-			"bill_city" => $customerDataObj->billingCity,
-			"bill_state" => $customerDataObj->billingState,
-			"bill_zip" => $customerDataObj->billingZip,
-			"bill_country" => $customerDataObj->billingCountry,
-			"bill_phone" => $customerDataObj->phone,
-			"bill_email" => $customerDataObj->email,
-			
-			"ship_first" => $customerDataObj->firstName,
-			"ship_last" => $customerDataObj->lastName,
-			"ship_address1" => $customerDataObj->shippingAddress1,
-			"ship_address2" => $customerDataObj->shippingAddress2,
-			"ship_city" => $customerDataObj->shippingCity,
-			"ship_state" => $customerDataObj->shippingState,
-			"ship_zip" => $customerDataObj->shippingZip,
-			"ship_country" => $customerDataObj->shippingCountry,
-			"ship_phone" => $customerDataObj->phone,
+
+		//check that sspData is present
+
+		//check that subId2 is present
+
+		//check that $orderRevenue is numeric
+		if(!is_numeric($orderRevenue)) {
+			self::setError("orderRevenue is not numeric.");
+			$postSale->success = false;
+			$postSale->errors = self::getErrors();
+			return $postSale;
+		}
+
+		include_once("Analytics.php");
+		$analyticsObj = new Analytics();
+
+		$yellowParams = array (
+
+			"sspdata" => $analyticsObj->sspData,
+			"customer_id" => $saleDataObj->$customerId,
+			"order_revenue" => $orderRevenue,
+			"order_id" => $saleDataObj->$orderId,
+			"order_date" => date("d-m-Y"),
+			"subid2" => $analyticsObj->sspData,
+
 		);
-		
+
+		$queryString = http_build_query($yellowParams);
+
 		//doCurl call
 		$configObj = new stdClass();
-		$configObj->url = self::URL;
-		$configObj->fields = $insertFields;
+		$configObj->url = self::URL . "?" . $queryString;
+		$configObj->fields = $yellowParams;
 		
 		include_once("Curl.php");
 		$curl = new Curl();
