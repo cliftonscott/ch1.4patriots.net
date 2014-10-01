@@ -115,9 +115,11 @@ class Limelight {
 			$postSale->errorMessage = $resultsArray["errorMessage"];
 			$postSale->declineReason = $resultsArray["declineReason"];
 			include_once("Dblog.php");
-			Dblog::setDblog(implode("::",$limelightParams),"Limelight Params on Decline");
+			foreach($limelightParams as $k => $v) {
+				$tmp .= $k . "=" . $v . ", ";
+			}
+			Dblog::setDblog($tmp,"Limelight Params on Decline");
 		} else {
-			Dblog::setDblog(implode("::",$limelightParams),"Limelight Params on Accept");
 			$postSale->success = TRUE;
 			$postSale->customerId = $resultsArray["customerId"];
 			$postSale->orderId = $resultsArray["orderId"];
