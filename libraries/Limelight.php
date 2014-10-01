@@ -118,11 +118,6 @@ class Limelight {
 			$postSale->success = FALSE;
 			$postSale->errorMessage = $resultsArray["errorMessage"];
 			$postSale->declineReason = $resultsArray["declineReason"];
-			include_once("Dblog.php");
-			foreach($_SESSION["customerDataArray"] as $k => $v) {
-				$tmp .= $k . "=" . $v . ", ";
-			}
-			Dblog::setDblog($tmp,"Limelight Params on Decline");
 		} else {
 			$postSale->success = TRUE;
 			$postSale->customerId = $resultsArray["customerId"];
