@@ -79,10 +79,14 @@ class Customer {
 		if(!empty($_POST['other-shipping-state'])) {
 			$customerDataArray["shippingStateName"] = $_POST['other-shipping-state'];
 		}
-		
-		$_SESSION["customerDataArray"] = $customerDataArray;
-		
-		//TODO return w/ dataset
+
+		if(!empty($customerDataArray["email"])) {
+			$_SESSION["customerDataArray"] = $customerDataArray;
+			return true;
+		} else {
+			//todo decide how to handle error conditions
+			return false;
+		}
 		
 	}
 	
