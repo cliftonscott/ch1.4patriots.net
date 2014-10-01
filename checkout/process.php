@@ -27,7 +27,7 @@ if($_POST["productId"]) {
 } else {
 	//the productId must be explicitly set by either a post or by session variable
 	$nextPage = "/checkout/index.php";
-	//header("Location: " . $nextPage);
+	header("Location: " . $nextPage);
 	exit;
 }
 //create sale object
@@ -63,21 +63,16 @@ $stepTimerStart = microtime(true);
 include_once("Customer.php");
 $customerObj = new Customer();
 if($_SESSION["upsell"] !== TRUE) {
-	//test for PO Box type adddresses
-	$poTest = $customerObj->isPOB($_POST["billing-address"]);
-	if($poTest === TRUE) {
-		$_SESSION["errorMessage"] = "Sorry, we are unable to ship this item to a PO Box. Please use a street address.";
-		$nextPage = $_SESSION["formReturn"];
-		unset($_SESSION["formReturn"]);
-		header("Location: " . $nextPage);
-		exit;
-	} else {
-		//setCustomer
-		$customerObj->setCustomerFromPost();
-	}
+	//set customer data object
+	$customerObj->setCustomerFromPost();
 }
-//get and set customer data object
+//get stored customer data object
 $customerDataObj = $customerObj->getStoredCustomer();
+if($customerDataObj === false) {
+	$log = Dblog::setDblog("failed to retrieve customer data obj","CustomerObj");
+} else {
+	$log = Dblog::setDblog("successfully retrieved customer data obj","CustomerObj");
+}
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
