@@ -21,15 +21,15 @@ if($_SESSION["googleTransaction"]) {
 					'shipping': '0',
 					'coupon': ''
 				},
-				'products': {                            // List of productFieldObjects.
+				'products': [{                            // List of productFieldObjects.
 					'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
 					'id': '<?php echo $googleTransaction["orderSku"];?>',
 					'price': '<?php echo $googleTransaction["price"];?>',
 					'brand': '<?php echo $analyticsObj->googleAffiliation;?>',
 					'category': '<?php echo $googleTransaction["orderCategory"];?>',
 					'variant': '<?php echo $googleTransaction["orderCategory"];?>',
-					'quantity': <?php echo $googleTransaction["orderQty"];?>,
-				}
+					'quantity': '<?php echo $googleTransaction["orderQty"];?>'
+				}]
 			}
 		}
 	});
