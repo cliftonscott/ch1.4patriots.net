@@ -85,7 +85,7 @@ $stepTimerStart = microtime(true);
 include_once("Limelight.php");
 $limelight = new Limelight();
 
-$postLimelight = $limelight->postSale($saleDataObj->getSale(), $productDataObj, $customerDataObj, $analyticsObj);
+$postLimelight = $limelight->postSale($saleDataObj->getSale(), $productDataObj, $analyticsObj);
 
 if($postLimelight->responseCode !== 100) {
 	//transactioned failed to post to limelight
