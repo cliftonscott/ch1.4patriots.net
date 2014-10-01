@@ -68,11 +68,11 @@ if($_SESSION["upsell"] !== TRUE) {
 }
 //get stored customer data object
 $customerDataObj = $customerObj->getStoredCustomer();
-if($customerDataObj === false) {
-	$log = Dblog::setDblog("failed to retrieve customer data obj","CustomerObj");
-} else {
-	$log = Dblog::setDblog("successfully retrieved customer data obj","CustomerObj");
-}
+//if($customerDataObj === false) {
+//	$log = Dblog::setDblog("failed to retrieve customer data obj","CustomerObj");
+//} else {
+//	$log = Dblog::setDblog("successfully retrieved customer data obj","CustomerObj");
+//}
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
