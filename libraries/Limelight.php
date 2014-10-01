@@ -21,7 +21,11 @@ class Limelight {
 		
 	}
 	
-	function postSale($saleDataObj, $productDataObj, $customerDataObj, $analyticsObj) {
+	function postSale($saleDataObj, $productDataObj, $analyticsObj) {
+
+		include_once("Customer.php");
+		$customerObj = new Customer();
+		$customerDataObj = $customerObj->getStoredCustomer();
 		
 		$postSale = new stdClass();
 		
