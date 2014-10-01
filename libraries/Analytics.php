@@ -33,7 +33,7 @@ class Analytics {
 	static $googleDomain = null;
 	static $googleAffiliation = null;
 	static $serverId = null;
-	
+	static $sspData = null;
 	
 	public function __construct() {
 		
@@ -49,6 +49,7 @@ class Analytics {
 		$this->googleDomain = self::$googleDomain;
 		$this->googleAffiliation = self::$googleAffiliation;
 		$this->serverId = self::$serverId;
+		$this->sspData = self::$sspData;
 
 		return $this;
 		
@@ -117,6 +118,14 @@ class Analytics {
 		} else {
 			$this->setAffSub2(null);
 		}
+
+		if(!empty($_GET["sspdata"])) {
+			$this->setSspData(trim($_GET["sspdata"]));
+		} elseif (!empty($_SESSION["sspData"])) {
+			$this->setSspData($_SESSION["sspData"]);
+		} else {
+			$this->setSspData(null);
+		}
 		
 	}
 
@@ -144,6 +153,10 @@ class Analytics {
 	function setAffSub2($affSub2) {
 		self::$affSub2 = $affSub2;
 		$_SESSION["affSub2"] = $affSub2;
+	}
+	function setSspData($sspData) {
+		self::$sspData = $sspData;
+		$_SESSION["sspData"] = $sspData;
 	}
 		
 
