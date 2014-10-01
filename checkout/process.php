@@ -288,13 +288,13 @@ $dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId
 
 //redirect to next page
 if(($customerDataObj->billingCountry !== "US") && ($customerDataObj->billingCountry !== "CA")) {
-	header("Location: thankyou.php");
+	header("Location: /checkout/thankyou.php");
 	exit;
 } else {
 	if(!empty($productDataObj->nextPage)) {
 		header("Location: " . $productDataObj->nextPage);
 	} else {
-		header("Location: thankyou.php");
+		header("Location: /checkout/thankyou.php");
 	}
 }
 
