@@ -12,8 +12,8 @@ class Limelight {
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
 	
-	const USERNAME = "secure.powerpatriotgenerator.com";
-	const PASSWORD = "8aK4Kxm3fQWSHB";
+	const USERNAME = "secure.food4patriots.com";
+	const PASSWORD = "yuTHYcxrVszGKg";
 	const URL = "https://www.securecart1.com/admin/transact.php";
 	const LOOKUP_URL = "https://www.securecart1.com/admin/membership.php";
 	
@@ -115,9 +115,9 @@ class Limelight {
 			$postSale->errorMessage = $resultsArray["errorMessage"];
 			$postSale->declineReason = $resultsArray["declineReason"];
 			include_once("Dblog.php");
-			Dblog::setDblog($resultsString,"Limelight Decline");
+			Dblog::setDblog(implode("::",$limelightParams),"Limelight Params on Decline");
 		} else {
-			Dblog::setDblog($resultsString,"Limelight Accept");
+			Dblog::setDblog(implode("::",$limelightParams),"Limelight Params on Accept");
 			$postSale->success = TRUE;
 			$postSale->customerId = $resultsArray["customerId"];
 			$postSale->orderId = $resultsArray["orderId"];
