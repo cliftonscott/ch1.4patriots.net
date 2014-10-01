@@ -114,7 +114,10 @@ class Limelight {
 			$postSale->success = FALSE;
 			$postSale->errorMessage = $resultsArray["errorMessage"];
 			$postSale->declineReason = $resultsArray["declineReason"];
+			include_once("Dblog.php");
+			Dblog::setDblog($resultsString,"Limelight Decline");
 		} else {
+			Dblog::setDblog($resultsString,"Limelight Accept");
 			$postSale->success = TRUE;
 			$postSale->customerId = $resultsArray["customerId"];
 			$postSale->orderId = $resultsArray["orderId"];
