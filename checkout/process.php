@@ -116,7 +116,7 @@ $saleDataObj->setLimelight($postLimelight->success);
 
 $devLog["orderId"] = "LL OrderId: " . $postLimelight->orderId;
 
-$myDevLog.= "LimeLight Results:<br>";
+$myDevLog.= "LL Results:<br>";
 $myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
 $myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 $myDevLog.= "productId:" . $productDataObj->productId . "<br>";
@@ -211,18 +211,19 @@ if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 
 	include_once("Hasoffers.php");
 	$hasOffers = new Hasoffers();
-	$hasOffersRevenue = $productDataObj->netRevenueEach * $quantity;
-	$postHasOffers = $hasOffers->postSale($productDataObj->productId, $analyticsObj->offerId, $analyticsObj->clickId, $hasOffersRevenue);
+	$postRevenue = $productDataObj->netRevenueEach * $quantity;
+	$postHasOffers = $hasOffers->postSale($productDataObj->productId, $analyticsObj->offerId, $analyticsObj->clickId, $postRevenue);
 	if($postHasOffers->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to HO
 	}
 	$saleDataObj->setHasOffers($postHasOffers->success);
 
+	$myDevLog.= "HO Results:<br>";
 	$myDevLog = "Start " . date("Y-m-d h:i:s") . "<br>";
 	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
 	$myDevLog.= "quantity:" . $quantity . "<br>";
-	$myDevLog.= "HO Revenue:" . $hasOffersRevenue . "<br>";
+	$myDevLog.= "HO Revenue:" . $postRevenue . "<br>";
 	$myDevLog.= "HO URL:" . $postHasOffers->hasOffersUrl . "<br>";
 	$myDevLog.= "HO Order Response String:" . $postHasOffers->serverResponse . "<br>";
 }
@@ -230,6 +231,37 @@ if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Post to HasOffers";
+
+//==============================================================================================================//
+//==============================================================================================================//
+//post purchase to YellowHammer if an sspdata exists in Analytics
+$stepTimerStart = microtime(true);
+
+if(!empty($analyticsObj->sspData)) {
+	include_once("Yellowhammer.php");
+	$yellowHammer = new Yellowhammer();
+	$postRevenue = $productDataObj->netRevenueEach * $quantity;
+	$postYellowHammer = $yellowHammer->postSale($saleDataObj->getSale(),$postRevenue);
+
+	if($postYellowHammer->success === FALSE) {
+		//TODO send email to dev w/ results of failure because we did not successfully post to YH
+	}
+	$saleDataObj->setYellowHammer($postYellowHammer->success);
+
+	$myDevLog.= "YH Results:<br>";
+	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
+	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
+	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
+	$myDevLog.= "quantity:" . $quantity . "<br>";
+	$myDevLog.= "YH Revenue:" . $postRevenue . "<br>";
+	$myDevLog.= "YH URL:" . $postYellowHammer->hasOffersUrl . "<br>";
+	$myDevLog.= "YH Order Response String:" . $postYellowHammer->serverResponse . "<br>";
+}
+
+$stepTimerStop = microtime(true);
+$stepTime = round($stepTimerStop - $stepTimerStart, 4);
+$stepTimeLog[] = $stepTime . " :: Post to YellowHammer";
+
 //==============================================================================================================//
 //==============================================================================================================//
 //set auto-responders
@@ -265,6 +297,7 @@ foreach($stepTimeLog as $step) {
 	$stepText .= $step . "<BR>";
 }
 $stepText .= "======<br>";
+
 
 $dblog = Dblog::setDblog($myDevLog,"DevLog");
 
