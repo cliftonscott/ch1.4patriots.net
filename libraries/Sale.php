@@ -22,6 +22,7 @@ class Sale {
 	static $mps = FALSE;
 	static $cpv = FALSE;
 	static $hasOffers = FALSE;
+	static $yellowHammer = FALSE;
 	static $autoResponder = FALSE;
 	static $patriots = FALSE;
 	
@@ -31,7 +32,6 @@ class Sale {
 		self::$timerStart = microtime();
 		
 	}
-	
 
 	function setProductId($productId) {
 		self::$productId = $productId;
@@ -56,6 +56,9 @@ class Sale {
 	}
 	function setHasOffers($hasOffers) {
 		self::$hasOffers = $hasOffers;
+	}
+	function setYellowhammer($yellowHammer) {
+		self::$yellowHammer = $yellowHammer;
 	}
 	function setAutoResponder($autoResponder) {
 		self::$autoResponder = $autoResponder;
