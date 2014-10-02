@@ -10,13 +10,6 @@ redirect 301 /checkout/registration/instant-access/F4P-Cut-Grocery-Bills-Half.pd
 redirect 301 /checkout/registration/instant-access/F4P-Survival-Garden-Guide.pdf /media/pdf/F4P-Survival-Garden-Guide.pdf
 redirect 301 /checkout/registration/instant-access/F4P-Water-Survival-Guide.pdf /media/pdf/F4P-Water-Survival-Guide.pdf
 
-# Old Page Redirects
-redirect 301 /checkout/alt1year/index.php /checkout/alt/f4p-1yearkit-offer.php
-redirect 301 /checkout/altdiscount/index.php /checkout/alt/f4p-discount-offer.php
-redirect 301 /checkout/altfree/index.php /checkout/alt/f4p-free-food-offer.php
-
-IndexIgnore *
-
 IndexIgnore *
 RewriteEngine On
 <IfModule mod_rewrite.c>
@@ -25,7 +18,9 @@ RewriteRule ^/order/index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /order/index.php [L]
+RewriteRule ^/checkout/alt1year/index.php$ /checkout/alt/f4p-1yearkit-offer.php
+RewriteRule ^/checkout/altdiscount/index.php$ /checkout/alt/f4p-discount-offer.php
+RewriteRule ^/checkout/altfree/index.php$ /checkout/alt/f4p-free-food-offer.php
 </IfModule>
-
 
 php_value auto_prepend_file "/var/www/vhosts/secure.food4patriots.com/includes/AUTO-PREPEND-PROD.php"
