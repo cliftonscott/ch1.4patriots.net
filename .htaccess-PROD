@@ -20,6 +20,11 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /order/index.php [L]
 </IfModule>
 
+# Old Checkout Redirects
+redirect 301 /checkout/alt1year/index.php /checkout/alt/f4p-1yearkit-offer.php
+redirect 301 /checkout/altdiscount/index.php /checkout/alt/f4p-discount-offer.php
+redirect 301 /checkout/altfree/index.php /checkout/alt/f4p-free-food-offer.php
+
 RewriteEngine On
 <IfModule mod_rewrite.c>
 RewriteBase /
