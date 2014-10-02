@@ -122,11 +122,11 @@ $myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 $myDevLog.= "productId:" . $productDataObj->productId . "<br>";
 $myDevLog.= "firstName:" . $customerDataObj->firstName . "<br>";
 $myDevLog.= "email:" . $customerDataObj->email . "<br>";
-$myDevLog.= "lastName:" . $customerDataObj->lastName . "<br>";
+//$myDevLog.= "lastName:" . $customerDataObj->lastName . "<br>";
 $myDevLog.= "SID:" . $analyticsObj->subId . "<br>";
 $myDevLog.= "LL CustomerId:" . $postLimelight->customerId . "<br>";
 $myDevLog.= "LL OrderId:" . $postLimelight->orderId . "<br>";
-$myDevLog.= "LL Order Response String:" . $postLimelight->serverResponse . "<br>";
+//$myDevLog.= "LL Order Response String:" . $postLimelight->serverResponse . "<br>";
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
@@ -197,6 +197,12 @@ if($subId !== null) {
 		//post not received
 	}
 	$saleDataObj->setCpv($postCpv->success);
+
+	$myDevLog.= "CPV Results:<br>";
+	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
+	$myDevLog.= "cpvSessionRev: " . $cpvRevenue . "<br>";
+	$myDevLog.= "subId: " . $subId . "<br>";
+	//$myDevLog.= "HO Order Response String:" . $postHasOffers->serverResponse . "<br>";
 }
 
 $stepTimerStop = microtime(true);
@@ -212,7 +218,8 @@ if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 
 	include_once("Hasoffers.php");
 	$hasOffers = new Hasoffers();
-	$postRevenue = $productDataObj->netRevenueEach * $quantity;
+	$hoSaleObj = $saleDataObj->getSale();
+	$postRevenue = $productDataObj->netRevenueEach * $hoSaleObj->quantity;
 	$postHasOffers = $hasOffers->postSale($productDataObj->productId, $analyticsObj->offerId, $analyticsObj->clickId, $postRevenue);
 	if($postHasOffers->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to HO
@@ -220,9 +227,9 @@ if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 	$saleDataObj->setHasOffers($postHasOffers->success);
 
 	$myDevLog.= "HO Results:<br>";
-	$myDevLog = "Start " . date("Y-m-d h:i:s") . "<br>";
-	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
-	$myDevLog.= "netRevenue:" . $postRevenue . "<br>";
+	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
+	$myDevLog.= "ipaddress: " . $_SESSION['ipaddress'] . "<br>";
+	$myDevLog.= "netRevenue: " . $postRevenue . "<br>";
 	$myDevLog.= "quantity:" . $quantity . "<br>";
 	$myDevLog.= "HO Revenue:" . $postRevenue . "<br>";
 	$myDevLog.= "HO URL:" . $postHasOffers->hasOffersUrl . "<br>";
