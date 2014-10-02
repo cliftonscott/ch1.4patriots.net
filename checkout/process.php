@@ -222,7 +222,7 @@ if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 	$myDevLog.= "HO Results:<br>";
 	$myDevLog = "Start " . date("Y-m-d h:i:s") . "<br>";
 	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
-	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
+	$myDevLog.= "netRevenue:" . $postRevenue . "<br>";
 	$myDevLog.= "quantity:" . $quantity . "<br>";
 	$myDevLog.= "HO Revenue:" . $postRevenue . "<br>";
 	$myDevLog.= "HO URL:" . $postHasOffers->hasOffersUrl . "<br>";
