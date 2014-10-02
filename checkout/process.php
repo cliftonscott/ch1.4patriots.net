@@ -130,7 +130,7 @@ $myDevLog.= "LL Order Response String:" . $postLimelight->serverResponse . "<br>
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to Limelight";
+$stepTimeLog[] = $stepTime . " :: Post to Limelight :: " . $postLimelight->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //handle bonus productIds by looking for attributes in the productObject
@@ -144,7 +144,7 @@ if($productDataObj->hasBonuses === TRUE) {
 }
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post Bonus Items to Limelight";
+$stepTimeLog[] = $stepTime . " :: Post Bonus Items to Limelight :: " . $bonusLimelight->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //post purchase to MPS (if applicable)
@@ -169,7 +169,7 @@ if($productDataObj->mpsId > 0) {
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to MPS";
+$stepTimeLog[] = $stepTime . " :: Post to MPS :: " . $postMps->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //post purchase to CPV
@@ -201,7 +201,7 @@ if($subId !== null) {
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to CPV";
+$stepTimeLog[] = $stepTime . " :: Post to CPV :: " . $postCpv->success;
 
 //==============================================================================================================//
 //==============================================================================================================//
@@ -231,7 +231,7 @@ if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to HasOffers";
+$stepTimeLog[] = $stepTime . " :: Post to HasOffers :: " . $postHasOffers->success;
 
 //==============================================================================================================//
 //==============================================================================================================//
@@ -261,7 +261,7 @@ if(!empty($analyticsObj->sspData)) {
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to YellowHammer";
+$stepTimeLog[] = $stepTime . " :: Post to YellowHammer :: " . $postYellowHammer->success;
 
 //==============================================================================================================//
 //==============================================================================================================//
@@ -276,7 +276,7 @@ if(!empty($productDataObj->listId)) {
 }
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to OAP";
+$stepTimeLog[] = $stepTime . " :: Post to OAP :: " . $postAutoResponder->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //post purchase and status of other postings to internal db
@@ -289,7 +289,7 @@ $saleDataObj->setPatriots($postPatriots->success);
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Save sale to internal database";
+$stepTimeLog[] = $stepTime . " :: Save sale to internal database :: " . $postPatriots->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //end timer and report elapsed time just before the redirect
