@@ -154,12 +154,13 @@ if($productDataObj->mpsId > 0) {
 	$mps = new Mps();
 	$mps->setOrderId($postLimelight->orderId);
 	$mps->setCustomerId($postLimelight->customerId);
-	$postMps = $mps->postSale($productDataObj, $customerDataObj);
+	$postMps = $mps->postSale($saleDataObj->getSale(), $productDataObj, $customerDataObj);
 	//TODO get w/ MPS and create better error plans
 	//TODO currently MPS is returning an error string due to something wrong on their end
 	//TODO consequently we can't complete this error checking until resolve.
 	if($postMps->success === TRUE) {
 		//successfully posted to mps
+
 	} else {
 		//post not receive
 	}
