@@ -8,23 +8,6 @@
  * @see http://en.wikipedia.org/wiki/PHPDoc
  */
 
-
-// YELLOWHAMMER POST
-if ($_SESSION['sspdata'] != ''){
-//	$sspdata = $_SESSION['sspdata'];
-	$order_revenue = $_SESSION['orderTotal'];
-//	$order_date = $_SESSION['orderDate'];
-	$customer_id = $_SESSION['customerId'];
-	$order_id = $_SESSION['orderId'];
-	$subid2 = $_SESSION['subid2'];
-
-
-
-
-
-}
-
-
 class Yellowhammer {
 	
 	static $appMessagesAry = array();
@@ -60,9 +43,9 @@ class Yellowhammer {
 		$yellowParams = array (
 
 			"sspdata" => $analyticsObj->sspData,
-			"customer_id" => $saleDataObj->$customerId,
+			"customer_id" => $saleDataObj->customerId,
 			"order_revenue" => $orderRevenue,
-			"order_id" => $saleDataObj->$orderId,
+			"order_id" => $saleDataObj->orderId,
 			"order_date" => date("d-m-Y"),
 			"subid2" => $analyticsObj->sspData,
 
@@ -85,7 +68,6 @@ class Yellowhammer {
 		$postSale->errors = $curlResults->errors;
 		$postSale->messages = $curlResults->messages;
 		$postSale->hasOffersUrl = $curlResults->curlUrl;
-
 
 		if($curlResults->success === TRUE) {
 			$postSale->success = TRUE;
