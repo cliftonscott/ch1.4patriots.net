@@ -18,9 +18,14 @@ RewriteRule ^/order/index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /order/index.php [L]
-RewriteRule ^/checkout/alt1year/index.php$ /checkout/alt/f4p-1yearkit-offer.php
-RewriteRule ^/checkout/altdiscount/index.php$ /checkout/alt/f4p-discount-offer.php
-RewriteRule ^/checkout/altfree/index.php$ /checkout/alt/f4p-free-food-offer.php
+</IfModule>
+
+RewriteEngine On
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteRule ^checkout/alt1year/index.php$ /checkout/alt/f4p-1yearkit-offer.php
+RewriteRule ^checkout/altdiscount/index.php$ /checkout/alt/f4p-discount-offer.php
+RewriteRule ^checkout/altfree/index.php$ /checkout/alt/f4p-free-food-offer.php
 </IfModule>
 
 php_value auto_prepend_file "/var/www/vhosts/secure.food4patriots.com/includes/AUTO-PREPEND-PROD.php"
