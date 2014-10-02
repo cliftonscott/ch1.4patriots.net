@@ -22,13 +22,16 @@ RewriteRule . /order/index.php [L]
 
 # Old Checkout Redirects
 redirect 301 /checkout/alt1year/index.php /checkout/alt/f4p-1yearkit-offer.php
+redirect 301 /checkout/alt1year/ /checkout/alt/f4p-1yearkit-offer.php
 redirect 301 /checkout/altdiscount/index.php /checkout/alt/f4p-discount-offer.php
+redirect 301 /checkout/altdiscount/ /checkout/alt/f4p-discount-offer.php
 redirect 301 /checkout/altfree/index.php /checkout/alt/f4p-free-food-offer.php
+redirect 301 /checkout/altfree/ /checkout/alt/f4p-free-food-offer.php
 
 RewriteEngine On
 <IfModule mod_rewrite.c>
 RewriteBase /
-RewriteRule ^/checkout/alt1year/index.php$ /checkout/alt/f4p-1yearkit-offer.php [QSA]
+RewriteRule ^/checkout/alt1year/index.php$ /checkout/alt/f4p-1yearkit-offer.php
 RewriteRule ^/checkout/altdiscount/index.php$ /checkout/alt/f4p-discount-offer.php
 RewriteRule ^/checkout/altfree/index.php$ /checkout/alt/f4p-free-food-offer.php
 </IfModule>
