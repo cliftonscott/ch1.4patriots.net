@@ -20,9 +20,9 @@ RewriteRule ^checkout/alt1year/index.php$ checkout/alt/f4p-1yearkit-offer.php [Q
 RewriteRule ^checkout/altdiscount/index.php$ checkout/alt/f4p-discount-offer.php [QSA]
 RewriteRule ^checkout/altfree/index.php$ checkout/alt/f4p-free-food-offer.php [QSA]
 
-RewriteRule ^checkout/alt1year/$ checkout/alt/f4p-1yearkit-offer.php [QSA]
-RewriteRule ^checkout/altdiscount/$ checkout/alt/f4p-discount-offer.php [QSA]
-RewriteRule ^checkout/altfree/$ checkout/alt/f4p-free-food-offer.php [QSA]
+RewriteRule ^checkout/alt1year$ checkout/alt/f4p-1yearkit-offer.php [QSA]
+RewriteRule ^checkout/altdiscount$ checkout/alt/f4p-discount-offer.php [QSA]
+RewriteRule ^checkout/altfree$ checkout/alt/f4p-free-food-offer.php [QSA]
 
 RewriteRule ^/order/index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
