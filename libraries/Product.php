@@ -367,7 +367,7 @@ class Product {
 				$productObj->googleProductCategory = "1-PAY-1997";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply";
 				$productObj->metaDescription = "Foood4Patriots 1 Year Food Supply";
-				$productObj->defaultImage = "/media/images/f4p/f4p-1-year-tote-01.jpg";
+				$productObj->defaultImage = "/media/images/f4p/f4p-1-year-kit-01.jpg";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
