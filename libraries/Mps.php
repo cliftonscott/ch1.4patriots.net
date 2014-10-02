@@ -23,7 +23,7 @@ class Mps {
 		
 	}
 	
-	function postSale($productDataObj, $customerDataObj) {
+	function postSale($saleDataObj, $productDataObj, $customerDataObj) {
 
 		$postSale = new stdClass();
 		
@@ -38,18 +38,18 @@ class Mps {
 			"lastName" => $customerDataObj->lastName,
 			"email" => $customerDataObj->email,
 			"phone" => $customerDataObj->phone,
-			"shippingAddress1" => $customerDataObj->shippingAddress1,		
+			"shippingAddress1" => $customerDataObj->shippingAddress1,
 			"shippingCity" => $customerDataObj->shippingCity,
 			"shippingState" => $customerDataObj->shippingState,
 			"shippingCountry" => $customerDataObj->shippingCountry,
 			"shippingZip" => $customerDataObj->shippingZip,
 			"productId" => $productDataObj->mpsId,
-			"quantity" => $productDataObj->quantity,
+			"quantity" => $saleDataObj->quantity,
 			"shippingId" => $productDataObj->shippingId,
 		);
 		
 		$queryString = http_build_query($mpsParams);
-		
+
 		//doCurl call
 		$configObj = new stdClass();
 		$configObj->url = self::URL . "?" . $queryString;
