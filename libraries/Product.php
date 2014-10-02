@@ -239,7 +239,7 @@ class Product {
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 18;
+				$productObj->mpsId = 19;
 				//Limelight
 				$productObj->price = 397;
 				$productObj->originalPrice = 497;
