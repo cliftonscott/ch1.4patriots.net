@@ -215,7 +215,7 @@ $stepTimeLog[] = $stepTime . " :: Post to CPV :: " . $postCpv->success;
 //post purchase to hasoffers if an offerId and clickId have been captured
 $stepTimerStart = microtime(true);
 
-if((!empty($analyticsObj->offerId)) && (!empty($analyticsObj->clickId))) {
+if((!empty($analyticsObj->offerId)) || (!empty($analyticsObj->clickId))) {
 
 	include_once("Hasoffers.php");
 	$hasOffers = new Hasoffers();
