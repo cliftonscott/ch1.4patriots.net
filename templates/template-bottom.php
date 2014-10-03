@@ -8,7 +8,14 @@ if(!empty($template["formType"])) {
 ?>
 <!-- /main-container -->
 <?php include_once('footer.php'); ?>
-<?php include_once("chat-olark.php");?>
+<?php
+$suppressOlark = array (
+	"/video/index.php",
+);
+if(!in_array($_SERVER["PHP_SELF"], $suppressOlark)) {
+	include_once("chat-olark.php");
+}
+?>
 <script>
 window.onbeforeunload = grayOut;
 function grayOut(){
