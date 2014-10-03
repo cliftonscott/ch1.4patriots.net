@@ -51,6 +51,7 @@ class Cpv {
 		//http_code of 200 we assume success
 		//passing it back to the processing script because we
 		//might need it
+		$postSale->cpvUrl = $configObj->url;
 		$postSale->httpCode = $postResults->httpCode;
 		$postSale->dataSent = $postResults->dataSent;
 		$postSale->errors = $postResults->errors;
