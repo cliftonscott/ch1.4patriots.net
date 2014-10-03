@@ -19,7 +19,13 @@ if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="/index.php">Home</a></li>
-            <li><a href="/video/index.php">Purchase</a></li>
+	          <?php
+	          $afid = $analyticsObj->affiliateId;
+	          if(empty($afid)) {
+		         $afid = "MINISITE";
+	          }
+	          ?>
+            <li><a href="/video/index.php?AFID=<?php echo $afid;?>">Purchase</a></li>
             <li><a href="/contact.php">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info <b class="caret"></b></a>
