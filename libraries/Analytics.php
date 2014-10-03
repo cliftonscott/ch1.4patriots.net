@@ -70,57 +70,64 @@ class Analytics {
 			self::$googleDomain = self::DEV_GA_DOMAIN;
 			self::$googleAffiliation = self::DEV_GA_AFFILIATION;
 		}
-		
-		if(!empty($_GET["subid"])) {
-			$this->setSubId(trim($_GET["subid"]));
+
+		$subId = trim($_GET["subid"]);
+		if(!empty($subId)) {
+			$this->setSubId($subId);
 		} elseif (!empty($_SESSION["subId"])) {
 			$this->setSubId($_SESSION["subId"]);
 		} else {
 			$this->setSubId(null);
 		}
-		
-		if(!empty($_GET["subid2"])) {
-			$this->setSubId2(trim($_GET["subid2"]));
+
+		$subId2 = trim($_GET["subid2"]);
+		if(!empty($subId2)) {
+			$this->setSubId2($subId2);
 		} elseif (!empty($_SESSION["subId2"])) {
 			$this->setSubId2($_SESSION["subId2"]);
 		} else {
 			$this->setSubId2(null);
 		}
-		
-		if(!empty($_GET["click_id"])) { //hasoffers unique visitor tracking id
-			$this->setClickId(trim($_GET["click_id"]));
+
+		$clickId = trim($_GET["click_id"]);
+		if(!empty($clickId)) { //hasoffers unique visitor tracking id
+			$this->setClickId($clickId);
 		} elseif (!empty($_SESSION["clickId"])) {
 			$this->setClickId($_SESSION["clickId"]);
 		} else {
 			$this->setClickId(null);
 		}
-		
-		if(!empty($_GET["AFID"])) { //hasoffers unique affiliate tracking id
-			$this->setAffiliateId(trim($_GET["AFID"]));
+
+		$affiliateId = trim($_GET["AFID"]);
+		if(!empty($affiliateId)) { //hasoffers unique affiliate tracking id
+			$this->setAffiliateId($affiliateId);
 		} elseif (!empty($_SESSION["affiliateId"])) {
 			$this->setAffiliateId($_SESSION["affiliateId"]);
 		} else {
 			$this->setAffiliateId(null);
 		}
-		
-		if(!empty($_GET["CID"])) { //hasoffers unique campaign tracking id
-			$this->setOfferId(trim($_GET["CID"]));
+
+		$offerId = trim($_GET["CID"]);
+		if(!empty($offerId)) { //hasoffers unique campaign tracking id
+			$this->setOfferId($offerId);
 		} elseif (!empty($_SESSION["offerId"])) {
 			$this->setOfferId($_SESSION["offerId"]);
 		} else {
 			$this->setOfferId(null);
 		}
-		
-		if(!empty($_GET["aff_sub2"])) {
-			$this->setAffSub2(trim($_GET["aff_sub2"]));
+
+		$affSub2 = trim($_GET["aff_sub2"]);
+		if(!empty($affSub2)) {
+			$this->setAffSub2($affSub2);
 		} elseif (!empty($_SESSION["affSub2"])) {
 			$this->setAffSub2($_SESSION["affSub2"]);
 		} else {
 			$this->setAffSub2(null);
 		}
 
-		if(!empty($_GET["sspdata"])) {
-			$this->setSspData(trim($_GET["sspdata"]));
+		$sspData = trim($_GET["sspdata"]);
+		if(!empty($sspData)) {
+			$this->setSspData($sspData);
 		} elseif (!empty($_SESSION["sspData"])) {
 			$this->setSspData($_SESSION["sspData"]);
 		} else {
