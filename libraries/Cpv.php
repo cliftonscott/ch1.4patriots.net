@@ -52,6 +52,7 @@ class Cpv {
 		//passing it back to the processing script because we
 		//might need it
 		$postSale->cpvUrl = $configObj->url;
+		$postSale->cpvRevenue = $revenue;
 		$postSale->httpCode = $postResults->httpCode;
 		$postSale->dataSent = $postResults->dataSent;
 		$postSale->errors = $postResults->errors;
