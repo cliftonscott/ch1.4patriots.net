@@ -44,8 +44,8 @@
 	<div class="col-sm-12 col-md-12">
     	<div class="clearfix">
 		<div class="row">
-			<div class="col-sm-6 col-md-6  text-center hidden-xs" style="margin-top:30px;"><a class="btn btn-success btn-lg btn-block" href="/video/index.php" target="_self"><i class="fa fa-video-camera"></i>  Watch Video</a></div>
-			<div class="col-sm-6 col-md-6  text-center" style="margin-top:30px;"><a class="btn btn-primary btn-lg btn-block" href="/letter/index.php" target="_self"><i class="fa fa-info-circle"></i> Read Description</a></div>
+			<div class="col-sm-6 col-md-6  text-center hidden-xs" style="margin-top:30px;"><a class="btn btn-success btn-lg btn-block" href="/video/index.php?AFID=<?php echo $afid;?>" target="_self"><i class="fa fa-video-camera"></i>  Watch Video</a></div>
+			<div class="col-sm-6 col-md-6  text-center" style="margin-top:30px;"><a class="btn btn-primary btn-lg btn-block" href="/letter/index.php?AFID=<?php echo $afid;?>" target="_self"><i class="fa fa-info-circle"></i> Read Description</a></div>
         </div>
         </div>
 	</div>	
