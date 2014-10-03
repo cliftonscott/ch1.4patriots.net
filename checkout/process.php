@@ -202,7 +202,8 @@ if($subId !== null) {
 	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
 	$myDevLog.= "cpvSessionRev: " . $cpvRevenue . "<br>";
 	$myDevLog.= "subId: " . $subId . "<br>";
-	//$myDevLog.= "HO Order Response String:" . $postHasOffers->serverResponse . "<br>";
+	$myDevLog.= "postUrl: " . $postCpv->cpvUrl . "<br>";
+	//$myDevLog.= "CPV Order Response String:" . $postCpv->serverResponse . "<br>";
 }
 
 $stepTimerStop = microtime(true);
