@@ -200,7 +200,7 @@ if($subId !== null) {
 
 	$myDevLog.= "CPV Results:<br>";
 	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
-	$myDevLog.= "cpvSessionRev: " . $cpvRevenue . "<br>";
+	$myDevLog.= "cpvSessionRev: " . $postCpv->cpvRevenue . "<br>";
 	$myDevLog.= "subId: " . $subId . "<br>";
 	$myDevLog.= "postUrl: " . $postCpv->cpvUrl . "<br>";
 	//$myDevLog.= "CPV Order Response String:" . $postCpv->serverResponse . "<br>";
