@@ -40,12 +40,10 @@ class Limelight {
 
 			'ipAddress' => self::getIpAddress(),
 			
-			'AFID' => $analyticsObj->affiliateId,
 			'click_id' => $analyticsObj->clickId,
 			'product_qty_' . $productDataObj->productId => $saleDataObj->quantity,
-			//'SID' => $_SESSION['subid'],
-			//'C1' => $_SESSION['sspdata'],
-			//'C2' => $_SESSION['subid2'],
+			'C1' => $analyticsObj->sspData,
+			'C2' => $analyticsObj->subId2,
 			'C3' => $productDataObj->netRevenueEach,
 			'OPT' => $analyticsObj->serverId,
 			
@@ -88,15 +86,26 @@ class Limelight {
 		if($productDataObj->isCustomPrice === true) {
 			$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $productDataObj->price;
 		}
-
-		//SID for LL
-		//TODO use better equality checking here as we should be more confident in our values
-
-		if($analyticsObj->subId == '' && $analyticsObj->affSub2 != ''){
-			$limelightParams['SID'] = $analyticsObj->affSub2;
-		} else{
+		//Explictly set SID
+		if(!empty($analyticsObj->subId)) {
 			$limelightParams['SID'] = $analyticsObj->subId;
+		} elseif (!empty($analyticsObj->affSub2)) {
+			$limelightParams['SID'] = $analyticsObj->affSub2;
+		} else {
+			$limelightParams['SID'] = "EMPTY";
 		}
+
+		//Explictly set AFID
+		if(!empty($analyticsObj->affiliateId)) {
+			$limelightParams['AFID'] = $analyticsObj->affiliateId;
+		} else {
+			$limelightParams['AFID'] = "EMPTY";
+			include_once("Dblog.php");
+			$dblog = Dblog::setDblog("EMPTY","AFID");
+		}
+
+
+
 				
 		//doCurl call
 		$configObj = new stdClass();
