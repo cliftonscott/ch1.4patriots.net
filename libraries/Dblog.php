@@ -30,7 +30,7 @@ class Dblog {
 			return $dblog;
 		}
 	 	
-		$sql = "SELECT * FROM `" . self::DB_TABLE . "` ORDER BY logkey DESC";
+		$sql = "SELECT * FROM `" . self::DB_TABLE . "` ORDER BY logkey DESC LIMIT 0,10000";
 		
 
 		
@@ -142,13 +142,15 @@ class Dblog {
 		
 		$userIpStr = self::getIpAddress();
 		$serverId = getenv("DESIGNATION");
+		$visitorId = session_id();
 		
-		$sql = "INSERT INTO `" . self::DB_TABLE . "` SET process=:processStr, userIp=:userIpStr, log =:inputStr, serverId=:serverId";
+		$sql = "INSERT INTO `" . self::DB_TABLE . "` SET process=:processStr, userIp=:userIpStr, log =:inputStr, serverId=:serverId, visitorId=:visitorId";
 		$insert = $db->prepare($sql);
 		$insert->bindParam(':processStr', $processStr, PDO::PARAM_STR, 12);
 		$insert->bindParam(':inputStr', $inputStr, PDO::PARAM_STR, 12);
 		$insert->bindParam(':userIpStr', $userIpStr, PDO::PARAM_STR, 12);
 		$insert->bindParam(':serverId', $serverId, PDO::PARAM_STR, 12);
+		$insert->bindParam(':visitorId', $visitorId, PDO::PARAM_STR, 12);
 
 		if($insert->execute()) {
 			self::setMsg("Inserted into devlog: " . $inputStr);
