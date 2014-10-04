@@ -45,7 +45,6 @@ class Limelight {
 			'C1' => $analyticsObj->sspData,
 			'C2' => $analyticsObj->subId2,
 			'C3' => $productDataObj->netRevenueEach,
-			'OPT' => $analyticsObj->serverId,
 			
 			'productId' => $productDataObj->productId,
 			'campaignId' => $productDataObj->campaignId,
@@ -86,6 +85,13 @@ class Limelight {
 		if($productDataObj->isCustomPrice === true) {
 			$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $productDataObj->price;
 		}
+
+		//set OPT value (development tracking vals)
+		$opt = $analyticsObj->serverId;
+		$opt.= "::" . session_id();
+		$limelightParams["OPT"] = $opt;
+
+
 		//Explictly set SID
 		if(!empty($analyticsObj->subId)) {
 			$limelightParams['SID'] = $analyticsObj->subId;
