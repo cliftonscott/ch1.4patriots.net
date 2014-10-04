@@ -65,6 +65,9 @@ class Cpv {
 			$postSale->success = TRUE;
 		} else {
 			$postSale->success = FALSE;
+			include_once("Dblog.php");
+			$errorString = $postSale->serverResponse;
+			$dblog = Dblog::setDblog($errorString,"CPV Error: curl results string");
 		}
 		
 		return $postSale;
