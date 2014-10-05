@@ -8,6 +8,36 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
+
+if(!empty($analyticsObj->affiliateId)){
+	$qs["AFID"] = $analyticsObj->affiliateId;
+}
+if(!empty($analyticsObj->subId)){
+	$qs["subid"] = $analyticsObj->subId;
+}
+if(!empty($analyticsObj->clickId)){
+	$qs["click_id"] = $analyticsObj->clickId;
+}
+if(!empty($analyticsObj->subId2)){
+	$qs["subid2"] = $analyticsObj->subId2;
+}
+if(!empty($analyticsObj->offerId)){
+	$qs["CID"] = $analyticsObj->offerId;
+}
+if(!empty($analyticsObj->affSub2)){
+	$qs["aff_sub2"] = $analyticsObj->affSub2;
+}
+if(!empty($analyticsObj->sspData)){
+	$qs["sspdata"] = $analyticsObj->sspData;
+}
+$queryString = http_build_query($qs);
+//$queryString = serialize($analyticsObj);
+$offerUrl = "https://secure.food4patriots.com/checkout/index.php?" . $queryString;
+
+
+
+
+
 ?>
 <style>
 .navbar {
@@ -626,7 +656,7 @@ And It’s Entirely Up To You Which Way You Go.&quot;</h2>
 					<div class="inner pad-30 pad-60-t">
 						<h2 class="color-red large"><strong>Claim Your Kit Now!</strong></h2>
 						<br>
-						<a href="/checkout/index.php" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
+						<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
 						<br>
 						<img src="images/samples/credid-cards.png">
 						<br><br>
@@ -694,6 +724,6 @@ var exitsplashpage = '<? echo $triallink; ?>';
 </script>-->
 
 <!-- End of ExitSplash.com Code -->
-<? include ('clickytrack.php'); ?>
+<?php include ('clickytrack.php'); ?>
 </body>
 </html>
