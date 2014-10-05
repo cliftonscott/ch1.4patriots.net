@@ -23,7 +23,6 @@ if($variation !== "np" & $variation !== "np-nologo") {
 	$template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
 }
 
-
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;
@@ -33,6 +32,33 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
+
+if(!empty($analyticsObj->affiliateId)){
+	$qs["AFID"] = $analyticsObj->affiliateId;
+}
+if(!empty($analyticsObj->subId)){
+	$qs["subid"] = $analyticsObj->subId;
+}
+if(!empty($analyticsObj->clickId)){
+	$qs["click_id"] = $analyticsObj->clickId;
+}
+if(!empty($analyticsObj->subId2)){
+	$qs["subid2"] = $analyticsObj->subId2;
+}
+if(!empty($analyticsObj->offerId)){
+	$qs["CID"] = $analyticsObj->offerId;
+}
+if(!empty($analyticsObj->affSub2)){
+	$qs["aff_sub2"] = $analyticsObj->affSub2;
+}
+if(!empty($analyticsObj->sspData)){
+	$qs["sspdata"] = $analyticsObj->sspData;
+}
+$queryString = http_build_query($qs);
+//$queryString = serialize($analyticsObj);
+$offerUrl = "/checkout/index.php?" . $queryString;
+
+
 ?>
 <script>
 if (isMobile()) {
@@ -132,7 +158,7 @@ if (isMobile()) {
 			<div class="col-md-12">
 				<!-- Button Stuff -->
 				<div id="buyButton" class="center-block text-center" style="display:none">
-					<a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
+					<a href="<?php echo $offerUrl; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
 				</div>
 			</div>
 			<div class="col-md-12">
@@ -162,7 +188,7 @@ if (isMobile()) {
 				<div id="buyButton2" class="center-block text-center" style="display:none">
 					<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
 				  <div id="countDownTimer"></div>
-					<a href="<?php echo $productDataObj->offerLink; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
+					<a href="<?php echo $offerUrl; ?>" onClick="ga('send', 'event', 'free-video', 'food-stockpile-buy', 'click-to-accept');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
 				</div>
 			</div>
 		</div>
