@@ -56,7 +56,7 @@ if(!empty($analyticsObj->sspData)){
 }
 $queryString = http_build_query($qs);
 //$queryString = serialize($analyticsObj);
-$offerUrl = "/checkout/index.php?" . $queryString;
+$offerUrl = "https://secure.food4patriots.com/checkout/index.php?" . $queryString;
 
 
 ?>
