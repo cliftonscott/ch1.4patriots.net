@@ -34,7 +34,9 @@ class Analytics {
 	static $googleAffiliation = null;
 	static $serverId = null;
 	static $sspData = null;
-	
+	static $source = null;
+	static $custom = null;
+
 	public function __construct() {
 		
 		$this->initializeValues();
@@ -50,6 +52,8 @@ class Analytics {
 		$this->googleAffiliation = self::$googleAffiliation;
 		$this->serverId = self::$serverId;
 		$this->sspData = self::$sspData;
+		$this->source = self::$source;
+		$this->custom = self::$custom;
 
 		return $this;
 		
@@ -133,7 +137,25 @@ class Analytics {
 		} else {
 			$this->setSspData(null);
 		}
-		
+
+		$source = trim($_GET["source"]);
+		if(!empty($source)) {
+			$this->setSource($source);
+		} elseif (!empty($_SESSION["source"])) {
+			$this->setSource($_SESSION["source"]);
+		} else {
+			$this->setSource(null);
+		}
+
+		$custom = trim($_GET["custom"]);
+		if(!empty($custom)) {
+			$this->setCustom($custom);
+		} elseif (!empty($_SESSION["custom"])) {
+			$this->setCustom($_SESSION["custom"]);
+		} else {
+			$this->setCustom(null);
+		}
+
 	}
 
 	function setSubId($subId) {
@@ -165,7 +187,15 @@ class Analytics {
 		self::$sspData = $sspData;
 		$_SESSION["sspData"] = $sspData;
 	}
-		
+	function setSource($source) {
+		self::$source = $source;
+		$_SESSION["source"] = $source;
+	}
+	function setCustom($custom) {
+		self::$custom = $custom;
+		$_SESSION["custom"] = $custom;
+	}
+
 
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
