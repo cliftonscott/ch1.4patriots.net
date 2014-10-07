@@ -32,33 +32,7 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-
-if(!empty($analyticsObj->affiliateId)){
-	$qs["AFID"] = $analyticsObj->affiliateId;
-}
-if(!empty($analyticsObj->subId)){
-	$qs["subid"] = $analyticsObj->subId;
-}
-if(!empty($analyticsObj->clickId)){
-	$qs["click_id"] = $analyticsObj->clickId;
-}
-if(!empty($analyticsObj->subId2)){
-	$qs["subid2"] = $analyticsObj->subId2;
-}
-if(!empty($analyticsObj->offerId)){
-	$qs["CID"] = $analyticsObj->offerId;
-}
-if(!empty($analyticsObj->affSub2)){
-	$qs["aff_sub2"] = $analyticsObj->affSub2;
-}
-if(!empty($analyticsObj->sspData)){
-	$qs["sspdata"] = $analyticsObj->sspData;
-}
-$queryString = http_build_query($qs);
-//$queryString = serialize($analyticsObj);
-$offerUrl = "https://secure.food4patriots.com/checkout/index.php?" . $queryString;
-
-
+$offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsObj->queryString;
 ?>
 <script>
 if (isMobile()) {
