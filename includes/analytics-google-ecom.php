@@ -7,20 +7,30 @@ if($_SESSION["googleTransaction"]) {
 
 <?php if(!empty($googleTransaction["customerId"])) { ?>
 	<script>
-		dataLayer = [{
-			'transactionId': '<?php echo $googleTransaction["customerId"];?>',
-			'transactionAffiliation': '<?php echo $analyticsObj->googleAffiliation;?>',
-			'transactionTotal': <?php echo $googleTransaction["orderTotal"];?>,
-			'transactionTax': <?php echo $googleTransaction["tax"];?>,
-			'transactionShipping': 0,
-			'transactionProducts': [{
-				'sku': '<?php echo $googleTransaction["orderSku"];?>',
-				'name': '<?php echo $googleTransaction["product"];?>',
-				'category': '<?php echo $googleTransaction["orderCategory"];?>',
-				'price': <?php echo $googleTransaction["price"];?>,
-				'quantity': <?php echo $googleTransaction["orderQty"];?>
-			}]
-		}];
+		dataLayer = [];
+		dataLayer.push({
+			'ecommerce': {
+				'purchase': {
+					'actionField': {
+						'id': '<?php echo $googleTransaction["customerId"];?>',	// Transaction ID. Required for purchases and refunds.
+						'affiliation': '<?php echo $analyticsObj->googleAffiliation;?>',
+						'revenue': '<?php echo $googleTransaction["orderTotal"];?>',	// Total transaction value (incl. tax and shipping)
+						'tax':'<?php echo $googleTransaction["tax"];?>',
+						'shipping': '0',
+						'coupon': ''
+					},
+					'products': [{                            // List of productFieldObjects.
+						'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
+						'id': '<?php echo $googleTransaction["orderSku"];?>',
+						'price': '<?php echo $googleTransaction["price"];?>',
+						'brand': '<?php echo $analyticsObj->googleAffiliation;?>',
+						'category': '<?php echo $googleTransaction["orderCategory"];?>',
+						'variant': '<?php echo $googleTransaction["orderCategory"];?>',
+						'quantity': <?php echo $googleTransaction["orderQty"];?>
+					}]
+				}
+			}
+		});
 	</script>
 <?php } ?>
 
