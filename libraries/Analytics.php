@@ -36,6 +36,7 @@ class Analytics {
 	static $sspData = null;
 	static $source = null;
 	static $custom = null;
+	static $queryString = null;
 
 	public function __construct() {
 		
@@ -54,11 +55,11 @@ class Analytics {
 		$this->sspData = self::$sspData;
 		$this->source = self::$source;
 		$this->custom = self::$custom;
+		$this->queryString = self::$queryString;
 
 		return $this;
 		
 	}
-	
 
 	function initializeValues() {
 
@@ -156,6 +157,31 @@ class Analytics {
 			$this->setCustom(null);
 		}
 
+		//create a querystring of analytics vars to append to checkout url
+		if(!empty(self::$affiliateId)){
+			$qs["AFID"] = self::$affiliateId;
+		}
+		if(!empty(self::$subId)){
+			$qs["subid"] = self::$subId;
+		}
+		if(!empty(self::$clickId)){
+			$qs["click_id"] = self::$clickId;
+		}
+		if(!empty(self::$subId2)){
+			$qs["subid2"] = self::$subId2;
+		}
+		if(!empty(self::$offerId)){
+			$qs["CID"] = self::$offerId;
+		}
+		if(!empty(self::$affSub2)){
+			$qs["aff_sub2"] = self::$affSub2;
+		}
+		if(!empty(self::$sspData)){
+			$qs["sspdata"] = self::$sspData;
+		}
+		$qs = http_build_query($qs);
+		$this->setQueryString($qs);
+
 	}
 
 	function setSubId($subId) {
@@ -194,6 +220,10 @@ class Analytics {
 	function setCustom($custom) {
 		self::$custom = $custom;
 		$_SESSION["custom"] = $custom;
+	}
+	function setQueryString($queryString) {
+		self::$queryString = "?" . $queryString;
+		//$_SESSION["queryString"] = $queryString;
 	}
 
 
