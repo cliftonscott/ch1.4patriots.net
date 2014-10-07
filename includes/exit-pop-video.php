@@ -1,7 +1,7 @@
 <script language="javascript">
 (function() {
     setTimeout(function() {
-    var __redirect_to = '<?php echo $productDataObj->exitLink; ?>';//
+    var __redirect_to = '<?php echo $productDataObj->exitLink . $analyticsObj->queryString; ?>';//
 
     var _tags = ['button', 'input', 'a'], _els, _i, _i2;
     for(_i in _tags) {
