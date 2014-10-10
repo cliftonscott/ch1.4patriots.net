@@ -1,6 +1,8 @@
 <?php
 include_once("Analytics.php");
 $analyticsObj = new Analytics();
+include_once("Platform.php");
+$platform = new Platform();
 require_once("Meta.php");
 $metaDataObj = new Meta();
 require_once("Customer.php");
@@ -105,6 +107,6 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
 	</div>
-	<?php include_once("snippets/csr-modal.html");?>
+	<?php $platform->renderCsrModal();?>
 <div class="navbar navbar-default">
 	<div class="container">
