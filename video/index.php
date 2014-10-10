@@ -33,6 +33,7 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once ('template-top.php');
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsObj->queryString;
+$platform->setCsrModalButtons("sample,video,letter");
 ?>
 <script>
 if (isMobile()) {
@@ -98,7 +99,8 @@ if (isMobile()) {
 	This timer requires a block object (div) with an id of 'countDownTimer'.
  */
 	var jsTimer = setInterval(function(){timerChange()},1000);
-	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);
+//	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);
+	timerDateObj = new Date(2014, 01, 01, 12, 1, 00);
 	function timerChange() {
 		time = timerDateObj.getTime();
 		newTime = time - 1000;
