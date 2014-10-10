@@ -1,3 +1,4 @@
+<?php $platform->renderCsrModal();?>
 <?php
 if(!empty($template["formType"])) {
 	include("security-seals.php");
