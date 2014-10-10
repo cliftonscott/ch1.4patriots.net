@@ -107,6 +107,5 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
 	</div>
-	<?php $platform->renderCsrModal();?>
 <div class="navbar navbar-default">
 	<div class="container">
