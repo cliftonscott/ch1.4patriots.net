@@ -21,6 +21,7 @@ class Platform {
 	static $defaultOrderUrl = "/checkout/index.php";
 	static $defaultVslUrl = "/video/index.php";
 	static $defaultLetterUrl = "/letter/index.php";
+	static $defaultTrialUrl = "/checkout/trial.php";
 
 	public function __construct() {
 
@@ -38,6 +39,7 @@ class Platform {
 		self::$defaultOrderUrl = self::$defaultOrderUrl . $queryString;
 		self::$defaultVslUrl = self::$defaultVslUrl . $queryString;
 		self::$defaultLetterUrl = self::$defaultLetterUrl . $queryString;
+		self::$defaultTrialUrl = self::$defaultTrialUrl . $queryString;
 
 		$documentRoot = $_SERVER["DOCUMENT_ROOT"];
 		self::$documentRoot = $documentRoot;
@@ -60,25 +62,27 @@ class Platform {
 		echo $modal;
 	}
 
-	function setCsrModalButton ($config) {
-
+	function setCsrModalButtons ($config) {
+		self::$defaultCsrButtons = $config;
 	}
 
 	function generateCsrModalButton ($config = "chat") {
 
 		switch($config) {
 			case "chat":
-				$button = "<p><button type=\"button\" class=\"btn btn-primary\" onclick=\"olark('api.box.expand'); hideCsrModal();\">Chat With Us</button></p>";
+				$button = "<p><a class=\"btn btn-primary\" href=\"javascript: olark('api.box.expand'); hideCsrModal();\">Chat With Us</a></p>";
 				break;
 			case "video":
-				$button = "<p><button type=\"button\" class=\"btn btn-success\" onclick=\"location.href=('" . self::$defaultVslUrl . "');\">Return To Video</button></p>";
+				$button = "<p><a class=\"btn btn-success\" href=\"" . self::$defaultVslUrl . "\">Return To Video</a></p>";
 				break;
 			case "letter":
+				$button = "<p><a class=\"btn btn-success\" href=\"" . self::$defaultLetterUrl . "\">Read A Description</a></p>";
 				break;
 			case "sample":
+				$button = "<p><a class=\"btn btn-primary\" href=\"" . self::$defaultTrialUrl . "\">Try A Free Sample</a></p>";
 				break;
 			case "order":
-				$button = "<p><button type=\"button\" class=\"btn btn-success\" onclick=\"location.href=('" . self::$defaultOrderUrl . "');\">Return To Order Form</button></p>";
+				$button = "<p><a class=\"btn btn-success\" href=\"" . self::$defaultOrderUrl . "\">Return To Order Form</a></p>";
 				break;
 		}
 
