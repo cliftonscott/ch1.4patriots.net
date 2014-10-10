@@ -31,10 +31,7 @@ if($template["exitPopType"] == "vwo") {
 ?>
 <!--
 <?php
-$dump = $analyticsObj;
-unset($dump->googleAccount);
-unset($dump->googleDomain);
-var_dump($dump);
+echo $analyticsObj->serverId;
 ?>
 -->
 	</body>
