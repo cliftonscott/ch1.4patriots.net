@@ -18,6 +18,9 @@ class Platform {
 
 	static $documentRoot = null;
 	static $defaultCsrButtons = "chat,order"; //comma delimited string
+	static $defaultOrderUrl = "/checkout/index.php";
+	static $defaultVslUrl = "/video/index.php";
+	static $defaultLetterUrl = "/letter/index.php";
 
 	public function __construct() {
 
@@ -28,6 +31,13 @@ class Platform {
 	}
 
 	function initializeValues() {
+
+		include_once("Analytics.php");
+		$analytics = new Analytics();
+		$queryString = $analytics->queryString;
+		self::$defaultOrderUrl = self::$defaultOrderUrl . $queryString;
+		self::$defaultVslUrl = self::$defaultVslUrl . $queryString;
+		self::$defaultLetterUrl = self::$defaultLetterUrl . $queryString;
 
 		$documentRoot = $_SERVER["DOCUMENT_ROOT"];
 		self::$documentRoot = $documentRoot;
@@ -61,13 +71,14 @@ class Platform {
 				$button = "<p><button type=\"button\" class=\"btn btn-primary\" onclick=\"olark('api.box.expand'); hideCsrModal();\">Chat With Us</button></p>";
 				break;
 			case "video":
+				$button = "<p><button type=\"button\" class=\"btn btn-success\" onclick=\"location.href=('" . self::$defaultVslUrl . "');\">Return To Video</button></p>";
 				break;
 			case "letter":
 				break;
 			case "sample":
 				break;
 			case "order":
-				$button = "<p><button type=\"button\" class=\"btn btn-success\" onclick=\"hideCsrModal();\">Return To Order Form</button></p>";
+				$button = "<p><button type=\"button\" class=\"btn btn-success\" onclick=\"location.href=('" . self::$defaultOrderUrl . "');\">Return To Order Form</button></p>";
 				break;
 		}
 
