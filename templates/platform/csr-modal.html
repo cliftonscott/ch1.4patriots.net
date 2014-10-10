@@ -1,0 +1,20 @@
+<script>
+	function showCsrModal() {
+		$('#csrModal').modal('show');
+	}
+	function hideCsrModal() {
+		$('#csrModal').modal('hide');
+	}
+</script>
+<div id="csrModal" class="modal fade bs-example-modal-lg hidden-xs" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" style="width:500px;height:300px;">
+		<div class="modal-content" style="background-image:url(/assets/images/misc/timer-pop-01.jpg);">
+			<div style="text-align:center;padding:10px;width:500px;height:300px;">
+				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideCsrModal();"></div>
+				<div style="position:relative;top:160px;width:300px;">
+					[[Platform::Buttons]]
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
