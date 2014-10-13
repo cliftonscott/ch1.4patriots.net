@@ -54,18 +54,13 @@ h1 {
 	
 }
 
-.testimonialaudio{
-max-width: 705px; 
-margin-right: auto; 
-margin-left: auto;
-}
 .testimonial{
 	border-radius: 10px;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	background-color: #f0ad4e; /*#E9F4FF;*/
+	background-color: #e9f4ff;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	margin-right: auto;
@@ -75,6 +70,22 @@ margin-left: auto;
 	height:auto;
 	
 }
+.video-ref-test{
+	color: #767676;
+	font-style: normal;
+	max-width:640px; 
+	padding-top:10px; 
+	padding-bottom:20px; 
+	text-align:center; 
+	margin:0 auto;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+.test-text{
+	max-width: 88%; 
+	margin-right: auto; 
+	margin-left: auto;
+}
 
 .test-header{
 	font-size: 21px; 
@@ -82,9 +93,29 @@ margin-left: auto;
 	margin: 0px;
 }
 
+.test-audio{
+max-width: 90%; 
+margin-right: auto; 
+margin-left: auto;
+}
+
+.test-audio-image{
+	float: left;
+	margin-bottom: 5px;
+}
+#red-quote{
+	color: rgb(173, 0, 0);
+}
+
+#red-quote-no-audio{
+	color: rgb(173, 0, 0);
+	margin-top:-36px;
+	margin-bottom:10px;
+}
+
 .fa-quote-right, .fa-quote-left {
 	color: #D9D9D9;
-}
+	
 .adbox{
 	text-align: center;
 	border: 2px solid #00C;
@@ -263,6 +294,7 @@ article.content .effective-date {
 
 /* References on video/index page
 -------------------------------------------------- */
+
 #video-references {
 	color: #767676;
 	font-style: normal;
@@ -270,13 +302,7 @@ article.content .effective-date {
 	margin-right: auto;
 	margin-left: auto;
 }
-#video-references p{
-	font-size: 12px;
-	font-family: sans-serif;
-	padding: 0px;
-	margin: 0px;
-	line-height: 14px;
-}
+
 /* CHECKOUT PAGE STYLES 
 -------------------------------------------------- */
 .guaranteeBox p {margin:0px;}
