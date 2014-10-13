@@ -99,8 +99,8 @@ if (isMobile()) {
 	This timer requires a block object (div) with an id of 'countDownTimer'.
  */
 	var jsTimer = setInterval(function(){timerChange()},1000);
-//	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);
-	timerDateObj = new Date(2014, 01, 01, 12, 1, 00);
+	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);
+//	timerDateObj = new Date(2014, 01, 01, 12, 1, 00);
 	function timerChange() {
 		time = timerDateObj.getTime();
 		newTime = time - 1000;
