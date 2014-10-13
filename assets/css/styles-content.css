@@ -81,33 +81,33 @@ h1 {
 	font-size: 12px;
 	font-family: sans-serif;
 }
-.test-text{
+.testimonial-text {
 	max-width: 88%; 
 	margin-right: auto; 
 	margin-left: auto;
 }
 
-.test-header{
+.testimonial-header {
 	font-size: 21px; 
 	padding: 0px; 
 	margin: 0px;
 }
 
-.test-audio{
+.testimonial-audio {
 max-width: 90%; 
 margin-right: auto; 
 margin-left: auto;
 }
 
-.test-audio-image{
+.testimonial-audio-image {
 	float: left;
 	margin-bottom: 5px;
 }
-#red-quote{
+.red-quote{
 	color: rgb(173, 0, 0);
 }
 
-#red-quote-no-audio{
+.red-quote-no-audio{
 	color: rgb(173, 0, 0);
 	margin-top:-36px;
 	margin-bottom:10px;
@@ -115,7 +115,7 @@ margin-left: auto;
 
 .fa-quote-right, .fa-quote-left {
 	color: #D9D9D9;
-	
+}
 .adbox{
 	text-align: center;
 	border: 2px solid #00C;
@@ -142,7 +142,7 @@ article.content .effective-date {
 /* GENERAL CSS TWEAKS
 -------------------------------------------------- */
 .nopadding {
-	padding: 0px;
+	padding: 0px !important;
 }
 .nomargin {
 	margin: 0px;
@@ -233,6 +233,11 @@ article.content .effective-date {
 	margin-left: auto;
 	overflow: hidden;
 }
+.videobox{
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
 #videobox iframe{
 	position: relative;
 	left: -2px;
@@ -302,7 +307,13 @@ article.content .effective-date {
 	margin-right: auto;
 	margin-left: auto;
 }
-
+#video-references p{
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 0px;
+	margin: 0px;
+	line-height: 14px;
+}
 /* CHECKOUT PAGE STYLES 
 -------------------------------------------------- */
 .guaranteeBox p {margin:0px;}
