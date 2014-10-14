@@ -11,7 +11,8 @@ $variantsArray = array (
 	"no-logo", // No logos/badges shown at the bottom
 	"np-nologo", // No exit pop, and no logos/badges
 	"np", // No exit pop
-	"pu" // Pop Under
+	"pu", // Pop Under
+	"dim" // Initiate Dim
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
@@ -71,6 +72,7 @@ if (isMobile()) {
 									$("#reserve").css("display", "none");
 									$("#buyButton").css("display", "block");
 									$("#buyButton2").css("display", "block");
+									$('#backgroundfade').hide(); // For Dim Test
 							   });
 
 					});
@@ -82,6 +84,7 @@ if (isMobile()) {
 									$("#reserve").css("display", "none");
 									$("#buyButton").css("display", "block");
 									$("#buyButton2").css("display", "block");
+									$('#backgroundfade').hide(); // For Dim Test
 							   });
 					});
 				}
@@ -117,6 +120,7 @@ if (isMobile()) {
 		}
 	}
 </script>
+
 <div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
 	<div class="container">
