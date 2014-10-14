@@ -169,14 +169,14 @@ $offerName = $_SESSION["firstName"];
 			<p><?php echo $customerDataObj->firstName;?>,
 				you’ve taken the first step in ensuring the safety and well-being of your loved ones in times of crisis with your Food4Patriots order.</p>
 			<p>But there’s one thing missing that you’re not going to want to be without if a crisis hits…</p>
-			<p><strong>Coffee</strong></p>
+			<p><strong>Coffee!</strong></p>
 			<p>If a food shortage or natural disaster does occur, <strong>coffee might just save your life</strong>, especially if you&rsquo;re the only one who has any. It&rsquo;s the perfect thing to use for barter or trade for other things you might need in an emergency. </p>
-			<p><strong>Click &ldquo;Yes, Add This to My Order&rdquo; in the next 10 minutes</strong> and we&rsquo;ll add the Food4Patriots Coffee Kit to your order for just one additional payment of <strong>$97</strong>.</p>
+			<p><strong>Click &ldquo;Add To Order&rdquo; button in the next 10 minutes</strong> and we&rsquo;ll add the Food4Patriots Coffee Kit to your order for just one additional payment of <strong>$97</strong>.</p>
           <p><strong><u>This is the first-ever emergency survival coffee with a true 25-year shelf life!</u></strong></p>
           <p>You&rsquo;ll be getting 600 full servings of delicious coffee, enough for just about 2 cups of coffee per day for an entire year! This is 100% pure Colombian coffee that&rsquo;s also 100% Non-GMO and 100% Arabica, straight from the tree to the freeze-dryer and into your cup. Simply add hot water and you&rsquo;ll enjoy a delicious cup of Joe!</p>
           <p>It&rsquo;s packed in airtight Mylar pouches, <em>guaranteed</em> to last 25 years on the shelf. The pouches come in a handy burlap sack, nestled inside a covert and watertight plastic storage tote for easy stacking. </p>
 <p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span class="bold red">only time you see it at this special price.</span></p>
-			<p>Believe it or not, coffee can be an amazing equalizer in a crisis… it provides a familiar routine and a sense of calm and focus, even when everything else could be swirling in chaos. Get your supply now, <strong>Click the &ldquo;Yes, Add This to My Order&rdquo;</strong> button below now:</p>
+			<p>Believe it or not, coffee can be an amazing equalizer in a crisis… it provides a familiar routine and a sense of calm and focus, even when everything else could be swirling in chaos. Get your supply now, <span class="bold red"><strong>Click the &ldquo;Add To Order&rdquo;</strong></span> button below now:</p>
 <p class="small"><em>An additional charge of $97 per kit will be added to your credit card. Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</em></p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
