@@ -26,7 +26,7 @@ $(document).ready(function() {
 			"billing-zip": {
 				required: true,
 				minlength: 5,
-				maxlength: 5
+				maxlength: 6
 			},
 			"card-cvv2": {
 				required: true
