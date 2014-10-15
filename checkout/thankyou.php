@@ -50,7 +50,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 
 		<div class="margin-tb-20">
-		<?php //include_once("products/F4P-coffee600-pid182.php");?>
+		<?php include_once("products/F4P-coffee600-pid182.php");?>
 		</div>
 		<div class="margin-tb-20">
 		<?php include_once("products/F4P-bonus-manuals.php");?>
