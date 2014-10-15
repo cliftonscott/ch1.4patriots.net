@@ -104,13 +104,13 @@ margin-left: auto;
 	margin-bottom: 5px;
 }
 .red-quote{
-	color: rgb(173, 0, 0);
+	color: rgb(173, 0, 0) !important;
 }
 
 .red-quote-no-audio{
-	color: rgb(173, 0, 0);
-	margin-top:-36px;
-	margin-bottom:10px;
+	color: rgb(173, 0, 0) !important;
+	margin-top:-36px !important;
+	margin-bottom:10px !important;
 }
 
 .fa-quote-right, .fa-quote-left {
@@ -234,6 +234,7 @@ article.content .effective-date {
 	overflow: hidden;
 }
 .videobox{
+	max-width: 634px;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;

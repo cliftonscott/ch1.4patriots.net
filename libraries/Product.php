@@ -464,7 +464,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
-			
+			case 182: // FRUIT VEGGIE SNACK KIT
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = 35;
+				$productObj->tags = "COFFEE600";
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 182;
+				//Limelight
+				$productObj->price = 97;
+				$productObj->originalPrice = 97;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 44;
+				$productObj->googleProductName = "F4P-C600";
+				$productObj->googleProductSKU = "PID182";
+				$productObj->googleProductCategory = "1-PAY-97";
+				$productObj->metaTitle = "Food4Patriots Coffee - 600 Servings";
+				$productObj->metaDescription = "Food4Patriots Coffee - 600 Servings";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 			
 			
 
