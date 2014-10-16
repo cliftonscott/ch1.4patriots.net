@@ -1,4 +1,4 @@
-Redirect 301 /index.html https://secure.food4patriots.com/checkout/index.php
+# Redirect 301 /index.html https://secure.food4patriots.com/checkout/index.php
 redirect 301 /special http://securetrack1.com/base.php?c=83&key=ba40b4f79019d45402c8e2ed48099625&source=shipstuff
 redirect 301 /SPECIAL http://securetrack1.com/base.php?c=83&key=ba40b4f79019d45402c8e2ed48099625&source=shipstuff
 
