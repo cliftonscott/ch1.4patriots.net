@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://secure.food4patriots.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/contact.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/faq.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/testimonials.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/newsroom.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/returns.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/privacy.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/terms.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/disclaimer.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/letter/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://secure.food4patriots.com/video/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
