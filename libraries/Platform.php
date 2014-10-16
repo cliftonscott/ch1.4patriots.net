@@ -21,7 +21,7 @@ class Platform {
 	static $defaultOrderUrl = "/checkout/index.php";
 	static $defaultVslUrl = "/video/index.php";
 	static $defaultLetterUrl = "/letter/index.php";
-	static $defaultTrialUrl = "/checkout/trial.php";
+	static $defaultTrialUrl = "/checkout/alt/f4p-free-food-offer.php";
 
 	public function __construct() {
 
