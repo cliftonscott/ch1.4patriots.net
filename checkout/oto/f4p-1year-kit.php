@@ -80,7 +80,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/p5l8v3n48p?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640" height="352"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+			<iframe src="//fast.wistia.net/embed/iframe/20zg3ipg1m" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 		</div>
 		<div style="margin-top:50px;">
 			<p><?php echo $firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
