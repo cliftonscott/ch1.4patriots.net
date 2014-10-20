@@ -144,7 +144,7 @@ if($_SESSION['errorMessage'] != '') {
 	  </div>
 	  <div class="form-group">
 		<label for="billing-zip">Zip:</label>
-		<input type="number" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
+		<input type="text" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
 	  </div>
 	  <div id="secure-guarantee">
 		<div id="secure-guarantee-header">Shopping  Is Safe &amp; Secure - Guaranteed!</div>
@@ -182,7 +182,7 @@ if($_SESSION['errorMessage'] != '') {
 	  </div>
 	  <div class="form-group">
 		<label for="shipping-zip">Zip:</label>
-		<input type="number" class="form-control zip-field" id="shipping-zip" name="shipping-zip" value="<?php echo $preFill['shipping-zip'];?>">
+		<input type="text" class="form-control zip-field" id="shipping-zip" name="shipping-zip" value="<?php echo $preFill['shipping-zip'];?>">
 	  </div>
 	  </div>
 	  <!-- SHIPPING ADDRESS* -->

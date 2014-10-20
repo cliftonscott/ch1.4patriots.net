@@ -100,10 +100,10 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 			echo "\n<script src='/js/customer-form-validation.js'></script>";
 		}
 		?>
-		<?php include_once("analytics-google-ecom.php"); ?>
+
 	</head>
 	<body>
-
+	<?php include_once("analytics-google-ecom.php"); ?>
 	<?php
 	if($variation === "dim") {
 		?>
