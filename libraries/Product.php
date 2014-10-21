@@ -464,6 +464,99 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+			case 162: //Patriot Power Generator
+				$productObj->pmaSku = null;
+				$productObj->price = 1997;
+				$productObj->originalPrice = 1997;
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = null; //no international sales
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0; //no international sales
+				$productObj->mpsId = null; //used for MPS
+				$productObj->campaignId = 16;
+				$productObj->netRevenueEach = 615;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 55;
+				$productObj->tags = "ppg1500";
+				$productObj->googleProductName = "PPG-GENERATOR";
+				$productObj->googleProductSKU = "PID162";
+				$productObj->googleProductCategory = "1-PAY-1997";
+				$productObj->metaTitle = "Patriot Power Generator 1500";
+				$productObj->metaDescription = "Patriot Power Generator 1500 - Plus Bonuses";
+				$productObj->defaultQuantity = 1;
+				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
+				$productObj->nextPage = "/checkout/oto/ppg-platinum.php";
+				break;
+			case 174: //Patriot Power Generator 2 Pay
+				$productObj->pmaSku = null;
+				$productObj->price = 997;
+				$productObj->originalPrice = 997;
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = null; //no international sales
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0; //no international sales
+				$productObj->mpsId = null; //used for MPS
+				$productObj->campaignId = 16;
+				$productObj->netRevenueEach = 393;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 55;
+				$productObj->tags = "ppg1500pmt";
+				$productObj->googleProductName = "PPG-GENERATOR";
+				$productObj->googleProductSKU = "PID174";
+				$productObj->googleProductCategory = "2-PAY-997";
+				$productObj->metaTitle = "Patriot Power Generator 1500";
+				$productObj->metaDescription = "Patriot Power Generator 1500 - Plus Bonuses";
+				$productObj->defaultQuantity = 1;
+				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
+				$productObj->nextPage = "/checkout/oto/ppg-platinum.php";
+				break;
+			case 170: //PPG Bonuses
+				$productObj->pmaSku = null;
+				$productObj->price = 0;
+				$productObj->originalPrice = 0;
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = null; //no international sales
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0; //no international sales
+				$productObj->mpsId = null; //used for MPS
+				$productObj->campaignId = 18;
+				$productObj->netRevenueEach = 0;
+				$productObj->taxable = TRUE;
+				$productObj->listId = null;
+				$productObj->tags = null;
+				$productObj->googleProductName = "";
+				$productObj->googleProductSKU = "PID170";
+				$productObj->googleProductCategory = "";
+				$productObj->metaTitle = "Patriot Power Generator 1500 - Bonuses";
+				$productObj->metaDescription = "Patriot Power Generator 1500 - Bonuses";
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = TRUE;
+				$productObj->nextPage = null; //bonuses don't use a next page
+				break;
+			case 164: //Patriot Power Generator Platinum Upgrade
+				$productObj->pmaSku = null;
+				$productObj->price = 997;
+				$productObj->originalPrice = 997;
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = null; //no international sales
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0; //no international sales
+				$productObj->mpsId = null; //used for MPS
+				$productObj->campaignId = 16;
+				$productObj->netRevenueEach = 546;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 56;
+				$productObj->tags = "ppgDeluxe";
+				$productObj->googleProductName = "PPG-PLATINUM";
+				$productObj->googleProductSKU = "PID164";
+				$productObj->googleProductCategory = "1-PAY-997";
+				$productObj->metaTitle = "PPG Platinum Upgrade";
+				$productObj->metaDescription = "Patriot Power Generator Platinum Upgrade";
+				$productObj->defaultQuantity = 1;
+				$productObj->nextPage = "/checkout/oto/ppg-1year.php";
+				break;
 			case 182: // FRUIT VEGGIE SNACK KIT
 				//process file
 				$productObj->campaignId = 9;
