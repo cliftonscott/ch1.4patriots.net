@@ -17,12 +17,12 @@ $maxQuantity = 1;
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-include_once("Inventory.php");
+/*include_once("Inventory.php");
 $inventory = Inventory::hasInventory(162);
 if($inventory->success !== true) {
 	header("Location: " . $productDataObj->soldOutPage);
 	exit;
-}
+} */
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -105,7 +105,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div class="container oto-width">
 		<div><h1 class="text-center" style="font-size: 23pt;"><strong><span class="darkRed">FREE</span> Video Reveals <span class="darkRed">"Magic Bullet"</span> That Protects You 100% Against Blackouts, Power Failures &amp; The Crumbling Electric Grid</strong></h1>
 		</div>
-		<div id="videobox" class="hidden-xs">
+		<div id="videobox" class="hidden-xs margin-b-10">
 			<iframe src="//fast.wistia.net/embed/iframe/ntwrexzc2n" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 		</div>
 		<div id="buyButton" style="padding-bottom:40px;display:none;">
@@ -131,7 +131,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>…targeting something critical to life as we know it that&rsquo;s so old, so under-protected, and so vulnerable, it&rsquo;s become our &quot;weakest link&quot;. </p>
 			<p>And it&rsquo;s shocking it hasn&rsquo;t been destroyed...<strong>YET.</strong></p>
 			<p>And I&rsquo;m not talking about terror attacks that are in the planning stages…</p>
-			<h2 class="darkRed text-center center-block title-max-560"><strong>I&rsquo;m Talking About Attacks That Are ALREADY HAPPENING. </strong></h2>
+			<h2 class="darkRed text-center center-block title-max-560"><strong>&quot;I&rsquo;m Talking About Attacks That Are ALREADY HAPPENING.&quot;</strong></h2>
 			<p><img src="/media/images/ppg/ppg-oto-powerstation-01.jpg" class="img-responsive pull-right img-padding-left media">And yet somehow the government is managing to bury this terrifying threat, and what&rsquo;s worse, they&rsquo;re not doing anything to stop it.</p>
 			<p>If you want those you love to survive this all-too-real threat that&rsquo;s just around the corner, pay very close attention to this entire presentation...</p>
 			<p>If you leave this page, you'll be missing your opportunity to protect yourself and your family from this devastating disaster. </p>
@@ -163,7 +163,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>All your communication devices would be as useful as a tin-can telephone. </p>
 			<p>Nope - no smart phones, no iPads, no computers. </p>
 			<p>You'd be isolated and alone, cut off from your friends and family&#8230;or any form of help. </p>
-			<h2 class="darkRed text-center"><strong>The Simple Fact Is That EVERYTHING Would Just...STOP.</strong> </h2>
+			<h2 class="darkRed text-center"><strong>&quot;The Simple Fact Is That EVERYTHING Would Just...STOP.&quot;</strong> </h2>
 			<p>Every store would be picked over and shelves completely emptied within hours. </p>
 			<p>Looters would make quick work of any remaining stock, to keep for themselves or sell at jacked-up prices to desperate people clamoring for supplies or food. </p>
 			<p>Forget stores...you couldn't even get to your money in your bank account to buy anything, anyway! </p>
@@ -180,7 +180,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Society would quickly become a deadly free-for-all. </p>
 			<p>Sound like something out of a Stephen King novel? </p>
 			<p>Well, it isn't folks. This isn't some tin-foil hat wearing conspiracy theory. </p>
-			<h2 class="darkRed text-center"><strong>It Could Happen At Any Moment, And I've Got The Stone Cold Proof.</strong> </h2>
+			<h2 class="darkRed text-center"><strong>&quot;It Could Happen At Any Moment, And I've Got The Stone Cold Proof.&quot;</strong> </h2>
 			<p>Here's a frightening quote from Dr. Richard Andres, US National War College: </p>
 			<p><strong> <em> "A massive and well-coordinated cyber-attack on the electrical grid could devastate the economy and cause a large-scale loss of life." </em> </strong> </p>
 			<p>Just to show you how very hard terrorists are working to bring down the grid using nothing more than an Internet connection, check this out from Politico.com: </p>
@@ -203,7 +203,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p> The attack was so bold, former Chairman of the Federal Energy Regulatory Committee, Jon Wellinghoff, calls this attack <strong>"the most significant incident of domestic terrorism involving the grid that has ever occurred</strong>." </p>
 			<p>AND he's concerned an even LARGER ATTACK could be in our near future. </p>
 			<p>Even Col. Allen West, a highly decorated soldier and American hero, called it "a dry run" for future attacks. </p>
-			<h2 class="darkRed text-center">What Does This Really Mean? </h2>
+			<h2 class="darkRed text-center">&quot;What Does This Really Mean?&quot;</h2>
 			<p>It means the terrorists are just getting started.<strong><em></em></strong> </p>
 			<p>And what do you think Obama and his cronies plan to do about these threats? </p>
 			<p>They probably have some sort of special team working on this 24/7, right? </p>
@@ -225,7 +225,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Talk about being ripe for a crisis. </p>
 			<p>If you were to compare the grid to an American city, guess which one it would resemble the most? </p>
 			<p>With all its ruin and decay, without hesitating, I would say...<strong>Washington, D.C.</strong> </p>
-			<h2 class="darkRed text-center"><strong>Are You Scared Yet? You Should Be.</strong> </h2>
+			<h2 class="darkRed text-center"><strong>&quot;Are You Scared Yet? You Should Be.&quot;</strong> </h2>
 			<p><img src="/media/images/ppg/ppg-oto-sandystorm-01.jpg" class="img-responsive pull-right img-padding-left media" >Case in point, the best example we have of how weak the grid really is happened just a couple of years ago, when the East Coast got pulverized by Superstorm Sandy. </p>
 			<p>This "Nor' Easter" packed such a wallop, <strong>it knocked out power to over 250,000 NYC residents!</strong> </p>
 			<p>I couldn't believe my eyes as I watched New Yorkers actually DUMPSTER DIVING for food after the storm, because they had no power and nothing to eat. </p>
@@ -297,7 +297,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>I got in touch with a rogue engineer based in Utah who is just as passionate about this I am and 100 times more knowledgeable than me. This guy has spent years training as an engineer and has traveled all over the world for the past two decades, relentlessly researching the best way to generate and store the free power from the sun. </p>
 			<p>When I told him what I was trying to do, he got on board immediately...we got so worked up about the idea that we were both talking at once! I begged and pleaded, and he retreated to his lab for months of hard work.</p>
 			<p>Finally he had a design nailed down. And we found an innovative manufacturer who was willing to take chance on this idea. After months and months of tweaking and testing..</p>
-			<h2 class="darkRed text-center">I’m Proud To Introduce The Patriot Power Generator 1500.</h2>
+			<h2 class="darkRed text-center">&quot;I’m Proud To Introduce The Patriot Power Generator 1500.&quot;</h2>
 			<img src="/media/images/ppg/ppg-product-oto-01.jpg" class="img-responsive center-block">
 			<p>I can honestly tell you that you&rsquo;ll be stunned at how powerful and yet portable this complete generator is. It&rsquo;s got a state-of-the-art lithium-ion battery that charges completely using the included top of the line folding solar panel. At only 27 pounds, anybody can lift it and it fits neatly into almost any cargo space, ready to go at any time. </p>
 			<p>Compared to the alternatives, the Patriot Power Generator 1500 has so many advantages <strong>it&rsquo;s almost UNFAIR for it to even be on the market.</strong></p>
@@ -337,7 +337,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>But don&rsquo;t think you have to wait until the &quot;you-know-what&rdquo; hits the fan to take advantage of this little workhorse. Its small size, portability and ease of use make it perfect for camping, hunting and fishing trips, taking along on your next RV vacation, or even weekend tailgating. I bet you can picture literally a HUNDRED ways you will use and enjoy having an easy, free source of power!</p>
 			<p>We have to be prepared. And I&rsquo;ve thought of everything in this &quot;little generator that could&rdquo; so YOU don&rsquo;t have to…</p>
 			<p>Just so you can clearly see what makes my Patriot Power Generator 1500 head and shoulders above the rest, here it is &quot;up close and personal&rdquo;...</p>
-			<h2 class="darkRed text-center">&quot;That’s Why I Made Sure The Patriot Power Generator 1500 Was Small, Compact, AND Powerful.&quot;</h2>
+			<h2 class="darkRed text-center">&quot;Truth Is, My Generator’s Combination Of Features Gives It An Unfair Edge Over Its Competition...&quot;</h2>
 			<p> <strong>Lithium Ion Battery:</strong> my Patriot Power Generator 1500 contains a safe, state-of-the-art lithium-ion battery (this is the same kind of battery used in the iPhone). This is far superior to older, out of date lead acid batteries, which can leak caustic chemicals, causing a hazard to your family&rsquo;s health and safety. Plus they don&rsquo;t last nearly as long. </p>
 			<p> <strong>No assembly required:</strong> Your generator arrives already assembled and charged. You don&rsquo;t have to wait to try out your generator; you can start using it right away.</p>
 			<p> <strong>1000+ Life Cycles:</strong> This means you can fully drain and recharge your battery over 1,000 times, insuring a long life of peak performance and power when you need it. </p>
