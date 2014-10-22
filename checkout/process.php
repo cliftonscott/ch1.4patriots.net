@@ -285,9 +285,9 @@ if(!empty($analyticsObj->vwoTestId)) {
 	if($postVWO->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to YH
 	}
-	$saleDataObj->setVwo($postVWO->success);
+	//$saleDataObj->setVwo($postVWO->success);
 
-	$myDevLog.= "YH Results:<br>";
+	$myDevLog.= "VWO Results:<br>";
 	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
 	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";

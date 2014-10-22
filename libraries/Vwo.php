@@ -68,7 +68,7 @@ class Vwo {
 		} else {
 			$postSale->success = FALSE;
 		}
-		
+
 		return $postSale;
 		
 	}
