@@ -243,6 +243,36 @@ $stepTimeLog[] = $stepTime . " :: Post to HasOffers :: " . $postHasOffers->succe
 
 //==============================================================================================================//
 //==============================================================================================================//
+//post purchase to YellowHammer if an sspdata exists in Analytics
+$stepTimerStart = microtime(true);
+
+if(!empty($analyticsObj->sspData)) {
+	include_once("Yellowhammer.php");
+	$yellowHammer = new Yellowhammer();
+	$postRevenue = $productDataObj->netRevenueEach * $quantity;
+	$postYellowHammer = $yellowHammer->postSale($saleDataObj->getSale(),$postRevenue);
+
+	if($postYellowHammer->success === FALSE) {
+		//TODO send email to dev w/ results of failure because we did not successfully post to YH
+	}
+	$saleDataObj->setYellowHammer($postYellowHammer->success);
+
+	$myDevLog.= "YH Results:<br>";
+	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
+	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
+	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
+	$myDevLog.= "quantity:" . $quantity . "<br>";
+	$myDevLog.= "YH Revenue:" . $postRevenue . "<br>";
+	$myDevLog.= "YH URL:" . $postYellowHammer->hasOffersUrl . "<br>";
+	$myDevLog.= "YH Order Response String:" . $postYellowHammer->serverResponse . "<br>";
+}
+
+$stepTimerStop = microtime(true);
+$stepTime = round($stepTimerStop - $stepTimerStart, 4);
+$stepTimeLog[] = $stepTime . " :: Post to YellowHammer :: " . $postYellowHammer->success;
+
+//==============================================================================================================//
+//==============================================================================================================//
 //post purchase to VWO if an vwoTestId exists in Analytics
 $stepTimerStart = microtime(true);
 
@@ -262,9 +292,9 @@ if(!empty($analyticsObj->vwoTestId)) {
 	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
 	$myDevLog.= "quantity:" . $quantity . "<br>";
-	$myDevLog.= "YH Revenue:" . $postRevenue . "<br>";
-	$myDevLog.= "YH URL:" . $postVWO->hasOffersUrl . "<br>";
-	$myDevLog.= "YH Order Response String:" . $postVWO->serverResponse . "<br>";
+	$myDevLog.= "VWO Revenue:" . $postRevenue . "<br>";
+	$myDevLog.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
+	$myDevLog.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
 }
 
 $stepTimerStop = microtime(true);
