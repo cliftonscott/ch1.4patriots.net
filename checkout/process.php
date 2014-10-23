@@ -276,8 +276,9 @@ $stepTimeLog[] = $stepTime . " :: Post to YellowHammer :: " . $postYellowHammer-
 //post purchase to VWO if an vwoTestId exists in Analytics
 $stepTimerStart = microtime(true);
 
-if(!empty($analyticsObj->vwoTestId)) {
+if(!empty($analyticsObj->vwoGoalId)) {
 	include_once("Vwo.php");
+
 	$vwo = new Vwo();
 	$postRevenue = $productDataObj->netRevenueEach * $quantity;
 	$postVWO = $vwo->postSale($saleDataObj->getSale(),$postRevenue);
@@ -285,7 +286,7 @@ if(!empty($analyticsObj->vwoTestId)) {
 	if($postVWO->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to YH
 	}
-	//$saleDataObj->setVwo($postVWO->success);
+	$saleDataObj->setVwo($postVWO->success);
 
 	$myDevLog.= "VWO Results:<br>";
 	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
@@ -295,6 +296,7 @@ if(!empty($analyticsObj->vwoTestId)) {
 	$myDevLog.= "VWO Revenue:" . $postRevenue . "<br>";
 	$myDevLog.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
 	$myDevLog.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
+
 }
 
 $stepTimerStop = microtime(true);

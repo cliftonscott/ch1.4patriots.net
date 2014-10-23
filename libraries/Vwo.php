@@ -12,8 +12,8 @@ class Vwo {
 	
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
-	const ACCOUNTID = "827";
+
+	const ACCOUNTID = 827;
 	const URL = "http://dev.visualwebsiteoptimizer.com/c.gif";
 	
 	public function __construct() {
@@ -70,8 +70,9 @@ class Vwo {
 		}
 
 		return $postSale;
-		
+
 	}
+
 		
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
