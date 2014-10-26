@@ -249,8 +249,9 @@ $stepTimerStart = microtime(true);
 if(!empty($analyticsObj->sspData)) {
 	include_once("Yellowhammer.php");
 	$yellowHammer = new Yellowhammer();
-	$postRevenue = $productDataObj->netRevenueEach * $quantity;
-	$postYellowHammer = $yellowHammer->postSale($saleDataObj->getSale(),$postRevenue);
+	$yellowHammerSaleObj = $saleDataObj->getSale();
+	$orderRevenue = $productDataObj->netRevenueEach * $yellowHammerSaleObj->quantity;
+	$postYellowHammer = $yellowHammer->postSale($yellowHammerSaleObj,$orderRevenue);
 
 	if($postYellowHammer->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to YH
@@ -262,7 +263,7 @@ if(!empty($analyticsObj->sspData)) {
 	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
 	$myDevLog.= "quantity:" . $quantity . "<br>";
-	$myDevLog.= "YH Revenue:" . $postRevenue . "<br>";
+	$myDevLog.= "YH Revenue:" . $orderRevenue . "<br>";
 	$myDevLog.= "YH URL:" . $postYellowHammer->hasOffersUrl . "<br>";
 	$myDevLog.= "YH Order Response String:" . $postYellowHammer->serverResponse . "<br>";
 }
@@ -273,15 +274,15 @@ $stepTimeLog[] = $stepTime . " :: Post to YellowHammer :: " . $postYellowHammer-
 
 //==============================================================================================================//
 //==============================================================================================================//
-//post purchase to VWO if an vwoTestId exists in Analytics
+//post purchase to VWO if an vwoGoalId exists in Analytics
 $stepTimerStart = microtime(true);
 
 if(!empty($analyticsObj->vwoGoalId)) {
 	include_once("Vwo.php");
-
 	$vwo = new Vwo();
-	$postRevenue = $productDataObj->netRevenueEach * $quantity;
-	$postVWO = $vwo->postSale($saleDataObj->getSale(),$postRevenue);
+	$vwoSaleObj = $saleDataObj->getSale();
+	$vwoRevenue = $productDataObj->netRevenueEach * $vwoSaleObj->quantity;
+	$postVWO = $vwo->postSale($vwoRevenue);
 
 	if($postVWO->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to YH
@@ -293,7 +294,7 @@ if(!empty($analyticsObj->vwoGoalId)) {
 	$myDevLog.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
 	$myDevLog.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
 	$myDevLog.= "quantity:" . $quantity . "<br>";
-	$myDevLog.= "VWO Revenue:" . $postRevenue . "<br>";
+	$myDevLog.= "VWO Revenue:" . $vwoRevenue . "<br>";
 	$myDevLog.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
 	$myDevLog.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
 

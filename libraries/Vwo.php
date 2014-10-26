@@ -13,19 +13,19 @@ class Vwo {
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
 
-	const ACCOUNTID = 827;
+	const ACCOUNTID = "827";
 	const URL = "http://dev.visualwebsiteoptimizer.com/c.gif";
 	
 	public function __construct() {
 		
 	}
 	
-	function postSale($orderRevenue) {
+	function postSale($vwoRevenue) {
 
 		$postSale = new stdClass();
 
 		//check that $orderRevenue is numeric
-		if(!is_numeric($orderRevenue)) {
+		if(!is_numeric($vwoRevenue)) {
 			self::setError("orderRevenue is not numeric.");
 			$postSale->success = false;
 			$postSale->errors = self::getErrors();
@@ -41,7 +41,7 @@ class Vwo {
 			"ACCOUNT_ID" => self::ACCOUNTID,
 			"GOAL_ID" => $analyticsObj->vwoGoalId,
 			"COMBINATION" => $analyticsObj->vwoVariationId,
-			"r" => $orderRevenue,
+			"r" => $vwoRevenue,
 
 		);
 
