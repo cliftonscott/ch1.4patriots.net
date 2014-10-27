@@ -26,6 +26,10 @@ p {
 	margin-bottom: 10px;
 	font-size: 14px;
 }
+.badge-4p{
+	margin:-8px auto 0 auto;
+	padding-bottom:23px;
+}
 /* CUSTOMIZE MOBILE IMAGES
 -------------------------------------------------- */
 .media.pull-left,.media.pull-right {
