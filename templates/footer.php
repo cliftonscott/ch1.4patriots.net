@@ -7,6 +7,7 @@
 			1-800-728-0008
 		</address>
 	</div>
+    <div style="margin:0 auto; padding-bottom:23px; margin-top:-8px;"><img src="/assets/images/misc/4p-badge.png"/></div>
 <?php
 if(strpos($_SERVER["PHP_SELF"], "/oto/") === FALSE) {
 	include_once("footer-links.php");
