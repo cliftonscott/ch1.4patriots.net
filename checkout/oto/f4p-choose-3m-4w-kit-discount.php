@@ -13,6 +13,7 @@ $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 $_SESSION['productId'] = 164; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['pageReturn'] = '/checkout/order.php';
+$_SESSION['3mDiscountSkip'] = TRUE; // Redirects If Already Offered 3 Month Discount
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");

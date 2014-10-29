@@ -29,7 +29,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				},
 			},
 			messages: {
-		  check1: '<div class="warning-check"></div>',
+				check1: '<div class="warning-check"></div>',
 		},
 		submitHandler: function(form) {
 		 //optIn(); 
@@ -83,13 +83,12 @@ if($isUpgrade) {
 				</div>
 
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-	  </form>
+		</form>
 
 	<?php
 }
 	?>
-			<div class="noThanks">
-				<a href="/checkout/oto/f4p-3month-kit-discount.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
+			<div class="noThanks"><a href="/checkout/oto/f4p-3month-kit-discount.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
 		</div>
 
 	</div>

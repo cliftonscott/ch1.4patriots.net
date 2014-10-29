@@ -232,7 +232,7 @@ class Product {
 			case 23: // 3MONTH DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
 				$productObj->listId = 35;
 				$productObj->tags = "3MKITUP";
 				$productObj->shippingIdDomestic = 8;

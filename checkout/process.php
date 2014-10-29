@@ -328,7 +328,10 @@ if(($customerDataObj->billingCountry !== "US") && ($customerDataObj->billingCoun
 	header("Location: /checkout/thankyou.php");
 	exit;
 } else {
-	if(!empty($productDataObj->nextPage)) {
+	if(!empty($_SESSION['nextPageOverride'])) {
+		header("Location: " . $_SESSION['nextPageOverride']);
+		unset($_SESSION['nextPageOverride']);
+	}elseif(!empty($productDataObj->nextPage)) {
 		header("Location: " . $productDataObj->nextPage);
 	} else {
 		header("Location: /checkout/thankyou.php");
