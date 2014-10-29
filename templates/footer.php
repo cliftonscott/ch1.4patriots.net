@@ -7,7 +7,6 @@
 			1-800-728-0008
 		</address>
 	</div>
-    <div class="badge-4p"><img src="/assets/images/misc/4p-badge.png"/></div>
 <?php
 if(strpos($_SERVER["PHP_SELF"], "/oto/") === FALSE) {
 	include_once("footer-links.php");
@@ -15,5 +14,6 @@ if(strpos($_SERVER["PHP_SELF"], "/oto/") === FALSE) {
 
 ?>
 	<div><br />Copyright &copy; <?php echo date("Y");?> Food4Patriots<strong>&reg;</strong> — All rights reserved.<br /><br /></div>
+	<div class="badge-4p"><img src="/assets/images/misc/4p-badge.png"/></div>
 </div>
 <!-- /footer -->
