@@ -486,7 +486,8 @@ class Product {
 				$productObj->defaultQuantity = 1;
 				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/ppg-platinum.php";
+				$productObj->nextPage = "/checkout/oto/f4p-platinum.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
 			case 174: //Patriot Power Generator 2 Pay
 				$productObj->pmaSku = null;
@@ -510,7 +511,7 @@ class Product {
 				$productObj->defaultQuantity = 1;
 				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/ppg-platinum.php";
+				$productObj->nextPage = "/checkout/oto/f4p-platinum.php";
 				break;
 			case 170: //PPG Bonuses
 				$productObj->pmaSku = null;
@@ -555,7 +556,7 @@ class Product {
 				$productObj->metaTitle = "PPG Platinum Upgrade";
 				$productObj->metaDescription = "Patriot Power Generator Platinum Upgrade";
 				$productObj->defaultQuantity = 1;
-				$productObj->nextPage = "/checkout/oto/ppg-1year.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
 				break;
 			case 182: // FRUIT VEGGIE SNACK KIT
 				//process file
