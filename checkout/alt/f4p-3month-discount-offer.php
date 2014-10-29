@@ -65,9 +65,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 			<div class="col-sm-12 col-md-1"></div>
 		</div>
-		<div class="text-center center-block margin-tb-50">
+		<div class="text-center center-block margin-b-10">
 			<a href="/order/23"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
-			<p class="text-center">Add To Cart <strike>$497</strike> $397</p></a>
+			<p class="text-center h4" style="margin-bottom:50px;">Add To Cart <strike>$497</strike> $397</p></a>
 		</div>
 		<div>
 			<p>And don’t forget…when you order our Food4Patriots 3-month food supply, I’ll throw in 6 incredible bonuses absolutely FREE!</p>
@@ -125,7 +125,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
 		<div class="text-center center-block margin-tb-50">
 			<a href="/order/23"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
-			<p class="text-center">Add To Cart <strike>$497</strike> $397</p></a>
+			<p class="text-center h4 margin-b-10">Add To Cart <strike>$497</strike> $397</p></a>
 		</div>
 		<div>
 			<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
@@ -146,7 +146,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="text-center center-block margin-tb-50">
 			<a href="/order/23"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
-			<p class="text-center">Add To Cart <strike>$497</strike> $397</p></a>
+			<p class="text-center h4 margin-b-10">Add To Cart <strike>$497</strike> $397</p></a>
 		</div>
 		<div>
 			<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-13.jpg" alt="Food4Patriots Testimonial">
