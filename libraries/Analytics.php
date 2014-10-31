@@ -37,6 +37,9 @@ class Analytics {
 	static $source = null;
 	static $custom = null;
 	static $queryString = null;
+	static $vwoTestId = null;
+	static $vwoGoalId = null;
+	static $vwoVariationId = null;
 
 	public function __construct() {
 		
@@ -56,6 +59,9 @@ class Analytics {
 		$this->source = self::$source;
 		$this->custom = self::$custom;
 		$this->queryString = self::$queryString;
+		$this->vwoTestId = self::$vwoTestId;
+		$this->vwoGoalId = self::$vwoGoalId;
+		$this->vwoVariationId = self::$vwoVariationId;
 
 		return $this;
 		
@@ -157,6 +163,33 @@ class Analytics {
 			$this->setCustom(null);
 		}
 
+		$vwoTestId = trim($_GET["experiment_id"]);
+		if(!empty($vwoTestId)) {
+			$this->setVwoTestId($vwoTestId);
+		} elseif (!empty($_SESSION["vwoTestId"])) {
+			$this->setVwoTestId($_SESSION["vwoTestId"]);
+		} else {
+			$this->setVwoTestId(null);
+		}
+
+		$vwoGoalId = trim($_GET["GOAL_ID"]);
+		if(!empty($vwoGoalId)) {
+			$this->setVwoGoalId($vwoGoalId);
+		} elseif (!empty($_SESSION["vwoGoalId"])) {
+			$this->setVwoGoalId($_SESSION["vwoGoalId"]);
+		} else {
+			$this->setVwoGoalId(null);
+		}
+
+		$vwoVariationId = trim($_GET["COMBINATION"]);
+		if(!empty($vwoVariationId)) {
+			$this->setVwoVariationId($vwoVariationId);
+		} elseif (!empty($_SESSION["vwoVariationId"])) {
+			$this->setVwoVariationId($_SESSION["vwoVariationId"]);
+		} else {
+			$this->setVwoVariationId(null);
+		}
+
 		//create a querystring of analytics vars to append to checkout url
 		if(!empty(self::$affiliateId)){
 			$qs["AFID"] = self::$affiliateId;
@@ -224,6 +257,18 @@ class Analytics {
 	function setQueryString($queryString) {
 		self::$queryString = "?" . $queryString;
 		//$_SESSION["queryString"] = $queryString;
+	}
+	function setVwoTestId($vwoTestId) {
+		self::$vwoTestId = $vwoTestId;
+		$_SESSION["vwoTestId"] = $vwoTestId;
+	}
+	function setVwoGoalId($vwoGoalId) {
+		self::$vwoGoalId = $vwoGoalId;
+		$_SESSION["vwoGoalId"] = $vwoGoalId;
+	}
+	function setVwoVariationId($vwoVariationId) {
+		self::$vwoVariationId = $vwoVariationId;
+		$_SESSION["vwoVariationId"] = $vwoVariationId;
 	}
 
 
