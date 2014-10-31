@@ -20,6 +20,26 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+<script src="/js/zoommain.js"></script>
+<style>
+.magnify {
+	max-width: 700px;
+	margin: 50px auto;
+	position: relative;
+}
+
+.large {
+	width: 175px;
+	height: 175px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),  0 0 7px 7px rgba(0, 0, 0, 0.25),  inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+	background: url('/media/images/f4p/f4p-1-year-kit-04.jpg') no-repeat;
+	display: none;
+}
+.small { display: block; }
+</style>
+
 <script src="/js/audio.js"></script>
 <script language="javascript">
 	$(document).ready(function() {
@@ -87,27 +107,25 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
 		  <p>But before you move on, I've got a <strong>special 1-time offer</strong> for you... </p>
 			<p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
-			<img class="img-responsive center-block" src="/media/images/f4p//f4p-testimonials-10.png" alt="L. Graeser's Testimonial" style="margin-bottom:20px;">
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 		</div>
 		<div>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a ONE YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
-			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
+			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 			<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a 1-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies…you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 
 		  <p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 	</div>
 </div>
 <?php include("f4p-1year-glenbeck.html");?>
-	<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" width="550" height="133" alt=""/><div>Add To Cart $1997</div></a></div>
 <?php include("f4p-1year-whatsincluded.html");?>
 <div class="container oto-width">
 	<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-
-			<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you upgrade today!</p>
-			<p>Because we're already going to be sending you a 3-month kit, we can add the 1Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+	<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you upgrade today!</p>
+	<p>Because we're already going to be sending you a 3-month kit, we can add the 1Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+	<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" width="550" height="133" alt=""/><div>Add To Cart $1997</div></a></div>
 
 	<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
-	
 	<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-Year Kit!</p>
 </div>
 <?php include("f4p-1year-bonus-lifestraw.html");?>
@@ -151,7 +169,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					as you have it in your hands.</p>
 			</div>
 
-			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-09.png" width="626" height="269" alt="Stacy's Testimonial"></div>
+			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
 
 			<h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1-Year
 				Food4Patriots Kit For $1000.00 Off Right Now!</h2>
@@ -175,7 +193,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
 
 			<div>
-				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>
+<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
+				<div>
+					<div class="magnify">
+						<div class="large"></div>
+						<img class="img-responsive center-block small" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/>
+					</div>
+				</div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
 				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 
@@ -223,10 +247,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						</div>
 					</div>
 					<div style="margin-top:20px;">
-						<img class="img-responsive center-block"  src="/media/images/f4p/f4p-testimonials-07.png" alt="Food4Patriots Testimonial">
+						<img class="img-responsive center-block"  src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Food4Patriots Testimonial">
 					</div>
 					<div>
-						<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-02.png" alt="Food4Patriots Testimonial">
+						<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-17.jpg" alt="Food4Patriots Testimonial">
 					</div>
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
@@ -234,7 +258,27 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					}
 					?>
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a> – I want to give up this opportunity.<br />I understand that I will not receive this special offer again.
+					<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a> – I am choosing to abandon my steeply discounted 1-Year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+				</div>
+				<div class="outLineBoxDarkBlue">
+					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
+					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
+					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
+					any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="outLineBoxDarkBlue">
+					<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+					<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any
+					of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you
+					can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
+
+					<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is
+						on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not
+						really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon
+						as you have it in your hands.</p>
 				</div>
 			</div>
 </div>
