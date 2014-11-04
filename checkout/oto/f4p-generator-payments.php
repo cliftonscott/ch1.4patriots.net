@@ -15,6 +15,12 @@ $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+include_once("Inventory.php");
+$inventory = Inventory::hasInventory(162);
+if($inventory->success !== true) {
+	header("Location: " . $productDataObj->soldOutPage);
+	exit;
+}
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
