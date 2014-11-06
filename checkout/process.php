@@ -114,6 +114,15 @@ $saleDataObj->setOrderId($postLimelight->orderId);
 $saleDataObj->setCustomerId($postLimelight->customerId);
 $saleDataObj->setLimelight($postLimelight->success);
 
+//reduces inventory for pid if pid=162 (or related)
+if($customerDataObj->isTest === false) {
+	$ppgInventoryArray = array (162,174,166,164);
+	if(in_array($productDataObj->productId,$ppgInventoryArray)) {
+		include_once("Inventory.php");
+		$subtractInventory = Inventory::subtractInventory(162);
+	}
+}
+
 $devLog["orderId"] = "LL OrderId: " . $postLimelight->orderId;
 
 $myDevLog.= "LL Results:<br>";
