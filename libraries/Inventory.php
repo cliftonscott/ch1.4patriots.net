@@ -1,23 +1,32 @@
 <?php
 /**
- * Utility classes used in php development for various tasks
+ * Plat4orm Class providing inventory utility classes
+ * see wiki documentation https://wiki4patriots.atlassian.net/wiki/display/DEV/Platform4Patriots
  * 
  * 
  * @author Brian Gibbins
- * @copyright 2014
- * @see http://en.wikipedia.org/wiki/PHPDoc
+ * @copyright 2014 4Patriots, LLC
  */
  
 class Inventory {
 	
-	static $applicationMessages = array();
-	static $applicationErrors = array();
+	static $appMessagesAry = array();
+	static $appErrorsAry = array();
 
 	const THRESHHOLD = 5; //how many items must be instock for positive result
 	
-	const DB_TABLE = "ppg";
+	static $databaseName;
+
+	public function __construct() {
+
+	}
 	 
-	function hasInventory($productId) {
+	public function hasInventory($productId) {
+
+		include_once("Db.php");
+		$dbObj = new Db();
+		$db = $dbObj->connect();
+		//todo error from this connection if it fails
 
 		if(!is_int($productId)) {
 			//TODO return more info here
@@ -25,32 +34,23 @@ class Inventory {
 		}
 
 		$hasInventory = new stdClass();
-	 	
-	 	try {
-			$db = new PDO('mysql:host=10.178.197.38;dbname=inventories', 'janus', '2RNJun5NhSpfr3ED');
-			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		} catch (PDOException $e) {
-			echo "Error: " . $e->getMessage();
-		    $hasInventory->success = false;
-			self::setError("Unable to connect to db server via PDO.");
-			return $hasInventory;
-		}
-	 	
-		$sql = "SELECT instock FROM `" . self::DB_TABLE . "` WHERE pid=" . $productId;
+
+		$sql = "SELECT instock FROM `inventory` WHERE pid=" . $productId;
 
 		$result = $db->query($sql);
 		
 		if($data = $result->fetchAll()) {
-			self::setMsg("Fetched results.");
+			self::setMessage("Fetched results.");
 
 			if(count($data) > 1) {
 				self::setError("More than one row was found with pId " . $productId);
 				$hasInventory->success = false;
-				$hasInventory->messages = self::getMsg();
-				$hasInventory->errors = self::getError();
+				$hasInventory->messages = self::getMessages();
+				$hasInventory->errors = self::getErrors();
 				return $hasInventory;
 			}
 			$inventory = $data[0];
+
 			$instock = intval($inventory["instock"]);
 
 			if($instock > self::THRESHHOLD) {
@@ -65,13 +65,20 @@ class Inventory {
 			$hasInventory->success = false;
 		}
 
-		$hasInventory->messages = self::getMsg();
-		$hasInventory->errors = self::getError();
-	
+		$hasInventory->messages = self::getMessages();
+		$hasInventory->errors = self::getErrors();
+
+
 	 	return $hasInventory;
 	 }
 
 	function subtractInventory($productId, $quantity=1) {
+
+		include_once("Db.php");
+		$dbObj = new Db();
+		$db = $dbObj->connect();
+		//todo error from this connection if it fails
+
 		if(!is_int($productId)) {
 			//TODO return more info here
 			return false;
@@ -79,64 +86,34 @@ class Inventory {
 
 		$subtractInventory = new stdClass();
 
-		try {
-			$db = new PDO('mysql:host=10.178.197.38;dbname=inventories', 'janus', '2RNJun5NhSpfr3ED');
-			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		} catch (PDOException $e) {
-			echo "Error: " . $e->getMessage();
-			$subtractInventory->success = false;
-			self::setError("Unable to connect to db server via PDO.");
-			return $subtractInventory;
-		}
-
-		$sql = "UPDATE " . self::DB_TABLE . " SET instock=(instock -" . $quantity . ") WHERE pid=" . $productId;
+		$sql = "UPDATE inventory SET instock=(instock -" . $quantity . ") WHERE pid=" . $productId;
 		$result = $db->exec($sql);
 		if($result === 1) {
 			$subtractInventory->success = true;
 		} else {
 			$subtractInventory->success = false;
 		}
-		$subtractInventory->messages = self::getMsg();
-		$subtractInventory->errors = self::getError();
+		$subtractInventory->messages = self::getMessages();
+		$subtractInventory->errors = self::getErrors();
 
 		return $subtractInventory;
 	}
 
-	 function getError() {
-	 	return self::$applicationErrors;
-	 }
-	 
-	 function setError($errorString) {
-	 	
-	 	$eol = "<br />=====<br />";
-		$bol = date("Y-m-d h:i:s") . $eol;
-		
-		if(self::$applicationErrors = $bol . $errorString . $eol) {
-			return true;
-		} else {
-			return false;
-		}
 
-	 }
-
-	 function getMsg() {
-	 	return self::$applicationMessages;
-	 }
-	 
-	 function setMsg($msgString) {
-	 	
-	 	$eol = "<br />=====<br />";
-		$bol = date("Y-m-d h:i:s") . $eol;
-		
-		if(self::$applicationMessages = $bol . $msgString . $eol) {
-			return true;
-		} else {
-			return false;
-		}
-
-	 }
-
-
-
+//ERROR AND MESSAGE HANDLING
+	function setMessage($msg) {
+		$message = array("timestamp" => microtime(), "message" => $msg);
+		self::$appMessagesAry[] = $message;
+	}
+	function getMessages() {
+		return self::$appMessagesAry;
+	}
+	function setError($err) {
+		$error = array("timestamp" => microtime(), "error" => $err);
+		self::$appErrorsAry[] = $error;
+	}
+	function getErrors() {
+		return self::$appErrorsAry;
+	}
 
 }//end of class
