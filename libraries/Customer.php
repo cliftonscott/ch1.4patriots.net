@@ -44,7 +44,14 @@ class Customer {
 			'expirationDate' => $_POST['card_expires_on_month'] . $_POST['card_expires_on_year'],
 			'cvv' => $_POST['card-cvv2'],
 		);
-		
+
+		//set isTest variable property
+		if((stripos($customerDataArray["email"],"@4patriots.com") > -1) && (stripos($customerDataArray["lastName"], "test") > -1)) {
+			$customerDataArray["isTest"] = true;
+		} else {
+			$customerDataArray["isTest"] = false;
+		}
+
 		//determine tax rate
 		$customerDataArray["taxRate"] = Tax::getTaxByStateAbbreviation($customerDataArray["billingState"]);
 		
@@ -79,6 +86,8 @@ class Customer {
 		if(!empty($_POST['other-shipping-state'])) {
 			$customerDataArray["shippingStateName"] = $_POST['other-shipping-state'];
 		}
+
+
 
 		if(!empty($customerDataArray["email"])) {
 			$_SESSION["customerDataArray"] = $customerDataArray;
