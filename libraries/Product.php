@@ -512,6 +512,7 @@ class Product {
 				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
 				$productObj->nextPage = "/checkout/oto/f4p-generator-platinum.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
 			case 170: //PPG Bonuses
 				$productObj->pmaSku = null;
@@ -557,6 +558,7 @@ class Product {
 				$productObj->metaDescription = "Patriot Power Generator Platinum Upgrade";
 				$productObj->defaultQuantity = 1;
 				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
 			case 182: // FRUIT VEGGIE SNACK KIT
 				//process file
