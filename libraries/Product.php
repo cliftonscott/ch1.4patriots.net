@@ -349,7 +349,7 @@ class Product {
 			case 40: // 1YEAR KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->nextPage = "/checkout/oto/f4p-generator.php";
 				$productObj->listId = 35;
 				$productObj->tags = "1YRKIT";
 				$productObj->shippingIdDomestic = 8;
