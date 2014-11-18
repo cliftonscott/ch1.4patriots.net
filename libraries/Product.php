@@ -376,6 +376,31 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+			case 92: //main product - 1 Week Kit
+				$productObj->pmaSku = null;
+				$productObj->price = 67;
+				$productObj->originalPrice = 67;
+				$productObj->shippingIdDomestic = 14;
+				$productObj->shippingIdInternational = 19;
+				$productObj->shippingCostDomestic = 5.95;
+				$productObj->shippingCostInternational = 5.95;
+				$productObj->mpsId = 92;
+				$productObj->campaignId = 9;
+				$productObj->netRevenueEach = 57;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 35;
+				$productObj->tags = "1WKKIT";
+				$productObj->googleProductName = "F4P-72HRK";
+				$productObj->googleProductSKU = "PID92";
+				$productObj->googleProductCategory = "1-PAY-67";
+				$productObj->metaTitle = "Food4Patriots 1 Week Food Supply";
+				$productObj->metaDescription = "Food4Patriots 1 Week Food Supply";
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-c.php";
+				break;
 			case 120: // 1YEAR KIT 3 PAYMENTS $597
 				//process file
 				$productObj->campaignId = 9;
