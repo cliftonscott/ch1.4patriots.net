@@ -71,7 +71,7 @@ include_once ('template-top.php');
 				<div id="chooseProductOne" class="panel-collapse collapse">
 				  <div class="panel-body">
 
-					<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-72-hour-kit-01.jpg" class="img-responsive center-block"></a>
+					<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-01.jpg" class="img-responsive center-block"></a>
 					<div class="productList">
 						<p class="text-center red17"><strong>1 Week Food Supply Includes:</strong></p>
 						<ul>
@@ -292,7 +292,7 @@ $(document).ready(function () {
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-			<img class="img-responsive center-block" src="/media/images/f4p/f4p-72-hour-kit-02.jpg">
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-02.jpg">
 		</div>
 	</div>
 </div>

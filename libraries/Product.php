@@ -399,7 +399,7 @@ class Product {
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-c.php";
+				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-a.php";
 				break;
 			case 120: // 1YEAR KIT 3 PAYMENTS $597
 				//process file
