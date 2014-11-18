@@ -232,7 +232,7 @@ class Product {
 			case 23: // 3MONTH DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
 				$productObj->listId = 35;
 				$productObj->tags = "3MKITUP";
 				$productObj->shippingIdDomestic = 8;
@@ -349,7 +349,7 @@ class Product {
 			case 40: // 1YEAR KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->nextPage = "/checkout/oto/f4p-generator.php";
 				$productObj->listId = 35;
 				$productObj->tags = "1YRKIT";
 				$productObj->shippingIdDomestic = 8;
@@ -375,6 +375,31 @@ class Product {
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 92: //main product - 1 Week Kit
+				$productObj->pmaSku = null;
+				$productObj->price = 67;
+				$productObj->originalPrice = 67;
+				$productObj->shippingIdDomestic = 14;
+				$productObj->shippingIdInternational = 19;
+				$productObj->shippingCostDomestic = 5.95;
+				$productObj->shippingCostInternational = 5.95;
+				$productObj->mpsId = 92;
+				$productObj->campaignId = 9;
+				$productObj->netRevenueEach = 42;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 35;
+				$productObj->tags = "1WKKIT";
+				$productObj->googleProductName = "F4P-72HRK";
+				$productObj->googleProductSKU = "PID92";
+				$productObj->googleProductCategory = "1-PAY-67";
+				$productObj->metaTitle = "Food4Patriots 1 Week Food Supply";
+				$productObj->metaDescription = "Food4Patriots 1 Week Food Supply";
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-c.php";
 				break;
 			case 120: // 1YEAR KIT 3 PAYMENTS $597
 				//process file
@@ -486,7 +511,8 @@ class Product {
 				$productObj->defaultQuantity = 1;
 				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/ppg-platinum.php";
+				$productObj->nextPage = "/checkout/oto/f4p-generator-platinum.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
 			case 174: //Patriot Power Generator 2 Pay
 				$productObj->pmaSku = null;
@@ -510,7 +536,8 @@ class Product {
 				$productObj->defaultQuantity = 1;
 				$productObj->hasBonuses = TRUE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (170); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/ppg-platinum.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
 			case 170: //PPG Bonuses
 				$productObj->pmaSku = null;
@@ -555,7 +582,8 @@ class Product {
 				$productObj->metaTitle = "PPG Platinum Upgrade";
 				$productObj->metaDescription = "Patriot Power Generator Platinum Upgrade";
 				$productObj->defaultQuantity = 1;
-				$productObj->nextPage = "/checkout/oto/ppg-1year.php";
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
 			case 182: // FRUIT VEGGIE SNACK KIT
 				//process file

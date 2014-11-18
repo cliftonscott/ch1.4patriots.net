@@ -25,6 +25,7 @@ class Sale {
 	static $yellowHammer = FALSE;
 	static $autoResponder = FALSE;
 	static $patriots = FALSE;
+	static $vwo = FALSE;
 	
 	public function __construct() {
 		
@@ -66,6 +67,9 @@ class Sale {
 	function setPatriots($patriots) {
 		self::$patriots = $patriots;
 	}
+	function setVwo($vwo) {
+		self::$vwo = $vwo;
+	}
 
 	
 	function getSale() {
@@ -85,6 +89,7 @@ class Sale {
 		$saleData->hasOffers = self::$hasOffers;
 		$saleData->autoResponder = self::$autoResponder;
 		$saleData->patriots = self::$patriots;
+		$saleData->vwo = self::$vwo;
 		
 		return $saleData;
 	}

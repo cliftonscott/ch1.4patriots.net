@@ -23,7 +23,14 @@ class Cpv {
 	function postSale($subId, $revenue) {
 
 		$postSale = new stdClass();
-		
+
+		if($revenue == 0) {
+			self::setError("Revenue of $0 received. Did not post.");
+			$postSale->success = false;
+			$postSale->errors = self::getErrors();
+			return $postSale;
+		}
+
 		$revenue = $revenue + $_SESSION["cpvRevenue"];
 		$_SESSION["cpvRevenue"] = $revenue;
 		
