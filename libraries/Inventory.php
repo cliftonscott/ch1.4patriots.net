@@ -13,7 +13,7 @@ class Inventory {
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
 
-	const THRESHHOLD = 5; //how many items must be instock for positive result
+	const THRESHHOLD = 1000; //how many items must be instock for positive result
 	
 	static $databaseName;
 
