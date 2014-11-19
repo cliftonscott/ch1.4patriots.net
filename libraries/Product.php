@@ -380,7 +380,7 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 67;
 				$productObj->originalPrice = 67;
-				$productObj->shippingIdDomestic = 14;
+				$productObj->shippingIdDomestic = 24;
 				$productObj->shippingIdInternational = 19;
 				$productObj->shippingCostDomestic = 5.95;
 				$productObj->shippingCostInternational = 5.95;
