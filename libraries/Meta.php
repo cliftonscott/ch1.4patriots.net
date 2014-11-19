@@ -40,46 +40,46 @@ class Meta {
 	function getTitle($url) {
 		
 		switch ($url) {
-            case "/index.php":
-                $title = self::PAGE_TITLE . " – 25-Year Storage Survival Food Kits";
-                break;
-            case "/returns.php":
-                $title = self::PAGE_TITLE . " Returns – How to Return Your Order";
-                break;
+			case "/index.php":
+				$title = self::PAGE_TITLE . " – 25-Year Storage Survival Food Kits";
+				break;
+			case "/returns.php":
+				$title = self::PAGE_TITLE . " Returns – How to Return Your Order";
+				break;
 			case "/checkout/index.php":
-            case "/checkout/index-a.php":
-            case "/checkout/order.php":
-            case "/checkout/oto/f4p-1year-kit.php":
-            case "/checkout/oto/f4p-1year-kit-a.php":
-            case "/checkout/oto/f4p-1year-kit-payments.php":
-            case "/checkout/oto/f4p-3month-kit-discount.php":
-            case "/checkout/oto/f4p-4week-kit-discount-a.php":
-            case "/checkout/oto/f4p-4week-kit-discount-b.php":
-            case "/checkout/oto/f4p-choose-3m-4w-kit.php":
-            case "/checkout/oto/f4p-choose-3m-4w-kit-discount.php":
+			case "/checkout/index-a.php":
+			case "/checkout/order.php":
+			case "/checkout/oto/f4p-1year-kit.php":
+			case "/checkout/oto/f4p-1year-kit-a.php":
+			case "/checkout/oto/f4p-1year-kit-payments.php":
+			case "/checkout/oto/f4p-3month-kit-discount.php":
+			case "/checkout/oto/f4p-4week-kit-discount-a.php":
+			case "/checkout/oto/f4p-4week-kit-discount-b.php":
+			case "/checkout/oto/f4p-choose-3m-4w-kit.php":
+			case "/checkout/oto/f4p-choose-3m-4w-kit-discount.php":
 				$title = self::PAGE_TITLE . " Purchase – Buy High Quality Survival Food";
 				break;
-            case "/contact.php":
-                $title = self::PAGE_TITLE . " Contact – Orders and Customer Service";
-                break;
-            case "/faq.php":
-                $title = self::PAGE_TITLE . " FAQs – Answers to most asked questions";
-                break;
-            case "/testimonials.php":
-                $title = self::PAGE_TITLE . " Testimonials – Hear From Happy Customers";
-                break;
-            case "/newsroom.php":
-                $title = self::PAGE_TITLE . " Newsroom – Latest Survival Food News ";
-                break;
-            case "/privacy.php":
-                $title = self::PAGE_TITLE . " Privacy Policy ";
-                break;
-            case "/terms.php":
-                $title = self::PAGE_TITLE . " Terms & Conditions";
-                break;
-            case "/disclaimer.php":
-                $title = self::PAGE_TITLE . " Disclaimer – Legal Information";
-                break;
+			case "/contact.php":
+				$title = self::PAGE_TITLE . " Contact – Orders and Customer Service";
+				break;
+			case "/faq.php":
+				$title = self::PAGE_TITLE . " FAQs – Answers to most asked questions";
+				break;
+			case "/testimonials.php":
+				$title = self::PAGE_TITLE . " Testimonials – Hear From Happy Customers";
+				break;
+			case "/newsroom.php":
+				$title = self::PAGE_TITLE . " Newsroom – Latest Survival Food News ";
+				break;
+			case "/privacy.php":
+				$title = self::PAGE_TITLE . " Privacy Policy ";
+				break;
+			case "/terms.php":
+				$title = self::PAGE_TITLE . " Terms & Conditions";
+				break;
+			case "/disclaimer.php":
+				$title = self::PAGE_TITLE . " Disclaimer – Legal Information";
+				break;
 			case "/checkout/thankyou.php":
 				$title = self::PAGE_TITLE . " Thank You";
 				break;
@@ -98,43 +98,43 @@ class Meta {
 	function getDescription($url) {
 		
 		switch ($url) {
-            case "/returns.php":
-                $description = "Enjoy hassle-free returns with Food4Patriots. Your purchase is fully protected by a 100% money-back return policy.";
-                break;
-            case "/checkout/index.php":
-            case "/checkout/index-a.php":
-            case "/checkout/order.php":
-            case "/checkout/oto/f4p-1year-kit.php":
-            case "/checkout/oto/f4p-1year-kit-a.php":
-            case "/checkout/oto/f4p-1year-kit-payments.php":
-            case "/checkout/oto/f4p-3month-kit-discount.php":
-            case "/checkout/oto/f4p-4week-kit-discount-a.php":
-            case "/checkout/oto/f4p-4week-kit-discount-b.php":
-            case "/checkout/oto/f4p-choose-3m-4w-kit.php":
-            case "/checkout/oto/f4p-choose-3m-4w-kit-discount.php":
-                $description = "Get your pre-packaged survival food kits now before they’re gone. Secure your own emergency food stockpile today!";
-                break;
-            case "/contact.php":
-                $description = "Have a question for us? Contact Food4Patriots now for friendly, prompt service regarding our tasty survival food.";
-                break;
-            case "/faq.php":
-                $description = "See answers to the questions we regularly get from loyal Food4Patriots customers about our survival food kits.";
-                break;
-            case "/testimonials.php":
-                $description = "Listen to real, unedited reviews of satisfied people who have purchased survival food from Food4Patriots.";
-                break;
-            case "/newsroom.php":
-                $description = "Get the latest news about Food4Patriots high-quality survival food and information about emergency preparedness.";
-                break;
-            case "/privacy.php":
-                $description = "Learn how we collect and use your information on this website. By using this site, you agree to its terms of use.";
-                break;
-            case "/terms.php":
-                $description = "Intellectual property rights, disclaimers, and other legal policies of Food4Patriots, its brand, and website.";
-                break;
-            case "/disclaimer.php":
-                $description = "Understand the full disclaimers you agree to herein by using the Food4Patriots website.";
-                break;
+			case "/returns.php":
+				$description = "Enjoy hassle-free returns with Food4Patriots. Your purchase is fully protected by a 100% money-back return policy.";
+				break;
+			case "/checkout/index.php":
+			case "/checkout/index-a.php":
+			case "/checkout/order.php":
+			case "/checkout/oto/f4p-1year-kit.php":
+			case "/checkout/oto/f4p-1year-kit-a.php":
+			case "/checkout/oto/f4p-1year-kit-payments.php":
+			case "/checkout/oto/f4p-3month-kit-discount.php":
+			case "/checkout/oto/f4p-4week-kit-discount-a.php":
+			case "/checkout/oto/f4p-4week-kit-discount-b.php":
+			case "/checkout/oto/f4p-choose-3m-4w-kit.php":
+			case "/checkout/oto/f4p-choose-3m-4w-kit-discount.php":
+				$description = "Get your pre-packaged survival food kits now before they’re gone. Secure your own emergency food stockpile today!";
+				break;
+			case "/contact.php":
+				$description = "Have a question for us? Contact Food4Patriots now for friendly, prompt service regarding our tasty survival food.";
+				break;
+			case "/faq.php":
+				$description = "See answers to the questions we regularly get from loyal Food4Patriots customers about our survival food kits.";
+				break;
+			case "/testimonials.php":
+				$description = "Listen to real, unedited reviews of satisfied people who have purchased survival food from Food4Patriots.";
+				break;
+			case "/newsroom.php":
+				$description = "Get the latest news about Food4Patriots high-quality survival food and information about emergency preparedness.";
+				break;
+			case "/privacy.php":
+				$description = "Learn how we collect and use your information on this website. By using this site, you agree to its terms of use.";
+				break;
+			case "/terms.php":
+				$description = "Intellectual property rights, disclaimers, and other legal policies of Food4Patriots, its brand, and website.";
+				break;
+			case "/disclaimer.php":
+				$description = "Understand the full disclaimers you agree to herein by using the Food4Patriots website.";
+				break;
 
 			default:
 				$description = self::PAGE_DESCRIPTION;
