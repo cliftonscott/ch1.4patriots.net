@@ -390,7 +390,7 @@ class Product {
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "1WKKIT";
-				$productObj->googleProductName = "F4P-72HRK";
+				$productObj->googleProductName = "F4P-1WK";
 				$productObj->googleProductSKU = "PID92";
 				$productObj->googleProductCategory = "1-PAY-67";
 				$productObj->metaTitle = "Food4Patriots 1 Week Food Supply";
