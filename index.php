@@ -117,6 +117,11 @@
     <p class="lead">Check out the latest articles and videos on off-grid living and self-reliance from our partners at Patriot Headquarters.</p>
     <p style="padding-bottom:20px;"><a class="btn btn-large btn-success pull-right" href="http://www.patriotheadquarters.com" target="ext">Visit Blog</a></p>
   </div>
+	<div class="jumbotron text-left">
+		<h2 class="darkRed"><i class="fa fa-thumbs-up"></i> Reviews</h2>
+		<p class="lead">Read the honest reviews left by other customers and why they bought and love their Food4Patriots kits.</p>
+		<p style="padding-bottom:20px;"><a class="btn btn-large btn-success pull-right" href="http://www.food4patriotsreview.com" target="ext">Visit Site</a></p>
+	</div>
   
 </div> 
 <script>
