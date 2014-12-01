@@ -585,7 +585,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
-			case 182: // FRUIT VEGGIE SNACK KIT
+			case 182: // Coffee Offer
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
@@ -614,8 +614,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
-			
-			
+			case 194: // Free Coffee Offer
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = 65;
+				$productObj->tags = "FREECOFFEE";
+				$productObj->shippingIdDomestic = 20;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 1.95;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 194;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 0;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = "F4P-30COF";
+				$productObj->googleProductSKU = "PID194";
+				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
+				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee Offer";
+				$productObj->metaDescription = "Food4Patriots FREE Survival Coffee Offer";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 
 		}
 		return $productObj;	
