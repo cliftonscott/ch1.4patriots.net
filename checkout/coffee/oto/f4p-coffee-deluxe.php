@@ -10,7 +10,7 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 }
 
 // SET PRODUCT ID
-$_SESSION['productId'] = 40; //please keep as an integer
+$_SESSION['productId'] = 182; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 5;
 
