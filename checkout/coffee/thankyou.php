@@ -35,28 +35,15 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         
 		<div class="margin-tb-20">
 			<?php
-			$testimonials = array("rolf", "wanda", "anon04");
+			$testimonials = array("test",);
 			foreach ($testimonials as $count => $testimonial) {
-				echo "<div class='testimonial'>";
-				if($count % 2 == 0) {
-					echo "<i class='fa fa-quote-left fa-3x pull-left'></i>";
-				} else {
-					echo "<i class='fa fa-quote-left fa-3x pull-right'></i>";
-				}
 				include("testimonials/" . $testimonial . ".html");
-				echo "</div>";
 			}
 			?>
 		</div>
 
 		<div class="margin-tb-20">
 		<?php include_once("products/F4P-fruitveggiesnack-pid128.php");?>
-		</div>
-		<div class="margin-tb-20">
-		<?php include_once("products/F4P-bonus-manuals.php");?>
-		</div>
-		<div class="margin-tb-20">
-		<?php include_once("snippets/get-adobe-reader.html");?>
 		</div>
 
         <div class="margin-tb-20 text-center">
