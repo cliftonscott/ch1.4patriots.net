@@ -30,14 +30,21 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				from Food4Patriots.com and your bonuses are below</p>
         </div>
         <div class="margin-tb-20">
-			<?php include("snippets/frank-thankyou-msg.html");?>
+			<?php include("snippets/frank-thankyou-msg-coffee.html");?>
         </div>
         
 		<div class="margin-tb-20">
 			<?php
-			$testimonials = array("test",);
+			$testimonials = array("thomas", "todd", "rich",);
 			foreach ($testimonials as $count => $testimonial) {
+				echo "<div class='testimonial'>";
+				if($count % 2 == 0) {
+					echo "<i class='fa fa-quote-left fa-3x pull-left'></i>";
+				} else {
+					echo "<i class='fa fa-quote-right fa-3x pull-right'></i>";
+				}
 				include("testimonials/" . $testimonial . ".html");
+				echo "</div>";
 			}
 			?>
 		</div>
