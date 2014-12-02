@@ -101,7 +101,7 @@
 			<p>If there’s an extended crisis lasting weeks or God-forbid, even longer…what will you do then?</p>
 			<p>Can you just imagine having to face a new horrible reality…without any of your daily, routine comforts?</p>
 			<p>You’d be a ball of stress… and that wouldn’t help you one bit.</p>
-			<img src="/media/images/misc/img-angry-man.jpg" class="img-responsive pull-right img-padding-left media">
+			<img src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
 			<p>Wouldn’t it be great to have total peace of mind, knowing you won’t run out of your amazing survival coffee?</p>
 			<p>Because the truth is, your 30-serving packet will only last you a week or so, especially if you’ve got more than one person drinking at least 2 cups or more a day.</p>
 			<p>And let’s face it. There’s a reason 150 million Americans drink their java every day, and spend billions feeding their caffeine habit.</p>
@@ -144,35 +144,27 @@
 			</ul>
 			<p>Just to get an idea of what others are saying, here are some happy customers that are singing the praises of this revolutionary coffee:</p>
 			<p><strong>Paul from LA says:</strong></p>
-			<div class="testimonial"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
-				<div class="testimonial-text">
-					<div class="testimonial-header" style="text-align:center;">
+			<div class="testimonial" style="max-width:425px;"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
+				<div class="testimonial-text" style="text-align:center;">
 						<em>Best instant coffee that I have ever had.</em>
-					</div>
 				</div>
 			</div>
 			<p><strong>Robert from FL raves:</strong></p>
-			<div class="testimonial"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
-				<div class="testimonial-text">
-					<div class="testimonial-header" style="text-align:center;">
+			<div class="testimonial" style="max-width:425px;"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
+				<div class="testimonial-text" style="text-align:center;">
 						<em>It's better then my drip coffee I usually fix myself every day.</em>
-					</div>
 				</div>
 			</div>
 			<p><strong>Thomas from OR couldn’t be happier:</strong></p>
-			<div class="testimonial"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
-				<div class="testimonial-text">
-					<div class="testimonial-header" style="text-align:center;">
+			<div class="testimonial" style="max-width:425px;"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
+				<div class="testimonial-text" style="text-align:center;">
 						<em>This is the best coffee ever. It far exceeded my expectations.</em>
-					</div>
 				</div>
 			</div>
 			<p><strong>And Kelly from MO loves the peace of mind this coffee gives her:</strong></p>
-			<div class="testimonial"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
-				<div class="testimonial-text">
-					<div class="testimonial-header" style="text-align:center;">
+			<div class="testimonial" style="max-width:425px;"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i><i class="fa fa-quote-right fa-2x pull-right red-quote"></i>
+				<div class="testimonial-text" style="text-align:center;">
 						<em>It will be a great source of comfort in bad times and <strong>a valuable barter item if economy collapses.</strong> Highly recommend!</em>
-					</div>
 				</div>
 			</div>
 			<p>Look… just like Kelly said, there’s nothing quite like the comfort a steaming hot cup of coffee brings you. Or the fact you can use it to barter or trade for items you may need when the *bleep* hits the fan.</p>
@@ -250,7 +242,7 @@
 							<input type="checkbox" id="check1" name="check1">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
-						<div id="terms">***TERMS AND CONDITIONS CTA NEEDED***
+						<div id="terms">Yes, I want to add the Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $97. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!
 						</div>
 					</div>
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
@@ -259,7 +251,20 @@
 			}
 			?>
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a> ***NO THANKS LINE NEEDED***
+				<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a>, I'd rather pay $5 for a burnt Starbucks latte than $0.16 for a cup of coffee that has a guaranteed shelf-life of 25 years
+			</div>
+			<div class="outLineBoxDarkBlue">
+				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+					<strong>Guarantee #1</strong> is a 100% money back guarantee. No questions asked. If for any reason, you’re not satisfied with your Food4Patriots Coffee Kit,
+					just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide it’s not as fresh and delicious
+					as I promised, you can have your money back for any reason or no reason whatsoever. That way there’s absolutely no risk for you.</p>
+				<div class="clearfix"></div>
+			</div>
+			<div class="outLineBoxDarkBlue">
+				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20" style="padding-right:">
+					<strong>Guarantee #2</strong> is an unheard of 300% money back guarantee. If you open ANY of your coffee packs anytime in the next 25 years and find your coffee
+					has spoiled or gone bad, you can return your entire stockpile and I will triple your money back! Does that sound fair to you?</p>
+				<p>That’s how confident I am that this coffee will remain just as fresh and delicious for the next 25 years as it is on the day you buy it.</p>
 			</div>
 		</div>
 	</div>
