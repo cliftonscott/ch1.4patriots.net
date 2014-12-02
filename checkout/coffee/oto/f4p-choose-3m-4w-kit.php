@@ -16,6 +16,12 @@ $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
+$productObj = new Product();
+
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("oto2");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
 include_once("products/offers/f4p-choose-3m-4w-kit.php");

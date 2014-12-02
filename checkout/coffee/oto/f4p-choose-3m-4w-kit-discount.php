@@ -15,7 +15,12 @@ $_SESSION['quantity'] = '1';
 $_SESSION['pageReturn'] = '/checkout/order.php';
 $_SESSION['3mDiscountSkip'] = TRUE; // Redirects If Already Offered 3 Month Discount
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productObj = new Product();
+
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("oto2b");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
 include_once("products/offers/f4p-choose-3m-4w-kit-discount.php");

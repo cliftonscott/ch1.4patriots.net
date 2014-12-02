@@ -14,7 +14,12 @@ $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productObj = new Product();
+
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("oto5b");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once("Inventory.php");
 $inventory = Inventory::hasInventory(162);
 if($inventory->success !== true) {

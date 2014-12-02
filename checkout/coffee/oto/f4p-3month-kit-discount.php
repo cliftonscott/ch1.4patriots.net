@@ -20,7 +20,12 @@ if($_SESSION['3mDiscountSkip'] === TRUE) {
 	header("Location: /checkout/thankyou.php");
 }
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productObj = new Product();
+
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("oto4c");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
 include_once("products/offers/f4p-3month-kit-discount.php");
