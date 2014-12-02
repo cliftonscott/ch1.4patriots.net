@@ -524,7 +524,7 @@
 		}
 		?>
 		<div class="noThanks">
-			<a href="/checkout/oto/f4p-generator-payments.php">No Thanks</a> – I want to give up this opportunity.<br />I understand that I will not receive this special offer again.
+			<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity.<br />I understand that I will not receive this special offer again.
 		</div>
 	</div>
 

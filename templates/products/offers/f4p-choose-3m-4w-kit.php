@@ -426,7 +426,7 @@
 
 <div>
 	<div class="noThanks">
-		<a href="/checkout/oto/f4p-choose-3m-4w-kit-discount.php" onClick="">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+		<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 	</div>
 
 </div>

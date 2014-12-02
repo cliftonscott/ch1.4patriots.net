@@ -164,7 +164,7 @@
 			</div>
 		</div>
 		<!--END FORMS-->
-		<form action="/checkout/thankyou.php" method="post" accept-charset="utf-8" id="decline-form">
+		<form action="<?php echo $declineUrl;?>" method="post" accept-charset="utf-8" id="decline-form">
 			<div class="terms" style="position:relative;text-align: center; font-size: 15px; color: #555;max-width:400px;margin-bottom:20px;margin-top:20px;">
 				<input type="checkbox" id="check1" name="check1">  I acknowledge that I may never be offered Food4Patriots at a lower price than is available now.</div>
 			<p style="text-align: center;font-size:0.9em;"><a href="javascript:void(0);" onclick="$(this).closest('form').submit();">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</p>

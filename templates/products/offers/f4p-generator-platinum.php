@@ -182,7 +182,7 @@
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
 				<div class="noThanks">
-					<a href="/checkout/thankyou.php" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
+					<a href="<?php echo $declineUrl;?>" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
 					I understand that I will not receive this special offer again.
 				</div>
 

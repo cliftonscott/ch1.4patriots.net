@@ -251,7 +251,7 @@
 			}
 			?>
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a>, I'd rather pay $5 for a burnt Starbucks latte than $0.16 for a cup of coffee that has a guaranteed shelf-life of 25 years
+				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5 for a burnt Starbucks latte than $0.16 for a cup of coffee that has a guaranteed shelf-life of 25 years
 			</div>
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
