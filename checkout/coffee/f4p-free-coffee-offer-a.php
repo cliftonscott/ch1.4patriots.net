@@ -31,7 +31,7 @@ include_once ('template-top.php');
                 	<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;">
                     	<iframe src="//fast.wistia.net/embed/iframe/looj1an302?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
                     </div>
-                    <div class="col-lg-12 margin-b-10">
+                    <div class="col-lg-12 margin-b-10 coffee-checkout">
 						<p>This is no ordinary coffee - this is 100% pure, 100% GMO Free, 100% Colombian and 100% Arabica coffee harvested at the very peak of freshness!</p>
 						<p>  Get your 30 pouches (30 FULL Servings) <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
 						<ul>
@@ -52,18 +52,24 @@ include_once ('template-top.php');
             <?php include_once ('customer-form.php'); ?>
         </div>
 	</div>
+	<div class="row">
+		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-18.jpg" /></div>
+		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-19.jpg" /></div>
+	</div>
+
 	<div class="center">
 		<div>
-			<div style="color: #767676; font-style: normal; padding-left:50px;padding-right:50px;text-align:left;max-width:600px;margin-right:auto;margin-left:auto;margin-top:20px;">
+			<div class="references">
 				<p>Research References</p>
-				<p style="font-size: 12px;">1. <em>Rutgers University.</em> “Reviving the Jersey Tomato.” 2014.<br>
-					2. <em>Moskin, The New York Times</em>. “The Return of a Lost Jersey Tomato.” 2008.<br>
-					3.<em> Dazio, North Jersey.</em> “Rutgers Team Works to Revive History's Sweet Jersey Tomato.” 2013.<br>
-					4. <em>New Jersey Agricultural Experiment Station.</em> “What About the ‘Rutgers’ Tomato?” 2013.<br>
-					5.<em> Daily Kos.</em> “Will The Real Rutgers Tomato Please Stand Up?” 2012.<br>
-					6. <em>Urban Farmer.</em> “Rutger Tomato Seeds.” 2014.<br>
-					7. <em>Span, New Jersey Monthly.</em> “Born Again: Rebirth of the Jersey Tomato.” 2014. <br>
-				</p>
+				<p style="font-size: 12px; line-height:1.25;">
+					1. <em>Harvard School of Public Health.</em> “Coffee By the Numbers.” 2010<br>
+					2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013. 3.  National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>
+					4. Nagourney, <em>The New York Times.</em> “Vital Signs: Aging; A Pick-Me-Up for Sagging Mental Acuity.” 2002.<br>
+					5. Ferdman, <em>The Washington Post.</em> “Almost Half of the World Actually Prefers Instant Coffee.” 2014.<br>
+					6. Baldwin, <em>The Atlantic.</em> “Arabica vs. Robusta: No Contest.” 2009.<br>
+					7. Grush, <em>Fox News.</em> “Increasing Daily Coffee Consumption May Protect Against Type 2 Diabetes.” 2014.<br>
+					8. Arnette, <em>The National Institutes of Health (NIH).</em> “Coffee May Boost Learning Potential.” 2012.<br>
+					9. Kilmas, <em>The Blaze.</em> “Is Coffee Good or Bad for You?” 2014.
 			</div>
 		</div>
 

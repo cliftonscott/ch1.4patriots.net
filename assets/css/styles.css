@@ -30,6 +30,20 @@ p {
 	margin:-8px auto 0 auto;
 	padding-bottom:23px;
 }
+.coffee-checkout{
+    font-size:14px;
+}
+.references {
+    color: #767676;
+    font-style: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    max-width: 660px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
 /* CUSTOMIZE MOBILE IMAGES
 -------------------------------------------------- */
 .media.pull-left,.media.pull-right {
