@@ -242,7 +242,7 @@
 							<input type="checkbox" id="check1" name="check1">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
-						<div id="terms">Yes, I want to add the Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $97. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!
+						<div id="terms">Yes, I want to add the Food4Patriots Coffee Kit to my order at the 1-<span  style="letter-spacing:-.5px;">time discount sale price of $97. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!</span>
 						</div>
 					</div>
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
@@ -251,7 +251,7 @@
 			}
 			?>
 			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5 for a burnt Starbucks latte than $0.16 for a cup of coffee that has a guaranteed shelf-life of 25 years
+				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5 for a burnt Starbucks latte than <span  style="letter-spacing:-.5px;">$0.16 for a cup of coffee that has a guaranteed shelf-life of 25 years</span>
 			</div>
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
