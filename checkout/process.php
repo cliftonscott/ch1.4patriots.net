@@ -79,6 +79,24 @@ $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Process form data & get customerObj";
 //==============================================================================================================//
 //==============================================================================================================//
+//check for inventory supply for Lion Energy Products
+include_once("Inventory.php");
+$inventoryObj = new Inventory();
+$isLion = $inventoryObj->isLion($productId);
+if($isLion) {
+	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
+	if($hasAllInventory === false) {
+		$nextPage = $_SESSION["formReturn"];
+		unset($_SESSION["formReturn"]);
+		$nextPage = "/checkout/outofstock.php";
+		header("Location: " . $nextPage);
+	}
+}
+$stepTimerStop = microtime(true);
+$stepTime = round($stepTimerStop - $stepTimerStart, 4);
+$stepTimeLog[] = $stepTime . " :: Check inventory";
+//==============================================================================================================//
+//==============================================================================================================//
 //post purchase to LL
 $stepTimerStart = microtime(true);
 //set return values
@@ -114,15 +132,6 @@ $saleDataObj->setOrderId($postLimelight->orderId);
 $saleDataObj->setCustomerId($postLimelight->customerId);
 $saleDataObj->setLimelight($postLimelight->success);
 
-//reduces inventory for pid if pid=162 (or related)
-if($customerDataObj->isTest === false) {
-	$ppgInventoryArray = array (162,174,166,164);
-	if(in_array($productDataObj->productId,$ppgInventoryArray)) {
-		include_once("Inventory.php");
-		$subtractInventory = Inventory::subtractInventory(162);
-	}
-}
-
 $devLog["orderId"] = "LL OrderId: " . $postLimelight->orderId;
 
 $myDevLog.= "LL Results:<br>";
@@ -140,6 +149,23 @@ $myDevLog.= "LL OrderId:" . $postLimelight->orderId . "<br>";
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Post to Limelight :: " . $postLimelight->success;
+
+//==============================================================================================================//
+//==============================================================================================================//
+//reduce inventory for Lion Products
+$stepTimerStart = microtime(true);
+$isLion = $inventoryObj->isLion($productId);
+if($isLion) {
+	$subtractInventory = $inventoryObj->subtractAllInventoryByPid($productId, $quantity);
+	if($subtractInventory->success === false) {
+		//do something because one of the subtractions failed
+		//todo send an email if the subtraction fails
+	}
+}
+$stepTimerStop = microtime(true);
+$stepTime = round($stepTimerStop - $stepTimerStart, 4);
+$stepTimeLog[] = $stepTime . " :: Subtract from Inventory :: " . $subtractInventory->success;
+
 //==============================================================================================================//
 //==============================================================================================================//
 //handle bonus productIds by looking for attributes in the productObject
