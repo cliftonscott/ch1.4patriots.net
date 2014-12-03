@@ -19,7 +19,8 @@ $funnelData = $productObj->initFunnel("checkout");
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?> 
+<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
+
 
 <div class="container-main">
 
@@ -32,7 +33,8 @@ include_once ('template-top.php');
                 	<div class="col-lg-12">
                     	<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Coffee<br>Is Almost Gone...</strong></h2>
                 	</div>
-                	<div class="col-lg-12 text-center center-block hidden-xs" style="text-align:center;max-width:80%;">
+
+	<div class="col-lg-12 text-center center-block hidden-xs" style="text-align:center;max-width:80%;float:none !important;">
 		                <script type="text/javascript" src="http://reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?responsive=1&autoResponsive=1&container=evp-J9E01DERU8"></script><div id="evp-J9E01DERU8" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA=="></div>
                     </div>
                     <div class="col-lg-12 margin-b-10 coffee-checkout">
@@ -56,12 +58,12 @@ include_once ('template-top.php');
             <?php include_once ('customer-form.php'); ?>
         </div>
 	</div>
-
+<div style="padding-top:40px;">
 	<div class="row">
 		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-18.jpg" /></div>
 		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-19.jpg" /></div>
 	</div>
-
+</div>
 	<div class="center">
 		<div>
 			<div class="references">
