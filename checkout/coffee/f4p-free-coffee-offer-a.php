@@ -32,7 +32,7 @@ include_once ('template-top.php');
                 	<div class="col-lg-12">
                     	<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Coffee<br>Is Almost Gone...</strong></h2>
                 	</div>
-                	<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;">
+                	<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;float:none !important;">
 		                <script type="text/javascript" src="http://reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ=/?responsive=1&autoResponsive=1&container=evp-HP2L5FX5DZ"></script><div id="evp-HP2L5FX5DZ" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ="></div>              </div>
                     <div class="col-lg-12 margin-b-10 coffee-checkout">
 						<p>This is no ordinary coffee - this is 100% pure, 100% GMO Free, 100% Colombian and 100% Arabica coffee harvested at the very peak of freshness!</p>
@@ -55,18 +55,20 @@ include_once ('template-top.php');
             <?php include_once ('customer-form.php'); ?>
         </div>
 	</div>
+	<div style="padding-top:40px;">
 	<div class="row">
 		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-18.jpg" /></div>
 		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-19.jpg" /></div>
 	</div>
-
+</div>
 	<div class="center">
 		<div>
 			<div class="references">
 				<p>Research References</p>
 				<p style="font-size: 12px; line-height:1.25;">
-					1. <em>Harvard School of Public Health.</em> “Coffee By the Numbers.” 2010<br>
-					2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013. 3.  National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>
+					1. <em>Harvard School of Public Health.</em> “Coffee By the Numbers.” 2010.<br>
+					2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013. <br>
+					3.  National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>
 					4. Nagourney, <em>The New York Times.</em> “Vital Signs: Aging; A Pick-Me-Up for Sagging Mental Acuity.” 2002.<br>
 					5. Ferdman, <em>The Washington Post.</em> “Almost Half of the World Actually Prefers Instant Coffee.” 2014.<br>
 					6. Baldwin, <em>The Atlantic.</em> “Arabica vs. Robusta: No Contest.” 2009.<br>
