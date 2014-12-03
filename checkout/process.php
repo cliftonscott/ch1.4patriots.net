@@ -365,18 +365,30 @@ $stepText .= $elapsedProcesstime . " :: Total process time (" . getenv("DESIGNAT
 $dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId);
 
 
-//redirect to next page
-if(($customerDataObj->billingCountry !== "US") && ($customerDataObj->billingCountry !== "CA")) {
-	header("Location: /checkout/thankyou.php");
-	exit;
-} else {
-	if(!empty($_SESSION['nextPageOverride'])) {
-		header("Location: " . $_SESSION['nextPageOverride']);
-		unset($_SESSION['nextPageOverride']);
-	}elseif(!empty($productDataObj->nextPage)) {
-		header("Location: " . $productDataObj->nextPage);
+
+if($product->getFunnel()) {
+	//FUNNEL REDIRECT TO NEXT PAGE
+	$currentStep = $product->getStep();
+	$funnel = $product->initFunnel($currentStep);
+	if($funnel["pidVariableNextUrl"] === true) {
+		header("Location: " . $funnel[$productId]["nextUrl"]);
 	} else {
+		header("Location: " . $funnel["nextUrl"]);
+	}
+} else {
+	//NON-FUNNEL REDIRECT TO NEXT PAGE
+	if(($customerDataObj->billingCountry !== "US") && ($customerDataObj->billingCountry !== "CA")) {
 		header("Location: /checkout/thankyou.php");
+		exit;
+	} else {
+		if(!empty($_SESSION['nextPageOverride'])) {
+			header("Location: " . $_SESSION['nextPageOverride']);
+			unset($_SESSION['nextPageOverride']);
+		}elseif(!empty($productDataObj->nextPage)) {
+			header("Location: " . $productDataObj->nextPage);
+		} else {
+			header("Location: /checkout/thankyou.php");
+		}
 	}
 }
 
