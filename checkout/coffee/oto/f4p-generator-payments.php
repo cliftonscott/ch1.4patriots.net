@@ -10,6 +10,20 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 }
 // SET PRODUCT ID
 $_SESSION['productId'] = 174; //please keep as an integer
+
+//check for inventory supply for Lion Energy Products
+$productId = $_SESSION['productId'];
+include_once("Inventory.php");
+$inventoryObj = new Inventory();
+$isLion = $inventoryObj->isLion($productId);
+if($isLion) {
+	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
+	if($hasAllInventory === false) {
+		header("Location: /checkout/coffee/thankyou.php");
+		exit;
+	}
+}
+
 $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
@@ -20,12 +34,6 @@ $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto5b");
 $declineUrl = $funnelData["declineUrl"];
 
-include_once("Inventory.php");
-$inventory = Inventory::hasInventory(162);
-if($inventory->success !== true) {
-	header("Location: " . $productDataObj->soldOutPage);
-	exit;
-}
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
 include_once("products/offers/f4p-generator-payments.php");
