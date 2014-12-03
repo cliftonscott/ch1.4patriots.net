@@ -19,15 +19,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
     	<div class="johnson-box-02 center-block margin-tb-20">
 			<p><u>Your Order Has Been Received!</u></p>
 			<p>We're Preparing Your Shipment Now.<br>
-		    It Should Arrive In 7-14 Days.<br>
-			You Can Access Your Bonuses Below.</p>
+		    It Should Arrive In 7-14 Days.</p>
 		</div>
 		<div class="text-center margin-tb-20">
 			<h1><strong>Thank You For Your Order!</strong></h1>
 		</div>
         <div class="margin-tb-20">
         	<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge
-				from Food4Patriots.com and your bonuses are below</p>
+				from Food4Patriots.com</p>
         </div>
         <div class="margin-tb-20">
 			<?php include("snippets/frank-thankyou-msg-coffee.html");?>
