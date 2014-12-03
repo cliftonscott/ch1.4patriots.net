@@ -73,13 +73,6 @@
 		}
 	}
 </script>
-<?php
-
-if(!$pageGreeting) {
-	$pageGreeting = "Hi Fellow Patriot, this is Franks Bates, founder of Food4Patriots, and I just wanted to say CONGRATULATIONS for claiming your FREE Survival Food today.";
-}
-
-?>
 <div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -90,7 +83,7 @@ if(!$pageGreeting) {
 		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, ***Title Needed***</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/2g9ho6m7rb" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+			<iframe src="http://reboot.evsuite.com/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?mode=iframe" width="660" height="380" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div id="buyButton" style="padding-bottom:40px;display:none;">
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
