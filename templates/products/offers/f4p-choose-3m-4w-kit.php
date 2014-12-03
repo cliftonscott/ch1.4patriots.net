@@ -1,10 +1,8 @@
-
 <?php
+
 if(!$pageGreeting) {
 	$pageGreeting = "Hi Fellow Patriot, this is Franks Bates, founder of Food4Patriots, and I just wanted to say CONGRATULATIONS for claiming your FREE Survival Food today.";
 }
-
-
 
 ?>
 <div class="container-main">
