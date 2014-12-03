@@ -29,8 +29,8 @@
 	$(document).ready(function(){
 
 		var hours = 0;
-		var minutes = 10;
-		var seconds = 45;
+		var minutes = 6;
+		var seconds = 37;
 		// Start by converting hours to milliseconds
 		var time = hours * 60 * 60 * 1000;
 
@@ -58,7 +58,7 @@
 			taxedstate = '';
 		}
 
-		price = 1997;
+		price = 97;
 		e = document.getElementById("quantity");
 		quant = e.options[e.selectedIndex].value;
 		discount = 1000 * quant;
@@ -67,13 +67,19 @@
 		tax = taxrate * subtot;
 		gtotal = tax + subtot;
 		if (taxrate != 0){
-			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!');
 		}else {
-			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Coffee Kit(s) to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + '. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!');
 		}
-
 	}
 </script>
+<?php
+
+if(!$pageGreeting) {
+	$pageGreeting = "Hi Fellow Patriot, this is Franks Bates, founder of Food4Patriots, and I just wanted to say CONGRATULATIONS for claiming your FREE Survival Food today.";
+}
+
+?>
 <div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -81,8 +87,6 @@
 		<a>ORDER CONFIRMATION</a>
 	</div>
 	<div class="container oto-width">
-		***NEW DELUXE COFFEE UPGRADE OFFER CONTENT***
-
 		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, ***Title Needed***</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
@@ -242,7 +246,7 @@
 							<input type="checkbox" id="check1" name="check1">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
-						<div id="terms">Yes, I want to add the Food4Patriots Coffee Kit to my order at the 1-<span  style="letter-spacing:-.5px;">time discount sale price of $97. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!</span>
+						<div id="terms">I want to add the Food4Patriots Coffee Kit to my order at the 1-<span  style="letter-spacing:-.5px;">time discount sale price of $97. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!</span>
 						</div>
 					</div>
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
