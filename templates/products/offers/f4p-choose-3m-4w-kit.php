@@ -1,4 +1,12 @@
 
+<?php
+if(!$pageGreeting) {
+	$pageGreeting = "Hi Fellow Patriot, this is Franks Bates, founder of Food4Patriots, and I just wanted to say CONGRATULATIONS for claiming your FREE Survival Food today.";
+}
+
+
+
+?>
 <div class="container-main">
 <div class="breadcrumb1">
 	<a>CHECKOUT</a>
@@ -15,8 +23,7 @@
 <div>
 <a href="#addtoorder"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" alt="Add To Order" class="img-responsive center-block" /></a>
 <p class="text-center read-warning" style="max-width:600px;">Click the button above to choose your package now… or read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
-<p>Hi <?php echo $firstName;?>, this is Franks Bates, founder of Food4Patriots, and I just wanted to say <strong>CONGRATULATIONS</strong> for claiming your <strong>FREE</strong> Survival Food today. </p>
-<p>You got yours before we ran out, so nice job. You&rsquo;ve made a real smart decision to take action! I know you&rsquo;re going to <strong>love</strong> the peace of mind and sense of pride that comes from building your food stockpile. And with <strong>every addition </strong>to your stockpile, you&rsquo;ll get more independence, more self-reliance and more protection for you &amp; your family in case of a disaster.</p>
+<?php echo $pageGreeting;?>&nbsp;You got yours before we ran out, so nice job. You&rsquo;ve made a real smart decision to take action! I know you&rsquo;re going to <strong>love</strong> the peace of mind and sense of pride that comes from building your food stockpile. And with <strong>every addition </strong>to your stockpile, you&rsquo;ll get more independence, more self-reliance and more protection for you &amp; your family in case of a disaster.</p>
 <p>Because you&rsquo;ve taken this 1st important step, I&rsquo;ve got some exclusive information for you that I think you&rsquo;re really going to like.&nbsp;&nbsp;</p>
 <p>Look, I&rsquo;m gonna shoot straight with you..</p>
 
@@ -430,7 +437,22 @@
 	</div>
 
 </div>
+<div class="outLineBoxDarkBlue">
+	<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Frank" width="250" height="189" class="pull-left img-responsive media">
+	<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+	<div class="clearfix"></div>
+</div>
+<div class="outLineBoxDarkBlue">
+	<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Frank" width="250" height="192" class="pull-left img-responsive media">
+	<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any
+	of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you
+	can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
 
+	<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is
+		on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not
+		really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon
+		as you have it in your hands.</p>
+</div>
 
 
 </div>
