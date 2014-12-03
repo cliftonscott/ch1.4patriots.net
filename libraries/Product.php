@@ -627,13 +627,13 @@ class Product {
 				$productObj->mpsId = 194;
 				//Limelight
 				$productObj->price = 0;
-				$productObj->originalPrice = 0;
+				$productObj->originalPrice = 9.95;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-30COF";
 				$productObj->googleProductSKU = "PID194";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
-				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee Offer";
+				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee";
 				$productObj->metaDescription = "Food4Patriots free Survival Coffee Offer";
 				//Other
 				$productObj->pmaSku = null;
