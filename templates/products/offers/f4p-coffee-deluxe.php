@@ -93,7 +93,7 @@ if(!$pageGreeting) {
 			<iframe src="http://reboot.evsuite.com/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?mode=iframe" width="660" height="380" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div id="buyButton" style="padding-bottom:40px;display:none;">
-			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
+			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $97</div></a></div>
 		</div>
 		<div style="margin-top:50px;">
 			<p><?php echo $pageGreeting;?></p>
