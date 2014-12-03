@@ -73,6 +73,13 @@
 		}
 	}
 </script>
+<?php
+
+if(!$pageGreeting) {
+	$pageGreeting = ""; // add default greeting here // override this default in the calling template
+}
+
+?>
 <div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -89,7 +96,7 @@
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 		</div>
 		<div style="margin-top:50px;">
-			<p><strong>Congratulations, <?php echo $firstName;?>!</strong> Your 30-serving FREE survival coffee trial packet is on its way to you, and will be at your front door in no time flat. Soon, you’ll be sipping a freshly brewed cup by the fire, at your kitchen table, or even on the road in your travel mug. Well done. </p>
+			<p><?php echo $pageGreeting;?></p>
 			<p><em>But listen, there’s something more to ponder…</em></p>
 			<p>The routine of enjoying that first cup of caffeinated goodness could be disrupted by a locomotive you never saw coming.</p>
 			<p>That’s the thing about emergency situations…they never announce themselves before turning your world upside down. They just hit you like a derailed freight train.</p>
