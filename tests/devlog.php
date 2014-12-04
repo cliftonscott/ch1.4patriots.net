@@ -12,7 +12,7 @@ $devlogs = Dblog::getDblog();
 	table tr td {
 		font-family:Courier;
 		padding-bottom:5px;
-		border-bottom:1px solid #cccccc;
+		border-bottom:1px solid ##000000;
 		font-size:.8em;
 		vertical-align: top;
 	}
@@ -28,6 +28,18 @@ $devlogs = Dblog::getDblog();
 		border-right:1px solid #cccccc;
 		padding-right:10px;
 	}
+	table tr td.serverId {
+		font-size:.8em;
+		font-style:italic;
+		border-right:1px solid #cccccc;
+		padding-right:10px;
+	}
+	table tr td.visitorId {
+		font-size:.8em;
+		font-style:italic;
+		border-right:1px solid #cccccc;
+		padding-right:10px;
+	}
 </style>
 
 
@@ -37,6 +49,8 @@ echo ("<table>\n");
 foreach($devlogs->results as $devlog) {
 	echo "<tr>\n";
 //	echo "<td>" . $devlog["logkey"] . "</td>\n";
+	echo "<td class='visitorId'>" . $devlog["visitorId"] . "</td>\n";
+	echo "<td class='serverId'>" . $devlog["serverId"] . "</td>\n";
 	echo "<td class='stamp'>" . date("m-d h:i:s",strtotime($devlog["stamp"])) . "</td>\n";
 	echo "<td class='process'>" . $devlog["process"] . "</td>\n";
 //	echo "<td class='process'>" . $devlog["userIp"] . "</td>\n";

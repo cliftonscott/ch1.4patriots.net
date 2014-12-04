@@ -212,8 +212,11 @@ class Analytics {
 		if(!empty(self::$sspData)){
 			$qs["sspdata"] = self::$sspData;
 		}
-		$qs = http_build_query($qs);
-		$this->setQueryString($qs);
+		if($qs) {
+			$qs = http_build_query($qs);
+			$this->setQueryString($qs);
+		}
+
 
 	}
 
@@ -256,7 +259,6 @@ class Analytics {
 	}
 	function setQueryString($queryString) {
 		self::$queryString = "?" . $queryString;
-		//$_SESSION["queryString"] = $queryString;
 	}
 	function setVwoTestId($vwoTestId) {
 		self::$vwoTestId = $vwoTestId;

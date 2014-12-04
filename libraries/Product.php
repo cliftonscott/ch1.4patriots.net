@@ -14,7 +14,7 @@ class Product {
 	const VSL_VERSION = "VSL 1.0";
 	
 	public function __construct() {
-		
+		self::setFunnel();
 	}
 	
 	function getProduct($productId) {
@@ -585,11 +585,11 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
-			case 182: // FRUIT VEGGIE SNACK KIT
+			case 182: // Coffee Offer
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = 35;
+				$productObj->listId = 66;
 				$productObj->tags = "COFFEE600";
 				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
@@ -614,8 +614,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
-			
-			
+			case 194: // Free Coffee Offer
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = 65;
+				$productObj->tags = "FREECOFFEE";
+				$productObj->shippingIdDomestic = 20;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 1.95;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 194;
+				//Limelight
+				$productObj->price = 0;
+				$productObj->originalPrice = 9.95;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = "F4P-30COF";
+				$productObj->googleProductSKU = "PID194";
+				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
+				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee";
+				$productObj->metaDescription = "Food4Patriots free Survival Coffee Offer";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 
 		}
 		return $productObj;	
@@ -623,6 +650,115 @@ class Product {
 	
 	function setQuantity($quantity) {
 		self::$variableQuantity = $quantity;
+	}
+
+	function loadFunnelData() {
+
+		$funnelData["freecoffee"] = array(
+			"checkout" => array (
+				"nextUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
+			),
+			"oto2" => array (
+				"pidVariableNextUrl" => true,
+				18 => array (
+					"nextUrl" => "/checkout/coffee/oto/f4p-4week-kit-discount.php",
+				),
+				19 => array (
+					"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+				),
+				"declineUrl" => "/oto/f4p-choose-3m-4w-kit-discount.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/coffee/thankyou.php",
+				"declineUrl" => "/checkout/coffee/thankyou.php",
+			),
+			"oto3" => array (
+				"nextUrl" => "/checkout/coffee/thankyou.php",
+				"declineUrl" => "/checkout/coffee/thankyou.php",
+			),
+			"oto4" => array (
+				"nextUrl" => "/checkout/coffee/oto/f4p-generator.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit-payments.php",
+			),
+			"oto4b" => array (
+				"nextUrl" => "/checkout/coffee/thankyou.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-3month-kit-discount.php",
+			),
+			"oto4c" => array (
+				"nextUrl" => "/checkout/coffee/thankyou.php",
+				"declineUrl" => "/checkout/coffee/thankyou.php",
+			),
+			"oto5" => array (
+				"nextUrl" => "/checkout/coffee/oto/f4p-generator-platinum.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-generator-payments.php",
+			),
+			"oto5b" => array (
+				"nextUrl" => "/checkout/coffee/thankyou.php",
+				"declineUrl" => "/checkout/coffee/thankyou.php",
+			),
+			"oto6" => array (
+				"nextUrl" => "/checkout/coffee/thankyou.php",
+				"declineUrl" => "/checkout/coffee/thankyou.php",
+			),
+		);
+
+		return $funnelData;
+
+	}
+
+	function getFunnelData($funnel, $step) {
+
+		$data = self::loadFunnelData();
+		$funnelData = $data[$funnel][$step];
+		return $funnelData;
+
+	}
+
+	function setFunnel() {
+
+		$validFunnels = array (
+			"/checkout/coffee/" => "freecoffee",
+		);
+
+		$currentPath = $_SERVER["PHP_SELF"];
+
+		foreach($validFunnels as $path => $funnel) {
+			if(stripos($currentPath,$path) > -1) {
+				$_SESSION["Funnel"]["name"] = $funnel;
+			}
+		}
+	}
+
+	function setStep($step) {
+		$_SESSION["Funnel"]["step"] = $step;
+		return true;
+	}
+
+	function getStep() {
+		$step = $_SESSION["Funnel"]["step"];
+		return $step;
+	}
+
+	function getFunnel() {
+		if(isset($_SESSION["Funnel"])) {
+			$results = $_SESSION["Funnel"];
+		} else {
+			$results = false;
+		}
+
+		return $results;
+	}
+
+	function initFunnel($step) {
+
+		$initData = self::getFunnelData("freecoffee",$step);
+		self::setStep($step);
+		return $initData;
 	}
 	
 	

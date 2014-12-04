@@ -1,71 +1,39 @@
-<?php
-if($_GET["upgrade"] == 1 ) {
-	$isUpgrade = TRUE;
-}
-if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"]))) {
-	$firstName = $_SESSION["customerDataArray"]["firstName"];
-	$_SESSION['upsell'] = TRUE; //must stay a boolean
-} else {
-	$firstName = "Fellow Patriot";
-}
-// SET PRODUCT ID
-$_SESSION['productId'] = 164; //please keep as an integer
-$_SESSION['quantity'] = '1';
-$_SESSION['upsell'] = TRUE; //must stay a boolean
-$_SESSION['pageReturn'] = '/checkout/order.php';
-include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
 
-//check for inventory supply for Lion Energy Products
-$productId = $_SESSION['productId'];
-include_once("Inventory.php");
-$inventoryObj = new Inventory();
-$isLion = $inventoryObj->isLion($productId);
-if($isLion) {
-	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
-	if($hasAllInventory === false) {
-		header("Location: /checkout/thankyou.php");
-		exit;
-	}
-}
-include_once("template-top.php");
-include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-?>
 <script src="/js/audio.js"></script>
-	<script language="javascript">
-		$(document).ready(function() {
+<script language="javascript">
+	$(document).ready(function() {
 
-			$("#optin-form").validate({
-				rules: {
-					check1: {
-						required: true
-					},
+		$("#optin-form").validate({
+			rules: {
+				check1: {
+					required: true
 				},
-				messages: {
-					check1: '<div class="warning-check"></div>',
-				},
-				submitHandler: function(form) {
-					//optIn();
-					form.submit();
-				}
-			});
-
-			$("#optin-form2").validate({
-				rules: {
-					check2: {
-						required: true
-					},
-				},
-				messages: {
-					check2: '<div class="warning-check"></div>',
-				},
-				submitHandler: function(form) {
-					//optIn();
-					form.submit();
-				}
-			});
+			},
+			messages: {
+				check1: '<div class="warning-check"></div>',
+			},
+			submitHandler: function(form) {
+				//optIn();
+				form.submit();
+			}
 		});
-	</script>
+
+		$("#optin-form2").validate({
+			rules: {
+				check2: {
+					required: true
+				},
+			},
+			messages: {
+				check2: '<div class="warning-check"></div>',
+			},
+			submitHandler: function(form) {
+				//optIn();
+				form.submit();
+			}
+		});
+	});
+</script>
 <div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -214,7 +182,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
 				<div class="noThanks">
-					<a href="/checkout/thankyou.php" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
+					<a href="<?php echo $declineUrl;?>" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
 					I understand that I will not receive this special offer again.
 				</div>
 
@@ -225,5 +193,3 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 	</div>
 
-
-<?php include_once("template-bottom.php"); ?>

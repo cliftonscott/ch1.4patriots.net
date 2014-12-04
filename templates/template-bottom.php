@@ -40,7 +40,13 @@ echo $analyticsObj->serverId;
 //echo "<pre style='margin:10px;background-color:silver;font-size:.65em;'>";
 //echo "<h3>---Disregard Debugging Stuff---</h3>";
 //echo "<div style='float:left;width:30%;'>";
+//echo "<h4>Funnel:</h4>";
+//var_dump($funnelData);
 //echo "<h4>Analytics:</h4>";
-//var_dump($analyticsObj);;
+//var_dump($analyticsObj);
+//echo "</div>";
+//echo "<div style='float:left;width:30%;'>";
+//echo "<h4>Product:</h4>";
+//var_dump($productDataObj);
 //echo "</div>";
 ?>
