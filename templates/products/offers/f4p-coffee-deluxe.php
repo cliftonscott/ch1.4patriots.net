@@ -111,7 +111,7 @@ if(!$pageGreeting) {
 			<p>And let’s face it. There’s a reason 150 million Americans drink their java every day, and spend billions feeding their caffeine habit.</p>
 		</div>
 		<div style="margin-top:50px;">
-			<h2 class="darkRed text-center">Coffee Is Literally The Fuel That Runs America.</h2>
+			<h2 class="darkRed text-center">Coffee Is Literally The Fuel That Runs America</h2>
 			<p>I think the Patriots who dumped the tea in Boston Harbor 240 years ago were on to something…</p>
 			<p><strong>The British could keep their stinking tea!</strong></p>
 			<p>From Colonial times ‘til now, Americans are tried-and-true coffee drinkers, through and through.</p>
