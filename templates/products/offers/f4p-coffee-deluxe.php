@@ -67,9 +67,9 @@
 		tax = taxrate * subtot;
 		gtotal = tax + subtot;
 		if (taxrate != 0){
-			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!');
+			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
 		}else {
-			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Coffee Kit(s) to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + '. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!');
+			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
 		}
 	}
 </script>
@@ -246,8 +246,10 @@ if(!$pageGreeting) {
 							<input type="checkbox" id="check1" name="check1">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
-						<div id="terms">I want to add the Food4Patriots Coffee Kit to my order at the 1-<span  style="letter-spacing:-.5px;">time discount sale price of $97. I will get 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup and FREE SHIPPING!</span>
-						</div>
+						<div id="terms"></div>
+						<script>
+							productChange();
+						</script>
 					</div>
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
