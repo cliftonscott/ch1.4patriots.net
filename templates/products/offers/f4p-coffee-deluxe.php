@@ -87,7 +87,7 @@ if(!$pageGreeting) {
 		<a>ORDER CONFIRMATION</a>
 	</div>
 	<div class="container oto-width">
-		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, ***Title Needed***</h1>
+		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Survival Coffee May Be More Valuable Than Gold In A Crisis...</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<iframe src="http://reboot.evsuite.com/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?mode=iframe" width="660" height="380" frameborder="0" allowfullscreen></iframe>
