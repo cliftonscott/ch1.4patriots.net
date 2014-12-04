@@ -22,7 +22,7 @@ if(!$pageGreeting) {
 <a href="#addtoorder"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" alt="Add To Order" class="img-responsive center-block" /></a>
 <p class="text-center read-warning" style="max-width:600px;">Click the button above to choose your package now… or read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 <?php echo $pageGreeting;?>
-<p>You got yours before we ran out, so nice job. You&rsquo;ve made a real smart decision to take action! I know you&rsquo;re going to <strong>love</strong> the peace of mind and sense of pride that comes from building your food stockpile. And with <strong>every addition </strong>to your stockpile, you&rsquo;ll get more independence, more self-reliance and more protection for you &amp; your family in case of a disaster.</p>
+<p>You got yours before we ran out, so nice job. You&rsquo;ve made a real smart decision to take action! I know you&rsquo;re going to <strong>love</strong> the peace of mind and sense of pride that comes from building your food stockpile. And with <strong>every addition </strong>to your stockpile, you&rsquo;ll get more independence, more self-reliance and more protection for you and your family in case of a disaster.</p>
 <p>Because you&rsquo;ve taken this 1st important step, I&rsquo;ve got some exclusive information for you that I think you&rsquo;re really going to like.&nbsp;&nbsp;</p>
 <p>Look, I&rsquo;m gonna shoot straight with you..</p>
 

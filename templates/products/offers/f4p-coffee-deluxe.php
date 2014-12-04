@@ -99,11 +99,11 @@ if(!$pageGreeting) {
 			<p><?php echo $pageGreeting;?></p>
 			<p><em>But listen, there’s something more to ponder…</em></p>
 			<p>The routine of enjoying that first cup of caffeinated goodness could be disrupted by a locomotive you never saw coming.</p>
-			<p>That’s the thing about emergency situations…they never announce themselves before turning your world upside down. They just hit you like a derailed freight train.</p>
+			<p>That’s the thing about emergency situations… they never announce themselves before turning your world upside down. They just hit you like a derailed freight train.</p>
 			<p>When that happens, you might be left blindsided without the familiar things you know and love the most…
 			<p>Like your morning coffee.</p>
-			<p>If there’s an extended crisis lasting weeks or God-forbid, even longer…what will you do then?</p>
-			<p>Can you just imagine having to face a new horrible reality…without any of your daily, routine comforts?</p>
+			<p>If there’s an extended crisis lasting weeks or God-forbid, even longer… what will you do then?</p>
+			<p>Can you just imagine having to face a new horrible reality… without any of your daily, routine comforts?</p>
 			<p>You’d be a ball of stress… and that wouldn’t help you one bit.</p>
 			<img src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
 			<p>Wouldn’t it be great to have total peace of mind, knowing you won’t run out of your amazing survival coffee?</p>
@@ -111,13 +111,13 @@ if(!$pageGreeting) {
 			<p>And let’s face it. There’s a reason 150 million Americans drink their java every day, and spend billions feeding their caffeine habit.</p>
 		</div>
 		<div style="margin-top:50px;">
-			<h2 class="darkRed text-center">Coffee Is Literally The Fuel That Runs America.</h2>
+			<h2 class="darkRed text-center">Coffee Is Literally The Fuel That Runs America</h2>
 			<p>I think the Patriots who dumped the tea in Boston Harbor 240 years ago were on to something…</p>
 			<p><strong>The British could keep their stinking tea!</strong></p>
 			<p>From Colonial times ‘til now, Americans are tried-and-true coffee drinkers, through and through.</p>
 			<p>I certainly don’t know what the heck I’d do if my morning ritual of a piping-hot cup of coffee went away in a crisis situation… I’d probably turn into some sort of Grizzly bear.</p>
 			<p>Caffeine withdrawal isn’t pretty… the headaches, irritability, and fatigue is absolutely for the birds. Been there, done that.</p>
-			<p>And in any disaster, you want to make sure you’ve got what you need to stay awake and alert… because you never know what you might be facing around the corner…and quite frankly, your life could depend on it.</p>
+			<p>And in any disaster, you want to make sure you’ve got what you need to stay awake and alert… because you never know what you might be facing around the corner… and quite frankly, your life could depend on it.</p>
 			<p>Do you want to be dozing off while all hell is breaking loose outside?</p>
 			<p>I didn’t think so!</p>
 			<p>And remember, there won’t be any grocery stores open to get re-stocked on any supplies, including coffee. Their shelves will be stripped bare as a bone within hours when a crisis hits.</p>
@@ -193,10 +193,10 @@ if(!$pageGreeting) {
 			</div>
 			<p>Oh, and don’t forget - because my survival coffee is good for an unbelievable 25 years (hey – you’ll have great-grandkids and your coffee will still be as fresh as the day you bought it!) you can stash it in your car, RV, or even leave a supply at your vacation home or cabin.</p>
 			<p>This coffee goes anywhere, and makes a great addition to your bug out bag!</p>
-			<p>Coffee that tastes this good and lasts 25 years doesn’t grow on trees, Friend… well, it kinda does but you get my point.</p>
+			<p>Coffee that tastes this good and lasts 25 years doesn’t grow on trees, Friend… well, it kinda does, but you get my point.</p>
 			<p>You won’t find my coffee on eBay, or Amazon, Sam’s Club, or any places like that.</p>
 			<p>Nope.</p>
-			<p>So don’t wait…like I said, I have a limited supply of coffee. Once word gets around about this first-ever survival coffee, people will be clamoring for this offer and I will very likely run out…</p>
+			<p>So don’t wait… like I said, I have a limited supply of coffee. Once word gets around about this first-ever survival coffee, people will be clamoring for this offer and I will very likely run out…</p>
 			<p>So just click the <strong>“Click to Accept”</strong> button below and we’ll rush you your 600-serving Food4Patriots Coffee Kit, the world’s best survival coffee, right away.</p>
 			<p>Don’t wait… time’s ticking by and you never know when an emergency will hit… do yourself and your loved ones a favor, and be ready.</p>
 		</div>
