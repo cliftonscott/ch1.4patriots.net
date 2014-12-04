@@ -99,11 +99,11 @@ if(!$pageGreeting) {
 			<p><?php echo $pageGreeting;?></p>
 			<p><em>But listen, there’s something more to ponder…</em></p>
 			<p>The routine of enjoying that first cup of caffeinated goodness could be disrupted by a locomotive you never saw coming.</p>
-			<p>That’s the thing about emergency situations…they never announce themselves before turning your world upside down. They just hit you like a derailed freight train.</p>
+			<p>That’s the thing about emergency situations… they never announce themselves before turning your world upside down. They just hit you like a derailed freight train.</p>
 			<p>When that happens, you might be left blindsided without the familiar things you know and love the most…
 			<p>Like your morning coffee.</p>
-			<p>If there’s an extended crisis lasting weeks or God-forbid, even longer…what will you do then?</p>
-			<p>Can you just imagine having to face a new horrible reality…without any of your daily, routine comforts?</p>
+			<p>If there’s an extended crisis lasting weeks or God-forbid, even longer… what will you do then?</p>
+			<p>Can you just imagine having to face a new horrible reality… without any of your daily, routine comforts?</p>
 			<p>You’d be a ball of stress… and that wouldn’t help you one bit.</p>
 			<img src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
 			<p>Wouldn’t it be great to have total peace of mind, knowing you won’t run out of your amazing survival coffee?</p>
