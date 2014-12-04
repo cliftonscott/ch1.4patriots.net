@@ -44,6 +44,10 @@ p {
     margin-left: auto;
     margin-top: 20px;
 }
+.hidden-button-coffee {
+    padding-bottom:0px;
+    margin-bottom:-20px;
+}
 /* CUSTOMIZE MOBILE IMAGES
 -------------------------------------------------- */
 .media.pull-left,.media.pull-right {
