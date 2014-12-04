@@ -25,7 +25,9 @@ $declineUrl = $funnelData["declineUrl"];
 //************************************************************************//
 //todo ideally this whole section will wrap into some platform libraries that are easy to use
 //todo for now use the vars below to change the dynamic content in the final template
-$pageGreeting = $firstName . ", this is Franks Bates, founder of Food4Patriots, and I just wanted to say CONGRATULATIONS for claiming your FREE Survival Coffee today.";
+
+$pageGreeting = "<p>" . $firstName . ", this is Franks Bates, founder of Food4Patriots, and I just wanted to say ";
+$pageGreeting.= "CONGRATULATIONS for claiming your FREE Survival Coffee today.</p>";
 
 //************************************************************************//
 
