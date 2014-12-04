@@ -193,7 +193,7 @@ if(!$pageGreeting) {
 			</div>
 			<p>Oh, and don’t forget - because my survival coffee is good for an unbelievable 25 years (hey – you’ll have great-grandkids and your coffee will still be as fresh as the day you bought it!) you can stash it in your car, RV, or even leave a supply at your vacation home or cabin.</p>
 			<p>This coffee goes anywhere, and makes a great addition to your bug out bag!</p>
-			<p>Coffee that tastes this good and lasts 25 years doesn’t grow on trees, Friend… well, it kinda does but you get my point.</p>
+			<p>Coffee that tastes this good and lasts 25 years doesn’t grow on trees, Friend… well, it kinda does, but you get my point.</p>
 			<p>You won’t find my coffee on eBay, or Amazon, Sam’s Club, or any places like that.</p>
 			<p>Nope.</p>
 			<p>So don’t wait…like I said, I have a limited supply of coffee. Once word gets around about this first-ever survival coffee, people will be clamoring for this offer and I will very likely run out…</p>
