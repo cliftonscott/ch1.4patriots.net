@@ -92,7 +92,7 @@ if(!$pageGreeting) {
 		<div id="videobox" class="hidden-xs">
 			<iframe src="http://reboot.evsuite.com/Q29mZmVlIE9UTzEgNjAwIFNlcnZpbmdzLUFpbWVlIENPTVBSRVNTRUQubXA0/?mode=iframe" width="660" height="380" frameborder="0" allowfullscreen></iframe>
 		</div>
-		<div id="buyButton" style="padding-bottom:40px;display:none;">
+		<div id="buyButton" class="hidden-button-coffee" style="display:none;">
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $97</div></a></div>
 		</div>
 		<div style="margin-top:50px;">
