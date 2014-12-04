@@ -196,7 +196,7 @@ if(!$pageGreeting) {
 			<p>Coffee that tastes this good and lasts 25 years doesn’t grow on trees, Friend… well, it kinda does, but you get my point.</p>
 			<p>You won’t find my coffee on eBay, or Amazon, Sam’s Club, or any places like that.</p>
 			<p>Nope.</p>
-			<p>So don’t wait…like I said, I have a limited supply of coffee. Once word gets around about this first-ever survival coffee, people will be clamoring for this offer and I will very likely run out…</p>
+			<p>So don’t wait… like I said, I have a limited supply of coffee. Once word gets around about this first-ever survival coffee, people will be clamoring for this offer and I will very likely run out…</p>
 			<p>So just click the <strong>“Click to Accept”</strong> button below and we’ll rush you your 600-serving Food4Patriots Coffee Kit, the world’s best survival coffee, right away.</p>
 			<p>Don’t wait… time’s ticking by and you never know when an emergency will hit… do yourself and your loved ones a favor, and be ready.</p>
 		</div>
