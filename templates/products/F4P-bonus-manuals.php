@@ -13,7 +13,7 @@
 				Here's the step-by-step manual showing you how to save on your grocery bill.</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-10-Items-After-Crisis.pdf"><img height="231" src="/media/images/f4p/f4p-eBook-10-items-after-crisis.jpg" alt="" /></a></div>
+			<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-Survival-Garden-Guide.pdf"><img height="231" src="/media/images/f4p/f4p-eBook-the-survival-garden-guide.jpg" alt="" /></a></div>
 			<div class="col-sm-12 col-md-8 margin-tb-50"><a target="_blank" href="/media/pdf/F4P-Survival-Garden-Guide.pdf">Right Click Here For The Survival Garden Guide</a><br />
 				This is the manual showing you the critical steps necessary to plant and grow your survival garden.</div>
 		</div>
