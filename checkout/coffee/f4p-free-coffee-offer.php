@@ -38,7 +38,7 @@ include_once ('template-top.php');
 		                <script type="text/javascript" src="http://reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?responsive=1&autoResponsive=1&container=evp-J9E01DERU8"></script><div id="evp-J9E01DERU8" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA=="></div>
                     </div>
                     <div class="col-lg-12 margin-b-10 coffee-checkout">
-						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
+						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe it's incredibly smooth taste and tantalizing aroma.</p>
 						<p>Get 30 servings of my survival coffee <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
 						<ul>
                             <li>30 mouth-watering servings of my first-ever survival coffee packed in a special triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
