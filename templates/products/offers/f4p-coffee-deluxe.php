@@ -230,7 +230,10 @@ if(!$pageGreeting) {
 								<td><span style="text-align:center;padding-top:10px;padding-bottom:10px;">
 								<select name="quantity" id="quantity" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange();">
 									<?php
-									for ($i=1; $i<=5; $i++)
+									if(!$maxQuantity) {
+										$maxQuantity = 5;
+									}
+									for ($i=1; $i<=$maxQuantity; $i++)
 									{
 										echo "<option>". $i . "</option>";
 									}
