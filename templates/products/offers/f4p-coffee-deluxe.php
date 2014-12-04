@@ -117,7 +117,7 @@ if(!$pageGreeting) {
 			<p>From Colonial times ‘til now, Americans are tried-and-true coffee drinkers, through and through.</p>
 			<p>I certainly don’t know what the heck I’d do if my morning ritual of a piping-hot cup of coffee went away in a crisis situation… I’d probably turn into some sort of Grizzly bear.</p>
 			<p>Caffeine withdrawal isn’t pretty… the headaches, irritability, and fatigue is absolutely for the birds. Been there, done that.</p>
-			<p>And in any disaster, you want to make sure you’ve got what you need to stay awake and alert… because you never know what you might be facing around the corner…and quite frankly, your life could depend on it.</p>
+			<p>And in any disaster, you want to make sure you’ve got what you need to stay awake and alert… because you never know what you might be facing around the corner… and quite frankly, your life could depend on it.</p>
 			<p>Do you want to be dozing off while all hell is breaking loose outside?</p>
 			<p>I didn’t think so!</p>
 			<p>And remember, there won’t be any grocery stores open to get re-stocked on any supplies, including coffee. Their shelves will be stripped bare as a bone within hours when a crisis hits.</p>
