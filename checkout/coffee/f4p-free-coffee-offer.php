@@ -46,7 +46,7 @@ include_once ('template-top.php');
                             <li>100% Non-GMO, 100% Colombian grown, 100% Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
                             <li>Shipped right to your door via USPS First Class Mail.</li>
 						</ul>
-						<p><strong>Regularly priced at $9.95, FREE while supplies (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
+						<p><strong>Regularly priced at $9.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
 					</div>
                     <div class="col-lg-12 text-center hidden-xs">
                     	<img src="/assets/images/buttons/btn-order-now-orange-left-01.png" alt="Frank" class="img-responsive center-block">
