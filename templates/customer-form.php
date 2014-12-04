@@ -2,6 +2,9 @@
 if($_SESSION["soldout"]["flag"] === true) {
 	include_once("sold-out-form.php");
 } else {
+	if(!$submitButtonSource) {
+		$submitButtonSource = "/assets/images/buttons/btn-rush-free-01.png";
+	}
 ?>
 <script>
 	function setStateTax() {
@@ -68,7 +71,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 			}
 			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
 				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
-				document.getElementById("submitButton").src = "/assets/images/buttons/btn-rush-free-01.png";
+				document.getElementById("submitButton").src = "<?php echo $submitButtonSource;?>";
 			}
 		});
 	

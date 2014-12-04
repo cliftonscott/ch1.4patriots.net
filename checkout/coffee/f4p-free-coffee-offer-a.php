@@ -13,6 +13,8 @@ $maxQuantity = 3;
 include_once("Product.php");
 $productObj = new Product();
 
+$submitButtonSource = "/assets/images/buttons/btn-rush-free-coffee-01.png";
+
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
