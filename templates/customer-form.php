@@ -14,12 +14,13 @@ if($_SESSION["soldout"]["flag"] === true) {
 		FFP-242 (original Jira issue)
 		*/
 		$.get("/api/product.php?pId=" + pId,function(data,status){
+			quantity = document.getElementById("quantity").value;
 			jsProductObj = JSON.parse(data);
 			taxCountry = document.getElementById('billing-country').value.toLowerCase();
 			if(taxCountry == "us") {
-				shippingCost = jsProductObj.shippingCostDomestic;
+				shippingCost = jsProductObj.shippingCostDomestic * quantity;
 			} else {
-				shippingCost = jsProductObj.shippingCostInternational;
+				shippingCost = jsProductObj.shippingCostInternational * quantity;
 			}
 			shippingAmount = document.getElementById('shippingAmount');
 			if(shippingCost > 0) {
@@ -40,7 +41,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 			if(taxState === "") {
 				taxState = document.getElementById('billing-state').value.toLowerCase();
 			}
-			quantity = document.getElementById("quantity").value;
 			productPrice = jsProductObj.price * quantity;
 			priceAmount = document.getElementById("priceAmount");
 			priceAmount.innerHTML = "$" + productPrice.toFixed(2);
