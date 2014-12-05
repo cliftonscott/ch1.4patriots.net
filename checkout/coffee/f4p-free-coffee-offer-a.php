@@ -20,7 +20,7 @@ $funnelData = $productObj->initFunnel("checkout");
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
-$platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
+$platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?> 
 
