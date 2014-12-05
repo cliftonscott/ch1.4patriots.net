@@ -6,9 +6,9 @@ $targetNewArray = array (
 	"/checkout/thankyou.php",
 	);
 if(in_array($_SERVER["PHP_SELF"], $targetNewArray)) {
-	$footerLinkTarget = "_blank";
-} else {
 	$footerLinkTarget = "_self";
+} else {
+	$footerLinkTarget = "_blank";
 }
 ?>
 <div>
