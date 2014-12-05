@@ -671,7 +671,7 @@ class Product {
 				19 => array (
 					"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
 				),
-				"declineUrl" => "/oto/f4p-choose-3m-4w-kit-discount.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit-discount.php",
 			),
 			"oto2b" => array (
 				"nextUrl" => "/checkout/coffee/thankyou.php",
