@@ -66,6 +66,13 @@ class Platform {
 		self::$defaultCsrButtons = $config;
 	}
 
+	function setCsrOrderFormUrl($url) {
+
+		//todo error checking and return
+		self::$defaultOrderUrl = $url;
+		return true;
+	}
+
 	function generateCsrModalButton ($config = "chat") {
 
 		switch($config) {
