@@ -36,7 +36,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
                     	<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Coffee<br>Is Almost Gone...</strong></h2>
                 	</div>
                 	<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;float:none !important;">
-		                <script type="text/javascript" src="http://reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ=/?responsive=1&autoResponsive=1&container=evp-HP2L5FX5DZ"></script><div id="evp-HP2L5FX5DZ" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ="></div>              </div>
+		                <script type="text/javascript" src="//reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ=/?responsive=1&autoResponsive=1&container=evp-HP2L5FX5DZ"></script><div id="evp-HP2L5FX5DZ" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ="></div>              </div>
                     <div class="col-lg-12 margin-b-10 coffee-checkout">
 						<p>This is no ordinary coffee - this is 100% pure, 100% GMO Free, 100% Colombian and 100% Arabica coffee harvested at the very peak of freshness!</p>
 						<p>  Get your 30 pouches (30 FULL Servings) <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
