@@ -661,7 +661,7 @@ class Product {
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-30COFpd";
 				$productObj->googleProductSKU = "PID196";
-				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
+				$productObj->googleProductCategory = "1-PAY-9.95";
 				$productObj->metaTitle = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				$productObj->metaDescription = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				//Other
