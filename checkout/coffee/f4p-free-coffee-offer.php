@@ -9,7 +9,7 @@ $template["formType"] = "customerForm"; //designates that this is a form using c
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
 $_SESSION['productId'] = 194; //please keep as an integer
 $_SESSION['quantity'] = 1;
-$maxQuantity = 3;
+$maxQuantity = 4;
 include_once("Product.php");
 $productObj = new Product();
 
@@ -40,7 +40,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
                 	</div>
 
 	<div class="col-lg-12 text-center center-block hidden-xs" style="text-align:center;max-width:80%;float:none !important;">
-		                <script type="text/javascript" src="http://reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?responsive=1&autoResponsive=1&container=evp-J9E01DERU8"></script><div id="evp-J9E01DERU8" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA=="></div>
+		                <script type="text/javascript" src="//reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?responsive=1&autoResponsive=1&container=evp-J9E01DERU8"></script><div id="evp-J9E01DERU8" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA=="></div>
                     </div>
                     <div class="col-lg-12 margin-b-10 coffee-checkout">
 						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
@@ -86,7 +86,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
 			</div>
 		</div>
 
-		<table width="70%" style="margin-right:auto;margin-left:auto;margin-bottom:20px;">
+		<!-- <table width="70%" style="margin-right:auto;margin-left:auto;margin-bottom:20px;">
 			<tr style="text-align:center;">
 				<td><a name="trustlink" href="http://secure.trust-guard.com/security/8491" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img name="trustseal" alt="Security Seals" style="border: 0;" src="//dw26xg4lubooo.cloudfront.net/seals/security/8491-large.gif" /></a></td>
 				<td>  <a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869"
@@ -94,7 +94,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
 											  alt="HONESTe Seal - Click to verify before you buy!" border="0"></a></td>
 				<td><img src="/assets/images/checkout/trustseals-usa-01.gif" width="110" height="82" alt="Made In The USA"></td>
 			</tr>
-		</table>
+		</table> -->
 	</div>
    
 </div>
