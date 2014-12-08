@@ -81,15 +81,15 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 			</div>
 		</div>
 
-		<table width="70%" style="margin-right:auto;margin-left:auto;margin-bottom:20px;">
-			<tr style="text-align:center;">
-				<td><a name="trustlink" href="http://secure.trust-guard.com/security/8491" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img name="trustseal" alt="Security Seals" style="border: 0;" src="//dw26xg4lubooo.cloudfront.net/seals/security/8491-large.gif" /></a></td>
-				<td>  <a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869"
-						 target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869"
-											  alt="HONESTe Seal - Click to verify before you buy!" border="0"></a></td>
-				<td><img src="/assets/images/checkout/trustseals-usa-01.gif" width="110" height="82" alt="Made In The USA"></td>
-			</tr>
-		</table>
+<!--		<table width="70%" style="margin-right:auto;margin-left:auto;margin-bottom:20px;">-->
+<!--			<tr style="text-align:center;">-->
+<!--				<td><a name="trustlink" href="http://secure.trust-guard.com/security/8491" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img name="trustseal" alt="Security Seals" style="border: 0;" src="//dw26xg4lubooo.cloudfront.net/seals/security/8491-large.gif" /></a></td>-->
+<!--				<td>  <a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869"-->
+<!--						 target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869"-->
+<!--											  alt="HONESTe Seal - Click to verify before you buy!" border="0"></a></td>-->
+<!--				<td><img src="/assets/images/checkout/trustseals-usa-01.gif" width="110" height="82" alt="Made In The USA"></td>-->
+<!--			</tr>-->
+<!--		</table>-->
 	</div>
    
 </div>
