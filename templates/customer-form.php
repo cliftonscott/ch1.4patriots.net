@@ -70,7 +70,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 					break;
 			}
 			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
-				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
+				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + (jsProductObj.originalPrice * quantity).toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
 			}
 		});
 	
