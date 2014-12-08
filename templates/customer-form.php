@@ -3,7 +3,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 	include_once("sold-out-form.php");
 } else {
 	if(!$submitButtonSource) {
-		$submitButtonSource = "/assets/images/buttons/btn-rush-free-01.png";
+		$submitButtonSource = "/assets/images/buttons/btn-click-continue-green-01.png";
 	}
 ?>
 <script>
@@ -68,10 +68,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 					totalAmount.innerHTML = "$" + (productPrice + shippingCost).toFixed(2);
 					toggleTaxRow("hide");
 					break;
-			}
-			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
-				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + jsProductObj.originalPrice.toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
-				document.getElementById("submitButton").src = "<?php echo $submitButtonSource;?>";
 			}
 		});
 	
@@ -279,7 +275,7 @@ if($_SESSION['errorMessage'] != '') {
 
 		</div><!-- *PRODUCT INFO -->
 
-	  <div><input id="submitButton" type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
+	  <div><input id="submitButton" type="image" src="<?php echo $submitButtonSource;?>" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
 	</form>
 </div>
 
