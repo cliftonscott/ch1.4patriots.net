@@ -116,7 +116,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 			<ul>
 			  <li>“Can I really feed my family from a garden if I have to?” </li>
 			  <li>“How do I know the seeds will grow where I live?” </li>
-			  <li>“How to do I plant and harvest them? I don’t have a ‘green thumb!” </li>
+			  <li>“How to do I plant and harvest them? I don’t have a "green thumb!” </li>
 			  <li>“How do I know my seeds will be safe year after year?” </li>
 			</ul>
 			<p>The truth is most people are woefully unprepared for ANY disruption in the food supply (notice how bread and milk disappear from stores as soon as there is a hint of heavy rain or snow in the forecast?). I didn’t want that for my family, and I don’t want it for you. </p>
