@@ -105,7 +105,7 @@ $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsOb
 					  <h2 class="color-red dark">&quot;To Act Fast.&quot;</h2>
 
 						<p class="section-description">
-						Something just happened that has explained why survival food is literally flying off the shelves and is sold out in many areas of the country. It caught me totally by surprise. And it involves FEMA..
+						Something just happened that has explained why survival food is literally flying off the shelves and is sold out in many areas of the country. It caught me totally by surprise. And it involves FEMA.
 						</p>
 						<p class="section-description">In fact, I have no doubt that FEMA hates this. I don&rsquo;t know how long it will be online, so read it while you can.</p>
 						<p class="section-description">I&rsquo;ll explain more in a second and I&rsquo;ll show you some shocking <strong>PROOF</strong>, but the bottom line that you need to understand is that FEMA wants survival food real, real, real bad<strong>. </strong></p>
