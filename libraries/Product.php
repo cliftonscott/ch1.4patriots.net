@@ -620,8 +620,8 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 65;
 				$productObj->tags = "FREECOFFEE";
-				$productObj->shippingIdDomestic = 20;
-				$productObj->shippingIdInternational = 21;
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 1.95;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 194;
