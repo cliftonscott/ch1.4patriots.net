@@ -42,7 +42,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 <div class="container oto-width">
 		<div>
-		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?><span class="titles">, This Surprising Item Is More Valuable Than Gold In A Crisis..."</span></h1>
+		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?><span class="titles">,This Surprising Item Is More Valuable Than Gold In A Crisis..."</span></h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<iframe src="//fast.wistia.net/embed/iframe/j04u9rv7k5" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
