@@ -145,7 +145,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 					<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
 					  <ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
 						<li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
-						<li><i class="fa-li fa fa-check"></i>Califovrnia Wonder Bell Pepper - over 70 seeds </li>
+						<li><i class="fa-li fa fa-check"></i>California Wonder Bell Pepper - over 70 seeds </li>
 						<li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
 						<li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
 						<li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>
