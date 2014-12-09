@@ -623,7 +623,7 @@ class Product {
 				$productObj->shippingIdDomestic = 5;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 1.95;
-				$productObj->shippingCostInternational = 0;
+				$productObj->shippingCostInternational = 1.95;
 				$productObj->mpsId = 194;
 				//Limelight
 				$productObj->price = 0;
@@ -634,7 +634,7 @@ class Product {
 				$productObj->googleProductSKU = "PID194";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
 				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee";
-				$productObj->metaDescription = "Food4Patriots free Survival Coffee Offer";
+				$productObj->metaDescription = "Food4Patriots Free Survival Coffee Offer";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -643,7 +643,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
-
+			case 196: // Not-free Coffee Offer
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = null;
+				$productObj->tags = "30COFFEE";
+				$productObj->shippingIdDomestic = 20;
+				$productObj->shippingIdInternational = 21;
+				$productObj->shippingCostDomestic = 1.95;
+				$productObj->shippingCostInternational = 1.95;
+				$productObj->mpsId = 194;
+				//Limelight
+				$productObj->price = 9.95;
+				$productObj->originalPrice = 9.95;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = "F4P-30COFpd";
+				$productObj->googleProductSKU = "PID196";
+				$productObj->googleProductCategory = "1-PAY-9.95";
+				$productObj->metaTitle = "Food4Patriots 30 SERVING Survival Coffee Offer";
+				$productObj->metaDescription = "Food4Patriots 30 SERVING Survival Coffee Offer";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 		}
 		return $productObj;	
 	}

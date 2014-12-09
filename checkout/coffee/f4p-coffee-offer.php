@@ -7,20 +7,20 @@ $template["floatingTimer"] = 0; //minutes to pass to the timer / will not displa
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
-$_SESSION['productId'] = 194; //please keep as an integer
+$_SESSION['productId'] = 196; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 3;
 include_once("Product.php");
 $productObj = new Product();
 
-$submitButtonSource = "/assets/images/buttons/btn-rush-free-coffee-01.png";
+$submitButtonSource = "/assets/images/buttons/btn-rush-coffee-01.png";
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
-$platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
+$platform->setCsrOrderFormUrl("/checkout/coffee/f4p-coffee-offer.php");
 
 
 ?>
@@ -36,22 +36,25 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
     		<div style="padding-top: 0px; padding-right:20px;">
                 <div class="row">
                 	<div class="col-lg-12">
-                    	<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Coffee<br>Is Almost Gone...</strong></h2>
+                    	<h2 class="red21 text-center nomargin"><strong>WARNING: Survival Coffee<br>Is Almost Gone...</strong></h2>
                 	</div>
 
 	<div class="col-lg-12 text-center center-block hidden-xs" style="text-align:center;max-width:80%;float:none !important;">
 		                <script type="text/javascript" src="//reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?responsive=1&autoResponsive=1&container=evp-J9E01DERU8"></script><div id="evp-J9E01DERU8" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA=="></div>
                     </div>
                     <div class="col-lg-12 margin-b-10 coffee-checkout">
-						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
-						<p>Get 30 servings of my survival coffee <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
+						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life
+							survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
+						<p>Get 30 servings of my survival coffee for $9.95 while supplies last! Here’s exactly what you’ll get:</p>
 						<ul>
-                            <li>30 mouth-watering servings of my first-ever survival coffee packed in a special triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
+                            <li>30 mouth-watering servings of my first-ever survival coffee packed in a special
+	                            triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
                             <li>This survival coffee tastes so good, and is a snap to make. Just add hot water!</li>
-                            <li>100% Non-GMO, 100% Colombian grown, 100% Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
+                            <li>100% Non-GMO, 100% Colombian grown, 100% Arabica coffee beans go from tree, to
+	                            freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
                             <li>Shipped right to your door via USPS First Class Mail.</li>
 						</ul>
-						<p><strong>Regularly priced at $9.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
+						<p><strong>Just $9.95 per kit while while supplies last –</strong> claim your coffee before someone else does!</p>
 					</div>
                     <div class="col-lg-12 text-center hidden-xs">
                     	<img src="/assets/images/buttons/btn-order-now-orange-left-01.png" alt="Frank" class="img-responsive center-block">
