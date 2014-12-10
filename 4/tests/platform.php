@@ -1,5 +1,5 @@
 <?php
-include_once("Platform.php");
+include_once("platform.php");
 $platformOjb = new Platform();
 $platformOjb->renderCsrModal("order");
 

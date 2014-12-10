@@ -1,5 +1,5 @@
 <?php
-include_once("Product.php");
+include_once("product.php");
 $productObj = new Product();
 
 //$value = $productObj->loadFunnelData();

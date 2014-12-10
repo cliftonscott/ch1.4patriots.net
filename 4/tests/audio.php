@@ -4,13 +4,13 @@ $template["floatingTimer"] = 10; //minutes to pass to the timer / will not displ
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;
-include_once("Product.php");
+include_once("product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-include_once ('template-top.php');
+include_once('template-top.php');
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?> 
+<?php include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 <script src="/js/audio.js"></script>
 
 <div class="container-main">
@@ -78,7 +78,7 @@ if(isMobile() === true) {
     </div>
     
     <div class="col-sm-6 col-md-5">
-    	<?php include_once ('customer-form.php'); ?>
+    	<?php include_once('customer-form.php'); ?>
     </div>
   </div>
 <script>
@@ -97,4 +97,4 @@ if(isMobile() === true) {
 		</div>
 	</div>
 </div>
-<?php include_once ('template-bottom.php'); ?>
+<?php include_once('template-bottom.php'); ?>
