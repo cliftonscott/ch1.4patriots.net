@@ -93,7 +93,6 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 	</div>
    
 </div>
-	</div>
 <?php
 include_once("template-bottom.php");
 ?>
