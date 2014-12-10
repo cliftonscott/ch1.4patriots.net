@@ -8,11 +8,11 @@
 	$(document).ready(function() {
 
 		$("#optin-form").validate({
-			rules: {
-				check1: {
-					required: true
-				}
-			},
+//			rules: {
+//				check1: {
+//					required: true
+//				}
+//			},
 			messages: {
 				check1: '<div class="warning-check"></div>'
 			},
@@ -246,7 +246,7 @@ if(!$pageGreeting) {
 
 					<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
 						<div style="float:left;margin-right:5px;">
-							<input type="checkbox" id="check1" name="check1">
+<!--							<input type="checkbox" id="check1" name="check1">-->
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
 						<div id="terms"></div>
