@@ -41,9 +41,9 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
 						<p>Get 30 servings of my survival coffee <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
 						<ul>
-							<li>30 mouth-watering servings of my first-ever survival coffee packed in a special triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
-							<li>This survival coffee tastes so good, and is a snap to make. Just add hot water!</li>
-							<li>100% Non-GMO, 100% Colombian grown, 100% Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
+							<li>30 mouth-watering servings of the first-ever survival coffee packed in a special triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
+							<li>This survival coffee tastes great and is easy to make. Just add hot water!</li>
+							<li>100% Colombian non-GMO Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
 							<li>Shipped right to your door via USPS First Class Mail.</li>
 						</ul>
 						<p><strong>Regularly priced at $9.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
