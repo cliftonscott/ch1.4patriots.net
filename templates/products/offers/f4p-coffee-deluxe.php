@@ -260,7 +260,7 @@ if(!$pageGreeting) {
 			}
 			?>
 			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5 for a burnt Starbucks latte than <span  style="letter-spacing:-.5px;">$0.16 for a cup of coffee that has a guaranteed shelf-life of 25 years</span>
+				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5.00+ for a burnt Starbucks latte than $0.16 for a cup of delicious coffee that has a guaranteed shelf-life of 25 years
 			</div>
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
