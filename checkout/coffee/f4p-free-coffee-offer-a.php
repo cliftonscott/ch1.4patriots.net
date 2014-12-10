@@ -41,9 +41,9 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 						<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
 						<p>Get 30 servings of my survival coffee <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
 						<ul>
-							<li>30 mouth-watering servings of my first-ever survival coffee packed in a special triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
-							<li>This survival coffee tastes so good, and is a snap to make. Just add hot water!</li>
-							<li>100% Non-GMO, 100% Colombian grown, 100% Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
+							<li>30 mouth-watering servings of the first-ever survival coffee packed in a special triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
+							<li>This survival coffee tastes great and is easy to make. Just add hot water!</li>
+							<li>100% Colombian non-GMO Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
 							<li>Shipped right to your door via USPS First Class Mail.</li>
 						</ul>
 						<p><strong>Regularly priced at $9.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
@@ -67,11 +67,11 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 	<div class="center">
 		<div>
 			<div class="references">
-				<p>Research References</p>
-				<p style="font-size: 12px; line-height:1.25;">
+				<p style="margin:0 auto; width:560px;">Research References</p>
+				<p style="font-size: 12px; line-height:1.25; margin:0 auto; max-width:560px;">
 					1. <em>Harvard School of Public Health.</em> “Coffee By the Numbers.” 2010.<br>
-					2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013. <br>
-					3.  National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>
+					2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013.<br>
+					 3.  National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>
 					4. Nagourney, <em>The New York Times.</em> “Vital Signs: Aging; A Pick-Me-Up for Sagging Mental Acuity.” 2002.<br>
 					5. Ferdman, <em>The Washington Post.</em> “Almost Half of the World Actually Prefers Instant Coffee.” 2014.<br>
 					6. Baldwin, <em>The Atlantic.</em> “Arabica vs. Robusta: No Contest.” 2009.<br>
@@ -93,7 +93,6 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 	</div>
    
 </div>
-	</div>
 <?php
 include_once("template-bottom.php");
 ?>

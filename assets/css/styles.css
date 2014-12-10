@@ -31,18 +31,17 @@ p {
 	padding-bottom:23px;
 }
 .coffee-checkout{
-    font-size:14px;
+    font-size:15px;
 }
 .references {
     color: #767676;
     font-style: normal;
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: left;
-    max-width: 660px;
+    max-width: 760px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
+    margin-bottom:20px;
 }
 .hidden-button-coffee {
     padding-bottom:0px;
