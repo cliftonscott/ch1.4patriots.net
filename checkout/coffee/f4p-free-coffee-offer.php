@@ -72,8 +72,8 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer.php");
 	<div class="center">
 		<div>
 			<div class="references">
-				<p>Research References</p>
-				<p style="font-size: 12px; line-height:1.25;">
+				<p style="margin:0 auto; width:560px;">Research References</p>
+				<p style="font-size: 12px; line-height:1.25; margin:0 auto; max-width:560px;">
 					1. <em>Harvard School of Public Health.</em> “Coffee By the Numbers.” 2010.<br>
 					2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013.<br>
 					 3.  National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>

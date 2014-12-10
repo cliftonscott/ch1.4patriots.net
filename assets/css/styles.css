@@ -36,10 +36,8 @@ p {
 .references {
     color: #767676;
     font-style: normal;
-    padding-left: 50px;
-    padding-right: 50px;
     text-align: left;
-    max-width: 660px;
+    max-width: 760px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
