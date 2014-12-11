@@ -8,6 +8,16 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 } else {
 	$firstName = "Fellow Patriot";
 }
+//set custom text for included template
+$pageGreeting = $firstName . ", congratulations for making the great decision to get your Food4Patriots Coffee Kit today.";
+$pageSentence1 = "&nbsp;";
+$pagePurchasedProduct = "This special sale offer is ONLY for customers who have already purchased the Food4Patriots Coffee kit.";
+$pageShipping = "Because we're already going to be sending you your Food4Patriots Coffee";
+
+
+
+
+
 
 // SET PRODUCT ID
 $_SESSION['productId'] = 40; //please keep as an integer
