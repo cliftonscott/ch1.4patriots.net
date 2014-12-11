@@ -1,4 +1,20 @@
-<script src="/js/zoommain.js"></script>
+<?php
+// set some default on page variables in case they aren't set in the parent template
+if(!$pageGreeting) {
+	$pageGreeting = $firstName . ", congratulations for making the great decision to get the 3-month Food4Patriots kit.";
+}
+if(!$pageSentence1) {
+	$pageSentence1 = "A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;";
+}
+if(!$pagePurchasedProduct) {
+	$pagePurchasedProduct = "This special sale offer is ONLY for customers who have already purchased the 3-month Food4Patriots kit.";
+}
+if(!$pageShipping) {
+	$pageShipping = "Because we're already going to be sending you a 3-month kit";
+}
+
+	?>
+	<script src="/js/zoommain.js"></script>
 <style>
 	.magnify {
 		max-width: 700px;
@@ -105,11 +121,10 @@
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 		</div>
 		<div style="margin-top:50px;">
-			<p><?php echo $firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
+			<p><?php echo $pageGreeting;?></p>
 			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
 			<p>But before you move on, I've got a <strong>special 1-time offer</strong> for you... </p>
-			<p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
-			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
+			<p><?php echo $pageSentence1;?></p>
 		</div>
 		<div>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a ONE YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
@@ -117,6 +132,7 @@
 			<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a 1-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies…you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 
 			<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 		</div>
 	</div>
 	<?php include("f4p-1year-glenbeck.html");?>
@@ -124,7 +140,7 @@
 	<div class="container oto-width">
 		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you upgrade today!</p>
-		<p>Because we're already going to be sending you a 3-month kit, we can add the 1Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+		<p><?php echo $pageShipping;?>, we can add the 1Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
 		<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 
 		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
