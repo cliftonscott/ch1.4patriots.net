@@ -130,7 +130,7 @@ if(!$pageGreeting) {
 			<div>
 					<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-01.jpg"  alt="Food4Patriots Coffee Kit"/>
 			</div>
-			<p>I’m going to give you a whopping 600 servings of my delicious survival coffee – 100% Arabica, 100% Colombian, Non-GMO, and packaged to be fresh for 25 years… for just one small payment of $97.</p>
+			<p>I’m going to give you a whopping 600 servings of my delicious survival coffee – 100% Colombian non-GMO Arabica coffee beans packaged to be fresh for 25 years… for just one small payment of $97.</p>
 			<p><strong>That’s right. For only about .16 per cup, you will have a stockpile of the richest, best-tasting, most aromatic coffee available.</strong></p>
 			<p>Compared to the $5.00 you’d shell out for just one foofy coffee drink from Starbucks, that’s mind-boggling!</p>
 			<p>Now, I can almost hear the wheels turning in your head right now…</p>
@@ -140,7 +140,7 @@ if(!$pageGreeting) {
 			<p>That’s why I’d suggest you jump on this opportunity, while there’s still time.</p>
 			<p><strong>Here’s exactly what you’ll get:</strong></p>
 			<ul>
-			<li>600 servings of 100% Colombian, 100% Arabica (the finest beans on Earth) Non-GMO instant coffee – just add hot water!
+			<li>600 servings of 100% Colombian non-GMO Arabica (the finest beans on Earth) instant coffee – just add hot water!
 				<li>Comes packaged in 10 space-age, triple layered, air-tight re-sealable Mylar pouches of 60 servings each to keep coffee super-fresh for 25 years!</li>
 				<li>Coffee that goes straight from the tree, to the freeze-dryer, to package, to your cup!</li>
 				<li>Also comes with discreet burlap bag and plastic tote that stacks & stores easily with your other food stockpiles and emergency supplies.</li>
@@ -259,7 +259,7 @@ if(!$pageGreeting) {
 			<?php
 			}
 			?>
-			<div class="noThanks">
+			<div class="noThanks" style="max-width:600px;">
 				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5.00+ for a burnt Starbucks latte than $0.16 for a cup of delicious coffee that has a guaranteed shelf-life of 25 years
 			</div>
 			<div class="outLineBoxDarkBlue">
