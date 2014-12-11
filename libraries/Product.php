@@ -688,9 +688,13 @@ class Product {
 				"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
 			),
 			"oto1" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
-				"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
+				"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
 			),
+//			"oto1" => array (
+//				"nextUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
+//				"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
+//			),
 			"oto2" => array (
 				"pidVariableNextUrl" => true,
 				18 => array (
