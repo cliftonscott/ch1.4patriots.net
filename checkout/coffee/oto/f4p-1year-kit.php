@@ -10,12 +10,14 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 }
 //set custom text for included template
 $pageGreeting = $firstName . ", congratulations for making the great decision to get your Food4Patriots Coffee Kit today.";
-$pageSentence1 = "&nbsp;";
+$pageSentence1 = <<<EOD
+A lot of folks have told me that while they love having their coffee kits on hand, they feel that it’s simply not
+enough to ensure their safety if things went south… especially given the scary state of affairs in this country and
+the constant threat of natural disasters. In fact, the most common question we get is, “What about food?”
+EOD;
+
 $pagePurchasedProduct = "This special sale offer is ONLY for customers who have already purchased the Food4Patriots Coffee kit.";
 $pageShipping = "Because we're already going to be sending you your Food4Patriots Coffee";
-
-
-
 
 
 
