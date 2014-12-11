@@ -130,7 +130,7 @@ if(!$pageGreeting) {
 			<div>
 					<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-01.jpg"  alt="Food4Patriots Coffee Kit"/>
 			</div>
-			<p>I’m going to give you a whopping 600 servings of my delicious survival coffee – 100% Colombian non-GMO Arabica coffee beans packaged to be fresh for 25 years… for just one small payment of $97.</p>
+			<p>I’m going to give you a whopping 600 servings of my delicious survival coffee – 100% Colombian non-GMO Arabica coffee packaged to be fresh for 25 years… for just one small payment of $97.</p>
 			<p><strong>That’s right. For only about .16 per cup, you will have a stockpile of the richest, best-tasting, most aromatic coffee available.</strong></p>
 			<p>Compared to the $5.00 you’d shell out for just one foofy coffee drink from Starbucks, that’s mind-boggling!</p>
 			<p>Now, I can almost hear the wheels turning in your head right now…</p>
