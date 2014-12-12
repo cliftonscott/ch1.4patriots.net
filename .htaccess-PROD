@@ -30,5 +30,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /order/index.php [L]
 </IfModule>
 
-
+php_value session.cookie_lifetime 5400
+php_value session.gc_maxlifetime 5400
 php_value auto_prepend_file "/var/www/vhosts/secure.food4patriots.com/includes/AUTO-PREPEND-PROD.php"
