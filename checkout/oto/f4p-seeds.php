@@ -42,7 +42,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 <div class="container oto-width">
 		<div>
-		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?><span class="titles">, This Surprising Item Is More Valuable Than Gold In A Crisis..."</span></h1>
+		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?><span class="titles">,This Surprising Item Is More Valuable Than Gold In A Crisis..."</span></h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<iframe src="//fast.wistia.net/embed/iframe/j04u9rv7k5" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
@@ -116,7 +116,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 			<ul>
 			  <li>“Can I really feed my family from a garden if I have to?” </li>
 			  <li>“How do I know the seeds will grow where I live?” </li>
-			  <li>“How to do I plant and harvest them? I don’t have a ‘green thumb!” </li>
+			  <li>“How to do I plant and harvest them? I don’t have a "green thumb!” </li>
 			  <li>“How do I know my seeds will be safe year after year?” </li>
 			</ul>
 			<p>The truth is most people are woefully unprepared for ANY disruption in the food supply (notice how bread and milk disappear from stores as soon as there is a hint of heavy rain or snow in the forecast?). I didn’t want that for my family, and I don’t want it for you. </p>
@@ -145,7 +145,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 					<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
 					  <ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
 						<li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
-						<li><i class="fa-li fa fa-check"></i>Califovrnia Wonder Bell Pepper - over 70 seeds </li>
+						<li><i class="fa-li fa fa-check"></i>California Wonder Bell Pepper - over 70 seeds </li>
 						<li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
 						<li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
 						<li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>

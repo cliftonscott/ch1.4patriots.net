@@ -461,7 +461,7 @@ Setting Your Family Up To Starve…&quot;</h3>
 					<div class="inner medium-size800 pad-30 no-pad-top">
 					<p>I know most people couldn&rsquo;t afford to spend $5,000, $10,000 or even $30,000 on a stockpile. </p>
 					<p>Which is why the biggest question a lot of people probably have right now is… &ldquo;how much does it cost?&rdquo;</p>
-					<p>Honestly, this was a big issue for me and might be a deal-breaker for you. I feel like you can&rsquo;t put a price on food independence and the peace of mind that gives.</p>
+					<p>Honestly, this was a big issue for me and might be a deal-breaker for you. I feel like you can&rsquo;t put a price on food independence and the peace of mind that it gives.</p>
 					<p>Now I know every family is different. There&rsquo;s no &ldquo;one size fits all&rdquo; survival food solution.</p>
 					<p>So I&rsquo;ve put together different Food4Patriots kits based on servings to feed one adult, and you can customize your kit to keep your family healthy and happy. </p>
 					<img src="/letter/images/f4p-l-empty-pockets.jpg" class="media left" style="margin-bottom:10px;">

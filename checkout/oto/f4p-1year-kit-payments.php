@@ -79,7 +79,7 @@ if($isUpgrade) {
 					<input type="checkbox" id="check1" name="check1">
 						<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 				</div>
-				<div style="line-height: 1.2;">I want to add the 1 Year Food4Patriots Kit to my order at the 1-time discount sale price of $597 today plus two more payments of $597 30 days apart. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds.</div>
+				<div style="line-height: 1.2;">I want to add the 1 Year Food4Patriots Kit to my order at the one-time discount sale price of $597 today plus two more payments of $597 thirty days apart. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds.</div>
 				</div>
 
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
