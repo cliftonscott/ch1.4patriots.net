@@ -43,6 +43,16 @@ p {
     margin-top: 20px;
     margin-bottom:20px;
 }
+.references-title {
+    margin:0 auto;
+    max-width:560px;
+}
+.references-content {
+    font-size: 12px;
+    line-height:1.25;
+    margin:0 auto;
+    max-width:560px;
+}
 .hidden-button-coffee {
     padding-bottom:0px;
     margin-bottom:-20px;
