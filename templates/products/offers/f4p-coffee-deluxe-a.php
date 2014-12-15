@@ -90,13 +90,13 @@ if(!$pageGreeting) {
 		<div><h1 class="darkRed text-center">Survival Coffee May Be More Valuable Than Gold In A Crisis...</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<iframe src="//reboot.evsuite.com/Q29mZmVlIE9UTzEgNjAwIFNlcnZpbmdzLUFpbWVlIENPTVBSRVNTRUQubXA0/?mode=iframe" width="660" height="380" frameborder="0" allowfullscreen></iframe>
+			<iframe src="http://reboot.evsuite.com/Q29mZmVlX09UTzFfNjAwU2VydmluZ19UaW1teV9DT01QUkVTU0VELm1wNA==/?mode=iframe" style="max-width:642px;" width="660" height="380" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div id="buyButton" class="hidden-button-coffee" style="display:none;">
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $97</div></a></div>
 		</div>
 		<div style="margin-top:50px;">
-			<p>Congratulations on placing your order with us today.</p>
+			<p><strong>Congratulations on placing your order with us today.</strong></p>
 			<p>Your free 30 servings of Food 4 Patriots survival coffee is on its way to you.</p>
 			<p>But I need to tell you about something before your order is 100% processed.</p>
 			<p>Here’s the problem: you don’t know when a crisis may actually occur.</p>
@@ -109,7 +109,7 @@ if(!$pageGreeting) {
 			<p>You’ve got a full 30 cups coming to you, but I also want you to think about something for just a second.</p>
 			<img src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
 			<p>Imagine you wake up one morning and flip on the television and you find complete chaos.</p>
-			<p>Something terrible has happened, and you don’t even know what yet.</p>
+			<p><em>Something terrible has happened, and you don’t even know what yet.</em></p>
 			<p>Through the smoke and the crowds on television you see battered reporters trying to make sense of what just happened. You see mobs of people who have taken to the streets in violent gangs starting to loot stores in your city or town.</p>
 			<p>You don’t know the scale of the event, and you don’t know when… or if it will end.</p>
 			<p>Your family, scared out of their wits, comes into the room with you and looks to you for guidance…</p>
@@ -130,7 +130,7 @@ if(!$pageGreeting) {
 			<p>Since you were one of the people who immediately saw the value of our Food 4 Patriots free coffee offer… I’m going to give you something even better.</p>
 			<p>At the bottom of this page there’s a button that says <strong>“Click to Accept.”</strong></p>
 			<p>When you click it, I’ll add my Food 4 Patriots Coffee Kit to your order for just one additional payment of $97.00.</p>
-			<p>Let me tell you what you’re going to get here.</p>
+			<p>Let me tell you what you’re going to get here...</p>
 			<div>
 					<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-01.jpg"  alt="Food4Patriots Coffee Kit"/>
 			</div>
@@ -165,21 +165,24 @@ if(!$pageGreeting) {
 			<p>Keep in mind, this offer is exclusive ONLY to people who just ordered our 30 cup offer, and that means you.  This will be <strong>the only time you see it at this incredible price.</strong></p>
 			<p>Oh, and I’ll gladly pay the shipping, that’s on me, it’s the least I can do to get this into your hands today.</p>
 			<p>And one last thing… like everything other product we sell, you get my outrageous double guarantee which goes a little something like this:</p>
-			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-					<strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p>
-				<p>And then there’s…</p>
-				<div class="clearfix"></div>
+			<div class="outLineBoxDarkBlueCoffee">
+				<div style="vertical-align: center;"><p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
+					<strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted
+					with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p></div>
 			</div>
-			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20" style="padding-right:">
-					<strong>Guarantee #2 –</strong> (This is where my accountants think I might have lost it a little) This is my completely unheard of 300% money back guarantee. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised, or has gone bad… you can return the entire batch and I’ll give you triple your money back. </p>
-				<div class="clearfix"></div>
+			<div class="betweenGuarantees" style="max-width:600px;" style="margin-bottom">
+				And then there's...
+			</div>
+			<div class="outLineBoxDarkBlueCoffee">
+				<div style="vertical-align: center;"><p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media" style="padding-right:10px;">
+				<strong>Guarantee #2 –</strong> (This is where my accountants think I might have lost it a little) This is my completely unheard of
+					300% money back GUARANTEE. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised,
+					or has gone bad… you can return the entire batch and I’ll give you triple your money back.</p></div>
 			</div>
 			<p>That’s about the best I can do to prove just how much I stand behind this product and its quality.</p>
 			<p>That’s all I’ve got.</p>
 			<p>Believe it or not, coffee can be an amazing equalizer in a crisis… it provides a familiar routine and a sense of calm and focus, even when everything else could be swirling in chaos.</p>
-			<p>Get your additional supply right away, <strong>Click the “Click to Accept”</strong> button below now:</p>
+			<p>Get your additional supply right away, Click the <strong>“Click to Accept”</strong> button below now:</p>
 		</div>
 	</div>
 
@@ -243,16 +246,16 @@ if(!$pageGreeting) {
 			<div class="noThanks" style="max-width:600px;">
 				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5.00+ for a burnt Starbucks latte than $0.16 for a cup of delicious coffee that has a guaranteed shelf-life of 25 years
 			</div>
-			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-					<strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p>
-				<p>And then there’s…</p>
-				<div class="clearfix"></div>
+			<div class="outLineBoxDarkBlueCoffee">
+				<div style="vertical-align: center;"><p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
+						<strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted
+						with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p></div>
 			</div>
-			<div class="outLineBoxDarkBlue">
-				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20" style="padding-right:">
-					<strong>Guarantee #2 –</strong> (This is where my accountants think I might have lost it a little) This is my completely unheard of 300% money back guarantee. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised, or has gone bad… you can return the entire batch and I’ll give you triple your money back. </p>
-				<div class="clearfix"></div>
+			<div class="outLineBoxDarkBlueCoffee" style="min-height:240px;">
+				<div style="vertical-align: center;"><p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media" style="padding-right:10px;">
+						<strong>Guarantee #2 –</strong> This is my completely unheard of
+						300% money back GUARANTEE. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised,
+						or has gone bad… you can return the entire batch and I’ll give you triple your money back.</p></div>
 			</div>
 		</div>
 	</div>

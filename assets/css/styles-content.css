@@ -374,6 +374,14 @@ article.content .effective-date {
 	margin-left: auto;
 	margin-right: auto;
 }
+.betweenGuarantees {
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align:center;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .noThanks a {
 font-weight:bold;
 } 
@@ -444,6 +452,16 @@ font-weight:bold;
 	border: 2px solid #125597;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+.outLineBoxDarkBlueCoffee {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+    padding: 20px;
+    border: 2px solid #125597;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height:230px;
 }
 .outLineBoxDarkBlue h3 {
 	display:inline;
