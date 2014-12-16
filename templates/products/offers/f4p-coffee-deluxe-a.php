@@ -29,8 +29,8 @@
 	$(document).ready(function(){
 
 		var hours = 0;
-		var minutes = 6;
-		var seconds = 37;
+		var minutes = 3;
+		var seconds = 45;
 		// Start by converting hours to milliseconds
 		var time = hours * 60 * 60 * 1000;
 
