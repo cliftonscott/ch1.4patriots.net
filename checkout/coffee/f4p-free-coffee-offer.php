@@ -64,33 +64,9 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 				<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-19.jpg" /></div>
 			</div>
 		</div>
-		<div class="center">
-			<div>
-				<div class="references">
-					<p class="references-title">Research References</p>
-					<p class="references-content">
-						1. <em>Harvard School of Public Health.</em> “Coffee By the Numbers.” 2010.<br>
-						2. Fernau, <em>USA Today.</em> “Coffee Grinds Fuel for the Nation.” 2013.<br>
-						 3. National Coffee Association. “2014 National Coffee Drinking Trends.” 2014.<br>
-						4. Nagourney, <em>The New York Times.</em> “Vital Signs: Aging; A Pick-Me-Up for Sagging Mental Acuity.” 2002.<br>
-						5. Ferdman, <em>The Washington Post.</em> “Almost Half of the World Actually Prefers Instant Coffee.” 2014.<br>
-						6. Baldwin, <em>The Atlantic.</em> “Arabica vs. Robusta: No Contest.” 2009.<br>
-						7. Grush, <em>Fox News.</em> “Increasing Daily Coffee Consumption May Protect Against Type 2 Diabetes.” 2014.<br>
-						8. Arnette, <em>The National Institutes of Health (NIH).</em> “Coffee May Boost Learning Potential.” 2012.<br>
-						9. Kilmas, <em>The Blaze.</em> “Is Coffee Good or Bad for You?” 2014.
-				</div>
-			</div>
-
-			<!--		<table width="70%" style="margin-right:auto;margin-left:auto;margin-bottom:20px;">-->
-			<!--			<tr style="text-align:center;">-->
-			<!--				<td><a name="trustlink" href="http://secure.trust-guard.com/security/8491" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img name="trustseal" alt="Security Seals" style="border: 0;" src="//dw26xg4lubooo.cloudfront.net/seals/security/8491-large.gif" /></a></td>-->
-			<!--				<td>  <a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869"-->
-			<!--						 target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869"-->
-			<!--											  alt="HONESTe Seal - Click to verify before you buy!" border="0"></a></td>-->
-			<!--				<td><img src="/assets/images/checkout/trustseals-usa-01.gif" width="110" height="82" alt="Made In The USA"></td>-->
-			<!--			</tr>-->
-			<!--		</table>-->
-		</div>
+		<!-- Start References -->
+		<?php include("snippets/checkout-coffee-references.html");?>
+		<!-- End References -->
 
 	</div>
 <?php

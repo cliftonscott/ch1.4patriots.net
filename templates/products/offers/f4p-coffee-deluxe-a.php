@@ -90,7 +90,7 @@ if(!$pageGreeting) {
 		<div><h1 class="darkRed text-center">Survival Coffee May Be More Valuable Than Gold In A Crisis...</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<iframe src="http://reboot.evsuite.com/Q29mZmVlX09UTzFfNjAwU2VydmluZ19UaW1teV9DT01QUkVTU0VELm1wNA==/?mode=iframe" style="max-width:642px;" width="660" height="380" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://reboot.evsuite.com/Q29mZmVlX09UTzFfNjAwU2VydmluZ19UaW1teV9DT01QUkVTU0VELm1wNA==/?mode=iframe" style="max-width:642px;" width="660" height="380" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div id="buyButton" class="hidden-button-coffee" style="display:none;">
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $97</div></a></div>
@@ -170,7 +170,7 @@ if(!$pageGreeting) {
 					<strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted
 					with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p></div>
 			</div>
-			<div class="betweenGuarantees" style="max-width:600px;" style="margin-bottom">
+			<div class="betweenGuarantees">
 				And then there's...
 			</div>
 			<div class="outLineBoxDarkBlueCoffee">
