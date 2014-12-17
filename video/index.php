@@ -146,7 +146,7 @@ if (isMobile()) {
 					<?php
 					if($variation === "pu") {
 						?>
-						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?profile=no-autoplay&container=evp-0H6AGUENXM"></script><div id="evp-0H6AGUENXM" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?profile=no-autoplay&container=evp-0H6AGUENXM"></script><div id="evp-0H6AGUENXM" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
 						<script type="text/javascript">
 							window.addEventListener("focus", function(event)
 								{ startTimer(); }
