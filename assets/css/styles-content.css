@@ -94,9 +94,9 @@ h1 {
 }
 
 .testimonial-audio {
-max-width: 90%; 
-margin-right: auto; 
-margin-left: auto;
+	max-width: 90%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .testimonial-audio-image {
@@ -173,24 +173,24 @@ article.content .effective-date {
 /* LOADING DIV
 -------------------------------------------------- */
 #LoadingDiv{
-  margin:0px 0px 0px 0px;
-  position:fixed;
-  height: 100%;
-  z-index:9999;
-  padding-top:350px;
-  width:100%;
-  clear:none;
-  background:url("/assets/images/misc/trans.png");
-  text-align:center;
-  color:#FFF;
-  font-weight:bold;
-  font-size:20px;
-  /*background-color:#666666;
-  border:1px solid #000000;*/
-  }
+	margin:0px 0px 0px 0px;
+	position:fixed;
+	height: 100%;
+	z-index:9999;
+	padding-top:350px;
+	width:100%;
+	clear:none;
+	background:url("/assets/images/misc/trans.png");
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	/*background-color:#666666;
+	border:1px solid #000000;*/
+}
 /*IE will need an 'adjustment'*/
 * html #LoadingDiv{
-     position: absolute;
+	 position: absolute;
   }
 
 /* THE FLOATING TIMER STYLES
@@ -289,31 +289,40 @@ article.content .effective-date {
 /* Countdown timer on video/index page
 -------------------------------------------------- */
 #countDownTimer {
-    clear:both;
-    text-align: center;
-    margin:auto;
-    font-size:55px;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-    color:#333333;
+	clear:both;
+	text-align: center;
+	margin:auto;
+	font-size:55px;
+	font-weight: bold;
+	font-family: 'Allerta Stencil', sans-serif;
+	color:#333333;
 }
 
-/* References on video/index page
+/* References on video/index/checkout page
 -------------------------------------------------- */
-
 #video-references {
 	color: #767676;
 	font-style: normal;
 	max-width: 745px;
-	margin-right: auto;
-	margin-left: auto;
+	margin:0 auto;
 }
 #video-references p{
 	font-size: 12px;
 	font-family: sans-serif;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	line-height: 14px;
+}
+#checkout-references {
+	color: #767676;
+	font-style: normal;
+	max-width: 580px;
+	margin: 20px auto;
+}
+#checkout-references p{
+	font-size: 12px;
+	line-height:1.25;
+	margin:0 auto;
 }
 /* CHECKOUT PAGE STYLES 
 -------------------------------------------------- */
@@ -337,20 +346,20 @@ article.content .effective-date {
 }
 #checkoutMenu .panel-heading{
 	color: #000000;
-    background-image: url(/assets/images/checkout/box-unchecked.png);
-    background-position: 5px 10px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    background-size: 20px 20px;
+	background-image: url(/assets/images/checkout/box-unchecked.png);
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-size: 20px 20px;
 }
 #checkoutMenu .active-panel{
 	background-color: #67BC07;
 	color: #FFFFFF !important;
-    background-image: url(/assets/images/checkout/box-checked.png);
-    background-position: 5px 10px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    background-size: 20px 20px;
+	background-image: url(/assets/images/checkout/box-checked.png);
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-size: 20px 20px;
 }
 .productList {
 	max-width: 310px;
@@ -360,7 +369,13 @@ article.content .effective-date {
 	margin-top:30px;
 	margin-bottom:30px;
 }
-
+.coffee-checkout{
+	font-size:15px;
+}
+.hidden-button-coffee {
+	padding-bottom:0px;
+	margin-bottom:-20px;
+}
 /* OTO PAGE STYLES 
 -------------------------------------------------- */
 .oto-width {
@@ -375,12 +390,12 @@ article.content .effective-date {
 	margin-right: auto;
 }
 .betweenGuarantees {
-    padding-top:0px;
-    padding-bottom:0px;
-    text-align:center;
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto;
+	padding-top:0px;
+	padding-bottom:0px;
+	text-align:center;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .noThanks a {
 font-weight:bold;
@@ -454,14 +469,14 @@ font-weight:bold;
 	margin-bottom: 20px;
 }
 .outLineBoxDarkBlueCoffee {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 700px;
-    padding: 20px;
-    border: 2px solid #125597;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    min-height:230px;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+	padding: 20px;
+	border: 2px solid #125597;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height:230px;
 }
 .outLineBoxDarkBlue h3 {
 	display:inline;
@@ -507,7 +522,7 @@ font-weight:bold;
 
 /* FOOTER DISCLAIMERS */
 div.disclaimer {
-    margin-top:50px;
+	margin-top:50px;
 }
 
 /* ADOBE READER
@@ -547,17 +562,17 @@ img.audioControl {
 /* Bonus Materials
 -------------------------------------------------- */
 .bonus-materials {
-    border:2px solid black;
-    padding:25px;
-    margin: auto;
+	border:2px solid black;
+	padding:25px;
+	margin: auto;
 }
 .bonus-materials h3 {
-    font-weight: bold;
-    color:#CC0000;
-    text-align: center;
+	font-weight: bold;
+	color:#CC0000;
+	text-align: center;
 }
 .bonus-materials p {
-    text-align:center;
+	text-align:center;
 }
 /* More Info Popup
 -------------------------------------------------- */
