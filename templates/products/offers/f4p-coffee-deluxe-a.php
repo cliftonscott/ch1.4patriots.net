@@ -170,7 +170,7 @@ if(!$pageGreeting) {
 					<strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted
 					with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p></div>
 			</div>
-			<div class="betweenGuarantees" style="max-width:600px;" style="margin-bottom">
+			<div class="betweenGuarantees">
 				And then there's...
 			</div>
 			<div class="outLineBoxDarkBlueCoffee">
