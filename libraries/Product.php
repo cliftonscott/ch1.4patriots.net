@@ -630,7 +630,7 @@ class Product {
 				$productObj->originalPrice = 9.95;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
-				$productObj->googleProductName = "F4P-30COF";
+				$productObj->googleProductName = "F4P-C30";
 				$productObj->googleProductSKU = "PID194";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
 				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee";
@@ -659,9 +659,9 @@ class Product {
 				$productObj->originalPrice = 9.95;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
-				$productObj->googleProductName = "F4P-30COFpd";
+				$productObj->googleProductName = "F4P-C30";
 				$productObj->googleProductSKU = "PID196";
-				$productObj->googleProductCategory = "1-PAY-9.95";
+				$productObj->googleProductCategory = "1-PAY-10";
 				$productObj->metaTitle = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				$productObj->metaDescription = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				//Other
@@ -688,7 +688,7 @@ class Product {
 				"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
 			),
 			"oto1" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+				"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php?b=true",
 				"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
 			),
 //			"oto1" => array (
