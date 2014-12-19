@@ -13,6 +13,14 @@ $maxQuantity = 2;
 include_once("Product.php");
 $productObj = new Product();
 
+/////////////////////////////////////
+//FFP-450
+//TODO remove this
+//TEMPORARY CODE FOR A VWO SPLIT TEST
+//REMOVE WHEN CONTROL IS ACHEIVED
+$vwoOriginalPrice = 12.95;
+/////////////////////////////////////
+
 $submitButtonSource = "/assets/images/buttons/btn-rush-free-coffee-01.png";
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);

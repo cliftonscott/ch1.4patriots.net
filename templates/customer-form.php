@@ -41,6 +41,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 			if(taxState === "") {
 				taxState = document.getElementById('billing-state').value.toLowerCase();
 			}
+
 			productPrice = jsProductObj.price * quantity;
 			priceAmount = document.getElementById("priceAmount");
 			priceAmount.innerHTML = "$" + productPrice.toFixed(2);
@@ -69,12 +70,25 @@ if($_SESSION["soldout"]["flag"] === true) {
 					toggleTaxRow("hide");
 					break;
 			}
-			if(jsProductObj.price == 0 && jsProductObj.originalPrice > jsProductObj.price) {
-				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + (jsProductObj.originalPrice * quantity).toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
+/////////////////////////////////////
+//FFP-450
+//TODO remove this
+//TEMPORARY CODE FOR A VWO SPLIT TEST
+//REMOVE WHEN CONTROL IS ACHEIVED
+
+			jsOriginalPriceOverride = "<?php echo $vwoOriginalPrice;?>";
+
+			if(jsOriginalPriceOverride > 0) {
+				jsOriginalPrice = jsOriginalPriceOverride;
+			} else {
+				jsOriginalPrice = jsProductObj.originalPrice;
+			}
+			if(jsProductObj.price == 0 && jsOriginalPrice > jsProductObj.price) {
+				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + (jsOriginalPrice * quantity).toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
 			}
 		});
-	
 	}
+////////////////////////////////////
 	
 	function toggleTaxRow(toggle) {
 		
