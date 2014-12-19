@@ -25,7 +25,6 @@ $submitButtonSource = "/assets/images/buttons/btn-rush-free-coffee-01.png";
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
-$productDataObj->originalPrice = 12.95;
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
