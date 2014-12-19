@@ -81,7 +81,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 			if(jsOriginalPriceOverride > 0) {
 				jsOriginalPrice = jsOriginalPriceOverride;
 			} else {
-				jsOriginalPrice = jsProductObj.originalPrice;
+				jsOriginalPrice = jsProductObj.originalPrice; //original value w/o override
 			}
 			if(jsProductObj.price == 0 && jsOriginalPrice > jsProductObj.price) {
 				priceAmount.innerHTML = "<span style='text-decoration: line-through;font-weight:bold;'>$" + (jsOriginalPrice * quantity).toFixed(2) + "</span> <span style='color:red;font-weight:bold;'>FREE</span>";
