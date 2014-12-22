@@ -225,43 +225,21 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
-				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any 
-				of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you 
-				can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
-				
-				<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is 
-					on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not 
-					really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon 
-					as you have it in your hands.</p>
+				<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
+				<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
 			</div>
-
 			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
-
-			<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1 Year
-				Food4Patriots Kit Plus Bonuses For $1,500.00 Off Right Now! </h2>
-
+			<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1 Year Food4Patriots Kit Plus Bonuses For $1,500.00 Off Right Now! </h2>
 			<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,497.</p>
-				
 			<p>You get a year&rsquo;s worth of delicious survival food for less than $1.11 per serving!</p>
-			
-			<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 
-				22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
-				
-			<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, 
-				so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, 
-				go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1 Year Food4Patriots Kit to your order 
-				today!</p>
-				
-			<p>The 1 Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. 
-				You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
-				
-			<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1 Year 
-				Food4Patriots kit at $700.00 off, click the big green &ldquo;Add To Cart&rdquo; button below.</p>
-
+			<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
+			<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;Add To Cart&rdquo; button below to add the 1 Year Food4Patriots Kit to your order today!</p>
+			<p>The 1 Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
+			<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1 Year Food4Patriots kit at $700.00 off, click the big green &ldquo;Add To Cart&rdquo; button below.</p>
 			<div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
-				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
+				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1500</h2></div>
 
 				<a id="accept"></a>
 
