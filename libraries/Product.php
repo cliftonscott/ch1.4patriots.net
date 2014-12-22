@@ -585,6 +585,29 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
+			case 166: //PPG Deluxe Upgrade - 2 Easy Payment Plan
+				$productObj->pmaSku = null;
+				$productObj->price = 497;
+				$productObj->originalPrice = 497;
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = null; //no international sales
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0; //no international sales
+				$productObj->mpsId = null; //used for MPS
+				$productObj->campaignId = 16;
+				$productObj->netRevenueEach = 448;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 57;
+				$productObj->tags = "ppgDeluxe2pay";
+				$productObj->googleProductName = "PPG-PLATINUM";
+				$productObj->googleProductSKU = "PID166";
+				$productObj->googleProductCategory = "2-PAY-497";
+				$productObj->metaTitle = "PPG Platinum Upgrade - 2 Easy Payment Plan";
+				$productObj->metaDescription = "PPG Platinum Upgrade - 2 Easy Payment Plan";
+				$productObj->defaultQuantity = 1;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
+				break;
 			case 182: // Coffee Offer
 				//process file
 				$productObj->campaignId = 9;
