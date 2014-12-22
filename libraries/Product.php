@@ -784,6 +784,7 @@ class Product {
 
 		$validFunnels = array (
 			"/checkout/coffee/" => "freecoffee",
+			"/checkout/1year-firesale/" => "1year-firesale",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];
@@ -793,6 +794,7 @@ class Product {
 				$_SESSION["Funnel"]["name"] = $funnel;
 			}
 		}
+
 	}
 
 	function setStep($step) {
@@ -817,7 +819,10 @@ class Product {
 
 	function initFunnel($step) {
 
-		$initData = self::getFunnelData("freecoffee",$step);
+		$currentFunnel = self::getFunnel();
+
+		$initData = self::getFunnelData($currentFunnel["name"],$step);
+
 		self::setStep($step);
 		return $initData;
 	}
