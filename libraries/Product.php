@@ -749,6 +749,7 @@ class Product {
 			"checkout" => array (
 				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator.php",
 				"declineUrl" => null,
+				"customPrice" => 1497,
 			),
 			"oto1" => array (
 				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",

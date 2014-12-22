@@ -71,7 +71,8 @@
 				}
 				?>
 				<div class="noThanks">
-					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+				</div>
 			</div>
 
 		</div>
