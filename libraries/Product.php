@@ -776,15 +776,15 @@ class Product {
 			),
 			"oto1" => array (
 				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
-				"declineUrl" => "/checkout/1year-firesale/f4p-generator-payments.php",
+				"declineUrl" => "/checkout/1year-firesale/oto/f4p-generator-payments.php",
 			),
 			"oto1b" => array (
-				"nextUrl" => "/checkout/1year-firesale/f4p-generator-platinum.php",
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
 				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
 			),
 			"oto2" => array (
 				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
-				"declineUrl" => "/checkout/1year-firesale/f4p-generator-platinum-payments.php",
+				"declineUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum-payments.php",
 			),
 			"oto2b" => array (
 				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
