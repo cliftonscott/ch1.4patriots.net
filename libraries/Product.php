@@ -739,6 +739,35 @@ class Product {
 			),
 		);
 
+		/*
+		 * ============================================
+		 * 1 Year Kit Fire Sale - Temp 
+		 * ============================================
+		*/
+
+		$funnelData["1year-firesale"] = array(
+			"checkout" => array (
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator.php",
+				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
+				"declineUrl" => "/checkout/1year-firesale/f4p-generator-payments.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/1year-firesale/f4p-generator-platinum.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+				"declineUrl" => "/checkout/1year-firesale/f4p-generator-platinum-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+		);
+
 		return $funnelData;
 
 	}
