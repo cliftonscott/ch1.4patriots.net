@@ -15,18 +15,21 @@
 
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
-// THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 5;
-
 include_once("Product.php");
+$productObj = new Product();
+
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
+
 //include template top AFTER the product information is set
 include_once ('template-top.php');
+$platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?> 
+<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 
 <div class="container-main">
 
