@@ -48,7 +48,7 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $200.00 discount</strong> on a ONE YEAR Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
-			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $700.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $1.11 per serving!)</p>
+			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $700.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $0.83 per serving!)</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 		</div>
 </div>
@@ -231,7 +231,7 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
 			<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1 Year Food4Patriots Kit Plus Bonuses For $1,500.00 Off Right Now! </h2>
 			<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,497.</p>
-			<p>You get a year&rsquo;s worth of delicious survival food for less than $1.11 per serving!</p>
+			<p>You get a year&rsquo;s worth of delicious survival food for less than $0.83 per serving!</p>
 			<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 			<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;Add To Cart&rdquo; button below to add the 1 Year Food4Patriots Kit to your order today!</p>
 			<p>The 1 Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
@@ -253,7 +253,9 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 					<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-17.jpg" alt="Food4Patriots Testimonial">
 				</div>
 			</div>
+
 </div>
+	<hr>
 </div>
 
 <!-- START ORDER FORM SECTION -->
@@ -270,19 +272,19 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 					<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 					<div class="panel-heading">
 					<h4 class="panel-title">
-						<div>1 Year Food Supply - $1497 <span class="gray13">($1.11/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+						<div>1 Year Food Supply - $1497 <span class="gray13">($0.83/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 					</h4>
 					</div>
 					</a>
 					<div id="chooseProductThree" class="panel-collapse collapse in">
 						<div class="panel-body">
-						<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-kit-02.jpg" class="img-responsive center-block"></a>
+						<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-kit-05.jpg" class="img-responsive center-block"></a>
 						<div class="nopadding">
 							<div class="row">    
 								<div class="col-sm-12 col-md-6 nopadding">
 								  <div class="productList">
 									<p class="text-center red17"><strong>1 Year Food <br>
-								    Supply Includes:</strong></p>
+									Supply Includes:</strong></p>
 									  <ul>
 										<li>1,800 Servings <a href="#info" id="1yrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 										<li><strong>FREE</strong> Shipping</li>
@@ -296,7 +298,7 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 								<div class="col-sm-12 col-md-6 nopadding">
 								  <div class="productList">
 									<p class="text-center red17"><strong>FREE Hard Copy <br>
-								    Bonus Reports</strong></p>
+									Bonus Reports</strong></p>
 										<ul>
 											<li>Survival 101: How to Bug Out</li>
 											<li>Survive Urban Chaos</li>
@@ -336,10 +338,24 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 					<?php include_once ('customer-form.php'); ?>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-lg-12 hidden-xs">
+					<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
+						<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
+						<img id="beckCheckoutAudioControl" class="audioControl" style="float:right; margin-right: 30px;
+margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');">
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	</div>
 
+	<div class="row">
+		<div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" /></a>
+			<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
+		<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-20.jpg" /></div>
+	</div>
 	<div class="guaranteeBox">
 		<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
 		<p>&nbsp;</p>
