@@ -9,7 +9,7 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 	$firstName = "Fellow Patriot";
 }
 // SET PRODUCT ID
-$_SESSION['productId'] = 174; //please keep as an integer
+$_SESSION['productId'] = 166; //please keep as an integer
 
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
@@ -36,5 +36,5 @@ $declineUrl = $funnelData["declineUrl"];
 
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
-include_once("products/offers/f4p-generator-payments.php");
+include_once("products/offers/f4p-generator-platinum-payments.php");
 include_once("template-bottom.php");
