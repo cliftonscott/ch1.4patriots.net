@@ -19,8 +19,6 @@ class Product {
 	
 	function getProduct($productId) {
 
-		// is #21 new? isn't in old process file 
-		
 		$productObj = new stdClass();
 
 		//TODO move these vars to the Platform.php library
@@ -749,6 +747,7 @@ class Product {
 			"checkout" => array (
 				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator.php",
 				"declineUrl" => null,
+				"customPrice" => 1497,
 			),
 			"oto1" => array (
 				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
