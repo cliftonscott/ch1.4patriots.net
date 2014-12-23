@@ -298,6 +298,19 @@ article.content .effective-date {
 	color:#333333;
 }
 
+/* Countdown styles of endOfDate Timer (used at year end)
+-------------------------------------------------- */
+#endofDateCountDown {
+    background-color: #ffe167;
+    width:100%; height:25px;
+    display:block;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#endofDateCountDown p {
+    color: black;
+}
+
 /* References on video/index/checkout page
 -------------------------------------------------- */
 #video-references {
