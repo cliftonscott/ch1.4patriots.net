@@ -25,6 +25,8 @@ $productObj = new Product();
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
+$platformCountDownToDate = true;
+
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
@@ -32,9 +34,47 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 
 <script src="/js/audio.js"></script>
+<?php
+if($platformCountDownToDate) {
+?>
+<script>
+	jsCountDownTextBox = document.getElementById("endofDateCountDown");
+	var current="Sorry, this sale has ended."
+	var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
 
+	function countdown(yr,m,d){
+		theyear=yr;themonth=m;theday=d
+		var today=new Date()
+		var todayy=today.getYear()
+		if (todayy < 1000)
+			todayy+=1900
+		var todaym=today.getMonth()
+		var todayd=today.getDate()
+		var todayh=today.getHours()
+		var todaymin=today.getMinutes()
+		var todaysec=today.getSeconds()
+		var todaystring=montharray[todaym]+" "+todayd+", "+todayy+" "+todayh+":"+todaymin+":"+todaysec
+		futurestring=montharray[m-1]+" "+d+", "+yr
+		dd=Date.parse(futurestring)-Date.parse(todaystring)
+		dday=Math.floor(dd/(60*60*1000*24)*1)
+		dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1)
+		dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1)
+		dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1)
+		if(dday==0&&dhour==0&&dmin==0&&dsec==1){
+			jsCountDownTextBox.innerHTML = "Sorry, this sale has ended.";
+			return
+		}
+		else
+			//jsCountDownTextBox.innerHTML ="Only "+dday+ " days, "+dhour+" hours, "+dmin+" minutes, and "+dsec+" seconds left until "+before
+			jsCountDownTextBox.innerHTML ="<p>This Year-End Fire Sale Ends in "+dday+ " days, "+dhour+" hours and "+dmin+" minutes!</p>";
+		setTimeout("countdown(theyear,themonth,theday)",1000)
+	}
+	countdown(2015,1,1)
+</script>
+<?php
+}
+?>
 <div class="container-main">
-
 <div id="content" style="display:block;">
 <div class="container oto-width">
 		<div><h1 class="darkRed text-center">Get The Brand-New 1-Year Food4Patriots Kit For $200.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!</h1></div>
