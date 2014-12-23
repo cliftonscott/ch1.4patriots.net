@@ -70,7 +70,7 @@ if($platformCountDownToDate) {
 		else
 			//jsCountDownTextBox.innerHTML ="Only "+dday+ " days, "+dhour+" hours, "+dmin+" minutes, and "+dsec+" seconds left until "+before
 			//jsCountDownTextBox.innerHTML ="<p>This Year-End Fire Sale Ends in "+dday+ " days, "+dhour+" hours and "+dmin+" minutes!</p>";
-			jsCountDownTextBox.innerHTML ="<p>This Year-End Fire Sale Ends in "+dday+ " days, "+dhour+" hours, "+dmin+" minutes and " +dsec+" seconds!</p>";
+			jsCountDownTextBox.innerHTML ="<p>This Year-End Sale Ends in "+dday+ " days, "+dhour+" hours, "+dmin+" minutes and " +dsec+" seconds!</p>";
 		setTimeout("countdown(theyear,themonth,theday)",1000)
 	}
 	countdown(2014,12,31)
@@ -81,26 +81,19 @@ if($platformCountDownToDate) {
 <div class="container-main">
 <div id="content" style="display:block;">
 	<div class="container oto-width">
-		<div><h1 class="darkRed text-center">The Tax Man is Coming For Me - 1-Year Food4Patriots Kits On Sale! <br>[$700.00 Instant Rebate]</h1></div>
+		<div><h1 class="darkRed text-center">The Tax Man is Coming For Me!<br> 1-Year Food4Patriots Kits On Sale <br>[$700.00 Instant Rebate]</h1></div>
 		<div class="text-center">
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
 			<span class="caption"><i>Save $700.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Lifestraw Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 		</div>
 		<div style="margin-top:50px;">
-			<p>Friend & Patriot,</p>
-			<p>Well, it’s been one heck of a year. I’ve had more people than ever claim their Food4Patriots kits…a true sign that people are waking up to all the warning signs around us:</p>
-			<ul>
-				<li>Ebola on American soil (and a potential future pandemic!)</li>
-				<li>Riots and Looting and General Anarchy </li>
-				<li>Amnesty for Illegals (Break the law, get rewarded, right?)</li>
-				<li>Emerging Signs of Obama’s “New World Order”</li>
-			</ul>
-			<p>And the list goes on. While I’m happy that I’ve got more Americans prepared with enough survival food to weather any coming crisis, I have another problem:</p>
+			<p>Dear Friend,</p>
+			<p>I have a problem:</p>
 			<p><strong>The Tax Man.</strong></p>
-			<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 30, 2014!</p>
+			<p>And my pain is your gain.</p>
+			<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, 2014!</p>
 			<p>So, I’m going to do something I’ve never done.</p>
-			<h2 class="darkRed text-center">I’m offering my best “hunger insurance”, my Food4Patriots 1-Year Kit, at a mind-boggling $700 discount during my year end “Fire Sale”!</h2>
-			<p>My loss is your ultimate gain!</p>
+			<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $700.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
 			<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
 			<p>This price is unheard of, folks.</p>
 			<p>Look, I try to price my kits as fair as I can to get as many people as possible prepared for a disaster.</p>

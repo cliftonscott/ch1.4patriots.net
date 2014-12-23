@@ -71,7 +71,7 @@ if($platformCountDownToDate) {
 		else
 			//jsCountDownTextBox.innerHTML ="Only "+dday+ " days, "+dhour+" hours, "+dmin+" minutes, and "+dsec+" seconds left until "+before
 			//jsCountDownTextBox.innerHTML ="<p>This Year-End Fire Sale Ends in "+dday+ " days, "+dhour+" hours and "+dmin+" minutes!</p>";
-			jsCountDownTextBox.innerHTML ="<p>This Year-End Fire Sale Ends in "+dday+ " days, "+dhour+" hours, "+dmin+" minutes and " +dsec+" seconds!</p>";
+			jsCountDownTextBox.innerHTML ="<p>This Year-End Sale Ends in "+dday+ " days, "+dhour+" hours, "+dmin+" minutes and " +dsec+" seconds!</p>";
 		setTimeout("countdown(theyear,themonth,theday)",1000)
 	}
 	countdown(2014,12,31)
