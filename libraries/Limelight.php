@@ -87,7 +87,6 @@ class Limelight {
 		}
 		include_once("Product.php");
 		$productObj = new Product();
-		//var_dump($productObj);
 		if($funnel = $productObj->getFunnel()) {
 			$funnelData = $productObj->initFunnel($funnel["step"]);
 			if($funnelData["customPrice"]) {
