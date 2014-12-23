@@ -306,6 +306,8 @@ article.content .effective-date {
     display:block;
     text-align: center;
     border-bottom: 1px solid black;
+	position: fixed;
+	z-index: 10000;
 }
 #endofDateCountDown p {
     color: black;

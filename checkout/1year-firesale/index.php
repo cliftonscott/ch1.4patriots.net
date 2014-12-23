@@ -33,6 +33,9 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 
+<style>
+	.navbar-default .container {margin-top: 36px !important;}*/
+</style>
 <script src="/js/audio.js"></script>
 <?php
 if($platformCountDownToDate) {
