@@ -37,18 +37,37 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 
 <div id="content" style="display:block;">
 <div class="container oto-width">
-		<div><h1 class="darkRed text-center">Get The Brand-New 1-Year Food4Patriots Kit For $200.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!</h1></div>
+		<div><h1 class="darkRed text-center">The Tax Man is Coming For Me - 1-Year Food4Patriots Kits On Sale! [$700.00 Instant Rebate]</h1></div>
 		<div class="text-center">
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
 			<span class="caption"><i>Save $700.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Lifestraw Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 		</div>
 		<div style="margin-top:50px;">
-			<p>Thank you for being a Food4Patriots customer! I hope that you love you love your Food4Patriots kit and have been sleeping easier at night knowing that you are more prepared for whatever may happen.</p>
-			<p>I've got a special "customers only" offer for you...</p>
-			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
-			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $200.00 discount</strong> on a ONE YEAR Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
-			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
-			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $700.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $0.83 per serving!)</p>
+			<p>Friend & Patriot,</p>
+			<p>Well, it’s been one heck of a year. I’ve had more people than ever claim their Food4Patriots kits…a true sign that people are waking up to all the warning signs around us:</p>
+			<ul>
+				<li>Ebola on American soil (and a potential future pandemic!)</li>
+				<li>Riots and Looting and General Anarchy </li>
+				<li>Amnesty for Illegals (Break the law, get rewarded, right?)</li>
+				<li>Emerging Signs of Obama’s “New World Order”</li>
+			</ul>
+			<p>And the list goes on. While I’m happy that I’ve got more Americans prepared with enough survival food to weather any coming crisis, I have another problem:</p>
+			<p><strong>The Taxman.</strong></p>
+			<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 30, 2014!</p>
+			<p>So, I’m going to do something I’ve never done.</p>
+			<h2 class="darkRed text-center">I’m offering my most solid “hunger insurance” – my Food4Patriots 1-Year Kit, at a mind-boggling $700 discount during my year end “Fire Sale”!</h2>
+			<p>My loss is your ultimate gain!</p>
+			<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a staggeringly low $.83 per meal!</p>
+			<p>This price is unheard of, folks.</p>
+			<p>Look, I try to price my kits as fair as I can to get as many people as possible prepared for a disaster.</p>
+			<p>But offering my food kits at a loss is NOT something I can do long term, or even more than a few days!</p>
+			<p>Don’t forget, my survival food has an amazing shelf-life of 25 years!</p>
+			<p>Each kit comes packaged in space-age, air-tight Mylar pouches locking air out and flavor in! All tucked neatly into convenient, covert, stackable totes that you can store anywhere – garage, basement, cabin, RV, car, or bunker.</p>
+			<p>It’s a snap to prepare, too – just add boiling water, heat ‘n eat.</p>
+			<p>Plus, I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
+			<p>Normally priced at $2,200, I’m offering my Food4Patriots 1-Year Kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
+			<p>That’s below cost, Folks!</p>
+			<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the taxman won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 		</div>
 </div>
