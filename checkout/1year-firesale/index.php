@@ -73,7 +73,7 @@ if($platformCountDownToDate) {
 			jsCountDownTextBox.innerHTML ="<p>This Year-End Fire Sale Ends in "+dday+ " days, "+dhour+" hours, "+dmin+" minutes and " +dsec+" seconds!</p>";
 		setTimeout("countdown(theyear,themonth,theday)",1000)
 	}
-	countdown(2015,1,1)
+	countdown(2014,12,31)
 </script>
 <?php
 }
