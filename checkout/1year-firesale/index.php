@@ -96,10 +96,10 @@ if($platformCountDownToDate) {
 				<li>Emerging Signs of Obama’s “New World Order”</li>
 			</ul>
 			<p>And the list goes on. While I’m happy that I’ve got more Americans prepared with enough survival food to weather any coming crisis, I have another problem:</p>
-			<p><strong>The Taxman.</strong></p>
+			<p><strong>The Tax Man.</strong></p>
 			<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 30, 2014!</p>
 			<p>So, I’m going to do something I’ve never done.</p>
-			<h2 class="darkRed text-center">I’m offering my most solid “hunger insurance” – my Food4Patriots 1-Year Kit, at a mind-boggling $700 discount during my year end “Fire Sale”!</h2>
+			<h2 class="darkRed text-center">I’m offering my best “hunger insurance”, my Food4Patriots 1-Year Kit, at a mind-boggling $700 discount during my year end “Fire Sale”!</h2>
 			<p>My loss is your ultimate gain!</p>
 			<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
 			<p>This price is unheard of, folks.</p>
@@ -111,7 +111,7 @@ if($platformCountDownToDate) {
 			<p>Plus, I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
 			<p>Normally priced at $2,200, I’m offering my Food4Patriots 1-Year Kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
 			<p>That’s below cost, Folks!</p>
-			<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the taxman won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
+			<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the tax man won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
 			<div style="text-align:center;">
 				<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart">Add to Cart - $1497</a>
 			</div>
