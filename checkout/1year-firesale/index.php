@@ -158,23 +158,23 @@ if($platformCountDownToDate) {
 	<div class="container-fluid oto-width">
 		<div class="row text-center">
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/apple-cinnamon-oatmeal.jpg"  alt="Mountain Man Granola">
-				<div class="caption">Apple Orchard Oatmeal <br>
-					(128 servings)</div>
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/apple-cinnamon-oatmeal.jpg"  alt="Maple Grove OatMeal">
+				<div class="caption">Maple Grove Oatmeal <br>
+					(224 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/creamy-potato-soup.jpg"  alt="Mountain Man Granola">
-				<div class="caption">Granny's <span class="hidden-xs">Homestyle</span> Potato Soup (80 servings)</div>
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/creamy-potato-soup.jpg"  alt="Granny's Homestyle Potato Soup">
+				<div class="caption">Granny's <span class="hidden-xs">Homestyle</span> Potato Soup (96 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/pasta-fagioli-soup.jpg"  alt="Traveler's Stew">
 				<div class="caption">Traveler's Stew <br>
-					(32 servings)</div>
+					(96 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/whey-milk2.jpg"  alt="Powdered Milk">
 				<div class="caption">Powdered Milk <br>
-					(320 servings)</div>
+					(192 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/chicken-noodle-soup.jpg"  alt="Independence Hall Chicken Noodle Soup">
@@ -189,7 +189,7 @@ if($platformCountDownToDate) {
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/cheddar-broccoli-soup.jpg"  alt="Broccoli &amp; Cheese Soup">
 				<div class="caption">Broccoli &amp; Cheese <br>
-					Soup (32 servings)</div>
+					Soup (64 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/heartland-mashed-potatoes.jpg"  alt="Heartland's Best Mashed Potatoes">
@@ -197,9 +197,9 @@ if($platformCountDownToDate) {
 					Potatoes (128 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/cheesy-chicken-rice-casserole.jpg"  alt="Blue Ribbon Cheesy Chicken Rice">
-				<div class="caption">Blue Ribbon Cheesy Rice <br>
-					(128 servings)</div>
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/cheesy-chicken-rice-casserole.jpg"  alt="Blue Ribbon Creamy Chicken Rice">
+				<div class="caption">Blue Ribbon Creamy Chicken Rice <br>
+					(96 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/chocolate-pudding.jpg"  alt="Chocolate Pudding">
@@ -209,29 +209,13 @@ if($platformCountDownToDate) {
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/potato-cheddar-soup.jpg"  alt="Liberty Bell Potato Cheddar Soup">
 				<div class="caption">Liberty Bell Potato Cheddar <br>
-					Soup (96 servings)</div>
+					Soup (80 servings)</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/chicken-alfredo-pasta.jpg"  alt="Creamy Chicken Alfredo">
-				<div class="caption"><span class="hidden-xs">Creamy</span> Chicken Alfredo<br>
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/chicken-alfredo-pasta.jpg"  alt="Traditional Fettuccine Alfredo">
+				<div class="caption"><span class="hidden-xs">Traditional Fettuccine Alfredo</span><br>
 					(80 servings)</span></div>
 			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/beef-stroganoff.jpg"  alt="Creamy Beef Stroganoff">
-				<div class="caption">Creamy Beef Stroganoff <br>
-					(64 servings)</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/tropical-fruit-medley.jpg"  alt="Mixed Fruit Blend">
-				<div class="caption">Mixed Fruit Blend<br>
-					(64 servings)</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/white-cheddar-shells2.jpg"  alt="White Cheddar Pasta">
-				<div class="caption">White Cheddar Pasta <br>
-					(64 servings)</div>
-			</div>
-
 		</div>
 		<p>Every time you eat one of these meals you can rest-assured you are eating healthy, delicious food
 			and saving a lot of money. Your meals are as delicious and nutritious tonight as they will be in
