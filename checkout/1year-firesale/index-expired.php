@@ -25,7 +25,7 @@ $productObj = new Product();
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
-$platformCountDownToDate = true;
+$platformCountDownToDate = false;
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
