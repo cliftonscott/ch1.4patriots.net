@@ -26,5 +26,5 @@ $pageGreeting = "<strong>Congratulations, " . $firstName . "!</strong> Your 30-s
 
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
-include_once("products/offers/f4p-coffee-deluxe.php");
+include_once("products/offers/f4p-coffee-deluxe-a.php");
 include_once("template-bottom.php");
