@@ -131,7 +131,13 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 	<?php
 	}
 	?>
-
+	<?php
+	if($platformCountDownToDate) {
+	?>
+	<div id="endofDateCountDown"></div>
+	<?php
+	}
+	?>
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
 	</div>

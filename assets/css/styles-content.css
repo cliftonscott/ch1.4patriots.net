@@ -276,7 +276,7 @@ article.content .effective-date {
 	background-color: #fff;
 }
 #tvText p {
-	font-family:Verdana,Helvetica,Arial;
+	font-family: Verdana,Helvetica,Arial;
 	font-size:11pt;
 	padding:10px;
 	cursor:auto;
@@ -296,6 +296,26 @@ article.content .effective-date {
 	font-weight: bold;
 	font-family: 'Allerta Stencil', sans-serif;
 	color:#333333;
+}
+
+/* Countdown styles of endOfDate Timer (used at year end)
+-------------------------------------------------- */
+#endofDateCountDown {
+    background-color: #ffe167;
+    width:100%;
+	min-height:36px;
+    display:block;
+    text-align: center;
+    border-bottom: 1px solid black;
+	position: fixed;
+	z-index: 10000;
+}
+#endofDateCountDown p {
+    color: black;
+	font-family: "Arial", "Helvetica", Helvetica, sans-serif;
+	font-size: 26px;
+	margin:0;
+	padding:0;
 }
 
 /* References on video/index/checkout page

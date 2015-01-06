@@ -146,7 +146,7 @@ if (isMobile()) {
 					<?php
 					if($variation === "pu") {
 						?>
-						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?profile=no-autoplay&container=evp-0H6AGUENXM"></script><div id="evp-0H6AGUENXM" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0/?profile=no-autoplay&container=evp-ZHQSDIQAR4"></script><div id="evp-ZHQSDIQAR4" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0"></div>
 						<script type="text/javascript">
 							window.addEventListener("focus", function(event)
 								{ startTimer(); }
@@ -155,7 +155,7 @@ if (isMobile()) {
 						<?php
 					} else {
 						?>
-						<script type="text/javascript" src="http://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ=/?container=evp-E4UVAU3GCE"></script><div id="evp-E4UVAU3GCE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC5tcDQ="></div>
+						<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0/?container=evp-V1F6ED7E7K"></script><div id="evp-V1F6ED7E7K" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0"></div>
 						<?php
 					}
 					?>

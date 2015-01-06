@@ -19,8 +19,6 @@ class Product {
 	
 	function getProduct($productId) {
 
-		// is #21 new? isn't in old process file 
-		
 		$productObj = new stdClass();
 
 		//TODO move these vars to the Platform.php library
@@ -585,6 +583,29 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->soldOutPage = "/checkout/thankyou.php";
 				break;
+			case 166: //PPG Deluxe Upgrade - 2 Easy Payment Plan
+				$productObj->pmaSku = null;
+				$productObj->price = 497;
+				$productObj->originalPrice = 497;
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = null; //no international sales
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0; //no international sales
+				$productObj->mpsId = null; //used for MPS
+				$productObj->campaignId = 16;
+				$productObj->netRevenueEach = 448;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 57;
+				$productObj->tags = "ppgDeluxe2pay";
+				$productObj->googleProductName = "PPG-PLATINUM";
+				$productObj->googleProductSKU = "PID166";
+				$productObj->googleProductCategory = "2-PAY-497";
+				$productObj->metaTitle = "PPG Platinum Upgrade - 2 Easy Payment Plan";
+				$productObj->metaDescription = "PPG Platinum Upgrade - 2 Easy Payment Plan";
+				$productObj->defaultQuantity = 1;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->soldOutPage = "/checkout/thankyou.php";
+				break;
 			case 182: // Coffee Offer
 				//process file
 				$productObj->campaignId = 9;
@@ -630,7 +651,7 @@ class Product {
 				$productObj->originalPrice = 9.95;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
-				$productObj->googleProductName = "F4P-30COF";
+				$productObj->googleProductName = "F4P-C30";
 				$productObj->googleProductSKU = "PID194";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
 				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee";
@@ -659,9 +680,9 @@ class Product {
 				$productObj->originalPrice = 9.95;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
-				$productObj->googleProductName = "F4P-30COFpd";
+				$productObj->googleProductName = "F4P-C30";
 				$productObj->googleProductSKU = "PID196";
-				$productObj->googleProductCategory = "1-PAY-9.95";
+				$productObj->googleProductCategory = "1-PAY-10";
 				$productObj->metaTitle = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				$productObj->metaDescription = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				//Other
@@ -688,7 +709,7 @@ class Product {
 				"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
 			),
 			"oto1" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+				"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php?b=true",
 				"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
 			),
 //			"oto1" => array (
@@ -739,6 +760,36 @@ class Product {
 			),
 		);
 
+		/*
+		 * ============================================
+		 * 1 Year Kit Fire Sale - Temp 
+		 * ============================================
+		*/
+
+		$funnelData["1year-firesale"] = array(
+			"checkout" => array (
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator.php",
+				"declineUrl" => null,
+				"customPrice" => 1497,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
+				"declineUrl" => "/checkout/1year-firesale/oto/f4p-generator-payments.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+				"declineUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+		);
+
 		return $funnelData;
 
 	}
@@ -755,6 +806,7 @@ class Product {
 
 		$validFunnels = array (
 			"/checkout/coffee/" => "freecoffee",
+			"/checkout/1year-firesale/" => "1year-firesale",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];
@@ -764,6 +816,7 @@ class Product {
 				$_SESSION["Funnel"]["name"] = $funnel;
 			}
 		}
+
 	}
 
 	function setStep($step) {
@@ -788,7 +841,10 @@ class Product {
 
 	function initFunnel($step) {
 
-		$initData = self::getFunnelData("freecoffee",$step);
+		$currentFunnel = self::getFunnel();
+
+		$initData = self::getFunnelData($currentFunnel["name"],$step);
+
 		self::setStep($step);
 		return $initData;
 	}

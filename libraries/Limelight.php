@@ -85,7 +85,14 @@ class Limelight {
 		if($productDataObj->isCustomPrice === true) {
 			$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $productDataObj->price;
 		}
-
+		include_once("Product.php");
+		$productObj = new Product();
+		if($funnel = $productObj->getFunnel()) {
+			$funnelData = $productObj->initFunnel($funnel["step"]);
+			if($funnelData["customPrice"]) {
+				$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $funnelData["customPrice"];
+			}
+		}
 		//set OPT value (development tracking vals)
 		$opt = $analyticsObj->serverId;
 		$opt.= "::" . session_id();
@@ -111,8 +118,6 @@ class Limelight {
 		}
 
 
-
-				
 		//doCurl call
 		$configObj = new stdClass();
 		$configObj->url = self::URL;

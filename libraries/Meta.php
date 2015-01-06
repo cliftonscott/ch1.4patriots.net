@@ -47,10 +47,8 @@ class Meta {
 				$title = self::PAGE_TITLE . " Returns – How to Return Your Order";
 				break;
 			case "/checkout/index.php":
-			case "/checkout/index-a.php":
 			case "/checkout/order.php":
 			case "/checkout/oto/f4p-1year-kit.php":
-			case "/checkout/oto/f4p-1year-kit-a.php":
 			case "/checkout/oto/f4p-1year-kit-payments.php":
 			case "/checkout/oto/f4p-3month-kit-discount.php":
 			case "/checkout/oto/f4p-4week-kit-discount-a.php":
@@ -102,10 +100,8 @@ class Meta {
 				$description = "Enjoy hassle-free returns with Food4Patriots. Your purchase is fully protected by a 100% money-back return policy.";
 				break;
 			case "/checkout/index.php":
-			case "/checkout/index-a.php":
 			case "/checkout/order.php":
 			case "/checkout/oto/f4p-1year-kit.php":
-			case "/checkout/oto/f4p-1year-kit-a.php":
 			case "/checkout/oto/f4p-1year-kit-payments.php":
 			case "/checkout/oto/f4p-3month-kit-discount.php":
 			case "/checkout/oto/f4p-4week-kit-discount-a.php":

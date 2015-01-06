@@ -8,4 +8,11 @@ $return["originalPrice"] = $productDataObj->originalPrice;
 $return["metaTitle"] = $productDataObj->metaTitle;
 $return["shippingCostDomestic"] = $productDataObj->shippingCostDomestic;
 $return["shippingCostInternational"] = $productDataObj->shippingCostInternational;
+
+if($funnel = $productObj->getFunnel()) {
+	$funnelData = $productObj->initFunnel($funnel["step"]);
+	if($funnelData["customPrice"]) {
+		$return["price"] = $funnelData["customPrice"];
+	}
+}
 echo json_encode($return);
