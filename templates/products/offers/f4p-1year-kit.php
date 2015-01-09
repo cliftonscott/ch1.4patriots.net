@@ -115,7 +115,7 @@ if(!$pageShipping) {
 		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/2g9ho6m7rb" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+			<script type="text/javascript" src="https://reboot.evsuite.com/player/ZjRwLTEteWVhci1mdWxsLXZzbC11cGRhdGVkLTExLTEtMTQubXA0/?container=evp-UK9G8NUUBX"></script><div id="evp-UK9G8NUUBX" data-role="evp-video" data-evp-id="ZjRwLTEteWVhci1mdWxsLXZzbC11cGRhdGVkLTExLTEtMTQubXA0"></div>
 		</div>
 		<div id="buyButton" style="padding-bottom:40px;display:none;">
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
