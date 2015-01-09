@@ -45,7 +45,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?><span class="titles">,This Surprising Item Is More Valuable Than Gold In A Crisis..."</span></h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<iframe src="//fast.wistia.net/embed/iframe/j04u9rv7k5" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+			<script type="text/javascript" src="https://reboot.evsuite.com/player/cnV0Z2Vycy1vdG8tNDctcmVuZGVyZWQubXA0/?container=evp-EKHIVEB6MN"></script><div id="evp-EKHIVEB6MN" data-role="evp-video" data-evp-id="cnV0Z2Vycy1vdG8tNDctcmVuZGVyZWQubXA0"></div>
 		</div>
 		<div id="buyButton" style="padding-bottom:20px;display:none;">
 			<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
