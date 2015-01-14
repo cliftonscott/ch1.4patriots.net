@@ -56,7 +56,7 @@ $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsOb
 					<div class="intro-content">
 					  <div class="inner">
 							<strong>Dear Fellow Patriot,</strong><br/><br/>
-							<i>If you’re here to claim your personal survival food package… the stockpiler’s dream with a guaranteed 25-year shelf life… the package that’s being given away as low as $1.39 per serving and is being called by some folks “the #1 item to hoard”…</i><br/><br/>
+							<i>If you’re here to claim your personal survival food package… the stockpiler’s dream with a guaranteed 25-year shelf life… the package that’s being given away as low as $1.10 per serving and is being called by some folks “the #1 item to hoard”…</i><br/><br/>
 						  <span class="semi-bold"><strong><i>"</i>My suggestion is...<i>"</i></strong></span>
 						</div>
 					</div>
@@ -116,7 +116,7 @@ $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsOb
 
 <p><strong>&quot;They Are Literally Hoarding It.&quot; </strong></p>
 <p>It&rsquo;s the #1 item on their shopping list and that explains why supplies are so low or completely sold out already at many stores across America. </p>
-<p>But don&rsquo;t worry, I&rsquo;m gonna keep our food out of FEMA&rsquo;s hands. In fact, read this and I&rsquo;ll show you how you can get our highest quality Food4Patriots survival food at &ldquo;fire sale&rdquo; prices… as low as $1.39 per serving… but only if you act fast.</p>
+<p>But don&rsquo;t worry, I&rsquo;m gonna keep our food out of FEMA&rsquo;s hands. In fact, read this and I&rsquo;ll show you how you can get our highest quality Food4Patriots survival food at &ldquo;fire sale&rdquo; prices… as low as $1.10 per serving… but only if you act fast.</p>
 <p>But before I reveal the details on claiming your personal food package there&rsquo;s something I need you to do. </p>
 <p>Promise to keep this information to yourself and your close family and friends ONLY. We don&rsquo;t want this forwarded on in a chain letter or announced to big groups.</p>
 <p>We&rsquo;ve only got enough 25-year shelf life food packages for one out of every six thousand people to get their own and are letting in just 2 people for every 100 who see this. </p>
@@ -189,7 +189,7 @@ $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsOb
 						<p>Over the last few weeks, my warehouse has been shipping out more truckloads of food packed to the brim than I&rsquo;ve ever seen. Which is great if you&rsquo;ve already put your order in. </p>
 						<p>But the bad news is, if you&rsquo;re just hearing about these food kits for the first time, then you&rsquo;re already behind and need to act fast before they&rsquo;re all gone.</p>
 						<p>Fortunately, as soon as FEMA said they wanted to take ALL my food, I put in an extra-large order for more food in anticipation of whatever the government is so urgently preparing for. Our production machines are working around the clock right now to meet the increased demand.</p>
-						<p>So depending on how much food you need, you can get my Food4Patriots kits for as low as $1.39 per serving. And we&rsquo;re doing everything we can to accelerate packing and shipping so we can rush your kit to you as soon as you order it.</p>
+						<p>So depending on how much food you need, you can get my Food4Patriots kits for as low as $1.10 per serving. And we&rsquo;re doing everything we can to accelerate packing and shipping so we can rush your kit to you as soon as you order it.</p>
 						<p>I&rsquo;m going to keep going this as long as I can. I hope we can help patriots all across the United States feel protected in case of disaster for years to come.</p>
 <div class="clear"></div>
 				  </div>
@@ -464,16 +464,18 @@ Setting Your Family Up To Starve…&quot;</h3>
 					<p>Honestly, this was a big issue for me and might be a deal-breaker for you. I feel like you can&rsquo;t put a price on food independence and the peace of mind that it gives.</p>
 					<p>Now I know every family is different. There&rsquo;s no &ldquo;one size fits all&rdquo; survival food solution.</p>
 					<p>So I&rsquo;ve put together different Food4Patriots kits based on servings to feed one adult, and you can customize your kit to keep your family healthy and happy. </p>
-					<img src="/letter/images/f4p-l-empty-pockets.jpg" class="media left" style="margin-bottom:10px;">
-					<p>No need to worry about stretching portions to feed a larger family or being forced to order more than you really need.</p>
-					<p>The basic kit is our 72-Hour Food4Patriots Kit that includes a generous 16 servings of our most popular entrees. Even FEMA agrees that everyone should have <strong>at least </strong>a<strong> </strong>72-hour supply of emergency food on hand for everyone in their household.</p>
-					<p>And unlike most of the suppliers out there, I don&rsquo;t think you should have to break the bank to afford the most basic level of food security, so I&rsquo;m not charging $100 for this. Heck I&rsquo;m not even charging $50, even though that would still be a pretty good deal.</p>
-					<p><strong>You can get your 72-hour kit for just $27 bucks plus postage.</strong> That&rsquo;s just $11 per day for 16 servings of delicious, nutritious food. You see how this is a perfect solution for you?</p>
-					<p>Click the button below to claim your kit now.</p>
-					<p>Just to make this a complete no-brainer for you to grab your kit right now…</p>
-					<strong><i>But did you know...</i></strong></p>
-
-						<div class="clear"></div>
+					<p>And unlike most of the suppliers out there, I don’t think you should have to break the bank to afford the most basic level of food security.</p>
+					<p>No need to worry about stretching portions to feed a larger family or being forced to order more than you really need - I wanted to make sure I provided different options that would be a perfect fit for YOU.</p>
+					<p>So go ahead and click the button below to claim your kit now.</p>
+						<div class="txt-center">
+						<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
+							<br>
+							<img src="images/samples/credid-cards.png">
+							<br><br>
+							<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span>
+							<br>
+							<img src="images/samples/mcaffe.png">
+							<br>
 				  </div>
 				</div>
 				<!-- end of flat brown block -->
@@ -525,7 +527,7 @@ Setting Your Family Up To Starve…&quot;</h3>
 					</div>
 
 
-					<p>And when you click the button below, you&rsquo;ll see a couple of special deals I just added so you can get an even longer-term supply of survival food for as little as <strong>$1.39 per serving…</strong> this is what I personally recommend for the ultimate in food security… plus some extra special bonus gifts that aren&rsquo;t available to everyone. </p>
+					<p>And when you click the button below, you&rsquo;ll see a couple of special deals I just added so you can get an even longer-term supply of survival food for as little as <strong>$1.10 per serving…</strong> this is what I personally recommend for the ultimate in food security… plus some extra special bonus gifts that aren&rsquo;t available to everyone. </p>
 					<p>It&rsquo;s not cheap to put together survival food of this quality, but I want anyone to be able to afford to have food independence and be protected from the coming crisis, even if it just means having the bare minimum 72-hour supply on hand.               		  </p>
 					<div class="clear"></div>
 				  </div>
