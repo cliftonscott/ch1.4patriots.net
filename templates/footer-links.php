@@ -4,6 +4,10 @@ $targetNewArray = array (
 	"/checkout/index.php",
 	"/letter/index.php",
 	"/checkout/thankyou.php",
+	"/video/t1/index.php",
+	"/checkout/t1/index.php",
+	"/checkout/t1/thankyou.php",
+
 	);
 if(in_array($_SERVER["PHP_SELF"], $targetNewArray)) {
 	$footerLinkTarget = "_self";

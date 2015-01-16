@@ -12,6 +12,7 @@ if(!empty($template["formType"])) {
 <?php
 $suppressOlark = array (
 	"/video/index.php",
+	"/video/t1/index.php",
 );
 if(!in_array($_SERVER["PHP_SELF"], $suppressOlark)) {
 	include_once("chat-olark.php");

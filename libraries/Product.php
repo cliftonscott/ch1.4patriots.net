@@ -762,32 +762,73 @@ class Product {
 
 		/*
 		 * ============================================
-		 * 1 Year Kit Fire Sale - Temp 
+		 * t1 Google Funnel
 		 * ============================================
 		*/
 
-		$funnelData["1year-firesale"] = array(
+		$funnelData["t1"] = array(
 			"checkout" => array (
-				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator.php",
+				"pidVariableNextUrl" => true,
+				92 => array (
+					"nextUrl" => "/checkout/t1/oto/f4p-4week-kit-discount-a.php",
+				),
+				18 => array (
+					"nextUrl" => "/checkout/t1/oto/f4p-4week-kit-discount-b.php",
+				),
+				19 => array (
+					"nextUrl" => "/checkout/t1/oto/f4p-1year-kit.php",
+				),
 				"declineUrl" => null,
-				"customPrice" => 1497,
 			),
-			"oto1" => array (
-				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
-				"declineUrl" => "/checkout/1year-firesale/oto/f4p-generator-payments.php",
+			"oto1a" => array (
+				"nextUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
 			),
 			"oto1b" => array (
-				"nextUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum.php",
-				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+				"nextUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
+			),
+			"oto1c" => array (
+				"nextUrl" => "/checkout/t1/oto/f4p-generator.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-1year-kit-payments.php",
 			),
 			"oto2" => array (
-				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
-				"declineUrl" => "/checkout/1year-firesale/oto/f4p-generator-platinum-payments.php",
+				"nextUrl" => "/checkout/t1/oto/f4p-seeds.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
+			),
+			"oto2a" => array (
+				"nextUrl" => "/checkout/t1/thankyou.php",
+				"declineUrl" => "/checkout/t1/thankyou.php",
 			),
 			"oto2b" => array (
-				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
-				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+				"nextUrl" => "/checkout/t1/thankyou.php",
+				"declineUrl" => "/checkout/t1/f4p-3month-kit-discount.php",
 			),
+			"oto2c" => array (
+				"nextUrl" => "/checkout/t1/thankyou.php",
+				"declineUrl" => "/checkout/t1/thankyou.php",
+			),
+			"oto3" => array (
+				"nextUrl" => "/checkout/t1/oto/f4p-seeds-bogo.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
+			),
+			"oto4" => array (
+				"nextUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
+			),
+			"oto4a" => array (
+				"nextUrl" => "/checkout/t1/oto/f4p-generator-platinum.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-generator-payments.php",
+			),
+			"oto4b" => array (
+				"nextUrl" => "/checkout/t1/oto/thankyou.php",
+				"declineUrl" => "/checkout/t1/oto/thankyou.php",
+			),
+			"oto5" => array (
+				"nextUrl" => "/checkout/t1/oto/thankyou.php",
+				"declineUrl" => "/checkout/t1/oto/thankyou.php",
+			),
+
 		);
 
 		return $funnelData;
@@ -806,7 +847,7 @@ class Product {
 
 		$validFunnels = array (
 			"/checkout/coffee/" => "freecoffee",
-			"/checkout/1year-firesale/" => "1year-firesale",
+			"/checkout/t1/" => "t1",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];
