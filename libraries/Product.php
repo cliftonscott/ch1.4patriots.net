@@ -802,7 +802,7 @@ class Product {
 			),
 			"oto2b" => array (
 				"nextUrl" => "/checkout/t1/thankyou.php",
-				"declineUrl" => "/checkout/t1/f4p-3month-kit-discount.php",
+				"declineUrl" => "/checkout/t1/oto/f4p-3month-kit-discount.php",
 			),
 			"oto2c" => array (
 				"nextUrl" => "/checkout/t1/thankyou.php",
@@ -821,12 +821,12 @@ class Product {
 				"declineUrl" => "/checkout/t1/oto/f4p-generator-payments.php",
 			),
 			"oto4b" => array (
-				"nextUrl" => "/checkout/t1/oto/thankyou.php",
-				"declineUrl" => "/checkout/t1/oto/thankyou.php",
+				"nextUrl" => "/checkout/t1/thankyou.php",
+				"declineUrl" => "/checkout/t1/thankyou.php",
 			),
 			"oto5" => array (
-				"nextUrl" => "/checkout/t1/oto/thankyou.php",
-				"declineUrl" => "/checkout/t1/oto/thankyou.php",
+				"nextUrl" => "/checkout/t1/thankyou.php",
+				"declineUrl" => "/checkout/t1/thankyou.php",
 			),
 
 		);
