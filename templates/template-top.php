@@ -104,33 +104,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 	</head>
 	<body>
 	<?php include_once("analytics-google-ecom.php"); ?>
-	<?php
-	if($variation === "dim") {
-		?>
-		<style>
-			.navbar-static-top {
-				z-index: 999;
-			}
-			#videobox div {
-				z-index: 1001;
-			}
-			#backgroundfade {
-				position: fixed;
-				width: 100%;
-				height: 100%;
-				z-index: 1000;
-				background-color: rgba(0,0,0,0.68);
-			}
-		</style>
-		<script>
-			$(document).ready(function() {
-				$("#backgroundfade").fadeIn(5000);
-			});
-		</script>
-		<div id="backgroundfade" style="display:none;" onclick="$('#backgroundfade').hide();"></div>
-	<?php
-	}
-	?>
+
 	<?php
 	if($platformCountDownToDate) {
 	?>

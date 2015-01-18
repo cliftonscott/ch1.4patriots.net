@@ -1,10 +1,11 @@
 <?php
-/*
- * temporary redirect while sold out
 
-header("Location: /checkout/index.php");
-exit;
- */
+if (!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) {
+	$url = 'https://' . $_SERVER['HTTP_HOST']
+		. $_SERVER['REQUEST_URI'];
+	header('Location: ' . $url);
+	exit;
+}
 
 $variantsArray = array (
 	"gb", // Glenn Beck
