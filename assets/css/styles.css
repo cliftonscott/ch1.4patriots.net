@@ -130,8 +130,8 @@ background-color: #B6B6B6;
 }
 .subheader {
 	max-width: 958px;
-	max-height: 110px;
-	/*background-image: url(/media/images/f4p/f4p-video-header-01.jpg);*/
+	height: 110px;
+	background-image: url(/media/images/f4p/f4p-video-header-01.jpg);
 	background-color: #B90003;
 	background-repeat: no-repeat;
 	cursor: pointer;
