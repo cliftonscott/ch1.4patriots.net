@@ -154,6 +154,24 @@ background-color: #B6B6B6;
 	background-repeat: no-repeat;
 	cursor: pointer;
 }
+.subheader-text {
+	max-width: 958px;
+	height: 100px;
+	background-color: #01337A;
+	background-image: url(/media/images/f4p/f4p-video-header-02.jpg);
+	cursor: pointer;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.subheader-text-bottom{
+	max-width: 958px;
+	height: 10px;
+	background-color: #B90003;
+}
+.subheader-text ul {
+	list-style-image: url('/assets/images/misc/img-checkmark-red-01.png');
+	margin: 0 10px 0 0;
+}
 /* CUSTOMIZE THE BREADCRUMB
 -------------------------------------------------- */
 .breadcrumb1 {

@@ -72,7 +72,37 @@ $platform->setCsrModalButtons("sample,video,letter");
 
 </script>
 
-<div class="container subheader" onclick="showProductModal()"></div>
+<div class="container subheader-text hidden-xs" onclick="showProductModal()">
+	<div>
+		<div class="clearfix">
+			<div class="row">
+				<div class="col-sm-7 nopadding hidden-sm"><img src="/media/images/f4p/f4p-video-header-food-01.jpg" class="img-responsive pull-right"></div>
+				<div class="col-sm-7 nopadding visible-sm"><img src="/media/images/f4p/f4p-video-header-food-02.jpg" class="img-responsive center-block"></div>
+				<div class="col-sm-5 nopadding">
+					<div id="food-benefits" class="hidden-xs">
+						<ul>
+							<li><strong>Protects</strong> You & Your Family In A Crisis</li>
+							<li><strong>25-Year</strong> Shelf Life, "Disaster-Proof" Packaging</li>
+							<li>Tastes <strong>Great</strong>, Nutritious & Easy To Prepare</li>
+							<li><strong>Covert</strong> Stackable Storage Bins</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--<img src="/media/images/f4p/f4p-video-header-food.jpg" class="img-responsive">
+	<div id="food-benefits" class="hidden-xs">
+		<ul>
+			<li><strong>Protects</strong> You & Your Family In A Crisis</li>
+			<li><strong>25-Year</strong> Shelf Life, "Disaster-Proof" Packaging</li>
+			<li>Tastes <strong>Great</strong>, Nutritious & Easy To Prepare</li>
+			<li><strong>Covert</strong> Stackable Storage Bins</li>
+		</ul>
+	</div>-->
+</div>
+<div class="container subheader-text-bottom"></div>
 <div class="container-main">
 	<div class="container">
 		<div class="row">
@@ -83,12 +113,12 @@ $platform->setCsrModalButtons("sample,video,letter");
 						echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
 					}
 					?>
-					<h1><strong>I Couldn't Believe FEMA Tried This!<br>
+					<h1><strong>I Couldn't Believe FEMA Tried This!<br class="hidden-xs">
 					(Then He Showed Me Proof</strong>)</h1></div>
 			</div>
 			<div class="col-md-12">
 				<div id="videobox">
-					<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0/?container=evp-V1F6ED7E7K"></script><div id="evp-V1F6ED7E7K" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0"></div>
+					<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0/?responsive=1&autoResponsive=1&container=evp-P0TZK4GVTE"></script><div id="evp-P0TZK4GVTE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0"></div>
 				</div>
 			<div class="col-md-12">
 				<!-- Button Stuff -->
