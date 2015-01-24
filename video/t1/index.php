@@ -10,6 +10,7 @@ if (!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) {
 $variantsArray = array (
 	"gb", // Glenn Beck
 	"no-logo", // No logos/badges shown at the bottom
+	"b", // Testimonials - FAQ - Guarantee
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
@@ -31,7 +32,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 $offerUrl = "https://secure.food4patriots.com/checkout/t1/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
-
+<script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
 <script>
@@ -91,16 +92,6 @@ $platform->setCsrModalButtons("sample,video,letter");
 			</div>
 		</div>
 	</div>
-
-	<!--<img src="/media/images/f4p/f4p-video-header-food.jpg" class="img-responsive">
-	<div id="food-benefits" class="hidden-xs">
-		<ul>
-			<li><strong>Protects</strong> You & Your Family In A Crisis</li>
-			<li><strong>25-Year</strong> Shelf Life, "Disaster-Proof" Packaging</li>
-			<li>Tastes <strong>Great</strong>, Nutritious & Easy To Prepare</li>
-			<li><strong>Covert</strong> Stackable Storage Bins</li>
-		</ul>
-	</div>-->
 </div>
 <div class="container subheader-text-bottom"></div>
 <div class="container-main">
@@ -126,25 +117,72 @@ $platform->setCsrModalButtons("sample,video,letter");
 					<a href="<?php echo $offerUrl; ?>"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<!-- Start of Advertise Pop Up Code -->
-				<?php
-				if($variation !== "no-logo" && $variation !== "np-nologo") {
-					include("snippets/as-seen-on-tv.html");
-				}
-				?>
-				<!-- End of Advertise Pop Up Code -->
-				<!-- Start References -->
-				<?php include("snippets/video-references.html");?>
-				<!-- End References -->
 			</div>
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- Start of Advertise Pop Up Code -->
+					<?php
+					if($variation !== "no-logo" && $variation !== "np-nologo") {
+						include("snippets/as-seen-on-tv.html");
+					}
+					?>
+					<!-- End of Advertise Pop Up Code -->
+					<!-- Start References -->
+					<?php include("snippets/video-references.html");?>
+					<!-- End References -->
+				</div>
+			</div>
+		</div>
+		<?php
+		if($variation == "b") { ?>
+		<!--Testimonials-->
+		<div style="margin: 90px auto 0 auto;"></div>
+		<div id="testimonials-checkout" class="center-block" style="max-width:95%;">
+				<div class="section-header"><h4>What People Are Saying About Food4Patriots</h4></div>
+				<div class="row" style="padding-bottom: 0;">
+					<div class="col-sm-12 col-sm-7">
+						<div style="text-align: center;font-size: 31px;padding-top: 30px;">"Patriot Pantry meals: they make the cut because they are delicious, nutritious and good for 25 years."<br>-- Glenn Beck <audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio><img id="beckCheckoutAudioControl" class="audioControl" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');"></div>
+					</div>
+					<div class="col-sm-12 col-sm-5"><img src="/media/images/f4p/f4p-glenn-beck-01.jpg" class="img-responsive"></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-3"></div>
+					<div class="col-sm-12 col-sm-9"><strong>Diana L.</strong> - “I am a new customer and heard about your company from my brother. Praises to your customer service heroes! Their patience, kindness and care with my calls were like talking with my best friend. Thank you!”</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-3"></div>
+					<div class="col-sm-12 col-sm-9"><strong>Paul B.</strong> - “Just received my 3 month supply. Everything looks great and the storage boxes are easy to store and handle. Hope I don’t have to use this soon but it’s nice to know I have it if I need it. Thank you very much and I would recommend this to anyone looking for long-term food storage.”</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-3"></div>
+					<div class="col-sm-12 col-sm-9"><strong>Rolf K.</strong> - “Hello Frank – this is Rolf K. and I am one of your very happy customers. The most important thing is your food tastes great. I’ve tasted 2 out of the 4 entrées in one of the small packages and I now have a tub and three other small packages set away…and am feeling pretty good about it. Keep up the good work! ”</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-3"></div>
+					<div class="col-sm-12 col-sm-9"><strong>Lynn G.</strong> - “My purchase of Food4Patriots has indeed brought me peace of mind…I particularly loved the choices in the different price and size ranges for the Food4Patriots product. The fact that it has a shelf life of 25 years, if it is properly stored, is an added plus! I intend to make a second purchase in the near future, as my budget allows because it just makes sense.”</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-3"></div>
+					<div class="col-sm-12 col-sm-9"><strong>Jeff W.</strong> - “All our orders were received in perfect condition and in containers that make storage and inventory easy to access when needed. Very organized with labeling, highly recommend ordering your product for friends and family and anyone who wants to look ahead and be prepared for the unexpected. Thanks!”</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-sm-3"></div>
+					<div class="col-sm-12 col-sm-9"><strong>Bob R.</strong> - “They were just fantastic, the customer service. That gal in there is just great. That’s why I got another year for each one of us, got three more years. I said, ‘Okay, well, if they’re going to stand behind their product and its good and everything, I’m going to buy it’…They're just fantastic. It’s a great product.”</div>
+				</div>
+		</div>
+		<!--FAQ-->
+		<hr>
+		<div style="margin: 30px auto 0 auto;max-width:95%;">
+			<h4 class="darkRed">Frequently Asked Questions:</h4>
+			<?php include_once ('snippets/faq-accordian-1wk.html'); ?>
+		</div>
+		<!--Guarantee-->
+		<hr>
+		<?php include_once ('snippets/f4p-guarantees-checkout.html'); ?>
+		<?php } ?>
 	</div>
-</div>
 <!-- Header Food Images -->
 <div id="productModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-sm" style="width: 417px;">
