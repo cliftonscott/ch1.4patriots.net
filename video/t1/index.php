@@ -140,7 +140,11 @@ $platform->setCsrModalButtons("sample,video,letter");
 		<!--Testimonials-->
 		<div style="margin: 90px auto 0 auto;"></div>
 		<div id="testimonials-checkout" class="center-block" style="max-width:95%;">
-				<div class="section-header"><h4>What People Are Saying About Food4Patriots</h4></div>
+				<div class="section-header">
+					<div class="section-header-bg">
+						<h4>What People Are Saying About Food4Patriots</h4>
+					</div>
+				</div>
 				<div class="row" style="padding-bottom: 0;">
 					<div class="col-sm-12 col-sm-7">
 						<div style="text-align: center;font-size: 31px;padding-top: 30px;">"Patriot Pantry meals: they make the cut because they are delicious, nutritious and good for 25 years."<br>-- Glenn Beck <audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio><img id="beckCheckoutAudioControl" class="audioControl" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');"></div>

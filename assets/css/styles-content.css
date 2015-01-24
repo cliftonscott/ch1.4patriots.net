@@ -56,15 +56,9 @@ h1 {
 
 .testimonial{
 	border-radius: 10px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	padding: 10px;
 	background-color: #e9f4ff;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 30px auto;
 	min-height: 60px;
 	max-width: 800px;
 	height:auto;
@@ -75,18 +69,21 @@ h1 {
 	padding: 25px 0;
 }
 #testimonials-checkout .section-header{
-	text-align: center;
-	margin: 30px 0 0 0;
-	padding: 4px 20px;
-	background-color: rgb(49, 98, 170);
+	margin: 30px 0 0 -47px;
 	color: white;
-	max-width: 451px;
-	-webkit-border-top-left-radius: 15px;
-	-webkit-border-top-right-radius: 15px;
-	-moz-border-radius-topleft: 15px;
-	-moz-border-radius-topright: 15px;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	height: 60px;
+	background: url("/assets/images/misc/blue-strip.png") no-repeat left top;
+}
+#testimonials-checkout .section-header .section-header-bg {
+	background-color: rgb(49, 98, 170);
+	padding: 2px 20px;
+	margin: 0 8px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-topright: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
 }
 .video-ref-test{
 	color: #767676;
