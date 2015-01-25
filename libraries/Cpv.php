@@ -11,12 +11,24 @@ class Cpv {
 	
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
+	static $postBackUrl = null;
+
 	const USERNAME = "";
 	const PASSWORD = "";
-	const URL = "https://securetrack1.com/adclick.php";
-	
+
 	public function __construct() {
+
+		include_once("Analytics.php");
+		$analyticsObj = new Analytics();
+		$cpvInstance = $analyticsObj->getCpvInstance();
+
+		switch ($cpvInstance) {
+			case "f4p":
+				self::$postBackUrl = "https://track.food4patriots.com/adclick.php";
+				break;
+			default:
+				self::$postBackUrl = "https://securetrack1.com/adclick.php";
+		}
 		
 	}
 	
@@ -43,7 +55,7 @@ class Cpv {
 		
 		//doCurl call
 		$configObj = new stdClass();
-		$configObj->url = self::URL . "?" . $queryString;
+		$configObj->url = self::$postBackUrl . "?" . $queryString;
 		$configObj->fields = $cpvParams;
 		
 		include_once("Curl.php");
