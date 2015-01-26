@@ -213,10 +213,12 @@ $stepTimerStart = microtime(true);
 include_once("Analytics.php");
 $analyticsObj = new Analytics();
 
-if(!empty($analyticsObj->subId)) {
-	$subId = $analyticsObj->subId;
-} elseif (!empty($analyticsObj->affSub2)) {
+if(!empty($analyticsObj->affSub2)) {
 	$subId = $analyticsObj->affSub2;
+} elseif (!empty($analyticsObj->subId)) {
+	$subId = $analyticsObj->subId;
+} else {
+	$subId = null;
 }
 
 if($subId !== null) {
