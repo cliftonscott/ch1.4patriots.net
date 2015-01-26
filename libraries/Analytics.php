@@ -40,6 +40,7 @@ class Analytics {
 	static $vwoTestId = null;
 	static $vwoGoalId = null;
 	static $vwoVariationId = null;
+	static $cpvInstance = null;
 
 	public function __construct() {
 		
@@ -56,6 +57,7 @@ class Analytics {
 		$this->googleAffiliation = self::$googleAffiliation;
 		$this->serverId = self::$serverId;
 		$this->sspData = self::$sspData;
+		$this->cpvInstance = self::$cpvInstance;
 		$this->source = self::$source;
 		$this->custom = self::$custom;
 		$this->queryString = self::$queryString;
@@ -154,6 +156,15 @@ class Analytics {
 			$this->setSource(null);
 		}
 
+		$cpvInstance = trim($_GET["cpv"]);
+		if(!empty($cpvInstance)) {
+			$this->setCpvInstance($cpvInstance);
+		} elseif (!empty($_SESSION["cpvInstance"])) {
+			$this->setCpvInstance($_SESSION["cpvInstance"]);
+		} else {
+			$this->setCpvInstance(null);
+		}
+
 		$custom = trim($_GET["custom"]);
 		if(!empty($custom)) {
 			$this->setCustom($custom);
@@ -220,6 +231,10 @@ class Analytics {
 
 	}
 
+	function getCpvInstance() {
+		return self::$cpvInstance;
+	}
+
 	function setSubId($subId) {
 		self::$subId = $subId;
 		$_SESSION["subId"] = $subId;
@@ -231,6 +246,10 @@ class Analytics {
 	function setClickId($click_id) {
 		self::$clickId = $click_id;
 		$_SESSION["clickId"] = $click_id;
+	}
+	function setCpvInstance($cpvInstance) {
+		self::$cpvInstance = $cpvInstance;
+		$_SESSION["cpvInstance"] = $cpvInstance;
 	}
 	function setAffiliateId($affiliateId) {
 		self::$affiliateId = $affiliateId;
