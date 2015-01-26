@@ -142,7 +142,7 @@ $platform->setCsrModalButtons("sample,video,letter");
 		<div id="testimonials-checkout" class="center-block" style="max-width:95%;">
 				<div class="section-header">
 					<div class="section-header-bg">
-						<h4>What People Are Saying About Food4Patriots</h4>
+						<h4><i class="fa fa-comments"></i>  What People Are Saying About Food4Patriots</h4>
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 0;">
