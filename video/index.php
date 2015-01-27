@@ -131,7 +131,7 @@ if (isMobile()) {
 						echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
 					}
 					?>
-					<h1><strong>Why Has This Video Been Band?</strong></h1></div>
+					<h1><strong>Why Has This Video Been Banned?</strong></h1></div>
 			</div>
 			<div class="col-md-12">
 				<!-- Button Stuff -->
