@@ -145,36 +145,37 @@ $platform->setCsrModalButtons("sample,video,letter");
 						<h4><i class="fa fa-comments"></i>  What People Are Saying About Food4Patriots</h4>
 					</div>
 				</div>
-				<div class="row" style="padding-bottom: 0;">
-					<div class="col-sm-12 col-sm-7">
-						<div style="text-align: center;font-size: 31px;padding-top: 30px;">"Patriot Pantry meals: they make the cut because they are delicious, nutritious and good for 25 years."<br>-- Glenn Beck <audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio><img id="beckCheckoutAudioControl" class="audioControl" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');"></div>
+				<div class="row" style="padding-bottom: 0;background-color: #f7f7f7;">
+					<div class="col-xs-12 col-sm-7">
+						<div style="text-align: center;font-size: 31px;">
+							"Patriot Pantry meals: they make the cut because they are delicious, nutritious and good for 25 years."<br>- Glenn Beck <audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio><img id="beckCheckoutAudioControl" class="audioControl" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');">
+							<div class="video-ref-test" style="padding-bottom: 0;">Glenn Beck (host of The Glenn Beck Show on radio, TV, and frequent guest on FoxNews), recommends Patriot Pantry, the survival food in Food4patriots Kits</div>
+						</div>
 					</div>
-					<div class="col-sm-12 col-sm-5"><img src="/media/images/f4p/f4p-glenn-beck-01.jpg" class="img-responsive"></div>
+					<div class="col-xs-12 col-sm-5"><img src="/media/images/f4p/f4p-glenn-beck-01.jpg" class="img-responsive"></div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 col-sm-3"></div>
-					<div class="col-sm-12 col-sm-9"><strong>Diana L.</strong> - “I am a new customer and heard about your company from my brother. Praises to your customer service heroes! Their patience, kindness and care with my calls were like talking with my best friend. Thank you!”</div>
+					<div class="col-xs-12 col-sm-3"><img src="/media/images/misc/img-testimonial-diana.jpg" class="img-responsive center-block"></div>
+					<div class="col-xs-12 col-sm-9"><i>&quot;I am a new customer and heard about your company from my brother. Praises to your customer service heroes! Their patience, kindness and care with my calls were like talking with my best friend. Thank you!&quot;</i><strong> - Diana L.</strong> </div>
+				</div>
+				<div class="row" style="background-color: #f7f7f7;">
+					<div class="col-xs-12 col-sm-3"><img src="/media/images/misc/img-testimonial-rolf.jpg" class="img-responsive center-block"></div>
+					<div class="col-xs-12 col-sm-9"><i>&quot;Hello Frank – this is Rolf K. and I am one of your very happy customers. The most important thing is your food tastes great. I’ve tasted 2 out of the 4 entrées in one of the small packages and I now have a tub and three other small packages set away…and am feeling pretty good about it. Keep up the good work!&quot;</i><strong> - Rolf K.</strong></div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 col-sm-3"></div>
-					<div class="col-sm-12 col-sm-9"><strong>Paul B.</strong> - “Just received my 3 month supply. Everything looks great and the storage boxes are easy to store and handle. Hope I don’t have to use this soon but it’s nice to know I have it if I need it. Thank you very much and I would recommend this to anyone looking for long-term food storage.”</div>
+					<div class="col-xs-12 col-sm-3"><img src="/media/images/misc/img-testimonial-lynn.jpg" class="img-responsive center-block"></div>
+					<div class="col-xs-12 col-sm-9"><i>&quot;My purchase of Food4Patriots has indeed brought me peace of mind…I particularly loved the choices in the different price and size ranges for the Food4Patriots product. The fact that it has a shelf life of 25 years, if it is properly stored, is an added plus! I intend to make a second purchase in the near future, as my budget allows because it just makes sense.&quot;</i><strong> - Lynn G.</strong></div>
+				</div>
+				<div class="row" style="background-color: #f7f7f7;">
+					<div class="col-xs-12 col-sm-3"><img src="/media/images/misc/img-testimonial-jeff.jpg" class="img-responsive center-block"></div>
+					<div class="col-xs-12 col-sm-9"><i>&quot;All our orders were received in perfect condition and in containers that make storage and inventory easy to access when needed. Very organized with labeling, highly recommend ordering your product for friends and family and anyone who wants to look ahead and be prepared for the unexpected. Thanks!&quot;</i><strong> - Jeff W.</strong></div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 col-sm-3"></div>
-					<div class="col-sm-12 col-sm-9"><strong>Rolf K.</strong> - “Hello Frank – this is Rolf K. and I am one of your very happy customers. The most important thing is your food tastes great. I’ve tasted 2 out of the 4 entrées in one of the small packages and I now have a tub and three other small packages set away…and am feeling pretty good about it. Keep up the good work! ”</div>
+					<div class="col-xs-12 col-sm-2"></div>
+					<div class="col-xs-12 col-sm-8 text-center"><a href="/testimonials.php" target="_blank">Click here</a> to see what others are saying about Food4Patriots, including audio and video, on our testimonials page.</div>
+					<div class="col-xs-12 col-sm-2"></div>
 				</div>
-				<div class="row">
-					<div class="col-sm-12 col-sm-3"></div>
-					<div class="col-sm-12 col-sm-9"><strong>Lynn G.</strong> - “My purchase of Food4Patriots has indeed brought me peace of mind…I particularly loved the choices in the different price and size ranges for the Food4Patriots product. The fact that it has a shelf life of 25 years, if it is properly stored, is an added plus! I intend to make a second purchase in the near future, as my budget allows because it just makes sense.”</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-sm-3"></div>
-					<div class="col-sm-12 col-sm-9"><strong>Jeff W.</strong> - “All our orders were received in perfect condition and in containers that make storage and inventory easy to access when needed. Very organized with labeling, highly recommend ordering your product for friends and family and anyone who wants to look ahead and be prepared for the unexpected. Thanks!”</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12 col-sm-3"></div>
-					<div class="col-sm-12 col-sm-9"><strong>Bob R.</strong> - “They were just fantastic, the customer service. That gal in there is just great. That’s why I got another year for each one of us, got three more years. I said, ‘Okay, well, if they’re going to stand behind their product and its good and everything, I’m going to buy it’…They're just fantastic. It’s a great product.”</div>
-				</div>
+
 		</div>
 		<!--FAQ-->
 		<hr>
@@ -185,6 +186,8 @@ $platform->setCsrModalButtons("sample,video,letter");
 		<!--Guarantee-->
 		<hr>
 		<?php include_once ('snippets/f4p-guarantees-checkout.html'); ?>
+		<hr>
+		<div class="video-ref-test"><p>LEGAL DISCLAIMER: Although not guaranteed, every effort has been made to accurately represent our products and their potential. In accordance with the latest FTC guidelines, we want to make it explicitly clear that the testimonials and customer letters we have received are exceptional results, don't apply to the average purchaser and are not intended to represent or guarantee that anyone will achieve the same or similar results. The generally expected performance of our products in regards to any specific application has not been scientifically validated and we cannot and will not make any promises in regards to your specific results. Furthermore, all testimonials are real testimonials from real customers though the images have been modified to protect their privacy.</p></div>
 		<?php } ?>
 	</div>
 <!-- Header Food Images -->
