@@ -2,8 +2,7 @@
 //that returns boolean true if none of the conditions were met
 function isMobile() {
 	if ((navigator.userAgent.indexOf('iPhone') != -1) || 
-		(navigator.userAgent.indexOf('iPod') != -1) || 
-		(navigator.userAgent.indexOf('iPad') != -1) || 
+		(navigator.userAgent.indexOf('iPod') != -1) ||
 		(screen.width <= 699)) {
 		return true;
 	} else {
