@@ -109,7 +109,8 @@ $platform->setCsrModalButtons("sample,video,letter");
 			</div>
 			<div class="col-md-12">
 				<div id="videobox">
-					<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0/?responsive=1&autoResponsive=1&container=evp-P0TZK4GVTE"></script><div id="evp-P0TZK4GVTE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0"></div>
+					<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
+					<!--<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0/?responsive=1&autoResponsive=1&container=evp-P0TZK4GVTE"></script><div id="evp-P0TZK4GVTE" data-role="evp-video" data-evp-id="RjRQLTIuMy1PZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02NyBWRVJTSU9OIENPTVBSRVNTRUQubXA0"></div>-->
 				</div>
 			<div class="col-md-12">
 				<!-- Button Stuff -->
