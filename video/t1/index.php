@@ -98,14 +98,15 @@ $platform->setCsrModalButtons("sample,video,letter");
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="center-block text-center">
+				<div class='center-block text-center'>
+					<h1>
 					<?php
-					if($variation == "gb") {
-						echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
+					if($variation != "b") {
+						echo "<strong>I Couldn't Believe FEMA Tried This!<br class='hidden-xs'>(Then He Showed Me Proof</strong>)";
 					}
 					?>
-					<h1><strong>I Couldn't Believe FEMA Tried This!<br class="hidden-xs">
-					(Then He Showed Me Proof</strong>)</h1></div>
+					</h1>
+				</div>
 			</div>
 			<div class="col-md-12">
 				<div id="videobox">
@@ -131,7 +132,11 @@ $platform->setCsrModalButtons("sample,video,letter");
 					?>
 					<!-- End of Advertise Pop Up Code -->
 					<!-- Start References -->
-					<?php include("snippets/video-references.html");?>
+					<?php
+					if($variation != "b") {
+						include("snippets/video-references.html");
+					}
+					?>
 					<!-- End References -->
 				</div>
 			</div>
@@ -139,7 +144,7 @@ $platform->setCsrModalButtons("sample,video,letter");
 		<?php
 		if($variation == "b") { ?>
 		<!--Testimonials-->
-		<div style="margin: 90px auto 0 auto;"></div>
+		<div style="margin: 0 auto 0 auto;"></div>
 		<div id="testimonials-checkout" class="center-block" style="max-width:95%;">
 				<div class="section-header">
 					<div class="section-header-bg">
@@ -176,7 +181,6 @@ $platform->setCsrModalButtons("sample,video,letter");
 					<div class="col-xs-12 col-sm-8 text-center"><a href="/testimonials.php" target="_blank">Click here</a> to see what others are saying about Food4Patriots, including audio and video, on our testimonials page.</div>
 					<div class="col-xs-12 col-sm-2"></div>
 				</div>
-
 		</div>
 		<!--FAQ-->
 		<hr>
@@ -187,6 +191,14 @@ $platform->setCsrModalButtons("sample,video,letter");
 		<!--Guarantee-->
 		<hr>
 		<?php include_once ('snippets/f4p-guarantees-checkout.html'); ?>
+		<!-- Start References -->
+		<?php
+		if($variation == "b") {
+			echo "<hr>";
+			include("snippets/video-references.html");
+		}
+		?>
+		<!-- End References -->
 		<hr>
 		<div class="video-ref-test"><p>LEGAL DISCLAIMER: Although not guaranteed, every effort has been made to accurately represent our products and their potential. In accordance with the latest FTC guidelines, we want to make it explicitly clear that the testimonials and customer letters we have received are exceptional results, don't apply to the average purchaser and are not intended to represent or guarantee that anyone will achieve the same or similar results. The generally expected performance of our products in regards to any specific application has not been scientifically validated and we cannot and will not make any promises in regards to your specific results. Furthermore, all testimonials are real testimonials from real customers though the images have been modified to protect their privacy.</p></div>
 		<?php } ?>
