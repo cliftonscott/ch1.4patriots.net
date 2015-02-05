@@ -37,7 +37,7 @@ class Analytics {
 	static $source = null;
 	static $custom = null;
 	static $queryString = null;
-	static $vwoTestId = null;
+	static $vwoTestIds = null;
 	static $vwoGoalId = null;
 	static $vwoVariationId = null;
 	static $cpvInstance = null;
@@ -61,7 +61,7 @@ class Analytics {
 		$this->source = self::$source;
 		$this->custom = self::$custom;
 		$this->queryString = self::$queryString;
-		$this->vwoTestId = self::$vwoTestId;
+		$this->vwoTestIds = self::$vwoTestIds;
 		$this->vwoGoalId = self::$vwoGoalId;
 		$this->vwoVariationId = self::$vwoVariationId;
 
@@ -174,14 +174,35 @@ class Analytics {
 			$this->setCustom(null);
 		}
 
-		$vwoTestId = trim($_GET["experiment_id"]);
-		if(!empty($vwoTestId)) {
-			$this->setVwoTestId($vwoTestId);
-		} elseif (!empty($_SESSION["vwoTestId"])) {
-			$this->setVwoTestId($_SESSION["vwoTestId"]);
-		} else {
-			$this->setVwoTestId(null);
+		// Initialize the session VWO test ids as an array if it is not yet set.
+		if (!isset($_SESSION["vwoTestIds"])) {
+			$_SESSION["vwoTestIds"] = array();
 		}
+
+		// Check if an experiment ID was sent.
+		if (isset($_GET["experiment_id"])) {
+
+			// Prepare the experiment ID for the session.
+			$vwoTestId = intval($_GET["experiment_id"]);
+
+			// Check if this experiment ID is not yet in session.
+			if ($vwoTestId > 0 && !in_array($vwoTestId, $_SESSION["vwoTestIds"])) {
+
+				// Add the new experiment ID to the session.
+				array_push($_SESSION["vwoTestIds"], $vwoTestId);
+			}
+		}
+
+		// Set the session data to this object for use.
+		$this->setVwoTestIds($_SESSION["vwoTestIds"]);
+
+//		if(!empty($vwoTestId)) {
+//			$this->setVwoTestId($vwoTestId);
+//		} elseif (!empty($_SESSION["vwoTestId"])) {
+//			$this->setVwoTestId($_SESSION["vwoTestId"]);
+//		} else {
+//			$this->setVwoTestId(null);
+//		}
 
 		$vwoGoalId = trim($_GET["GOAL_ID"]);
 		if(!empty($vwoGoalId)) {
@@ -279,9 +300,9 @@ class Analytics {
 	function setQueryString($queryString) {
 		self::$queryString = "?" . $queryString;
 	}
-	function setVwoTestId($vwoTestId) {
-		self::$vwoTestId = $vwoTestId;
-		$_SESSION["vwoTestId"] = $vwoTestId;
+	function setVwoTestIds($vwoTestIds) {
+		self::$vwoTestIds = $vwoTestIds;
+		$_SESSION["vwoTestIds"] = $vwoTestIds;
 	}
 	function setVwoGoalId($vwoGoalId) {
 		self::$vwoGoalId = $vwoGoalId;
