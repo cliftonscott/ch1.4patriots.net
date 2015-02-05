@@ -22,7 +22,19 @@ class Vwo {
 	
 	function postSale($vwoRevenue) {
 
+		// Initialize our sale as an empty class.
 		$postSale = new stdClass();
+
+		// Set post sale process as successful as default.
+		// If any CURL request fails, we will make it as failed.
+		$postSale->success = TRUE;
+
+		// Initialize our Curl and Analytics services.
+		// Will be used in each VWO experiment post.
+		include_once("Curl.php");
+		$curl = new Curl();
+		include_once("Analytics.php");
+		$analyticsObj = new Analytics();
 
 		//check that $orderRevenue is numeric
 		if(!is_numeric($vwoRevenue)) {
@@ -32,45 +44,48 @@ class Vwo {
 			return $postSale;
 		}
 
-		include_once("Analytics.php");
-		$analyticsObj = new Analytics();
+		// Check that at least one experiment ID is provided.
+		$experimentIds = $analyticsObj->vwoTestIds;
+		if (!is_array($experimentIds) || count($experimentIds) == 0) {
+			self::setError("No experiment ID is provided.");
+			$postSale->success = false;
+			$postSale->errors = self::getErrors();
+			return $postSale;
+		}
 
-		$vwoParams = array (
+		// Post the sale to each VWO experiment.
+		foreach ($experimentIds as $experimentId) {
 
-			"experiment_id" => $analyticsObj->vwoTestId,
-			"ACCOUNT_ID" => self::ACCOUNTID,
-			"GOAL_ID" => $analyticsObj->vwoGoalId,
-			"COMBINATION" => $analyticsObj->vwoVariationId,
-			"r" => $vwoRevenue,
+			$vwoParams = array (
+				"experiment_id" => $experimentId,
+				"ACCOUNT_ID" => self::ACCOUNTID,
+				"GOAL_ID" => $analyticsObj->vwoGoalId,
+				"COMBINATION" => $analyticsObj->vwoVariationId,
+				"r" => $vwoRevenue,
+			);
 
-		);
+			$queryString = http_build_query($vwoParams);
 
-		$queryString = http_build_query($vwoParams);
+			//doCurl call
+			$configObj = new stdClass();
+			$configObj->url = self::URL . "?" . $queryString;
+			$configObj->fields = $vwoParams;
 
-		//doCurl call
-		$configObj = new stdClass();
-		$configObj->url = self::URL . "?" . $queryString;
-		$configObj->fields = $vwoParams;
-		
-		include_once("Curl.php");
-		$curl = new Curl();
-		
-		$curlResults = $curl->doCurl($configObj);
-		
-		$resultsString = urldecode($curlResults->results);
-		$postSale->serverResponse = $resultsString;
-		$postSale->errors = $curlResults->errors;
-		$postSale->messages = $curlResults->messages;
-		$postSale->hasOffersUrl = $curlResults->curlUrl;
+			$curlResults = $curl->doCurl($configObj);
 
-		if($curlResults->success === TRUE) {
-			$postSale->success = TRUE;
-		} else {
-			$postSale->success = FALSE;
+			$resultsString = urldecode($curlResults->results);
+			$postSale->serverResponse = $resultsString;
+			$postSale->errors = $curlResults->errors;
+			$postSale->messages = $curlResults->messages;
+			$postSale->hasOffersUrl = $curlResults->curlUrl;
+
+			// If any Curl request fails, this sale post is unsuccessful.
+			if($curlResults->success === FALSE) {
+				$postSale->success = FALSE;
+			}
 		}
 
 		return $postSale;
-
 	}
 
 		
