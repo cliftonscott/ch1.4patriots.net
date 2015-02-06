@@ -38,6 +38,7 @@ class Vwo {
 
 		//check that $orderRevenue is numeric
 		if(!is_numeric($vwoRevenue)) {
+			file_put_contents('vwo_log.txt', 'orderRevenue is not numeric.', FILE_APPEND);
 			self::setError("orderRevenue is not numeric.");
 			$postSale->success = false;
 			$postSale->errors = self::getErrors();
@@ -47,6 +48,7 @@ class Vwo {
 		// Check that at least one experiment ID is provided.
 		$experimentIds = $analyticsObj->vwoTestIds;
 		if (!is_array($experimentIds) || count($experimentIds) == 0) {
+			file_put_contents('vwo_log.txt', 'No experiment ID is provided.', FILE_APPEND);
 			self::setError("No experiment ID is provided.");
 			$postSale->success = false;
 			$postSale->errors = self::getErrors();
@@ -72,6 +74,11 @@ class Vwo {
 			$configObj->fields = $vwoParams;
 
 			$curlResults = $curl->doCurl($configObj);
+
+			file_put_contents('vwo_log.txt', 'New VWO post:' . "\r\n", FILE_APPEND);
+			file_put_contents('vwo_log.txt', print_r($curlResults->dataSent, true) . "\r\n", FILE_APPEND);
+			file_put_contents('vwo_log.txt', $curlResults->curlUrl . "\r\n", FILE_APPEND);
+			file_put_contents('vwo_log.txt', $curlResults->success . "\r\n", FILE_APPEND);
 
 			$resultsString = urldecode($curlResults->results);
 			$postSale->serverResponse = $resultsString;
