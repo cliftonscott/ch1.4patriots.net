@@ -334,8 +334,6 @@ if(!empty($analyticsObj->vwoGoalId)) {
 	$myDevLog.= "VWO Revenue:" . $vwoRevenue . "<br>";
 	$myDevLog.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
 	$myDevLog.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
-} else {
-	file_put_contents('vwo_log.txt', "No goal ID for sale: SESSION:" . print_r($_SESSION, true) . "\r\n", FILE_APPEND);
 }
 
 $stepTimerStop = microtime(true);
