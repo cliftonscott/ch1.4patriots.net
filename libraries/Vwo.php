@@ -44,23 +44,23 @@ class Vwo {
 			return $postSale;
 		}
 
-		// Check that at least one experiment ID is provided.
+		// Check that at least one experiment is provided.
 		$experimentIds = $analyticsObj->vwoTestIds;
 		if (!is_array($experimentIds) || count($experimentIds) == 0) {
-			self::setError("No experiment ID is provided.");
+			self::setError("No experiment is provided.");
 			$postSale->success = false;
 			$postSale->errors = self::getErrors();
 			return $postSale;
 		}
 
 		// Post the sale to each VWO experiment.
-		foreach ($experimentIds as $experimentId) {
+		foreach ($experimentIds as $experimentData) {
 
 			$vwoParams = array (
-				"experiment_id" => $experimentId,
+				"experiment_id" => $experimentData["testId"],
 				"ACCOUNT_ID" => self::ACCOUNTID,
-				"GOAL_ID" => $analyticsObj->vwoGoalId,
-				"COMBINATION" => $analyticsObj->vwoVariationId,
+				"GOAL_ID" => $experimentData["goalId"],
+				"COMBINATION" => $experimentData["combination"],
 				"r" => $vwoRevenue,
 			);
 

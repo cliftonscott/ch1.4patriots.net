@@ -182,14 +182,28 @@ class Analytics {
 		// Check if an experiment ID was sent.
 		if (isset($_GET["experiment_id"])) {
 
-			// Prepare the experiment ID for the session.
-			$vwoTestId = intval($_GET["experiment_id"]);
+			$testId = trim($_GET["experiment_id"]);
+			$goalId = trim($_GET["GOAL_ID"]);
+			$combination = trim($_GET["COMBINATION"]);
+
+			// Prepare the test data for the session.
+			$vwoTestData = array(
+				'testId' => $testId,
+				'goalId' => $goalId,
+				'combination' => $combination
+			);
 
 			// Check if this experiment ID is not yet in session.
-			if ($vwoTestId > 0 && !in_array($vwoTestId, $_SESSION["vwoTestIds"])) {
+			$experimentExists = false;
+			foreach ($_SESSION["vwoTestIds"] as $data) {
+				if ($testId == $data["testId"]) {
+					$experimentExists = true;
+				}
+			}
+			if (!$experimentExists) {
 
-				// Add the new experiment ID to the session.
-				array_push($_SESSION["vwoTestIds"], $vwoTestId);
+				// Add the new experiment data to the session.
+				array_push($_SESSION["vwoTestIds"], $vwoTestData);
 			}
 		}
 
