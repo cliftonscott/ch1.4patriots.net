@@ -334,7 +334,6 @@ if(!empty($analyticsObj->vwoGoalId)) {
 	$myDevLog.= "VWO Revenue:" . $vwoRevenue . "<br>";
 	$myDevLog.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
 	$myDevLog.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
-
 }
 
 $stepTimerStop = microtime(true);
