@@ -319,7 +319,11 @@ if(!empty($analyticsObj->vwoGoalId)) {
 	$vwo = new Vwo();
 	$vwoSaleObj = $saleDataObj->getSale();
 	$vwoRevenue = $productDataObj->netRevenueEach * $vwoSaleObj->quantity;
+
+
 	$postVWO = $vwo->postSale($vwoRevenue);
+
+
 
 	if($postVWO->success === FALSE) {
 		//TODO send email to dev w/ results of failure because we did not successfully post to YH
@@ -334,6 +338,21 @@ if(!empty($analyticsObj->vwoGoalId)) {
 	$myDevLog.= "VWO Revenue:" . $vwoRevenue . "<br>";
 	$myDevLog.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
 	$myDevLog.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
+
+
+	$vwoLogText.= "VWO Results:<br>";
+	$vwoLogText.= "Start " . date("Y-m-d h:i:s") . "<br>";
+	$vwoLogText.= "ipaddress:" . $_SESSION['ipaddress'] . "<br>";
+	$vwoLogText.= "netRevenue:" . $productDataObj->netRevenueEach . "<br>";
+	$vwoLogText.= "quantity:" . $quantity . "<br>";
+	$vwoLogText.= "VWO Revenue:" . $vwoRevenue . "<br>";
+	$vwoLogText.= "VWO URL:" . $postVWO->hasOffersUrl . "<br>";
+	$vwoLogText.= "VWO Order Response String:" . $postVWO->serverResponse . "<br>";
+
+	$vwoLog = Dblog::setDblog($vwoLogText,"VWO Postback");
+} else {
+	$vwoLogText = "no vwoGoalId found";
+	$vwoLog = Dblog::setDblog($vwoLogText,"VWO Postback");
 }
 
 $stepTimerStop = microtime(true);
@@ -389,7 +408,7 @@ $dblog = Dblog::setDblog($saleInfo,"saleObj");
 $endProcessTime = microtime(true);
 $elapsedProcesstime = $endProcessTime - $startProcessTime;
 $stepText .= $elapsedProcesstime . " :: Total process time (" . getenv("DESIGNATION") . ")";
-$dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId);
+//$dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId);
 
 
 

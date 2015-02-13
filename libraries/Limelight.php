@@ -113,8 +113,8 @@ class Limelight {
 			$limelightParams['AFID'] = $analyticsObj->affiliateId;
 		} else {
 			$limelightParams['AFID'] = "EMPTY";
-			include_once("Dblog.php");
-			$dblog = Dblog::setDblog("EMPTY","AFID");
+//			include_once("Dblog.php");
+//			$dblog = Dblog::setDblog("EMPTY","AFID");
 		}
 
 
