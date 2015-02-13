@@ -396,7 +396,7 @@ foreach($stepTimeLog as $step) {
 $stepText .= "======<br>";
 
 
-$dblog = Dblog::setDblog($myDevLog,"DevLog");
+//$dblog = Dblog::setDblog($myDevLog,"DevLog");
 
 $saleArray = (array) $saleDataObj;
 foreach ($saleArray as $k => $v) {
@@ -408,7 +408,7 @@ $dblog = Dblog::setDblog($saleInfo,"saleObj");
 $endProcessTime = microtime(true);
 $elapsedProcesstime = $endProcessTime - $startProcessTime;
 $stepText .= $elapsedProcesstime . " :: Total process time (" . getenv("DESIGNATION") . ")";
-//$dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId);
+$dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId);
 
 
 
