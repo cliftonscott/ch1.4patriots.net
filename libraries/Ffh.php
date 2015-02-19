@@ -11,10 +11,10 @@ class Ffh {
 	
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
+
+	static $quantity = null;
 	static $orderId = null;
-	static $customerId = null;
-	
+
 	const USERNAME = "";
 	const PASSWORD = "";
 	
@@ -24,9 +24,18 @@ class Ffh {
 	
 	function postSale($productDataObj, $customerDataObj) {
 
+		$postSale = new stdClass();
+
+		if(self::$quantity < 1) {
+			$postSale->success = false;
+			$postSale->ffhError = "Quantity not set.";
+			return $postSale;
+		} else {
+			$quantity = self::$quantity;
+		}
+
 		include_once("Ffh/ffh.api.php");
 
-		$postSale = new stdClass();
 
 		$order = new FFHOrder();
 
@@ -55,7 +64,7 @@ class Ffh {
 
 		// Add a Product to the Order.
 		//$order->addItem( new FFHItem( '50170054', '1', '4Patriots Foldable Solar Panel 24V 100w' ) ); // SKU, Quantity, Description
-		$order->addItem( new FFHItem( $productDataObj->productId, '1', '4Patriots HM cable 30A Anderson 25ft.' ) );
+		$order->addItem( new FFHItem( $productDataObj->productId, $quantity, '' ) );
 
 		/*
 			Parameters for API access.
@@ -106,14 +115,13 @@ class Ffh {
 		
 	}
 
+	function setQuantity($quantity) {
+		self::$quantity = $quantity;
+	}
 	function setOrderId($orderId) {
 		self::$orderId = $orderId;
 	}
 
-	function setCustomerId($customerId) {
-		self::$customerId = $customerId;
-	}
-		
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
 		$message = array("timestamp" => microtime(), "message" => $msg);
