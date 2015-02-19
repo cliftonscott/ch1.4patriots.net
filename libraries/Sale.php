@@ -21,6 +21,7 @@ class Sale {
 	static $limelight = FALSE;
 	static $mps = FALSE;
 	static $cpv = FALSE;
+	static $ffh = FALSE;
 	static $hasOffers = FALSE;
 	static $yellowHammer = FALSE;
 	static $autoResponder = FALSE;
@@ -55,6 +56,9 @@ class Sale {
 	function setCpv($cpv) {
 		self::$cpv = $cpv;
 	}
+	function setFfh($ffh) {
+		self::$ffh = $ffh;
+	}
 	function setHasOffers($hasOffers) {
 		self::$hasOffers = $hasOffers;
 	}
@@ -86,6 +90,7 @@ class Sale {
 		$saleData->customerId = self::$customerId;
 		$saleData->mps = self::$mps;
 		$saleData->cpv = self::$cpv;
+		$saleData->ffh = self::$ffh;
 		$saleData->hasOffers = self::$hasOffers;
 		$saleData->autoResponder = self::$autoResponder;
 		$saleData->patriots = self::$patriots;
