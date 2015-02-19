@@ -13,8 +13,8 @@ class Platform {
 	
 	static $applicationMessages = array();
 	static $applicationErrors = array();
-	
-	const SOME_CONSTANT = "";
+
+	static $apiFfhEnabled = false; // Turns integration with Food For Health API integration on/off (true/false)
 
 	static $documentRoot = null;
 	static $defaultCsrButtons = "chat,order"; //comma delimited string
@@ -71,6 +71,21 @@ class Platform {
 		//todo error checking and return
 		self::$defaultOrderUrl = $url;
 		return true;
+	}
+
+	function isApiEnabled($api) {
+
+		$results = false;
+
+		switch(strtolower($api)) {
+			case "ffh":
+				if(self::$apiFfhEnabled === true) {
+					$results = true;
+				}
+				break;
+		}
+
+		return $results;
 	}
 
 	function generateCsrModalButton ($config = "chat") {
