@@ -17,6 +17,7 @@ if(in_array($_SERVER["PHP_SELF"], $adConversionNewArray)) { ?>
 </script>
 <!-- End ZEDO DivD Conversion -->
 <img src="https://ss7.zedo.com/img/bh.gif?n=305&g=20&a=1488&s=1&l=1&t=e&f=1" width="1" height="1" border="0" > <!-- DivD Opt Out-->
+<iframe src="https://engine.4dsply.com/Pixel/IFrame?cid=7441" frameborder="0" width="1" height="1"></iframe> <!-- Adsupply 2/19/15 -->
 <!-- End Advertiser Code -->
 <?php } ?>
 <?php
