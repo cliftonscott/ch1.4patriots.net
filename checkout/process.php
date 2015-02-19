@@ -207,6 +207,32 @@ $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Post to MPS :: " . $postMps->success;
 //==============================================================================================================//
 //==============================================================================================================//
+//post purchase to FFH (if applicable)
+if($platform->isApiEnabled("ffh") === true) {
+	$stepTimerStart = microtime(true);
+	if($productDataObj->ffhId > 0) {
+		include_once("Ffh.php");
+		$ffh = new Ffh();
+		$ffh->setOrderId($postLimelight->orderId);
+		$ffh->setCustomerId($postLimelight->customerId);
+		$postFfh = $ffh->postSale($productDataObj, $customerDataObj);
+		if($postFfh->success === TRUE) {
+			$myDevLog.="FFH Results:<br>";
+			$myDevLog.="Successfully posted to FFH<br>";
+			$myDevLog.=$postFfh->ffhOrderNumber . "<br>";
+		} else {
+			$myDevLog.="FFH Results:<br>";
+			$myDevLog.="Failed to post to FFH<br>";
+			$myDevLog.="FFH Error: " . $postFfh->ffhError . "<br>";
+		}
+		$saleDataObj->setFfh($postFfh->success);
+	}
+	$stepTimerStop = microtime(true);
+	$stepTime = round($stepTimerStop - $stepTimerStart, 4);
+	$stepTimeLog[] = $stepTime . " :: Post to FFH";
+}
+//==============================================================================================================//
+//==============================================================================================================//
 //post purchase to CPV
 $stepTimerStart = microtime(true);
 //TODO: see class Cpv.php for additional todos for CPV lab
