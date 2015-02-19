@@ -1,4 +1,6 @@
 <?php
+include_once("Platform.php");
+$platform = new Platform();
 include_once("Dblog.php");
 $startProcessTime = microtime(true);
 
@@ -214,7 +216,7 @@ if($platform->isApiEnabled("ffh") === true) {
 		include_once("Ffh.php");
 		$ffh = new Ffh();
 		$ffh->setOrderId($postLimelight->orderId);
-		$ffh->setCustomerId($postLimelight->customerId);
+		$ffh->setQuantity($quantity);
 		$postFfh = $ffh->postSale($productDataObj, $customerDataObj);
 		if($postFfh->success === TRUE) {
 			$myDevLog.="FFH Results:<br>";
@@ -229,7 +231,7 @@ if($platform->isApiEnabled("ffh") === true) {
 	}
 	$stepTimerStop = microtime(true);
 	$stepTime = round($stepTimerStop - $stepTimerStart, 4);
-	$stepTimeLog[] = $stepTime . " :: Post to FFH";
+	$stepTimeLog[] = $stepTime . " :: Post to FFH :: " . $postFfh->success;
 }
 //==============================================================================================================//
 //==============================================================================================================//
