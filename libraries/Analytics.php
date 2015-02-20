@@ -71,6 +71,8 @@ class Analytics {
 
 	function initializeValues() {
 
+		include_once("Dblog.php");
+
 		$serverId = getenv("DESIGNATION");
 		self::$serverId = $serverId;
 
@@ -182,6 +184,7 @@ class Analytics {
 		// Check if an experiment ID was sent.
 		if (isset($_GET["experiment_id"])) {
 
+
 			$testId = trim($_GET["experiment_id"]);
 			$goalId = trim($_GET["GOAL_ID"]);
 			$combination = trim($_GET["COMBINATION"]);
@@ -192,6 +195,9 @@ class Analytics {
 				'goalId' => $goalId,
 				'combination' => $combination
 			);
+			//add temporary logging
+
+			$devlog = Dblog::setDblog("Visit contains experiment_id","VWO Analtyics Library");
 
 			// Check if this experiment ID is not yet in session.
 			$experimentExists = false;
@@ -205,6 +211,13 @@ class Analytics {
 				// Add the new experiment data to the session.
 				array_push($_SESSION["vwoTestIds"], $vwoTestData);
 			}
+		}
+
+		$logdata["VWO Experiment"] = $_SESSION["vwoTestIds"];
+		$logdata["Url"] = $_SERVER["PHP_SELF"];
+
+		if(!empty($_SESSION["vwoTestIds"])) {
+			$devlog = Dblog::setDblog(json_encode($logdata),"VWO Analytics Library");
 		}
 
 		// Set the session data to this object for use.
