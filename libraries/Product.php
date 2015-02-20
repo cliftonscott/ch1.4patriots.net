@@ -496,6 +496,7 @@ class Product {
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0; //no international sales
 				$productObj->mpsId = null; //used for MPS
+				$productObj->ffhId = 162; //used for FFH integration
 				$productObj->campaignId = 16;
 				$productObj->netRevenueEach = 615;
 				$productObj->taxable = TRUE;
@@ -521,6 +522,7 @@ class Product {
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0; //no international sales
 				$productObj->mpsId = null; //used for MPS
+				$productObj->ffhId = 162; //used for FFH integration
 				$productObj->campaignId = 16;
 				$productObj->netRevenueEach = 393;
 				$productObj->taxable = TRUE;
@@ -569,6 +571,7 @@ class Product {
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0; //no international sales
 				$productObj->mpsId = null; //used for MPS
+				$productObj->ffhId = 164; //used for FFH integration
 				$productObj->campaignId = 16;
 				$productObj->netRevenueEach = 546;
 				$productObj->taxable = TRUE;
@@ -592,6 +595,7 @@ class Product {
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0; //no international sales
 				$productObj->mpsId = null; //used for MPS
+				$productObj->ffhId = 164; //used for FFH integration
 				$productObj->campaignId = 16;
 				$productObj->netRevenueEach = 448;
 				$productObj->taxable = TRUE;
