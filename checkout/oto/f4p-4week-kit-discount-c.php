@@ -1,4 +1,5 @@
 <?php
+// For 3mo Discount Split Test
 if($_GET["upgrade"] == 1 ) {
 	$isUpgrade = TRUE;
 }

@@ -20,11 +20,11 @@ $funnelData = $productObj->initFunnel("checkout");
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
-$platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
+$platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-b.php");
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 
-<div class="container-main">
+	<div class="container-main">
 
 	<div class="container">
 
@@ -36,7 +36,8 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 							<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Coffee<br>Is Almost Gone...</strong></h2>
 						</div>
 						<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;float:none !important;">
-							<script type="text/javascript" src="//reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ=/?responsive=1&autoResponsive=1&container=evp-HP2L5FX5DZ"></script><div id="evp-HP2L5FX5DZ" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1UaW1teTIgQ09NUFJFU1NFRC5tcDQ="></div>              </div>
+							<script type="text/javascript" src="https://reboot.evsuite.com/player/VXBkYXRlZFByaWNlX1RpbW15RnJlZUNvZmZlZUNPTVBSRVNTRUQubXA0/?responsive=1&autoResponsive=1&container=evp-5FEKJWVM14"></script><div id="evp-5FEKJWVM14" data-role="evp-video" data-evp-id="VXBkYXRlZFByaWNlX1RpbW15RnJlZUNvZmZlZUNPTVBSRVNTRUQubXA0"></div>
+						</div>
 						<div class="col-lg-12 margin-b-10 coffee-checkout">
 							<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
 							<p>Get 30 servings of my survival coffee <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
@@ -46,7 +47,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-a.php");
 								<li>100% Colombian non-GMO Arabica coffee beans go from tree, to freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
 								<li>Shipped right to your door via USPS First Class Mail.</li>
 							</ul>
-							<p><strong>Regularly priced at $9.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
+							<p><strong>Regularly priced at $12.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
 						</div>
 						<div class="col-lg-12 text-center hidden-xs">
 							<img src="/assets/images/buttons/btn-order-now-orange-left-01.png" alt="Frank" class="img-responsive center-block">

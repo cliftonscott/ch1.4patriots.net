@@ -1,5 +1,5 @@
 <?php
-// was f4p-oto-c.php
+// For 3mo Discount Split Test
 if($_GET["upgrade"] == 1 ) {
 	$isUpgrade = TRUE;
 }
@@ -33,7 +33,26 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div>
 			<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
 		</div>
-		<div><img class="img-responsive center-block margin-b-10"src="/media/images/f4p/f4p-3-month-kit-04.jpg" alt="3 Month Kit"/></div>
+		<div id="videobox" class="hidden-xs">
+			<script type="text/javascript" src="http://reboot.evsuite.com/player/M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ=/?container=evp-DCCKOWHMRF"></script><div id="evp-DCCKOWHMRF" data-role="evp-video" data-evp-id="M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ="></div>
+		</div>
+		<div class="margin-tb-20">
+			<?php
+			if($isUpgrade) {
+				?>
+				<div class="text-center">
+					<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
+				</div>
+			<?php
+			} else {
+				?>
+				<div class="text-center">
+					<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
+				</div>
+			<?php
+			}
+			?>
+		</div>
 		<div>
 			<p>You just got your own 4-week supply of food from Food4Patriots, and I'm super excited that you did.</p>
 			<p>You've joined the ranks of people who aren't leaving their safety and their family's safety up to chance.</p>
@@ -48,7 +67,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
 			<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War One, when a pound of bread cost 3 BILLION marks! </p>
 			<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
-			<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It&rsquo;s a 1-time discount sale price of $397 for our 3-month kit – that&rsquo;s <strong>another $100.00 discount off the already-low price </strong>– but only if you act now.</p>
+			<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now. This is the <strong>same exact 3-month kit (with the same free shipping and bonuses)</strong> that you just saw on the previous page at the full price of $497...but I'm knocking an extra $100 off today just to thank you for being a customer.</p>
 			<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
 			<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-Month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
@@ -110,13 +129,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		if($isUpgrade) {
 			?>
 			<div class="text-center">
-				<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 			</div>
 		<?php
 		} else {
 			?>
 			<div class="text-center">
-				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 			</div>
 		<?php
 		}
@@ -175,17 +194,43 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Just click the link the button below and I’ll send you your goodies right away.</p>
 		</div>
 		<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
+		<div class="row">
+			<div class="col-sm-12 col-md-1"></div>
+			<div class="col-sm-12 col-md-5">
+				<div class="productList">
+					<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+					<ul>
+						<li>450 Servings <a href="#info" id="3mkPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+						<li><strong>FREE</strong> Shipping</li>
+						<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+						<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-5 nopadding">
+				<div class="productList">
+					<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
+					<ul>
+						<li>10 Items Sold Out After Crisis</li>
+						<li>Water Survival Guide</li>
+						<li>How to Cut Your Grocery Bills</li>
+						<li>Survival Garden Guide</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-1"></div>
+		</div>
 		<?php
 		if($isUpgrade) {
 			?>
 			<div class="text-center">
-				<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 			</div>
 		<?php
 		} else {
 			?>
 			<div class="text-center">
-				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 			</div>
 		<?php
 		}
@@ -212,13 +257,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			if($isUpgrade) {
 				?>
 				<div class="text-center">
-					<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+					<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 				</div>
 			<?php
 			} else {
 				?>
 				<div class="text-center">
-					<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+					<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 				</div>
 			<?php
 			}
@@ -256,6 +301,37 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		});
 		$(document ).ready(function () {
 			$("#seedsPopover").popover({
+				html:true,
+				trigger: 'hover',
+				title:"Liberty Seed Vault",
+				content: function() {
+					return $('#lsv').html();
+				},
+			});
+
+		});
+		$(document ).ready(function () {
+			$("#3mkPopover2").popover({
+				html:true,
+				trigger: 'hover',
+				title:"3 Month Kit May Include:",
+				content: function() {
+					return $('#3mk').html();
+				},
+			});
+
+		});
+		$(document ).ready(function () {
+			$("#toolPopover2").popover({
+				html:true,
+				trigger: 'hover',
+				title:"11-in-1 Survival Tool",
+				content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
+			});
+
+		});
+		$(document ).ready(function () {
+			$("#seedsPopover2").popover({
 				html:true,
 				trigger: 'hover',
 				title:"Liberty Seed Vault",
