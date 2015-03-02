@@ -199,7 +199,7 @@ class Product {
 			case 22: // 4WEEK DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/oto/f4p-seeds-rutgers.php";
+				$productObj->nextPage = "/checkout/oto/f4p-seeds-rutgers.php?b=y"; //REMOVE ?b=y on completion of VWO-315
 				$productObj->listId = 35;
 				$productObj->tags = "4WKITUP";
 				$productObj->shippingIdDomestic = 8;
