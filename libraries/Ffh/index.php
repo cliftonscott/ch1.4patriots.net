@@ -84,7 +84,7 @@
 			
 	*/
 
-	$api = new FFHApi( '!4PATRIOT_256910!', 'BEN.JOHNSON', FFHApi::API_MODE_PILOT );
+	$api = new FFHApi( '!4PATRIOT_256910!', '4PADMIN', FFHApi::API_MODE_PILOT );
 
 
 
