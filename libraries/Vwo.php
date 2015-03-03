@@ -1,40 +1,28 @@
 <?php
 /**
  * Order Processing utilities
- * 
- * 
+ *
+ *
  * @author Brian Gibbins
  * @copyright 2014
  * @see http://en.wikipedia.org/wiki/PHPDoc
  */
 
 class Vwo {
-	
+
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
 
 	const ACCOUNTID = "827";
 	const URL = "http://dev.visualwebsiteoptimizer.com/c.gif";
-	
+
 	public function __construct() {
-		
+
 	}
-	
+
 	function postSale($vwoRevenue) {
 
-		// Initialize our sale as an empty class.
 		$postSale = new stdClass();
-
-		// Set post sale process as successful as default.
-		// If any CURL request fails, we will make it as failed.
-		$postSale->success = TRUE;
-
-		// Initialize our Curl and Analytics services.
-		// Will be used in each VWO experiment post.
-		include_once("Curl.php");
-		$curl = new Curl();
-		include_once("Analytics.php");
-		$analyticsObj = new Analytics();
 
 		//check that $orderRevenue is numeric
 		if(!is_numeric($vwoRevenue)) {
@@ -44,51 +32,48 @@ class Vwo {
 			return $postSale;
 		}
 
-		// Check that at least one experiment is provided.
-		$experimentIds = $analyticsObj->vwoTestIds;
-		if (!is_array($experimentIds) || count($experimentIds) == 0) {
-			self::setError("No experiment is provided.");
-			$postSale->success = false;
-			$postSale->errors = self::getErrors();
-			return $postSale;
-		}
+		include_once("Analytics.php");
+		$analyticsObj = new Analytics();
 
-		// Post the sale to each VWO experiment.
-		foreach ($experimentIds as $experimentData) {
+		$vwoParams = array (
 
-			$vwoParams = array (
-				"experiment_id" => $experimentData["testId"],
-				"ACCOUNT_ID" => self::ACCOUNTID,
-				"GOAL_ID" => $experimentData["goalId"],
-				"COMBINATION" => $experimentData["combination"],
-				"r" => $vwoRevenue,
-			);
+			"experiment_id" => $analyticsObj->vwoTestId,
+			"ACCOUNT_ID" => self::ACCOUNTID,
+			"GOAL_ID" => $analyticsObj->vwoGoalId,
+			"COMBINATION" => $analyticsObj->vwoVariationId,
+			"r" => $vwoRevenue,
 
-			$queryString = http_build_query($vwoParams);
+		);
 
-			//doCurl call
-			$configObj = new stdClass();
-			$configObj->url = self::URL . "?" . $queryString;
-			$configObj->fields = $vwoParams;
+		$queryString = http_build_query($vwoParams);
 
-			$curlResults = $curl->doCurl($configObj);
+		//doCurl call
+		$configObj = new stdClass();
+		$configObj->url = self::URL . "?" . $queryString;
+		$configObj->fields = $vwoParams;
 
-			$resultsString = urldecode($curlResults->results);
-			$postSale->serverResponse = $resultsString;
-			$postSale->errors = $curlResults->errors;
-			$postSale->messages = $curlResults->messages;
-			$postSale->hasOffersUrl = $curlResults->curlUrl;
+		include_once("Curl.php");
+		$curl = new Curl();
 
-			// If any Curl request fails, this sale post is unsuccessful.
-			if($curlResults->success === FALSE) {
-				$postSale->success = FALSE;
-			}
+		$curlResults = $curl->doCurl($configObj);
+
+		$resultsString = urldecode($curlResults->results);
+		$postSale->serverResponse = $resultsString;
+		$postSale->errors = $curlResults->errors;
+		$postSale->messages = $curlResults->messages;
+		$postSale->hasOffersUrl = $curlResults->curlUrl;
+
+		if($curlResults->success === TRUE) {
+			$postSale->success = TRUE;
+		} else {
+			$postSale->success = FALSE;
 		}
 
 		return $postSale;
+
 	}
 
-		
+
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
 		$message = array("timestamp" => microtime(), "message" => $msg);

@@ -37,7 +37,7 @@ class Analytics {
 	static $source = null;
 	static $custom = null;
 	static $queryString = null;
-	static $vwoTestIds = null;
+	static $vwoTestId = null;
 	static $vwoGoalId = null;
 	static $vwoVariationId = null;
 	static $cpvInstance = null;
@@ -61,7 +61,7 @@ class Analytics {
 		$this->source = self::$source;
 		$this->custom = self::$custom;
 		$this->queryString = self::$queryString;
-		$this->vwoTestIds = self::$vwoTestIds;
+		$this->vwoTestId = self::$vwoTestId;
 		$this->vwoGoalId = self::$vwoGoalId;
 		$this->vwoVariationId = self::$vwoVariationId;
 
@@ -176,60 +176,14 @@ class Analytics {
 			$this->setCustom(null);
 		}
 
-		// Initialize the session VWO test ids as an array if it is not yet set.
-		if (!isset($_SESSION["vwoTestIds"])) {
-			$_SESSION["vwoTestIds"] = array();
+		$vwoTestId = trim($_GET["experiment_id"]);
+		if(!empty($vwoTestId)) {
+			$this->setVwoTestId($vwoTestId);
+		} elseif (!empty($_SESSION["vwoTestId"])) {
+			$this->setVwoTestId($_SESSION["vwoTestId"]);
+		} else {
+			$this->setVwoTestId(null);
 		}
-
-		// Check if an experiment ID was sent.
-		if (isset($_GET["experiment_id"])) {
-
-
-			$testId = trim($_GET["experiment_id"]);
-			$goalId = trim($_GET["GOAL_ID"]);
-			$combination = trim($_GET["COMBINATION"]);
-
-			// Prepare the test data for the session.
-			$vwoTestData = array(
-				'testId' => $testId,
-				'goalId' => $goalId,
-				'combination' => $combination
-			);
-			//add temporary logging
-
-			$devlog = Dblog::setDblog("Visit contains experiment_id","VWO Analtyics Library");
-
-			// Check if this experiment ID is not yet in session.
-			$experimentExists = false;
-			foreach ($_SESSION["vwoTestIds"] as $data) {
-				if ($testId == $data["testId"]) {
-					$experimentExists = true;
-				}
-			}
-			if (!$experimentExists) {
-
-				// Add the new experiment data to the session.
-				array_push($_SESSION["vwoTestIds"], $vwoTestData);
-			}
-		}
-
-		$logdata["VWO Experiment"] = $_SESSION["vwoTestIds"];
-		$logdata["Url"] = $_SERVER["PHP_SELF"];
-
-		if(!empty($_SESSION["vwoTestIds"])) {
-			$devlog = Dblog::setDblog(json_encode($logdata),"VWO Analytics Library");
-		}
-
-		// Set the session data to this object for use.
-		$this->setVwoTestIds($_SESSION["vwoTestIds"]);
-
-//		if(!empty($vwoTestId)) {
-//			$this->setVwoTestId($vwoTestId);
-//		} elseif (!empty($_SESSION["vwoTestId"])) {
-//			$this->setVwoTestId($_SESSION["vwoTestId"]);
-//		} else {
-//			$this->setVwoTestId(null);
-//		}
 
 		$vwoGoalId = trim($_GET["GOAL_ID"]);
 		if(!empty($vwoGoalId)) {
@@ -327,9 +281,9 @@ class Analytics {
 	function setQueryString($queryString) {
 		self::$queryString = "?" . $queryString;
 	}
-	function setVwoTestIds($vwoTestIds) {
-		self::$vwoTestIds = $vwoTestIds;
-		$_SESSION["vwoTestIds"] = $vwoTestIds;
+	function setVwoTestId($vwoTestId) {
+		self::$vwoTestId = $vwoTestId;
+		$_SESSION["vwoTestId"] = $vwoTestId;
 	}
 	function setVwoGoalId($vwoGoalId) {
 		self::$vwoGoalId = $vwoGoalId;
