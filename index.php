@@ -122,6 +122,17 @@
 		<p class="lead">Read the honest reviews left by other customers and why they bought and love their Food4Patriots kits.</p>
 		<p style="padding-bottom:20px;"><a class="btn btn-large btn-success pull-right" href="http://www.food4patriotsreview.com" target="ext">Visit Site</a></p>
 	</div>
+
+	<div class="jumbotron text-left">
+		<h2 class="darkRed"><i class="fa fa-check-square-o"></i> Guarantees</h2>
+		<p class="lead"><strong>Guarantee #1:</strong>  is a 100% money back guarantee. No questions asked. If for any reason, you’re not satisfied with your
+			Food4Patriots kit, just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide
+			it’s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. That way
+			there’s absolutely no risk for you.</p>
+		<p><img class="pull-right" src="letter/images/samples/section6-block1-img1.png" /></p>
+		<p><strong>Guarantee #2:</strong> is an unheard of 300% money back guarantee. If you open your Food4Patriots meals anytime in the next 25 years and find
+			your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will triple your money back! Does that sound fair to you?</p>
+	</div>
   
 </div> 
 <script>
