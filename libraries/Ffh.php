@@ -89,7 +89,7 @@ class Ffh {
 			$apiMode = FFHApi::API_MODE_PRODUCTION;
 		}
 
-		$api = new FFHApi( '!4PATRIOT_256910!', 'BEN.JOHNSON', $apiMode );
+		$api = new FFHApi( '!4PATRIOT_256910!', '4PADMIN', $apiMode );
 
 
 
