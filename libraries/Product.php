@@ -35,7 +35,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 6;
 				$productObj->nextPage = "/checkout/oto/f4p-seeds-bogo.php";
-				$productObj->listId = 14;
+				$productObj->listId = 24;
 				$productObj->tags = "f4pseeds";
 				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
