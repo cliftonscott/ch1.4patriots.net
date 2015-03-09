@@ -18,10 +18,16 @@ if($_SESSION["soldout"]["flag"] === true) {
 			jsProductObj = JSON.parse(data);
 			taxCountry = document.getElementById('billing-country').value.toLowerCase();
 			if(taxCountry == "us") {
-				shippingCost = jsProductObj.shippingCostDomestic * quantity;
+				shippingCost = jsProductObj.shippingCostDomestic;
 			} else {
-				shippingCost = jsProductObj.shippingCostInternational * quantity;
+				shippingCost = jsProductObj.shippingCostInternational;
 			}
+
+			var shippingCostPerItem = jsProductObj.shippingCostPerItem;
+			if (shippingCostPerItem === true) {
+				shippingCost = shippingCost * quantity;
+			}
+
 			shippingAmount = document.getElementById('shippingAmount');
 			if(shippingCost > 0) {
 				shippingAmount.innerHTML = "$" + shippingCost.toFixed(2);
