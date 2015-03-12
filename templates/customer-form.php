@@ -158,7 +158,7 @@ if($_SESSION['errorMessage'] != '') {
 		</select>
 	  </div>
 	  <div class="form-group">
-		<label for="billing-state">State:</label>
+		<label for="billing-state" id="billing-state-label">State:</label>
 		<select class="form-control" id="billing-state" name="billing-state"  onchange="setStateTax();">
 			<!--dynamically built w/ javascript-->
 		</select>
@@ -196,7 +196,7 @@ if($_SESSION['errorMessage'] != '') {
 		</select>
 	  </div>
 	  <div class="form-group">
-		<label for="shipping-state">State:</label>
+		<label for="shipping-state" id="shipping-state-label">State:</label>
 		<select class="form-control" id="shipping-state" name="shipping-state"  onchange="setStateTax();">
 			<!--dynamically built w/ javascript-->
 		</select>
@@ -339,6 +339,18 @@ if(isset($preFill)) {
 		setStateTax();
 	});
 
+	// Update 'State' label to match currently selected Country,
+	// individually for both Billing and Shipping addresses.
+	$('#shipping-country, #billing-country').change(function(){
+		var country = $(this).val();
+		var label = 'State';
+		if (country == 'CA') {
+			label = 'Province/Territory';
+		}
+		var labelName = $(this).attr('id').replace('country', 'state') + '-label';
+		$('#' + labelName).html(label + ':');
+	});
+
 	$('#sameas').change(function(){
 		changeCountry('shipping');
 		if (this.checked) {
@@ -357,6 +369,8 @@ if(isset($preFill)) {
 			
 			billingCountry = $("#billing-country").val();
 			$('#shipping-country').val(billingCountry);
+
+			$('#shipping-country').trigger('change');
 
 		}else{
 			$('#shipaddd').hide('fast');
