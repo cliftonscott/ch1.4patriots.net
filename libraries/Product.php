@@ -35,7 +35,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 6;
 				$productObj->nextPage = "/checkout/oto/f4p-seeds-bogo.php";
-				$productObj->listId = 14;
+				$productObj->listId = 24;
 				$productObj->tags = "f4pseeds";
 				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
@@ -649,6 +649,7 @@ class Product {
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 1.95;
 				$productObj->shippingCostInternational = 1.95;
+				$productObj->shippingCostPerItem = true;
 				$productObj->mpsId = 194;
 				//Limelight
 				$productObj->price = 0;

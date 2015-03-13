@@ -8,6 +8,7 @@ $return["originalPrice"] = $productDataObj->originalPrice;
 $return["metaTitle"] = $productDataObj->metaTitle;
 $return["shippingCostDomestic"] = $productDataObj->shippingCostDomestic;
 $return["shippingCostInternational"] = $productDataObj->shippingCostInternational;
+$return["shippingCostPerItem"] = $productDataObj->shippingCostPerItem;
 
 if($funnel = $productObj->getFunnel()) {
 	$funnelData = $productObj->initFunnel($funnel["step"]);

@@ -1,4 +1,7 @@
 <?php
+/*
+Modal Exit Pop Split Test - 2/17/15
+ */
 
 $variantsArray = array (
 	"gb", // Glenn Beck
@@ -129,7 +132,6 @@ if (isMobile()) {
 		}
 	}
 </script>
-
 <div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
 	<div class="container">
@@ -197,6 +199,7 @@ if (isMobile()) {
 				<!-- End of Advertise Pop Up Code -->
 				<!-- Start References -->
 				<?php include("snippets/video-references.html");?>
+				<a class="button reset">Reset popup</a>
 				<!-- End References -->
 			</div>
 		</div>
@@ -311,4 +314,5 @@ if (isMobile()) {
 	<!-- // End Offer Conversion -->
 
 <?php
+include_once("snippets/video-exit-modal.html");
 include_once("template-bottom.php");

@@ -5,7 +5,7 @@ if($_SESSION["googleTransaction"]) {
 }
 ?>
 
-<?php if(!empty($googleTransaction["customerId"])) { ?>
+<?php if(!empty($googleTransaction["customerId"]) && (isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] !== true)) { ?>
 	<script>
 		dataLayer = [];
 		dataLayer.push({
