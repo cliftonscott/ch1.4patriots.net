@@ -1,10 +1,4 @@
 <?php
-/*
- * temporary redirect while sold out
-
-header("Location: /checkout/index.php");
-exit;
- */
 
 $variantsArray = array (
 	"gb", // Glenn Beck
