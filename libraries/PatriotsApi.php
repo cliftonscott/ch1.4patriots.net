@@ -38,7 +38,7 @@ class PatriotsApi {
 		$postSale = new stdClass();
 		$environment = $this->determineEnvironment();
 		
-		$mpsParams = array (
+		$params = array (
 			"orderId" => self::$orderId,
 			"customerId" => self::$customerId,
 			"firstName" => $customerDataObj->firstName,
@@ -63,12 +63,12 @@ class PatriotsApi {
 			"apiToken" => self::$APITokens[$environment]
 		);
 		
-		$queryString = http_build_query($mpsParams);
+		$queryString = http_build_query($params);
 
 		//doCurl call
 		$configObj = new stdClass();
 		$configObj->url = self::$URLS[$environment] . "?" . $queryString;
-		$configObj->fields = $mpsParams;
+		$configObj->fields = $params;
 		
 		include_once("Curl.php");
 		$curl = new Curl();
