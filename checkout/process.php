@@ -1,4 +1,5 @@
 <?php
+ini_set('display_errors', '1');
 include_once("Platform.php");
 $platform = new Platform();
 include_once("Dblog.php");
@@ -184,29 +185,27 @@ $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Post Bonus Items to Limelight :: " . $bonusLimelight->success;
 //==============================================================================================================//
 //==============================================================================================================//
-//post purchase to MPS (if applicable)
+//post purchase to 4Patriots Api
 $stepTimerStart = microtime(true);
-if($productDataObj->mpsId > 0) {
-	include_once("Mps.php");
-	$mps = new Mps();
-	$mps->setOrderId($postLimelight->orderId);
-	$mps->setCustomerId($postLimelight->customerId);
-	$postMps = $mps->postSale($saleDataObj->getSale(), $productDataObj, $customerDataObj);
-	//TODO get w/ MPS and create better error plans
-	//TODO currently MPS is returning an error string due to something wrong on their end
-	//TODO consequently we can't complete this error checking until resolve.
-	if($postMps->success === TRUE) {
-		//successfully posted to mps
 
-	} else {
-		//post not receive
-	}
-	$saleDataObj->setMps($postMps->success);
+include_once("PatriotsApi.php");
+$patriotsApi = new PatriotsApi();
+$patriotsApi->setOrderId($postLimelight->orderId);
+$patriotsApi->setCustomerId($postLimelight->customerId);
+$postPatriotsApi = $patriotsApi->postSale($saleDataObj->getSale(), $productDataObj, $customerDataObj);
+if($postPatriotsApi->success === TRUE) {
+	//successfully posted to mps
+
+} else {
+	//post not receive
 }
+// TODO: Update this MPS functionality.
+$saleDataObj->setMps($postMps->success);
+
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to MPS :: " . $postMps->success;
+$stepTimeLog[] = $stepTime . " :: Post to 4Patriots Api :: " . $postMps->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //post purchase to FFH (if applicable)
