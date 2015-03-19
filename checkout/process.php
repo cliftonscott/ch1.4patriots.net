@@ -204,7 +204,7 @@ $saleDataObj->setMps($postPatriotsApi->success);
 
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to 4Patriots Api :: " . $postMps->success;
+$stepTimeLog[] = $stepTime . " :: Post to 4Patriots Api :: " . $postPatriotsApi->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //post purchase to FFH (if applicable)
