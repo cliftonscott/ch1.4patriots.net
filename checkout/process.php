@@ -199,7 +199,7 @@ if($postPatriotsApi->success === TRUE) {
 	//post not receive
 }
 // TODO: Update this MPS functionality.
-$saleDataObj->setMps($postMps->success);
+$saleDataObj->setMps($postPatriotsApi->success);
 
 
 $stepTimerStop = microtime(true);
