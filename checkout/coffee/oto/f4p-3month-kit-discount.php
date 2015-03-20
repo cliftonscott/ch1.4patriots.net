@@ -9,7 +9,7 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 	$firstName = "Fellow Patriot";
 }
 // SET PRODUCT ID
-$_SESSION['productId'] = 19; //please keep as an integer
+$_SESSION['productId'] = 23; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';

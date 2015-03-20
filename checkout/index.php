@@ -172,7 +172,7 @@ include_once ('template-top.php');
 							<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
 								<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
 								<img id="beckCheckoutAudioControl" class="audioControl" style="float:right; margin-right: 30px;
-margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout');">
+margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout'); stopAudio('frankCheckout');">
 							</div>
 						</div>
 					</div>
