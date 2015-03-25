@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$("#billing-form").validate({
 		rules: {
 			"email": {
@@ -26,7 +27,7 @@ $(document).ready(function() {
 			"billing-zip": {
 				required: true,
 				minlength: 5,
-				maxlength: 6
+				maxlength: 7
 			},
 			"card-cvv2": {
 				required: true
