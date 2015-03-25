@@ -20,6 +20,11 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+
+	<!-- Fire and report conversion pixel right away. -->
+	<?php $analyticsObj->reportConversionPixel(); ?>
+	<iframe src="https://engine.4dsply.com/Pixel/IFrame?cid=7441" frameborder="0" width="1" height="1"></iframe> <!-- Adsupply 2/19/15 -->
+
 	<script src="/js/zoommain.js"></script>
 	<style>
 		.magnify {
@@ -111,6 +116,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 		}
 	</script>
+
+
 <div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -306,6 +313,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 		</div>
 	</div>
+
+
 
 <?php
 include_once("template-bottom.php");

@@ -293,6 +293,44 @@ class Analytics {
 		self::$vwoVariationId = $vwoVariationId;
 		$_SESSION["vwoVariationId"] = $vwoVariationId;
 	}
+	function reportConversionPixel() {
+		$curl = curl_init();
+
+		$parameters = array(
+			"application" => $_SERVER["SERVER_NAME"],
+			"page" => $_SERVER["PHP_SELF"],
+			"ip" => $this->getVisitorIpAddress()
+		);
+
+		curl_setopt_array($curl, array(
+			CURLOPT_RETURNTRANSFER => 1,
+			CURLOPT_URL => 'http://dev.api.4patriots.net/post/pixel',
+			CURLOPT_USERAGENT => 'Test',
+			CURLOPT_POST => 1,
+			CURLOPT_POSTFIELDS => $parameters
+		));
+
+		$resp = curl_exec($curl);
+		curl_close($curl);
+	}
+	function getVisitorIpAddress() {
+		$ipaddress = '';
+		if ($_SERVER['HTTP_CLIENT_IP'])
+			$ipaddress = $_SERVER['HTTP_CLIENT_IP'];
+		else if($_SERVER['HTTP_X_FORWARDED_FOR'])
+			$ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+		else if($_SERVER['HTTP_X_FORWARDED'])
+			$ipaddress = $_SERVER['HTTP_X_FORWARDED'];
+		else if($_SERVER['HTTP_FORWARDED_FOR'])
+			$ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
+		else if($_SERVER['HTTP_FORWARDED'])
+			$ipaddress = $_SERVER['HTTP_FORWARDED'];
+		else if($_SERVER['REMOTE_ADDR'])
+			$ipaddress = $_SERVER['REMOTE_ADDR'];
+		else
+			$ipaddress = 'UNKNOWN';
+		return $ipaddress;
+	}
 
 
 //ERROR AND MESSAGE HANDLING
