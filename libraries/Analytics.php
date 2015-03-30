@@ -1,4 +1,7 @@
 <?php
+
+include_once 'AdSourceRegistrar.php';
+
 /**
  * Analytics Processing utilities
  * 
@@ -42,6 +45,8 @@ class Analytics {
 	static $vwoVariationId = null;
 	static $cpvInstance = null;
 
+	private $adSourceRegistrar;
+
 	public function __construct() {
 		
 		$this->initializeValues();
@@ -64,6 +69,8 @@ class Analytics {
 		$this->vwoTestId = self::$vwoTestId;
 		$this->vwoGoalId = self::$vwoGoalId;
 		$this->vwoVariationId = self::$vwoVariationId;
+
+		$this->adSourceRegistrar = new AdSourceRegistrar();
 
 		return $this;
 		
@@ -231,6 +238,10 @@ class Analytics {
 		}
 
 
+	}
+
+	function getAdSourceRegistrar() {
+		return $this->adSourceRegistrar;
 	}
 
 	function getCpvInstance() {
