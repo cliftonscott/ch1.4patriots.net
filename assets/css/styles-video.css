@@ -82,7 +82,7 @@
 /* TYPOGRAPHY CSS
 -------------------------------------------------- */
 .video-headline-contain, h1, h2{
-	margin: 0;
+	/*margin: 0;*/
 }
 .video-headline-main {
 	color: #CC0000;
@@ -298,7 +298,7 @@
 	}
 	.video-headline-sub {
 		font-size: 32px;
-		line-height: 30px;
+		line-height:  50px;
 	}
 	.video-headline-white {
 		font-size: 34px;
@@ -359,7 +359,7 @@
 	.video-headline-sub {
 		top: 0.1em;
 		font-size: 44px;
-		line-height: 35px;
+		line-height: 50px;
 		text-shadow: 0 -1px #000000, 1px 0 #000000, 0 1px #000000, -1px 0 #000000;
 	}
 	.video-headline-white {
@@ -493,8 +493,8 @@
 		line-height: 50px;
 	}
 	.video-headline-sub {
-		font-size: 61px;
-		line-height: 55px;
+		font-size: 48px;
+		line-height: 50px;
 	}
 	.headline-sub-red-block {
 		font-size: 28px;
@@ -545,7 +545,7 @@
 	}
 	.video-headline-sub {
 		font-size: 48px;
-		line-height: 49px;
+		line-height: 50px;
 	}
 	.headline-sub-red-block {
 		font-size: 22px;
