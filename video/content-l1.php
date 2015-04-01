@@ -19,6 +19,15 @@ body {
 .container-main {
 	background: transparent;
 }
+#videobox {
+	max-width: 744px;
+	max-height: 429px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	border: 12px solid #fff;
+}
 </style>
 
 <div class="container-main">
@@ -35,7 +44,7 @@ body {
 			</div>
 			<div class="col-md-12">
 				<div id="videobox">
-					<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+					<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="720" height="405"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 				</div>
 				<div class="col-md-12">
 					<!-- Button Stuff -->

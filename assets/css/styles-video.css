@@ -1,0 +1,588 @@
+.container-main{
+	background-color: #ffffff;
+	margin: 0 auto;
+	max-width: 100%;
+	padding-top: 0px;
+	padding-bottom: 15px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: none;
+	font-family: 'PT Sans', sans-serif;
+}
+.container {
+	margin: 0 auto;
+	max-width: 960px;
+	padding-top: 5px;
+}
+.container-black {
+	background-color: #000;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 15px 0;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: none;
+}
+.container-red {
+	background-color: #990000;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 15px 0;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: none;
+}
+#videobox {
+	max-width: 640px;
+	max-height: 360px;
+	background-color: transparent;
+	margin: 10px auto 50px auto;
+	overflow: hidden;
+}
+.video-background {
+	background-image: none;
+}
+
+/* CONTAINER SPECIAL CSS
+-------------------------------------------------- */
+.section-financial-collapse {
+	background: url('/assets/images/video-lander/img-background-financial-collapse-mobile.jpg') no-repeat #000;
+	height: auto;
+	color: #FFF;
+	padding: 20px 0;
+}
+.section-crisis-coming {
+	background: #FFF;
+	height: auto;
+	color: #000;
+	padding: 20px 0;
+}
+.section-real-options {
+	background: url('/assets/images/video-lander/img-background-real-options.jpg') no-repeat center -6em #1E1E1E;
+	height: auto;
+	color: #FFF;
+	padding: 20px 0;
+}
+.section-real-options-bg {
+	background: url('/assets/images/video-lander/img-background-black-50percent.png') repeat;
+}
+.section-product-details {
+	background: #FFF;
+	height: auto;
+	color: #000;
+	padding: 0;
+}
+.section-order-first {
+	background: url('/assets/images/video-lander/img-background-order-first.png') no-repeat center top;
+	height: 406px;
+}
+.section-order-first {
+	color: #FFF;
+}
+/* TYPOGRAPHY CSS
+-------------------------------------------------- */
+.video-headline-contain, h1, h2{
+	margin: 0;
+}
+.video-headline-main {
+	color: #CC0000;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+.video-headline-sub {
+	 color: #000000;
+	 font-size: 31px;
+	 font-weight: bold;
+	 text-transform: uppercase;
+	 font-family: 'PT Sans', sans-serif;
+	 margin: 0;
+	 padding: 0;
+	line-height: 15px;
+ }
+.video-headline-white {
+	color: #FFF;
+	font-size: 23px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 23px;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+.video-headline-white-fat {
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 28px;
+	margin: 30px 0;
+	padding: 0;
+	text-shadow: none;
+}
+.video-headline-black {
+	color: #000;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 22px;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+.video-headline-red {
+	color: #CC0000;
+	font-size: 27px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 22px;
+	margin: 20px 0 !important;
+	padding: 0;
+}
+.headline-sub-red-block {
+	color: #FFF;
+	background: none repeat scroll 0 0 #CC0000;
+	font-weight: 700;
+	padding: 18px 22px;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	margin: 0;
+}
+.section-crisis-coming .dropCap {
+	float: left;
+	font: normal 78px/48.77px 'PT Sans',sans-serif;
+	text-shadow: 0 -1px #000000, 1px 0 #000000, 0 1px #000000, -1px 0 #000000;
+}
+.section-real-options .dropCap {
+	position: absolute;
+	top: 36px;
+	font: normal 60px/0px 'PT Sans',sans-serif;
+	text-shadow: 0 -1px #FFF, 1px 0 #FFF, 0 1px #FFF, -1px 0 #FFF;
+}
+.section-real-options .txt-real {
+	font-size: 30px;
+	font-weight: bold;
+}
+.section-real-options .txt-option {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: .9px;
+	margin: 0 10px 0 0;
+}
+.section-real-options-bg .row {
+	margin: 15px 0;
+}
+.section-product-details h2 {
+	font-size: 2.7em;
+	margin-top: 30px;
+}
+.section-product-details .video-headline-main {
+	font-size: 34px;
+	line-height: 34px;
+	text-shadow: 0 -1px #CC0000, 1px 0 #CC0000, 0 1px #CC0000, -1px 0 #CC0000;
+}
+.section-product-details .video-headline-black {
+	font-size: 23px;
+	line-height: 23px;
+}
+.section-order-first .product {
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 50px;
+}
+.section-order-first .price-new {
+	font-size: 127px;
+	font-weight: bold;
+	line-height: 110px;
+}
+.section-order-first .price-old {
+	font-size: 43px;
+	line-height: 61px;
+}
+/* LIST CSS
+-------------------------------------------------- */
+.real-options-list {
+	margin: 30px auto;
+	font-size: 1.8em;
+}
+.real-options-list p {
+	margin: 0 0 10px 0;
+}
+.section-real-options .factor01 {
+	background: url('/assets/images/video-lander/img-list-fear-factor-1.png') no-repeat;
+	height: 38px;
+	width: 253px;
+}
+.section-real-options .factor02 {
+	background: url('/assets/images/video-lander/img-list-fear-factor-2.png') no-repeat;
+	height: 38px;
+	width: 253px;
+}
+.section-real-options .factor03 {
+	background: url('/assets/images/video-lander/img-list-fear-factor-3.png') no-repeat;
+	height: 38px;
+	width: 253px;
+}
+.product-details-list {
+	font-size: 1.6em;
+}
+.product-details-list ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 37px 0 0 0;
+}
+.product-details-list ul li {
+	background-image: url(/assets/images/misc/img-checkmark-red.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	padding-left: 50px;
+	margin: 0 0 32px 0;
+	line-height: 1em;
+}
+.product-details-bonuses-list {
+	margin: 5px 0 0 0 !important;
+}
+.product-details-bonuses-list li {
+	display: block;
+	margin: 0 0 18px 0;
+}
+.product-details-bonuses-list li span{
+	background-color: #000;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0 0 0 10px;
+	font-size: 11px;
+	font-weight: bold;
+}
+.fact-list {
+	margin-top: 26px;
+}
+.fact-list .row  {
+	margin: 0 0 21px 0;
+}
+.fact-list .row p {
+	font-size: 20px;
+	margin: 0 30px 0 0;
+	line-height: 25px;
+}
+.fact-arrow {
+	background: url('/assets/images/video-lander/img-fact-arrow.png') no-repeat center center;
+	font-size: 20px;
+	font-weight: 900;
+	height: 47px;
+	padding: 10px 0 0 3px;
+	margin: 5px 20px 10px 0;
+	width: 99px;
+	color: #FFF;
+	float: left;
+	text-align: center;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 450px) {
+	.video-headline-contain{
+		margin: 0;
+	}
+	/* TYPOGRAPHY CSS
+-------------------------------------------------- */
+	.video-headline-main {
+		font-size: 35px;
+		line-height: 20px;
+	}
+	.video-headline-sub {
+		font-size: 32px;
+		line-height: 30px;
+	}
+	.video-headline-white {
+		font-size: 34px;
+		line-height: 30px;
+	}
+	.video-headline-white-fat {
+		font-size: 35px;
+		line-height: 30px;
+	}
+	.video-headline-black {
+		font-size: 39px;
+		line-height: 35px;
+	}
+	.video-headline-red {
+		font-size: 36px !important;
+	}
+	.section-crisis-coming .dropCap {
+		font: normal 91px/73.77px 'PT Sans',sans-serif;
+		text-shadow: 0 -1px #000000, 1px 0 #000000, 0 1px #000000, -1px 0 #000000;
+	}
+	.section-product-details .video-headline-main {
+		font-size: 48px;
+		line-height: 43px;
+	}
+	.section-product-details .video-headline-black {
+		font-size: 30px;
+		line-height: 25px;
+	}
+	/* LIST CSS
+-------------------------------------------------- */
+	.product-details-bonuses-list li span{
+		font-size: 17px;
+	}
+}
+
+
+@media (min-width: 650px) {
+	.video-headline-contain{
+		margin: 0;
+	}
+
+	/* CONTAINER SPECIAL CSS
+-------------------------------------------------- */
+	.video-background {
+		background-image: none;
+	}
+	.section-financial-collapse {
+		height: auto;
+	}
+
+	/* TYPOGRAPHY CSS
+-------------------------------------------------- */
+	.video-headline-main {
+		font-size: 48px;
+		line-height: 35px;
+		text-shadow: 0 -1px #CC0000, 1px 0 #CC0000, 0 1px #CC0000, -1px 0 #CC0000;
+	}
+	.video-headline-sub {
+		top: 0.1em;
+		font-size: 44px;
+		line-height: 35px;
+		text-shadow: 0 -1px #000000, 1px 0 #000000, 0 1px #000000, -1px 0 #000000;
+	}
+	.video-headline-white {
+		font-size: 51px;
+		line-height: 45px;
+	}
+	.video-headline-black {
+		font-size: 51px;
+		line-height: 45px;
+	}
+	.video-headline-red {
+		font-size: 51px !important;
+	}
+	.video-headline-white-fat {
+		font-size: 48px;
+		line-height: 43px;
+		text-shadow: 0 -1px #FFFFFF, 1px 0 #FFFFFF, 0 1px #FFFFFF, -1px 0 #FFFFFF;
+	}
+	.section-crisis-coming .dropCap {
+		font: normal 132px/96.77px 'PT Sans',sans-serif;
+	}
+	.headline-sub-red-block {
+		font-size: 20px;
+	}
+	.section-product-details .video-headline-main {
+		font-size: 76px;
+		line-height: 67px;
+	}
+	.section-product-details .video-headline-black {
+		font-size: 48px;
+		line-height: 43px;
+	}
+	/* LIST CSS
+-------------------------------------------------- */
+	.product-details-list ul {
+		margin: 43px 0 0 0;
+	}
+	.product-details-list ul li {
+		margin: 0 0 33px 0;
+		font-size: 22px;
+	}
+	.product-details-bonuses-list li span{
+		font-size: 21px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	h1 {
+		margin: 20px 0 0 0;
+	}
+	.video-headline-contain{
+		margin: 0 0 107px 0;
+	}
+
+	/* CONTAINER SPECIAL CSS
+-------------------------------------------------- */
+	.video-background {
+		background: url("/assets/images/video-lander/img-background-flag-video.jpg") no-repeat scroll center 6.8em #FFF;
+		height: auto;
+		padding-bottom: 1em;
+	}
+	.section-financial-collapse {
+		background: url('/assets/images/video-lander/img-background-financial-collapse-mobile.jpg') no-repeat ;
+		height: auto;
+	}
+	.section-crisis-coming {
+		background: #FFF;
+		height: auto;
+	}
+	.section-product-details {
+		background: url('/assets/images/video-lander/img-background-product-details.jpg') no-repeat -525px 0 #FFF;
+		height: auto;
+		color: #000;
+		padding: 0;
+	}
+
+	/* TYPOGRAPHY CSS
+-------------------------------------------------- */
+	.video-headline-main {
+		font-size: 60px;
+		line-height: 30px;
+	}
+	.video-headline-sub {
+		font-size: 45px;
+		line-height: 50px;
+	}
+	.video-headline-white-fat {
+		font-size: 61px;
+		line-height: 55px;
+	}
+	.headline-sub-red-block {
+		font-size: 24px;
+	}
+	.section-product-details .video-headline-main {
+		font-size: 54px;
+		line-height: 67px;
+	}
+	.section-product-details .video-headline-black {
+		font-size: 34px;
+		line-height: 28px;
+	}
+}
+
+
+@media (min-width: 860px) {
+	.video-headline-contain{
+		margin: 0 0 91px 0;
+	}
+
+	/* CONTAINER SPECIAL CSS
+-------------------------------------------------- */
+	.section-financial-collapse {
+		background: url('/assets/images/video-lander/img-background-financial-collapse-mobile.jpg') no-repeat ;
+		height: 650px;
+	}
+	.section-crisis-coming {
+		height: auto;
+	}
+	.section-product-details {
+		background: url('/assets/images/video-lander/img-background-product-details.jpg') no-repeat center 0 #FFF;
+		height: auto;
+		color: #000;
+		padding: 0;
+	}
+
+	/* TYPOGRAPHY CSS
+-------------------------------------------------- */
+	.video-headline-main {
+		font-size: 67px;
+		line-height: 50px;
+	}
+	.video-headline-sub {
+		font-size: 61px;
+		line-height: 55px;
+	}
+	.headline-sub-red-block {
+		font-size: 28px;
+		margin: 0 40px 0 0;
+	}
+	.video-headline-black {
+		font-size: 74px;
+		line-height: 60px;
+	}
+	.video-headline-red {
+		font-size: 75px !important;
+		line-height: 70px;
+	}
+	.section-crisis-coming .dropCap {
+		font: normal 157px/122.77px 'PT Sans',sans-serif;
+	}
+	/* LIST CSS
+-------------------------------------------------- */
+	.product-details-list ul li {
+		margin: 0 0 32px 0;
+		font-size: 25px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.video-headline-contain{
+		margin: 0 0 91px 0;
+	}
+
+	/* CONTAINER SPECIAL CSS
+-------------------------------------------------- */
+	.section-financial-collapse {
+		background: url('/assets/images/video-lander/img-background-financial-collapse.jpg') no-repeat center center #000;
+		height: 727px;
+	}
+	.section-crisis-coming {
+		background: url('/assets/images/video-lander/img-background-crisis-coming.jpg') no-repeat center center #FFF;
+		height: 727px;
+	}
+	.section-real-options {
+	}
+	/* TYPOGRAPHY CSS
+-------------------------------------------------- */
+	.video-headline-main {
+		font-size: 75px;
+		line-height: 40px;
+	}
+	.video-headline-sub {
+		font-size: 48px;
+		line-height: 49px;
+	}
+	.headline-sub-red-block {
+		font-size: 22px;
+		margin: 0 40px 0 0;
+	}
+	.section-financial-collapse p {
+		font-size: 1.4em;
+	}
+	.video-headline-white, .video-headline-black {
+		font-size: 60px;
+		line-height: 55px;
+	}
+	.video-headline-white-fat {
+		font-size: 68px;
+		line-height: 63px;
+	}
+	.section-real-options-bg p{
+		font-size: 1.5em;
+		line-height: 1.2em;
+	}
+	.section-product-details .video-headline-main {
+		font-size: 60px;
+		line-height: 67px;
+	}
+	.section-product-details .video-headline-black {
+		font-size: 42px;
+		line-height: 39px;
+	}
+	/* LIST CSS
+-------------------------------------------------- */
+	.fact-list .row p {
+		font-size: 20px;
+		margin: 0 44px 0 -30px;
+		line-height: 25px;
+	}
+	.fact-list {
+		margin-top: 76px;
+	}
+
+}
