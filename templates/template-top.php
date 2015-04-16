@@ -102,7 +102,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		?>
 
 	</head>
-	<body>
+	<body id="background-img">
 	<?php include_once("analytics-google-ecom.php"); ?>
 
 	<?php

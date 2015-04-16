@@ -2,20 +2,20 @@
 
 /**
  * Order Processing utilities
- * 
- * 
+ *
+ *
  * @author Brad Forbes
  * @copyright 2015
  * @see http://en.wikipedia.org/wiki/PHPDoc
  */
 class PatriotsApi {
-	
+
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
+
 	static $orderId = null;
 	static $customerId = null;
-	
+
 	const USERNAME = "";
 	const PASSWORD = "";
 	static $URLS = array(
@@ -28,16 +28,18 @@ class PatriotsApi {
 		'stage' 		=> 'S2tEScyt4tWRxhAf',
 		'production' 	=> '6PRsVdNQFffJckVY'
 	);
-	
+
 	public function __construct() {
-		
+
 	}
-	
+
 	function postSale($saleDataObj, $productDataObj, $customerDataObj) {
+
+		$analytics = new Analytics();
 
 		$postSale = new stdClass();
 		$environment = $this->determineEnvironment();
-		
+
 		$params = array (
 			"orderId" => self::$orderId,
 			"customerId" => self::$customerId,
@@ -58,23 +60,31 @@ class PatriotsApi {
 			"productId" => $productDataObj->productId,
 			"mpsProductId" => $productDataObj->mpsId,
 			"quantity" => $saleDataObj->quantity,
+			"revenue" => $productDataObj->netRevenueEach * $saleDataObj->quantity,
 			"shippingId" => $this->determineShippingId($customerDataObj, $productDataObj),
 			"receivedBy" => "F4P", // TODO: UPDATE WHEN CROSSPORTING
+			"adSourceTokens" => json_encode($analytics->getAdSourceRegistrar()->requestActiveTokens()),
 			"apiToken" => self::$APITokens[$environment]
 		);
-		
+
+		var_dump($params);
+
+		// Forget the ad source tokens.
+		// Ad source tracking should only include initial conversions and exclude OTOs.
+		$analytics->getAdSourceRegistrar()->forgetAllActiveTokens();
+
 		$queryString = http_build_query($params);
 
 		//doCurl call
 		$configObj = new stdClass();
 		$configObj->url = self::$URLS[$environment] . "?" . $queryString;
 		$configObj->fields = $params;
-		
+
 		include_once("Curl.php");
 		$curl = new Curl();
-		
+
 		$postResults = $curl->doCurl($configObj);
-		
+
 		$resultsString = urldecode($postResults->results);
 		$postSale->serverResponse = $resultsString;
 
@@ -83,14 +93,14 @@ class PatriotsApi {
 		} else {
 			$postSale->success = FALSE;
 		}
-		
+
 		return $postSale;
 	}
 
 	function setOrderId($orderId) {
 		self::$orderId = $orderId;
 	}
-	
+
 	function setCustomerId($customerId) {
 		self::$customerId = $customerId;
 	}
@@ -115,7 +125,7 @@ class PatriotsApi {
 			return $productDataObj->shippingIdDomestic;
 		}
 	}
-		
+
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
 		$message = array("timestamp" => microtime(), "message" => $msg);
