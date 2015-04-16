@@ -571,7 +571,6 @@ But 1st I Want You To Picture This In Your Mind…&quot;</h3>
 					<div class="inner pad-30">
 					  <p>It&rsquo;s 9:07 AM and the &ldquo;you know what&rdquo; has just hit the fan. People are panicking. It&rsquo;s all over the radio and TV. A news anchor comes on the TV screen and in a shaky voice says &quot;We are in a state of emergency. I repeat, we are now in a state of emergency.&quot;</p>
 					  <p>The 42.7 million freeloaders spoon-fed by &ldquo;Big Government&rdquo; are marching in the streets. There are rumors of looting…in fact there&rsquo;s a mob at your local grocery store. Like a swarm of locusts, the mob completely cleans out the grocery store in less than 2 hours, leaving the shelves completely bare. Panic is spreading and it&rsquo;s quickly becoming every man for himself.                      </p>
-					  <p>You are safe at home with your family, thank goodness. But now your family is looking at you… &ldquo;What&rsquo;s going to happen?&rdquo; they ask. And then your spouse pulls you close and whispers in your ear &ldquo;What are we going to eat?&rdquo; The look of fear in your family&rsquo;s eyes hits you like a punch to the gut. What are you going to tell your family? What have you done to prepare? </p>
 
 						<div class="clear"></div>
 				  </div>

@@ -84,11 +84,16 @@ class Cpv {
 			$postSale->success = TRUE;
 		} else {
 			$postSale->success = FALSE;
-			include_once("Dblog.php");
-			$errorString = $postSale->serverResponse;
-			$dblog = Dblog::setDblog($errorString,"CPV Error: curl results string");
 		}
-		
+		$jsonLog = array (
+			"resultsString" => $resultsString,
+			"errors" => $postResults->errors,
+			"messages" => $postResults->messages,
+		);
+		include_once("Dblog.php");
+		$log = new Dblog();
+		$log->setDblog($configObj->url ,"CPV Post Url:<br>" . $subId, json_encode($jsonLog));
+
 		return $postSale;
 		
 	}
