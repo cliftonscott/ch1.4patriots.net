@@ -80,10 +80,7 @@ class Analytics {
 
 		include_once("Dblog.php");
 
-		$serverId = getenv("DESIGNATION");
-		self::$serverId = $serverId;
-
-		if($serverId !== "RB03") {
+		if(getenv("APP_ENV") === "production") {
 			self::$googleAccount = self::PROD_GA_ACCT;
 			self::$googleDomain = self::PROD_GA_DOMAIN;
 			self::$googleAffiliation = self::PROD_GA_AFFILIATION;
