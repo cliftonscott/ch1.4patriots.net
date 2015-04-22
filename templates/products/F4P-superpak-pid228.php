@@ -166,18 +166,26 @@ $offerName = $_SESSION["firstName"];
 				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
 					<div id="timer">10:00</div></a>
 			</div>
-			<p><?php echo $customerDataObj->firstName;?>,
-				Bacon ipsum dolor amet ut bresaola pork chop cow tempor, pork jerky eiusmod pastrami. Ad sint nulla beef frankfurter, ut chicken porchetta tri-tip prosciutto voluptate turkey nostrud. Shankle minim ham hock, proident cillum officia boudin lorem fugiat. Occaecat elit cupidatat short ribs pariatur jowl aute enim strip steak nulla jerky capicola incididunt esse pork chop.
-<br>
-				Salami in pork loin esse pig doner anim veniam biltong voluptate id in commodo. Adipisicing strip steak ham hock corned beef. Tenderloin drumstick velit aliquip hamburger adipisicing chuck tri-tip commodo ham hock. Sunt ad exercitation veniam t-bone cupim, occaecat filet mignon shank ut.</p>
+			<p><?php echo $customerDataObj->firstName;?>, I’m so glad you’ve decided to take the “bull by the horns” and make sure your family has enough high-quality survival food when a crisis hits.</p>
+			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>“supercharge” the energy value of your survival food stockpile...</strong></p>
+			<p><strong><i>Click the big, green “Add To Cart” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for $50 off the normal price. Your SuperPak includes:</p>
+			<ul>
+				<li>24 servings of freeze-dried beef and chicken </li>
+				<li>56 servings of protein-rich red, black and pinto beans</li>
+				<li>114 servings of tasty veggies, fruits, snacks and desserts</li>
+				<li>600 servings of the world’s 1st ever survival coffee</li>
+			</ul>
+			<p>That’s nearly 800 servings of high-quality fruits, veggies, & protein (and even coffee!) that provides the perfect energy boosters for your stockpile when you need it the most. </p>
+			<p><i>And you can get your very own Food4Patriots <strong>SuperPak</strong> for the ridiculously low price of $397!</i> This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
+			<p style="font-weight: bold;">So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now before I run out!</p>
+			<p style="font-style:italic;text-align: center;">An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
 				<p style="text-align:center;">
 					<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
 				</p>
 			</form>
-			<p id="orderSummary" style="text-align:center;">Add 1 kit to my order for $347.
-			</p>
+			<p id="orderSummary" style="text-align:center;"></p>
 			<script>changeKitQuantity();</script>
 		</div>
 	</div>
