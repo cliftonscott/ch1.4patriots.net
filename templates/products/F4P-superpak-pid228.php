@@ -77,6 +77,15 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	text-align:center;
 	font-style:italic;
 }
+.timer-bg {
+	background-color: #E7B906;
+	padding: 4px;
+	margin: 0 0 10px 0;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 27pt;
+}
 </style>
 <script>
 //setInterval(function(timerChange),1000);
@@ -167,14 +176,19 @@ if(!empty($customerDataObj->firstName)) {
 	<div id="belcher-box" class="hidden-xs">
 		<div class="box-title">Exclusive Offer for Food4Patriots Customers...</div>
 		<div class="box-body">
-			<div class="timer-box">
-				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
-					<div id="timer">10:00</div></a>
+			<div class="timer-bg">
+				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
 			</div>
 			<p><?php echo $offerName;?>, I’m so glad you’ve decided to take the “bull by the horns” and make sure your family has enough high-quality survival food when a crisis hits.</p>
 			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>“supercharge” the energy value of your survival food stockpile...</strong></p>
+			<div>
+				<h1 class="text-center darkRed">Food4Patriots SuperPak</h1>
+				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();">
+					<img src="/media/images/f4p/f4p-product-img-typ-superpak-01.jpg" class="img-responsive center-block" alt="3 Month Food Supply">
+				</a>
+			</div>
 			<p><strong><i>Click the big, green “Add To Cart” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for <strong>$50 off the normal price</strong> of $447. Your SuperPak includes:</p>
-			<ul>
+			<ul class="fa-u">
 				<li>24 servings of freeze-dried beef and chicken </li>
 				<li>56 servings of protein-rich red, black and pinto beans</li>
 				<li>114 servings of tasty veggies, fruits, snacks and desserts</li>
@@ -182,12 +196,12 @@ if(!empty($customerDataObj->firstName)) {
 			</ul>
 			<p>That’s nearly 800 servings of high-quality fruits, veggies, & protein (and even coffee!) that provides the perfect energy boosters for your stockpile when you need it the most. </p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
-			<p style="font-weight: bold;">So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</p>
-			<p style="font-style:italic;text-align: center;">An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</p>
+			<p><strong>So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</strong></p>
+			<p class="text-center"><i>An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</i></p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
 				<p style="text-align:center;">
-					<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
+					<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit"/>
 				</p>
 			</form>
 			<p id="orderSummary" style="text-align:center;"></p>
@@ -205,7 +219,7 @@ if(!empty($customerDataObj->firstName)) {
 </script>
 <div id="timerModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" style="width:700px;height:750px;">
-		<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-fvs-mix-details-01.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
+		<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-product-img-typ-superpak-details.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
 			<div style="text-align:center;padding:10px;width:700px;height:750px;">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
 			</div>
