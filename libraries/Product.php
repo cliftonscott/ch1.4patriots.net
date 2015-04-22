@@ -710,15 +710,15 @@ class Product {
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 228;
 				//Limelight
-				$productObj->price = 347;
+				$productObj->price = 397;
 				$productObj->originalPrice = 450;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-SUPERPAK";
 				$productObj->googleProductSKU = "PID228";
 				$productObj->googleProductCategory = "1-PAY-397";
-				$productObj->metaTitle = "Food4Patriots - SuperPak!";
-				$productObj->metaDescription = "Food4Patriots - SuperPak!";
+				$productObj->metaTitle = "Food4Patriots - SuperPak";
+				$productObj->metaDescription = "Food4Patriots - SuperPak";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
