@@ -116,7 +116,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 
 	function changeKitQuantity() {
 
-		jsKitCost = 347;
+		jsKitCost = 397;
 
 		orderSummaryParagraph = document.getElementById("orderSummary");
 		jsQuantityInput = document.getElementById("quantity")
@@ -156,7 +156,12 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 </script>
 <section>
 <?php
-$offerName = $_SESSION["firstName"];
+if(!empty($customerDataObj->firstName)) {
+	$offerName = $customerDataObj->firstName;
+} else {
+	$offerName = "Fellow Patriot";
+}
+
 ?>
 	<a name="exclusive-offer"></a>
 	<div id="belcher-box" class="hidden-xs">
@@ -166,9 +171,9 @@ $offerName = $_SESSION["firstName"];
 				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
 					<div id="timer">10:00</div></a>
 			</div>
-			<p><?php echo $customerDataObj->firstName;?>, I’m so glad you’ve decided to take the “bull by the horns” and make sure your family has enough high-quality survival food when a crisis hits.</p>
+			<p><?php echo $offerName;?>, I’m so glad you’ve decided to take the “bull by the horns” and make sure your family has enough high-quality survival food when a crisis hits.</p>
 			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>“supercharge” the energy value of your survival food stockpile...</strong></p>
-			<p><strong><i>Click the big, green “Add To Cart” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for $50 off the normal price. Your SuperPak includes:</p>
+			<p><strong><i>Click the big, green “Add To Cart” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for <strong>$50 off the normal price</strong> of $447. Your SuperPak includes:</p>
 			<ul>
 				<li>24 servings of freeze-dried beef and chicken </li>
 				<li>56 servings of protein-rich red, black and pinto beans</li>
@@ -176,8 +181,8 @@ $offerName = $_SESSION["firstName"];
 				<li>600 servings of the world’s 1st ever survival coffee</li>
 			</ul>
 			<p>That’s nearly 800 servings of high-quality fruits, veggies, & protein (and even coffee!) that provides the perfect energy boosters for your stockpile when you need it the most. </p>
-			<p><i>And you can get your very own Food4Patriots <strong>SuperPak</strong> for the ridiculously low price of $397!</i> This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
-			<p style="font-weight: bold;">So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now before I run out!</p>
+			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
+			<p style="font-weight: bold;">So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</p>
 			<p style="font-style:italic;text-align: center;">An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
