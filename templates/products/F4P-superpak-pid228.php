@@ -188,7 +188,7 @@ if(!empty($customerDataObj->firstName)) {
 					<img src="/media/images/f4p/f4p-product-img-typ-superpak-01.jpg" class="img-responsive center-block" alt="3 Month Food Supply">
 				</a>
 			</div>
-			<p><strong><i>Click the big, green “Add To Order” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for <strong>$50 off the normal price</strong> of $447. Your SuperPak includes:</p>
+			<p><strong><i>Click the big green “Add To Order” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for <strong>$50 off the normal price</strong> of $447. Your SuperPak includes:</p>
 			<ul class="fa-u">
 				<li>24 servings of freeze-dried beef and chicken </li>
 				<li>56 servings of protein-rich red, black and pinto beans</li>
