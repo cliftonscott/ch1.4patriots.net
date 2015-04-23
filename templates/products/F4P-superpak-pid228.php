@@ -180,8 +180,8 @@ if(!empty($customerDataObj->firstName)) {
 			<div class="timer-bg">
 				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
 			</div>
-			<p><?php echo $offerName;?>, I’m so glad you’ve decided to take the “bull by the horns” and make sure your family has enough high-quality survival food when a crisis hits.</p>
-			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>“supercharge” the energy value of your survival food stockpile...</strong></p>
+			<p><?php echo $offerName;?>, you've done a great job today to make sure your family has enough high-quality survival food when a crisis hits.</p>
+			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>BOOST the nutrition, taste and variety of your food stockpile...</strong></p>
 			<div>
 				<h1 class="text-center darkRed">Food4Patriots SuperPak</h1>
 				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();">
@@ -193,9 +193,9 @@ if(!empty($customerDataObj->firstName)) {
 				<li>24 servings of freeze-dried beef and chicken </li>
 				<li>56 servings of protein-rich red, black and pinto beans</li>
 				<li>114 servings of tasty veggies, fruits, snacks and desserts</li>
-				<li>600 servings of the world’s 1st ever survival coffee</li>
+				<li>600 servings of the world's 1st ever 100% Columbian survival coffee</li>
 			</ul>
-			<p>That’s nearly 800 servings of high-quality fruits, veggies, & protein (and even coffee!) that provides the perfect energy boosters for your stockpile when you need it the most. </p>
+			<p>You'll get 784 servings of high-quality meats, proteins, fruits, veggies and coffee to take your stockpile to the next level.</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
 			<p><strong>So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</strong></p>
 			<p class="text-center"><i>An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</i></p>
