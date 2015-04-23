@@ -195,7 +195,7 @@ if(!empty($customerDataObj->firstName)) {
 				<li>114 servings of tasty veggies, fruits, snacks and desserts</li>
 				<li>600 servings of the world's first ever 100% Columbian survival coffee</li>
 			</ul>
-			<p>You'll get 784 servings of high-quality meats, proteins, fruits, veggies and coffee to take your stockpile to the next level.</p>
+			<p>You'll get 794 servings of high-quality meats, proteins, fruits, veggies and coffee to take your stockpile to the next level.</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
 			<p><strong>So click the “Add To Order” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</strong></p>
 			<p class="text-center"><i>An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</i></p>
