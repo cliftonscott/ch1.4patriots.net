@@ -193,7 +193,7 @@ if(!empty($customerDataObj->firstName)) {
 				<li>24 servings of freeze-dried beef and chicken </li>
 				<li>56 servings of protein-rich red, black and pinto beans</li>
 				<li>114 servings of tasty veggies, fruits, snacks and desserts</li>
-				<li>600 servings of the world's 1st ever 100% Columbian survival coffee</li>
+				<li>600 servings of the world's first ever 100% Columbian survival coffee</li>
 			</ul>
 			<p>You'll get 784 servings of high-quality meats, proteins, fruits, veggies and coffee to take your stockpile to the next level.</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
