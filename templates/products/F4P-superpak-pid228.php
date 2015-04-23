@@ -188,7 +188,7 @@ if(!empty($customerDataObj->firstName)) {
 					<img src="/media/images/f4p/f4p-product-img-typ-superpak-01.jpg" class="img-responsive center-block" alt="3 Month Food Supply">
 				</a>
 			</div>
-			<p><strong><i>Click the big, green “Add To Cart” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for <strong>$50 off the normal price</strong> of $447. Your SuperPak includes:</p>
+			<p><strong><i>Click the big, green “Add To Order” button below in the next 10 minutes (before our warehouse finalizes your shipping details)</i></strong> and we’ll add our energy-boosting Food4Patriots SuperPak to your order today for <strong>$50 off the normal price</strong> of $447. Your SuperPak includes:</p>
 			<ul class="fa-u">
 				<li>24 servings of freeze-dried beef and chicken </li>
 				<li>56 servings of protein-rich red, black and pinto beans</li>
@@ -197,7 +197,7 @@ if(!empty($customerDataObj->firstName)) {
 			</ul>
 			<p>You'll get 784 servings of high-quality meats, proteins, fruits, veggies and coffee to take your stockpile to the next level.</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span style="color:red;font-weight:bold;">only time you see it at this special price.</span></p>
-			<p><strong>So click the “Add To Cart” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</strong></p>
+			<p><strong>So click the “Add To Order” button below to add YOUR energy-boosting Food4Patriots SuperPak to your order now for the ridiculously low price of $397.</strong></p>
 			<p class="text-center"><i>An additional $397 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</i></p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
