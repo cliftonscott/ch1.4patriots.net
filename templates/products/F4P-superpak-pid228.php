@@ -181,7 +181,7 @@ if(!empty($customerDataObj->firstName)) {
 				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
 			</div>
 			<p><?php echo $offerName;?>, you've done a great job today to make sure your family has enough high-quality survival food when a crisis hits.</p>
-			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>BOOST the nutrition, taste and variety of your food stockpile...</strong></p>
+			<p>And because you’ve shown yourself to be the kind of person who isn’t going to wait for disaster to strike and leave you helpless and weak, I’m going to do you one better and help you <strong>BOOST the nutrition, energy and variety of your food stockpile...</strong></p>
 			<div>
 				<h1 class="text-center darkRed">Food4Patriots SuperPak</h1>
 				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();">
