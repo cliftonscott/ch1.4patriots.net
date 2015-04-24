@@ -19,7 +19,7 @@ class Db {
 	static $password = "2RNJun5NhSpfr3ED";
 
 	public function __construct() {
-		if(getenv("DESIGNATION") === "RB03") {
+		if(getenv("APP_ENV") !== "production") {
 			self::$databaseName = "plat4ormDEV";
 		} else {
 			self::$databaseName = "plat4ormPROD";

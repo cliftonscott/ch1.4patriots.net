@@ -1,6 +1,6 @@
-<? include_once ('template-top.php'); ?>
+<?php include_once ('template-top.php'); ?>
     
-<? include_once ('template-header-nav.php'); /*Add template-header-nav.php to add top menu*/?> 
+<?php include_once ('template-header-nav.php'); /*Add template-header-nav.php to add top menu*/?>
   
 <div class="container-main">
 	
@@ -145,4 +145,4 @@ $(document).ready(function(){
         })
     });
 </script>
-<? include_once ('template-bottom.php'); ?>
+<?php include_once ('template-bottom.php'); ?>

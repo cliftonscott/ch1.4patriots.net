@@ -81,7 +81,7 @@ class Ffh {
 
 		*/
 
-		if(getenv("DESIGNATION") === "RB03") {
+		if(getenv("APP_ENV") !== "production") {
 			//DEV API
 			$apiMode = FFHApi::API_MODE_PILOT;
 		} else {

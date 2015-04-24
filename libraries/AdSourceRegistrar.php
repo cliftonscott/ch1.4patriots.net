@@ -66,10 +66,33 @@ class AdSourceRegistrar {
 	 * by examining each query property for matching partner token IDs.
 	 */
 	private function registerUrl() {
+		$this->logRequest();
 		$tokens = $this->inspectUrlForTokens();
 		foreach ($tokens as $adSource => $tokenValue) {
 			$this->registerToken($adSource, $tokenValue);
 		}
+	}
+
+	/**
+	 * Log information about this request to the database.
+	 */
+	private function logRequest()
+	{
+		// Connect to the database.
+		include_once("Db.php");
+		$dbObj = new Db();
+		$db = $dbObj->connect();
+
+		// Define and prepare an insert statement.
+		$sql = "INSERT INTO `requestLogF4P` SET ip_address=:ip_address, session_id=:session_id, url=:url, tokens=:tokens";
+		$insert = $db->prepare($sql);
+		$insert->bindParam(':ip_address', $_SERVER["REMOTE_ADDR"], PDO::PARAM_STR);
+		$insert->bindParam(':session_id', session_id(), PDO::PARAM_STR);
+		$insert->bindParam(':url', $_SERVER["REQUEST_URI"], PDO::PARAM_STR);
+		$insert->bindParam(':tokens', json_encode($this->requestActiveTokens()), PDO::PARAM_STR);
+
+		// Execute the insert statement.
+		$insert->execute();
 	}
 
 	/**

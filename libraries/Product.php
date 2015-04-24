@@ -698,6 +698,35 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+			case 228: // SuperPak
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/thankyou.php";
+				$productObj->listId = null;
+				$productObj->tags = "SUPERPAK";
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 228;
+				//Limelight
+				$productObj->price = 397;
+				$productObj->originalPrice = 450;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = "F4P-SUPERPAK";
+				$productObj->googleProductSKU = "PID228";
+				$productObj->googleProductCategory = "1-PAY-397";
+				$productObj->metaTitle = "Food4Patriots - SuperPak";
+				$productObj->metaDescription = "Food4Patriots - SuperPak";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
 		}
 		return $productObj;	
 	}
