@@ -4,6 +4,8 @@ redirect 301 /SPECIAL http://securetrack1.com/base.php?c=83&key=ba40b4f79019d454
 
 Redirect 301 /checkout/registration/thankyou.php /checkout/thankyou.php
 
+#TEST CONTINUOUS INTEGRATION
+
 # Old PDF Redirects
 redirect 301 /checkout/registration/instant-access/F4P-10-Items-After-Crisis.pdf /media/pdf/F4P-10-Items-After-Crisis.pdf
 redirect 301 /checkout/registration/instant-access/F4P-Cut-Grocery-Bills-Half.pdf /media/pdf/F4P-Cut-Grocery-Bills-Half.pdf
