@@ -2,7 +2,7 @@
 $adConversionNewArray = array (
 	"/checkout/oto/f4p-1year-kit.php",
 	"/checkout/oto/f4p-4week-kit-discount-a.php",
-	"/checkout/oto/f4p-4week-kit-discount-b.php",
+	"/checkout/oto/f4p-3month-kit-discount-b.php",
 );
 if(in_array($_SERVER["PHP_SELF"], $adConversionNewArray)) { ?>
 <!-- Start Advertiser Code -->

@@ -8,14 +8,19 @@ $variantsArray = array (
 	"pu", // Pop Under
 	"b", // Testimonials - FAQ - Guarantee
 	"stansberry", // JV Partner Stansberry No Warning Intro
-	"l1", // TEST LANDING PAGE 1 3/31/15
-	"l2", // TEST LANDING PAGE 2 3/31/15
-	"l3", // TEST LANDING PAGE 3 3/31/15
-	"l4", // TEST LANDING PAGE 4 3/31/15
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
 		$variation = trim($_GET["v"]);
+	}
+}
+
+$vslArray = array (
+	"3", // VSL 3.0
+);
+if($_GET["vsl"]) {
+	if(in_array(trim($_GET["vsl"]),$vslArray)) {
+		$vsl = trim($_GET["vsl"]);
 	}
 }
 
@@ -47,6 +52,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
+<?php if($vsl === "3") { //removes css hack for test?>
+<style> #videobox {  max-width: 640px!important;  max-height: 360px !important;}; </style>
+<?php }; ?>
 <script>
 if (isMobile()) {
 	document.location = "<?php echo $productDataObj->mobileLink ?>"; }
@@ -134,20 +142,8 @@ if (isMobile()) {
 		}
 	}
 </script>
-<!--INCLUDE CONTENT-->
-<?php
-	if($variation === "l1") {
-		include_once ('content-l1.php'); /*TEST LANDING PAGE 1 3/31/15*/
-	}elseif($variation === "l2") {
-		include_once ('content-l2.php'); /*TEST LANDING PAGE 2 3/31/15*/
-	}elseif($variation === "l3") {
-		include_once ('content-l3.php'); /*TEST LANDING PAGE 3 3/31/15*/
-	}elseif($variation === "l4") {
-		include_once ('content-l4.php'); /*TEST LANDING PAGE 4 3/31/15*/
-	} else {
-		include_once ('content.php'); /*CONTROL*/
-	}
-?>
+<!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
+<?php include_once ('content.php'); /*CONTROL*/?>
 <!--INCLUDE CONTENT-->
 <script>
 	function showProductModal() {
