@@ -52,7 +52,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
-<?php if($vsl === "3") { //removes css hack for test?>
+<?php if($vsl === "3") { //removes css hack for test VWO-320 4/27/15 ?>
 <style> #videobox {  max-width: 640px!important;  max-height: 360px !important;}; </style>
 <?php }; ?>
 <script>
@@ -73,8 +73,13 @@ if (isMobile()) {
 					var seconds = 5;
 				} else {
 					var hours = 0;
+					<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
+					var minutes = 31;
+					var seconds = 0;
+					<?php }else { ?>
 					var minutes = 27;
 					var seconds = 51;
+					<?php } ?>
 				}
 
 				// Start by converting hours to milliseconds
@@ -124,7 +129,12 @@ if (isMobile()) {
 	This timer requires a block object (div) with an id of 'countDownTimer'.
  */
 	var jsTimer = setInterval(function(){timerChange()},1000);
-	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);
+	<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
+	timerDateObj = new Date(2014, 01, 01, 12, 48, 00);51;
+	<?php }else { ?>
+	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);51;
+	<?php } ?>
+
 //	timerDateObj = new Date(2014, 01, 01, 12, 1, 00);
 	function timerChange() {
 		time = timerDateObj.getTime();
