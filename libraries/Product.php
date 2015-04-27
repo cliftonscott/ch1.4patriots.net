@@ -169,7 +169,7 @@ class Product {
 				$productObj->isBonus = FALSE;
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-4week-kit-discount-b.php";
+				$productObj->nextPage = "/checkout/oto/f4p-3month-kit-discount-b.php";
 				break;
 			case 19: //main product - 3 Month Kit
 				$productObj->pmaSku = null;
@@ -199,7 +199,7 @@ class Product {
 			case 22: // 4WEEK DISCOUNT KIT
 				//process file
 				$productObj->campaignId = 9;
-				$productObj->nextPage = "/checkout/oto/f4p-seeds-rutgers.php?b=y"; //REMOVE ?b=y on completion of VWO-315
+				$productObj->nextPage = "/checkout/oto/f4p-seeds-rutgers.php";
 				$productObj->listId = 35;
 				$productObj->tags = "4WKITUP";
 				$productObj->shippingIdDomestic = 8;
