@@ -1,6 +1,7 @@
 #SSL Only
 RewriteEngine on
 RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/video/index.php
 RewriteRule (.*) https://secure.food4patriots.com%{REQUEST_URI} [R,L]
 
 # Redirect 301 /index.html https://secure.food4patriots.com/checkout/index.php
