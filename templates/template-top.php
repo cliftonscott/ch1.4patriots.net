@@ -62,10 +62,19 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link href="/assets/css/styles.css" rel="stylesheet">
 		<link href="/assets/css/styles-content.css" rel="stylesheet">
-		<link href='//fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<?php
+		$isSecure = false;
+		if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
+			$isSecure = true;
+		} elseif (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || !empty($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] == 'on') {
+			$isSecure = true;
+		}
+		$REQUEST_PROTOCOL = $isSecure ? 'https' : 'http';
+		?>
+		<link href='<?php echo $REQUEST_PROTOCOL;?>://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
+		<link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="<?php echo $REQUEST_PROTOCOL;?>://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<!--Internet Explorer 9,8,7,....-->
 		<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie10.css"/><![endif]-->
@@ -79,7 +88,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		<![endif]-->
 
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="<?php echo $REQUEST_PROTOCOL;?>://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 		<script src="/assets/js/bootstrap.min.js"></script>
 		<script src="/js/patriot.js"></script>
 
