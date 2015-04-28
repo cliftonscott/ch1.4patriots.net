@@ -19,14 +19,19 @@ $variantsArray = array (
 	"pu", // Pop Under
 	"b", // Testimonials - FAQ - Guarantee
 	"stansberry", // JV Partner Stansberry No Warning Intro
-	"l1", // TEST LANDING PAGE 1 3/31/15
-	"l2", // TEST LANDING PAGE 2 3/31/15
-	"l3", // TEST LANDING PAGE 3 3/31/15
-	"l4", // TEST LANDING PAGE 4 3/31/15
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
 		$variation = trim($_GET["v"]);
+	}
+}
+
+$vslArray = array (
+	"3", // VSL 3.0
+);
+if($_GET["vsl"]) {
+	if(in_array(trim($_GET["vsl"]),$vslArray)) {
+		$vsl = trim($_GET["vsl"]);
 	}
 }
 
@@ -58,6 +63,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
+<?php if($vsl === "3") { //removes css hack for test VWO-320 4/27/15 ?>
+<style> #videobox {  max-width: 640px!important;  max-height: 360px !important;}; </style>
+<?php }; ?>
 <script>
 if (isMobile()) {
 	document.location = "<?php echo $productDataObj->mobileLink ?>"; }
@@ -76,8 +84,13 @@ if (isMobile()) {
 					var seconds = 5;
 				} else {
 					var hours = 0;
+					<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
+					var minutes = 31;
+					var seconds = 0;
+					<?php }else { ?>
 					var minutes = 27;
 					var seconds = 51;
+					<?php } ?>
 				}
 
 				// Start by converting hours to milliseconds
@@ -127,7 +140,12 @@ if (isMobile()) {
 	This timer requires a block object (div) with an id of 'countDownTimer'.
  */
 	var jsTimer = setInterval(function(){timerChange()},1000);
-	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);
+	<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
+	timerDateObj = new Date(2014, 01, 01, 12, 48, 00);51;
+	<?php }else { ?>
+	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);51;
+	<?php } ?>
+
 //	timerDateObj = new Date(2014, 01, 01, 12, 1, 00);
 	function timerChange() {
 		time = timerDateObj.getTime();
@@ -145,20 +163,8 @@ if (isMobile()) {
 		}
 	}
 </script>
-<!--INCLUDE CONTENT-->
-<?php
-	if($variation === "l1") {
-		include_once ('content-l1.php'); /*TEST LANDING PAGE 1 3/31/15*/
-	}elseif($variation === "l2") {
-		include_once ('content-l2.php'); /*TEST LANDING PAGE 2 3/31/15*/
-	}elseif($variation === "l3") {
-		include_once ('content-l3.php'); /*TEST LANDING PAGE 3 3/31/15*/
-	}elseif($variation === "l4") {
-		include_once ('content-l4.php'); /*TEST LANDING PAGE 4 3/31/15*/
-	} else {
-		include_once ('content.php'); /*CONTROL*/
-	}
-?>
+<!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
+<?php include_once ('content.php'); /*CONTROL*/?>
 <!--INCLUDE CONTENT-->
 <script>
 	function showProductModal() {
@@ -175,10 +181,10 @@ if (isMobile()) {
 </script>
 
 	<!-- Offer Conversion: Food4Patriots  -->
-	<img src="http://trk.rebootmarketing.com/SL1S" width="1" height="1" />
+	<img src="https://trk.rebootmarketing.com/SL1S" width="1" height="1" />
 	<!-- // End Offer Conversion -->
 	<!-- Offer Conversion: Food4Patriots - No International -->
-	<img src="http://trk.rebootmarketing.com/SL2i" width="1" height="1" />
+	<img src="https://trk.rebootmarketing.com/SL2i" width="1" height="1" />
 	<!-- // End Offer Conversion -->
 
 <?php

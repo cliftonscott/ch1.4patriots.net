@@ -2,7 +2,7 @@
 $adConversionNewArray = array (
 	"/checkout/oto/f4p-1year-kit.php",
 	"/checkout/oto/f4p-4week-kit-discount-a.php",
-	"/checkout/oto/f4p-4week-kit-discount-b.php",
+	"/checkout/oto/f4p-3month-kit-discount-b.php",
 );
 if(in_array($_SERVER["PHP_SELF"], $adConversionNewArray)) { ?>
 <!-- Start Advertiser Code -->
@@ -25,6 +25,6 @@ $adTargetingNewArray = array (
 );
 if(in_array($_SERVER["PHP_SELF"], $adTargetingNewArray)) { ?>
 <!-- Start Lander Code -->
-<img src="http://c7.zedo.com/img/bh.gif?n=305&g=20&a=1488&s=1&l=1&t=r&f=1" width="1" height="1" border="0" ><!-- DivD Opt In -->
+<img src="https://ss7.zedo.com/img/bh.gif?n=305&g=20&a=1488&s=1&l=1&t=r&f=1" width="1" height="1" border="0" ><!-- DivD Opt In -->
 <!-- End Lander Code -->
 <?php } ?>

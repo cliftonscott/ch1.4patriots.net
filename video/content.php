@@ -34,8 +34,13 @@
 					<?php
 					} elseif($variation === "stansberry") {
 					?>
+
 						<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 						<!--<script type="text/javascript" src="http://reboot.evsuite.com/player/ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0/?profile=no-warning-intro&container=evp-UDK6Z28KIQ"></script><div id="evp-UDK6Z28KIQ" data-role="evp-video" data-evp-id="ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0"></div>-->
+					<?php
+					} elseif($vsl === "3") {
+						?>
+						<iframe src="//fast.wistia.net/embed/iframe/cmomnaw337" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					} else {
 					?>

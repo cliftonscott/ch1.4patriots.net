@@ -105,7 +105,7 @@ class Meta {
 			case "/checkout/oto/f4p-1year-kit-payments.php":
 			case "/checkout/oto/f4p-3month-kit-discount.php":
 			case "/checkout/oto/f4p-4week-kit-discount-a.php":
-			case "/checkout/oto/f4p-4week-kit-discount-b.php":
+			case "/checkout/oto/f4p-3month-kit-discount-b.php":
 			case "/checkout/oto/f4p-choose-3m-4w-kit.php":
 			case "/checkout/oto/f4p-choose-3m-4w-kit-discount.php":
 				$description = "Get your pre-packaged survival food kits now before they’re gone. Secure your own emergency food stockpile today!";
