@@ -32,6 +32,9 @@ class Analytics {
 	static $offerId = null; //has offers offerId / campaignId
 	static $affiliateId = null; //has offers affiliateId
 	static $affSub2 = null; //CPV unique visitor tracking number
+	static $affSub4 = null; //See AdSourceRegistrar Library class for use
+	static $affSub5 = null; //See AdSourceRegistrar Library class for use
+	static $affSub6 = null; //See AdSourceRegistrar Library class for use
 	static $googleAccount = null;
 	static $googleDomain = null;
 	static $googleAffiliation = null;
@@ -57,6 +60,9 @@ class Analytics {
 		$this->affiliateId = self::$affiliateId;
 		$this->offerId = self::$offerId;
 		$this->affSub2 = self::$affSub2;
+		$this->affSub4 = self::$affSub4;
+		$this->affSub5 = self::$affSub5;
+		$this->affSub6 = self::$affSub6;
 		$this->googleAccount = self::$googleAccount;
 		$this->googleDomain = self::$googleDomain;
 		$this->googleAffiliation = self::$googleAffiliation;
@@ -144,6 +150,33 @@ class Analytics {
 			$this->setAffSub2(null);
 		}
 
+		$affSub4 = trim($_GET["aff_sub4"]);
+		if(!empty($affSub4)) {
+			$this->setAffSub4($affSub4);
+		} elseif (!empty($_SESSION["affSub4"])) {
+			$this->setAffSub4($_SESSION["affSub4"]);
+		} else {
+			$this->setAffSub4(null);
+		}
+
+		$affSub5 = trim($_GET["aff_sub5"]);
+		if(!empty($affSub5)) {
+			$this->setAffSub5($affSub5);
+		} elseif (!empty($_SESSION["affSub5"])) {
+			$this->setAffSub5($_SESSION["affSub5"]);
+		} else {
+			$this->setAffSub5(null);
+		}
+
+		$affSub6 = trim($_GET["aff_sub6"]);
+		if(!empty($affSub6)) {
+			$this->setAffSub6($affSub6);
+		} elseif (!empty($_SESSION["affSub6"])) {
+			$this->setAffSub6($_SESSION["affSub6"]);
+		} else {
+			$this->setAffSub6(null);
+		}
+
 		$sspData = trim($_GET["sspdata"]);
 		if(!empty($sspData)) {
 			$this->setSspData($sspData);
@@ -226,6 +259,15 @@ class Analytics {
 		if(!empty(self::$affSub2)){
 			$qs["aff_sub2"] = self::$affSub2;
 		}
+		if(!empty(self::$affSub4)){
+			$qs["aff_sub4"] = self::$affSub4;
+		}
+		if(!empty(self::$affSub5)){
+			$qs["aff_sub5"] = self::$affSub5;
+		}
+		if(!empty(self::$affSub6)){
+			$qs["aff_sub6"] = self::$affSub6;
+		}
 		if(!empty(self::$sspData)){
 			$qs["sspdata"] = self::$sspData;
 		}
@@ -273,6 +315,18 @@ class Analytics {
 	function setAffSub2($affSub2) {
 		self::$affSub2 = $affSub2;
 		$_SESSION["affSub2"] = $affSub2;
+	}
+	function setAffSub4($affSub4) {
+		self::$affSub4 = $affSub4;
+		$_SESSION["affSub4"] = $affSub4;
+	}
+	function setAffSub5($affSub5) {
+		self::$affSub5 = $affSub5;
+		$_SESSION["affSub5"] = $affSub5;
+	}
+	function setAffSub6($affSub6) {
+		self::$affSub6 = $affSub6;
+		$_SESSION["affSub6"] = $affSub6;
 	}
 	function setSspData($sspData) {
 		self::$sspData = $sspData;
