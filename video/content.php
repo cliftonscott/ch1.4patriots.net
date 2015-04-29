@@ -40,7 +40,7 @@
 					<?php
 					} elseif($vsl === "3") {
 						?>
-						<iframe src="//fast.wistia.net/embed/iframe/cmomnaw337" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+						<iframe src="//fast.wistia.net/embed/iframe/cb2ei0k2if" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					} else {
 					?>
