@@ -71,8 +71,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 		}
 		$REQUEST_PROTOCOL = $isSecure ? 'https' : 'http';
 		?>
-		<link href='<?php echo $REQUEST_PROTOCOL;?>://fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
-		<link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="<?php echo $REQUEST_PROTOCOL;?>://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
