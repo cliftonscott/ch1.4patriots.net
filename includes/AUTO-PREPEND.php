@@ -15,6 +15,10 @@ if (strpos($host, 'dev.') === 0) {
 	putenv("APP_ENV=stage");
 } else {
 	putenv("APP_ENV=production");
+	if((!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) && (strpos($_SERVER["PHP_SELF"],"/video/index.php") === FALSE)) {
+		header("Location: https://secure.food4patriots.com" . $_SERVER["REQUEST_URI"]);
+		exit();
+	}
 }
 unset($host);
 //ini_set("error_reporting", E_ALL);
