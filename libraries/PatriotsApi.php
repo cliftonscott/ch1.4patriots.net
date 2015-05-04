@@ -67,10 +67,6 @@ class PatriotsApi {
 			"apiToken" => self::$APITokens[$environment]
 		);
 
-		// Forget the ad source tokens.
-		// Ad source tracking should only include initial conversions and exclude OTOs.
-		$analytics->getAdSourceRegistrar()->forgetAllActiveTokens();
-
 		$queryString = http_build_query($params);
 
 		//doCurl call
