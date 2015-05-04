@@ -18,7 +18,6 @@ $variantsArray = array (
 	"np", // No exit pop
 	"pu", // Pop Under
 	"b", // Testimonials - FAQ - Guarantee
-	"stansberry", // JV Partner Stansberry No Warning Intro
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
@@ -28,6 +27,7 @@ if($_GET["v"]) {
 
 $vslArray = array (
 	"3", // VSL 3.0
+	"stansberry", // JV Partner Stansberry No Warning Intro
 );
 if($_GET["vsl"]) {
 	if(in_array(trim($_GET["vsl"]),$vslArray)) {
