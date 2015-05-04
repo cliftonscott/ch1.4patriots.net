@@ -25,18 +25,15 @@
 					if($variation === "pu") {
 						?>
 						<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<!--<script type="text/javascript" src="http://reboot.evsuite.com/player/ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0/?profile=no-auto-play&container=evp-VUPYD3T07X"></script><div id="evp-VUPYD3T07X" data-role="evp-video" data-evp-id="ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0"></div>-->
 						<script type="text/javascript">
 							window.addEventListener("focus", function(event)
 								{ startTimer(); }
 								, false);
 						</script>
 					<?php
-					} elseif($variation === "stansberry") {
+					} elseif($vsl === "stansberry") {
 					?>
-
-						<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<!--<script type="text/javascript" src="http://reboot.evsuite.com/player/ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0/?profile=no-warning-intro&container=evp-UDK6Z28KIQ"></script><div id="evp-UDK6Z28KIQ" data-role="evp-video" data-evp-id="ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0"></div>-->
+						<iframe src="//fast.wistia.net/embed/iframe/7zkzbt30fm" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					} elseif($vsl === "3") {
 						?>
@@ -45,7 +42,6 @@
 					} else {
 					?>
 						<iframe src="//fast.wistia.net/embed/iframe/bcrluwywnq" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<!--<script type="text/javascript" src="http://reboot.evsuite.com/player/ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0/?responsive=1&autoResponsive=1&responsiveOnlyMobile=1&container=evp-NCJSQAZJQD"></script><div id="evp-NCJSQAZJQD" data-role="evp-video" data-evp-id="ZjRwLTIuMy1vZmZlci02NDB4MzYwLXNob3J0LTAyLW9wdGltaXplZC02Ny12ZXJzaW8ubXA0"></div>-->
 					<?php
 					}
 					?>
