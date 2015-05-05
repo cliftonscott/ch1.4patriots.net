@@ -26,7 +26,8 @@ if($_GET["v"]) {
 }
 
 $vslArray = array (
-	"3", // VSL 3.0
+	"3", // VSL 3.0 With 2.4 Intro
+	"3-5", // VSL 3.0 With 2.4 Hook
 	"stansberry", // JV Partner Stansberry No Warning Intro
 );
 if($_GET["vsl"]) {
