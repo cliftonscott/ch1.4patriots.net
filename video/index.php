@@ -26,7 +26,8 @@ if($_GET["v"]) {
 }
 
 $vslArray = array (
-	"3", // VSL 3.0
+	"3", // VSL 3.0 With 2.4 Intro
+	"3-5", // VSL 3.0 With 2.4 Hook
 	"stansberry", // JV Partner Stansberry No Warning Intro
 );
 if($_GET["vsl"]) {
@@ -84,13 +85,8 @@ if (isMobile()) {
 					var seconds = 5;
 				} else {
 					var hours = 0;
-					<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
-					var minutes = 31;
-					var seconds = 0;
-					<?php }else { ?>
 					var minutes = 27;
 					var seconds = 51;
-					<?php } ?>
 				}
 
 				// Start by converting hours to milliseconds
