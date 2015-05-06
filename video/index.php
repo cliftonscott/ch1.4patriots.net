@@ -85,13 +85,8 @@ if (isMobile()) {
 					var seconds = 5;
 				} else {
 					var hours = 0;
-					<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
-					var minutes = 31;
-					var seconds = 0;
-					<?php }else { ?>
 					var minutes = 27;
 					var seconds = 51;
-					<?php } ?>
 				}
 
 				// Start by converting hours to milliseconds
