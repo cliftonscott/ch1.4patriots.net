@@ -717,8 +717,38 @@ class Product {
 				$productObj->googleProductName = "F4P-SUPERPAK";
 				$productObj->googleProductSKU = "PID228";
 				$productObj->googleProductCategory = "1-PAY-397";
+				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
+				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+
+			case 230: // Meat & Protein
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/protein/thankyou.php";
+				$productObj->listId = null;
+				$productObj->tags = "PROTEIN";
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 230;
+				//Limelight
+				$productObj->price = 197;
+				$productObj->originalPrice = 197;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 0;
+				$productObj->googleProductName = "F4P-PROTEIN";
+				$productObj->googleProductSKU = "PID230";
+				$productObj->googleProductCategory = "1-PAY-197";
 				$productObj->metaTitle = "Food4Patriots - SuperPak";
-				$productObj->metaDescription = "Food4Patriots - SuperPak";
+				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -728,7 +758,7 @@ class Product {
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
 		}
-		return $productObj;	
+		return $productObj;
 	}
 	
 	function setQuantity($quantity) {
@@ -863,6 +893,20 @@ class Product {
 				"declineUrl" => "/checkout/t1/thankyou.php",
 			),
 
+		);		/*
+		 * ============================================
+		 * Meat & Protein Funnel
+		 * ============================================
+		*/
+
+		$funnelData["protein"] = array(
+
+			"checkout" => array (
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => null,
+			),
+
+
 		);
 
 		return $funnelData;
@@ -882,6 +926,7 @@ class Product {
 		$validFunnels = array (
 			"/checkout/coffee/" => "freecoffee",
 			"/checkout/t1/" => "t1",
+			"/checkout/protein/" => "protein",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];
