@@ -954,6 +954,36 @@ class Product {
 			),
 		);
 
+/*
+ * ============================================
+ * Coffee 600 Funnel
+ * ============================================
+*/
+
+		$funnelData["coffee600"] = array(
+
+			"checkout" => array (
+				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
+				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-4week-kit-discount.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-1year-kit-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/thankyou.php",
+			),
+		);
+
 		return $funnelData;
 
 	}
@@ -973,6 +1003,7 @@ class Product {
 			"/checkout/t1/" => "t1",
 			"/checkout/protein/" => "protein",
 			"/checkout/fruitveggie/" => "fruitveggie",
+			"/checkout/coffee600/" => "coffee600",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];
