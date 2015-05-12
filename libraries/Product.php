@@ -893,11 +893,13 @@ class Product {
 				"declineUrl" => "/checkout/t1/thankyou.php",
 			),
 
-		);		/*
-		 * ============================================
-		 * Meat & Protein Funnel
-		 * ============================================
-		*/
+		);
+
+/*
+ * ============================================
+ * Meat & Protein Funnel
+ * ============================================
+*/
 
 		$funnelData["protein"] = array(
 
@@ -921,8 +923,35 @@ class Product {
 				"nextUrl" => "/checkout/protein/thankyou.php",
 				"declineUrl" => "/checkout/protein/thankyou.php",
 			),
+		);
+/*
+ * ============================================
+ * Fruit & Veggie Funnel
+ * ============================================
+*/
 
+		$funnelData["fruitveggie"] = array(
 
+			"checkout" => array (
+				"nextUrl" => "/checkout/fruitveggie/oto/f4p-3month-kit-discount.php",
+				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/fruitveggie/oto/f4p-4week-kit-discount.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+				"declineUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
+			),
 		);
 
 		return $funnelData;
@@ -943,6 +972,7 @@ class Product {
 			"/checkout/coffee/" => "freecoffee",
 			"/checkout/t1/" => "t1",
 			"/checkout/protein/" => "protein",
+			"/checkout/fruitveggie/" => "fruitveggie",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];
