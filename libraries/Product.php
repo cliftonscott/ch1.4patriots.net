@@ -747,7 +747,7 @@ class Product {
 				$productObj->googleProductName = "F4P-PROTEIN";
 				$productObj->googleProductSKU = "PID230";
 				$productObj->googleProductCategory = "1-PAY-197";
-				$productObj->metaTitle = "Food4Patriots - SuperPak";
+				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
 				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
 				//Other
 				$productObj->pmaSku = null;
@@ -902,8 +902,24 @@ class Product {
 		$funnelData["protein"] = array(
 
 			"checkout" => array (
-				"nextUrl" => "/checkout/protein/thankyou.php",
+				"nextUrl" => "/checkout/protein/oto/f4p-3month-kit-discount.php",
 				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/protein/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/protein/oto/f4p-4week-kit-discount.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => "/checkout/protein/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => "/checkout/protein/oto/f4p-1year-kit-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => "/checkout/protein/thankyou.php",
 			),
 
 
