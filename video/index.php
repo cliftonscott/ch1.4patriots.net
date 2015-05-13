@@ -37,10 +37,11 @@ if($_GET["vsl"]) {
 }
 
 $pubArray = array (
-	"100" => "Guns & Ammo",
-	"101" => "American Hunter",
-	"102" => "American Rifelman",
-	"103" => "America's 1st Freedom",
+	"100" => "fans of Guns & Ammo",
+	"101" => "fans of American Hunter",
+	"102" => "fans of American Rifleman",
+	"103" => "fans of America's 1st Freedom",
+	"104" => "subscribers of Uncommon Wisdom Daily",
 );
 if($_GET["pub"]) {
 	if(array_key_exists(trim($_GET["pub"]),$pubArray)) {

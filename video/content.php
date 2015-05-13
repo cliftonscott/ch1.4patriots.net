@@ -6,7 +6,7 @@
 				<div class="center-block text-center">
 					<?php
 					if($_GET["pub"]) {
-						echo "<div style='font-size:18pt;'>Special presentation for fans of ". $pubArray[$pub] ." </div>";
+						echo "<div style='font-size:18pt;'>Special presentation for ". $pubArray[$pub] ." </div>";
 					}elseif($variation == "gb") {
 						echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
 					}
