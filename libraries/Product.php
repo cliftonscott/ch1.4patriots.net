@@ -740,8 +740,8 @@ class Product {
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 230;
 				//Limelight
-				$productObj->price = 197;
-				$productObj->originalPrice = 197;
+				$productObj->price = 147;
+				$productObj->originalPrice = 147;
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-PROTEIN";

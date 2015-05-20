@@ -12,7 +12,6 @@ $maxQuantity = 3;
 include_once("Product.php");
 $productObj = new Product();
 
-$submitButtonSource = "/assets/images/buttons/btn-rush-coffee-01.png";
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
@@ -41,34 +40,24 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>Meat & Protein Kit - $197 <span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+											<div>Meat & Protein Kit - $147 <span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 										</h4>
 									</div>
 								</a>
 								<div id="chooseProductThree" class="panel-collapse collapse in">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-protein-kit-01.jpg" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
-												<div class="col-sm-12 col-md-5 nopadding">
+												<div class="col-sm-12">
 													<div class="productList">
-														<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+														<p class="text-center red17"><strong>Meat & Protein Kit Includes:</strong></p>
 														<ul>
-															<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li><strong>FREE</strong> Shipping</li>
-															<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-														</ul>
-													</div>
-												</div>
-												<div class="col-sm-12 col-md-7 nopadding">
-													<div class="productList">
-														<p class="text-center red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
-														<ul>
-															<li>10 Items Sold Out After Crisis</li>
-															<li>Water Survival Guide</li>
-															<li>How to Cut Your Grocery Bills</li>
-															<li>Survival Garden Guide</li>
+															<li>2 servings of freeze-fried beef</li>
+															<li>12 servings of freeze-dried chicken</li>
+															<li>16 servings of red beans</li>
+															<li>20 servings of pinto beans</li>
+															<li>20 servings of black beans</li>
 														</ul>
 													</div>
 												</div>
@@ -105,9 +94,8 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 		</div>
 
 		<div class="row">
-			<div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" /></a>
-				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
-			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" /></div>
+			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-24.jpg" /></div>
+			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-25.jpg" /></div>
 		</div>
 
 		<div class="guaranteeBox">
@@ -119,7 +107,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 
 		<hr>
 		<div><h4 class="darkRed">Frequently Asked Questions:</h4></div>
-		<?php include_once ('snippets/faq-accordian-1wk.html'); ?>
+		<?php include_once ('snippets/faq-accordian-protein.html'); ?>
 
 	</div>
 	<script>
@@ -159,12 +147,9 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-02.jpg">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-product-img-protein-03.jpg">
 			</div>
 		</div>
-	</div>
-	<div id="1wk" style="display:none;">
-		<?php include_once("f4p-product-info-1wk.html"); ?>
 	</div>
 <?php
 include_once("template-bottom.php");
