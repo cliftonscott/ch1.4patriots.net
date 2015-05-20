@@ -105,6 +105,11 @@
 			as you have it in your hands.</p>
 	</div>
 
+	<p>Here’s what Patriots that have ordered the Meat & Protein Kit have to say:</p>
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-21.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-22.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-23.jpg" alt="Testimonial">
+
 	<p><strong>Get Your Kit Now for Just $1.83 Per Serving!</strong></p>
 	<p>For a limited time, you can get our Meat &amp; Protein Kit for the <em>special promotional price</em> of just $147.00! </p>
 	<p>That boils down to only $1.83 per serving. Wow!</p>
