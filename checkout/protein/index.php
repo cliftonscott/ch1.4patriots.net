@@ -31,50 +31,140 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 	<div class="container">
 
 		<div class="row">
-			<div class="col-sm-6 col-sm-push-6 col-md-7 col-md-push-5 nopadding">
-				<div style="padding-top: 0px; padding-right:20px;">
+			<div class="col-sm-6 col-md-7">
+
+				<!--START CHOOSE PRODUCT ACCORDIAN-->
+				<div id="checkoutMenu" class="row">
+					<div class="col-lg-12">
+						<div class="panel-group" id="accordion">
+							<div id="initial" class="panel panel-default">
+								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<div>Meat & Protein Kit - $197 <span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+										</h4>
+									</div>
+								</a>
+								<div id="chooseProductThree" class="panel-collapse collapse in">
+									<div class="panel-body">
+										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" class="img-responsive center-block"></a>
+										<div class="nopadding">
+											<div class="row">
+												<div class="col-sm-12 col-md-5 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+														<ul>
+															<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li><strong>FREE</strong> Shipping</li>
+															<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-7 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
+														<ul>
+															<li>10 Items Sold Out After Crisis</li>
+															<li>Water Survival Guide</li>
+															<li>How to Cut Your Grocery Bills</li>
+															<li>Survival Garden Guide</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" alt=""/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!--END CHOOSE PRODUCT ACCORDIAN-->
+
+			</div>
+
+			<div class="col-sm-6 col-md-5">
+				<div>
 					<div class="row">
 						<div class="col-lg-12">
-							<h2 class="red21 text-center nomargin"><strong>WARNING: This is NOT COFFEE, IT'S Meat & Protein</strong></h2>
+							<?php include_once ('customer-form.php'); ?>
 						</div>
-
-						<div class="col-lg-12 text-center center-block hidden-xs" style="text-align:center;max-width:80%;float:none !important;">
-							<script type="text/javascript" src="//reboot.evsuite.com/player/RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA==/?responsive=1&autoResponsive=1&container=evp-J9E01DERU8"></script><div id="evp-J9E01DERU8" data-role="evp-video" data-evp-id="RnJlZUNvZmZlZVZTTC1BaW1lZSBDT01QUkVTU0VELm1wNA=="></div>
-						</div>
-						<div class="col-lg-12 margin-b-10 coffee-checkout">
-							<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life
-								survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
-							<p>Get 30 servings of my survival coffee for $9.95 while supplies last! Here’s exactly what you’ll get:</p>
-							<ul>
-								<li>30 mouth-watering servings of my first-ever survival coffee packed in a special
-									triple-layered, re-sealable, re-usable Mylar packet with an amazing 25-year shelf life!</li>
-								<li>This survival coffee tastes so good, and is a snap to make. Just add hot water!</li>
-								<li>100% Non-GMO, 100% Colombian grown, 100% Arabica coffee beans go from tree, to
-									freeze-dryer, to package, to your cup. It doesn’t get any fresher than this, folks!</li>
-								<li>Shipped right to your door via USPS First Class Mail.</li>
-							</ul>
-							<p><strong>Just $9.95 per kit while while supplies last –</strong> claim your coffee before someone else does!</p>
-						</div>
-						<div class="col-lg-12 text-center hidden-xs">
-							<img src="/assets/images/buttons/btn-order-now-orange-left-01.png" alt="Frank" class="img-responsive center-block">
+					</div>
+					<div class="row">
+						<div class="col-lg-12 hidden-xs">
+							<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
+								<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
+								<img id="beckCheckoutAudioControl" class="audioControl" style="float:right; margin-right: 30px;
+margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('beckCheckout'); stopAudio('frankCheckout');">
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-7">
-				<?php include_once ('customer-form.php'); ?>
-			</div>
 		</div>
-		<div style="padding-top:40px;">
-			<div class="row">
-				<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-18.jpg" /></div>
-				<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-19.jpg" /></div>
-			</div>
-		</div>
-		<!-- Start References -->
-		<?php include("snippets/checkout-coffee-references.html");?>
-		<!-- End References -->
 
+		<div class="row">
+			<div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" /></a>
+				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
+			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" /></div>
+		</div>
+
+		<div class="guaranteeBox">
+			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Meat & Protein Kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.</p>
+			<p>&nbsp;</p>
+			<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Meat & Protein Kit meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Meat & Protein Kit and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+			<div class="clearfix"></div>
+		</div>
+
+		<hr>
+		<div><h4 class="darkRed">Frequently Asked Questions:</h4></div>
+		<?php include_once ('snippets/faq-accordian-1wk.html'); ?>
+
+	</div>
+	<script>
+		$('#initial').find('.panel-heading').addClass("active-panel");
+		$('#accordion > .panel').on('show.bs.collapse', function (e) {
+			$(this).find('.panel-heading').addClass("active-panel");
+		});
+		$('#accordion > .panel').on('hide.bs.collapse', function (e) {
+			$(this).find('.panel-heading').removeClass('active-panel');
+		});
+		$('#accordion .panel-heading').on('click',function(e){
+			if($(this).parents('.panel').children('.panel-collapse').hasClass('in')){
+				e.stopPropagation();
+			}
+		});
+		$(document ).ready(function () {
+			$("#1wkPopover").popover({
+				html:true,
+				trigger: 'hover',
+				title:"1 Week Kit May Include:",
+				content: function() {
+					return $('#1wk').html();
+				},
+			});
+		});
+	</script>
+
+	<script>
+		function showProductModal() {
+			$('#productModal').modal('show');
+		}
+		function hideProductModal() {
+			$('#productModal').modal('hide');
+		}
+	</script>
+	<div id="productModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-02.jpg">
+			</div>
+		</div>
+	</div>
+	<div id="1wk" style="display:none;">
+		<?php include_once("f4p-product-info-1wk.html"); ?>
 	</div>
 <?php
 include_once("template-bottom.php");
