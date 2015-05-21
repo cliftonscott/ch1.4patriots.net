@@ -46,14 +46,14 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 								</a>
 								<div id="chooseProductThree" class="panel-collapse collapse in">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-protein-kit-01.jpg" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-product-img-protein-kit-01.jpg" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12">
 													<div class="productList">
 														<p class="text-center red17"><strong>Meat & Protein Kit Includes:</strong></p>
 														<ul>
-															<li>2 servings of freeze-fried beef</li>
+															<li>12 servings of freeze-dried beef</li>
 															<li>12 servings of freeze-dried chicken</li>
 															<li>16 servings of red beans</li>
 															<li>20 servings of pinto beans</li>
@@ -147,7 +147,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-product-img-protein-03.jpg">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-product-img-protein-kit-03.jpg">
 			</div>
 		</div>
 	</div>
