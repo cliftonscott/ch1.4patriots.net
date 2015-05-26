@@ -32,17 +32,17 @@
 	<p>Nope – I&rsquo;ve got a better solution…one that&rsquo;s proven to stay fresh for a staggering 25 years!</p>
 	<p>In fact, my new...</p>
 
-	<h2 class="darkRed text-center">Meat & Protein Kit” Was Whe #1 Requested Item From Food4Patriots customers…</h2>
+	<h2 class="darkRed text-center">Meat & Protein Kit Was The #1 Requested Item From Food4Patriots Customers…</h2>
 	<p>A real “protein boost” to round out and “supercharge” their survival food stockpiles was just the ticket.</p>
-	<p>My name is Frank Bates and I am the founder of 4Patriots. I’ve helped over 106,321 fellow patriots help build their food stockpiles with my top-rated Food4Patriots products.” And then start the next paragraph with “And when it came to finding a Meat & Protein solution, truth be told, I didn’t want to offer anything less than the very best…no cutting corners or using cheap fillers. No sir.</p>
-	<p>And, truth be told, I didn&rsquo;t want to offer anything less than the very best…no cutting corners or using cheap fillers. No sir.</p>
+	<p>My name is Frank Bates and I am the founder of 4Patriots. I&rsquo;ve helped over <strong>106,321 fellow patriots</strong> help build their food stockpiles with my top-rated Food4Patriots products.</p>
+	<p>And when it came to finding a Meat &amp; Protein solution, truth be told, I didn&rsquo;t want to offer anything less than the very best…no cutting corners or using cheap fillers. No sir.</p>
 	<p>I searched for the best quality meat &amp; protein options available. Most didn&rsquo;t pass muster for quality, taste, or long shelf life. </p>
 	<p>After much trial and error, I finally found the exact high-quality protein kit my customers have been clamoring for – one that&rsquo;s delicious, nutritious, and rated good for 25 years! </p>
 	<p>Now just so you know…I&rsquo;m more than a perfectionist when it comes to any of my Food4Patriots products. It&rsquo;s no different with my Meat &amp; Protein Kit…</p>
 	<p>That&rsquo;s why this painstaking process took so long. I was going to &ldquo;do it right&rdquo; or not at all…</p>
 	<p>From the advanced dehydration process and space-age Mylar packaging that seals in nutrients and flavor, to <strong>using a separate FDA approved facility to make them</strong>, I refused to cut corners in any way. It costs me more, but nothing is too good for my customers.</p>
 
-	<h2 class="darkRed text-center">Here’s Exactly What You’ll Get With Your Food4Patriots “Meat & Protein Kit"</h2>
+	<h2 class="darkRed text-center">You’ll Be Able To Enjoy Several Different Meals With This “Meat & Protein Kit”</h2>
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-product-img-protein-kit-04.jpg" alt="Meat & Protein Kit">
 	<p>Our Meat &amp; Protein Kit comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you&rsquo;ve come to expect with our other survival food kits. </p>
 	<p>Keep all your individual protein packs in the tote, or take them on the go – it&rsquo;s your choice.</p>
@@ -111,7 +111,7 @@
 			as you have it in your hands.</p>
 	</div>
 
-	<h2 class="darkRed text-center">Here’s what Patriots that have ordered the Meat & Protein Kit have to say:</h2>
+	<h2 class="darkRed text-center">Here’s What Patriots That Have Ordered The Meat & Protein Kit Have To Say:</h2>
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-21.jpg" alt="Testimonial">
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-22.jpg" alt="Testimonial">
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-23.jpg" alt="Testimonial">
@@ -119,13 +119,12 @@
 	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
 	<p>It’s no secret that good, lean protein can cost a pretty penny. Heck, it makes sense considering how important protein is to our diets, right?</p>
 	<p>Well, you know me well enough by now that I’ve made it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
-	<p>So, for a limited time, you can get my Meat & Protein Kit for the special promotional price of just $147.</p>
-	<p>That’s just $1.83 Per Serving!</p>
-
-	<p><strong>Get Your Kit Now for Just $1.83 Per Serving!</strong></p>
-	<p>For a limited time, you can get our Meat &amp; Protein Kit for the <em>special promotional price</em> of just $147.00! </p>
-	<p>Be sure to jump on this opportunity while it lasts…unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that&rsquo;s making headlines all across America…so please…claim your kit while there&rsquo;s still time.</p>
-	<p><strong>Click the &ldquo;Add To Cart&rdquo; button now, and I&rsquo;ll rush your kit to your front door right away!</strong></p>
+	<p>So, for a limited time, you can get my Meat &amp; Protein Kit for the special promotional price of just $147.</p>
+	<p>That&rsquo;s just $1.83 Per Serving!</p>
+	<p><strong>Get your Meat &amp; Protein Kit at this special promotional price while it is still available…</strong></p>
+	<p>I&rsquo;m not sure how long we will be able to offer this important kit for $147 or <strong>$1.83 Per Serving.</strong></p>
+	<p>Be sure to jump on this opportunity while it lasts…unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that&rsquo;s making headlines all across America…so please…claim your kit while there&rsquo;s still time. </p>
+	<p><strong>Click the &ldquo;Add To Cart&rdquo; button below now, and I&rsquo;ll rush your kit to your front door right away!</strong></p>
 	<p>Please hurry Friend…I don&rsquo;t know how long I&rsquo;m going to be able to offer these Meat &amp; Protein Kits at this rock-bottom price, or <strong><em>at all…</em></strong>with survival food supplies disappearing, I&rsquo;m bound to sell out fast. </p>
 	<p>I&rsquo;d hate to think your family&rsquo;s nutrition might be compromised because you didn&rsquo;t act while you had the chance…</p>
 	<p><strong>So claim your kit NOW by clicking the &ldquo;Add To Cart&rdquo; button, and have true peace of mind that your loved ones WON&rsquo;T starve in the coming crisis…</strong></p>
@@ -135,29 +134,7 @@
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"> Add to Cart - $147</a>
 	</div>
 
-
-	<div class="outLineBoxDarkBlue">
-		<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
-		satisfied with your Meat & Protein Kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
-		price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-		any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
-		<div class="clearfix"></div>
-	</div>
-
-	<div class="outLineBoxDarkBlue">
-		<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any
-		of your Meat & Protein Kit anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you
-		can return your entire Meat & Protein Kit and I will <strong>triple</strong> your money back!</p>
-		<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is
-			on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not
-			really worried about it, because I am so confident you&rsquo;re going to see the value in your Meat & Protein Kit as soon
-			as you have it in your hands.</p>
-	</div>
-
-	<div class="margin-tb-50 center-block text-center">
-		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"> Add to Cart - $147</a>
-	</div>
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-26.jpg" alt="Testimonial">
 
 </div>
