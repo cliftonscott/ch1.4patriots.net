@@ -20,7 +20,7 @@
 	<p>Protein is literally the “building block” of healthy cells – it helps your body make muscles, regenerate organs, and grow hair. There isn’t a system in your body that doesn’t need lean, high-quality protein to thrive – even more so when you’re facing a crisis.</p>
 
 	<p>What Are Some Other Crucial Benefits of Protein?</p>
-	<ul class="fa-ul">
+	<ul class="fa-ul fa-ul-space">
 		<li><i class="fa-li fa fa-check"></i><strong>Keeps hunger at bay.</strong> Protein takes longer to digest, and keeps you feeling fuller, longer.</li>
 		<li><i class="fa-li fa fa-check"></i><strong>Preserves muscle.</strong> Think of protein as the &ldquo;bricklayer&rdquo; of your body. Protein is crucial to building strong muscles, and keeps the body from losing muscle tissue when it&rsquo;s not getting enough.</li>
 		<li><i class="fa-li fa fa-check"></i><strong>Strengthens bones. </strong>Quality protein keeps our bones dense and helps prevent diseases like osteoporosis, which can lead to fractures.<strong></strong></li>
