@@ -746,7 +746,7 @@ class Product {
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-PROTEIN";
 				$productObj->googleProductSKU = "PID230";
-				$productObj->googleProductCategory = "1-PAY-197";
+				$productObj->googleProductCategory = "1-PAY-147";
 				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
 				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
 				//Other
