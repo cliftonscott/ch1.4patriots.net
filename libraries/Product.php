@@ -904,22 +904,27 @@ class Product {
 		$funnelData["protein"] = array(
 
 			"checkout" => array (
+				"googleBrand" => "F4P-PROTEIN",
 				"nextUrl" => "/checkout/protein/oto/f4p-3month-kit-discount.php",
 				"declineUrl" => null,
 			),
 			"oto1" => array (
+				"googleBrand" => "F4P-PROTEIN",
 				"nextUrl" => "/checkout/protein/oto/f4p-1year-kit.php",
 				"declineUrl" => "/checkout/protein/oto/f4p-4week-kit-discount.php",
 			),
 			"oto1b" => array (
+				"googleBrand" => "F4P-PROTEIN",
 				"nextUrl" => "/checkout/protein/thankyou.php",
 				"declineUrl" => "/checkout/protein/thankyou.php",
 			),
 			"oto2" => array (
+				"googleBrand" => "F4P-PROTEIN",
 				"nextUrl" => "/checkout/protein/thankyou.php",
 				"declineUrl" => "/checkout/protein/oto/f4p-1year-kit-payments.php",
 			),
 			"oto2b" => array (
+				"googleBrand" => "F4P-PROTEIN",
 				"nextUrl" => "/checkout/protein/thankyou.php",
 				"declineUrl" => "/checkout/protein/thankyou.php",
 			),
