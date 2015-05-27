@@ -743,7 +743,7 @@ class Product {
 				$productObj->price = 147;
 				$productObj->originalPrice = 147;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 0;
+				$productObj->netRevenueEach = 60;
 				$productObj->googleProductName = "F4P-PROTEIN";
 				$productObj->googleProductSKU = "PID230";
 				$productObj->googleProductCategory = "1-PAY-147";
