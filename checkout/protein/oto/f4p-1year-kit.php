@@ -154,7 +154,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div class="container oto-width">
 		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you upgrade today!</p>
-		<p>Because we're already going to be sending you a 3-month kit, we can add the 1-Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+		<p>Because we’re already going to be sending you your Meat & Protein Kit, we can add the 1-Year Kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
 		<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 
 		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>

@@ -23,7 +23,7 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
-
+<script src="/js/audio.js"></script>
 
 <div class="container-main">
 
@@ -70,6 +70,7 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 						</div>
 					</div>
 				</div> <!--END CHOOSE PRODUCT ACCORDIAN-->
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-24.jpg" />
 
 			</div>
 
@@ -81,7 +82,7 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-lg-12 hidden-xs">
+						<div class="col-lg-12 hidden-xs" style="margin-top: 45px;">
 							<div class="center-block" style="width: 360px; min-height: 156px; background-image: url(/assets/images/checkout/glen-beck-testimonial-01.png); background-repeat: no-repeat;">
 								<audio id="beckCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
 								<img id="beckCheckoutAudioControl" class="audioControl" style="float:right; margin-right: 30px;
@@ -91,11 +92,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-24.jpg" /></div>
-			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-25.jpg" /></div>
 		</div>
 
 		<div class="guaranteeBox">
@@ -123,16 +119,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 				e.stopPropagation();
 			}
 		});
-		$(document ).ready(function () {
-			$("#1wkPopover").popover({
-				html:true,
-				trigger: 'hover',
-				title:"1 Week Kit May Include:",
-				content: function() {
-					return $('#1wk').html();
-				},
-			});
-		});
 	</script>
 
 	<script>
@@ -142,6 +128,11 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 		function hideProductModal() {
 			$('#productModal').modal('hide');
 		}
+		$(document).ready(function () {
+			if(isMobile() === false) {
+				toggleAudio('frankCheckout');
+			}
+		});
 	</script>
 	<div id="productModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
