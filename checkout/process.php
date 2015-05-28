@@ -191,7 +191,7 @@ include_once("PatriotsApi.php");
 $patriotsApi = new PatriotsApi();
 $patriotsApi->setOrderId($postLimelight->orderId);
 $patriotsApi->setCustomerId($postLimelight->customerId);
-$postPatriotsApi = $patriotsApi->postSale($saleDataObj->getSale(), $productDataObj, $customerDataObj);
+$postPatriotsApi = $patriotsApi->postSale($saleDataObj->getSale(), $productDataObj, $customerDataObj, $analyticsObj);
 if($postPatriotsApi->success === TRUE) {
 	//successfully posted to mps
 
@@ -231,47 +231,6 @@ if($platform->isApiEnabled("ffh") === true) {
 	$stepTime = round($stepTimerStop - $stepTimerStart, 4);
 	$stepTimeLog[] = $stepTime . " :: Post to FFH :: " . $postFfh->success;
 }
-//==============================================================================================================//
-//==============================================================================================================//
-//post purchase to CPV
-$stepTimerStart = microtime(true);
-//TODO: see class Cpv.php for additional todos for CPV lab
-include_once("Analytics.php");
-$analyticsObj = new Analytics();
-
-if(!empty($analyticsObj->affSub2)) {
-	$subId = $analyticsObj->affSub2;
-} elseif (!empty($analyticsObj->subId)) {
-	$subId = $analyticsObj->subId;
-} else {
-	$subId = null;
-}
-
-if($subId !== null) {
-	include_once("Cpv.php");
-	$cpv = new Cpv();
-	$cpvSaleObj = $saleDataObj->getSale();
-	$cpvRevenue = $productDataObj->netRevenueEach * $cpvSaleObj->quantity;
-	$postCpv = $cpv->postSale($subId, $cpvRevenue);
-	//TODO: improve results checking here
-	if($postCpv->success === TRUE) {
-		//successfully posted to cpv
-	} else {
-		//post not received
-	}
-	$saleDataObj->setCpv($postCpv->success);
-
-	$myDevLog.= "CPV Results:<br>";
-	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
-	$myDevLog.= "cpvSessionRev: " . $postCpv->cpvRevenue . "<br>";
-	$myDevLog.= "subId: " . $subId . "<br>";
-	$myDevLog.= "postUrl: " . $postCpv->cpvUrl . "<br>";
-	//$myDevLog.= "CPV Order Response String:" . $postCpv->serverResponse . "<br>";
-}
-
-$stepTimerStop = microtime(true);
-$stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to CPV :: " . $postCpv->success;
 
 //==============================================================================================================//
 //==============================================================================================================//

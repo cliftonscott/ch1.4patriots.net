@@ -19,7 +19,7 @@ class PatriotsApi {
 	const USERNAME = "";
 	const PASSWORD = "";
 	static $URLS = array(
-		'dev' 			=> 'http://dev.api.4patriots.net/post',
+		'dev' 			=> 'http://dev2.api.4patriots.net/post',
 		'stage' 		=> 'http://stage.api.4patriots.net/post',
 		'production' 	=> 'https://api.4patriots.com/post'
 	);
@@ -33,16 +33,14 @@ class PatriotsApi {
 
 	}
 
-	function postSale($saleDataObj, $productDataObj, $customerDataObj) {
-
-		$analytics = new Analytics();
+	function postSale($saleDataObj, $productDataObj, $customerDataObj, $analyticsObj) {
 
 		$postSale = new stdClass();
-		$environment = $this->determineEnvironment();
 
 		$params = array (
 			"orderId" => self::$orderId,
 			"customerId" => self::$customerId,
+			"sessionId" => session_id(),
 			"firstName" => $customerDataObj->firstName,
 			"lastName" => $customerDataObj->lastName,
 			"email" => $customerDataObj->email,
@@ -62,16 +60,16 @@ class PatriotsApi {
 			"quantity" => $saleDataObj->quantity,
 			"revenue" => $productDataObj->netRevenueEach * $saleDataObj->quantity,
 			"shippingId" => $this->determineShippingId($customerDataObj, $productDataObj),
-			"receivedBy" => "F4P", // TODO: UPDATE WHEN CROSSPORTING
-			"adSourceTokens" => json_encode($analytics->getAdSourceRegistrar()->requestActiveTokens()),
-			"apiToken" => self::$APITokens[$environment]
+			"receivedBy" => "F4P",
+			"conversionTokens" => json_encode($analyticsObj->getConversionRegistrar()->requestActiveTokens()),
+			"apiToken" => self::$APITokens[getenv("APP_ENV")]
 		);
 
 		$queryString = http_build_query($params);
 
 		//doCurl call
 		$configObj = new stdClass();
-		$configObj->url = self::$URLS[$environment] . "?" . $queryString;
+		$configObj->url = self::$URLS[getenv("APP_ENV")] . "?" . $queryString;
 		$configObj->fields = $params;
 
 		include_once("Curl.php");
@@ -97,19 +95,6 @@ class PatriotsApi {
 
 	function setCustomerId($customerId) {
 		self::$customerId = $customerId;
-	}
-
-	private function determineEnvironment() {
-		$host = $_SERVER['HTTP_HOST'];
-		if (strpos($host, 'dev.') === 0) {
-			return 'dev';
-		}
-		else if (strpos($host, 'stage.') === 0) {
-			return 'stage';
-		}
-		else {
-			return 'production';
-		}
 	}
 
 	private function determineShippingId($customerDataObj, $productDataObj) {
