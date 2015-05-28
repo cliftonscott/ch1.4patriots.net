@@ -23,7 +23,7 @@ if($_SESSION["googleTransaction"]) {
 						'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
 						'id': '<?php echo $googleTransaction["orderSku"];?>',
 						'price': '<?php echo $googleTransaction["price"];?>',
-						'brand': '<?php echo $analyticsObj->googleAffiliation;?>',
+						'brand': '<?php echo $googleTransaction["brand"];?>',
 						'category': '<?php echo $googleTransaction["orderCategory"];?>',
 						'variant': '<?php echo $googleTransaction["orderCategory"];?>',
 						'quantity': <?php echo $googleTransaction["orderQty"];?>

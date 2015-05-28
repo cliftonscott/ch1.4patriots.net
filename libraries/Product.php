@@ -717,8 +717,38 @@ class Product {
 				$productObj->googleProductName = "F4P-SUPERPAK";
 				$productObj->googleProductSKU = "PID228";
 				$productObj->googleProductCategory = "1-PAY-397";
-				$productObj->metaTitle = "Food4Patriots - SuperPak";
-				$productObj->metaDescription = "Food4Patriots - SuperPak";
+				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
+				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
+				//Other
+				$productObj->pmaSku = null;
+				$productObj->taxable = TRUE;
+				$productObj->defaultQuantity = 1;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+
+			case 230: // Meat & Protein
+				//process file
+				$productObj->campaignId = 9;
+				$productObj->nextPage = "/checkout/protein/thankyou.php";
+				$productObj->listId = null;
+				$productObj->tags = "PROTEIN";
+				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 230;
+				//Limelight
+				$productObj->price = 147;
+				$productObj->originalPrice = 147;
+				//GA Naming Wiki
+				$productObj->netRevenueEach = 60;
+				$productObj->googleProductName = "F4P-PROTEIN";
+				$productObj->googleProductSKU = "PID230";
+				$productObj->googleProductCategory = "1-PAY-147";
+				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
+				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
@@ -728,7 +758,7 @@ class Product {
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
 		}
-		return $productObj;	
+		return $productObj;
 	}
 	
 	function setQuantity($quantity) {
@@ -865,6 +895,100 @@ class Product {
 
 		);
 
+/*
+ * ============================================
+ * Meat & Protein Funnel
+ * ============================================
+*/
+
+		$funnelData["protein"] = array(
+
+			"checkout" => array (
+				"googleBrand" => "F4P-PROTEIN",
+				"nextUrl" => "/checkout/protein/oto/f4p-3month-kit-discount.php",
+				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"googleBrand" => "F4P-PROTEIN",
+				"nextUrl" => "/checkout/protein/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/protein/oto/f4p-4week-kit-discount.php",
+			),
+			"oto1b" => array (
+				"googleBrand" => "F4P-PROTEIN",
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => "/checkout/protein/thankyou.php",
+			),
+			"oto2" => array (
+				"googleBrand" => "F4P-PROTEIN",
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => "/checkout/protein/oto/f4p-1year-kit-payments.php",
+			),
+			"oto2b" => array (
+				"googleBrand" => "F4P-PROTEIN",
+				"nextUrl" => "/checkout/protein/thankyou.php",
+				"declineUrl" => "/checkout/protein/thankyou.php",
+			),
+		);
+/*
+ * ============================================
+ * Fruit & Veggie Funnel
+ * ============================================
+*/
+
+		$funnelData["fruitveggie"] = array(
+
+			"checkout" => array (
+				"nextUrl" => "/checkout/fruitveggie/oto/f4p-3month-kit-discount.php",
+				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/fruitveggie/oto/f4p-4week-kit-discount.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+				"declineUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
+			),
+		);
+
+/*
+ * ============================================
+ * Coffee 600 Funnel
+ * ============================================
+*/
+
+		$funnelData["coffee600"] = array(
+
+			"checkout" => array (
+				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
+				"declineUrl" => null,
+			),
+			"oto1" => array (
+				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-4week-kit-discount.php",
+			),
+			"oto1b" => array (
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/thankyou.php",
+			),
+			"oto2" => array (
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-1year-kit-payments.php",
+			),
+			"oto2b" => array (
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/thankyou.php",
+			),
+		);
+
 		return $funnelData;
 
 	}
@@ -882,6 +1006,9 @@ class Product {
 		$validFunnels = array (
 			"/checkout/coffee/" => "freecoffee",
 			"/checkout/t1/" => "t1",
+			"/checkout/protein/" => "protein",
+			"/checkout/fruitveggie/" => "fruitveggie",
+			"/checkout/coffee600/" => "coffee600",
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];

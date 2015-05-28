@@ -7,6 +7,9 @@ h1, .h1, h2, .h2, h3, .h3 {
 h1 {
 	font-size: 27pt;
 }
+.fa-ul-space li {
+	margin: 0 0 17px 0;
+}
 .darkRed {
 	/*text-align:center;*/
 	color:#cc0000;
