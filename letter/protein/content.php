@@ -2,7 +2,41 @@
 	<div>
 		<h1 class="darkRed text-center">Stay Full and Satisfied with Food4Patriots NEW Meat &amp;  Protein Kit…Good for An Amazing 25 Years!</h1>
 	</div>
-	<img class="img-responsive center-block" src="/media/images/f4p/f4p-product-img-protein-kit-02.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
+	<div class="margin-b-10">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="/media/images/f4p/f4p-product-img-protein-slide-01.jpg" alt="Protein Kit Beef">
+					<div class="carousel-caption">
+					</div>
+				</div>
+				<div class="item">
+					<img src="/media/images/f4p/f4p-product-img-protein-slide-02.jpg" alt="Protein Kit Chicken">
+					<div class="carousel-caption">
+					</div>
+				</div>
+				<div class="item">
+					<img src="/media/images/f4p/f4p-product-img-protein-slide-03.jpg" alt="Protein Kit Red Beans">
+					<div class="carousel-caption">
+					</div>
+				</div>
+			</div><!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
 	<p>Dear Patriot,</p>
 	<p>Chances are you&rsquo;ve got a great start on your survival food stockpile… </p>
 	<p><strong>But do you have protein to &ldquo;survive and thrive&rdquo;?</strong></p>
@@ -16,7 +50,7 @@
 	<p>Even the USDA recognizes the body&rsquo;s need for protein. Their current guidelines recommend a daily <strong>MINIMUM</strong> intake of 50 grams of high-quality protein for the average adult. In a disaster situation, it&rsquo;ll be even higher because you burn more calories than normal.</p>
 
 	<h2 class="darkRed text-center">Lean Protein Is The Cornerstone <br class="hidden-xs">Of Good Health</h2>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/f4p-product-img-protein-steak-01.jpg" alt="Food4Patriots 1 Year Kit" style="max-width:200px;">
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/f4p-product-img-protein-steak-01.jpg" alt="Food4Patriots 1 Year Kit">
 	<p>Protein is literally the “building block” of healthy cells – it helps your body make muscles, regenerate organs, and grow hair. There isn’t a system in your body that doesn’t need lean, high-quality protein to thrive – even more so when you’re facing a crisis.</p>
 
 	<p>What Are Some Other Crucial Benefits of Protein?</p>
@@ -88,6 +122,25 @@
 	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of dried meat you find in our Meat &amp; Protein Kit! </p>
 	<p>Plus, it&rsquo;s very low in fat yet high in life-sustaining protein!</p>
 	<p>You get a whopping 80 total servings of high-quality, lean protein to keep you fit as a fiddle and ready for whatever Mother Nature or other man-mad catastrophes can throw at you.</p>
+
+	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
+	<p>It’s no secret that good, lean protein can cost a pretty penny. Heck, it makes sense considering how important protein is to our diets, right?</p>
+	<p>Well, you know me well enough by now that I’ve made it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
+	<p>So, for a limited time, you can get my Meat &amp; Protein Kit for the special promotional price of just $147.</p>
+	<p>That&rsquo;s just $1.83 Per Serving!</p>
+	<p><strong>Get your Meat &amp; Protein Kit at this special promotional price while it is still available…</strong></p>
+	<p>I&rsquo;m not sure how long we will be able to offer this important kit for $147 or <strong>$1.83 Per Serving.</strong></p>
+	<p>Be sure to jump on this opportunity while it lasts…unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that&rsquo;s making headlines all across America…so please…claim your kit while there&rsquo;s still time. </p>
+	<p><strong>Click the &ldquo;Add To Cart&rdquo; button below now, and I&rsquo;ll rush your kit to your front door right away!</strong></p>
+	<p>Please hurry Friend…I don&rsquo;t know how long I&rsquo;m going to be able to offer these Meat &amp; Protein Kits at this rock-bottom price, or <strong><em>at all…</em></strong>with survival food supplies disappearing, I&rsquo;m bound to sell out fast. </p>
+	<p>I&rsquo;d hate to think your family&rsquo;s nutrition might be compromised because you didn&rsquo;t act while you had the chance…</p>
+	<p><strong>So claim your kit NOW by clicking the &ldquo;Add To Cart&rdquo; button, and have true peace of mind that your loved ones WON&rsquo;T starve in the coming crisis…</strong></p>
+
+	<div class="margin-tb-50 center-block text-center">
+		<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-product-img-protein-kit-04.jpg" alt="Meat & Protein Kit">
+		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"> Add to Cart - $147</a>
+	</div>
+
 	<p>And just to make this a complete no-brainer for you…</p>
 
 	<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
@@ -116,15 +169,6 @@
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-22.jpg" alt="Testimonial">
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-23.jpg" alt="Testimonial">
 
-	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
-	<p>It’s no secret that good, lean protein can cost a pretty penny. Heck, it makes sense considering how important protein is to our diets, right?</p>
-	<p>Well, you know me well enough by now that I’ve made it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
-	<p>So, for a limited time, you can get my Meat &amp; Protein Kit for the special promotional price of just $147.</p>
-	<p>That&rsquo;s just $1.83 Per Serving!</p>
-	<p><strong>Get your Meat &amp; Protein Kit at this special promotional price while it is still available…</strong></p>
-	<p>I&rsquo;m not sure how long we will be able to offer this important kit for $147 or <strong>$1.83 Per Serving.</strong></p>
-	<p>Be sure to jump on this opportunity while it lasts…unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that&rsquo;s making headlines all across America…so please…claim your kit while there&rsquo;s still time. </p>
-	<p><strong>Click the &ldquo;Add To Cart&rdquo; button below now, and I&rsquo;ll rush your kit to your front door right away!</strong></p>
 	<p>Please hurry Friend…I don&rsquo;t know how long I&rsquo;m going to be able to offer these Meat &amp; Protein Kits at this rock-bottom price, or <strong><em>at all…</em></strong>with survival food supplies disappearing, I&rsquo;m bound to sell out fast. </p>
 	<p>I&rsquo;d hate to think your family&rsquo;s nutrition might be compromised because you didn&rsquo;t act while you had the chance…</p>
 	<p><strong>So claim your kit NOW by clicking the &ldquo;Add To Cart&rdquo; button, and have true peace of mind that your loved ones WON&rsquo;T starve in the coming crisis…</strong></p>
