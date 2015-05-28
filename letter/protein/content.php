@@ -132,9 +132,6 @@
 	<p>I&rsquo;m not sure how long we will be able to offer this important kit for $147 or <strong>$1.83 Per Serving.</strong></p>
 	<p>Be sure to jump on this opportunity while it lasts…unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that&rsquo;s making headlines all across America…so please…claim your kit while there&rsquo;s still time. </p>
 	<p><strong>Click the &ldquo;Add To Cart&rdquo; button below now, and I&rsquo;ll rush your kit to your front door right away!</strong></p>
-	<p>Please hurry Friend…I don&rsquo;t know how long I&rsquo;m going to be able to offer these Meat &amp; Protein Kits at this rock-bottom price, or <strong><em>at all…</em></strong>with survival food supplies disappearing, I&rsquo;m bound to sell out fast. </p>
-	<p>I&rsquo;d hate to think your family&rsquo;s nutrition might be compromised because you didn&rsquo;t act while you had the chance…</p>
-	<p><strong>So claim your kit NOW by clicking the &ldquo;Add To Cart&rdquo; button, and have true peace of mind that your loved ones WON&rsquo;T starve in the coming crisis…</strong></p>
 
 	<div class="margin-tb-50 center-block text-center">
 		<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-product-img-protein-kit-04.jpg" alt="Meat & Protein Kit">
