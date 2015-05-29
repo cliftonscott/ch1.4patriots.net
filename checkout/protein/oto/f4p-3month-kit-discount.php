@@ -272,7 +272,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-4week-kit-discount-c.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 				</div>
 			</div>
 			<div>
@@ -348,6 +348,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<?php include_once("f4p-product-info-3mk.html"); ?>
 		</div>
 		<div id="lsv" style="display:none;">
-			<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
+			<?php include_once("sdff4p-product-info-seeds-bonus.html"); ?>
 		</div>
 <?php include_once("template-bottom.php"); ?>
