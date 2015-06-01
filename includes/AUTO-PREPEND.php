@@ -31,3 +31,4 @@ $addPath[] = $_SERVER["DOCUMENT_ROOT"] . "/libraries";
 $appConfig["path"] = implode(PATH_SEPARATOR, $addPath);
 set_include_path(get_include_path() . PATH_SEPARATOR . $appConfig["path"]);
 unset($addPath);
+$view = new stdClass();
