@@ -46,6 +46,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 	$preFill["shipping-zip"] = $customerDataObj->shippingZip;
 	$_SESSION["customerDataArray"] = (array)$customerDataObj;
 }
+$view->customer = $customerDataObj;
 ?>
 <!DOCTYPE html>
 <html lang="en">
