@@ -211,7 +211,7 @@ if($_SESSION['errorMessage'] != '') {
 	  <div class="cc-align"><img src="/assets/images/checkout/credit-card.png" width="200" height="26" alt="Credit Cards Accepted"></div>
 	  <div class="form-group">
 		<label for="creditCardNumber">Card Number:</label>
-		<input type="number" class="form-control" id="creditCardNumber" name="creditCardNumber" value="">
+		<input type="number" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber" value="">
 	  </div>
 	  <div class="form-inline expiration">
 	  <div class="form-group">
