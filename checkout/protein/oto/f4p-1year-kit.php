@@ -215,14 +215,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 		<p>I was only able to secure a limited quantity of these 1-Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
 			so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours,
-			go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1-Year Food4Patriots Kit to your order
+			go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 1-Year Food4Patriots Kit to your order
 			today!</p>
 
 		<p>The 1-Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
 			You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
 
 		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get your 1-Year
-			Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
+			Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
 
 		<div>
 			<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
