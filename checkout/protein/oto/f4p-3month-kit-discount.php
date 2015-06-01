@@ -160,13 +160,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
 							<ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
 								<li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Califovrnia Wonder Bell Pepper - over 70 seeds </li>
+								<li><i class="fa-li fa fa-check"></i>California Wonder Bell Pepper - over 70 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Golden Acre Cabbage - over 530 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Detroit Dark Red Beet - over 260 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweat Pea - over 100 seeds </li>
+								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweet Pea - over 100 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Beefsteak Tomato - over 180 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Champion Radish - over 320 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Green Sprouting Broccoli - over 500 seeds </li>
