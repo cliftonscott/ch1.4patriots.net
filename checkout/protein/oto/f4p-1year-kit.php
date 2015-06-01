@@ -136,7 +136,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div style="margin-top:50px;">
 			<p><?php echo $firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
-			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
+			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
 			<p>But before you move on, I've got a <strong>special one-time offer</strong> for you... </p>
 			<p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
