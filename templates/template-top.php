@@ -47,6 +47,7 @@ if($customerDataObj = $customerObj->getStoredCustomer()) {
 	$_SESSION["customerDataArray"] = (array)$customerDataObj;
 }
 $view->customer = $customerDataObj;
+$view->customer->shippingCityState = $customerDataObj->shippingCity . ", " . $customerDataObj->shippingStateName;
 ?>
 <!DOCTYPE html>
 <html lang="en">
