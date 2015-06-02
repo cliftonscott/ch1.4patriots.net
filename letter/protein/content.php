@@ -177,7 +177,7 @@
 
 
 	<div class="margin-tb-50 center-block text-center">
-		<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-product-img-protein-kit-04.jpg" alt="Meat &amp; Protein Kit">
+		<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-product-img-protein-kit-05.jpg" alt="Meat &amp; Protein Kit">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-protein.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $147</strong></a>
 	</div>
 
