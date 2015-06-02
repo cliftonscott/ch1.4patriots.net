@@ -73,6 +73,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-Month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
+				<?php include 'f4p-3month-whatsincluded.html'; ?><p>&nbsp;</p>
+
 				<h2 class="darkRed text-center">Glenn Beck Uses THIS Survival Emergency Food to Protect His Own Family</h2>
 
 				<div class="johnson-box-01">
