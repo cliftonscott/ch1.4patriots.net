@@ -53,7 +53,8 @@ if($_GET["pub"]) {
 }
 
 if($variation !== "np" & $variation !== "np-nologo") {
-	$template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
+	//$template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
+	// Moved Exit Pop For The Video Lander To GTM/Engagifire
 }
 
 // SET PRODUCT ID
@@ -178,6 +179,19 @@ if (isMobile()) {
 			interval: 5000
 		})
 	});
+</script>
+<!-- TEMP EXIT POP CODE -->
+<script type="text/javascript">
+	(function(d, a) {
+		var h = d.getElementsByTagName("head")[0], p = d.location.protocol, s;
+		s = d.createElement("script");
+		s.type = "text/javascript";
+		s.charset = "utf-8";
+		s.async = true;
+		s.defer = true;
+		s.src = "//app.wishloop.com/bjs/" + a;
+		h.appendChild(s);
+	})(document, '2929');
 </script>
 
 	<!-- Offer Conversion: Food4Patriots  -->
