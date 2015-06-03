@@ -2,21 +2,21 @@
 
 /**
  * Handles ad source visitor tracking by checking
- * each page request URL for ad source partner tokens,
+ * each page request URL for conversion partner tokens,
  * persisting the tokens to the session as needed,
  * and accepting requests for active tokens by other libraries.
  *
  * This class belongs in Analytics and should always be instantiated with
  * it on every page request.
  *
- * Class AdSourceRegistrar
+ * Class ConversionRegistrar
  */
-class AdSourceRegistrar {
+class ConversionRegistrar {
 
 	/**
 	 * The string to use as the session key when persisting active tokens.
 	 */
-	const SESSION_KEY = "adSourceTokens";
+	const SESSION_KEY = "conversionTokens";
 
 	/**
 	 * Instantiate this library class.
@@ -28,7 +28,7 @@ class AdSourceRegistrar {
 
 	/**
 	 * Return all active tokens in a literal array.
-	 * Structure: [adSourceId] => [tokenValue]
+	 * Structure: [conversionSourceId] => [tokenValue]
 	 *
 	 * Always returns an array, but the array may be empty.
 	 *
@@ -40,16 +40,16 @@ class AdSourceRegistrar {
 
 	/**
 	 * Forget an active token if it exists.
-	 * Can be passed an Ad Source ID and/or a Token Value to check for.
+	 * Can be passed an conversion source ID and/or a token value to check for.
 	 *
-	 * @param null $adSourceId
+	 * @param null $conversionSourceId
 	 * @param null $tokenValue
 	 */
-	public function forgetActiveToken($adSourceId = null, $tokenValue = null) {
+	public function forgetActiveToken($conversionSourceId = null, $tokenValue = null) {
 		$activeTokens = $_SESSION[self::SESSION_KEY];
-		foreach ($activeTokens as $activeAdSourceId => $activeTokenValue) {
-			if ($adSourceId == $activeAdSourceId || $tokenValue == $activeTokenValue) {
-				unset($_SESSION[self::SESSION_KEY][$adSourceId]);
+		foreach ($activeTokens as $activeConversionSourceId => $activeTokenValue) {
+			if ($conversionSourceId == $activeConversionSourceId || $tokenValue == $activeTokenValue) {
+				unset($_SESSION[self::SESSION_KEY][$conversionSourceId]);
 			}
 		}
 	}
@@ -66,33 +66,11 @@ class AdSourceRegistrar {
 	 * by examining each query property for matching partner token IDs.
 	 */
 	private function registerUrl() {
-		$this->logRequest();
 		$tokens = $this->inspectUrlForTokens();
-		foreach ($tokens as $adSource => $tokenValue) {
-			$this->registerToken($adSource, $tokenValue);
+		foreach ($tokens as $conversionSource => $tokenValue) {
+			$this->registerToken($conversionSource, $tokenValue);
 		}
-	}
-
-	/**
-	 * Log information about this request to the database.
-	 */
-	private function logRequest()
-	{
-		// Connect to the database.
-		include_once("Db.php");
-		$dbObj = new Db();
-		$db = $dbObj->connect();
-
-		// Define and prepare an insert statement.
-		$sql = "INSERT INTO `requestLogF4P` SET ip_address=:ip_address, session_id=:session_id, url=:url, tokens=:tokens";
-		$insert = $db->prepare($sql);
-		$insert->bindParam(':ip_address', $_SERVER["REMOTE_ADDR"], PDO::PARAM_STR);
-		$insert->bindParam(':session_id', session_id(), PDO::PARAM_STR);
-		$insert->bindParam(':url', $_SERVER["REQUEST_URI"], PDO::PARAM_STR);
-		$insert->bindParam(':tokens', json_encode($this->requestActiveTokens()), PDO::PARAM_STR);
-
-		// Execute the insert statement.
-		$insert->execute();
+		$this->handleHasOffersConcatenation();
 	}
 
 	/**
@@ -109,11 +87,11 @@ class AdSourceRegistrar {
 	/**
 	 * Register a token as active in the session.
 	 *
-	 * @param $adSource
+	 * @param $conversionSource
 	 * @param $tokenValue
 	 */
-	private function registerToken($adSource, $tokenValue) {
-		$_SESSION[self::SESSION_KEY][$adSource] = $tokenValue;
+	private function registerToken($conversionSource, $tokenValue) {
+		$_SESSION[self::SESSION_KEY][$conversionSource] = $tokenValue;
 	}
 
 	/**
@@ -124,7 +102,7 @@ class AdSourceRegistrar {
 	 */
 	private function inspectUrlForTokens() {
 		$matchingTokens = array();
-		foreach (AdSource::$TokenIds as $id => $tokens) {
+		foreach (ConversionSource::$TokenIds as $id => $tokens) {
 			foreach ($tokens as $token) {
 				if (isset($_GET[$token]) && $_GET[$token]) {;
 					$matchingTokens[$id] = $_GET[$token];
@@ -133,28 +111,51 @@ class AdSourceRegistrar {
 		}
 		return $matchingTokens;
 	}
+
+	/**
+	 * Handle the concatenation of the offer ID and click ID into a single
+	 * conversion token value by inspecting and manipulating the session data directly.
+	 */
+	private function handleHasOffersConcatenation()
+	{
+		if (isset($_SESSION[self::SESSION_KEY][ConversionSource::HAS_OFFERS]) === false) {
+			return;
+		}
+
+		$value = $_SESSION[self::SESSION_KEY][ConversionSource::HAS_OFFERS];
+
+		if (stripos($value, ":::") === false && isset($_GET["offer_id"])) {
+			$_SESSION[self::SESSION_KEY][ConversionSource::HAS_OFFERS] = $_GET["offer_id"] . ":::" . $value;
+		}
+	}
 }
 
 /**
- * Enumerates all supported Ad Sources and their configurations.
+ * Enumerates all supported conversion sources and their configurations.
  *
- * Should always be used when referring to Ad Sources.
- * Example use: if ($id == AdSource::DIVISION_D)
+ * Should always be used when referring to conversion sources.
+ * Example use: if ($id == ConversionSource::DIVISION_D)
  *
- * Class AdSource
+ * Class ConversionSource
  */
-class AdSource {
-	const DIVISION_D	= 4;	// Required to match 4Patriots API service IDs.
+class ConversionSource {
+	const CPV			= 2; // Required to match 4Patriots API service IDs.
+	const HAS_OFFERS	= 3;
+	const DIVISION_D	= 4;
 	const AD_SUPPLY		= 5;
 	const SITE_SCOUT	= 6;
 
 	static $List = array(
+		self::CPV,
+		self::HAS_OFFERS,
 		self::DIVISION_D,
 		self::AD_SUPPLY,
 		self::SITE_SCOUT
 	);
 
 	static $TokenIds = array(
+		self::CPV				=> array("subid", "aff_sub2"),
+		//self::HAS_OFFERS		=> array("click_id"),
 		self::DIVISION_D		=> array("zedo", "aff_sub4"),
 		self::AD_SUPPLY			=> array("aff_sub4"),
 		self::SITE_SCOUT		=> array("k", "aff_sub5")

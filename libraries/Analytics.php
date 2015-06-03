@@ -1,6 +1,6 @@
 <?php
 
-include_once 'AdSourceRegistrar.php';
+include_once 'ConversionRegistrar.php';
 
 /**
  * Analytics Processing utilities
@@ -32,9 +32,9 @@ class Analytics {
 	static $offerId = null; //has offers offerId / campaignId
 	static $affiliateId = null; //has offers affiliateId
 	static $affSub2 = null; //CPV unique visitor tracking number
-	static $affSub4 = null; //See AdSourceRegistrar Library class for use
-	static $affSub5 = null; //See AdSourceRegistrar Library class for use
-	static $affSub6 = null; //See AdSourceRegistrar Library class for use
+	static $affSub4 = null; //See ConversionRegistrar Library class for use
+	static $affSub5 = null; //See ConversionRegistrar Library class for use
+	static $affSub6 = null; //See ConversionRegistrar Library class for use
 	static $googleAccount = null;
 	static $googleDomain = null;
 	static $googleAffiliation = null;
@@ -48,7 +48,7 @@ class Analytics {
 	static $vwoVariationId = null;
 	static $cpvInstance = null;
 
-	private $adSourceRegistrar;
+	private $conversionRegistrar;
 
 	public function __construct() {
 		
@@ -76,7 +76,7 @@ class Analytics {
 		$this->vwoGoalId = self::$vwoGoalId;
 		$this->vwoVariationId = self::$vwoVariationId;
 
-		$this->adSourceRegistrar = new AdSourceRegistrar();
+		$this->conversionRegistrar = new ConversionRegistrar();
 
 		return $this;
 		
@@ -279,8 +279,8 @@ class Analytics {
 
 	}
 
-	function getAdSourceRegistrar() {
-		return $this->adSourceRegistrar;
+	function getConversionRegistrar() {
+		return $this->conversionRegistrar;
 	}
 
 	function getCpvInstance() {
@@ -355,44 +355,7 @@ class Analytics {
 		self::$vwoVariationId = $vwoVariationId;
 		$_SESSION["vwoVariationId"] = $vwoVariationId;
 	}
-	function reportConversionPixel() {
-		$curl = curl_init();
 
-		$parameters = array(
-			"application" => $_SERVER["SERVER_NAME"],
-			"page" => $_SERVER["PHP_SELF"],
-			"ip" => $this->getVisitorIpAddress()
-		);
-
-		curl_setopt_array($curl, array(
-			CURLOPT_RETURNTRANSFER => 1,
-			CURLOPT_URL => 'http://dev.api.4patriots.net/post/pixel',
-			CURLOPT_USERAGENT => 'Test',
-			CURLOPT_POST => 1,
-			CURLOPT_POSTFIELDS => $parameters
-		));
-
-		$resp = curl_exec($curl);
-		curl_close($curl);
-	}
-	function getVisitorIpAddress() {
-		$ipaddress = '';
-		if ($_SERVER['HTTP_CLIENT_IP'])
-			$ipaddress = $_SERVER['HTTP_CLIENT_IP'];
-		else if($_SERVER['HTTP_X_FORWARDED_FOR'])
-			$ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
-		else if($_SERVER['HTTP_X_FORWARDED'])
-			$ipaddress = $_SERVER['HTTP_X_FORWARDED'];
-		else if($_SERVER['HTTP_FORWARDED_FOR'])
-			$ipaddress = $_SERVER['HTTP_FORWARDED_FOR'];
-		else if($_SERVER['HTTP_FORWARDED'])
-			$ipaddress = $_SERVER['HTTP_FORWARDED'];
-		else if($_SERVER['REMOTE_ADDR'])
-			$ipaddress = $_SERVER['REMOTE_ADDR'];
-		else
-			$ipaddress = 'UNKNOWN';
-		return $ipaddress;
-	}
 
 
 //ERROR AND MESSAGE HANDLING
@@ -412,3 +375,4 @@ class Analytics {
 	}
 
 }//end of class
+
