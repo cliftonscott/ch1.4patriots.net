@@ -85,9 +85,9 @@ if($isUpgrade) {
 		<h2 class="darkRed text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ – Claim Your 4-Week Food4Patriots Kit For $50.00 Off Right Now! </h2>
 		<p>Now I understand that the 4-Week Food4Patriots Kit is the right choice for most people. This kit normally sells for $197, but because you’ve already taken the first step by getting the Meat & Protein Kit, and because I appreciate you putting your trust in us by being a customer, you can add the 4-Week Food4Patriots Kit today for <strong>just $147</strong>.</p>
 		<p>That&rsquo;s $50.00 – a massive 25% savings – off the already-discounted price. </p>
-		<p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 4-Week Food4Patriots to your order today!</p>
+		<p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 4-Week Food4Patriots to your order today!</p>
 		<p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
-		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
+		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
 		<div>
 <?php
 if($isUpgrade) {

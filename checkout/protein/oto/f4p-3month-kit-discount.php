@@ -69,9 +69,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
 				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War One, when a pound of bread cost 3 BILLION marks! </p>
 				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
-				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now. This is the <strong>same exact 3-month kit (with the same free shipping and bonuses)</strong> that you just saw on the previous page at the full price of $497...but I'm knocking an extra $100 off today just to thank you for being a customer.</p>
+				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now.</p>
 				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-Month emergency food kits available so get yours TODAY while we still have them in stock!</p>
+
+				<?php include 'f4p-3month-whatsincluded.html'; ?><p>&nbsp;</p>
 
 				<h2 class="darkRed text-center">Glenn Beck Uses THIS Survival Emergency Food to Protect His Own Family</h2>
 
@@ -160,13 +162,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
 							<ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
 								<li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Califovrnia Wonder Bell Pepper - over 70 seeds </li>
+								<li><i class="fa-li fa fa-check"></i>California Wonder Bell Pepper - over 70 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Golden Acre Cabbage - over 530 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Detroit Dark Red Beet - over 260 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweat Pea - over 100 seeds </li>
+								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweet Pea - over 100 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Beefsteak Tomato - over 180 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Champion Radish - over 320 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Green Sprouting Broccoli - over 500 seeds </li>
