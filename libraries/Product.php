@@ -435,7 +435,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "3MKITSNACK";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -732,9 +732,9 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/protein/thankyou.php";
-				$productObj->listId = null;
-				$productObj->tags = "PROTEIN";
-				$productObj->shippingIdDomestic = 26;
+				$productObj->listId = 35;
+				$productObj->tags = "LL, F4PMeatProteinKit";
+				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
