@@ -1,6 +1,6 @@
 <?php
 // SET PRODUCT ID
-$_SESSION['productId'] = 230; //please keep as an integer
+$_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
@@ -8,17 +8,7 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/protein/index.php" . $analyticsObj->queryString;
-
-/*$variantsArray = array (
-	"a", // Short Split Test
-	"b", // Short Split Test
-);
-if($_GET["v"]) {
-	if(in_array(trim($_GET["v"]),$variantsArray)) {
-		$variation = trim($_GET["v"]);
-	}
-}*/
+$offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsObj->queryString;
 
 ?>
 <link href="/assets/css/styles-letter.css" rel="stylesheet" type="text/css">
@@ -29,7 +19,6 @@ if($_GET["v"]) {
 		<div id="wrapper">
 			<?php include_once("content.php"); ?>
 		</div>
-	</div>
 <?php
 include_once("template-bottom.php");
 ?>
