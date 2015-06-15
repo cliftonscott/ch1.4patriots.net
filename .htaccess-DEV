@@ -29,4 +29,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /order/index.php [L]
 </IfModule>
-php_value auto_prepend_file "/var/www/vhosts/dev.sf4p.4patriots.net/includes/AUTO-PREPEND.php"
+php_value auto_prepend_file "/var/www/vhosts/development/dev.sf4p.4patriots.net/includes/AUTO-PREPEND.php"
