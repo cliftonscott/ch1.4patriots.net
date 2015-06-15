@@ -713,7 +713,7 @@ class Product {
 				$productObj->price = 397;
 				$productObj->originalPrice = 450;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 0;
+				$productObj->netRevenueEach = 196;
 				$productObj->googleProductName = "F4P-SUPERPAK";
 				$productObj->googleProductSKU = "PID228";
 				$productObj->googleProductCategory = "1-PAY-397";
