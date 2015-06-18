@@ -35,6 +35,7 @@ class Analytics {
 	static $affSub4 = null; //See ConversionRegistrar Library class for use
 	static $affSub5 = null; //See ConversionRegistrar Library class for use
 	static $affSub6 = null; //See ConversionRegistrar Library class for use
+	static $trv = null; //See ConversionRegistrar Library class for use
 	static $googleAccount = null;
 	static $googleDomain = null;
 	static $googleAffiliation = null;
@@ -63,6 +64,7 @@ class Analytics {
 		$this->affSub4 = self::$affSub4;
 		$this->affSub5 = self::$affSub5;
 		$this->affSub6 = self::$affSub6;
+		$this->trv = self::$trv;
 		$this->googleAccount = self::$googleAccount;
 		$this->googleDomain = self::$googleDomain;
 		$this->googleAffiliation = self::$googleAffiliation;
@@ -177,6 +179,15 @@ class Analytics {
 			$this->setAffSub6(null);
 		}
 
+		$trv = trim($_GET["trv"]);
+		if(!empty($trv)) {
+			$this->settrv($trv);
+		} elseif (!empty($_SESSION["trv"])) {
+			$this->settrv($_SESSION["trv"]);
+		} else {
+			$this->settrv(null);
+		}
+
 		$sspData = trim($_GET["sspdata"]);
 		if(!empty($sspData)) {
 			$this->setSspData($sspData);
@@ -268,6 +279,9 @@ class Analytics {
 		if(!empty(self::$affSub6)){
 			$qs["aff_sub6"] = self::$affSub6;
 		}
+		if(!empty(self::$trv)){
+			$qs["trv"] = self::$trv;
+		}
 		if(!empty(self::$sspData)){
 			$qs["sspdata"] = self::$sspData;
 		}
@@ -327,6 +341,10 @@ class Analytics {
 	function setAffSub6($affSub6) {
 		self::$affSub6 = $affSub6;
 		$_SESSION["affSub6"] = $affSub6;
+	}
+	function setTrv($trv) {
+		self::$trv = $trv;
+		$_SESSION["trv"] = $trv;
 	}
 	function setSspData($sspData) {
 		self::$sspData = $sspData;
