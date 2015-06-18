@@ -144,13 +144,15 @@ class ConversionSource {
 	const DIVISION_D	= 4;
 	const AD_SUPPLY		= 5;
 	const SITE_SCOUT	= 6;
+	const THRIVE		= 13;
 
 	static $List = array(
 		self::CPV,
 		self::HAS_OFFERS,
 		self::DIVISION_D,
 		self::AD_SUPPLY,
-		self::SITE_SCOUT
+		self::SITE_SCOUT,
+		self::THRIVE
 	);
 
 	static $TokenIds = array(
@@ -158,6 +160,7 @@ class ConversionSource {
 		//self::HAS_OFFERS		=> array("click_id"),
 		self::DIVISION_D		=> array("zedo", "aff_sub4"),
 		self::AD_SUPPLY			=> array("aff_sub4"),
-		self::SITE_SCOUT		=> array("k", "aff_sub5")
+		self::SITE_SCOUT		=> array("k", "aff_sub5"),
+		self::THRIVE			=> array("trv")
 	);
 }
