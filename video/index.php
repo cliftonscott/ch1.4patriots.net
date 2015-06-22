@@ -45,6 +45,8 @@ $pubArray = array (
 	"105" => "subscribers of Palm Beach Daily",
 	"106" => "subscribers of National Self Reliance Association",
 	"107" => "subscribers of Health Sciences Institute",
+	"108" => "Sovereign Investor Daily readers",
+	"109" => "subscribers of Barton Publishing",
 );
 if($_GET["pub"]) {
 	if(array_key_exists(trim($_GET["pub"]),$pubArray)) {
@@ -53,7 +55,7 @@ if($_GET["pub"]) {
 }
 
 if($variation !== "np" & $variation !== "np-nologo") {
-	$template["exitPopType"] = "video"; //designates that this should have an exit pop of type video
+	$template["exitPopType"] = null; //designates that this should not have an exit pop of type video
 }
 
 // SET PRODUCT ID
