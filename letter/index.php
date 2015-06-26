@@ -468,7 +468,7 @@ Setting Your Family Up To Starve…&quot;</h3>
 					<p>No need to worry about stretching portions to feed a larger family or being forced to order more than you really need - I wanted to make sure I provided different options that would be a perfect fit for YOU.</p>
 					<p>So go ahead and click the button below to claim your kit now.</p>
 						<div class="txt-center">
-						<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
+						<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
 							<br>
 							<img src="images/samples/credid-cards.png">
 							<br><br>
@@ -633,7 +633,7 @@ And It’s Entirely Up To You Which Way You Go.&quot;</h2>
 					<div class="inner pad-30 pad-60-t">
 						<h2 class="color-red large"><strong>Claim Your Kit Now!</strong></h2>
 						<br>
-						<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
+						<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
 						<br>
 						<img src="images/samples/credid-cards.png">
 						<br><br>

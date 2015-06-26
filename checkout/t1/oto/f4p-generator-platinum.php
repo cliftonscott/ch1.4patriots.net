@@ -160,7 +160,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div style="padding-bottom:20px;">
 				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 					<div class="text-center center-block">
-						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-first-button');" />
+						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" />
 					</div>
 					<input type="hidden" name="quantity" id="quantity" value="1">
 					<div class="terms">

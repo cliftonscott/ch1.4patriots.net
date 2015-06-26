@@ -155,7 +155,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div style="padding-bottom:20px;">
 				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 					<div class="text-center center-block">
-						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-first-button');" />
+						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/>
 					</div>
 					<input type="hidden" name="quantity" id="quantity" value="1">
 					<div class="terms">
@@ -200,7 +200,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
 					<div class="text-center center-block">
-						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-accept', 'click-to-accept-bottom');" />
+						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/>
 					</div>
 					<input type="hidden" name="quantity" id="quantity" value="1">
 					<div class="terms">
@@ -214,7 +214,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
 				<div class="noThanks">
-					<a href="/checkout/thankyou.php" onClick="ga('send', 'event', 'upsell-1-ppg-platinum-upgrade', 'ppg-platinum-upgrade-decline', 'no-thanks-link-bottom');">No Thanks</a> – I want to give up this opportunity.<br>
+					<a href="/checkout/thankyou.php"">No Thanks</a> – I want to give up this opportunity.<br>
 					I understand that I will not receive this special offer again.
 				</div>
 

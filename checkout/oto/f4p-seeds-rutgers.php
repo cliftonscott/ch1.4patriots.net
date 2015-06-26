@@ -23,7 +23,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ss4p/ss4p-rutgers-tomato.jpg" alt="Rutgers Tomato Seeds"/></div>
 		<div class="caption text-center" style="padding-bottom:30px;"><em>Get 150 heirloom tomato "super-seeds" added to your order <br>
-			absolutely FREE. <a href="/checkout/process.php" onClick="patriotTrack('click-to-accept-text');"><u>Click Here To Accept >></u></a></em><a href="../process.php" onClick="patriotTrack('click-to-accept-text');"><u></u></a>
+			absolutely FREE. <a href="/checkout/process.php"><u>Click Here To Accept >></u></a></em><a href="../process.php"><u></u></a>
 		</div>
 		<div>
 			<p>Congratulations on  starting your emergency food stockpile! I know you&rsquo;ll sleep better at night knowing that you and your family are protected. </p>
@@ -44,12 +44,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 			<div>
 				<div class="text-center">
-					<a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+					<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 				</div>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-messenger-trial.php" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="/checkout/oto/f4p-messenger-trial.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 				</div>
 			</div>
 

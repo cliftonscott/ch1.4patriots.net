@@ -22,11 +22,11 @@
 			<?php
 			if($isUpgrade) {
 				?>
-				<p class="text-center"><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
+				<p class="text-center"><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
 			<?php
 			} else {
 				?>
-				<p class="text-center"><a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-top');"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
+				<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a></p>
 				<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
 			<?php
 			}
@@ -71,13 +71,13 @@
 					?>
 					<a name="upgrade-form"></a>
 					<div class="text-center">
-						<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+						<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 					</div>
 				<?php
 				} else {
 					?>
 					<div class="text-center">
-						<a href="/checkout/process.php" title="Add to Order!" onClick="patriotTrack('click-to-accept-bottom');"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+						<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 					</div>
 
 				<?php
@@ -85,7 +85,7 @@
 				?>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				<div class="noThanks">
-					<a href="<?php echo $declineUrl;?>" onClick="patriotTrack('no-thanks-link');">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 				</div>
 			</div>
 		</div>
