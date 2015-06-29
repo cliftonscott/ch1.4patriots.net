@@ -46,7 +46,7 @@
 				if($isUpgrade) {
 					?>
 					<div class="text-center center-block">
-						<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block" onClick="patriotTrack('no-payments-6-months');" /></a>
+						<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/></a>
 					</div>
 				<?php
 				} else {

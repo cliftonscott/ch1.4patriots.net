@@ -198,14 +198,14 @@ if(!$pageGreeting) {
 			if($isUpgrade) {
 				?>
 				<div style="text-align:center;">
-					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-accept', 'click-to-accept-bottom');"></a>
+					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 				</div>
 			<?php
 			} else {
 				?>
 				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 					<div style="text-align:center;">
-						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block 1yearbuy" onClick="ga('send', 'event', 'upsell-2-f4p-1-yr-kit', 'f4p-1-yr-kit-accept', 'click-to-accept-bottom');"/>
+						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
 					</div>
 
 					<div>
