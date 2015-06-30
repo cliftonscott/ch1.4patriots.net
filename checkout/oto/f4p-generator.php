@@ -26,7 +26,7 @@ $isLion = $inventoryObj->isLion($productId);
 if($isLion) {
 	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
 	if($hasAllInventory === false) {
-		header("Location: /checkout/thankyou.php");
+		header("Location: /checkout/thankyou.php?b=t"); //b=t for a 1 year purchase when the generator is out of stock - VWO-333 6/29/15
 		exit;
 	}
 }

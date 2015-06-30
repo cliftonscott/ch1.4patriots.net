@@ -29,7 +29,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ss4p/ss4p-rutgers-tomato.jpg" alt="Rutgers Tomato Seeds"/></div>
 		<div class="caption text-center" style="padding-bottom:30px;"><em>Get 150 heirloom tomato "super-seeds" added to your order <br>
-			absolutely FREE. <a href="/checkout/process.php" onClick="patriotTrack('click-to-accept-text');"><u>Click Here To Accept >></u></a></em><a href="../process.php" onClick="patriotTrack('click-to-accept-text');"><u></u></a>
+			absolutely FREE. <a href="/checkout/process.php"><u>Click Here To Accept >></u></a></em><a href="../process.php"><u></u></a>
 		</div>
 		<div>
 			<p>Congratulations on  starting your emergency food stockpile! I know you&rsquo;ll sleep better at night knowing that you and your family are protected. </p>

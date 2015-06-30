@@ -355,7 +355,7 @@
 						<p>No need to worry about stretching portions to feed a larger family or being forced to order more than you really need - I wanted to make sure I provided different options that would be a perfect fit for YOU.</p>
 						<p>So go ahead and click the button below to claim your kit now.</p>
 						<div class="txt-center">
-							<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
+							<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
 							<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png"><br><br>
 							<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
 							<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png"><br>
@@ -482,7 +482,7 @@
 				<div class="bg-light bg-flag">
 					<div class="padding-60-top">
 						<h2 class="color-red large"><strong>Claim Your Kit Now!</strong></h2><br>
-						<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
+						<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
 						<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png"><br><br>
 						<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
 						<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png"><br>

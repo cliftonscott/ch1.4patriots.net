@@ -632,7 +632,7 @@ And It’s Entirely Up To You Which Way You Go.&quot;</h2>
 					<div class="inner pad-30 pad-60-t">
 						<h2 class="color-red large"><strong>Claim Your Kit Now!</strong></h2>
 						<br>
-						<a href="<?php echo $offerUrl;?>" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',27, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
+						<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
 						<br>
 						<img src="images/samples/credid-cards.png">
 						<br><br>
