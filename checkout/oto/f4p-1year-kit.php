@@ -121,7 +121,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<a>ORDER CONFIRMATION</a>
 	</div>
 	<div class="container oto-width">
-		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
+		<div><h1 class="darkRed text-center"><?php echo $view->customer->firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQIE9UTzEgMS1ZZWFyIEZ1bGwgVlNMIENvbnRyb2wgMTEtMS0xNCBDT01QUkVTU0VELm1wNA==/?container=evp-WRDHQ8NDRA"></script><div id="evp-WRDHQ8NDRA" data-role="evp-video" data-evp-id="RjRQIE9UTzEgMS1ZZWFyIEZ1bGwgVlNMIENvbnRyb2wgMTEtMS0xNCBDT01QUkVTU0VELm1wNA=="></div>
@@ -130,8 +130,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 		</div>
 		<div style="margin-top:50px;">
-			<p><?php echo $firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
-			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
+			<p><?php echo $view->customer->firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
+			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
 			<p>But before you move on, I've got a <strong>special one-time offer</strong> for you... </p>
 			<p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
@@ -139,7 +139,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
-			<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
+			<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 
 			<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 		</div>
