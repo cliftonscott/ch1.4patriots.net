@@ -35,7 +35,7 @@ include_once ('template-top.php');
 		<div><h1 class="darkRed text-center">Get The Brand-New 1-Year Food4Patriots Kit For $200.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!</h1></div>
 		<div class="text-center">
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
-			<span class="caption"><i>Save $200.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
+			<span class="caption"><i>Save $200.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filters, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 		</div>
 		<div style="margin-top:50px;">
 			<p>Thank you for being a Food4Patriots customer! I hope that you love you love your Food4Patriots kit and have been sleeping easier at night knowing that you are more prepared for whatever may happen.</p>
