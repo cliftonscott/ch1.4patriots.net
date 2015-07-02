@@ -35,14 +35,14 @@ include_once ('template-top.php');
 		<div><h1 class="darkRed text-center">Get The Brand-New 1-Year Food4Patriots Kit For $200.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!</h1></div>
 		<div class="text-center">
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
-			<span class="caption"><i>Save $200.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Lifestraw Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
+			<span class="caption"><i>Save $200.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filters, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 		</div>
 		<div style="margin-top:50px;">
 			<p>Thank you for being a Food4Patriots customer! I hope that you love you love your Food4Patriots kit and have been sleeping easier at night knowing that you are more prepared for whatever may happen.</p>
 			<p>I've got a special "customers only" offer for you...</p>
 			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $200.00 discount</strong> on a ONE YEAR Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
-			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
+			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
 			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,997? (That&rsquo;s a $200.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $1.11 per serving!)</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-10.png" alt="L. Graeser's Testimonial" style="margin-bottom:20px;">
 		</div>
@@ -56,7 +56,7 @@ include_once ('template-top.php');
 	<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses You Can ONLY Get With The 1 Year Kit!</h2>
 	<p>You’re going to get the “mother lode” of special bonuses that are ONLY available with the 1 Year Kit!</p>
 </div>
-<?php include("f4p-1year-bonus-lifestraw.html");?>
+<?php include("f4p-1year-bonus-survivalspring.html");?>
 <?php include("f4p-1year-bonus-survivalbooks.html");?>
 <?php include("f4p-1year-bonus-cards.html");?>
 <div class="container oto-width">
@@ -100,7 +100,7 @@ include_once ('template-top.php');
 				
 			<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 			
-			<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 
+			<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Survival Spring Personal Water Filters and over
 				22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 				
 			<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, 
@@ -162,7 +162,7 @@ include_once ('template-top.php');
 										<li><strong>FREE</strong> Shipping</li>
 										<li><strong>4 FREE</strong> Survival Tools <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 										<li><strong>4 FREE</strong> Seed Vaults <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-										<li><strong>4 FREE</strong> LifeStraw Filters <a href="#info" id="strawPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+										<li><strong>4 FREE</strong> <span style="letter-spacing:-.5px;">Survival Spring Filters <a href="#info" id="strawPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></span></li>
 										<li><strong>FREE</strong> Playing Cards</li>
 									  </ul>
 									</div>
@@ -251,8 +251,8 @@ $('#accordion > .panel').on('hide.bs.collapse', function (e) {
 		$("#strawPopover").popover({
 			html:true,
 			trigger: 'hover',
-			title:"4 LifeStraw Personal Water Filters:",
-			content: "<img src=/media/images/w4p/w4p-lifestraw-02.jpg>"
+			title:"4 Survival Spring Personal Water Filters:",
+			content: "<img src=/media/images/w4p/w4p-survivalspring-02.jpg>"
 		});
 
 	});

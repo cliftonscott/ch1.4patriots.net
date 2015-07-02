@@ -98,9 +98,9 @@ if(!$pageShipping) {
 		tax = taxrate * subtot;
 		gtotal = tax + subtot;
 		if (taxrate != 0){
-			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 		}else {
-			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+			$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 		}
 
 	}
@@ -112,7 +112,7 @@ if(!$pageShipping) {
 		<a>ORDER CONFIRMATION</a>
 	</div>
 	<div class="container oto-width">
-		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
+		<div><h1 class="darkRed text-center"><?php echo $view->customer->firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<script type="text/javascript" src="https://reboot.evsuite.com/player/ZjRwLTEteWVhci1mdWxsLXZzbC11cGRhdGVkLTExLTEtMTQubXA0/?container=evp-UK9G8NUUBX"></script><div id="evp-UK9G8NUUBX" data-role="evp-video" data-evp-id="ZjRwLTEteWVhci1mdWxsLXZzbC11cGRhdGVkLTExLTEtMTQubXA0"></div>
@@ -122,14 +122,14 @@ if(!$pageShipping) {
 		</div>
 		<div style="margin-top:50px;">
 			<p><?php echo $pageGreeting;?></p>
-			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
+			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
 			<p>But before you move on, I've got a <strong>special 1-time offer</strong> for you... </p>
 			<p><?php echo $pageSentence1;?></p>
 		</div>
 		<div>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a ONE YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
-			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
-			<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a 1-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies…you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
+			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
+			<p><?php echo $view->customer->firstName;;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a 1-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies…you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 
 			<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
@@ -146,7 +146,7 @@ if(!$pageShipping) {
 		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
 		<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-Year Kit!</p>
 	</div>
-	<?php include("f4p-1year-bonus-lifestraw.html");?>
+	<?php include("f4p-1year-bonus-survivalspring.html");?>
 	<?php include("f4p-1year-bonus-survivalbooks.html");?>
 	<?php include("f4p-1year-bonus-cards.html");?>
 	<div class="container oto-width">
@@ -189,14 +189,14 @@ if(!$pageShipping) {
 
 		<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
 
-		<h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1-Year
+		<h2 class="darkRed title-max-600 center-block text-center"><?php echo $view->customer->firstName;;?>, Get On The ‘Fast Track’ - Claim Your 1-Year
 			Food4Patriots Kit For $1000.00 Off Right Now!</h2>
 
 		<p>Now I understand that the 1-Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-Year Food4Patriots kit today for just $1,997.</p>
 
 		<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 
-		<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over
+		<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Survival Spring Personal Water Filters and over
 			22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 
 		<p>I was only able to secure a limited quantity of these 1-Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
@@ -259,9 +259,7 @@ if(!$pageShipping) {
 							<input type="checkbox" id="check1" name="check1">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
-						<div id="terms">I want to add the 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $1,997.
-							I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Lifestraw Personal Water Filters
-							and over 22,000+ heirloom survival seeds
+						<div id="terms">I want to add the 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $1,997. <strong>I will get FREE Shipping and 27 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
 						</div>
 					</div>
 					<div style="margin-top:20px;">
