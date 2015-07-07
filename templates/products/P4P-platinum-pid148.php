@@ -176,7 +176,22 @@ $offerName = $_SESSION["firstName"];
 				life.</u></p>
 				
 		<p>Furthermore, each <i>Medicinal Herb Garden</i> comes with 10 different varieties of easy-to-grow plants including:</p>
-		
+
+		<!-- OLD SEEDS LIST CURRENTLY USED UNTIL WE RUN OUT -->
+		<ul>
+			<li>Yarrow</li>
+			<li>Anise</li>
+			<li>Catnip</li>
+			<li>Chamomile</li>
+			<li>Hyssop</li>
+			<li>Echinacea</li>
+			<li>Nettle</li>
+			<li>Borage</li>
+			<li>Cayenne Pepper</li>
+			<li>Lemon Balm</li>
+		</ul>
+
+		<!-- NEW SEEDS LIST TO BE RE-IMPLEMENTED WHEN WE START SHIPPING NEW CANS
 		<ul>
 			<li>Echinacea Purple Coneflower (130+ Seeds / Packet)</li>
 			<li>Cayenne Long Red Thin Hot Pepper (90+ Seeds / Packet)</li>
@@ -189,7 +204,7 @@ $offerName = $_SESSION["firstName"];
 			<li>Lemon Balm (400+ Seeds / Packet)</li>
 			<li>Catnip (250+ Seeds / Packet)</li>
 		</ul>
-		
+		-->
 		<p>This offer is exclusive ONLY to trusted Patriots who’ve <b>grabbed their FREE Rutgers Tomato Heirloom Seeds</b> 
 			and it’s likely this will be the <u>only time</u> you see the <i>Medicinal Herb Garden</i> <span style="color:#CC0000;font-weight:bold;">
 				this special price.</span> </p>
