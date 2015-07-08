@@ -63,7 +63,7 @@ class ContactForm {
 	 *
 	 * @var string
 	 */
-	private $successMessage = "Thanks for dropping us a line! We shall be in touch.";
+	private $successMessage = "Message received, we will be in contact with you shortly";
 
 	/**
 	 * Handle a contact form request and return
