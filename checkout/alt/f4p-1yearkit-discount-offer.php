@@ -33,9 +33,9 @@ include_once ('template-top.php');
 <div id="content" style="display:block;">
 	<div class="container oto-width">
 		<div class="timer-box">
-			<div id="timer">10:00</div>
+			<div id="countdown"></div>
 		</div>
-		<div><h1 class="darkRed text-center">Get The Brand-New 1-Year Food4Patriots Kit For $1500.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!</h1></div>
+		<div><h1 class="darkRed text-center" id="countdownHead"></h1></div>
 		<div class="text-center">
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
 			<span class="caption"><i>Save $1500.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filters, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
@@ -46,7 +46,7 @@ include_once ('template-top.php');
 			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $1500.00 discount</strong> on a ONE YEAR Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
-			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $1500.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $1.11 per serving!)</p>
+			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $1500.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $.83 per serving!)</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-10.png" alt="L. Graeser's Testimonial" style="margin-bottom:20px;">
 		</div>
 	</div>
@@ -101,7 +101,7 @@ include_once ('template-top.php');
 
 		<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,497.</p>
 
-		<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
+		<p>You get a year&rsquo;s worth of delicious survival food for $.83 per serving!</p>
 
 		<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Survival Spring Personal Water Filters and over
 			22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
@@ -147,13 +147,13 @@ include_once ('template-top.php');
 							<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<div>1 Year Food Supply - $1497 <span class="gray13">($1.11/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+										<div>1 Year Food Supply - $1497 <span class="gray13">($.83/serving)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 									</h4>
 								</div>
 							</a>
 							<div id="chooseProductThree" class="panel-collapse collapse in">
 								<div class="panel-body">
-									<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-kit-02.jpg" class="img-responsive center-block"></a>
+									<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-kit-01.jpg" class="img-responsive center-block"></a>
 									<div class="nopadding">
 										<div class="row">
 											<div class="col-sm-12 col-md-6 nopadding">
@@ -228,28 +228,46 @@ include_once ('template-top.php');
 
 </div>
 <script>
-	timerDateObj = new Date(2014, 01, 01, 12, 10, 00);
+	// set the date we're counting down to
+	var target_date = new Date("Jul 14, 2015").getTime();
 
-	function timerChange() {
-		time = timerDateObj.getTime();
-		newTime = time - 1000;
-		timerDateObj.setTime(newTime);
-		m = timerDateObj.getMinutes();
-		s = timerDateObj.getSeconds();
-		if(s < 10) {
-			s = "0" + s;
-		}
-		$("#timer").html(m + ":" + s);
-		if(parseInt(s) + parseInt(m) == 0) {
-			changeVeggieSubmitButton();
-			clearInterval(jsTimer);
-		}
-	}
+	// variables for time units
+	var days, hours, minutes, seconds;
+
+	// get tag element
+	var countdown = document.getElementById("countdownHead");
+
+	// update the tag with id "countdown" every 1 second
+	setInterval(function () {
+
+		// find the amount of "seconds" between now and target
+		var current_date = new Date().getTime();
+		var seconds_left = (target_date - current_date) / 1000;
+
+		// do some time calculations
+		days = parseInt(seconds_left / 86400);
+		seconds_left = seconds_left % 86400;
+
+		hours = parseInt(seconds_left / 3600);
+		seconds_left = seconds_left % 3600;
+
+		minutes = parseInt(seconds_left / 60);
+		seconds = parseInt(seconds_left % 60);
+
+		headingPart = " To Get The 1-Year Food4Patriots Kit For $1500.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!";
+
+		// format countdown string + set tag value
+		countdown.innerHTML = "You have " + days + " days, " + hours + " hours, "
+			+ minutes + " minutes and " + seconds + " seconds" + headingPart;
+
+	}, 1000);
+</script>
+<script>
 
 	function checkOut(){
 		document.getElementById("content").style.display='none';
 		document.getElementById("checkoutForm").style.display='block';
-	}
+	};
 	$('#initial').find('.panel-heading').addClass("active-panel");
 	$('#accordion > .panel').on('show.bs.collapse', function (e) {
 		$(this).find('.panel-heading').addClass("active-panel");
@@ -299,10 +317,6 @@ include_once ('template-top.php');
 	});
 </script>
 <script>
-	//setInterval(function(timerChange),1000);
-	var jsTimer = setInterval(function(){timerChange()},1000);
-</script>
-<script>
 	function showProductModal() {
 		$('#productModal').modal('show');
 	}
@@ -314,7 +328,7 @@ include_once ('template-top.php');
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-03.jpg">
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg">
 		</div>
 	</div>
 </div>
