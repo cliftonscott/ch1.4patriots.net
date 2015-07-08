@@ -11,29 +11,36 @@ if($isSecure ) {
 	header("Location: http://" . $nonSecureHost . $nonSecurePath);
 	exit;
 }
+$templateArray = array (
+	"wp", // White Paper Template
+);
+if($_GET["t"]) {
+	if(in_array(trim($_GET["t"]),$templateArray)) {
+		$templateDesign = trim($_GET["t"]);
+	}
+}
 $variantsArray = array (
 	"gb", // Glenn Beck
 	"no-logo", // No logos/badges shown at the bottom
 	"np-nologo", // No exit pop, and no logos/badges
 	"np", // No exit pop
 	"pu", // Pop Under
-	"b", // Testimonials - FAQ - Guarantee
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
 		$variation = trim($_GET["v"]);
 	}
 }
-
 $vslArray = array (
 	"stansberry", // JV Partner Stansberry No Warning Intro
+	"fs", // 3.1 Food Stamp Hook
+	"3f", // 3.1 3 Foods Hook
 );
 if($_GET["vsl"]) {
 	if(in_array(trim($_GET["vsl"]),$vslArray)) {
 		$vsl = trim($_GET["vsl"]);
 	}
 }
-
 $pubArray = array (
 	"100" => "fans of Guns & Ammo",
 	"101" => "fans of American Hunter",
@@ -164,7 +171,12 @@ if (isMobile()) {
 	}
 </script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
-<?php include_once ('content.php'); /*CONTROL*/?>
+<?php if($templateDesign === "wp") {
+	include_once('content-wp.php'); /*White Paper Template*/
+}else{
+	include_once('content.php'); /*CONTROL*/
+}
+?>
 <!--INCLUDE CONTENT-->
 <script>
 	function showProductModal() {

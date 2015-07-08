@@ -1,0 +1,115 @@
+/* --------------- */
+/* A little basics */
+/* --------------- */
+.col-xs-6{
+	padding-top: 20px;
+	background-color:#E9E9E9;
+}
+
+/* Form Styles */
+#form{
+	width:100%;
+	margin:0 auto;
+	color: #535353;
+	font-size: 1.375em;
+	font-weight: normal !important;
+	line-height: 1.181em;
+	text-transform: uppercase;
+	border:none;
+}
+
+.g-recaptcha{
+	margin-bottom:.65em;
+}
+
+input{
+	height:3.25em;
+	width:100%;
+	font-size: 16px;
+	line-height:1.625em;
+	border:none;
+	margin:0 0 0.8125em 0;
+	padding:0 3%;
+	background-color:#E9E9E9;
+	color:#818181;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* BA native app mobile affect */
+}
+
+button[type=button]{
+	width:100%;
+	border:none;
+	background-color:#245269;
+	color:#ffffff;
+	font-size: 1em;
+	line-height: 1.3em;
+	padding:0.55em 20px 0.5em;
+	cursor:pointer;
+}
+
+button[type=button]:hover{
+	background-color:#125597;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* BA native app mobile affect */
+}
+
+textarea{
+	width:100%;
+	border:none;
+	margin:0 0 0.8125em 0;
+	padding:18px 3%;
+	font-size: 16px;
+	line-height:1.625em;
+	height:13em;
+	background-color:#E9E9E9;
+	color:#818181;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* BA native app mobile affect */
+}
+
+span{
+	color:db4d4d;
+}
+
+#note{
+	color:black;
+	font-Weight:400;
+}
+
+#returnmessage{
+	font-size:14px;
+	color:db4d4d;
+	text-align:center;
+}
+
+textarea:focus, input:focus{
+	background-color:#fff; /* adds white bg color once clicked */
+}
+/* --------- */
+/* Mobile Me */
+/* --------- */
+@media screen and (max-width: 730px) {
+
+#form{
+	width:100%;
+	padding-top:0px;
+}
+
+p{
+	text-align: center;
+	}
+
+.header{
+	text-align: center;
+}
+
+.col-xs-6{
+	width: 100%;
+	text-align: center;
+}
+
+.darkRed{
+	text-align: center;
+}
+
+textarea:focus, input:focus{
+	background-color:#E9E9E9; /* keeps lighter bg color once clicked */
+}
+}
