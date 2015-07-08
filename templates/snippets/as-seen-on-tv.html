@@ -19,7 +19,11 @@
 </script>
 <div class="tv">
 	<div id="tvBadges" style="visibility: visible; display: block;">
+		<?php if($templateDesign === "wp") { ?>
+		<p><img src="/assets/images/video-lander/as-seen-advertised-on-01.png" class="img-responsive center-block" onclick="flipTV();"></p>
+		<?php }else{ ?>
 		<p><img src="/assets/images/video-lander/as-seen-advertised-on-01.jpg" class="img-responsive center-block" onclick="flipTV();"></p>
+		<?php }?>
 	</div>
 	<div id="tvText" style="visibility: hidden; display: none;">
 		<p style="margin:0px; "><span id="tvClose" class="glyphicon glyphicon glyphicon-remove" onclick="flipTV();"></span>
