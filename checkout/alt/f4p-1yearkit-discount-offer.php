@@ -36,7 +36,7 @@ include_once ('template-top.php');
 			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $1500.00 discount</strong> on a 1-year Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
-			<p>Would you like to accelerate your results by getting the 1-year Food4Patriots Kit at a one-time discount sale price of $1,497? (That&rsquo;s a $1500.00 discount…you&rsquo;ll get 1-year&rsquo;s worth of food for just $.83 per serving!)</p>
+			<p>Would you like to accelerate your results by getting the 1-year Food4Patriots Kit at a one-time discount sale price of $1,497? (That&rsquo;s a $1500.00 discount... you&rsquo;ll get 1-year&rsquo;s worth of food for just $.83 per serving!)</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-10.png" alt="L. Graeser's Testimonial" style="margin-bottom:20px;">
 		</div>
 	</div>
