@@ -1,10 +1,6 @@
-<head>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="/assets/css/contact_form.css" />
-	<script src="/assets/js/contact_form.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
-	<script>document.addEventListener("touchstart", function(){}, true)</script>
-</head>
+<link rel="stylesheet" href="/assets/css/contact-form.css" />
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="/js/contact-form-service.js"></script>
 
 <article class="content">
 	<div class="header">Contact Information</div>
@@ -33,13 +29,20 @@
 			)
 		</script></p>
 
-	<form id="form">
-		<p id="returnmessage"></p>
-		<input type="text" id="name" placeholder="Name *"/>
-		<input type="text" id="email" placeholder="Email *"/>
-		<textarea id="message" placeholder="Message"></textarea>
-		<div class="g-recaptcha" data-sitekey="6LdM5wgTAAAAAAy6cBmefdXy469O7TgFclb1dZEX"></div>
-		<button  type="button" id="submit">Send Message</button><br /> <br />
+	<form id="contact-form">
+		<p class="contact-message contact-message-success"></p>
+		<p class="contact-message contact-message-error"></p>
+		<input type="text" id="contact-name" placeholder="Name *"/>
+		<input type="text" id="contact-email" placeholder="Email *"/>
+		<textarea id="contact-message" placeholder="Message"></textarea>
+		<div class="g-recaptcha" data-sitekey="6LdPhwkTAAAAACtUPAuU7tMhnulLP-bBMNFBMJi2"></div>
+		<button  type="button" id="contact-submit">Send Message</button><br /> <br />
 	</form>
 </article>
 
+
+<script type="text/javascript">
+	$(function() {
+		var contactForm = new ContactFormService(window);
+	})
+</script>
