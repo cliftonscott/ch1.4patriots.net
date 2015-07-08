@@ -27,8 +27,8 @@ include_once ('template-top.php');
 		</div>
 		<div><h1 class="darkRed text-center" id="countdownHead"></h1></div>
 		<div class="text-center">
-			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
-			<span class="caption"><i>Save $1500.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filters, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
+			<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1-year Kit" style="margin-bottom:20px;">
+			<span class="caption"><i>Save $1500.00 when you order a 1-year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filters, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 		</div>
 		<div style="margin-top:50px;">
 			<p>Thank you for being a Food4Patriots customer! I hope that you love you love your Food4Patriots kit and have been sleeping easier at night knowing that you are more prepared for whatever may happen.</p>
@@ -36,7 +36,7 @@ include_once ('template-top.php');
 			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $1500.00 discount</strong> on a ONE YEAR Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
-			<p>Would you like to accelerate your results by getting the 1 Year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $1500.00 discount…you&rsquo;ll get 1 year&rsquo;s worth of food for just $.83 per serving!)</p>
+			<p>Would you like to accelerate your results by getting the 1-year Food4Patriots Kit at a 1-time discount sale price of $1,497? (That&rsquo;s a $1500.00 discount…you&rsquo;ll get 1-year&rsquo;s worth of food for just $.83 per serving!)</p>
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-10.png" alt="L. Graeser's Testimonial" style="margin-bottom:20px;">
 		</div>
 	</div>
@@ -46,8 +46,8 @@ include_once ('template-top.php');
 	</div>
 	<?php include("f4p-1year-whatsincluded.html");?>
 	<div class="container oto-width">
-		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses You Can ONLY Get With The 1 Year Kit!</h2>
-		<p>You’re going to get the “mother lode” of special bonuses that are ONLY available with the 1 Year Kit!</p>
+		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses You Can ONLY Get With The 1-year Kit!</h2>
+		<p>You’re going to get the “mother lode” of special bonuses that are ONLY available with the 1-year Kit!</p>
 	</div>
 	<?php include("f4p-1year-bonus-survivalspring.html");?>
 	<?php include("f4p-1year-bonus-survivalbooks.html");?>
@@ -86,29 +86,29 @@ include_once ('template-top.php');
 
 		<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-09.png" width="626" height="269" alt="Stacy's Testimonial"></div>
 
-		<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1 Year
+		<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1-year
 			Food4Patriots Kit For $1500.00 Off Right Now!</h2>
 
-		<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,497.</p>
+		<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,497.</p>
 
 		<p>You get a year&rsquo;s worth of delicious survival food for $.83 per serving!</p>
 
 		<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Survival Spring Personal Water Filters and over
 			22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 
-		<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
+		<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
 			so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours,
-			go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1 Year Food4Patriots Kit to your order
+			go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1-year Food4Patriots Kit to your order
 			today!</p>
 
-		<p>The 1 Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
+		<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
 			You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
 
-		<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1 Year
+		<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1-year
 			Food4Patriots kit at $1000.00 off, click the big green &ldquo;Add To Cart&rdquo; button below.</p>
 
 		<div>
-			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
+			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-year Kit"/></div>
 			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
 			<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1500</h2></div>
 
@@ -137,7 +137,7 @@ include_once ('template-top.php');
 							<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 								<div class="panel-heading">
 									<h4 class="panel-title">
-										<div>1 Year Food Supply - $1497 <span class="gray13">($.83/serving)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+										<div>1-year Food Supply - $1497 <span class="gray13">($.83/serving)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 									</h4>
 								</div>
 							</a>
@@ -148,7 +148,7 @@ include_once ('template-top.php');
 										<div class="row">
 											<div class="col-sm-12 col-md-6 nopadding">
 												<div class="productList">
-													<p class="text-center red17"><strong>1 Year Food <br>
+													<p class="text-center red17"><strong>1-year Food <br>
 															Supply Includes:</strong></p>
 													<ul>
 														<li>1,800 Servings <a href="#info" id="1yrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
@@ -244,7 +244,7 @@ include_once ('template-top.php');
 		minutes = parseInt(seconds_left / 60);
 		seconds = parseInt(seconds_left % 60);
 
-		headingPart = " To Get The 1-Year Food4Patriots Kit For $1500.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!";
+		headingPart = " To Get The 1-year Food4Patriots Kit For $1500.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!";
 
 		// format countdown string + set tag value
 		countdown.innerHTML = "You have " + days + " days, " + hours + " hours, "
@@ -269,7 +269,7 @@ include_once ('template-top.php');
 		$("#1yrPopover").popover({
 			html:true,
 			trigger: 'hover',
-			title:"1 Year Kit May Include:",
+			title:"1-year Kit May Include:",
 			content: function() {
 				return $('#1yr').html();
 			},
