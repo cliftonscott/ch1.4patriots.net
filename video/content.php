@@ -11,7 +11,22 @@
 						echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
 					}
 					?>
-					<h1><strong>Why Was This Video Banned?</strong></h1></div>
+					<?php
+					if($vsl === "fs") {
+						?>
+						<h1><strong>Obama’s Food Stamp “Time Bomb”<br> Is About To Explode</strong></h1>
+					<?php
+					}elseif($vsl === "3f") {
+						?>
+						<h1><strong>3 Foods NEVER To Eat<br> In A Crisis</strong></h1>
+					<?php
+					}else {
+						?>
+						<h1><strong>Why Was This Video Banned?</strong></h1>
+					<?php
+					}
+					?>
+				</div>
 			</div>
 			<div class="col-md-12">
 				<!-- Button Stuff -->
@@ -35,7 +50,15 @@
 					?>
 						<iframe src="//fast.wistia.net/embed/iframe/gswb4vuajj?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="388"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
 					<?php
-					} else {
+					} elseif($vsl === "fs") {
+					?>
+						<iframe src="//fast.wistia.net/embed/iframe/0lf2bumkj0" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+					<?php
+					}elseif($vsl === "3f") {
+					?>
+						<iframe src="//fast.wistia.net/embed/iframe/vnqcpflkl1" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+					<?php
+					}else {
 					?>
 						<iframe src="//fast.wistia.net/embed/iframe/voc8m0rg1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
