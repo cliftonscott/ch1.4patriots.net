@@ -59,7 +59,7 @@ textarea{
 	height:13em;
 	background-color:#E9E9E9;
 	color:#818181;
-	-webkit-tap-highlight-color: rgba(0,0,0,0); /* A native app mobile affect */
+	-webkit-tap-highlight-color: rgba(0,0,0,0); /* BA native app mobile affect */
 }
 
 span{
@@ -81,6 +81,7 @@ textarea:focus, input:focus{
 	background-color:#fff; /* adds white bg color once clicked */
 }
 
+/* Mobile Me */
 @media screen and (max-width: 730px) {
 
 #form{
