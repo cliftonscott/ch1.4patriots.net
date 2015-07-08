@@ -51,6 +51,11 @@ if($product->getFunnel()) {
 		$productDataObj->googleBrand = $funnelData["googleBrand"];
 	}
 }
+if($_SESSION["customTemplate"]["price"] > 0) {
+	$productDataObj->price = $_SESSION["customTemplate"]["price"];
+	$productDataObj->isCustomPrice = true;
+	unset($_SESSION["customTemplate"]["price"]);
+}
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Create productObj";
