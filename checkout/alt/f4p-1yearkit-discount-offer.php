@@ -1,18 +1,7 @@
 <?php
-/*
- * use session soldout multidimensional array to indicate sold out conditions and associated
- * variables
- */
-//$_SESSION["soldout"]["flag"] = false; //this is the primary trigger
-//$_SESSION["soldout"]["audio"] = null;
-//$_SESSION["soldout"]["waitlist"] = false;
-//if($_SESSION["soldout"]["flag"] !== true) {
-//	$template["floatingTimer"] = 20; //minutes to pass to the timer / will not display if not greater than zero
-//} else {
-$template["floatingTimer"] = 0; //minutes to pass to the timer / will not display if not greater than zero
-//}
 
 $_SESSION["customTemplate"]["price"] = 1497;
+
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
@@ -26,7 +15,8 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
+<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
+?>
 
 <div class="container-main">
 
