@@ -242,11 +242,11 @@ include_once ('template-top.php');
 		minutes = parseInt(seconds_left / 60);
 		seconds = parseInt(seconds_left % 60);
 
-		headingPart = " To Get The 1-year Food4Patriots Kit For $1500.00 Off Plus FREE Shipping &amp; 27 FREE Bonus Gifts!";
+		headingPart = "</span> To Get The 1-Year Food4Patriots Kit For $1,497 -- Our Lowest Price Ever!";
 
 		// format countdown string + set tag value
-		countdown.innerHTML = "You have " + days + " days, " + hours + " hours, "
-			+ minutes + " minutes and " + seconds + " seconds" + headingPart;
+		countdown.innerHTML = "You Have <span style='color:#1C4693;'>" + days + " Days, " + hours + " Hours, "
+			+ minutes + " Minutes and " + seconds + " Seconds" + headingPart;
 
 	}, 1000);
 </script>
