@@ -49,7 +49,7 @@
 	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keeps things “humming along” better.</p>
 
 	<h2 class="darkRed text-center">Eating Fruits & Vegetables Can Help Maximize the Nutrition of Your Survival Food!</h2>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/f4p-fruitveggie-01.jpg" alt="Food4Patriots 1 Year Kit">
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket.jpg" alt="Food4Patriots 1 Year Kit">
 	<p>When you add high-quality fruits and vegetables to your existing survival food stockpile, you’ll enjoy knowing you’re optimizing the level of nutrients your body needs</p>
 	<p>What Are Some Other Crucial Benefits of fruits and vegetables?</p>
 	<ul class="fa-ul fa-ul-space">

@@ -23,7 +23,6 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
-	<script src="/js/audio.js"></script>
 
 	<div class="container-main">
 
@@ -46,10 +45,11 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 									</a>
 									<div id="chooseProductThree" class="panel-collapse collapse in">
 										<div class="panel-body">
-											<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/img-place-holder-01-01.svg" class="img-responsive center-block"></a>
+											<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-fvs-kit-tote-01.jpg" class="img-responsive center-block"></a>
 											<div class="nopadding">
 												<div class="row">
-													<div class="col-sm-12">
+													<div class="col-sm-12 text-center red17"><strong>Fruit and Veggie Snack Pack Includes:</strong></div>
+													<!--<div class="col-sm-12">
 														<div class="productList">
 															<p class="text-center red17"><strong>Fruit and Veggie Snack Pack Includes:</strong></p>
 															<ul>
@@ -58,6 +58,26 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 																<li>8 servings each of freeze-dried blueberries, and pineapple</li>
 																<li>8 servings of honey-coated banana chips</li>
 																<li>And even 10 servings of chocolate pudding for dessert!</li>
+															</ul>
+														</div>
+													</div>-->
+													<div class="col-sm-12 col-md-6 nopadding">
+														<div class="productList">
+															<ul>
+																<li>Corn - 24 Servings</li>
+																<li>Strawberries - 16 Servings</li>
+																<li>Pineapple - 8 Servings</li>
+																<li>Honey-Coated Banana Chips - 8 Servings</li>
+															</ul>
+														</div>
+													</div>
+													<div class="col-sm-12 col-md-6 nopadding">
+														<div class="productList">
+															<ul>
+																<li>Green Beans - 24 Servings</li>
+																<li>Broccoli - 16 Servings</li>
+																<li>Blueberries - 8 Servings</li>
+																<li>Chocolate Pudding - 10 Servings</li>
 															</ul>
 														</div>
 													</div>
@@ -128,17 +148,12 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 			function hideProductModal() {
 				$('#productModal').modal('hide');
 			}
-			$(document).ready(function () {
-				if(isMobile() === false) {
-					toggleAudio('frankCheckout');
-				}
-			});
 		</script>
 		<div id="productModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg">
 				<div class="modal-content">
 					<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-					<img class="img-responsive center-block" src="/media/images/f4p/f4p-product-img-protein-kit-03.jpg">
+					<img class="img-responsive center-block" src="/media/images/f4p/f4p-fvs-mix-details-01.jpg">
 				</div>
 			</div>
 		</div>
