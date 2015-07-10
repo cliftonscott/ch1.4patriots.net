@@ -4,7 +4,7 @@
 	}
 	function hideRedirectModal() {
 		//do the redirect anyway
-		window.location = "/checkout/alt/f4p-free-food-offer.php";
+		window.location = "<?php echo $redirectModalNextUrl;?>";
 	}
 </script>
 <style>
@@ -17,10 +17,17 @@
 		<div class="modal-content" style="background-image:url(/media/images/misc/generic-csr-lady-01.png);">
 			<div style="text-align:center;padding:10px;width:500px;height:300px;">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideRedirectModal();"></div>
-				<div style="position:relative;top:160px;width:300px;">
-					[[Platform::Buttons]]
+				<div style="text-align:left;position:relative;top:10px;width:300px;padding-left:15px;">
+					<H2>Darn! </H2>
+					<p>The exclusive $500 off deal on our Food4Patriots 1-Year Kit has expired... but stay on this page and see how you can try Food4Patriots for <span style="color:#1C4693;font-weight:bold;"><a href="<?php echo $redirectModalNextUrl;?>">FREE</a>!</span></p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<script>
+	showRedirectModal();
+	setTimeout(function () {
+		window.location = "<?php echo $redirectModalNextUrl;?>";
+	}, 7500);
+</script>
