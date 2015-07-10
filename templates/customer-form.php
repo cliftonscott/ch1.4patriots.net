@@ -170,7 +170,7 @@ if($_SESSION['errorMessage'] != '') {
 	  </div>
 	  <div id="secure-guarantee">
 		<div id="secure-guarantee-header">Shopping  Is Safe &amp; Secure - Guaranteed!</div>
-		<div id="secure-guarantee-body" ><img src="/assets/images/checkout/secure-order-lock-02.png" width="39" height="39" alt="" class="pull-left"/>Secure credit card payment - this is a secure 128-bit SSL encrypted payment.</div>
+		<div id="secure-guarantee-body" ><img src="/assets/images/checkout/secure-order-lock-02.png" width="39" height="39" alt="" class="pull-left"/>Secure credit card payment - this is a secure 256-bit SSL encrypted payment.</div>
 	  </div>
 	  <div class="checkbox">
 		<label for="sameas" class="sameas-select sameas-sm">
