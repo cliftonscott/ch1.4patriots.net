@@ -1,5 +1,10 @@
 <?php
-
+$today = date(mktime());
+$offerExpired = false;
+$expiresOn = date(strtotime("07/14/2015"));
+if($today >= $expiresOn) {
+	$offerExpired = true;
+}
 $_SESSION["customTemplate"]["price"] = 1497;
 
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
@@ -326,4 +331,10 @@ include_once ('template-top.php');
 <div id="lsv" style="display:none;">
 	<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
 </div>
-<?php include_once ('template-bottom.php'); ?>
+<?php
+if($offerExpired === true) {
+	$redirectModalNextUrl = "/checkout/alt/f4p-free-food-offer.php";
+	include_once("platform/redirect-modal.phtml");
+}
+include_once ('template-bottom.php');
+?>
