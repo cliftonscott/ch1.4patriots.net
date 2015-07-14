@@ -420,7 +420,7 @@
 <div>
 	<div>
 		<h3 class="darkRed text-center">Bonus #8: Lifestraw Personal Water Filter (a $25 value):</h3>
-		<p class="center"> <img src="/media/images/ppg/ppg-product-lifestraw-01.png" class="img-responsive center-block margin-b-10"></p>
+		<p class="center"> <img src="/media/images/ppg/ppg-product-survival-spring-01.png" class="img-responsive center-block margin-b-10"></p>
 		<p>This advanced water filter removes 99.999 percent of waterborne bacteria and parasites, and provides you with crystal-clear, life-giving water when no clean drinking water is available. It can be carried anywhere, since it weighs only two ounces. It contains no chemicals and no moving parts, and requires no electricity or batteries. </p>
 	</div>
 	<div class="clearfix"></div>
