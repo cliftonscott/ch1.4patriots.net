@@ -85,6 +85,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 		$("#timer").html(m + ":" + s);
 		if(parseInt(s) + parseInt(m) == 0) {
 			changeVeggieSubmitButton();
+			$('.timer-bg').css({"background-color":"red"});
 			clearInterval(jsTimer);
 		}
 	}
