@@ -2,6 +2,8 @@
 // DEFINE PRODUCT
 $_SESSION['productId'] = 128;
 $_SESSION["quantity"] = 1;
+//--Set Customer Name--//
+$firstName = $_SESSION["customerDataArray"]["firstName"];
 include_once("Customer.php");
 if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	include_once("Product.php");
@@ -146,7 +148,7 @@ $offerName = $_SESSION["firstName"];
 ?>
 	<a name="exclusive-offer"></a>
 	<div id="belcher-box" class="hidden-xs">
-		<div class="box-title">A Special One-Time-Only Offer for Fruit and Veggie Snack Pack Customer...</div>
+		<div class="box-title">A Special One-Time-Only Offer for <?php echo $firstName;?>...</div>
 		<div class="box-body">
 			<p>Congratulations, Patriot! You’ve decided, <strong>“I’m not waiting in fear of the next disaster, I’m taking action!”</strong> And guess what? You’ve done just that with your order of the Fruit and Veggie Snack Pack.</p>
 			<p>You’re in an elite group – among only seven percent of Americans who are prepared for a crisis. How’d you like to protect your family even more? You can! Just <strong>fortify your survival food stash with another vital source of nutrition – meat and protein!</strong></p>
