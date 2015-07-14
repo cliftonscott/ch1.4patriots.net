@@ -333,6 +333,7 @@ include_once ('template-top.php');
 </div>
 <?php
 if($offerExpired === true) {
+	$_SESSION["customTemplate"]["price"] = 0;
 	$redirectModalNextUrl = "/checkout/alt/f4p-free-food-offer.php";
 	include_once("platform/redirect-modal.phtml");
 }
