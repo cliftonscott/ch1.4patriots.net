@@ -32,7 +32,7 @@ class Inventory {
 		$parts = self::loadLionParts($productId);
 		foreach($parts as $part) {
 			//todo make emp a variable or constant
-			$hasInventory = self::hasStoreInventory($part["sku"],"f4p");
+			$hasInventory = self::hasStoreInventory($part["sku"],"all");
 			if($hasInventory === false) {
 				self::setError("Store does not have adequate inventory of " . $part["sku"] . ".");
 				$hasAllStoreInventory = false;
@@ -52,7 +52,7 @@ class Inventory {
 			echo "<pre>";
 			$extendedQuantity = $quantity * $part["qty"];
 
-			$subtractInventory = self::subtractStoreInventory($part["sku"], $extendedQuantity, "f4p");
+			$subtractInventory = self::subtractStoreInventory($part["sku"], $extendedQuantity, "all");
 
 			if($subtractInventory->success === true) {
 				self::setMessage("Subtracted " . $extendedQuantity . " @ " . $part["sku"] . " from store.");
