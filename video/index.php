@@ -60,7 +60,7 @@ if($_GET["pub"]) {
 }
 
 if($variation !== "np" & $variation !== "np-nologo") {
-	$template["exitPopType"] = null; //designates that this should not have an exit pop of type video
+	$template["exitPopType"] = video; //designates that this should not have an exit pop of type video
 }
 
 // SET PRODUCT ID
