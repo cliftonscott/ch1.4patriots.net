@@ -123,7 +123,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div>
 		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1></div>
 		<div id="videobox" class="hidden-xs" style="margin-bottom: 50px">
-			<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQIE9UTzEgMS1ZZWFyIEZ1bGwgVlNMIENvbnRyb2wgMTEtMS0xNCBDT01QUkVTU0VELm1wNA==/?container=evp-WRDHQ8NDRA"></script><div id="evp-WRDHQ8NDRA" data-role="evp-video" data-evp-id="RjRQIE9UTzEgMS1ZZWFyIEZ1bGwgVlNMIENvbnRyb2wgMTEtMS0xNCBDT01QUkVTU0VELm1wNA=="></div>
+			<iframe src="//fast.wistia.net/embed/iframe/tpnfvst02e?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
 		</div>
 	</div>
 	<div id="buyButton" style="display:none;">
