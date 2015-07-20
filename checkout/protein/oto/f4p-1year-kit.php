@@ -129,7 +129,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div><h1 class="darkRed text-center"><?php echo $firstName;?>, Act Now And Save An Additional $1000 (Today Only)</h1>
 		</div>
 		<div id="videobox" class="hidden-xs">
-			<script type="text/javascript" src="https://reboot.evsuite.com/player/RjRQIE9UTzEgMS1ZZWFyIEZ1bGwgVlNMIENvbnRyb2wgMTEtMS0xNCBDT01QUkVTU0VELm1wNA==/?container=evp-WRDHQ8NDRA"></script><div id="evp-WRDHQ8NDRA" data-role="evp-video" data-evp-id="RjRQIE9UTzEgMS1ZZWFyIEZ1bGwgVlNMIENvbnRyb2wgMTEtMS0xNCBDT01QUkVTU0VELm1wNA=="></div>
+			<iframe src="//fast.wistia.net/embed/iframe/tpnfvst02e?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
 		</div>
 		<div id="buyButton" style="padding-bottom:40px;display:none;">
 			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
