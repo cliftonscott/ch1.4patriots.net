@@ -39,56 +39,45 @@
 	<div class="container-fluid oto-width margin-tb-20">
 		<div class="row text-center">
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="24 servings each of freeze-dried corn and green beans">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-corn.jpg"  alt="24 servings of freeze-dried corn">
 				<div class="caption"><strong>24 servings</strong> of freeze-dried corn</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="16 servings each of freeze-dried strawberries and broccoli">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-broccoli.jpg"  alt="16 servings of broccoli">
 				<div class="caption"><strong>16 servings</strong> of freeze-dried broccoli</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="8 servings each of freeze-dried blueberries, and pineapple">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-blueberries.jpg"  alt="8 servings of freeze-dried blueberries">
 				<div class="caption"><strong>8 servings</strong> of freeze-dried blueberries</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="24 servings each of freeze-dried corn and green beans">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-greenbeans.jpg"  alt="24 servings of green beans">
 				<div class="caption"><strong>24 servings</strong> of green beans</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="16 servings each of freeze-dried strawberries and broccoli">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-strawberries.jpg"  alt="16 servings of freeze-dried strawberries">
 				<div class="caption"><strong>16 servings</strong> of freeze-dried strawberries</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="8 servings each of freeze-dried blueberries, and pineapple">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-pineapple.jpg"  alt="8 servings of pineapple">
 				<div class="caption"><strong>8 servings</strong> of freeze-dried pineapple</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-6 col-md-push-1">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="8 servings of honey-coated banana chips">
+				<img style="width: 200px" class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-banana-chips.jpg"  alt="8 servings of honey-coated banana chips">
 				<div class="caption"><strong>8 servings</strong> of honey-coated banana chips</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-6 col-md-pull-1">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="10 servings of chocolate pudding for dessert!">
+				<img style="width: 200px" class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-pudding.jpg"  alt="10 servings of chocolate pudding for dessert!">
 				<div class="caption"><strong>Even 10 servings of chocolate<br/> pudding for dessert!</strong></div>
 			</div>
 		</div>
 	</div>
 	<p><strong>With our Fruit & Veggie Snack Mix, you can make all kinds of tasty creations like:</strong></p>
-	<div class="container-fluid oto-width margin-tb-20">
-		<div class="row text-center">
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="Strawberry Oatmeal">
-				<div class="caption">Strawberry Oatmeal</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="Healthy Trail Mix">
-				<div class="caption">Healthy Trail Mix</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="Vegetable Medley">
-				<div class="caption">Vegetable Medley</div>
-			</div>
-		</div>
-	</div>
+	<ul>
+		<li>Strawberry Oatmeal</li>
+		<li>Healthy Trail Mix</li>
+		<li>Vegetable Medley</li>
+	</ul>
 	<p>And tons more!</p>
 
 	<h2 class="darkRed text-center">Lasts 25 Years, But Tastes As Fresh As If You Just Plucked Them Off A Tree Or Harvested Them Out Of Your Very Own Garden!</h2>
