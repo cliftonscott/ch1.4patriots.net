@@ -39,7 +39,7 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 									<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
 										<div class="panel-heading">
 											<h4 class="panel-title">
-												<div>Fruit and Veggie Snack Pack - $97 <span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+												<div>Fruit, Veggie and Snack Mix - $97 <span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 											</h4>
 										</div>
 									</a>
@@ -48,10 +48,10 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 											<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-fvs-kit-tote-01.jpg" class="img-responsive center-block"></a>
 											<div class="nopadding">
 												<div class="row">
-													<div class="col-sm-12 text-center red17"><strong>Fruit and Veggie Snack Pack Includes:</strong></div>
+													<div class="col-sm-12 text-center red17"><strong>Fruit, Veggie and Snack Mix Includes:</strong></div>
 													<!--<div class="col-sm-12">
 														<div class="productList">
-															<p class="text-center red17"><strong>Fruit and Veggie Snack Pack Includes:</strong></p>
+															<p class="text-center red17"><strong>Fruit, Veggie and Snack Mix Includes:</strong></p>
 															<ul>
 																<li>24 servings each of freeze-dried corn and green beans</li>
 																<li>16 servings each of freeze-dried strawberries and broccoli</li>
@@ -115,9 +115,9 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 			</div>
 
 			<div class="guaranteeBox">
-				<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you’re not satisfied with your Fruit and Veggie Snack Pack, just return it within 60 days of purchase and I’ll refund 100% of your purchase.</p>
+				<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you’re not satisfied with your Fruit, Veggie and Snack Mix, just return it within 60 days of purchase and I’ll refund 100% of your purchase.</p>
 				<p>&nbsp;</p>
-				<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit and Veggie Snack Pack items anytime <strong>in the next 25 years</strong> and find that your food has spoiled, you can return your entire Fruit and Veggie Snack Pack and I will <strong>triple</strong> your money back!</p>
+				<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit, Veggie and Snack Mix items anytime <strong>in the next 25 years</strong> and find that your food has spoiled, you can return your entire Fruit, Veggie and Snack Mix and I will <strong>triple</strong> your money back!</p>
 				<div class="clearfix"></div>
 			</div>
 
