@@ -1,6 +1,6 @@
 <div class="container oto-width">
 	<div>
-		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit& Veggie Snack Mix!</h1>
+		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit & Veggie Snack Mix!</h1>
 	</div>
 	<p>Dear Patriot,</p>
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
@@ -29,8 +29,8 @@
 	<p>How are you supposed to survive on rotting produce?</p>
 	<p>Well, you’re not.</p>
 
-	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit and Veggie Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-01.jpg" alt="">
+	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit, and Veggie Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-02.jpg" alt="">
 	<p>Our Fruit & Veggie Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
 	<p>Keep all your individual packs in the tote, or take them on the go – it’s your choice.</p>
 	<p>Compact and discreet, you can store them anywhere – your garage, basement, RV, cabin, bug-out bag, or even your car!</p>
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</div>
-	<p><strong>With our Fruit & Veggie Snack Mix, you can make all kinds of tasty creations like:</strong></p>
+	<p><strong>With our Fruit, & Veggie Snack Mix, you can make all kinds of tasty creations like:</strong></p>
 	<ul>
 		<li>Strawberry Oatmeal</li>
 		<li>Healthy Trail Mix</li>
@@ -90,17 +90,17 @@
 	<p>It’s no secret that fruits and vegetables are essential to any diet.</p>
 	<p>And when a natural disaster happens, there will not be opportunities to go to the nearest store and pick up some fruits and vegetables.</p>
 	<p>Well, you know me well enough by now that I’ve make it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
-	<p>And for a limited time, you can get our Fruit & Veggie Snack Pack for the <strong>special promotional price of just $97.00!</strong></p>
+	<p>And for a limited time, you can get our Fruit, Veggie and Snack Mix for the <strong>special promotional price of just $97.00!</strong></p>
 	<p><strong>That’s Just $1.18 Per Serving!</strong></p>
 	<p>Normally, this kit would cost around $147, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough vitamin enriched foods in their stockpile.</p>
 	<p>Be sure to jump on this opportunity folks…food prices are going through the roof right now, and I’m struggling to keep these kits in stock.</p>
-	<p>Get your Fruit and Veggie Snack Pack at this special introductory price while it is still available…</strong></p>
+	<p>Get your Fruit, Veggie and Snack Mix at this special introductory price while it is still available…</strong></p>
 	<p>I’m not sure how long we will be able to offer this important kit for $97 or $1.18 per serving.</p>
 	<p><strong>Click the <strong>"Add To Cart"</strong> button below now, and I'll rush your kit to your front door right away!</strong></p>
 
 
 	<div class="margin-tb-50 center-block text-center">
-		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-01.jpg" alt="">
+		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-03.jpg" alt="">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 	</div>
 
@@ -109,14 +109,14 @@
 	<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 	<div class="outLineBoxDarkBlue">
 		<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you’re not satisfied with your Fruit & Veggie Snack Pack, just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide it’s not as delicious and nutritious as I promised, you can have your money back </p>
+		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you’re not satisfied with your Fruit, Veggie and Snack Mix, just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide it’s not as delicious and nutritious as I promised, you can have your money back </p>
 		<div class="clearfix"></div>
 	</div>
 
 	<div class="outLineBoxDarkBlue">
 		<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit and Veggie Snack Pack anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Fruit and Veggie Snack Pack and I will <strong>triple</strong> your money back!</p>
-		<p>That’s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I’m not really worried about it, because I am so confident you’re going to see the value in your Fruit and Veggie Snack Pack as soon as you have it in your hands.</p>
+		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit, Veggie and Snack Mix anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Fruit, Veggie and Snack Mix and I will <strong>triple</strong> your money back!</p>
+		<p>That’s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I’m not really worried about it, because I am so confident you’re going to see the value in your Fruit, Veggie and Snack Mix as soon as you have it in your hands.</p>
 	</div>
 
 	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit & Veggie Snack Mix…</h2>
