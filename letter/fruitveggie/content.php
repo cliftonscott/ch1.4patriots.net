@@ -1,6 +1,6 @@
 <div class="container oto-width">
 	<div>
-		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit & Veggie Snack Mix!</h1>
+		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit, Veggie and Snack Mix!</h1>
 	</div>
 	<p>Dear Patriot,</p>
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
@@ -13,7 +13,7 @@
 	<p>Let me explain…</p>
 	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keeps things “humming along” better.</p>
 
-	<h2 class="darkRed text-center">Eating Fruits & Vegetables Can Help Maximize the Nutrition of Your Survival Food!</h2>
+	<h2 class="darkRed text-center">Eating Fruits and Vegetables Can Help Maximize the Nutrition of Your Survival Food!</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket.jpg" alt="Food4Patriots 1 Year Kit">
 	<p>When you add high-quality fruits and vegetables to your existing survival food stockpile, you’ll enjoy knowing you’re optimizing the level of nutrients your body needs</p>
 	<p>What Are Some Other Crucial Benefits of fruits and vegetables?</p>
@@ -21,7 +21,7 @@
 		<li><i class="fa-li fa fa-check"></i><strong>Better regularity.</strong> Fiber keeps your digestive tract healthy and helps move waste out of your system, which helps you feel your best and be “light on your feet” – which is critical when you need to move fast.</li>
 		<li><i class="fa-li fa fa-check"></i><strong>Faster healing and boosted immunity</strong> Our bodies don’t make all the vitamins we need, so we need to eat foods that are rich in them to recover faster from infections and illness, which helps if you’re injured or catch a nasty bug.</li>
 		<li><i class="fa-li fa fa-check"></i><strong>Clear thinking</strong> Whole plant foods contain the nutrients that keep your brain sharp as a tack – especially important in a survival situation.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory.</strong> Antioxidants in fruit & veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory.</strong> Antioxidants in fruit and veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
 	</ul>
 
 	<p>Okay…so there’s no arguing that you’ve got to have an adequate amount of fruits and vegetables ever day for <strong>better</strong> health…but how do you work them into your survival food plan? </p>
@@ -31,7 +31,7 @@
 
 	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit, and Veggie Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-02.jpg" alt="">
-	<p>Our Fruit & Veggie Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
+	<p>Our Fruit and Veggie Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
 	<p>Keep all your individual packs in the tote, or take them on the go – it’s your choice.</p>
 	<p>Compact and discreet, you can store them anywhere – your garage, basement, RV, cabin, bug-out bag, or even your car!</p>
 
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</div>
-	<p><strong>With our Fruit, & Veggie Snack Mix, you can make all kinds of tasty creations like:</strong></p>
+	<p><strong>With our Fruit, and Veggie Snack Mix, you can make all kinds of tasty creations like:</strong></p>
 	<ul>
 		<li>Strawberry Oatmeal</li>
 		<li>Healthy Trail Mix</li>
@@ -119,7 +119,7 @@
 		<p>That’s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I’m not really worried about it, because I am so confident you’re going to see the value in your Fruit, Veggie and Snack Mix as soon as you have it in your hands.</p>
 	</div>
 
-	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit & Veggie Snack Mix…</h2>
+	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit, Veggie and Snack Mix…</h2>
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-01.jpg" alt="Testimonial">
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-02.jpg" alt="Testimonial">
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-03.jpg" alt="Testimonial">
@@ -129,7 +129,7 @@
 	<p>Click the <strong>“Add to Cart”</strong> button below now, while I still have these in stock.</p>
 
 	<p>Hey listen…let’s get REAL…you don’t want to compromise on your family’s health or well being, right?</p>
-	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit & Veggie Snack Mixes at this low price, or even <strong><i>at all…</i></strong></p>
+	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit and Veggie Snack Mixes at this low price, or even <strong><i>at all…</i></strong></p>
 	<p>Survival food supplies are vanishing before our eyes.</p>
 	<p>So claim your kit NOW by clicking the <strong>“Add to Cart”</strong> button, and have true peace of mind your loved ones WON’T starve in the coming crisis…</p>
 
