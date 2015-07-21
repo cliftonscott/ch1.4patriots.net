@@ -29,9 +29,9 @@
 	<p>How are you supposed to survive on rotting produce?</p>
 	<p>Well, you’re not.</p>
 
-	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit, and Veggie Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
+	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit, Veggie and Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-02.jpg" alt="">
-	<p>Our Fruit and Veggie Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
+	<p>Our Fruit, Veggie and Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
 	<p>Keep all your individual packs in the tote, or take them on the go – it’s your choice.</p>
 	<p>Compact and discreet, you can store them anywhere – your garage, basement, RV, cabin, bug-out bag, or even your car!</p>
 
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</div>
-	<p><strong>With our Fruit, and Veggie Snack Mix, you can make all kinds of tasty creations like:</strong></p>
+	<p><strong>With our Fruit, Veggie and Snack Mix, you can make all kinds of tasty creations like:</strong></p>
 	<ul>
 		<li>Strawberry Oatmeal</li>
 		<li>Healthy Trail Mix</li>
