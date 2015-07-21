@@ -152,6 +152,7 @@ class Limelight {
 				//create specific session array for google posting w/ecommerce on next page
 				$_SESSION["googleTransaction"]["customerId"] = $resultsArray['customerId'];
 				$_SESSION["googleTransaction"]["orderTotal"] = $resultsArray['orderTotal'];
+				$_SESSION["googleTransaction"]["netRevenue"] = $productDataObj->netRevenueEach * $saleDataObj->quantity;
 				$_SESSION["googleTransaction"]["orderId"] = $resultsArray['orderId'];
 				$_SESSION["googleTransaction"]["tax"] = $resultsArray['orderSalesTaxAmount'];
 				$_SESSION["googleTransaction"]["orderQty"] = $saleDataObj->quantity;
