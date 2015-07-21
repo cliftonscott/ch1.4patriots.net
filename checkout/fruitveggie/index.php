@@ -64,20 +64,20 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 													<div class="col-sm-12 col-md-6 nopadding">
 														<div class="productList">
 															<ul>
-																<li>Corn - 24 Servings</li>
-																<li>Strawberries - 16 Servings</li>
-																<li>Pineapple - 8 Servings</li>
-																<li>Honey-Coated Banana Chips - 8 Servings</li>
+																<li>24 Servings of corn</li>
+																<li>16 Servings of strawberries</li>
+																<li>8 Servings of pineapple</li>
+																<li>8 Servings of honey-coated banana chips</li>
 															</ul>
 														</div>
 													</div>
 													<div class="col-sm-12 col-md-6 nopadding">
 														<div class="productList">
 															<ul>
-																<li>Green Beans - 24 Servings</li>
-																<li>Broccoli - 16 Servings</li>
-																<li>Blueberries - 8 Servings</li>
-																<li>Chocolate Pudding - 10 Servings</li>
+																<li>24 Servings of green beans</li>
+																<li>16 Servings of broccoli</li>
+																<li>8 Servings of blueberries</li>
+																<li>10 Servings of chocolate pudding</li>
 															</ul>
 														</div>
 													</div>

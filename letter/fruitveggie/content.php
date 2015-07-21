@@ -2,41 +2,6 @@
 	<div>
 		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit& Veggie Snack Mix!</h1>
 	</div>
-	<div class="margin-b-10">
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			</ol>
-
-			<!-- Wrapper for slides -->
-			<div class="carousel-inner">
-				<div class="item active">
-					<img style="width: 100%" src="/media/images/f4p/img-place-holder-01-01.svg" alt="">
-					<div class="carousel-caption">
-					</div>
-				</div>
-				<div class="item">
-					<img style="width: 100%" src="/media/images/f4p/img-place-holder-01-01.svg" alt="">
-					<div class="carousel-caption">
-					</div>
-				</div>
-				<div class="item">
-					<img style="width: 100%" src="/media/images/f4p/img-place-holder-01-01.svg" alt="">
-					<div class="carousel-caption">
-					</div>
-				</div>
-			</div><!-- Controls -->
-			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left"></span>
-			</a>
-			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right"></span>
-			</a>
-		</div>
-	</div>
 	<p>Dear Patriot,</p>
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
 	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
@@ -75,15 +40,27 @@
 		<div class="row text-center">
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="24 servings each of freeze-dried corn and green beans">
-				<div class="caption"><strong>24 servings</strong> each of freeze-dried corn and green beans</div>
+				<div class="caption"><strong>24 servings</strong> of freeze-dried corn</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="16 servings each of freeze-dried strawberries and broccoli">
-				<div class="caption"><strong>16 servings</strong> each of freeze-dried strawberries and broccoli</div>
+				<div class="caption"><strong>16 servings</strong> of freeze-dried broccoli</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="8 servings each of freeze-dried blueberries, and pineapple">
-				<div class="caption"><strong>8 servings</strong> each of freeze-dried blueberries, and pineapple</div>
+				<div class="caption"><strong>8 servings</strong> of freeze-dried blueberries</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="24 servings each of freeze-dried corn and green beans">
+				<div class="caption"><strong>24 servings</strong> of green beans</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="16 servings each of freeze-dried strawberries and broccoli">
+				<div class="caption"><strong>16 servings</strong> of freeze-dried strawberries</div>
+			</div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="8 servings each of freeze-dried blueberries, and pineapple">
+				<div class="caption"><strong>8 servings</strong> of freeze-dried pineapple</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-6 col-md-push-1">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/protein-pinto-beans.jpg"  alt="8 servings of honey-coated banana chips">
@@ -134,7 +111,7 @@
 
 
 	<div class="margin-tb-50 center-block text-center">
-		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/img-place-holder-01-01.svg" alt="">
+		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-01.jpg" alt="">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 	</div>
 
@@ -160,11 +137,7 @@
 
 	<p><strong><i>It’s all over the news…the worst drought to hit the US since the Dustbowl of the Great Depression is driving the cost of raw ingredients sky-high</i></strong></p>
 	<p>Most folks recognize the need to “fill in the gaps” of their survival food stockpile to make sure their family has the most nutritious food available in a disaster.</p>
-	<p><strong>Click the “Add to Cart” button below now, while I still have these in stock.</strong></p>
-
-	<div class="margin-tb-50 center-block text-center">
-		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
-	</div>
+	<p>Click the <strong>“Add to Cart”</strong> button below now, while I still have these in stock.</p>
 
 	<p>Hey listen…let’s get REAL…you don’t want to compromise on your family’s health or well being, right?</p>
 	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit & Veggie Snack Mixes at this low price, or even <strong><i>at all…</i></strong></p>
