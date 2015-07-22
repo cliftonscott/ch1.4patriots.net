@@ -62,6 +62,7 @@ class PatriotsApi {
 			"shippingId" => $this->determineShippingId($customerDataObj, $productDataObj),
 			"receivedBy" => "F4P",
 			"conversionTokens" => json_encode($analyticsObj->getConversionRegistrar()->requestActiveTokens()),
+			"productData" => json_encode($productDataObj),
 			"apiToken" => self::$APITokens[getenv("APP_ENV")]
 		);
 
