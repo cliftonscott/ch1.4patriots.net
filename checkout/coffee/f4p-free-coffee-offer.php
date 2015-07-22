@@ -38,7 +38,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-b.php");
 						<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;float:none !important;">
 							<script type="text/javascript" src="https://reboot.evsuite.com/player/VXBkYXRlZFByaWNlX1RpbW15RnJlZUNvZmZlZUNPTVBSRVNTRUQubXA0/?responsive=1&autoResponsive=1&container=evp-5FEKJWVM14"></script><div id="evp-5FEKJWVM14" data-role="evp-video" data-evp-id="VXBkYXRlZFByaWNlX1RpbW15RnJlZUNvZmZlZUNPTVBSRVNTRUQubXA0"></div>
 						</div>
-						<div class="col-lg-12 margin-b-10 coffee-checkout">
+						<div class="col-lg-12 coffee-checkout">
 							<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
 							<p>Get 30 servings of my survival coffee <strong>FREE</strong> (just cover shipping + handling) while supplies last! Here’s exactly what you’ll get:</p>
 							<ul>
@@ -48,6 +48,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-b.php");
 								<li>Shipped right to your door via USPS First Class Mail.</li>
 							</ul>
 							<p><strong>Regularly priced at $12.95, FREE while supplies last (just cover shipping + handling) –</strong> claim your coffee before someone else does!</p>
+							<p><em>Note: This offer is limited to 2 free pouches per household (30 servings each).</em></p>
 						</div>
 						<div class="col-lg-12 text-center hidden-xs">
 							<img src="/assets/images/buttons/btn-order-now-orange-left-01.png" alt="Frank" class="img-responsive center-block">
