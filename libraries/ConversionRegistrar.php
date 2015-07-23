@@ -157,7 +157,7 @@ class ConversionSource {
 
 	static $TokenIds = array(
 		self::CPV				=> array("subid", "aff_sub2"),
-		//self::HAS_OFFERS		=> array("click_id"),
+		self::HAS_OFFERS		=> array("click_id"),
 		self::DIVISION_D		=> array("zedo", "aff_sub4"),
 		self::AD_SUPPLY			=> array("aff_sub4"),
 		self::SITE_SCOUT		=> array("k", "aff_sub5"),
