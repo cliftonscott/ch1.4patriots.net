@@ -66,11 +66,68 @@ class ConversionRegistrar {
 	 * by examining each query property for matching partner token IDs.
 	 */
 	private function registerUrl() {
+		$this->logRequest();
 		$tokens = $this->inspectUrlForTokens();
 		foreach ($tokens as $conversionSource => $tokenValue) {
 			$this->registerToken($conversionSource, $tokenValue);
 		}
 		$this->handleHasOffersConcatenation();
+	}
+
+	/**
+	 * Log information about this request to the database.
+	 */
+	private function logRequest()
+	{
+		try {
+			// Connect to the database.
+			include_once("Db.php");
+			$dbObj = new Db();
+			$db = $dbObj->connect();
+
+			// Define the source of this request.
+			// CROSSPORT: Required change
+			$source = "F4P";
+
+			// Define and prepare an insert statement.
+			$sql = "INSERT INTO `requestLog` SET source=:source, ip_address=:ip_address, session_id=:session_id, url=:url, tokens=:tokens";
+			$insert = $db->prepare($sql);
+			$insert->bindParam(':source', $source, PDO::PARAM_STR);
+			$insert->bindParam(':ip_address', $this->getIpAddress(), PDO::PARAM_STR);
+			$insert->bindParam(':session_id', session_id(), PDO::PARAM_STR);
+			$insert->bindParam(':url', $_SERVER["REQUEST_URI"], PDO::PARAM_STR);
+			$insert->bindParam(':tokens', json_encode($this->requestActiveTokens()), PDO::PARAM_STR);
+
+			// Execute the insert statement.
+			$insert->execute();
+		}
+		catch (Exception $e) {
+			// Suppress all exceptions.
+		}
+	}
+
+	/**
+	 * Determine and return the IP address of the user.
+	 *
+	 * Helps logRequest().
+	 *
+	 * @return string
+	 */
+	private function getIpAddress()
+	{
+		if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+			$ipAddress = $_SERVER['HTTP_CLIENT_IP'];
+		}
+		else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+			$ipAddress = $_SERVER['HTTP_X_FORWARDED_FOR'];
+		}
+		else if (!empty($_SERVER['REMOTE_ADDR'])) {
+			$ipAddress = $_SERVER['REMOTE_ADDR'];
+		}
+		else {
+			$ipAddress = '127.0.0.1';
+		}
+		return $ipAddress;
 	}
 
 	/**
@@ -124,8 +181,10 @@ class ConversionRegistrar {
 
 		$value = $_SESSION[self::SESSION_KEY][ConversionSource::HAS_OFFERS];
 
-		if (stripos($value, ":::") === false && isset($_GET["offer_id"])) {
-			$_SESSION[self::SESSION_KEY][ConversionSource::HAS_OFFERS] = $_GET["offer_id"] . ":::" . $value;
+		foreach (ConversionSource::$HasOffersOfferIds as $id) {
+			if (stripos($value, ":::") === false && isset($_GET[$id])) {
+				$_SESSION[self::SESSION_KEY][ConversionSource::HAS_OFFERS] = $_GET[$id] . ":::" . $value;
+			}
 		}
 	}
 }
@@ -163,4 +222,6 @@ class ConversionSource {
 		self::SITE_SCOUT		=> array("k", "aff_sub5"),
 		self::THRIVE			=> array("trv")
 	);
+
+	static $HasOffersOfferIds = array("offer_id", "CID");
 }
