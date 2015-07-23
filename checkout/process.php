@@ -247,37 +247,6 @@ if($platform->isApiEnabled("ffh") === true) {
 
 //==============================================================================================================//
 //==============================================================================================================//
-//post purchase to hasoffers if an offerId and clickId have been captured
-$stepTimerStart = microtime(true);
-
-if((!empty($analyticsObj->offerId)) || (!empty($analyticsObj->clickId))) {
-
-	include_once("Hasoffers.php");
-	$hasOffers = new Hasoffers();
-	$hoSaleObj = $saleDataObj->getSale();
-	$postRevenue = $productDataObj->netRevenueEach * $hoSaleObj->quantity;
-	$postHasOffers = $hasOffers->postSale($productDataObj->productId, $analyticsObj->offerId, $analyticsObj->clickId, $postRevenue);
-	if($postHasOffers->success === FALSE) {
-		//TODO send email to dev w/ results of failure because we did not successfully post to HO
-	}
-	$saleDataObj->setHasOffers($postHasOffers->success);
-
-	$myDevLog.= "HO Results:<br>";
-	$myDevLog.= "Start " . date("Y-m-d h:i:s") . "<br>";
-	$myDevLog.= "ipaddress: " . $_SESSION['ipaddress'] . "<br>";
-	$myDevLog.= "netRevenue: " . $postRevenue . "<br>";
-	$myDevLog.= "quantity:" . $quantity . "<br>";
-	$myDevLog.= "HO Revenue:" . $postRevenue . "<br>";
-	$myDevLog.= "HO URL:" . $postHasOffers->hasOffersUrl . "<br>";
-	$myDevLog.= "HO Order Response String:" . $postHasOffers->serverResponse . "<br>";
-}
-
-$stepTimerStop = microtime(true);
-$stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to HasOffers :: " . $postHasOffers->success;
-
-//==============================================================================================================//
-//==============================================================================================================//
 //post purchase to YellowHammer if an sspdata exists in Analytics
 $stepTimerStart = microtime(true);
 

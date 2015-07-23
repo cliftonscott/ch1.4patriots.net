@@ -2,6 +2,7 @@
 	<div>
 		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit, Veggie and Snack Mix!</h1>
 	</div>
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-06.jpg" alt="">
 	<p>Dear Patriot,</p>
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
 	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
@@ -120,9 +121,9 @@
 	</div>
 
 	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit, Veggie and Snack Mix…</h2>
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-01.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-02.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-03.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-01.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-02.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-03.jpg" alt="Testimonial">
 
 	<p><strong><i>It’s all over the news…the worst drought to hit the US since the Dustbowl of the Great Depression is driving the cost of raw ingredients sky-high</i></strong></p>
 	<p>Most folks recognize the need to “fill in the gaps” of their survival food stockpile to make sure their family has the most nutritious food available in a disaster.</p>
@@ -132,7 +133,7 @@
 	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit and Veggie Snack Mixes at this low price, or even <strong><i>at all…</i></strong></p>
 	<p>Survival food supplies are vanishing before our eyes.</p>
 	<p>So claim your kit NOW by clicking the <strong>“Add to Cart”</strong> button, and have true peace of mind your loved ones WON’T starve in the coming crisis…</p>
-
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-04.jpg" alt="">
 	<div class="margin-tb-50 center-block text-center">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 	</div>
