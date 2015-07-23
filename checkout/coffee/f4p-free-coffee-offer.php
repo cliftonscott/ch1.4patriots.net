@@ -36,7 +36,7 @@ $platform->setCsrOrderFormUrl("/checkout/coffee/f4p-free-coffee-offer-b.php");
 							<h2 class="red21 text-center nomargin"><strong>WARNING: Free Survival Coffee<br>Is Almost Gone...</strong></h2>
 						</div>
 						<div class="col-lg-12 text-center center-block hidden-xs" style="max-width:80%;float:none !important;">
-							<iframe src="//fast.wistia.net/embed/iframe/mkxrh52h7o" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+							<iframe src="//fast.wistia.net/embed/iframe/mkxrh52h7o?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
 						</div>
 						<div class="col-lg-12 coffee-checkout">
 							<p>Be one of the first to experience the rich, robust taste of the only 25-year shelf life survival coffee available today! You won’t believe its incredibly smooth taste and tantalizing aroma.</p>
