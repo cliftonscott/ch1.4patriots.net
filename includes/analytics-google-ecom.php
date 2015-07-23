@@ -26,7 +26,8 @@ if($_SESSION["googleTransaction"]) {
 						'brand': '<?php echo $googleTransaction["brand"];?>',
 						'category': '<?php echo $googleTransaction["orderCategory"];?>',
 						'variant': '<?php echo $googleTransaction["orderCategory"];?>',
-						'quantity': <?php echo $googleTransaction["orderQty"];?>
+						'quantity': <?php echo $googleTransaction["orderQty"];?> ,
+						'metric1': '<?php echo number_format($googleTransaction["netRevenue"],2);?>'
 					}]
 				}
 			}

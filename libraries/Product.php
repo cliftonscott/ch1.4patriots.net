@@ -448,8 +448,8 @@ class Product {
 				$productObj->googleProductName = "F4P-FVSK";
 				$productObj->googleProductSKU = "PID128";
 				$productObj->googleProductCategory = "1-PAY-97";
-				$productObj->metaTitle = "Fruit, Veggie, And Snack Kit";
-				$productObj->metaDescription = "Food4Patriots Fruit, Veggie, And Snack Kit";
+				$productObj->metaTitle = "Fruit, Veggie and Snack Mix";
+				$productObj->metaDescription = "Food4Patriots Fruit, Veggie and Snack Mix";
 				//Other
 				$productObj->pmaSku = null;
 				$productObj->taxable = TRUE;
