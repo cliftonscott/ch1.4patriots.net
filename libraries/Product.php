@@ -938,22 +938,27 @@ class Product {
 		$funnelData["fruitveggie"] = array(
 
 			"checkout" => array (
+				"googleBrand" => "F4P-FVSK",
 				"nextUrl" => "/checkout/fruitveggie/oto/f4p-3month-kit-discount.php",
 				"declineUrl" => null,
 			),
 			"oto1" => array (
+				"googleBrand" => "F4P-FVSK",
 				"nextUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit.php",
 				"declineUrl" => "/checkout/fruitveggie/oto/f4p-4week-kit-discount.php",
 			),
 			"oto1b" => array (
+				"googleBrand" => "F4P-FVSK",
 				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
 				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
 			),
 			"oto2" => array (
+				"googleBrand" => "F4P-FVSK",
 				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
 				"declineUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit-payments.php",
 			),
 			"oto2b" => array (
+				"googleBrand" => "F4P-FVSK",
 				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
 				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
 			),
