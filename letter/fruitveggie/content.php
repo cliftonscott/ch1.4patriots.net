@@ -2,7 +2,7 @@
 	<div>
 		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit, Veggie and Snack Mix!</h1>
 	</div>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-05.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-06.jpg" alt="">
 	<p>Dear Patriot,</p>
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
 	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
@@ -121,9 +121,9 @@
 	</div>
 
 	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit, Veggie and Snack Mix…</h2>
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-01.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-02.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/F4P-TESTIMONIAL-FVS-PG-03.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-01.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-02.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-03.jpg" alt="Testimonial">
 
 	<p><strong><i>It’s all over the news…the worst drought to hit the US since the Dustbowl of the Great Depression is driving the cost of raw ingredients sky-high</i></strong></p>
 	<p>Most folks recognize the need to “fill in the gaps” of their survival food stockpile to make sure their family has the most nutritious food available in a disaster.</p>
