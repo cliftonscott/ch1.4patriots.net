@@ -156,12 +156,12 @@ if(!empty($customerDataObj->firstName)) {
 	<div id="belcher-box" class="hidden-xs">
 		<div class="box-title">A Special One-Time-Only Offer for <?php echo $offerName;?>...</div>
 		<div class="box-body">
-			<p>Congratulations, Patriot! You’ve decided, <strong>“I’m not waiting in fear of the next disaster, I’m taking action!”</strong> And guess what? You’ve done just that with your order of the Fruit and Veggie Snack Pack.</p>
-			<p>You’re in an elite group – among only seven percent of Americans who are prepared for a crisis. How’d you like to protect your family even more? You can! Just <strong>fortify your survival food stash with another vital source of nutrition – meat and protein!</strong></p>
-			<h1 class="darkRed text-center title-max-590 center-block">Food4Patriots Meat and Protein Kit</h1>
 			<div class="timer-bg">
 				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
 			</div>
+			<p>Congratulations, Patriot! You’ve decided, <strong>“I’m not waiting in fear of the next disaster, I’m taking action!”</strong> And guess what? You’ve done just that with your order of the Fruit and Veggie Snack Pack.</p>
+			<p>You’re in an elite group – among only seven percent of Americans who are prepared for a crisis. How’d you like to protect your family even more? You can! Just <strong>fortify your survival food stash with another vital source of nutrition – meat and protein!</strong></p>
+			<h1 class="darkRed text-center title-max-590 center-block">Food4Patriots Meat and Protein Kit</h1>
 			<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-protein-04-01.jpg" width="100%" alt="3 Month Food Supply"></a>
 			<h1></h1>
 			<p><b>Click the big, green "Add to Order" button below in the next 10 minutes (before our warehouse finalizes your shipping details)</b> and we’ll add our Meat and Protein Kit to your order today for the special price of just $147 and give you free shipping!</p>
