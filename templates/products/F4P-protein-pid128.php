@@ -161,8 +161,8 @@ if(!empty($customerDataObj->firstName)) {
 			<h1 class="darkRed text-center title-max-590 center-block">Food4Patriots Meat and Protein Kit</h1>
 			<div class="timer-bg">
 				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
-				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-protein-04-01.jpg" width="100%" alt="3 Month Food Supply"></a>
 			</div>
+			<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-protein-04-01.jpg" width="100%" alt="3 Month Food Supply"></a>
 			<h1></h1>
 			<p><b>Click the big, green "Add to Order" button below in the next 10 minutes (before our warehouse finalizes your shipping details)</b> and we’ll add our Meat and Protein Kit to your order today for the special price of just $147 and give you free shipping!</p>
 			<p>Your Meat and Protein Kit comes packaged in airtight Mylar pouches and tucked into a space-saving four-gallon tote, all with a staggering 25-year shelf life!</p>
