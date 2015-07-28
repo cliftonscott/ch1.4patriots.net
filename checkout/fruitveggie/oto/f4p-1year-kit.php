@@ -149,7 +149,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 			</div>
 		</div>
-		<?php include("f4p-1year-glenbeck.html");?>
+		<!--<?php include("f4p-1year-glenbeck.html");?>-->
 		<?php include("f4p-1year-whatsincluded.html");?>
 		<div class="container oto-width">
 			<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
