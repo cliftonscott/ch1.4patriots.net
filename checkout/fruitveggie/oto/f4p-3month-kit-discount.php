@@ -35,7 +35,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<h1></h1>
 				<p class="text-center center-block"><strong><i>Your Fruit, Veggie and Snack Mix is a Great Start - Now Fortify Your Food Stockpile!</i></strong></p>
-				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This one-Time Offer!</h1>
+				<h1 class="darkRed text-center title-max-610 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This One-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
 				<iframe src="//fast.wistia.net/embed/iframe/v10lyxb7n6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
