@@ -83,7 +83,7 @@
 
 	<h2 class="darkRed text-center">Lasts 25 Years, But Tastes As Fresh As If You Just Plucked Them Off A Tree Or Harvested Them Out Of Your Very Own Garden!</h2>
 	<p>Everything is super-easy to prepare. <u>Just add hot water!</u></p>
-	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of fruits and vegetables you will find in our Fruit, Veggie and Snack Kit!</p>
+	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of fruits and vegetables you will find in our Fruit, Veggie and Snack Mix!</p>
 	<p>Plus, it&rsquo;s very high in essential vitamins and minerals</p>
 	<p>You get <strong>114 total servings</strong> of delectable, healthy fruits and vegetables to help you survive the crisis we all know is coming.</p>
 
