@@ -18,7 +18,7 @@ $funnelData = $productObj->initFunnel("checkout");
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
-$platform->setCsrOrderFormUrl("/checkout/protein/index.php");
+$platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 
 
 ?>

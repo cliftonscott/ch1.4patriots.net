@@ -1,6 +1,6 @@
 <?php
 // DEFINE PRODUCT
-$_SESSION['productId'] = 128;
+$_SESSION['productId'] = 230;
 $_SESSION["quantity"] = 1;
 //--Set Customer Name--//
 include_once("Customer.php");
