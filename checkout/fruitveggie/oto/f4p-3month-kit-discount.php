@@ -80,8 +80,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
 				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War 1, when a pound of bread cost 3 BILLION marks! </p>
 				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
-				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now.</p>
-				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
+				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a one-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already low price</strong> – but only if you act now.</p>
+				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food And 3-Month Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
 				<?php include 'f4p-3month-whatsincluded.html'; ?><p>&nbsp;</p>
@@ -157,7 +157,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			?>
 			<div class="margin-t-20">
 				<p>And don’t forget…when you order our Food4Patriots 3-month food supply, I’ll throw in 6 incredible bonuses absolutely FREE!</p>
-				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, Water Survival Guide, How to Cut Your Grocery Bills, & the Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
+				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, The Water Survival Guide, How to Cut Your Grocery Bills, and The Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Hard Copy Upgrades <br>To These Professionally Bound  Reports</h2>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-ebook-bonus-01.jpg" alt="Bonus 1" width="550" height="207" ></div>
@@ -198,7 +198,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						</div>
 					</div>
 				</div>
-				<p>And last, but certainly not least - I'm going to send you our compact and powerful 11-in-1 survival tool. You never know what you're going to run into in a survival situation. This little tool just might save the day. 11 full functions in a tool that will fit handily in your wallet.</p>
+				<p>And last, but certainly not least - I'm going to send you our compact and powerful 11-in-1 survival tool. You never know what you're going to run into in a survival situation. This little tool just might save the day. Eleven full functions in a tool that will fit handily in your wallet.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE 11-in-1 Survival Tools</h2>
 					<p>Each one of these amazing tools could be a real life-saver, yet they are no bigger than a credit card so you’ll always have it handy.</p>
@@ -206,7 +206,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping AND 6 awesome bonuses.</p>
 				<p>All for you today. I think that's about the best deal I can make you.</p>
-				<p>Just click the link the button below and I’ll send you your goodies right away.</p>
+				<p>Just click the button below and I’ll send you your goodies right away.</p>
 			</div>
 			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
 			<div class="row">
@@ -227,9 +227,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 						<ul>
 							<li>10 Items Sold Out After Crisis</li>
-							<li>Water Survival Guide</li>
+							<li>The Water Survival Guide</li>
 							<li>How to Cut Your Grocery Bills</li>
-							<li>Survival Garden Guide</li>
+							<li>The Survival Garden Guide</li>
 						</ul>
 					</div>
 				</div>
@@ -254,10 +254,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 				<div class="outLineBoxDarkBlue">
 					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
+					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-					any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+					any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 					<div class="clearfix"></div>
 				</div>
 
