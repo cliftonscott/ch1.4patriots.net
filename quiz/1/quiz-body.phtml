@@ -1,0 +1,66 @@
+<form class="quiz" method="post" id="quiz" action="/quiz/process-quiz.php">
+	<div id="section_1" style="">
+		<h2>Welcome</h2>
+		<p>This is the intro, ain't it nice???</p>
+		<div id="start-quiz" onclick="nextQ(1);">Start</div>
+	</div>
+	<div id="section_2" style="display:none;visibility: hidden;">
+		<h3>Question Two</h3>
+		<div onclick="nextQ(2);" class="user-choice">
+			<input type="radio" name="question2" value="Answer 2.1" checked> Label 1<br>
+		</div>
+		<div onclick="nextQ(2);" class="user-choice">
+			<input type="radio" name="question2" value="Answer 2.2"> Label 2<br>
+		</div>
+		<div onclick="nextQ(2);" class="user-choice">
+			<input type="radio" name="question2" value="Answer 2.3"> Label 3<br>
+		</div>
+		<div onclick="nextQ(2);" class="user-choice">
+			<input type="radio" name="question2" value="Answer 2.4"> Label 4<br>
+		</div>
+	</div>
+	<div id="section_3" style="display:none;visibility: hidden;">
+		<h3>Question Three</h3>
+		<div onclick="nextQ(3);" class="user-choice">
+			<input type="radio" name="question3" value="Answer 3.1" checked> Label 1<br>
+		</div>
+		<div onclick="nextQ(3);" class="user-choice">
+			<input type="radio" name="question3" value="Answer 3.2"> Label 2<br>
+		</div>
+		<div onclick="nextQ(3);" class="user-choice">
+			<input type="radio" name="question3" value="Answer 3.3"> Label 3<br>
+		</div>
+		<div onclick="nextQ(3);" class="user-choice">
+			<input type="radio" name="question3" value="Answer 3.4"> Label 4<br>
+		</div>
+	</div>
+	<div id="section_4" style="display:none;visibility: hidden;">
+		<h3>Question Four</h3>
+		<div onclick="nextQ(4);" class="user-choice">
+			<input type="radio" name="question" value="Answer 1.1" checked> Label 1
+		</div>
+		<div onclick="nextQ(4);" class="user-choice">
+			<input type="radio" name="question" value="Answer 1.2"> Label 2
+		</div>
+		<div onclick="nextQ(4);" class="user-choice">
+			<input type="radio" name="question" value="Answer 1.3"> Label 3
+		</div>
+		<div onclick="nextQ(4);" class="user-choice">
+			<input type="radio" name="question" value="Answer 1.4"> Label 4
+		</div>
+	</div>
+	<div id="section_5" style="text-align:center;display:none;visibility: hidden;">
+		<p>Some words about submitting the form by clicking submit.</p>
+		<input type="submit">
+	</div>
+</form>
+<script>
+	function nextQ(number) {
+		close_section = "#section_" + number;
+		$(close_section).css("display","none");
+		$(close_section).css("visibility","hidden");
+		open_section = "#section_" + (number+1);
+		$(open_section).css("display","block");
+		$(open_section).css("visibility","visible");
+	}
+</script>
