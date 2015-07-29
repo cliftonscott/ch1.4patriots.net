@@ -60,19 +60,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 <div class="container oto-width">
 	<div>
-		<h1 class="darkRed text-center"><?php echo $firstName;?>, Get 8 FREE Gifts + 1st Issue Of Patriot Alliance FREE?</h1>
+		<h1 class="darkRed text-center"><?php echo $firstName;?>, Get 8 FREE Gifts + First Issue Of Patriot Alliance FREE?</h1>
 	</div>
 	<div><h4 class="text-center">Get <strong><u>8 FREE GIFTS</u></strong> When You Try <em>Patriot Alliance</em> <strong><u>FREE</u></strong> For 30 Days!</h4></div>
 	<div>
 		<img class="img-responsive center-block"src="/media/images/pa/pa-messenger-03.jpg" alt="Patriot Alliance Messenger"/>
-		<p class="caption text-center center-block" style="max-width:500px;padding-bottom:20px;"><em>Get your 1st issue of the brand-new Patriot Alliance printed newsletter for FREE plus 8 FREE bonus gifts valued over $200.00 when you accept this special offer today!</em></p>
+		<p class="caption text-center center-block" style="max-width:500px;padding-bottom:20px;"><em>Get your first issue of the brand-new Patriot Alliance printed newsletter for FREE plus 8 FREE bonus gifts valued over $200.00 when you accept this special offer today!</em></p>
 	</div>
 
 
 	<div>
 			<p><?php echo $firstName;?>, the Patriot Alliance is my brand-new printed newsletter – your own &ldquo;mini-survival guide&rdquo; printed in full-color and delivered right to your mailbox.</p>
-			<p>It&rsquo;s awesome and I want to get it in your hands right away, even if I have to bribe the heck outta you with a bunch of free gifts. </p>
-			<p>You get your 1st issue of the brand-new Patriot Alliance printed newsletter for FREE… plus get 8 FREE bonus gifts valued over $200… when you accept this special offer today!</p>
+			<p>It&rsquo;s awesome and I want to get it in your hands right away, even if I have to bribe the heck out of you with a bunch of free gifts. </p>
+			<p>You get your first issue of the brand-new Patriot Alliance printed newsletter for FREE… plus get 8 FREE bonus gifts valued over $200… when you accept this special offer today!</p>
 
 	<div class="margin-tb-20">
 		<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form1">
@@ -90,9 +90,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</form>
 	</div>
 
-	<p>If the free 1st issue isn&rsquo;t enough to have you clicking on the big orange &ldquo;Click To Accept&rdquo; button, then these EIGHT free gifts worth over $200 will surely do the trick:</p>
+	<p>If the free first issue isn&rsquo;t enough to have you clicking on the big orange &ldquo;Click To Accept&rdquo; button, then these EIGHT free gifts worth over $200 will surely do the trick:</p>
 	<p><span class="brightBlue"><strong>Bonus 1:</strong></span><strong> Patriot Alliance Collector Album ($20 value)</strong> -- This custom-embossed collector album is the perfect solution to protect and store your newsletters.</p>
-	<p><span class="brightBlue"><strong>Bonus 2:</strong></span><strong> Patriot Alliance 11-in-1 Survival Tool ($20 value)</strong> -- A handy and fully functional 11-in-1 survival tool made of durable Stainless Steel that fits into your wallet and may save your life some day.</p>
+	<p><span class="brightBlue"><strong>Bonus 2:</strong></span><strong> Patriot Alliance 11-in-1 Survival Tool ($20 value)</strong> -- A handy and fully functional 11-in-1 survival tool made of durable stainless steel that fits into your wallet and may save your life some day.</p>
 	<p><span class="brightBlue"><strong>Bonus 3:</strong></span><strong> &ldquo;How to Hide Your Guns and Other Valuables&rdquo; Report ($27 Value)</strong> -- Discover the best techniques and locations for hiding your guns and valuables from all kinds of thieves... including Big Brother.</p>
 	<p><span class="brightBlue"><strong>Bonus 4:</strong></span><strong> &ldquo;Retirement Security Secrets Revealed&rdquo; Report ($27 Value)</strong> -- Great tips and tricks that will allow you to amass enough of a nest egg to secure your retirement... even if you&rsquo;re starting late like me, or even if you&rsquo;re starting from zero like millions of other Baby Boomers.</p>
 	<p><span class="brightBlue"><strong>Bonus 5:</strong></span><strong> &ldquo;The Government Is Spying on You&rdquo; Report ($27 Value) </strong>-- This report exposes the secret technologies the NSA is using to uncover private details of your personal life and how to protect yourself.</p>
@@ -101,7 +101,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<p><span class="brightBlue"><strong>Bonus 8:</strong></span><strong> Off Grid Living DVD ($19.95 Value)</strong> -- In this 75-minute DVD you&rsquo;ll get your very own one-on-one walk-through of a completely off-the-grid household so you can do the same thing.</p>
 	<img class="img-responsive center-block margin-tb-20"src="/media/images/pa/pa-value-chart-01.jpg" alt="Patriot Alliance Messenger"/>
 	<p>WHEW! That’s a lot of goodies... and you get it all FREE when you try the brand-new Patriot Alliance printed newsletter for FREE. It's just $19.95 per month thereafter.</p>
-	<p>Get your 1st newsletter plus the 8 bonus gifts before they&rsquo;re gone – click the big orange &ldquo;Click To Accept&rdquo; button below. </p>
+	<p>Get your first newsletter plus the 8 bonus gifts before they&rsquo;re gone – click the big orange &ldquo;Click To Accept&rdquo; button below. </p>
 
 	<div>
 		<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form2">
