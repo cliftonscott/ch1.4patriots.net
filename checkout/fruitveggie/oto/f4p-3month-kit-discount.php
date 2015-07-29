@@ -35,7 +35,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<h1></h1>
 				<p class="text-center center-block"><strong><i>Your Fruit, Veggie and Snack Mix is a Great Start - Now Fortify Your Food Stockpile!</i></strong></p>
-				<h1 style="margin-top: -20px" class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
+				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This one-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
 				<iframe src="//fast.wistia.net/embed/iframe/v10lyxb7n6?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
@@ -62,23 +62,23 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>You know without a doubt that having enough to eat in a crisis is not just important; it’s deadly serious.</p>
 				<p>To make sure you’re 100% protected from toxic hunger during a disaster, I’d recommend beefing up your survival food stockpile with plenty of meals to keep you and your family full and satisfied for breakfast, lunch, and dinner.</p>
 				<p>Your Fruit, Veggie and Snack Mix is a healthy start. I want to make sure, though, that I’m giving you the best opportunity to give your family a total “shield from starvation.”  That’s why I’m doing something today that I really can’t afford to do.</p>
-				<p>A lot of people have told me that getting their Meat &amp; Protein kit was a great first step, but they really wanted more. That having foods high in protein was just their &quot;starting point&quot;, and I get where they're coming from.</p>
+				<p>A lot of people have told me that getting their Fruit, Veggie and Snack Mix was a great first step, but they really wanted more. That having foods high in vitamins and minerals was just their &quot;starting point&quot;, and I get where they're coming from.</p>
 				<p><strong>I’m taking a staggering $100 off my Food4Patriots 3-month kit.</strong></p>
 				<p>Yep, that’s right.</p>
 				<p>It’s my mission to help Patriots like you survive the next catastrophe that’s just around the corner – from crazy weather, terrorism, disease outbreak, or war.</p>
 				<p>This is a one-time-only opportunity – sorry, I can’t honor any rain checks or IOUs.</p>
 				<p>My advice? Grab your Food4Patriots 3-month kit now – while you can – at 20% off normal price.</p>
 				<p>Here’s the deal:</p>
-				<p>As a new member of the 4Patriots family, enjoy a <strong>special 1-time offer that is only valid while you are on this page.</strong></p>
+				<p>As a new member of the 4Patriots family, enjoy a <strong>special one-time offer that is only valid while you are on this page.</strong></p>
 				<p><strong>Get a Food4Patriots 3-month kit for $100.00 off, plus FREE Shipping and 6 amazing FREE Bonus Gifts.</strong></p>
 				<p><strong>Don’t wait, and don’t go hungry. It’s that simple.</strong></p>
 
 
 				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get A 3-Month Food4Patriots Supply Right Now...</h2>
-				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
+				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You And Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 				<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
-				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War One, when a pound of bread cost 3 BILLION marks! </p>
+				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War 1, when a pound of bread cost 3 BILLION marks! </p>
 				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
 				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now.</p>
 				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
