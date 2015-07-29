@@ -94,7 +94,7 @@
 	<p>And for a limited time, you can get our Fruit, Veggie and Snack Mix for the <strong>special promotional price of just $97.00!</strong></p>
 	<p><strong>That’s Just $1.18 Per Serving!</strong></p>
 	<p>Normally, this kit would cost around $147, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough vitamin enriched foods in their stockpile.</p>
-	<p>Be sure to jump on this opportunity folks…food prices are going through the roof right now, and I’m struggling to keep these kits in stock.</p>
+	<p>Be sure to jump on this opportunity folks… food prices are going through the roof right now, and I’m struggling to keep these kits in stock.</p>
 	<p>Get your Fruit, Veggie and Snack Mix at this special introductory price while it is still available…</strong></p>
 	<p>I’m not sure how long we will be able to offer this important kit for $97 or $1.18 per serving.</p>
 	<p><strong>Click the <strong>"Add To Cart"</strong> button below now, and I'll rush your kit to your front door right away!</strong></p>
@@ -125,12 +125,12 @@
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-02.jpg" alt="Testimonial">
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-03.jpg" alt="Testimonial">
 
-	<p><strong><i>It’s all over the news…the worst drought to hit the US since the Dustbowl of the Great Depression is driving the cost of raw ingredients sky-high</i></strong></p>
+	<p><strong><i>It’s all over the news… the worst drought to hit the US since the Dustbowl of the Great Depression is driving the cost of raw ingredients sky-high.</i></strong></p>
 	<p>Most folks recognize the need to “fill in the gaps” of their survival food stockpile to make sure their family has the most nutritious food available in a disaster.</p>
 	<p>Click the <strong>“Add to Cart”</strong> button below now, while I still have these in stock.</p>
 
-	<p>Hey listen…let’s get REAL…you don’t want to compromise on your family’s health or well being, right?</p>
-	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit and Veggie Snack Mixes at this low price, or even <strong><i>at all…</i></strong></p>
+	<p>Hey listen… let’s get REAL… you don’t want to compromise on your family’s health or well-being, right?</p>
+	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit, Veggie and Snack Mix at this low price, or even <strong><i>at all… </i></strong></p>
 	<p>Survival food supplies are vanishing before our eyes.</p>
 	<p>So claim your kit NOW by clicking the <strong>“Add to Cart”</strong> button, and have true peace of mind your loved ones WON’T starve in the coming crisis…</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-03.jpg" alt="">
