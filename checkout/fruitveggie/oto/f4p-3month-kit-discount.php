@@ -34,7 +34,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div class="container oto-width">
 			<div>
 				<h1></h1>
-				<p class="text-center center-block"><strong><i>Your Fruit & Veggie Snack Pack is a Great Start - Now Fortify Your Food Stockpile!</i></strong></p>
+				<p class="text-center center-block"><strong><i>Your Fruit, Veggie and Snack Mix is a Great Start - Now Fortify Your Food Stockpile!</i></strong></p>
 				<h1 style="margin-top: -20px" class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
@@ -58,19 +58,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 			</div>
 			<div>
-				<p>Congratulations, Patriot! You’ve got a real solid start on survival food with your purchase today of the Fruit and Veggie Snack Pack.</p>
+				<p>Congratulations, Patriot! You’ve got a real solid start on survival food with your purchase today of the Fruit, Veggie and Snack Mix.</p>
 				<p>You know without a doubt that having enough to eat in a crisis is not just important; it’s deadly serious.</p>
 				<p>To make sure you’re 100% protected from toxic hunger during a disaster, I’d recommend beefing up your survival food stockpile with plenty of meals to keep you and your family full and satisfied for breakfast, lunch, and dinner.</p>
-				<p>Your Fruit and Veggie Snack Pack is a healthy start. I want to make sure, though, that I’m giving you the best opportunity to give your family a total “shield from starvation.”  That’s why I’m doing something today that I really can’t afford to do.</p>
+				<p>Your Fruit, Veggie and Snack Mix is a healthy start. I want to make sure, though, that I’m giving you the best opportunity to give your family a total “shield from starvation.”  That’s why I’m doing something today that I really can’t afford to do.</p>
 				<p>A lot of people have told me that getting their Meat &amp; Protein kit was a great first step, but they really wanted more. That having foods high in protein was just their &quot;starting point&quot;, and I get where they're coming from.</p>
-				<p><strong>I’m taking a staggering $100 off my Food4Patriots 3-Month Kit.</strong></p>
+				<p><strong>I’m taking a staggering $100 off my Food4Patriots 3-month kit.</strong></p>
 				<p>Yep, that’s right.</p>
 				<p>It’s my mission to help Patriots like you survive the next catastrophe that’s just around the corner – from crazy weather, terrorism, disease outbreak, or war.</p>
 				<p>This is a one-time-only opportunity – sorry, I can’t honor any rain checks or IOUs.</p>
-				<p>My advice? Grab your Food4Patriots 3-Month Kit now – while you can – at 20% off normal price.</p>
+				<p>My advice? Grab your Food4Patriots 3-month kit now – while you can – at 20% off normal price.</p>
 				<p>Here’s the deal:</p>
 				<p>As a new member of the 4Patriots family, enjoy a <strong>special 1-time offer that is only valid while you are on this page.</strong></p>
-				<p><strong>Get a Food4Patriots 3-Month Kit for $100.00 off, plus FREE Shipping and 6 amazing FREE Bonus Gifts.</strong></p>
+				<p><strong>Get a Food4Patriots 3-month kit for $100.00 off, plus FREE Shipping and 6 amazing FREE Bonus Gifts.</strong></p>
 				<p><strong>Don’t wait, and don’t go hungry. It’s that simple.</strong></p>
 
 
@@ -82,7 +82,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
 				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now.</p>
 				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
-				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-Month emergency food kits available so get yours TODAY while we still have them in stock!</p>
+				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
 				<?php include 'f4p-3month-whatsincluded.html'; ?><p>&nbsp;</p>
 
@@ -118,7 +118,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3 month Supply Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
