@@ -185,7 +185,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 				satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
 				price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-				any reason or no reason, whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+				any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 				<div class="clearfix"></div>
 			</div>
 
@@ -272,7 +272,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								<input type="checkbox" id="check1" name="check1">
 								<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 							</div>
-							<div id="terms">I want to add the 1-year kit to my order at the 1-time discount sale price of $1,997. <strong>I will get FREE Shipping and 27 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
+							<div id="terms">I want to add the 1-year kit to my order at the one-time discount sale price of $1,997. <strong>I will get FREE Shipping and 27 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
 							</div>
 						</div>
 						<div style="margin-top:20px;">
@@ -291,10 +291,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<div class="outLineBoxDarkBlue">
 					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
+					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-					any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+					any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 					<div class="clearfix"></div>
 				</div>
 
