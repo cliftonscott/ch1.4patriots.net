@@ -7,7 +7,7 @@
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
 	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
 	<p><strong>You’ll especially need them when facing a crisis, when these foods are hard, if not impossible to come by…</strong></p>
-	<p>There’s no other food group that’s as life giving as these orchard and garden delights…chocked full of vitamins, minerals, antioxidants, and fiber.</p>
+	<p>There’s no other food group that’s as life giving as these orchard and garden delights…, chock full of vitamins, minerals, antioxidants, and fiber.</p>
 	<p>Even if you’re more of a “meat and potatoes” kind of person, most everyone enjoys a bowl of sweet, juicy strawberries or garden fresh veggies like broccoli and green beans.</p>
 	<p>Truth is, without an adequate intake of fruits and veggies, your body simply isn’t getting the nutrients it needs to work right.</p>
 	<p>And folks, despite what others may claim, <strong>there’s no pill you can pop that will replace them.</strong></p>
@@ -19,14 +19,14 @@
 	<p>When you add high-quality fruits and vegetables to your existing survival food stockpile, you’ll enjoy knowing you’re optimizing the level of nutrients your body needs</p>
 	<p>What Are Some Other Crucial Benefits of fruits and vegetables?</p>
 	<ul class="fa-ul fa-ul-space">
-		<li><i class="fa-li fa fa-check"></i><strong>Better regularity.</strong> Fiber keeps your digestive tract healthy and helps move waste out of your system, which helps you feel your best and be “light on your feet” – which is critical when you need to move fast.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Better regularity</strong> Fiber keeps your digestive tract healthy and helps move waste out of your system, which helps you feel your best and be “light on your feet” – which is critical when you need to move fast.</li>
 		<li><i class="fa-li fa fa-check"></i><strong>Faster healing and boosted immunity</strong> Our bodies don’t make all the vitamins we need, so we need to eat foods that are rich in them to recover faster from infections and illness, which helps if you’re injured or catch a nasty bug.</li>
 		<li><i class="fa-li fa fa-check"></i><strong>Clear thinking</strong> Whole plant foods contain the nutrients that keep your brain sharp as a tack – especially important in a survival situation.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory.</strong> Antioxidants in fruit and veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory</strong> Antioxidants in fruit and veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
 	</ul>
 
-	<p>Okay…so there’s no arguing that you’ve got to have an adequate amount of fruits and vegetables ever day for <strong>better</strong> health…but how do you work them into your survival food plan? </p>
-	<p>I mean…fresh fruits and veggies spoil after just a few days, right?</p>
+	<p>Okay… so there’s no arguing that you’ve got to have an adequate amount of fruits and vegetables every day for <strong>better</strong> health… but how do you work them into your survival food plan? </p>
+	<p>I mean… fresh fruits and veggies spoil after just a few days, right?</p>
 	<p>How are you supposed to survive on rotting produce?</p>
 	<p>Well, you’re not.</p>
 
@@ -53,7 +53,7 @@
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-greenbeans.jpg"  alt="24 servings of green beans">
-				<div class="caption"><strong>24 servings</strong> of green beans</div>
+				<div class="caption"><strong>24 servings</strong> of freeze-dried of green beans</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-strawberries.jpg"  alt="16 servings of freeze-dried strawberries">
@@ -83,7 +83,7 @@
 
 	<h2 class="darkRed text-center">Lasts 25 Years, But Tastes As Fresh As If You Just Plucked Them Off A Tree Or Harvested Them Out Of Your Very Own Garden!</h2>
 	<p>Everything is super-easy to prepare. <u>Just add hot water!</u></p>
-	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of fruits and vegetables you will find in our Fruit and Veggie kit!</p>
+	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of fruits and vegetables you will find in our Fruit, Veggie and Snack Kit!</p>
 	<p>Plus, it&rsquo;s very high in essential vitamins and minerals</p>
 	<p>You get <strong>114 total servings</strong> of delectable, healthy fruits and vegetables to help you survive the crisis we all know is coming.</p>
 
