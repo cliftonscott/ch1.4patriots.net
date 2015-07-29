@@ -34,7 +34,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div class="container oto-width">
 			<div>
 				<h1></h1>
-				<p class="text-center center-block"><strong><i>Your Fruit & Veggie Snack Pack is a Great Start - Now Fortify Your Food Stockpile!</i></strong></p>
+				<p class="text-center center-block"><strong><i>Your Fruit, Veggie and Snack Mix is a Great Start - Now Fortify Your Food Stockpile!</i></strong></p>
 				<h1 style="margin-top: -20px" class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
@@ -58,10 +58,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 			</div>
 			<div>
-				<p>Congratulations, Patriot! You’ve got a real solid start on survival food with your purchase today of the Fruit and Veggie Snack Pack.</p>
+				<p>Congratulations, Patriot! You’ve got a real solid start on survival food with your purchase today of the Fruit, Veggie and Snack Mix.</p>
 				<p>You know without a doubt that having enough to eat in a crisis is not just important; it’s deadly serious.</p>
 				<p>To make sure you’re 100% protected from toxic hunger during a disaster, I’d recommend beefing up your survival food stockpile with plenty of meals to keep you and your family full and satisfied for breakfast, lunch, and dinner.</p>
-				<p>Your Fruit and Veggie Snack Pack is a healthy start. I want to make sure, though, that I’m giving you the best opportunity to give your family a total “shield from starvation.”  That’s why I’m doing something today that I really can’t afford to do.</p>
+				<p>Your Fruit, Veggie and Snack Mix is a healthy start. I want to make sure, though, that I’m giving you the best opportunity to give your family a total “shield from starvation.”  That’s why I’m doing something today that I really can’t afford to do.</p>
 				<p>A lot of people have told me that getting their Meat &amp; Protein kit was a great first step, but they really wanted more. That having foods high in protein was just their &quot;starting point&quot;, and I get where they're coming from.</p>
 				<p><strong>I’m taking a staggering $100 off my Food4Patriots 3-Month Kit.</strong></p>
 				<p>Yep, that’s right.</p>
