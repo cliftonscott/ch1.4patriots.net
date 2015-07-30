@@ -616,7 +616,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 66;
 				$productObj->tags = "COFFEE600";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -945,7 +945,7 @@ class Product {
 			"oto1" => array (
 				"googleBrand" => "F4P-FVSK",
 				"nextUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/fruitveggie/oto/f4p-4week-kit-discount.php",
+				"declineUrl" => "/checkout/fruitveggie/oto/f4p-messenger-trial.php",
 			),
 			"oto1b" => array (
 				"googleBrand" => "F4P-FVSK",
