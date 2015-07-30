@@ -7,7 +7,7 @@
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
 	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
 	<p><strong>You’ll especially need them when facing a crisis, when these foods are hard, if not impossible to come by…</strong></p>
-	<p>There’s no other food group that’s as life giving as these orchard and garden delights…, chock full of vitamins, minerals, antioxidants, and fiber.</p>
+	<p>There’s no other food group that’s as life giving as these orchard and garden delights… chock full of vitamins, minerals, antioxidants, and fiber.</p>
 	<p>Even if you’re more of a “meat and potatoes” kind of person, most everyone enjoys a bowl of sweet, juicy strawberries or garden fresh veggies like broccoli and green beans.</p>
 	<p>Truth is, without an adequate intake of fruits and veggies, your body simply isn’t getting the nutrients it needs to work right.</p>
 	<p>And folks, despite what others may claim, <strong>there’s no pill you can pop that will replace them.</strong></p>
@@ -53,7 +53,7 @@
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-greenbeans.jpg"  alt="24 servings of green beans">
-				<div class="caption"><strong>24 servings</strong> of freeze-dried of green beans</div>
+				<div class="caption"><strong>24 servings</strong> of freeze-dried green beans</div>
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-4">
 				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-strawberries.jpg"  alt="16 servings of freeze-dried strawberries">
