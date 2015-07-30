@@ -1,6 +1,12 @@
 <div class="container oto-width">
 	<div>
+	<?php if($variation === "a"): ?>
+		<h1 class="darkRed text-center" style="font-size: 29pt;">Who Else Wants More Flavor, Nutrition & Taste... GUARANTEED For 25 Years of Storage?!</h1>
+	<?php elseif($variation === "b"): ?>
+		<h1 class="darkRed text-center">Don't Miss the Chance to Take Your Food4Patriots Kit to the Next Level with These Incredible "Superfoods."</h1>
+	<?php else: ?>
 		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit, Veggie and Snack Mix!</h1>
+	<?php endif; ?>
 	</div>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-06.jpg" alt="">
 	<p>Dear Patriot,</p>
