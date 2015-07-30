@@ -10,15 +10,15 @@ include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/fruitveggie/index.php" . $analyticsObj->queryString;
 
-/*$variantsArray = array (
-	"a", // Short Split Test
-	"b", // Short Split Test
+$variantsArray = array (
+	"a", // Headline Split Test
+	"b", // Headline Split Test
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
 		$variation = trim($_GET["v"]);
 	}
-}*/
+}
 
 ?>
 	<div class="container-main">
