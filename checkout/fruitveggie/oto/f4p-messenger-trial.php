@@ -120,7 +120,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 	  </form>
 	  <div class="noThanks">
-		<a href="/checkout/thankyou.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+		<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 
 	</div>                       
