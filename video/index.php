@@ -61,7 +61,7 @@ if($_GET["pub"]) {
 	}
 }
 
-if($variation !== "np" & $variation !== "np-nologo") {
+if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "3f") {
 	$template["exitPopType"] = video; //designates that this should not have an exit pop of type video
 }
 
@@ -77,13 +77,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
-<?php if($vsl === "3") { //removes css hack for test VWO-320 4/27/15 ?>
-<style> #videobox {  max-width: 640px!important;  max-height: 360px !important;}; </style>
-<?php }; ?>
+<?php if($vsl != "3f" && $vsl != "fs") { ?>
 <script>
-if (isMobile()) {
-	document.location = "<?php echo $productDataObj->mobileLink ?>"; }
+	if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
 </script>
+<?php }; ?>
+
 <script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
@@ -149,13 +148,9 @@ if (isMobile()) {
 	This timer requires a block object (div) with an id of 'countDownTimer'.
  */
 	var jsTimer = setInterval(function(){timerChange()},1000);
-	<?php if($vsl === "3") { // VWO-320 4/27/15 ?>
-	timerDateObj = new Date(2014, 01, 01, 12, 48, 00);51;
-	<?php }else { ?>
-	timerDateObj = new Date(2014, 01, 01, 12, 39, 00);51;
-	<?php } ?>
 
-//	timerDateObj = new Date(2014, 01, 01, 12, 1, 00);
+	timerDateObj = new Date(2014, 01, 01, 12, 48, 00);51;
+
 	function timerChange() {
 		time = timerDateObj.getTime();
 		newTime = time - 1000;
