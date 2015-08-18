@@ -145,6 +145,11 @@ PRODUCT DESKTOP
 }
 .include-column {
 	max-width: 100%;
+	margin-left: 30px;
+}
+.include-list {
+	list-style: inside;
+	padding-left: 0;
 }
 .include-list li {
 	color: #fff;
