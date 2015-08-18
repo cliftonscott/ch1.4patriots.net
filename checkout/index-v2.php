@@ -111,7 +111,7 @@ if(!empty($customerDataObj->shippingCity)) {
 </head>
 <body>
 <?php include_once("analytics-google-ecom.php"); ?>
-<script src="/js/audio.js"></script>
+<script src="/js/audio-gb-v2.js"></script>
 <script>
 	/*
 	 This function works in parallel with the setStateTax() function found in the
