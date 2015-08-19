@@ -176,7 +176,7 @@ if(!empty($customerDataObj->shippingCity)) {
 					<p>TOTAL:</p>
 				</div>
 				<div class="col-lg-6 col-xs-6 quantity-box-right">
-					<p><select class="1-100"></select></p>
+					<p><select class="1-5"></select></p>
 					<p>$497</p>
 					<p>FREE</p>
 					<p>$497</p>
@@ -212,22 +212,24 @@ if(!empty($customerDataObj->shippingCity)) {
 								<li>How to Cut Your Grocery Bill Report</li>
 								<li>Survival Garden Guide Report</li>
 							</ul>
-							<div class="quantity-box">
+							<!--<div class="quantity-box">
 								<div class="row quantity-box-content">
 									<div class="col-lg-6 col-xs-6 quantity-box-left">
 										<p><span style="line-height:1.2em">QUANTITY:</span></p>
 										<p>PRICE:</p>
+										<p><span style="font-size:14px;">TAX:</span></p>
 										<p>S&H:</p>
 										<p>TOTAL:</p>
 									</div>
 									<div class="col-lg-6 col-xs-6 quantity-box-right">
-										<p><select class="1-100"></select></p>
+										<p><select class="1-5"></select></p>
 										<p>$497</p>
+										<p><span style="font-size:14px;">$1.95</span></p>
 										<p>FREE</p>
 										<p>$497</p>
 									</div>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
@@ -249,22 +251,24 @@ if(!empty($customerDataObj->shippingCity)) {
 								<li>How to Cut Your Grocery Bill Report</li>
 								<li>Survival Garden Guide Report</li>
 							</ul>
-							<div class="quantity-box">
+							<!--<div class="quantity-box">
 								<div class="row quantity-box-content">
 									<div class="col-lg-6 col-xs-6 quantity-box-left">
 										<p><span style="line-height:1.2em">QUANTITY:</span></p>
 										<p>PRICE:</p>
+										<p><span style="font-size:14px;">TAX:</span></p>
 										<p>S&H:</p>
 										<p>TOTAL:</p>
 									</div>
 									<div class="col-lg-6 col-xs-6 quantity-box-right">
-										<p><select class="1-100"></select></p>
+										<p><select class="1-5"></select></p>
 										<p>$197</p>
+										<p><span style="font-size:14px;">$1.95</span></p>
 										<p>FREE</p>
 										<p>$197</p>
 									</div>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
@@ -276,7 +280,7 @@ if(!empty($customerDataObj->shippingCity)) {
 							<img src="/media/images/checkout-v2/f4p-1week-kit.png" class="img-responsive center-block">
 						</div>
 						<div class="col-lg-5 col-md-5 hidden-sm hidden-xs include-column">
-							<div style="padding-top:102px;"></div>
+							<div style="padding-top:73px;"></div>
 							<h5 class="hidden-sm hidden-xs">INCLUDES:</h5>
 							<ul class="include-list hidden-sm hidden-xs">
 								<li>36 Servings</li>
@@ -285,22 +289,24 @@ if(!empty($customerDataObj->shippingCity)) {
 								<li>How to Cut Your Grocery Bill Report</li>
 								<li>Survival Garden Guide Report</li>
 							</ul>
-							<div class="quantity-box">
+							<!--<div class="quantity-box">
 								<div class="row quantity-box-content">
 									<div class="col-lg-6 col-xs-6 quantity-box-left">
 										<p><span style="line-height:1.2em">QUANTITY:</span></p>
 										<p>PRICE:</p>
+										<p><span style="font-size:14px;">TAX:</span></p>
 										<p>S&H:</p>
 										<p>TOTAL:</p>
 									</div>
 									<div class="col-lg-6 col-xs-6 quantity-box-right">
-										<p><select class="1-100"></select></p>
+										<p><select class="1-5"></select></p>
 										<p>$67</p>
+										<p><span style="font-size:14px;">$1.95</span></p>
 										<p>$5.95</p>
 										<p>$72.95</p>
 									</div>
 								</div>
-							</div>
+							</div>-->
 						</div>
 					</div>
 				</div>
@@ -308,12 +314,11 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 	</div>
 </div>
-
 <!--DESKTOP PRODUCT AREA TABS-->
 <div class="tabs-wrapper hidden-sm hidden-xs">
 	<div class="tabs-content">
 		<ul class="nav nav-pills">
-			<li class="active"><a data-toggle="pill" href="#home"><span class="tab-product">3-MONTH FOOD SUPPLY</span><br><span class="tab-price">"$497 - ($5/DAY)</span></a></li>
+			<li class="active"><a data-toggle="pill" href="#home"><span class="tab-product">3-MONTH FOOD SUPPLY</span><br><span class="tab-price">$497 - ($5/DAY)</span></a></li>
 			<li><a data-toggle="pill" href="#menu1"><span class="tab-product">4-WEEK FOOD SUPPLY</span><br><span class="tab-price">$197 - ($7/DAY)</span></a></li>
 			<li><a data-toggle="pill" href="#menu2"><span class="tab-product">1-WEEK FOOD SUPPLY</span><br><span class="tab-price">$67 - ($10/DAY)</span></a></li>
 		</ul>
@@ -323,6 +328,24 @@ if(!empty($customerDataObj->shippingCity)) {
 <!--BUY BUTTON-->
 <div class="buy-button-wrapper">
 	<div class="buy-button-content">
+		<div class="quantity-box hidden-sm hidden-xs">
+			<div class="row quantity-box-content">
+				<div class="col-lg-6 col-xs-6 quantity-box-left">
+					<p><span style="line-height:1.2em">QUANTITY:</span></p>
+					<p>PRICE:</p>
+					<p><span style="font-size:14px;">TAX:</span></p>
+					<p>S&H:</p>
+					<p>TOTAL:</p>
+				</div>
+				<div class="col-lg-6 col-xs-6 quantity-box-right">
+					<p><select class="1-5"></select></p>
+					<p>$67</p>
+					<p><span style="font-size:14px;">$1.95</span></p>
+					<p>$5.95</p>
+					<p>$72.95</p>
+				</div>
+			</div>
+		</div>
 		<a href="#" ><div class="buy-button">CLICK TO CONTINUE</div></a>
 	</div>
 </div>
@@ -818,8 +841,8 @@ if(!empty($customerDataObj->shippingCity)) {
 		}
 	});
 	$(function(){
-		var $select = $(".1-100");
-		for (i=1;i<=100;i++){
+		var $select = $(".1-5");
+		for (i=1;i<=5;i++){
 			$select.append($('<option></option>').val(i).html(i))
 		}
 	});

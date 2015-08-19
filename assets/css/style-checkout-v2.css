@@ -122,15 +122,16 @@ PRODUCT DESKTOP
 }
 .tab-content h3 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 45px;
+	font-size: 55px;
 	font-weight: 700;
 	color: white;
 	text-align: center;
-	line-height: 1em;
+	line-height: 0.7em;
+	margin-top:25px;
 }
 .tab-content h4 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 24px;
+	font-size: 36px;
 	font-weight: 700;
 	color: #acf0ff;
 	text-align: center;
@@ -168,7 +169,10 @@ PRODUCT DESKTOP
 	width:250px;
 	border-radius: 25px 25px 0 0;
 	margin: 0 auto;
-	bottom: 0;
+	position: absolute;
+	float: right;
+	top: -261px;
+	left: 645px;
 }
 .quantity-box-content {
 	padding-left: 20px;
@@ -248,6 +252,7 @@ PRODUCT DESKTOP
 	margin: 0 auto;
 	padding-top: 13px;
 	padding-right: 20px;
+	position: relative;
 }
 
 .buy-button {
