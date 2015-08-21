@@ -566,6 +566,188 @@ address {
 .badge-4p img {
 	margin: 0 auto;
 }
+/* CUSTOMIZE CHECKOUT FORM
+-------------------------------------------------- */
+#secure-order-bar {
+	height: 30px;
+	width: 100%;
+	padding-bottom: 5px;
+	background-color:#b90003;
+	font-weight: bold;
+	font-size: 18px;
+	color: #F2F2F2;
+	margin-bottom: 5px;
+}
+.secure-order-label {
+	font-family:'Roboto Condensed', sans-serif;
+	padding-top:2px;
+	text-transform: uppercase;
+}
+.form-container {
+	width: 100%;
+	background: linear-gradient(rgba(254,254,254,0.9),rgba(227,227,227,0.9));
+}
+.left-form label {
+	display: block;
+	margin-right: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin-top: 4px;
+	font-weight: bold;
+	padding-left: 5%;
+}
+.right-form label {
+	display: block;
+	margin-right: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin-top: 4px;
+	font-weight: bold;
+}
+.form-group {
+	margin-bottom: 5px;
+}
+.form-container #firstName, #email, #billing-address, #billing-country, #billing-zip {
+	width: 100%;
+	margin-left:5%;
+	margin-bottom:10px;
+}
+.form-container #lastName, #phone, #billing-city, #billing-state {
+	width: 95%;
+	margin-bottom:10px;
+}
+.form-container input.error {
+	background: #ff9c9c !important;
+	border: 1px solid #d71a1f !important;
+}
+.form-container label.error {
+	margin:0px;
+	padding:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+
+.sameas-select{
+	width: 94% !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	text-align: center !important;
+}
+.cc-align{
+	padding-left: 0px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.expiration {
+	margin-bottom: 5px;
+}
+.expiration select{
+	margin-left: 3% !important;
+	margin-bottom: 10px;
+}
+.cvv2-field {
+	width: 60px !important;
+	margin-left: 3% !important;
+}
+#productInfo {
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+#productInfoOTO {
+	padding-top: 10px;
+	padding-left: 23px;
+	padding-bottom: 10px;
+}
+#secure-guarantee {
+	background-color: #F5FAF5;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#secure-guarantee-header {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #CCF8CD;
+	color: #4D4D4D;
+
+}
+#secure-guarantee-body {
+	font-size: 12px;
+	width: 90%;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+	transition: opacity 0.5s 0.5s ease !important;
+	opacity: 0;
+}
+input::-webkit-input-placeholder { font-size: 11pt; }
+input::-moz-placeholder { font-size: 11pt; }
+input:-ms-input-placeholder { font-size: 11pt;}
+input:-moz-placeholder { font-size: 11pt;}
+.ccv-tooltip {
+	text-decoration: none;
+	background-color: #000;
+	color: #FF0;
+	padding: 1px;
+}
+.popover {
+	max-width: 900px;
+}
+/* hides the spin-button for firefox */
+input[type=number] {
+	-moz-appearance:textfield;
+}
+/* hides the spin-button for chrome*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.guaranteeBox {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: #FFFBEA;
+	border-radius: 15px;
+}
+.warning-check {
+	background-image: url(../images/misc/warning-check-left.gif);
+	width: 120px;
+	height: 52px;
+	position:absolute;top:-10px;
+}
+.form-button-continue {
+	height:59px;
+	width:95%;
+	background: linear-gradient(rgba(79,141,29,0.9),rgba(101,179,39,0.9)),
+	url("/media/images/checkout-v2/buy-button-pattern.png");
+	border: solid 2px #fff;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	padding-top: 12px;
+}
+.form-button-continue:hover {
+	background: linear-gradient(rgba(101,179,39,0.9),rgba(79,141,29,0.9)),
+	url("/media/images/checkout-v2/buy-button-pattern.png");
+	color: rgba(255,255,255,0.8);
+}
+.form-button-continue a:hover {
+	text-decoration: none;
+}
 
 /******************************
 RESPONSIVE

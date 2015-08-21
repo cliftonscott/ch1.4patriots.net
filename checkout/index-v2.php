@@ -236,9 +236,12 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div id="menu1" class="tab-pane fade">
 					<div class="row">
 						<div class="col-lg-6 col-md-6">
-							<h3>4-WEEK FOOD SUPPLY</h3>
+							<div style="margin-top: 28px;">
+								<?php include_once ('customer-form-shipping-v2.php'); ?>
+							</div>
+							<!--<h3>4-WEEK FOOD SUPPLY</h3>
 							<h4>BASIC FOOD4PATRIOTS KIT</h4>
-							<img src="/media/images/checkout-v2/f4p-4week-kit.png" class="img-responsive center-block">
+							<img src="/media/images/checkout-v2/f4p-4week-kit.png" class="img-responsive center-block">-->
 						</div>
 						<div class="col-lg-5 col-md-5 hidden-sm hidden-xs include-column">
 							<img src="/media/images/checkout-v2/free-shipping-truck.png" class="img-responsive shipping-truck hidden-sm hidden-xs" style="padding-top:25px;">
@@ -346,15 +349,6 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 			</div>
 		</div>
-		<?php
-		if($_SESSION["soldout"]["flag"] !== true) {
-			?>
-			<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto"></audio>
-			<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAudio('frankCheckout');">
-			<div class="audio-message"><span class="hidden-xs">Now Playing:</span> Special Message From Frank</div>
-			<?php
-		}
-		?>
 		<a href="#" ><div class="buy-button">CLICK TO CONTINUE</div></a>
 	</div>
 </div>
