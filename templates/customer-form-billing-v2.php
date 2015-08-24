@@ -125,56 +125,16 @@ if($_SESSION['errorMessage'] != '') {
 ?>
 
 	<form role="form" action="/checkout/process.php" method="post" accept-charset="utf-8" id="billing-form">
-		<input type="hidden" name="productId" id="productId" value="<?php echo $productDataObj->productId;?>" onchange="setStateTax();">
-	  <div class="row" style="padding-bottom: 7px;">
-		  <div class="col-md-6 left-form">
-			  <div class="form-group">
-				  <label for="firstName">First Name:</label>
-				  <input type="text" class="form-control" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
-			  </div>
-			  <div class="form-group">
-				  <label for="email">Email:</label>
-				  <input type="email" class="form-control" id="email" name="email" value="<?php echo $preFill['email'];?>">
-			  </div>
-			  <div class="form-group">
-				  <label for="billing-address">Billing Address:</label>
-				  <input type="text" class="form-control" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
-			  </div>
-			  <div class="form-group">
-				  <label for="billing-country">Country:</label>
-				  <select class="form-control" id="billing-country" name="billing-country"  onchange="changeCountry('billing');">
-					  <option value="US">United States</option>
-					  <option value="CA">Canada</option>
-				  </select>
-			  </div>
-			  <div class="form-group">
-				  <label for="billing-zip">Zip:</label>
-				  <input type="text" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
-			  </div>
-		  </div>
-		  <div class="col-md-6 right-form">
-			  <div class="form-group">
-				  <label for="lastName">Last Name:</label>
-				  <input type="text" class="form-control" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
-			  </div>
-			  <div class="form-group">
-				  <label for="phone">Phone:</label>
-				  <input type="tel" class="form-control" id="phone" name="phone" placeholder="optional" value="<?php echo $preFill['phone'];?>">
-			  </div>
-			  <div class="form-group">
-				  <label for="billing-city">City:</label>
-				  <input type="text" class="form-control" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
-			  </div>
-			  <div class="form-group">
-				  <label for="billing-state" id="billing-state-label">State:</label>
-				  <select class="form-control" id="billing-state" name="billing-state"  onchange="setStateTax();">
-					  <!--dynamically built w/ javascript-->
-				  </select>
-				  <input type="text" class="form-control" id="other-billing-state" name="other-billing-state" style="display:none;visibility:none;">
-			  </div>
-			  <a href="#" ><div class="form-button-continue">NEXT</div></a>
-		  </div>
-	  </div>
+		<div id="secure-guarantee">
+			<div id="secure-guarantee-header">Shopping  Is Safe &amp; Secure - Guaranteed!</div>
+			<div id="secure-guarantee-body" ><img src="/assets/images/checkout/secure-order-lock-02.png" width="20" height="20" alt="" style="margin-top:-2px;" class="pull-left"/>Secure credit card payment - this is a secure 256-bit SSL encrypted payment.</div>
+		</div>
+		<div class="checkbox">
+			<label for="sameas" class="sameas-select sameas-sm">
+				<input type="checkbox" id="sameas" name="sameas" value="1" >
+				My Shipping Address Is Different
+			</label>
+		</div>
 </div>
 
 <?php

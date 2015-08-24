@@ -569,7 +569,7 @@ address {
 /* CUSTOMIZE CHECKOUT FORM
 -------------------------------------------------- */
 #secure-order-bar {
-	height: 30px;
+	height: 40px;
 	width: 100%;
 	padding-bottom: 5px;
 	background-color:#b90003;
@@ -580,7 +580,7 @@ address {
 }
 .secure-order-label {
 	font-family:'Roboto Condensed', sans-serif;
-	padding-top:2px;
+	padding-top:7px;
 	text-transform: uppercase;
 }
 .form-container {
@@ -664,7 +664,7 @@ address {
 }
 #secure-guarantee {
 	background-color: #F5FAF5;
-	margin-top: 10px;
+	margin-top:-5px;
 	margin-bottom: 10px;
 	text-align: center;
 }
@@ -673,6 +673,7 @@ address {
 	font-weight: bold;
 	background-color: #CCF8CD;
 	color: #4D4D4D;
+	padding:5px 0 2px 0;
 
 }
 #secure-guarantee-body {
