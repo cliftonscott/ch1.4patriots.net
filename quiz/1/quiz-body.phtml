@@ -1,52 +1,56 @@
 <form class="quiz" method="post" id="quiz" action="/quiz/process-quiz.php">
 	<div id="section_1" style="">
 		<div id="start-quiz">
-			<a class="start-btn" onclick="nextQ(1);">Start The Quiz</a>
-			<p style="color:#e09800; font-size: 20pt" ><i class="fa fa-long-arrow-right"></i> Start The Quiz <i class="fa fa-long-arrow-left"></i></p>
+			<a style="margin-top:8px" class="start-btn" onclick="nextQ(0);">Start The Quiz</a>
+			<p style="color:#e09800; font-size: 20pt;" ><i class="fa fa-long-arrow-right"></i> Start The Quiz <i class="fa fa-long-arrow-left"></i></p>
 		</div>
 	</div>
+
 	<div id="section_2" style="display:none;visibility: hidden;">
-		<h3>Question Two</h3>
-		<div onclick="nextQ(2);" class="user-choice">
-			<input type="radio" name="question2" value="Answer 2.1" checked> Label 1<br>
+		<h3>1. If the U.S. government were to take over complete control of our country, do you have a basement or a safe place underground that you and your family can escape to?</h3>
+		<div onclick="nextQ(1);">
+			<input type="radio" name="If the U.S. government were to take over complete control of our country, do you have a basement or a safe place underground that you and your family can escape to?" id="radio1" value="A.Yes" class="radio" checked/>
+			<label for="radio1">A.Yes</label>
 		</div>
-		<div onclick="nextQ(2);" class="user-choice">
-			<input type="radio" name="question2" value="Answer 2.2"> Label 2<br>
+
+		<div onclick="nextQ(1);">
+			<input type="radio" name="If the U.S. government were to take over complete control of our country, do you have a basement or a safe place underground that you and your family can escape to?" id="radio2" value="B.No" class="radio"/>
+			<label for="radio2">B.No</label>
 		</div>
-		<div onclick="nextQ(2);" class="user-choice">
-			<input type="radio" name="question2" value="Answer 2.3"> Label 3<br>
-		</div>
-		<div onclick="nextQ(2);" class="user-choice">
-			<input type="radio" name="question2" value="Answer 2.4"> Label 4<br>
+
+		<div onclick="nextQ(1);">
+			<input type="radio" name="If the U.S. government were to take over complete control of our country, do you have a basement or a safe place underground that you and your family can escape to?" id="radio3" value="C.Not sure" class="radio"/>
+			<label for="radio3">C.Not sure</label>
 		</div>
 	</div>
+
 	<div id="section_3" style="display:none;visibility: hidden;">
 		<h3>Question Three</h3>
-		<div onclick="nextQ(3);" class="user-choice">
+		<div onclick="nextQ(2);" class="user-choice">
 			<input type="radio" name="question3" value="Answer 3.1" checked> Label 1<br>
 		</div>
-		<div onclick="nextQ(3);" class="user-choice">
+		<div onclick="nextQ(2);" class="user-choice">
 			<input type="radio" name="question3" value="Answer 3.2"> Label 2<br>
 		</div>
-		<div onclick="nextQ(3);" class="user-choice">
+		<div onclick="nextQ(2);" class="user-choice">
 			<input type="radio" name="question3" value="Answer 3.3"> Label 3<br>
 		</div>
-		<div onclick="nextQ(3);" class="user-choice">
+		<div onclick="nextQ(2);" class="user-choice">
 			<input type="radio" name="question3" value="Answer 3.4"> Label 4<br>
 		</div>
 	</div>
 	<div id="section_4" style="display:none;visibility: hidden;">
 		<h3>Question Four</h3>
-		<div onclick="nextQ(4);" class="user-choice">
+		<div onclick="nextQ(3);" class="user-choice">
 			<input type="radio" name="question" value="Answer 1.1" checked> Label 1
 		</div>
-		<div onclick="nextQ(4);" class="user-choice">
+		<div onclick="nextQ(3);" class="user-choice">
 			<input type="radio" name="question" value="Answer 1.2"> Label 2
 		</div>
-		<div onclick="nextQ(4);" class="user-choice">
+		<div onclick="nextQ(3);" class="user-choice">
 			<input type="radio" name="question" value="Answer 1.3"> Label 3
 		</div>
-		<div onclick="nextQ(4);" class="user-choice">
+		<div onclick="nextQ(3);" class="user-choice">
 			<input type="radio" name="question" value="Answer 1.4"> Label 4
 		</div>
 	</div>
