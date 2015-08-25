@@ -23,7 +23,11 @@ include_once ('template-top.php');
 					<p>But the truth is... that’s <strong>not enough</strong> to actually survive when chaos strikes.</p>
 					<p>If you want to be totally self-reliant and able to protect your family when a crisis hits (without having to rely on the Federal government to take care of you) then do yourself a favor and take the FREE, 33 second, <strong>Government Survival Quiz</strong> below...</p>
 					<p>Simply click the orange “Start The Quiz” button below to see if you and your family are truly prepared to survive a government gone wild...</p>
-					<p><input type="submit"></p>
+
+					<div id="start-quiz">
+						<input style="margin-top:8px" type="submit" class="start-btn" value="Start The Quiz">
+						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
+					</div>
 					<p>This quiz is 100% FREE and takes only 33 seconds to complete. All answers are kept completely private and secure.</p>
 					<img src="/media/images/misc/as-seen-advertised-on-01-grayscale.jpg" class="img-responsive center-block">
 				</div>
