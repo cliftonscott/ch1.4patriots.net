@@ -129,37 +129,49 @@ if($_SESSION['errorMessage'] != '') {
 			<div id="secure-guarantee-header">Shopping  Is Safe &amp; Secure - Guaranteed!</div>
 			<div id="secure-guarantee-body" ><img src="/assets/images/checkout/secure-order-lock-02.png" width="20" height="20" alt="" style="margin-top:-2px;" class="pull-left"/>Secure credit card payment - this is a secure 256-bit SSL encrypted payment.</div>
 		</div>
-		<div class="checkbox">
-			<label for="sameas" class="sameas-select sameas-sm">
-				<input type="checkbox" id="sameas" name="sameas" value="1" >
-				My Shipping Address Is Different
-			</label>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="cc-align"><img src="/assets/images/checkout/credit-card.png" width="200" height="26" alt="Credit Cards Accepted"></div>
+			</div>
+			<div class="col-md-6">
+				<div class="checkbox">
+					<label for="sameas" class="sameas-select sameas-sm">
+						<input type="checkbox" id="sameas" name="sameas" value="1" >
+						My Shipping Address Is Different
+					</label>
+				</div>
+			</div>
 		</div>
 		<!-- *SHIPPING ADDRESS -->
 		<div id="shipaddd" style="display:none;">
-			<div class="row" style="padding-bottom: 7px;">
+			<div class="row">
 				<div class="col-md-6 left-form">
 					<div class="form-group">
 						<label for="shipping-address">Shipping Address:</label>
 						<input type="text" class="form-control" id="shipping-address" name="shipping-address" value="<?php echo $preFill['shipping-address'];?>">
 					</div>
-					<div class="form-group">
-						<label for="shipping-country">Country:</label>
-						<select class="form-control" id="shipping-country" name="shipping-country"  onchange="changeCountry('shipping');">
-							<option value="US">United States</option>
-							<option value="CA">Canada</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label for="shipping-zip">Zip:</label>
-						<input type="text" class="form-control zip-field" id="shipping-zip" name="shipping-zip" value="<?php echo $preFill['shipping-zip'];?>">
-					</div>
+
+
 				</div>
 				<div class="col-md-6 right-form">
 					<div class="form-group">
 						<label for="shipping-city">City:</label>
 						<input type="text" class="form-control" id="shipping-city" name="shipping-city" value="<?php echo $preFill['shipping-city'];?>">
 					</div>
+
+				</div>
+			</div>
+			<div class="row" style="padding-bottom: 7px;">
+				<div class="col-md-4 left-form">
+					<div class="form-group">
+						<label for="shipping-country" style="padding-left:8%!important;">Country:</label>
+						<select class="form-control" id="shipping-country" name="shipping-country"  onchange="changeCountry('shipping');">
+							<option value="US">United States</option>
+							<option value="CA">Canada</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4 right-form">
 					<div class="form-group">
 						<label for="shipping-state" id="shipping-state-label">State:</label>
 						<select class="form-control" id="shipping-state" name="shipping-state"  onchange="setStateTax();">
@@ -168,9 +180,14 @@ if($_SESSION['errorMessage'] != '') {
 						<input type="text" class="form-control" id="other-shipping-state" name="other-shipping-state" style="display:none;visibility:none;">
 					</div>
 				</div>
+				<div class="col-md-4 right-form">
+					<div class="form-group">
+						<label for="shipping-zip">Zip:</label>
+						<input type="text" class="form-control zip-field" id="shipping-zip" name="shipping-zip" value="<?php echo $preFill['shipping-zip'];?>">
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="cc-align"><img src="/assets/images/checkout/credit-card.png" width="200" height="26" alt="Credit Cards Accepted"></div>
 		<div class="row" style="padding-bottom: 7px;">
 			<div class="col-md-5 left-form">
 				<div class="form-group">
@@ -213,7 +230,7 @@ if($_SESSION['errorMessage'] != '') {
 			</div>
 			<div class="col-md-3 right-form">
 				<div class="form-group">
-					<label for="card-cvv2">
+					<label for="card-cvv2" style="margin-bottom:3px;">
 						CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
 					<input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
 				</div>

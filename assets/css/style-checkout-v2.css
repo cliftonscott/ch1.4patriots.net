@@ -607,14 +607,24 @@ address {
 .form-group {
 	margin-bottom: 5px;
 }
-.form-container #firstName, #email, #billing-address, #billing-country, #billing-zip, #shipping-address, #shipping-country, #shipping-zip, #creditCardNumber {
+.form-container #firstName, #email, #billing-address, #billing-country, #billing-zip, #shipping-address, #creditCardNumber {
 	width: 100%;
 	margin-left:5%;
 	margin-bottom:10px;
 }
-.form-container #lastName, #phone, #billing-city, #billing-state, #shipping-city, #shipping-state {
+.form-container #lastName, #phone, #billing-city, #billing-state, #shipping-city {
 	width: 95%;
 	margin-bottom:10px;
+}
+.form-container #shipping-state {
+	width:100%;
+}
+.form-container #shipping-country {
+	width:92%;
+	margin-left:8%;
+}
+.form-container #shipping-zip {
+	width: 92%;
 }
 .form-container #card_expires_on_month {
 	width:55%;
@@ -693,10 +703,15 @@ input:-moz-placeholder { font-size: 11pt;}
 	text-decoration: none;
 	background-color: #000;
 	color: #FF0;
-	padding: 1px;
+	padding: 0;
 }
 .popover {
 	max-width: 900px;
+}
+.popover h3 {
+	color: black;
+	font-size:14px;
+	margin-top:0;
 }
 /* hides the spin-button for firefox */
 input[type=number] {
@@ -747,11 +762,6 @@ input[type=number]::-webkit-outer-spin-button {
 .form-button-continue a:hover {
 	text-decoration: none;
 }
-.checkbox {
-	font-weight: bold;
-	padding-bottom:5px;
-}
-
 /******************************
 RESPONSIVE
 ******************************/
