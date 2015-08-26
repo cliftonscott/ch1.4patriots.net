@@ -762,6 +762,13 @@ input[type=number]::-webkit-outer-spin-button {
 .form-button-continue a:hover {
 	text-decoration: none;
 }
+.checkbox {
+	margin-top: 0;
+}
+.checkbox label {
+	text-align: left !important;
+	padding-left: 0;
+}
 /******************************
 RESPONSIVE
 ******************************/
