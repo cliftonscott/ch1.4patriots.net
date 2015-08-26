@@ -22,7 +22,7 @@ if($_SESSION["googleTransaction"]) {
 					'products': [{                            // List of productFieldObjects.
 						'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
 						'id': '<?php echo $googleTransaction["orderSku"];?>',
-						'price': '<?php echo number_format($googleTransaction["price"],2);?>',
+						'price': '<?php echo number_format($googleTransaction["price"],2, '.', '');?>',
 						'brand': '<?php echo $googleTransaction["brand"];?>',
 						'category': '<?php echo $googleTransaction["orderCategory"];?>',
 						'variant': '<?php echo $googleTransaction["orderCategory"];?>',
