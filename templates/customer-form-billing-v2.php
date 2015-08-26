@@ -129,11 +129,112 @@ if($_SESSION['errorMessage'] != '') {
 			<div id="secure-guarantee-header">Shopping  Is Safe &amp; Secure - Guaranteed!</div>
 			<div id="secure-guarantee-body" ><img src="/assets/images/checkout/secure-order-lock-02.png" width="20" height="20" alt="" style="margin-top:-2px;" class="pull-left"/>Secure credit card payment - this is a secure 256-bit SSL encrypted payment.</div>
 		</div>
-		<div class="checkbox">
-			<label for="sameas" class="sameas-select sameas-sm">
-				<input type="checkbox" id="sameas" name="sameas" value="1" >
-				My Shipping Address Is Different
-			</label>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="cc-align"><img src="/assets/images/checkout/credit-card.png" width="200" height="26" alt="Credit Cards Accepted"></div>
+			</div>
+			<div class="col-md-6">
+				<div class="checkbox">
+					<label for="sameas" class="sameas-select sameas-sm">
+						<input type="checkbox" id="sameas" name="sameas" value="1" >
+						My Shipping Address Is Different
+					</label>
+				</div>
+			</div>
+		</div>
+		<!-- *SHIPPING ADDRESS -->
+		<div id="shipaddd" style="display:none;">
+			<div class="row">
+				<div class="col-md-6 left-form">
+					<div class="form-group">
+						<label for="shipping-address">Shipping Address:</label>
+						<input type="text" class="form-control" id="shipping-address" name="shipping-address" value="<?php echo $preFill['shipping-address'];?>">
+					</div>
+
+
+				</div>
+				<div class="col-md-6 right-form">
+					<div class="form-group">
+						<label for="shipping-city">City:</label>
+						<input type="text" class="form-control" id="shipping-city" name="shipping-city" value="<?php echo $preFill['shipping-city'];?>">
+					</div>
+
+				</div>
+			</div>
+			<div class="row" style="padding-bottom: 7px;">
+				<div class="col-md-4 left-form">
+					<div class="form-group">
+						<label for="shipping-country" style="padding-left:8%!important;">Country:</label>
+						<select class="form-control" id="shipping-country" name="shipping-country"  onchange="changeCountry('shipping');">
+							<option value="US">United States</option>
+							<option value="CA">Canada</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4 right-form">
+					<div class="form-group">
+						<label for="shipping-state" id="shipping-state-label">State:</label>
+						<select class="form-control" id="shipping-state" name="shipping-state"  onchange="setStateTax();">
+							<!--dynamically built w/ javascript-->
+						</select>
+						<input type="text" class="form-control" id="other-shipping-state" name="other-shipping-state" style="display:none;visibility:none;">
+					</div>
+				</div>
+				<div class="col-md-4 right-form">
+					<div class="form-group">
+						<label for="shipping-zip">Zip:</label>
+						<input type="text" class="form-control zip-field" id="shipping-zip" name="shipping-zip" value="<?php echo $preFill['shipping-zip'];?>">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="padding-bottom: 7px;">
+			<div class="col-md-5 left-form">
+				<div class="form-group">
+					<label for="creditCardNumber">Card Number:</label>
+					<input type="number" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber" style="margin-left: 5%;" value="">
+				</div>
+			</div>
+			<div class="col-md-4 right-form">
+				<div class="form-inline expiration">
+					<div class="form-group">
+						<label for="card_expires_on_month">Expiration:</label>
+						<select class="form-control" id="card_expires_on_month" name="card_expires_on_month" >
+							<option selected="selected" value="01">01 - January</option>
+							<option value="02">02 - February</option>
+							<option value="03">03 - March</option>
+							<option value="04">04 - April</option>
+							<option value="05">05 - May</option>
+							<option value="06">06 - June</option>
+							<option value="07">07 - July</option>
+							<option value="08">08 - August</option>
+							<option value="09">09 - September</option>
+							<option value="10">10 - October</option>
+							<option value="11">11 - November</option>
+							<option value="12">12 - December</option>
+						</select>
+
+						<select class="form-control" id="card_expires_on_year" name="card_expires_on_year" >
+
+							<?php
+							//use php to calculate years into future and generate options
+							$lastExpirationYear = date("y") + 10;
+							for($year = date("y"); $year <= $lastExpirationYear;  $year++) {
+								echo "<option value=" . $year . ">20" . $year . "</option>\n";
+							}
+							?>
+
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 right-form">
+				<div class="form-group">
+					<label for="card-cvv2" style="margin-bottom:3px;">
+						CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
+					<input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
+				</div>
+			</div>
 		</div>
 </div>
 
