@@ -51,8 +51,9 @@ input.radio:empty ~ label:before {
 
 /* toggle hover */
 input.radio:hover:not(:checked) ~ label:before {
-    content:'\2714';
-    text-indent: .9em;
+    font-family: FontAwesome;
+    content: "\f00c";
+    text-indent: .7em;
     color: #9CE2AE;
     background-color: #4DCB6D;
 }
@@ -63,8 +64,9 @@ input.radio:hover:not(:checked) ~ label {
 
 /* toggle on */
 input.radio:checked ~ label:before {
-    content:'\2714';
-    text-indent: .9em;
+    font-family: FontAwesome;
+    content: "\f00c";
+    text-indent: .7em;
     color: #9CE2AE;
     background-color: #4DCB6D;
 }
