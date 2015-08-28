@@ -1,0 +1,898 @@
+/******************************
+MAIN STYLING
+******************************/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+header {
+	background: linear-gradient(rgb(254,254,254),rgb(227,227,227));
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+a:hover, a:active, a:focus {
+	 text-decoration: none;
+ }
+
+/******************************
+HEADER
+******************************/
+.header-content {
+	max-width: 400px;
+	height:75px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.logo {
+	margin:0 auto;
+	padding-top:12px;
+}
+.phone-contact {
+	float: right;
+}
+.phone-band {
+	height: 20px;
+	background-color:#b90003;
+}
+.phone-band-content {
+	max-width:300px;
+	margin:0 auto;
+}
+.phone-band p {
+	line-height:0;
+	margin:0;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	padding: 3px 10px;
+}
+.phone-band i {
+	padding-right:5px;
+}
+
+/******************************
+PRODUCT MOBILE
+******************************/
+
+.product-area-mobile-content {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.drop-down {
+	max-width: 199px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.product-area-mobile-content h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	line-height: 1em;
+}
+
+.product-area-mobile-content h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #acf0ff;
+	text-align: center;
+	line-height: 1em;
+}
+.quantity-mobile {
+	background: linear-gradient(rgba(255,255,255,0.95),rgba(255,255,255,0.95)),
+	url("/media/images/checkout-v2/buy-button-pattern.png");
+	width:100%;
+	bottom: 0;
+}
+
+/******************************
+PRODUCT DESKTOP
+******************************/
+
+.product-area-wrapper {
+	background-image: url("/media/images/checkout-v2/product-bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	border-bottom: 20px solid #b90003;
+	width: 100%;
+}
+.product-area-content {
+	width: 960px;
+	margin: 0 auto;
+}
+.tab-content h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	line-height: 0.7em;
+	margin-top:25px;
+}
+.tab-content h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #acf0ff;
+	text-align: center;
+	line-height: 1em;
+}
+.tab-content h5 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1em;
+}
+.include-column {
+	max-width: 100%;
+	margin-left: 30px;
+}
+.include-list {
+	list-style: inside;
+	padding-left: 0;
+}
+.include-list li {
+	color: #fff;
+	font-size: 16px;
+	padding-left: 0;
+	line-height: 1.2em;
+}
+.shipping-truck {
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.quantity-box {
+	background: linear-gradient(rgba(255,255,255,0.95),rgba(255,255,255,0.95)),
+				url("/media/images/checkout-v2/buy-button-pattern.png");
+	box-shadow:  -3px -3px 6px #000;
+	width:250px;
+	border-radius: 25px 25px 0 0;
+	margin: 0 auto;
+	position: absolute;
+	float: right;
+	top: -261px;
+	left: 645px;
+}
+.quantity-box-content {
+	padding-left: 20px;
+}
+.quantity-box-left {
+	text-align: right;
+	padding-top:20px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1em;
+}
+.quantity-box-right {
+	text-align: left;
+	padding-top:20px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1em;
+}
+.tabs-wrapper {
+	min-height: 75px;
+	background: linear-gradient(rgb(254,254,254),rgb(227,227,227));
+	max-width: 100%;
+}
+.tabs-content {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.nav-pills {
+	padding-top:5px;
+	padding-left: 40px;
+}
+.nav-pills li {
+	text-align: center;
+	font-size:22px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	line-height: 1em;
+	background: url("/media/images/checkout-v2/unselected-check.png") no-repeat;
+	height: 65px;
+	width: 270px;
+	margin: 0 auto;
+}
+.nav-pills a:focus, .nav-pills a:hover {
+	background: url("/media/images/checkout-v2/unselected-check.png") no-repeat;
+}
+.tab-product {
+	color: #000;
+	padding-left: 20px;
+}
+.tab-price {
+	font-size: 18px;
+	color: #616161;
+	padding-left: 20px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background: url("/media/images/checkout-v2/selected-check.png") no-repeat;
+}
+.nav-pills>li.active>a .tab-product, .nav-pills>li.active>a:focus .tab-product, .nav-pills>li.active>a:hover .tab-product {
+	color: green;
+}
+
+.buy-button-wrapper {
+	height: 100px;
+	background: linear-gradient(rgba(225,225,225,0.9),rgba(206,206,206,0.9)),
+				url("/media/images/checkout-v2/buy-button-pattern.png");
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+	box-shadow: 0 2px 10px #7c7c7c;
+	max-width: 100%;
+	position: relative;
+	z-index: 5;
+}
+
+.buy-button-content {
+	max-width: 300px;
+	margin: 0 auto;
+	padding-top: 13px;
+	padding-right: 20px;
+	position: relative;
+}
+
+.buy-button {
+	height:73px;
+	width:300px;
+	background: linear-gradient(rgba(79,141,29,0.9),rgba(101,179,39,0.9)),
+				url("/media/images/checkout-v2/buy-button-pattern.png");
+	border: solid 2px #fff;
+	box-shadow: 0 0 18px 0 rgba(0,0,0,0.5);
+	border-radius: 15px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	padding-top: 14px;
+}
+.buy-button:hover {
+	background: linear-gradient(rgba(101,179,39,0.9),rgba(79,141,29,0.9)),
+				url("/media/images/checkout-v2/buy-button-pattern.png");
+	color: rgba(255,255,255,0.8);
+}
+.buy-button-content a:hover {
+	text-decoration: none;
+}
+
+/******************************
+TESTIMONIALS
+******************************/
+
+.testimonial-wrapper {
+	background: linear-gradient(rgba(225,225,225,0.9),rgba(206,206,206,0.9));
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+.testimonial-content {
+	max-width: 960px;
+	margin: 0 auto;
+	padding:20px;
+}
+.testimonial-content h1 {
+	text-align: center;
+}
+.testimonial-column {
+	max-width: 100%;
+	margin-bottom:40px;
+}
+.testimonial-row {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.testimonial-row + .testimonial-row {border-top: solid 1px #c3c3c3;}
+.testimonial-text {
+	display: table;
+	padding-bottom:20px;
+}
+.testimonial-text p {
+	display: table-cell;
+	vertical-align: middle;
+	font-style: italic;
+	padding-top: 20px;
+}
+.testimonial-image {
+	margin: 0 auto;
+}
+.testimonial-image img {
+	padding-top:20px;
+}
+.person {
+	color: #2c6299;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.testimonial-video-column {
+	float: right;
+	width: 100%;
+	margin-top:30px;
+	margin-bottom:40px;
+}
+.video-box {
+	min-height: 213px;
+	max-width:400px;
+	margin:0 auto;
+	background: url("/media/images/checkout-v2/video-bg.jpg");
+	position: relative;
+}
+.video-caption {
+	background: rgba(24,31,48,0.8);
+	width:100%;
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	text-align: center;
+	display: table;
+}
+.video-caption a {
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	vertical-align: middle;
+	display: table-cell;
+}
+.video-caption a:hover {
+	text-decoration: none;
+	color: rgba(255,255,255,0.9);
+	cursor: hand;
+}
+.youtube-button {
+	width:65px;
+	padding-top:70px;
+}
+.fb-testimonial {
+	padding-top:14px;
+}
+
+/******************************
+GLENN BECK
+******************************/
+
+.glenn-beck-wrapper {
+	min-height: 350px;
+	background: url("/media/images/checkout-v2/gb-bg.jpg");
+	background-size: cover;
+	background-position: bottom center;
+	background-attachment: fixed;
+	border-top:  solid 2px #c3c3c3;
+	border-bottom: solid 2px #c3c3c3;
+	box-shadow: inset 0 0 40px 10px rgba(0,0,0,0.3);
+}
+.glenn-beck-content {
+	min-height:350px;
+	max-width:960px;
+	margin: 0 auto;
+}
+.glenn-beck-callout {
+	color: #1d253c;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2em;
+	padding: 65px 0 0 40px;
+}
+.glenn-beck-caption {
+	padding: 20px 0 20px 40px;
+}
+.glenn-beck-img {
+	min-height:350px;
+	background: url("/media/images/checkout-v2/glenn-beck.png") no-repeat right bottom;
+}
+.gb-button {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 20%;
+}
+.gb-button img {
+	height: 83px;
+	width: 82px;
+}
+
+/******************************
+WHATS INCLUDED
+******************************/
+
+.whats-included-menu-wrapper {
+	min-height: 200px;
+	background: linear-gradient(rgba(254,254,254,0.9),rgba(227,227,227,0.9));
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+	box-shadow: 0px 2px 10px #7c7c7c;
+	position: relative;
+	z-index: 6;
+}
+.whats-included-menu-content {
+	max-width:960px;
+	margin: 0 auto;
+}
+.whats-included-content {
+	padding: 20px;
+	max-width:960px;
+	margin: 0 auto;
+}
+.whats-included-list ul {
+	margin: 0.75em 0;
+	padding: 0 1em;
+	list-style: none;
+	line-height: 1em;
+	color: #5b83a3;
+	font-size: 18px;
+}
+.whats-included-list li:before {
+	content: "";
+	border-color: transparent #5b83a3;
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	top: 0.9em;
+	position: relative;
+}
+.food-grid {
+	padding: 20px;
+}
+.food-grid p {
+	padding: 5px 0;
+	text-align: center;
+	color: #676f7d;
+	font-size: 11px;
+}
+
+/******************************
+GUARANTEES
+******************************/
+
+.guarantee-wrapper {
+	background: url("/media/images/checkout-v2/guarantee-text-bg-01.jpg");
+	background-size: cover;
+	min-height: 500px;
+	margin: 0;
+}
+.guarantee-content {
+	max-width:720px;
+	margin: 20px auto 0 auto;
+	min-height: 469px;
+	vertical-align: middle;
+	padding-bottom: 20px;
+}
+.guarantees {
+	padding: 20px 40px 0 40px;
+}
+.guarantees p {
+	font-size: 18px;
+	color: #1d253c;
+	padding-bottom:20px;
+}
+.guarantee-number {
+	font-size:22px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+}
+.guaranatee-seal {
+	min-height: 469px;
+}
+
+/******************************
+FAQ
+******************************/
+
+.faq-wrapper {
+	background: linear-gradient(rgb(254,254,254),rgb(227,227,227));
+}
+.faq-content {
+	max-width:760px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/******************************
+BADGES
+******************************/
+
+.badge-wrapper {
+	height:130px;
+	width:100%;
+}
+.badge-content {
+	max-width:960px;
+	margin: 0 auto;
+	padding-top:30px;
+}
+
+/******************************
+FOOTER
+******************************/
+
+.footer-wrapper {
+	background: #1d253c;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+address {
+	color: white;
+	text-align: center;
+	padding-top:20px;
+}
+.footer-links {
+	text-align: center;
+	padding: 0 20px;
+}
+.copyright {
+	padding: 20px 20px 0 20px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+.badge-4p {
+	width:163px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+.badge-4p img {
+	margin: 0 auto;
+}
+/* CUSTOMIZE CHECKOUT FORM
+-------------------------------------------------- */
+#secure-order-bar {
+	height: 40px;
+	width: 100%;
+	padding-bottom: 5px;
+	background-color:#b90003;
+	font-weight: bold;
+	font-size: 18px;
+	color: #F2F2F2;
+	margin-bottom: 5px;
+}
+.secure-order-label {
+	font-family:'Roboto Condensed', sans-serif;
+	padding-top:7px;
+	text-transform: uppercase;
+}
+.form-container {
+	width: 100%;
+	background: linear-gradient(rgba(254,254,254,0.9),rgba(227,227,227,0.9));
+}
+.left-form label {
+	display: block;
+	margin-right: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin-top: 4px;
+	font-weight: bold;
+	padding-left: 5%;
+}
+.right-form label {
+	display: block;
+	margin-right: 10px;
+	text-align: left;
+	font-size: 14px;
+	margin-top: 4px;
+	font-weight: bold;
+}
+.form-group {
+	margin-bottom: 5px;
+}
+.form-container #firstName, #email, #billing-address, #billing-country, #billing-zip, #shipping-address, #creditCardNumber {
+	width: 100%;
+	margin-left:5%;
+	margin-bottom:10px;
+}
+.form-container #lastName, #phone, #billing-city, #billing-state, #shipping-city {
+	width: 95%;
+	margin-bottom:10px;
+}
+.form-container #shipping-state {
+	width:100%;
+}
+.form-container #shipping-country {
+	width:92%;
+	margin-left:8%;
+}
+.form-container #shipping-zip {
+	width: 92%;
+}
+.form-container #card_expires_on_month {
+	width:55%;
+}
+.form-container input.error {
+	background: #ff9c9c !important;
+	border: 1px solid #d71a1f !important;
+}
+.form-container label.error {
+	margin:0px;
+	padding:0px;
+	height:0px;
+	display:none;
+	visibility:hidden;
+}
+
+.sameas-select{
+	width: 94% !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	text-align: center !important;
+}
+.cc-align{
+	padding-left: 0px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.expiration select{
+	margin-bottom: 10px;
+}
+.cvv2-field {
+	width: 60px !important;
+}
+#productInfo {
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+#productInfoOTO {
+	padding-top: 10px;
+	padding-left: 23px;
+	padding-bottom: 10px;
+}
+#secure-guarantee {
+	background-color: #F5FAF5;
+	margin-top:-5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#secure-guarantee-header {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #CCF8CD;
+	color: #4D4D4D;
+	padding:5px 0 2px 0;
+
+}
+#secure-guarantee-body {
+	font-size: 12px;
+	width: 90%;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+	transition: opacity 0.5s 0.5s ease !important;
+	opacity: 0;
+}
+input::-webkit-input-placeholder { font-size: 11pt; }
+input::-moz-placeholder { font-size: 11pt; }
+input:-ms-input-placeholder { font-size: 11pt;}
+input:-moz-placeholder { font-size: 11pt;}
+.ccv-tooltip {
+	text-decoration: none;
+	background-color: #000;
+	color: #FF0;
+	padding: 0;
+}
+.popover {
+	max-width: 900px;
+}
+.popover h3 {
+	color: black;
+	font-size:14px;
+	margin-top:0;
+}
+/* hides the spin-button for firefox */
+input[type=number] {
+	-moz-appearance:textfield;
+}
+/* hides the spin-button for chrome*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.guaranteeBox {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: #FFFBEA;
+	border-radius: 15px;
+}
+.warning-check {
+	background-image: url(../images/misc/warning-check-left.gif);
+	width: 120px;
+	height: 52px;
+	position:absolute;top:-10px;
+}
+.form-button-continue {
+	height:59px;
+	width:95%;
+	background: linear-gradient(rgba(79,141,29,0.9),rgba(101,179,39,0.9)),
+	url("/media/images/checkout-v2/buy-button-pattern.png");
+	border: solid 2px #fff;
+	border-radius: 5px;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	padding-top: 12px;
+}
+.form-button-continue:hover {
+	background: linear-gradient(rgba(101,179,39,0.9),rgba(79,141,29,0.9)),
+	url("/media/images/checkout-v2/buy-button-pattern.png");
+	color: rgba(255,255,255,0.8);
+}
+.form-button-continue a:hover {
+	text-decoration: none;
+}
+.checkbox {
+	margin-top: 0;
+}
+.checkbox label {
+	text-align: left !important;
+	padding-left: 0;
+}
+/******************************
+RESPONSIVE
+******************************/
+.display-960 {
+	display: none;
+}
+.hidden-960 {
+	display: inherit;
+}
+
+
+@media screen and (min-width: 992px) {
+
+	.display-960 {
+		display: inherit;
+	}
+	.hidden-960 {
+		display: none;
+	}
+	.header-content {
+		max-width: 960px;
+		margin:0 auto;
+		height:75px;
+	}
+	.logo {
+		float: left;
+	}
+	.phone-contact {
+		float: right;
+	}
+	.phone-band-content {
+		max-width:960px;
+	}
+	.phone-band p {
+		float: right;
+	}
+	.product-area-wrapper {
+		min-height: 450px;
+	}
+	.include-column {
+		min-height: 450px;
+	}
+	.shipping-truck {
+		margin: 0;
+		padding: 0;
+	}
+	.quantity-box {
+		position: absolute;
+	}
+	.tabs-content {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	.nav-pills {
+		padding-left: 0;
+	}
+	.nav-pills li {
+		margin-left: 3.8%;
+		margin-right: 3.8%;
+	}
+	.buy-button-wrapper {
+		max-width:100%;
+	}
+	.buy-button-content {
+		max-width:960px;
+		margin:0 auto;
+	}
+	.buy-button {
+		float: right;
+	}
+	.testimonial-content h1 {
+		text-align: left;
+	}
+	.testimonial-column {
+		max-width: 600px;
+		float: left;
+	}
+	.testimonial-row {
+		max-width: 500px;
+	}
+	.testimonial-text {
+		display: table;
+		min-height: 180px;
+		float: left;
+		padding-bottom: 0;
+	}
+	.testimonial-image {
+		padding: 0;
+		height: 180px;
+	}
+	.testimonial-image img {
+		padding-top:45px;
+	}
+	.testimonial-text p {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 0;
+	}
+	.testimonial-video-column {
+		float: right;
+		width: 400px;
+		margin-top:30px;
+	}
+	.guarantee-wrapper {
+		background: url("/media/images/checkout-v2/guarantee-bg.jpg") fixed;
+		min-height: 600px;
+		background-size:cover;
+	}
+	.guarantee-content {
+		width:720px;
+		margin: 60px auto 0 auto;
+		background: url("/media/images/checkout-v2/guarantee-text-bg.png");
+		min-height: 469px;
+		vertical-align: middle;
+	}
+	.guarantee-seal img {
+		padding:120px 30px 0 0;
+	}
+	.guarantees {
+		padding: 60px 0 0 40px;
+	}
+	.guarantees p {
+		font-size: 18px;
+		color: #1d253c;
+		padding-bottom:20px;
+	}
+}
