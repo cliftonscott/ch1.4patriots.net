@@ -18,5 +18,5 @@ include_once("Quiz.php");
 $quizObj = new Quiz();
 $save = $quizObj->saveQuizResults($dataObj);
 
-header("Location: /checkout/index.php");
+header("Location: /video/index.php");
 exit;
