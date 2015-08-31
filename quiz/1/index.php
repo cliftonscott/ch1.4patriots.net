@@ -18,8 +18,7 @@ include_once ('template-top.php');
 					</div>
 					<p>527, 197 people have taken the <strong><i>Government Survival Quiz.</i></strong> Start the quiz below to see if you & your family are prepared to survive if the government finally gets <strong>complete control</strong> of America...</p>
 					<div id="start-quiz">
-						/// make this button a link to quiz.php //
-						<input style="margin-top:8px" type="submit" class="start-btn" value="Start The Quiz">
+						<a href="quiz.php" class="start-btn" style="margin-top:8px">Start The Quiz</a>
 						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
 					</div>
 					<p>In this FREE, <strong>33 second</strong> quiz you’ll get to see if you and your family are truly prepared to survive a major crisis such as a government takeover, economic collapse or even martial law.</p>
@@ -28,8 +27,7 @@ include_once ('template-top.php');
 					<p>If you want to be totally self-reliant and able to protect your family when a crisis hits (without having to rely on the Federal government to take care of you) then do yourself a favor and take the FREE, 33 second, <strong>Government Survival Quiz</strong> below...</p>
 					<p>Simply click the orange “Start The Quiz” button below to see if you and your family are truly prepared to survive a government gone wild...</p>
 					<div id="start-quiz">
-						/// make this button a link to quiz.php //
-						<input style="margin-top:8px" type="submit" class="start-btn" value="Start The Quiz">
+						<a href="quiz.php" class="start-btn" style="margin-top:8px">Start The Quiz</a>
 						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
 					</div>
 					<p>This quiz is 100% FREE and takes only 33 seconds to complete. All answers are kept completely private and secure.</p>
