@@ -17,13 +17,18 @@ include_once ('template-top.php');
 						<h1 class="darkRed text-center">Are You And Your<br class="hidden-xs"> Family Prepared To<br class="hidden-xs"> Survive A Government<br class="hidden-xs"> Controlled Society?</h1>
 					</div>
 					<p>527, 197 people have taken the <strong><i>Government Survival Quiz.</i></strong> Start the quiz below to see if you & your family are prepared to survive if the government finally gets <strong>complete control</strong> of America...</p>
-					<?php include_once("quiz-body.phtml");?>
+					<div id="start-quiz">
+						/// make this button a link to quiz.php //
+						<input style="margin-top:8px" type="submit" class="start-btn" value="Start The Quiz">
+						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
+					</div>
 					<p>In this FREE, <strong>33 second</strong> quiz you’ll get to see if you and your family are truly prepared to survive a major crisis such as a government takeover, economic collapse or even martial law.</p>
 					<p>Most people think they’re prepared for these scenarios because they already have water, food, guns and a back-up generator stored in their house...</p>
 					<p>But the truth is... that’s <strong>not enough</strong> to actually survive when chaos strikes.</p>
 					<p>If you want to be totally self-reliant and able to protect your family when a crisis hits (without having to rely on the Federal government to take care of you) then do yourself a favor and take the FREE, 33 second, <strong>Government Survival Quiz</strong> below...</p>
 					<p>Simply click the orange “Start The Quiz” button below to see if you and your family are truly prepared to survive a government gone wild...</p>
 					<div id="start-quiz">
+						/// make this button a link to quiz.php //
 						<input style="margin-top:8px" type="submit" class="start-btn" value="Start The Quiz">
 						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
 					</div>
