@@ -17,6 +17,9 @@ label {
     width: 100%;
     border: 1px solid #D1D3D4;
 }
+h1.quizName {
+    color:red;
+}
 
 /* hide input */
 input.radio:empty {
