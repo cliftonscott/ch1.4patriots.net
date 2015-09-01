@@ -35,6 +35,7 @@ include_once ('template-top.php');
 				</div>
 			</div>
 		</div>
+
 		<?php
 		include_once("template-bottom.php");
 		?>
