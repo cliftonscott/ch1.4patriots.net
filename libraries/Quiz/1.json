@@ -1,0 +1,29 @@
+{
+  "index.php": {
+      "question":"What is your favorite food?",
+      "options": [
+        {"1": "Bacon"},
+        {"2": "Bacon Bits"},
+        {"3": "Candied Bacon"}
+      ],
+      "nextUrl":"page2.php"
+  },
+  "page2.php": {
+      "question":"What is your favorite Sci/Fantasy book?",
+      "options": [
+        {"1": "Stranger In A Strange Land"},
+        {"2": "The Hobbit"},
+        {"3": "The White Dragon"}
+      ],
+      "nextUrl":"page3.php"
+  },
+  "page3.php": {
+      "question":"What is your favorite band?",
+      "options": [
+        {"1": "Kajagoogoo"},
+        {"2": "Bananarama"},
+        {"3": "Haysi Fantayzee"}
+      ],
+      "nextUrl":"/checkout/index.php"
+  }
+}

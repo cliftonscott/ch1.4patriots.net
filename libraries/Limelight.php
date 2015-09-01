@@ -44,8 +44,8 @@ class Limelight {
 			'product_qty_' . $productDataObj->productId => $saleDataObj->quantity,
 			'C1' => $analyticsObj->sspData,
 			'C2' => $analyticsObj->subId2,
-			'C3' => $productDataObj->netRevenueEach,
-			
+			'C3' => $productDataObj->netRevenueEach * $saleDataObj->quantity,
+
 			'productId' => $productDataObj->productId,
 			'campaignId' => $productDataObj->campaignId,
 			
