@@ -14,7 +14,7 @@ include_once ('template-top.php');
 		<div class="row">
 			<div class="col-sm-12 col-md-12">
 				<?php
-				echo "<h1 class='quizName'>" . $quizName . "</h1>";
+				echo "<h1 style='color:#cc0000; font-weight: bold;' class='quizName'>" . $quizName . "</h1>";
 				include_once("quiz-body.phtml");
 				?>
 			</div>

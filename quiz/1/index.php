@@ -14,20 +14,20 @@ include_once ('template-top.php');
 				<div class="col-sm-12 col-md-12">
 					<div>
 						<p class="text-center"><i>Obama and his government cronies now have more<br class="hidden-xs"> power than ever before...</i></p>
-						<h1 class="darkRed text-center">Are You And Your<br class="hidden-xs"> Family Prepared To<br class="hidden-xs"> Survive A Government<br class="hidden-xs"> Controlled Society?</h1>
+						<h1 class="darkRed text-center">Are You And Your Family Prepared<br class="hidden-xs"> To Survive A Government<br class="hidden-xs"> Controlled Society?</h1>
 					</div>
-					<p>527, 197 people have taken the <strong><i>Government Survival Quiz.</i></strong> Start the quiz below to see if you & your family are prepared to survive if the government finally gets <strong>complete control</strong> of America...</p>
+					<p>527,197 people have taken the <strong><i>Government Survival Quiz.</i></strong> Start the quiz below to see if you & your family are prepared to survive if the government finally gets <strong>complete control</strong> of America...</p>
 					<div id="start-quiz">
-						<a href="quiz.php" class="start-btn" style="margin-top:8px">Start The Quiz</a>
+						<a href="quiz.php" class="start-btn" style="margin-top:8px; font-weight:bold;">Start The Quiz</a>
 						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
 					</div>
-					<p>In this FREE, <strong>33 second</strong> quiz you’ll get to see if you and your family are truly prepared to survive a major crisis such as a government takeover, economic collapse or even martial law.</p>
-					<p>Most people think they’re prepared for these scenarios because they already have water, food, guns and a back-up generator stored in their house...</p>
-					<p>But the truth is... that’s <strong>not enough</strong> to actually survive when chaos strikes.</p>
+					<p>In this FREE, <strong>33 second</strong> quiz you&#39;ll get to see if you and your family are truly prepared to survive a major crisis such as a government takeover, economic collapse or even martial law.</p>
+					<p>Most people think they&#39;re prepared for these scenarios because they already have water, food, guns and a back-up generator stored in their house...</p>
+					<p>But the truth is... that&#39;s <strong>not enough</strong> to actually survive when chaos strikes.</p>
 					<p>If you want to be totally self-reliant and able to protect your family when a crisis hits (without having to rely on the Federal government to take care of you) then do yourself a favor and take the FREE, 33 second, <strong>Government Survival Quiz</strong> below...</p>
-					<p>Simply click the orange “Start The Quiz” button below to see if you and your family are truly prepared to survive a government gone wild...</p>
+					<p>Simply click the orange &#34;Start The Quiz&#34; button below to see if you and your family are truly prepared to survive a government gone wild...</p>
 					<div id="start-quiz">
-						<a href="quiz.php" class="start-btn" style="margin-top:8px">Start The Quiz</a>
+						<a href="quiz.php" class="start-btn" style="margin-top:8px; font-weight:bold;">Start The Quiz</a>
 						<p style="color:#e09800; font-size: 20pt;" >(Click Here to Start The Quiz)</p>
 					</div>
 					<p>This quiz is 100% FREE and takes only 33 seconds to complete. All answers are kept completely private and secure.</p>
