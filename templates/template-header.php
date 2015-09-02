@@ -7,11 +7,22 @@
 	?>
 	<div class="navbar-header">
 <?php
+	$logoLink = array (
+		"/checkout/alt/f4p-discount-offer.php",
+		"/checkout/alt/f4p-free-food-offer.php",
+	);
+
 if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
 	$logoImage = "<a href='/index.php'>";
 	$logoImage.= "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
 	$logoImage.= "</a>";
-} else {
+}
+elseif(in_array($_SERVER["PHP_SELF"], $logoLink)) {
+	$logoImage = "<a href='/index.php'>";
+	$logoImage.= "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
+	$logoImage.= "</a>";
+}
+else {
 	$logoImage = "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
 }
 ?>

@@ -69,6 +69,10 @@ if(!empty($customerDataObj->shippingCity)) {
 		<link href="/assets/css/styles.css" rel="stylesheet">
 		<link href="/assets/css/styles-content.css" rel="stylesheet">
 		<?php
+		if(strpos($_SERVER["PHP_SELF"],"quiz") > 0) {
+			echo "<link href='/assets/css/quiz.css' rel='stylesheet'>\n";
+			echo "<script type='text/javascript' src='/js/quiz.js'></script>\n";
+		}
 		$isSecure = false;
 		if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
 			$isSecure = true;

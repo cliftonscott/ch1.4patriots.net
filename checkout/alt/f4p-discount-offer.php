@@ -23,18 +23,18 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 <div class="container oto-width">
 		<div>
-			<h1 class="darkRed text-center">We Want You Back... Get Up To $100.00 Off Food4Patriots Plus FREE Shipping With This 1-Time Offer!</h1></div>
+			<h1 class="darkRed text-center">We Want You Back... Get Up To $100.00 Off Food4Patriots Plus FREE Shipping With This One-Time Offer!</h1></div>
 			<div>
 				<p>Welcome back! You visited my site recently but you left before completing your purchase. </p>
-				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special 1-time offer that is only valid while you are on this page, you can get Food4Patriots for up to $100.00 off, plus get FREE Shipping and up to 6 FREE Bonus Gifts.</strong></p>
+				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots for up to $100.00 off, plus get FREE Shipping and up to 6 FREE Bonus Gifts.</strong></p>
 				<div style="padding-bottom:20px;">
 					<h2 class="darkRed text-center">Here Are 3 Reasons Why You Need To Get Food4Patriots Right Now...</h2>
-					<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
+					<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You And Your Family </strong></p>
 					<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 					<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
-					<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War One, when a pound of bread cost 3 BILLION marks! </p>
-					<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
-					<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It&rsquo;s a 1-time discount sale price of $147 for the 4-week kit and $397 for the 3-month kit – that&rsquo;s a <strong>another $50.00 to $100.00 discount off the already-low price </strong>– but only if you act now.</p>
+					<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War 1, when a pound of bread cost 3 BILLION marks! </p>
+					<p><strong><span class="numberCircle">3</span> You Save Another $100.00 And Get FREE Shipping </strong></p>
+					<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It&rsquo;s a one-time discount sale price of $147 for the 4-week kit and $397 for the 3-month kit – that&rsquo;s a <strong>another $50.00 to $100.00 discount off the already-low price </strong>– but only if you act now.</p>
 				</div>
 <!--FORMS-->
 	  <div>
