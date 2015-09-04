@@ -152,7 +152,6 @@
 	<div id="section_9" style="text-align:center;display:none;">
 		<p style="text-align: left">Simply click the big orange button below to submit your answers.</p>
 		<p style="text-align: left">After you submit your answers, I&#39;ll calculate your results and reveal whether or not you and your family are <strong><i>truly prepared</i></strong> to survive a major government crisis...</p>
-		<input type="submit" class="start-btn" value="Submit My Answers">
 		<div class="exit-safe">
 			<a data-toggle="modal" href="#myModal" class="start-btn">Submit My Answers</a>
 		</div>
@@ -165,6 +164,7 @@
 			clearTimeout(myModal.data('hideInterval'));
 			myModal.data('hideInterval', setTimeout(function(){
 				myModal.modal('hide');
+				$('#quiz').submit();
 			}, 5000));
 		});
 	});
