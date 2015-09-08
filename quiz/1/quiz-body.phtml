@@ -152,6 +152,28 @@
 	<div id="section_9" style="text-align:center;display:none;">
 		<p style="text-align: left">Simply click the big orange button below to submit your answers.</p>
 		<p style="text-align: left">After you submit your answers, I&#39;ll calculate your results and reveal whether or not you and your family are <strong><i>truly prepared</i></strong> to survive a major government crisis...</p>
-		<input type="submit" class="start-btn" value="Submit My Answers">
+		<div class="exit-safe">
+			<a data-toggle="modal" href="#myModal" class="start-btn">Submit My Answers</a>
+		</div>
 	</div>
 </form>
+<script>
+	$(function(){
+		$('#myModal').on('show.bs.modal', function(){
+			var myModal = $(this);
+			clearTimeout(myModal.data('hideInterval'));
+			myModal.data('hideInterval', setTimeout(function(){
+				myModal.modal('hide');
+				$('#quiz').submit();
+			}, 5000));
+		});
+	});
+</script>
+<div id="myModal" class="modal fade bs-example-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="margin-top:200px;">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content" style="text-align: center;">
+			<p style="margin-top:50px;">Calculating your answers...</p>
+			<img src="/assets/images/misc/status-bar.gif" style="margin-bottom:50px;">
+		</div>
+	</div>
+</div>
