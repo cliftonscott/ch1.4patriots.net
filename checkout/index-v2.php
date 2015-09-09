@@ -132,7 +132,7 @@ if(!empty($customerDataObj->shippingCity)) {
 <header>
 	<div class="header-content">
 		<img class="logo center-block" src="/media/images/checkout-v2/f4p-logo.png" />
-		<img class="phone-contact hidden-xs hidden-sm" src="/media/images/checkout-v2/phone-contact.png" />
+		<a href='#csr' onclick='showCsrModal();'><img class="phone-contact hidden-xs hidden-sm" src="/media/images/checkout-v2/phone-contact.png" /></a>
 	</div>
 	<div class="group"></div>
 	<div class="phone-band">
@@ -853,4 +853,31 @@ if(!empty($customerDataObj->shippingCity)) {
 		}
 	});
 </script>
+<script>
+	function showCsrModal() {
+		$('#csrModal').modal('show');
+	}
+	function hideCsrModal() {
+		$('#csrModal').modal('hide');
+	}
+</script>
+<style>
+	#csrModal p {
+		margin-bottom:7px;
+	}
+</style>
+<div id="csrModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg" style="width:500px;height:300px;">
+		<div class="modal-content" style="background-image:url(/assets/images/misc/timer-pop-01.jpg);">
+			<div style="text-align:center;padding:10px;width:500px;height:300px;">
+				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideCsrModal();"></div>
+				<div style="position:relative;top:160px;width:300px;">
+					<p><a class="btn btn-primary" href="javascript: olark('api.box.expand'); hideCsrModal();">Chat With Us</a></p>
+					<p><a class="btn btn-success" href="/checkout/index.php">Return To Order Form</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 </html>
