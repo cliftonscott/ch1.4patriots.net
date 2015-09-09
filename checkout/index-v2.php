@@ -397,12 +397,11 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 		<div class="testimonial-video-column">
 			<div class="video-box">
-				<a href="https://www.youtube.com/watch?v=4PTe1vJ2bXU" target="_blank"><img src="/media/images/checkout-v2/youtube-button.png" class="img-responsive center-block youtube-button"></a>
-				<div class="video-caption">
-					<a href="https://www.youtube.com/watch?v=4PTe1vJ2bXU" target="_blank">Watch Hidden Camera Taste Test</a>
-				</div>
+				<a href="//fast.wistia.net/embed/iframe/opv3odaymw?popover=true" class="wistia-popover[height=406,playerColor=7b796a,width=720]"><img src="/media/images/checkout-v2/video-bg.jpg" /></a>
+				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 			</div>
-			<img class="img-responsive center-block fb-testimonial" src="/media/images/checkout-v2/fb-testimonial-01.png"/>
+			<a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block fb-testimonial" src="/media/images/checkout-v2/fb-testimonial-01.png"/></a>
+			<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 			<img class="img-responsive center-block fb-testimonial" src="/media/images/checkout-v2/fb-testimonial-02.png"/>
 		</div>
 	</div>
@@ -879,5 +878,6 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 	</div>
 </div>
+
 
 </html>
