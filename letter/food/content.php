@@ -33,24 +33,7 @@
 
 		<div class="head-logos">
 			<div class="holder">
-				<i>As seen and advertised on:</i>
-				<ul>
-					<li>
-						<img src="/media/images/f4p/letter/f4p-letter-blaze.png">
-					</li>
-					<li>
-						<img src="/media/images/f4p/letter/f4p-letter-logo2.png">
-					</li>
-					<li>
-						<img src="/media/images/f4p/letter/f4p-letter-wnd.png">
-					</li>
-					<li>
-						<img src="/media/images/f4p/letter/f4p-letter-prisonplanet.png">
-					</li>
-					<li>
-						<img src="/media/images/f4p/letter/f4p-letter-personal-liberty.png">
-					</li>
-				</ul>
+				<img src="/media/images/misc/as-seen-advertised-on-01-grayscale.jpg" class="img-responsive center-block">
 			</div>
 		</div>
 	</header>
@@ -65,7 +48,7 @@
 						<h2 class="dark-red">&quot;A Letter From The Feds That Chilled Me To The Bone...&quot;</h2>
 						<p class="section-description">Not too long ago, FEMA went directly to my supplier and tried to buy up my entire stockpile of high-quality survival food. It sounds crazy, but I'll show you the exact letter they sent in a minute.</p>
 						<p></p>
-						<p>Revealing FEMA's plot could land me in hot water, but I think you <strong>deserve to know exactly what they're doing.</strong></p>
+						<p>Revealing FEMA's plot could land me in hot water, but I think  <strong>you deserve to know exactly what they're doing.</strong></p>
 						<p>Sounds fair, right?</p>
 						<p>I'm about to show you undeniable proof that FEMA is on the hunt for as much survival food as they can grab in 24 hours.</p>
 					</div>
@@ -84,27 +67,28 @@
 				<!-- start of brown block -->
 				<div class="brown-bg">
 					<div class="block-header-brown"><!-- 0 padding on bottom -->
-						<h3 class="color-red">&quot;I Have Proof They Know Something We Don’t&quot;</h3>
+						<h3 class="color-red">&quot;I Have Proof... They Know Something We Don’t&quot;</h3>
 					</div>
 					<div class="inner block-header-brown"><!-- 0 padding on bottom -->
 						<img src="/media/images/f4p/letter/f4p-letter-president1.jpg" class="media right">
 						<p>I think that FEMA knows something we don't and is worried that they see a full-scale disaster about to hit. And I think I found the factors that will trigger it.</p>
 						<p>Before I talk about these warning signs, you need to see the actual letter FEMA sent my supplier so <strong>you can see the proof with your own eyes and make up your own mind.</strong></p>
 						<p>It's been all over the Internet. Facebook and even some big radio programs like Alex Jones picked up this story. It seems like everyone is just plain shocked that FEMA would send a letter like this.</p>
-						<p><strong>Here's what happened:</strong> FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many...</p>
-						<p>Well, maybe I should just let Matt show you the proof since he was the one who received the letter...</p>
+						<p><strong>Here's what happened:</strong> FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many.. Well, maybe I should just let Matt show you the proof since he was the one who received the letter...</p>
 					<div class="center" style="max-width:500px;margin-right:auto;margin-left:auto;margin-bottom:30px;"><img src="/media/images/f4p/letter/f4p-letter-fema-letter-1.jpg" alt="FEMA letter" style="width:100%;"></div>
-						<h3 class="color-blue pad-30-b" style="text-align: left;"><i>100% Genuine letter from FEMA…demanding to know how much<br class="hidden-xs"> food we can ship and how fast!</i></h3>
+						<p style="text-align: center;" class="caption">100% Genuine letter from FEMA…demanding to know how much<br class="hidden-xs"> food we can ship and how fast!</p>
 						<div class="blockquote-1">
 							<p>"Thanks Frank. Well, it was kind of crazy to get a letter from FEMA. I don't mean to sound paranoid, but FEMA is asking some questions that make me pretty nervous.</p>
 							<p>The FEMA and the Department of Homeland Security demanded to know</p>
 						<ul style="font-style: italic; padding-top: 15px; margin-left: 20px">
-							<li>How much of emergency food we can deliver <strong>immediately.</strong></li>
-							<li>How many food kits we&rsquo;ve got on hand...  (With the government&rsquo;s power to seize supplies in a quote &ldquo;state of emergency&rdquo;, I don&rsquo;t think I want to answer this)</li>
-							<li>If we can ship dedicated truckloads <em>(that means a truck heading straight for FEMA with nothing but survival food just for them)</em> by the pallet – and how many pallets we could cram in each truck</li>
+							<li><strong>How much</strong> of emergency food we can deliver immediately.</li>
+							<li><strong>How many</strong> food kits we&rsquo;ve got on hand...  (With the government&rsquo;s power to seize supplies in a quote &ldquo;state of emergency&rdquo;, I don&rsquo;t think I want to answer this)</li>
+							<li><strong>If we can ship</strong> dedicated truckloads <em>(that means a truck heading straight for FEMA with nothing but survival food just for them)</em> by the pallet – and how many pallets we could cram in each truck</li>
 						</ul>
-							<p>And the strangest question of all – if we worked like mad men, how much emergency food could we produce in 24 hours...</p>
+							<p>And the strangest question of all – if we worked like mad men, <strong>how much emergency food could we produce in 24 hours...</strong></p>
+							<br><br>
 							<p>I gotta tell you, Frank, I'm real concerned. This letter is proof that FEMA wants our emergency survival food. They don't want anyone to know it, and they want to take immediate delivery.</p>
+							<br><br>
 							<p>And let's not forget the most important part of this - why the sudden urgency? What do they know that we don't?”</p>
 						</div>
 						<p></p>
@@ -126,7 +110,7 @@
 
 						<h3 class="color-red pad-30-t-b">&quot;But That's Not The Only Danger That Could <br>Snatch Your Food Stockpile Out Of Your Hands.&quot;</h3>
 						<p>Heck, we've had a rush of people taking advantage of our special "Fire Sale" offer to grab their food kits to protect their family.</p>
-						<p>Now to be blunt, this is a first-come-first-serve opportunity and because of all the controversy, I cannot guarantee supply forever.</p>
+						<p>Now to be blunt, this is a first-come-first-serve opportunity and <strong>because of all the controversy, I cannot guarantee supply forever.</strong></p>
 						<p>Which means if we run out before you have a chance to claim your kit, I'm sorry, but you'll just have to wait and hope we can get more in before something really bad hits.</p>
 
 						<h3 class="color-red pad-30-t-b text-center">&quot;Frankly, I Was Startled By The Staggering Demand&quot;</h3>
@@ -138,16 +122,9 @@
 						<p>But the bad news is, if you're just hearing about these food kits for the first time, then you're already behind the 8-ball and need to act fast before they're all gone.</p>
 						<p>Fortunately, as soon as FEMA said they wanted to take all my food, I put in an extra-large order for more food in anticipation of whatever the government is so urgently preparing for.</p>
 						<div class="media left full-left text-center">
-							<img src="/media/images/misc/placeholder.jpg" class="media has-bg left full-left">
+							<img src="/media/images/f4p/letter/f4p-letter-production-line.jpg" class="media has-bg left full-left">
 							<div class="caption">Our production facility is working around the clock right now to<br class="hidden-xs"> meet the increased demand. </div>
 						</div>
-						<p class="hidden-xs"></p>
-						<p class="hidden-xs"></p>
-						<p class="hidden-xs"></p>
-						<p class="hidden-xs"></p>
-						<p class="hidden-xs"></p>
-						<p class="hidden-xs"></p>
-						<p class="hidden-xs"></p>
 						<p>So depending on how much food you need, you can get my Food4Patriots kits for as low as $1.11 per serving.</p>
 						<p>And we're doing everything we can to accelerate packing and shipping so we can rush your kit to you as soon as you order it.</p>
 						<p>I'm going to keep doing this as long as I can. I hope we can help patriots all across the United States feel protected in case of disaster for years to come.</p>
@@ -166,7 +143,7 @@
 						<p>I'd be shocked if FEMA stopped looking for suppliers just because we turned them down. And there are companies a whole lot bigger than us that can buy up all the ingredients.</p>
 						<p>Second, and I hope the government never gets to this point, part of me thinks that FEMA might have wanted to know how much food we've got in stock in case they ever decided to take it!</p>
 
-						<h3 class="color-red pad-30-t-b">&quot;With A Stroke of Obama’s Pen, Food Confiscation Could<br class="hidden-xs"> Start… Tomorrow!&quot;</h3>
+						<h3 class="color-red pad-40-t pad-30-b">&quot;With A Stroke Of Obama’s Pen, Food Confiscation Could<br class="hidden-xs"> Start… Tomorrow!&quot;</h3>
 						<p>The fact is they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat.</p>
 						<p>All it would take is President Obama declaring a "state of emergency". </p>
 						<div class="media right full-right text-center">
@@ -179,29 +156,29 @@
 						<p>That brings us to the third reason this offer could grind to a halt. </p>
 						<p></p>
 
-						<h3 class="color-red pad-30-t-b" style="text-align: right;">&quot;If You Don’t Prepare, the Horror of a FEMA<br class="hidden-xs"> Camp Could Be in Your Future...&quot;</h3>
+						<h3 class="color-red pad-30-t-b" style="text-align: right;">&quot;If You Don’t Prepare, The Horror Of A FEMA Camp<br class="hidden-xs"> Could Be In Your Future...&quot;</h3>
 						<p>I can't tell the future, but from everything I've seen, the U.S. could be on the brink of a major disaster. If I'm wrong, life will go on like normal, and I'll happily admit that I was off my rocker.</p>
-						<p>But if I'm right, this could force our friends and neighbors into FEMA camps. And you probably already know a FEMA camp isn’t anywhere you’d want you or your family to end up.</p>
-						<p>They make an old-style Soviet gulag sound like a day at the beach.</p>
-						<p>Think I’m kidding? Just imagine the bleak living conditions folks had to endure in one of those Godforsaken places after Hurricane Katrina and Superstorm Sandy.</p>
 						<div class="media left full-left text-center">
 							<img src="/media/images/f4p/letter/f4p-letter-fema-camp.jpg" class="media has-bg left full-left">
 							<div class="caption">FEMA camps are breeding grounds for<br class="hidden-xs"> filthy conditions and violent crime!</div>
 						</div>
+						<p>But if I'm right, this could force our friends and neighbors into FEMA camps. And you probably already know a FEMA camp isn’t anywhere you’d want you or your family to end up.</p>
+						<p>They make an old-style Soviet gulag sound like a day at the beach.</p>
+						<p>Think I’m kidding? Just imagine the bleak living conditions folks had to endure in one of those Godforsaken places after Hurricane Katrina and Superstorm Sandy.</p>
 						<p>Things like:</p>
-						<ul>
+						<ul style="margin-left: 20px">
 							<li>Bitter cold or blistering heat from living in a tent with no insulation...</li>
 							<li>Inadequate food… (just think about those New Yorkers dumpster diving for food after Superstorm Sandy...rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</li>
 							<li>Crime, from robbery to assault to rape and worse... (remember those first few days post-Katrina? Even the police were afraid to be out on the street!)</li>
 							<li>The Feds refusing to let folks return to their homes or even leave and FEMA agents in your personal business, watching your every move. It would feel like you’re in prison…just for the crime of being unprepared!</li>
 						</ul>
 						<p>The media will be turned away, forbidden from filming inside the camps.</p>
-						<p>And if YOU tried to show the world a glimpse of the hell you were living through inside? They’ll outright just take your phone or other mobile devices!</p>
-						<p>No warning, questions, or giving back your confiscated property.</p>
 						<div class="media right full-right text-center">
 							<img src="/media/images/f4p/letter/f4p-letter-handcuffed-man.jpg" class="media has-bg right full-right">
 							<div class="caption">Don’t even think about resisting, or you’ll be<br class="hidden-xs"> silenced…your property taken…or even worse… </div>
 						</div>
+						<p>And if YOU tried to show the world a glimpse of the hell you were living through inside? They’ll outright just take your phone or other mobile devices!</p>
+						<p>No warning, questions, or giving back your confiscated property.</p>
 						<p>And the list goes on. You want to avoid that kind of nightmare, right? Of course you do...</p>
 						<p>Now let’s talk about some basic facts.</p>
 
@@ -220,7 +197,7 @@
 					<div class="padding-all">
 						<p>It sounds harsh, but the truth is most people are giving themselves a false sense of security. </p>
 						<p>Maybe it's by...</p>
-						<ul>
+						<ul style="margin-left: 20px">
 							<li><strong>Buying terrible-tasting MREs.</strong> Depending on where you buy them from, they could be nearly expired. </li>
 							<li><strong>Getting disgusting so-called “survival” foods</strong> that are packed with cheap fillers and are high in salt, MSG and preservatives.</li>
 						</ul>
@@ -303,7 +280,7 @@
 						<p>I wanted only the absolutely best tasting meals that provided the most nutrition for breakfast, lunch, and dinner and that were useful for the long haul.</p>
 						<p>That means they had to be conveniently packed in airtight containers that would be easy to conceal, move and store for more than just a couple of years.</p>
 						<p>I’m talking decades, folks.</p>
-						<div><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-kit-tote-01.jpg" alt=""/></div>
+						<div><img style="margin-top: -50px" class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-kit-tote-01.jpg" alt=""/></div>
 						<p style="text-align: center;" class="caption">Our packaging ensures our food stays fresh and delicious for<br class="hidden-xs"> decades – guaranteed for 25 years!</p>
 						<p>After months of work and research, we finally cooked up our first batch, and I knew we had something nobody else did: American-made food that I'd be happy to feed my own kids and grandkids.</p>
 						<p>The food was delicious, easy to store long-term, and best of all, it was packaged right here in the U.S. of A.</p>
@@ -328,37 +305,33 @@
 						<p>After putting it all together, I had to give myself a reality check. This was amazing! But was it going to cost an arm and a leg?</p>
 						<p><strong>The short answer was… no.</strong></p>
 						<p>I’ll explain why in just a minute (the answer’s so simple you won’t believe it!).</p>
+						<img src="/media/images/f4p/letter/f4p-letter-food1.jpg" class="media left" style="margin-bottom:10px;margin-top:5px">
 						<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
-						<img src="/media/images/f4p/letter/f4p-letter-food1.jpg" class="media left" style="margin-bottom:10px;">
 						<p><strong>First, we take 100% non-GMO</strong> fruits and veggies as a starting point. </p>
 						<p>Our food is <u>made in America.</u> Not assembled from Chinese imported ingredients. Grown, harvested, and made here in the land of the free and home of the brave.</p>
 						<p>Next, we combine these top-quality ingredients <strong>using prize-winning recipes.</strong> In fact, many of the recipes we use have won independent taste tests. </p>
 					</div>
-
-						<br class="hidden-xs">
-						<br class="hidden-xs">
-						<br class="hidden-xs">
-						<h3 class="color-red pad-30">&quot;Space-age Mylar Packaging Keeps Our Food Fresh… for 25 Years!&quot;</h3>
+						<h3 class="color-red pad-30 no-pad-top">&quot;Space-Age Mylar Packaging Keeps Our Food Fresh… For 25 Years!&quot;</h3>
 					<div class="padding-no-top">
 						<p>To keep our meals as fresh as the day we package them, we seal them up in convenient airtight pouches that make it easy for you to prepare.</p>
 						<p><i>And here is another of the big things my buddy Matt does differently...</i></p>
+						<div class="media right full-right text-center">
+							<img src="/media/images/f4p/letter/f4p-letter-production-line-02.jpg" class="media has-bg right full-right">
+							<div class="caption"></div>
+						</div>
 						<p>Some manufacturers freeze-dry their food (which is hideously expensive for you), while other manufacturers use the cheaper rapid dehydration method that sucks out all the water but also pulls out nutrients and flavor with it.</p>
 						<p>My meals are made with our unique "Low Heat Dehydration" method.</p>
 						<p>So the flavor and nutrition stays locked in and it lasts every bit as long as freeze-dried without costing you a fortune.</p>
 						<p><strong>Can you see now why our food has been called “The Stockpiler's Dream?” </strong></p>
 						<p>But there's one more critical step before your food is finished. </p>
 						<p>It takes a $150,000 machine to package these meals to the highest industry standards.</p>
-						<div class="media right full-right text-center">
-							<img src="/media/images/misc/placeholder.jpg" class="media has-bg right full-right">
-							<div class="caption"></div>
+						<div class="media left full-left text-center">
+							<img src="/media/images/f4p/letter/f4p-letter-fettuccine-alfredo.jpg" class="media has-bg left full-left">
+							<div class="caption">Creamy Fettuccine Alfredo is just one of the delicious<br class="hidden-xs"> meals that you’ll savor...</div>
 						</div>
 						<p>It works like this: space-age Mylar pouches are blasted clean with CO2 gas, and then the container is packed to the brim with a hefty helping of your delicious food. This gets any leftover oxygen out so food won't spoil and in fact is guaranteed for an amazing <strong>25 years</strong> of shelf life.  </p>
 						<p>That’s right: <strong>25 years!</strong></p>
 						<p>And it’s not just the packaging. We go through a 17-step quality control and lab testing procedure for each and every batch of our survival food to ensure that the flavor, nutrition and storage life meets our highest standards.</p>
-						<div class="media left full-left text-center">
-							<img src="/media/images/f4p/letter/f4p-letter-fettuccine-alfredo.jpg" class="media has-bg left full-left">
-							<div class="caption">Creamy Fettuccine Alfredo is just one of our<br class="hidden-xs"> delicious meals you’ll savor...</div>
-						</div>
 						<p>See how much better that is for you and your family? But don’t take my word for it…</p>
 						<p></p>
 						<div class="clear"></div>
@@ -411,7 +384,7 @@
 						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food2.jpg"/></div>
 						<p style="text-align: center;" class="caption">You'll get a whole slew of choices for breakfast, lunch, and dinner.</p>
 						<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
-						<ul>
+						<ul style="margin-left: 20px">
 							<li>Mountain Man Granola</li>
 							<li>Apple Orchard Oatmeal</li>
 							<li>Granny's Home Style Potato Soup</li>
@@ -421,16 +394,24 @@
 						</ul>
 						<p>And just to prove we’re on the level about how great this food really tastes, we did a secret taste test with the good folks over at The Blaze, the world’s most popular conservative news website.</p>
 						<p>They loved the taste so much, they had no idea it was “survival food!”</p>
+					</div>
+				</div>
 
-						<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Mouthwatering Freshness and Taste...<br class="hidden-xs"> Even After 25 Years!&quot;</h3>
+				<div class="block flat-brown">
+					<div class="padding-no-top">
+					<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Mouthwatering Freshness And Taste...<br class="hidden-xs"> Even After 25 Years!&quot;</h3>
 						<p><strong>Second, you get my guaranteed "disaster-proof" packaging.</strong></p>
 						<p>I may not have used "showy" packaging for expensive branding, but I did make sure it's military-grade sturdy stuff and can stand up to the crazy things that happen in a crisis.</p>
 						<p>This food has a shelf life of up to 25 years, so you have complete peace of mind for the long term.</p>
-						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food-packets-08b1.jpg"/></div>
+						<div style="padding-bottom: 5px;"><img style="margin-top: -50px" class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food-packets.jpg"/></div>
 						<p style="text-align: center;" class="caption">Meals as fresh as the day we package them… no matter when you need them.</p>
 						<p>I've used Mylar pouches, the same material used in NASA's space suits. This means you'll keep all the air, moisture, and light out of the package.</p>
 						<p>It'll also keep the food nutritionally sound and tasting great. So when you need your food stockpile it'll be guaranteed to be as fresh as the day you bought it.</p>
+					</div>
+				</div>
 
+				<div class="block bg-white">
+					<div class="padding-no-top">
 						<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Nutrition You’ll Need When Normal Life<br class="hidden-xs"> Becomes A Thing Of The Past...&quot;</h3>
 						<p><strong>Third, you get food jam-packed with nutritional value.</strong></p>
 						<p>Since I had a chance to go direct to the supplier to build this kit, I was able to throw out all the filler and poor-quality ingredients other guys stuff into their meals. All the food you'll receive is at the peak of the long-term food reserve industry.</p>
@@ -438,19 +419,23 @@
 						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-33.jpg"/></div>
 						<p>But here's the other important part: you don't have to settle for smaller serving sizes for kids.</p>
 						<p>Some people use kids’ meals to skimp on the amount of food they give you. In Food4Patriots, kids get a full adult-size portion without getting charged extra.</p>
+					</div>
+				</div>
 
+				<div class="block flat-brown">
+					<div class="padding-no-top">
 						<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Survival Food That Doesn’t Scream...<br class="hidden-xs"> ‘Here’s My Food, Come Take It!&quot;</h3>
 						<p><strong>Finally, you get an easy-to-store package that takes up minimal space.</strong></p>
 						<p>Nobody wants to cram their house full of clunky food packages.</p>
 						<p>So many food storage containers are ultra-bulky and come in a slew of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/misc/placeholder.jpg"/></div>
+						<div style="margin-bottom: 5px;"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-storage-totes.jpg"/></div>
 						<p style="text-align: center;" class="caption">The sturdy totes are discreet – so no one will know you have a secret stash of high-quality survival food… except you.</p>
 						<p>I've selected the most compact kits I could find so you can store them without any extra hassle. They're sturdy, waterproof, and stack easily.</p>
 						<p>Since we both know a major food emergency could strike any time, these critical characteristics will give you instant peace of mind when your food package arrives.</p>
 						<p>No more worrying about what you'd have to do, or having to rely on the government.</p>
 						<p>Heck, you'll have the exact same stuff they wanted to buy!</p>
 						<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You’ll see right away how there’s no comparison:</p>
-						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-infograph.jpg"/></div>
+						<div style="margin-bottom: 5px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-infograph.jpg"/></div>
 						<p style="text-align: center;" class="caption">Don’t make the mistake of stockpiling inferior products that are going<br class="hidden-xs"> to backfire and disappoint when you need them most.</p>
 						<p>And it’s not just our 106,321 customers who are praising Food4Patriots to the skies… celebrities and survival experts are recommending “the perfect survival food solution.”</p>
 						<p>Customers and experts agree: Food4Patriots really IS the perfect survival food solution! Even Glen Beck sings the praises of Food4Patriots survival food.</p>
@@ -479,7 +464,11 @@
 						<p><strong>“We just don't need that much food.”</strong></p>
 						<p>But I figured if I could get this information out to people like you, you'd want to grab the same discount I got and would claim your own food package.</p>
 						<p>That way I wouldn't be stuck with a big bill for more food than we could ever eat.</p>
+					</div>
+				</div>
 
+				<div class="block bg-white">
+					<div class="padding-no-top">
 						<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Confession: Survival Food This Good Won’t<br class="hidden-xs"> Always Be This Cheap&quot;</h3>
 						<p>But I've got a confession to make about this delicious food - it won't always be this cheap. In fact, imagine what will happen when you see the headlines,</p>
 						<p><strong><i>"Food prices skyrocketing. Grain shortage forces farms to close and cows starve."</i></strong></p>
@@ -520,7 +509,7 @@
 						<p>To get on the road to food independence, just click the button to claim your kit now.</p>
 						<div class="block txt-center">
 							<div class="inner pad-30">
-								<a href="" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',, false]);PreventExitSplash=true;" class="blue button big">Claim You Kit</a>
+								<a href="" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
 								<br/>
 								<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png">
 								<br/><br/>
@@ -535,8 +524,8 @@
 						<p>As you can see we’re no fly-by-night operation. No sir.</p>
 						<p>Once you become a Food4Patriots customer, you become part of our family, and we’ll make sure you’re treated right.  Our friendly customer service team is standing by to help you anytime, ready to help answer all your questions about our amazing survival food.</p>
 						<p>Here’s a recent snapshot we took so you can see we’re real people – Americans – not some 800 number being routed over to some foreign basement call center in India or the Philippines, forced to talk with someone named “Bob” with an accent you can barely understand.</p>
-						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-customer-service-team.jpg"/></div>
-						<p><strong>We’re real true blue American Patriots…just like YOU!</strong></p>
+						<div style="margin-bottom: 5px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-customer-service-team.jpg"/></div>
+						<p style="text-align: center;" class="caption">We’re real true blue American Patriots…just like YOU!</p>
 						<p>With us, you’ll only be dealing with Josh, Bonnie, Ray, Lisa and other tried and true American Patriots just like you.</p>
 					</div>
 				</div>
@@ -554,28 +543,28 @@
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-10-items-after-crisis.jpg" alt="Bonus 1"  class="media left">
 						<div style="padding-top:25px;">
-						<p><strong class="titles3">Free Bonus #1 - </strong>Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
+						<p><strong class="titles3">Free Bonus #1 - Top 10 Items Sold Out After a Crisis:</strong> In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
 					</div>
 					</div>
 					<div class="clearfix"></div>
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-the-water-survival-guide.jpg" alt="Bonus 1" class="media left">
 						<div style="padding-top:0px;">
-						<p><strong class="titles3">Free Bonus #2 - </strong>The Water Survival Guide: Look, without clean water you can't prepare a scrap of food. You've got to have this to complete your stockpile. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. This down-and-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It'll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency.</p>
+						<p><strong class="titles3">Free Bonus #2 - The Water Survival Guide:</strong> Look, without clean water you can't prepare a scrap of food. You've got to have this to complete your stockpile. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. This down-and-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It'll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency.</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-the-survival-garden-guide.jpg" alt="Bonus 1"  class="media left">
 						<div style="padding-top:30px;">
-						<p><strong class="titles3">Free Bonus #3 - </strong>The Survival Garden Guide: A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
+						<p><strong class="titles3">Free Bonus #3 - The Survival Garden Guide:</strong> A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-cut-grocery-bills-half.jpg" alt="Bonus 1"  class="media left">
 						<div style="padding-top:15px;">
-						<p><strong class="titles3">Free Bonus #4 - </strong>How to Cut Your Grocery Bills in Half: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal…this goes a lot further than clipping coupons!</p>
+						<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal…this goes a lot further than clipping coupons!</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
@@ -590,7 +579,7 @@
 				</div>
 
 				<!-- start of blue block with flag -->
-				<div class="block-header grad-red ">
+				<div class="grad-red pad-40-t-b">
 					<h2 class="color-white" style="text-align: center;">"An Outrageous DOUBLE Guarantee You Won’t Find<br class="hidden-xs"> Anyplace Else – That’s How Serious I Am!"</h2>
 				</div>
 				<div class="block bg-blue bg-flag ">
@@ -619,7 +608,7 @@
 					<p>This is about peace of mind, knowing that you and your family are well protected in the case of food shortages and natural disasters. Sounds good, right? </p>
 					<p>Click on the button below and get your Food4Patriots stockpile rushed to you before they're all gone, and then rest assured knowing that you will be able to feed your family well into the future no matter what happens.</p>
 					<p><strong>Don't you deserve this? </strong></p>
-					<p>To get your Food4Patriots kit rushed to you at this special price, plus the four free bonus reports, click the big orange “Claim Your Kit” button at the end of this page.</p>
+					<p>To get your Food4Patriots kit rushed to you at this special price, plus the four free bonus reports, click the big blue “Claim Your Kit” button at the end of this page.</p>
 					<h3 class="color-red pad-30-b" style="text-align: center;">&quot;One Final Warning Before It’s Too Late...&quot;</h3>
 					<p>If you decide to claim your package, there is something you should know about.</p>
 					<p><strong>It's a danger I call 25-year stockpile greed.</strong></p>
@@ -661,14 +650,14 @@
 		<section class="section">
 			<div class="section-inner">
 				<div class="block bg-white">
-					<div class="block-header grad-white-brown">
+					<div class="block-header">
 							<h2 class="dark-red">&quot;Look, You Have Come To A Fork In The Road And It's Entirely Up To You Which Way You Go.&quot;</h2>
 						<div class="section-description">
+							<img src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" class="media right" style="margin-bottom:10px;">
 							<p>Look, I can’t make it any plainer than this.</p>
 							<p>You’re at a crossroads. You can either take action NOW and be able to feed your family in a crisis, or you can be one of the hordes of helpless idiots clamoring for a crust of bread when everything collapses.</p>
 							<p><strong>One thing is clear… you’ve got to make a choice.</strong></p>
 							<p>Be sure to make the right one.</p>
-							<img src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" class="media right" style="margin-bottom:10px; margin-top: -100px">
 							<p>Click the button below. You'll be glad you did. Remember, this is delicious food good for 25 years of storage.</p>
 							<p>So even if I'm wrong and everything turns out fine, then you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
 							<p>To claim your Food4Patriots kit at this special price, plus your FREE bonuses, click the “Claim Your Kit” button now.</p>
@@ -698,7 +687,26 @@
 			</div>
 		</section>
 
+		<!--footer-->
+		<footer id="footer" class="pull-up">
+			<div class="medium-size960 txt-center">
+				Information contained on Food4Patriots.com such as text, graphics, images and other materials are for educational use only.<br class="hidden-xs"> Although not guaranteed, every attempt has been made for accuracy.<br/></br>
+				Copyright © 2015 Food4Patriots.com — All rights reserved.
+			</div>
+
+			<div class="black-opacity">
+				<div class="medium-size960">
+					<ul style="font-size: 12px">
+						<li style="font-size: 10pt">
+							<strong>Mail Orders and Correspondence:</strong><br><br>
+							4322 Harding Pike<br>
+							Suite 417, PMB 121<br>
+							Nashville, TN 37205<br><br>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!--#footer-->
 
 <script src="/assets/js/scripts.js" type="text/javascript"></script>
-
-</div>
