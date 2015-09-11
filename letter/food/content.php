@@ -75,8 +75,8 @@
 						<p>Before I talk about these warning signs, you need to see the actual letter FEMA sent my supplier so <strong>you can see the proof with your own eyes and make up your own mind.</strong></p>
 						<p>It's been all over the Internet. Facebook and even some big radio programs like Alex Jones picked up this story. It seems like everyone is just plain shocked that FEMA would send a letter like this.</p>
 						<p><strong>Here's what happened:</strong> FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many.. Well, maybe I should just let Matt show you the proof since he was the one who received the letter...</p>
-					<div class="center" style="max-width:500px;margin-right:auto;margin-left:auto;margin-bottom:30px;"><img src="/media/images/f4p/letter/f4p-letter-fema-letter-1.jpg" alt="FEMA letter" style="width:100%;"></div>
-						<p style="text-align: center;" class="caption">100% Genuine letter from FEMA…demanding to know how much<br class="hidden-xs"> food we can ship and how fast!</p>
+					<div class="center" style="max-width:500px;margin-right:auto;margin-left:auto;margin-bottom:10px;"><img src="/media/images/f4p/letter/f4p-letter-fema-letter-1.jpg" alt="FEMA letter" style="width:100%;"></div>
+						<p style="text-align: center;" class="caption">100% Genuine letter from FEMA... demanding to know how much<br class="hidden-xs"> food we can ship and how fast!</p>
 						<div class="blockquote-1">
 							<p>"Thanks Frank. Well, it was kind of crazy to get a letter from FEMA. I don't mean to sound paranoid, but FEMA is asking some questions that make me pretty nervous.</p>
 							<p>The FEMA and the Department of Homeland Security demanded to know</p>
@@ -97,7 +97,7 @@
 						<div class="dots-img">1</div>
 					</div>
 						<h3 class="color-red pad-30-b" style="text-align: right;">&quot;You Should Know That FEMA Won’t Get <br>1 Single Emergency Food Kit From Us.&quot;</h3>
-						<img src="/media/images/f4p/letter/f4p-letter-section1-block2-img2.png" class="media left">
+						<img style="margin-bottom: -40px; margin-top: -30px" src="/media/images/f4p/letter/f4p-letter-section1-block2-img2.png" class="media left">
 						<p>This is truly an urgent situation, but don't worry - you should know that <strong>FEMA and Homeland Security won't get one single emergency food kit from us.</strong></p>
 						<p>Why?</p>
 						<p>Because we don&rsquo;t believe that these critical emergency food kits should be in the hands of the government, <strong>stored in some secret warehouse and with the rest of us left with table scraps in a crisis.</strong></p>
@@ -381,7 +381,7 @@
 						<p>Can you picture how easy this is? It's so simple even kids can make them.</p>
 						<p>And don't worry, you'll get a whole slew of choices for breakfast, lunch, and dinner so you don't get stuck eating the same thing day in and day out.</p>
 						<p>One of the questions most people have is, "What kind of food will I get to eat?" I know what you’re worried about… that we’re talking about bland, tasteless mush. But that couldn’t be further from the truth.</p>
-						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food2.jpg"/></div>
+						<div style="margin-bottom: 10px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food2.jpg"/></div>
 						<p style="text-align: center;" class="caption">You'll get a whole slew of choices for breakfast, lunch, and dinner.</p>
 						<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
 						<ul style="margin-left: 20px">
@@ -403,7 +403,7 @@
 						<p><strong>Second, you get my guaranteed "disaster-proof" packaging.</strong></p>
 						<p>I may not have used "showy" packaging for expensive branding, but I did make sure it's military-grade sturdy stuff and can stand up to the crazy things that happen in a crisis.</p>
 						<p>This food has a shelf life of up to 25 years, so you have complete peace of mind for the long term.</p>
-						<div style="padding-bottom: 5px;"><img style="margin-top: -50px" class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food-packets.jpg"/></div>
+						<div><img style="margin-top: -50px" class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-food-packets.jpg"/></div>
 						<p style="text-align: center;" class="caption">Meals as fresh as the day we package them… no matter when you need them.</p>
 						<p>I've used Mylar pouches, the same material used in NASA's space suits. This means you'll keep all the air, moisture, and light out of the package.</p>
 						<p>It'll also keep the food nutritionally sound and tasting great. So when you need your food stockpile it'll be guaranteed to be as fresh as the day you bought it.</p>
@@ -428,14 +428,14 @@
 						<p><strong>Finally, you get an easy-to-store package that takes up minimal space.</strong></p>
 						<p>Nobody wants to cram their house full of clunky food packages.</p>
 						<p>So many food storage containers are ultra-bulky and come in a slew of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-						<div style="margin-bottom: 5px;"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-storage-totes.jpg"/></div>
+						<div><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-storage-totes.jpg"/></div>
 						<p style="text-align: center;" class="caption">The sturdy totes are discreet – so no one will know you have a secret stash of high-quality survival food… except you.</p>
 						<p>I've selected the most compact kits I could find so you can store them without any extra hassle. They're sturdy, waterproof, and stack easily.</p>
 						<p>Since we both know a major food emergency could strike any time, these critical characteristics will give you instant peace of mind when your food package arrives.</p>
 						<p>No more worrying about what you'd have to do, or having to rely on the government.</p>
 						<p>Heck, you'll have the exact same stuff they wanted to buy!</p>
 						<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You’ll see right away how there’s no comparison:</p>
-						<div style="margin-bottom: 5px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-infograph.jpg"/></div>
+						<div style="margin-bottom: 10px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-infograph.jpg"/></div>
 						<p style="text-align: center;" class="caption">Don’t make the mistake of stockpiling inferior products that are going<br class="hidden-xs"> to backfire and disappoint when you need them most.</p>
 						<p>And it’s not just our 106,321 customers who are praising Food4Patriots to the skies… celebrities and survival experts are recommending “the perfect survival food solution.”</p>
 						<p>Customers and experts agree: Food4Patriots really IS the perfect survival food solution! Even Glen Beck sings the praises of Food4Patriots survival food.</p>
@@ -475,10 +475,10 @@
 						<p>Since the Food4Patriots package is made from honest-to-goodness ingredients produced by farmers here in the U.S. of A., when a crisis hits it'll automatically skyrocket the prices of this kit.</p>
 						<p>Farms will shut down and their livestock will go hungry. Grain shortages will drive bread to $10, $25, even $100 per loaf.</p>
 
-						<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Looters Scouring the Streets Looking for Victims...&quot;</h3>
+						<h3 class="color-red pad-30" style="text-align: center;">&quot;Looters Scouring the Streets Looking for Victims...&quot;</h3>
 						<p>When a crisis hits, stores will be hit by angry urban swarms demanding food and other supplies.</p>
 						<p>Just think, people stampede for toys on sale on Black Friday at Wal-Mart. When they and their children are starving because they didn't prepare, riots and roving mobs are almost certain.</p>
-						<div style="margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-mob.jpg"/></div>
+						<div style="margin-bottom: 10px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-mob.jpg"/></div>
 						<p style="text-align: center;" class="caption">Desperate mobs will troll neighborhoods… looking to steal your food!</p>
 						<p>Get the picture?</p>
 						<p>Now the last thing I want happening is someone to give up their chance to claim their Food4Patriots package because they couldn't afford it.</p>
@@ -524,7 +524,7 @@
 						<p>As you can see we’re no fly-by-night operation. No sir.</p>
 						<p>Once you become a Food4Patriots customer, you become part of our family, and we’ll make sure you’re treated right.  Our friendly customer service team is standing by to help you anytime, ready to help answer all your questions about our amazing survival food.</p>
 						<p>Here’s a recent snapshot we took so you can see we’re real people – Americans – not some 800 number being routed over to some foreign basement call center in India or the Philippines, forced to talk with someone named “Bob” with an accent you can barely understand.</p>
-						<div style="margin-bottom: 5px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-customer-service-team.jpg"/></div>
+						<div style="margin-bottom: 10px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-customer-service-team.jpg"/></div>
 						<p style="text-align: center;" class="caption">We’re real true blue American Patriots…just like YOU!</p>
 						<p>With us, you’ll only be dealing with Josh, Bonnie, Ray, Lisa and other tried and true American Patriots just like you.</p>
 					</div>
