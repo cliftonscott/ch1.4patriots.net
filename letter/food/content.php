@@ -218,7 +218,7 @@
 						<p><i>“I’m from the government, and I’m here to help you.”</i></p>
 						<p>And there’s something else to consider.</p><p></p>
 
-						<h3 class="color-red pad-30-t-b" style="text-align: right">&quot;Total Anarchy When 47 Million Freeloaders Can’t<br class="hidden-xs"> Get Their Government Handouts!&quot;</h3>
+						<h3 class="color-red pad-30-b" style="text-align: right">&quot;Total Anarchy When 47 Million Freeloaders Can’t<br class="hidden-xs"> Get Their Government Handouts!&quot;</h3>
 						<p>Under Obama, the number of Americans on the government dole has increased from around a little over 27 million in 2008 to <strong>47 million</strong> today – that’s just about 15% of the whole damn country! </p>
 						<p>They don’t call him the “Food Stamp President” for nothing! Now, of course you and I were raised to help others in need.</p>
 						<p>The difference was, people had pride back then… they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
