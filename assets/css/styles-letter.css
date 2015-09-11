@@ -326,6 +326,14 @@ a.yellow.button{ color:#333 !important; }
 /* =============================================================================
    Typography
    ========================================================================== */
+.blockquote-1 {
+    margin: 0em 10px;
+    padding: 0em 10px;
+}
+.blockquote-1 p {
+    font-style: italic;
+    display: inline;
+}
 
 abbr[title] { border-bottom: 1px dotted; }
 b, strong, dfn { font-weight: bold; }
@@ -1231,7 +1239,7 @@ section:first-child .block-head h1{text-align: left!important;}
 	a[href]:after { content: " (" attr(href) ")"; }
 	abbr[title]:after { content: " (" attr(title) ")"; }
 	.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	pre, blockquote { border: 1px solid; page-break-inside: avoid; }
 	thead { display: table-header-group; } /* h5bp.com/t */
 	tr, img { page-break-inside: avoid; }
 	img { max-width: 100% !important; }
