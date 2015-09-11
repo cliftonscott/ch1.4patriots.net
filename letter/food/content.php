@@ -370,15 +370,15 @@
 					<div class="padding-no-top">
 						<p>Coast to coast, people are telling me they love Food4Patriots superior taste and convenience.</p>
 						<p>See how Chloe, one of our happy customers, was convinced she made the right choice as soon as she took her first bite. She said, and I quote:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-31.jpg"/></div>
 						<p>Most folks who have gotten a Food4Patriots kit have been ecstatic with the long-term packaging, taste, and how easy it is to store.</p>
 						<p>Here’s a note from Wanda, a lifelong Girl Scout, who’s always been preparing for emergencies. See why she chose Food4Patriots as her best option for long-term food security:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-30.jpg"/></div>
 						<p>Especially now that FEMA's come knocking, I’m on a mission to get as many life-saving food kits to as many American families as possible.</p>
 						<p>Sometimes I get a letter from a customer that reminds me just how critical this is.</p>
 						<p>Donna told me about the agony of losing everything, and how having a Food4Patriots stockpile now gives her the priceless peace of mind she needs to cope.</p>
 						<p>Here are her own words:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-32.jpg"/></div>
 						<p>I have to tell you, this really hit me right in the gut. THIS is why we’re doing this, folks. We’re really making a difference in people’s lives!</p>
 						<div class="clear"></div>
 					</div>
@@ -435,7 +435,7 @@
 						<p><strong>Third, you get food jam-packed with nutritional value.</strong></p>
 						<p>Since I had a chance to go direct to the supplier to build this kit, I was able to throw out all the filler and poor-quality ingredients other guys stuff into their meals. All the food you'll receive is at the peak of the long-term food reserve industry.</p>
 						<p>Loren is just one of our happy customers who loves the convenience:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-33.jpg"/></div>
 						<p>But here's the other important part: you don't have to settle for smaller serving sizes for kids.</p>
 						<p>Some people use kids’ meals to skimp on the amount of food they give you. In Food4Patriots, kids get a full adult-size portion without getting charged extra.</p>
 
@@ -510,11 +510,11 @@
 						<p>No need to buy less or more than you will actually use, so nothing goes to waste.</p>
 						<p>It’s easy to see why we’ve shipped our food kits to over 106,321 American Patriots just like yourself, and why the number continues to grow every day; it’s because this is truly an exceptional value.</p>
 						<p>Paula readily admits she’s ecstatic with Food4Patriots. She exclaims:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-34.jpg"/></div>
 						<p>Here’s Rom’s take on Food4Patriots and its quality, storage life, and the fact he can take it with him wherever he goes:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-35.jpg"/></div>
 						<p>Food4Patriots is so good, Joe is even making it part of his regular meal plan! Joe talks about treating himself to a Food4Patriots “gourmet meal” anytime for a low cost and with a better variety of options he can find at his local grocery! He says:</p>
-						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+						<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-36.jpg"/></div>
 						<p>These are not anonymous, paid, fake reviews, folks. Only real Food4Patriots customers can review a food kit they purchased.</p>
 						<p><strong>You see how this really is the perfect survival food solution? </strong></p>
 						<p>To get on the road to food independence, just click the button to claim your kit now.</p>
@@ -609,7 +609,7 @@
 					<p>But whether you choose to start dipping into your Food4Patriots stockpile right away to stretch your food dollars, or you decide to keep it under lock and key so you're ready for any kind of crisis, you need to know one thing...</p>
 					<p>By claiming your Food4Patriots Kit you made the decision not just to get food to feed your family in a disaster, you've made the decision to get peace of mind.</p>
 					<p>Food4Patriots customer Jan was thrilled with the shelf life, and the discreet, compact packaging too. Here’s exactly what she said:</p>
-					<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-fvs-testimonials-03.jpg"/></div>
+					<div style="margin-top: -10px;margin-bottom: 20px"><img class="img-responsive center-block"src="/media/images/f4p/f4p-testimonial-37.jpg"/></div>
 					<p>Can you picture how good it's going to feel to have this security and independence? Heck, if you've got an elderly friend or family member nearby you can get a kit for them so you don't have to worry if they're eating or not in a disaster.</p>
 					<p>Now a last reminder, don't worry, there's no pressure to claim your Food4Patriots kit. In fact, if you don't want it, you can step aside. No hard feelings.</p>
 					<p>There are plenty of other people who are dead set on preparing right now and they see that with all the uncertainty and warning signs we’re seeing on a daily basis, time is running out.</p>
