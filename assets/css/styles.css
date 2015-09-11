@@ -55,7 +55,7 @@ p {
   z-index: 10;
 }
 .navbar {
-	border-radius: 0px;	
+	border-radius: 0px;
 	margin-bottom: 0px;
 	max-width: 958px;
 	margin-right: auto;
@@ -68,7 +68,7 @@ p {
 	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(227,227,227,1.00) 100%);
 	border-bottom-color: #FFFFFF;
 }
-.navbar-default .navbar-brand {	
+.navbar-default .navbar-brand {
 	min-height: 80px;
 }
 .navbar-brand {
@@ -83,7 +83,7 @@ p {
 }
 .navbar-nav {
 	float: none;
-	padding-top: 15px;	
+	padding-top: 15px;
 }
 .navbar-nav li:hover {
 	background-color: #FFFFFF !important;
