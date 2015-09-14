@@ -434,7 +434,7 @@ class Product {
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
-				$productObj->tags = "LL, 3MKITSNACK";
+				$productObj->tags = "LL, FVSNACK";
 				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
