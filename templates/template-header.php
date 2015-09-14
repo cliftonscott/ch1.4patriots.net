@@ -15,6 +15,7 @@ if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
 	$logoImage = "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
 }
 ?>
+		<div class="navbar-brand"><?php echo $logoImage;?></div>
 		</div>
 
 </div>

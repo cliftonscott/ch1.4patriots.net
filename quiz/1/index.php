@@ -7,13 +7,11 @@
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 	<div class="container-main">
 		<div class="container oto-width">
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div>
-						<p><i>Obama and his government cronies now have more power than ever before...</i></p>
 						<h1 class="darkRed text-center">Are You And Your Family Prepared<br class="hidden-xs"> To Survive A Government<br class="hidden-xs"> Controlled Society?</h1>
 					</div>
 					<p>527,197 people have taken the <strong><i>Government Survival Quiz.</i></strong> Start the quiz below to see if you and your family are prepared to survive if the government finally gets <strong>complete control</strong> of America...</p>

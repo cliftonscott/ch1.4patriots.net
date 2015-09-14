@@ -8,7 +8,6 @@
 $quizName = "Government Survival Quiz";
 include_once ('template-top.php');
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
 <div class="container-main">
 	<div class="container oto-width">
 		<div class="row">
