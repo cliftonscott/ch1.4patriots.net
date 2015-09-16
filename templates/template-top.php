@@ -7,6 +7,8 @@ require_once("Meta.php");
 $metaDataObj = new Meta();
 require_once("Customer.php");
 $customerObj = new Customer();
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
 if($customerDataObj = $customerObj->getStoredCustomer()) {
 	$preFill["firstName"] = $customerDataObj->firstName;
 	$preFill["lastName"] = $customerDataObj->lastName;

@@ -5,35 +5,36 @@ if($_SESSION["googleTransaction"]) {
 }
 ?>
 
-<?php if(!empty($googleTransaction["customerId"]) && (isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] !== true)) { ?>
-	<script>
-		dataLayer = [];
-		dataLayer.push({
-			'ecommerce': {
-				'purchase': {
-					'actionField': {
-						'id': '<?php echo $googleTransaction["orderId"];?>',	// Transaction ID. Required for purchases and refunds.
-						'affiliation': '<?php echo $analyticsObj->googleAffiliation;?>',
-						'revenue': '<?php echo $googleTransaction["orderTotal"];?>',	// Total transaction value (incl. tax and shipping)
-						'tax':'<?php echo $googleTransaction["tax"];?>',
-						'shipping': '0',
-						'coupon': ''
-					},
-					'products': [{                            // List of productFieldObjects.
-						'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
-						'id': '<?php echo $googleTransaction["orderSku"];?>',
-						'price': '<?php echo number_format($googleTransaction["price"],2, '.', '');?>',
-						'brand': '<?php echo $googleTransaction["brand"];?>',
-						'category': '<?php echo $googleTransaction["orderCategory"];?>',
-						'variant': '<?php echo $googleTransaction["orderCategory"];?>',
-						'quantity': <?php echo $googleTransaction["orderQty"];?> ,
-						'metric1': '<?php echo number_format($googleTransaction["netRevenue"],2, '.', '');?>'
-					}]
-				}
+<script>
+	dataLayer = [];
+	dataLayer.push({
+		<?php echo JV::getGoogleAnalyticsData(); ?>
+		<?php if(!empty($googleTransaction["customerId"]) && (isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] !== true)) { ?>
+		'ecommerce': {
+			'purchase': {
+				'actionField': {
+					'id': '<?php echo $googleTransaction["orderId"];?>',	// Transaction ID. Required for purchases and refunds.
+					'affiliation': '<?php echo $analyticsObj->googleAffiliation;?>',
+					'revenue': '<?php echo $googleTransaction["orderTotal"];?>',	// Total transaction value (incl. tax and shipping)
+					'tax':'<?php echo $googleTransaction["tax"];?>',
+					'shipping': '0',
+					'coupon': ''
+				},
+				'products': [{ // List of productFieldObjects.
+					'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
+					'id': '<?php echo $googleTransaction["orderSku"];?>',
+					'price': '<?php echo number_format($googleTransaction["price"],2, '.', '');?>',
+					'brand': '<?php echo $googleTransaction["brand"];?>',
+					'category': '<?php echo $googleTransaction["orderCategory"];?>',
+					'variant': '<?php echo $googleTransaction["orderCategory"];?>',
+					'quantity': <?php echo $googleTransaction["orderQty"];?> ,
+					'metric1': '<?php echo number_format($googleTransaction["netRevenue"],2, '.', '');?>'
+				}]
 			}
-		});
-	</script>
-<?php } ?>
+		}
+		<?php } ?>
+	});
+</script>
 
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PKJP8K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
