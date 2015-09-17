@@ -496,13 +496,6 @@
 			</div>
 		</section>
 
-		<!--footer-->
-<!--		<footer id="footer" class="pull-up">
-			<div class="footer-top">
-				Information contained on Food4Patriots.com such as text, graphics, images and other materials are for educational use only. Although not guaranteed, every attempt has been made for accuracy.<br/></br>
-				<span class="small1">Copyright ©<script type="text/javascript">var today=new Date();document.write(today.getFullYear());</script> Power4Patriots.com — All rights reserved.<br/></span>
-			</div>
-		</footer>-->
 
 <script src="/assets/js/scripts.js" type="text/javascript"></script>
 
