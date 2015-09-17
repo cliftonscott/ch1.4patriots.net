@@ -369,7 +369,6 @@
 					</div>
 				</div>
 
-
 				<div class="block bg-white">
 					<h3 class="color-blue pad-30" style="text-align: center;">“A Snap to Prepare – Even a Kid Could Do It!”</h3>
 					<div class="padding-no-top">
@@ -542,29 +541,29 @@
 						<p>At this point I know you’re probably champing at the bit to get your hands on this food, but just to make this a complete no-brainer for you, <strong>I'm also offering four incredible FREE bonuses if you act now.</strong></p>
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-10-items-after-crisis.jpg" alt="Bonus 1"  class="media left">
-						<div style="padding-top:25px;">
-						<p><strong class="titles3">Free Bonus #1 - Top 10 Items Sold Out After a Crisis:</strong> In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
-					</div>
+						<div style="padding-top:0px;">
+							<p><strong class="titles3">Free Bonus #1 - Top 10 Items Sold Out After a Crisis:</strong> In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
+						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div>
-						<img src="/media/images/f4p/letter/f4p-letter-eBook-the-water-survival-guide.jpg" alt="Bonus 1" class="media left">
+						<img style="padding-bottom: 10px" src="/media/images/f4p/letter/f4p-letter-eBook-the-water-survival-guide.jpg" alt="Bonus 1" class="media left">
 						<div style="padding-top:0px;">
-						<p><strong class="titles3">Free Bonus #2 - The Water Survival Guide:</strong> Look, without clean water you can't prepare a scrap of food. You've got to have this to complete your stockpile. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. This down-and-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It'll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency.</p>
+							<p><strong class="titles3">Free Bonus #2 - The Water Survival Guide:</strong> Look, without clean water you can't prepare a scrap of food. You've got to have this to complete your stockpile. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. This down-and-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It'll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency.</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-the-survival-garden-guide.jpg" alt="Bonus 1"  class="media left">
-						<div style="padding-top:30px;">
-						<p><strong class="titles3">Free Bonus #3 - The Survival Garden Guide:</strong> A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
+						<div style="padding-top:0px;">
+							<p><strong class="titles3">Free Bonus #3 - The Survival Garden Guide:</strong> A long-term food stockpile works best when you can add in some succulent and well-preserved fruits and veggies. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can eat fresh-picked produce or delicious home-canned delicacies even in a disaster.</p>
 						</div>
 					</div>
 					<div class="clearfix"></div>
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-cut-grocery-bills-half.jpg" alt="Bonus 1"  class="media left">
-						<div style="padding-top:15px;">
-						<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal…this goes a lot further than clipping coupons!</p>
+						<div style="padding-top:0px;">
+							<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal…this goes a lot further than clipping coupons!</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
