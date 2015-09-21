@@ -26,6 +26,7 @@ else {
 	$logoImage = "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
 }
 ?>
+		<div class="navbar-brand"><?php echo $logoImage;?></div>
 		</div>
 
 </div>
