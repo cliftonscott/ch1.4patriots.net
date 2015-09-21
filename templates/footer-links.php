@@ -3,6 +3,7 @@ $targetNewArray = array (
 	"/video/index.php",
 	"/checkout/index.php",
 	"/letter/index.php",
+	"/letter/food/index.php",
 	"/checkout/thankyou.php",
 	"/video/t1/index.php",
 	"/checkout/t1/index.php",

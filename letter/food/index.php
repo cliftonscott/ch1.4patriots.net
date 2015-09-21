@@ -19,6 +19,3 @@ $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsOb
 		<div id="wrapper">
 			<?php include_once("content.php"); ?>
 		</div>
-<?php
-include_once("template-bottom.php");
-?>

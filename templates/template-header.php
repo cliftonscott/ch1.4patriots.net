@@ -26,12 +26,11 @@ else {
 	$logoImage = "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
 }
 ?>
-		<div class="navbar-brand"><?php echo $logoImage;?></div>
 		</div>
 
 </div>
 </div><!-- /container -->
-</div><!-- /navbar wrapper --> 
+</div><!-- /navbar wrapper -->
 <div class="navbar-phone-contain">
 	<div class="container nopadding">
 		<div class="navbar-phone">
@@ -39,4 +38,4 @@ else {
 			<div id="phone-button"><button type="button" class="btn btn-primary"><a href="tel:1-800-728-0008"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</a></button></div>
 		</div>
 	</div>
-</div><!-- /navbar phone --> 
+</div><!-- /navbar phone -->
