@@ -1,4 +1,6 @@
 <?php
+/*ini_set("error_reporting", E_ALL); // E_ALL or E_WARNING
+ini_set("display_errors", TRUE); // TRUE or FALSE*/
 $maxQuantity = 5;
 
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
@@ -19,6 +21,8 @@ require_once("Meta.php");
 $metaDataObj = new Meta();
 require_once("Customer.php");
 $customerObj = new Customer();
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
 if($customerDataObj = $customerObj->getStoredCustomer()) {
 	$preFill["firstName"] = $customerDataObj->firstName;
 	$preFill["lastName"] = $customerDataObj->lastName;
