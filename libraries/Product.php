@@ -911,7 +911,7 @@ class Product {
 			"oto1" => array (
 				"googleBrand" => "F4P-PROTEIN",
 				"nextUrl" => "/checkout/protein/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/protein/oto/f4p-4week-kit-discount.php",
+				"declineUrl" => "/checkout/protein/oto/f4p-messenger-trial.php",
 			),
 			"oto1b" => array (
 				"googleBrand" => "F4P-PROTEIN",
