@@ -16,6 +16,6 @@ $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsOb
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800' rel='stylesheet' type='text/css'>
 
-		<div id="wrapper">
-			<?php include_once("content.php"); ?>
-		</div>
+<div id="wrapper">
+	<?php include_once("content.php"); ?>
+</div>
