@@ -34,7 +34,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         
 		<div class="margin-tb-20">
 			<?php
-			$testimonials = array("thomas", "todd", "rich",);
+			$testimonials = array("catherine", "toney", "susan",);
 			foreach ($testimonials as $count => $testimonial) {
 				echo "<div class='testimonial'>";
 				if($count % 2 == 0) {
@@ -49,7 +49,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 
 		<div class="margin-tb-20">
-		<?php include_once("products/F4P-fruitveggiesnack-pid128.php");?>
+		<?php include_once("products/F4P-protein-pid230.php");?>
 		</div>
 
         <div class="margin-tb-20 text-center">
