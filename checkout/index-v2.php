@@ -8,6 +8,7 @@ $template["formType"] = "customerForm"; //designates that this is a form using c
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
 $_SESSION['productId'] = 19; //please keep as an integer
 $_SESSION['quantity'] = 1;
+$template["floatingTimer"] = 20;
 include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
@@ -137,6 +138,11 @@ if(!empty($customerDataObj->shippingCity)) {
 	<div class="header-content">
 		<img class="logo center-block" src="/media/images/checkout-v2/f4p-logo.png" />
 		<a href='#csr' onclick='showCsrModal();'><img class="phone-contact hidden-xs hidden-sm" src="/media/images/checkout-v2/phone-contact.png" /></a>
+		<?php
+		if($template["floatingTimer"] > 0) {
+			include_once("../templates/snippets/timer-box.html");
+		}
+		?>
 	</div>
 	<div class="group"></div>
 	<div class="phone-band">

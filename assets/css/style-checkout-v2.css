@@ -565,6 +565,39 @@ address {
 .badge-4p img {
 	margin: 0 auto;
 }
+
+/******************************
+TIMER BOX
+******************************/
+
+.timeClass {
+	font-family:arial,verdana,helvetica,sans-serif;
+	font-weight:normal;
+	font-size:15pt;
+}
+#time-container{
+	font-size: 12px;
+	text-align: center;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 35px;
+	padding-right: 3px;
+	padding-top: 5px;
+}
+#floatingTimer {
+	float: right;
+	width: 150px;
+	height: 60px;
+	background-color: #C00;
+	background-image: url(/assets/images/misc/timerbg.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 200px;
+	border-radius: 15px;
+}
+
 /* CUSTOMIZE CHECKOUT FORM
 -------------------------------------------------- */
 #secure-order-bar {
