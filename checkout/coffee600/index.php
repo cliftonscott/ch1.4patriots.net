@@ -6,7 +6,7 @@
 $template["floatingTimer"] = 0; //minutes to pass to the timer / will not display if not greater than zero
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
-$_SESSION['productId'] = 128; //please keep as an integer
+$_SESSION['productId'] = 182; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 3;
 include_once("Product.php");
@@ -66,7 +66,7 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 														<ul>
 															<li>600 servings (each makes a cup of coffee) packed in 10<br class="hidden-xs"> re-sealable pouches</li>
 															<li>100% Colombian</li>
-															<li>100% Pure Coffee (not blended with non-coffee ingredients, as is often done in the industry)</li>
+															<li>Straight from tree, to freeze dryer, to packaging, to cup</li>
 														</ul>
 													</div>
 												</div>
@@ -74,7 +74,7 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 													<div class="productList">
 														<ul>
 															<li>100% Non-GMO</li>
-															<li>Straight from tree, to freeze dryer, to packaging, to cup</li>
+															<li>100% Pure Coffee (not blended with non-coffee ingredients, as is often done in the industry)</li>
 															<li>100% Arabica</li>
 														</ul>
 													</div>
