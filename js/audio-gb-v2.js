@@ -3,14 +3,17 @@ function playAudio(what) {
 }
 function stopAudio(what) {
 	document.getElementById(what+"AudioSrc").pause();
-	document.getElementById(what+"AudioControl").src = "/media/images/checkout-v2/gb-button.png";
+	document.getElementById("GBCheckoutAudioControl").src = "/media/images/checkout-v2/gb-button.png";
+	document.getElementById("frankCheckoutAudioControl").src = "/assets/images/misc/speaker_off.gif";
 }
 function toggleAudio(what) {
 	if(document.getElementById(what+"AudioSrc").paused) {
 		document.getElementById(what+"AudioSrc").play();
-		document.getElementById(what+"AudioControl").src = "/media/images/checkout-v2/gb-button-animation.gif";
+		document.getElementById("GBCheckoutAudioControl").src = "/media/images/checkout-v2/gb-button-animation.gif";
+		document.getElementById("frankCheckoutAudioControl").src = "/assets/images/misc/speaker_on.gif";
 	} else {
 		document.getElementById(what+"AudioSrc").pause();
-		document.getElementById(what+"AudioControl").src = "/media/images/checkout-v2/gb-button.png";
+		document.getElementById("GBCheckoutAudioControl").src = "/media/images/checkout-v2/gb-button.png";
+		document.getElementById("frankCheckoutAudioControl").src = "/assets/images/misc/speaker_off.gif";
 	}
 }
