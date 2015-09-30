@@ -86,7 +86,6 @@ if(!empty($customerDataObj->shippingCity)) {
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="/assets/js/bootstrap.min.js"></script>
-	<script src="/js/audio.js"></script>
 
 	<?php
 	$isSecure = false;
@@ -362,6 +361,11 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 			</div>
 		</div>
+		<div style="float: left;">
+			<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto" autoplay></audio>
+			<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_on.gif" onclick="toggleAudio('frankCheckout');">
+			<div class="audio-message"><span class="hidden-xs">Now Playing:</span> Special Message From Frank</div>
+		</div>
 		<a href="#" ><div class="buy-button">CLICK TO CONTINUE</div></a>
 	</div>
 </div>
@@ -428,7 +432,7 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 			<div class="col-sm-5 glenn-beck-img">
 				<audio id="GBCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
-				<img id="GBCheckoutAudioControl" class="audioControl gb-button" src="/media/images/checkout-v2/gb-button.png" onclick="toggleAudio('GBCheckout');">
+				<img id="GBCheckoutAudioControl" class="gb-button" src="/media/images/checkout-v2/gb-button.png" onclick="toggleAudio('GBCheckout');">
 			</div>
 		</div>
 	</div>
