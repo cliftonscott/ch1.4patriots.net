@@ -132,9 +132,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 						<ul>
 							<li>10 Items Sold Out After Crisis</li>
-							<li>Water Survival Guide</li>
+							<li>The Water Survival Guide</li>
 							<li>How to Cut Your Grocery Bills</li>
-							<li>Survival Garden Guide</li>
+							<li>The Survival Garden Guide</li>
 						</ul>
 					</div>
 				</div>
