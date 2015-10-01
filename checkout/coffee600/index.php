@@ -23,6 +23,7 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
+<script src="/js/audio.js"></script>
 
 	<div class="container-main">
 
