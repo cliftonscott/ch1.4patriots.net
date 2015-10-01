@@ -65,7 +65,7 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 												<div class="col-sm-12 col-md-6 nopadding">
 													<div class="productList">
 														<ul>
-															<li>600 servings packed in 10<br class="hidden-xs"> re-sealable pouches</li>
+															<li>600 servings packed in 10<br class="hidden-xs"> resealable pouches</li>
 															<li>100% Colombian</li>
 															<li>Straight from tree, to freeze dryer, to packaging, to cup</li>
 														</ul>
