@@ -64,7 +64,7 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 												<div class="col-sm-12 col-md-6 nopadding">
 													<div class="productList">
 														<ul>
-															<li>600 servings (each makes a cup of coffee) packed in 10<br class="hidden-xs"> re-sealable pouches</li>
+															<li>600 servings packed in 10<br class="hidden-xs"> re-sealable pouches</li>
 															<li>100% Colombian</li>
 															<li>Straight from tree, to freeze dryer, to packaging, to cup</li>
 														</ul>
@@ -74,7 +74,7 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 													<div class="productList">
 														<ul>
 															<li>100% Non-GMO</li>
-															<li>100% Pure Coffee (not blended with non-coffee ingredients, as is often done in the industry)</li>
+															<li>100% Pure Coffee (not blended with non-coffee ingredients)</li>
 															<li>100% Arabica</li>
 														</ul>
 													</div>
