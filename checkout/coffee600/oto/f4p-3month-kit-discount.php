@@ -131,9 +131,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="productList">
 						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 						<ul>
-							<li>10 Items Sold Out After Crisis</li>
+							<li>Top 10 Items Sold Out After Crisis</li>
 							<li>The Water Survival Guide</li>
-							<li>How to Cut Your Grocery Bills</li>
+							<li>How to Cut Your Grocery Bills In Half</li>
 							<li>The Survival Garden Guide</li>
 						</ul>
 					</div>
@@ -157,7 +157,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			?>
 			<div class="margin-t-20">
 				<p>And don’t forget…when you order our Food4Patriots 3-month food supply, I’ll throw in 6 incredible bonuses absolutely FREE!</p>
-				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, The Water Survival Guide, How to Cut Your Grocery Bills, and The Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
+				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (Top 10 Items Sold Out After Crisis, The Water Survival Guide, How to Cut Your Grocery Bills In Half, and The Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Hard Copy Upgrades <br>To These Professionally Bound  Reports</h2>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-ebook-bonus-01.jpg" alt="Bonus 1" width="550" height="207" ></div>
@@ -226,9 +226,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="productList">
 						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 						<ul>
-							<li>10 Items Sold Out After Crisis</li>
+							<li>Top 10 Items Sold Out After Crisis</li>
 							<li>The Water Survival Guide</li>
-							<li>How to Cut Your Grocery Bills</li>
+							<li>How to Cut Your Grocery Bills In Half</li>
 							<li>The Survival Garden Guide</li>
 						</ul>
 					</div>
