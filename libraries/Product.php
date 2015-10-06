@@ -980,7 +980,7 @@ class Product {
 			),
 			"oto1" => array (
 				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/coffee600/oto/f4p-4week-kit-discount.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-messenger-trial.php",
 			),
 			"oto1b" => array (
 				"nextUrl" => "/checkout/coffee600/thankyou.php",

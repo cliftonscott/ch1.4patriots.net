@@ -131,9 +131,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="productList">
 						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 						<ul>
-							<li>10 Items Sold Out After Crisis</li>
+							<li>Top 10 Items Sold Out After Crisis</li>
 							<li>The Water Survival Guide</li>
-							<li>How to Cut Your Grocery Bills</li>
+							<li>How to Cut Your Grocery Bills In Half</li>
 							<li>The Survival Garden Guide</li>
 						</ul>
 					</div>
@@ -157,7 +157,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			?>
 			<div class="margin-t-20">
 				<p>And don’t forget…when you order our Food4Patriots 3-month food supply, I’ll throw in 6 incredible bonuses absolutely FREE!</p>
-				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, The Water Survival Guide, How to Cut Your Grocery Bills, and The Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
+				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (Top 10 Items Sold Out After Crisis, The Water Survival Guide, How to Cut Your Grocery Bills In Half, and The Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Hard Copy Upgrades <br>To These Professionally Bound  Reports</h2>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-ebook-bonus-01.jpg" alt="Bonus 1" width="550" height="207" ></div>
@@ -167,7 +167,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<h2 class="darkRed text-center">FREE Liberty Seed Vault</h2>
 					<p>More than 5,640 survival seeds from 22 varieties of hardy and delicious heirloom seeds passed down from our forefathers. No GMO crap or hybrids here. Sealed in an airtight container rated for 5+ years of storage.</p>
 					<p>All the seeds are re-harvestable and can be re-grown over and over again giving you 1000's of pounds of fresh, nutrient dense food… for literally pennies per pound. Enough to last your family a lifetime.</p>
-					<p>These survival seeds are the perfect companion to your survivalfood stockpile. Some companies charge over $200 for seeds that don't even come close to the quality I'm giving you today.</p>
+					<p>These survival seeds are the perfect companion to your survival food stockpile. Some companies charge over $200 for seeds that don't even come close to the quality I'm giving you today.</p>
 					<div class="row">
 						<div class="col-sm-12 col-md-5 "><img src="/media/images/ss4p/ss4p-lsv-single-bluebg.jpg" alt="Survival Seeds" class="img-responsive center-block" /></div>
 						<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
@@ -213,7 +213,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-month Supply Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
@@ -226,9 +226,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="productList">
 						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
 						<ul>
-							<li>10 Items Sold Out After Crisis</li>
+							<li>Top 10 Items Sold Out After Crisis</li>
 							<li>The Water Survival Guide</li>
-							<li>How to Cut Your Grocery Bills</li>
+							<li>How to Cut Your Grocery Bills In Half</li>
 							<li>The Survival Garden Guide</li>
 						</ul>
 					</div>
