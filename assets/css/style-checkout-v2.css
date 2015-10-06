@@ -113,7 +113,6 @@ PRODUCT DESKTOP
 	background-size: cover;
 	background-position: top center;
 	background-attachment: fixed;
-	border-bottom: 20px solid #b90003;
 	width: 100%;
 }
 .product-area-content {
@@ -165,31 +164,18 @@ PRODUCT DESKTOP
 .quantity-box {
 	background: linear-gradient(rgba(255,255,255,0.95),rgba(255,255,255,0.95)),
 				url("/media/images/checkout-v2/buy-button-pattern.png");
-	box-shadow:  -3px -3px 6px #000;
+	box-shadow:  -3px -3px 6px rgba(0, 0, 0, 0.37);
 	width:250px;
 	border-radius: 25px 25px 0 0;
 	margin: 0 auto;
 	position: absolute;
 	float: right;
-	top: -261px;
-	left: 645px;
+	bottom: 86px;
+	left: 662px;
 }
 .quantity-box-content {
-	padding-left: 20px;
-}
-.quantity-box-left {
-	text-align: right;
-	padding-top:20px;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 1em;
-}
-.quantity-box-right {
-	text-align: left;
-	padding-top:20px;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 1em;
+	padding: 20px 0px 13px 45px;
+	font-size: 17px;
 }
 .tabs-wrapper {
 	min-height: 75px;
@@ -257,7 +243,8 @@ PRODUCT DESKTOP
 
 .buy-button {
 	height:73px;
-	width:300px;
+	width:100%;
+	margin: 0 auto;
 	background: linear-gradient(rgba(79,141,29,0.9),rgba(101,179,39,0.9)),
 				url("/media/images/checkout-v2/buy-button-pattern.png");
 	border: solid 2px #fff;
@@ -616,7 +603,7 @@ img.audioControl {
 	height: 40px;
 	width: 100%;
 	padding-bottom: 5px;
-	background-color:#b90003;
+	background-color:#1C4795;
 	font-weight: bold;
 	font-size: 18px;
 	color: #F2F2F2;
@@ -651,12 +638,12 @@ img.audioControl {
 .form-group {
 	margin-bottom: 5px;
 }
-.form-container #firstName, #email, #billing-address, #billing-country, #billing-zip, #shipping-address, #creditCardNumber {
+.form-container #firstName, #lastName,#email, #phone, #billing-country, #creditCardNumber, #shipping-address  {
 	width: 100%;
 	margin-left:5%;
 	margin-bottom:10px;
 }
-.form-container #lastName, #phone, #billing-city, #billing-state, #shipping-city {
+.form-container #billing-address,  #billing-state,  #billing-city, #shipping-city, #billing-zip {
 	width: 95%;
 	margin-bottom:10px;
 }
@@ -671,7 +658,7 @@ img.audioControl {
 	width: 92%;
 }
 .form-container #card_expires_on_month {
-	width:55%;
+	width:65%;
 }
 .form-container input.error {
 	background: #ff9c9c !important;
@@ -807,7 +794,7 @@ input[type=number]::-webkit-outer-spin-button {
 	text-decoration: none;
 }
 .checkbox {
-	margin-top: 0;
+	margin: 42px 0 30px 134px;
 }
 .checkbox label {
 	text-align: left !important;
