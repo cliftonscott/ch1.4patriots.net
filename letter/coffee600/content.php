@@ -116,14 +116,14 @@
 	<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 	<div class="outLineBoxDarkBlue">
 		<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you’re not satisfied with your Fruit, Veggie and Snack Mix, just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide it’s not as delicious and nutritious as I promised, you can have your money back </p>
+		<h3>Guarantee #1:</h3> This is a <strong>100% money back guarantee.</strong> No questions asked. If for any reason you’re not satisfied with your Food4Patriots Survival Coffee Kit, just return it within 60 days of purchase and I’ll refund 100% of your purchase. </p>
 		<div class="clearfix"></div>
 	</div>
 
 	<div class="outLineBoxDarkBlue">
 		<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit, Veggie and Snack Mix anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Fruit, Veggie and Snack Mix and I will <strong>triple</strong> your money back!</p>
-		<p>That’s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I’m not really worried about it, because I am so confident you’re going to see the value in your Fruit, Veggie and Snack Mix as soon as you have it in your hands.</p>
+		<h3>Guarantee #2:</h3> It’s in addition to guarantee #1. If you open any of your Food4Patriots Survival Coffee Kit items anytime <strong>in the next 25 years</strong> and find that your coffee has spoiled, you can return your entire Food4Patriots Survival Coffee Kit and I will <strong>triple</strong> your money back!</p>
+		<div class="clearfix"></div>
 	</div>
 
 	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit, Veggie and Snack Mix…</h2>
