@@ -975,22 +975,27 @@ class Product {
 		$funnelData["coffee600"] = array(
 
 			"checkout" => array (
+				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
 				"declineUrl" => null,
 			),
 			"oto1" => array (
+				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
 				"declineUrl" => "/checkout/coffee600/oto/f4p-messenger-trial.php",
 			),
 			"oto1b" => array (
+				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/thankyou.php",
 				"declineUrl" => "/checkout/coffee600/thankyou.php",
 			),
 			"oto2" => array (
+				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/thankyou.php",
 				"declineUrl" => "/checkout/coffee600/oto/f4p-1year-kit-payments.php",
 			),
 			"oto2b" => array (
+				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/thankyou.php",
 				"declineUrl" => "/checkout/coffee600/thankyou.php",
 			),
