@@ -58,11 +58,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 			</div>
 			<div>
-				<p>Congratulations, Patriot! You’ve got a real solid start on survival food with your purchase today of the Survival Coffee Kit.</p>
+				<p>Congratulations, Patriot! You’ve got a real solid start on your survival food stockpile with your purchase today of the Survival Coffee Kit.</p>
 				<p>You know without a doubt that having enough to eat in a crisis is not just important; it’s deadly serious.</p>
 				<p>To make sure you’re 100% protected from toxic hunger during a disaster, I’d recommend beefing up your survival food stockpile with plenty of meals to keep you and your family full and satisfied for breakfast, lunch, and dinner.</p>
 				<p>I want to make sure, though, that I’m giving you the best opportunity to give your family a total “shield from starvation.”  That’s why I’m doing something today that I really can’t afford to do.</p>
-				<p>A lot of people have told me that getting their Survival Coffee Kit was a great first step, but they really wanted more.</p>
 				<p><strong>I’m taking a staggering $100 off my Food4Patriots 3-month kit.</strong></p>
 				<p>Yep, that’s right.</p>
 				<p>It’s my mission to help Patriots like you survive the next catastrophe that’s just around the corner – from crazy weather, terrorism, disease outbreak, or war.</p>
