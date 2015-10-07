@@ -8,7 +8,7 @@
 		<h1 class="darkRed text-center">“Supercharge” Your Survival Food Stockpile With Food4Patriots Fruit, Veggie and Snack Mix!</h1>
 	<?php endif; ?>
 	</div>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-06.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
 	<p>Dear Patriot,</p>
 	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
 	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
