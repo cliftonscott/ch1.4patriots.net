@@ -45,11 +45,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 
 		<div class="margin-tb-20">
+			<!-- SPLIT JV-19 10/08/15-->
 			<?php if (JV::in("19-protein")) {
 				include_once("products/F4P-coffeefunnel-protein-pid230.php");
 			}else {
 				include_once("products/F4P-fruitveggiesnack-pid128.php");
 			}?>
+			<!--/// End Test///-->
 		</div>
 
 		<div class="margin-tb-20 text-center">
