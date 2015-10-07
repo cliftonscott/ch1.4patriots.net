@@ -22,8 +22,11 @@ if($_GET["v"]) {
 
 ?>
 	<div class="container-main">
-		<div class="container">
+		<!--<div class="container">
 			<?php include_once("content.php"); ?>
+		</div>-->
+		<div class="container">
+			<?php include_once("content-v2.php"); ?>
 		</div>
 	</div>
 <?php
