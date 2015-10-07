@@ -126,6 +126,21 @@ if(!empty($customerDataObj->shippingCity)) {
 	function switchProduct(productId) {
 		document.getElementById("productId").value = productId;
 		setStateTax();
+		if (productId === 18){
+			$(".checkout3m").css("display", "none");
+			$(".checkout4w").css("display", "block");
+			$(".checkout1w").css("display", "none");
+		}
+		if (productId === 19){
+			$(".checkout3m").css("display", "block");
+			$(".checkout4w").css("display", "none");
+			$(".checkout1w").css("display", "none");
+		}
+		if(productId === 92) {
+			$(".checkout3m").css("display", "none");
+			$(".checkout4w").css("display", "none");
+			$(".checkout1w").css("display", "block");
+		}
 	}
 </script>
 <div id="LoadingDiv" style="display:none;">One Moment Please...<br />
@@ -528,18 +543,17 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 		<div style="max-width: 1024px; margin: 0 auto;">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-4">
 					<div class="row">
-						<div class="col-md-8">
+						<div class="col-md-12">
 							<div class="form-group left-form">
 								<label for="creditCardNumber">Card Number:</label>
-								<input type="number" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber"  value="">
-								<div class="text-center" style="margin-left: 5%;"><img src="/assets/images/checkout/credit-card.png" width="200" height="26" alt="Credit Cards Accepted"></div>
+								<input type="number" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber"  value="" style="max-width: 269px;display:inline;"><img src="/assets/images/checkout/credit-card.png" style="max-width: 154px; margin: 0 0 0 18px" alt="Credit Cards Accepted">
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6" style="margin-left: 15px;">
+						<div class="col-md-7" style="margin-left: 15px;">
 							<div class="form-inline expiration">
 								<div class="form-group left-form">
 									<label for="card_expires_on_month" style="padding: 0;">Expiration:</label>
@@ -571,7 +585,7 @@ if(!empty($customerDataObj->shippingCity)) {
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-3">
 							<div class="form-inline expiration">
 								<div class="form-group left-form">
 									<div class="form-group">
@@ -584,8 +598,19 @@ if(!empty($customerDataObj->shippingCity)) {
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-
+				<div class="col-md-8">
+					<div class="checkout3m text-center" style="max-width:226px; margin-left: 40px;">
+						<h5>3-MONTH FOOD SUPPLY</h5>
+						<img src="/media/images/checkout-v2/f4p-3month-kit.png" class="img-responsive center-block">
+					</div>
+					<div class="checkout4w text-center" style="max-width:226px; margin-left: 40px;display:none;">
+						<h5>4-WEEK FOOD SUPPLY</h5>
+						<img src="/media/images/checkout-v2/f4p-4week-kit.png" class="img-responsive center-block">
+					</div>
+					<div class="checkout1w text-center" style="max-width:226px; margin-left: 40px;display:none;">
+						<h5>1-WEEK FOOD SUPPLY</h5>
+						<img src="/media/images/checkout-v2/f4p-1week-kit.png" class="img-responsive center-block">
+					</div>
 				</div>
 			</div>
 		</div>
