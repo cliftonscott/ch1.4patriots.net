@@ -3,11 +3,7 @@ $_SESSION["upsell"] = TRUE; //must stay a boolean
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<script type="text/javascript">
-	var _vis_opt_revenue = "<?php echo $_SESSION['vwoRevenue'];?>";
-	window._vis_opt_queue = window._vis_opt_queue || [];
-	window._vis_opt_queue.push(function() {_vis_opt_revenue_conversion(_vis_opt_revenue);});
-</script>
+
 <script src="/js/audio.js"></script>
 <div class="container-main">
 	<div class="breadcrumb2">
@@ -26,8 +22,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<h1><strong>Thank You For Your Order!</strong></h1>
 		</div>
 		<div class="margin-tb-20">
-			<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge
-				from Food4Patriots.com</p>
+			<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge from Food4Patriots.com</p>
 		</div>
 		<div class="margin-tb-20">
 			<?php include("snippets/frank-thankyou-msg-coffee.html");?>
@@ -50,7 +45,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 
 		<div class="margin-tb-20">
-			<?php include_once("products/F4P-coffeefunnel-protein-pid230.php");?>
+			<!-- SPLIT JV-19 10/08/15-->
+			<?php if (JV::in("19-protein")) {
+				include_once("products/F4P-coffeefunnel-protein-pid230.php");
+			}else {
+				include_once("products/F4P-fruitveggiesnack-pid128.php");
+			}?>
+			<!--/// End Test///-->
 		</div>
 
 		<div class="margin-tb-20 text-center">
