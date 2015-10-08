@@ -43,7 +43,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<p>That&rsquo;s right, you can get the 4-Week Food4Patriots Kit for just $147 if you act now.</p>
 		<p>But this special sale offer is only for customers who have already purchased our&nbsp;<strong>Food4Patriots Meat &amp; Protein Kit</strong>. If you&rsquo;re seeing this, then good news, you qualify!</p>
 		<p>Look, I want to help you get where you need to be with your food stockpile…but without breaking the bank to get there.</p>
-		<p>So <?php echo $firstName;?>, would you like to accelerate your results by adding a 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
+		<p>So <?php echo $firstName;?>, would you like to accelerate your results by adding a 4-week Food4Patriots Kit to your order at a one-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 <?php
 if($isUpgrade) {
 	?>
