@@ -65,7 +65,7 @@
 	<p>If you have cash on hand, do you really want others to know you do?</p>
 	<p>Plus, if things get bad enough for banks to shut down, your money may not be worth the paper it&rsquo;s printed on&hellip;</p>
 	<p>But you can run the table if you have a good stockpile of coffee on hand.&nbsp;</p>
-	<p><strong><em>It&rsquo;s the difference between holding two pairs of aces&hellip; or a pair of two&rsquo;s.</em></strong></p>
+	<p><strong><em>It&rsquo;s the difference between holding two pairs of aces&hellip; or a pair of twos.</em></strong></p>
 	<p>And in contrast to cash, if you&rsquo;re bartering coffee you have the upper hand, and you get to decide &ldquo;how much&rdquo; it&rsquo;s worth in exchange.</p>
 	<p>You just might be surprised at how much value others will place on it.</p>
 	<p>And that, friends, is how you turn a cup of coffee into a pot of gold.</p>
