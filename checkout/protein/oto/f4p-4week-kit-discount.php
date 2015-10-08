@@ -38,9 +38,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div>
 		<p><?php echo $firstName;?>, once again, congratulations for making the great decision to get the Food4Patriots Meat &amp; Protein Kit.</p>
 		<p>I know you declined the previous offer of getting a 3-Month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. </p>
-		<p>I totally understand…but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
+		<p>I totally understand… but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
 		<p>So to thank you for becoming a customer today, I am offering you an <strong>exclusive $50.00 discount (that&rsquo;s 25% off)</strong> on the Food4Patriots 4-week Kit.</p>
-		<p>That&rsquo;s right, you can get the 4-Week Food4Patriots Kit for just $147 if you act now.</p>
+		<p>That&rsquo;s right, you can get the 4-week Food4Patriots Kit for just $147 if you act now.</p>
 		<p>But this special sale offer is only for customers who have already purchased our&nbsp;<strong>Food4Patriots Meat &amp; Protein Kit</strong>. If you&rsquo;re seeing this, then good news, you qualify!</p>
 		<p>Look, I want to help you get where you need to be with your food stockpile… but without breaking the bank to get there.</p>
 		<p>So <?php echo $firstName;?>, would you like to accelerate your results by adding a 4-week Food4Patriots Kit to your order at a one-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
@@ -62,8 +62,8 @@ if($isUpgrade) {
 		<?php include("f4p-4week-whatsincluded.html");?>    
 
 		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 4-Week Food4Patriots Kit when you upgrade today!</p>
-		<p>Because we're already going to be sending you our Meat & Protein Kit to your address in <?php echo $shippingCity;?>, we can add the 4-Week Kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
+		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 4-week Food4Patriots Kit when you upgrade today!</p>
+		<p>Because we're already going to be sending you our Meat & Protein Kit to your address in <?php echo $shippingCity;?>, we can add the 4-week Kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
 
 		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 		<div class="outLineBoxDarkBlue">
@@ -83,11 +83,11 @@ if($isUpgrade) {
 		</div>
 
 		<h2 class="darkRed text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ – Claim Your 4-Week Food4Patriots Kit For $50.00 Off Right Now! </h2>
-		<p>Now I understand that the 4-Week Food4Patriots Kit is the right choice for most people. This kit normally sells for $197, but because you’ve already taken the first step by getting the Meat & Protein Kit, and because I appreciate you putting your trust in us by being a customer, you can add the 4-Week Food4Patriots Kit today for <strong>just $147</strong>.</p>
+		<p>Now I understand that the 4-week Food4Patriots Kit is the right choice for most people. This kit normally sells for $197, but because you’ve already taken the first step by getting the Meat & Protein Kit, and because I appreciate you putting your trust in us by being a customer, you can add the 4-week Food4Patriots Kit today for <strong>just $147</strong>.</p>
 		<p>That&rsquo;s $50.00 – a massive 25% savings – off the already-discounted price. </p>
-		<p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 4-Week Food4Patriots to your order today!</p>
-		<p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
-		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
+		<p>I was only able to secure a limited quantity of these 4-week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 4-week Food4Patriots to your order today!</p>
+		<p>The 4-week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
+		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get the 4-week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
 		<div>
 <?php
 if($isUpgrade) {
