@@ -15,8 +15,7 @@ if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true)
 	dataLayer = [];
 	dataLayer.push({
 		'funnel': '<?php ?>',
-		/*'step': '<?php ?>',
-		 'eventAction': '<?php ?>',*/
+		'step': '<?php ?>',
 		<?php if($testTran != true) { echo JV::getGoogleAnalyticsData(); }?>
 		<?php if(!empty($googleTransaction["customerId"])) { ?>
 		<?php if($testTran === true) { echo "/*"; }?>
@@ -34,6 +33,7 @@ if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true)
 					'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
 					'id': '<?php echo $googleTransaction["orderSku"];?>',
 					'price': '<?php echo number_format($googleTransaction["price"],2, '.', '');?>',
+					'brand': '<?php echo $googleTransaction["brand"];?>',
 					'category': '<?php echo $googleTransaction["orderCategory"];?>',
 					'variant': '<?php echo $googleTransaction["orderCategory"];?>',
 					'quantity': <?php echo $googleTransaction["orderQty"];?> ,
