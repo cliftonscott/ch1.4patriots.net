@@ -159,7 +159,7 @@ class Limelight {
 				$_SESSION["googleTransaction"]["product"] = $productDataObj->googleProductName;
 				$_SESSION["googleTransaction"]["price"] = $productDataObj->price;
 				$_SESSION["googleTransaction"]["brand"] = $productDataObj->googleBrand;
-				$_SESSION["googleTransaction"]["orderSku"] = $productDataObj->googleProductSKU;
+				$_SESSION["googleTransaction"]["orderSku"] = $productDataObj->googleProductSku;
 				$_SESSION["googleTransaction"]["orderCategory"] = $productDataObj->googleProductCategory;
 				$_SESSION["googleTransaction"]["isTest"] = $customerDataObj->isTest;
 			}
