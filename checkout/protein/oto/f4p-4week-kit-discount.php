@@ -37,7 +37,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food4Patriots Kit"/></div>
 	<div>
 		<p><?php echo $firstName;?>, once again, congratulations for making the great decision to get the Food4Patriots Meat &amp; Protein Kit.</p>
-		<p>I know you declined the previous offer of getting a 3-Month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. </p>
+		<p>I know you declined the previous offer of getting a 3-month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. </p>
 		<p>I totally understand… but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
 		<p>So to thank you for becoming a customer today, I am offering you an <strong>exclusive $50.00 discount (that&rsquo;s 25% off)</strong> on the Food4Patriots 4-week Kit.</p>
 		<p>That&rsquo;s right, you can get the 4-week Food4Patriots Kit for just $147 if you act now.</p>
