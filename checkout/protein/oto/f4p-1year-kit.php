@@ -142,7 +142,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 		</div>
 		<div>
-			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
+			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-year Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
 			<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one year&rsquo;s worth of food for just $1.11 per serving!)</p>
 
@@ -157,8 +157,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<p>Because we’re already going to be sending you your Meat & Protein Kit, we can add the 1-year Kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
 		<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 
-		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
-		<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-Year Kit!</p>
+		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-year Kit!</h2>
+		<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses ONLY available with the 1-year Kit!</p>
 	</div>
 	<?php include("f4p-1year-bonus-survivalspring.html");?>
 	<?php include("f4p-1year-bonus-survivalbooks.html");?>
