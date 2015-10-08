@@ -46,7 +46,7 @@
 	<p>Your survival coffee kit comes with some of the best coffee on the planet&hellip;</p>
 	<p>It&rsquo;s 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster, to the freeze dryer, and into your cup. (Compare that to a $5.00 latte from your local Starbucks!)</p>
 	<p>Plus&hellip; it tastes GREAT! Our super fast processing keeps this coffee incredibly fresh and robust&hellip; and we&rsquo;ll guarantee it for the next 25 full years.&nbsp;</p>
-	<p>And, I&rsquo;m 100% sure you&rsquo;re gonna LOVE it.</p>
+	<p>And, I&rsquo;m 100% sure you&rsquo;re going to LOVE it.</p>
 	<p>What if coffee&rsquo;s just not for you?</p>
 
 	<h2 class="darkRed text-center">Hey Frank… I’m NOT A Coffee Drinker.<br class="hidden-xs"> What’s In It For Me?</h2>
