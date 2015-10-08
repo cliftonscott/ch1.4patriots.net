@@ -10,141 +10,150 @@
 	</div>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
 	<p>Dear Patriot,</p>
-	<p><strong>Fruits and veggies are vital to your overall survival food plan.</strong></p>
-	<p>There’s no doubt – in order to get and stay healthy, you’ve got to get multiple servings of fruit and vegetables each day.</p>
-	<p><strong>You’ll especially need them when facing a crisis, when these foods are hard, if not impossible to come by…</strong></p>
-	<p>There’s no other food group that’s as life giving as these orchard and garden delights… chock full of vitamins, minerals, antioxidants, and fiber.</p>
-	<p>Even if you’re more of a “meat and potatoes” kind of person, most everyone enjoys a bowl of sweet, juicy strawberries or garden fresh veggies like broccoli and green beans.</p>
-	<p>Truth is, without an adequate intake of fruits and veggies, your body simply isn’t getting the nutrients it needs to work right.</p>
-	<p>And folks, despite what others may claim, <strong>there’s no pill you can pop that will replace them.</strong></p>
-	<p>Let me explain…</p>
-	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keeps things “humming along” better.</p>
+	<p><strong><em>I&rsquo;m gonna go out on a limb here and guess something about you right now.</em></strong></p>
+	<p>I bet you&rsquo;re a fantastic planner, ready for any and everything that might come your way.</p>
+	<p>You may even have a supply stockpile: backup staples like food, candles, batteries and a clean source of water.</p>
+	<p><strong><em>But I can also predict that you&rsquo;re missing one vital thing that&rsquo;s far more important than you might think at first glance and that&rsquo;s&hellip;</em></strong></p>
+	<p><strong>Coffee. </strong></p>
+	<p><strong>&nbsp;</strong>Let me tell you why.</p>
+	<p>For one thing, you&rsquo;re certainly not the only one who loves a cup of coffee first thing in the morning to get them going.</p>
+	<p>Me? I&rsquo;m one of those people who would rather you didn&rsquo;t even LOOK in my direction before I hit the coffee pot.</p>
+	<p><em>And I&rsquo;m not alone.</em></p>
+	<p>There are approximately 150 million other folks who line up at Starbucks and Dunkin&rsquo; Donuts each day like soldiers to get their morning fix.</p>
+	<p>Not to mention&hellip; the 2 p.m. &ldquo;pick me up&rdquo; to get through the afternoon! My local coffee joint has got a line wrapped around it all day long!</p>
+	<p>But here&rsquo;s the thing&hellip; if a food shortage or natural disaster does occur, <strong>coffee might just save your life</strong>, especially if you&rsquo;re the only one who has any.&nbsp;</p>
+	<p>Because in a crisis, you can bet your hind end that coffee will fly off the shelves as fast or faster than any other stockpile supply.</p>
+	<p>And I guarantee that it&rsquo;ll be gone in well under 72 hours.</p>
 
-	<h2 class="darkRed text-center">Eating Fruits and Vegetables Can Help Maximize the Nutrition of Your Survival Food!</h2>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket.jpg" alt="Food4Patriots 1 Year Kit">
-	<p>When you add high-quality fruits and vegetables to your existing survival food stockpile, you’ll enjoy knowing you’re optimizing the level of nutrients your body needs</p>
-	<p>What Are Some Other Crucial Benefits of fruits and vegetables?</p>
+	<h2 class="darkRed text-center">Drinking A Cup Of Coffee Might Very Well Be The Thing That Keeps You Safe (And Sane)<br class="hidden-xs"> In A Crisis.</h2>
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-coffee600-01.jpg" alt="Coffee bags">
+	<p>And even if getting that little boost wasn&rsquo;t enough&hellip;</p>
+	<p>There are a ton of health benefits to drinking coffee regularly, but there are some other not so commonly known benefits to having coffee on hand too like:</p>
 	<ul class="fa-ul fa-ul-space">
-		<li><i class="fa-li fa fa-check"></i><strong>Better regularity</strong> Fiber keeps your digestive tract healthy and helps move waste out of your system, which helps you feel your best and be “light on your feet” – which is critical when you need to move fast.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Faster healing and boosted immunity</strong> Our bodies don’t make all the vitamins we need, so we need to eat foods that are rich in them to recover faster from infections and illness, which helps if you’re injured or catch a nasty bug.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Clear thinking</strong> Whole plant foods contain the nutrients that keep your brain sharp as a tack – especially important in a survival situation.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory</strong> Antioxidants in fruit and veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Boost your clarity and concentration: </strong>&ldquo;Calming stimulant&rdquo; may seem like an oxymoron, but the proof is clear. A cup of coffee in a stressful situation has a calming and clarifying effect on many people.</li>
+		<p>Believe it or not, even the SMELL of coffee can bring peace and harmony back in a stressful situation… it’s a subliminal sensory reaction! </p>
+		<li><i class="fa-li fa fa-check"></i><strong>Improve taste of your water:</strong> If you&rsquo;re stuck in a crisis filtering water from a &ldquo;survival source,&rdquo; it might be clean and pure&hellip; but it still might taste like dirt.</li>
+		<p>Rather than drinking terrible tasting water, make a cup of coffee and it’ll go down better… the boiling helps to purify it, and the bold flavor will mask any remaining unpleasant odor!</p>
+		<li><i class="fa-li fa fa-check"></i><strong>Use coffee as currency:</strong> Even if you don&rsquo;t plan to drink the coffee yourself, it&rsquo;s incredibly easy to use as a form of currency in an emergency. In fact, coffee is historically one of the most desired items in an uncertain time, going all the way back to 13<sup>th</sup> century Yemen!</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Take your performance to the next level: </strong> A powerful antioxidant, coffee boosts metabolism, reduces cholesterol levels and can even ease depression (a powerful benefit indeed if you&rsquo;re in a crisis situation!)</li>
 	</ul>
+	<p>It&rsquo;s crystal clear: <strong>You absolutely MUST have a supply of coffee in your survival stockpile.</strong>&nbsp;</p>
+	<p>And going to Costco just isn&rsquo;t going to cut it. It goes bad faster than you might think! You need a supply of coffee that&rsquo;s guaranteed to stand up to the test of time and taste great from the first cup to the last.&nbsp;</p>
+	<p>Trust me, you don&rsquo;t want to be caught in a situation where the grocery stores are all shuttered and you don&rsquo;t have a clue when things might return to &ldquo;normal.&rdquo;</p>
+	<p>That&rsquo;s why I&rsquo;ve put together the <strong>Food4Patriots Survival Coffee Kit&hellip;</strong></p>
 
-	<p>Okay… so there’s no arguing that you’ve got to have an adequate amount of fruits and vegetables every day for <strong>better</strong> health… but how do you work them into your survival food plan? </p>
-	<p>I mean… fresh fruits and veggies spoil after just a few days, right?</p>
-	<p>How are you supposed to survive on rotting produce?</p>
-	<p>Well, you’re not.</p>
+	<h2 class="darkRed text-center"> Guaranteed Shelf Life Of 25 Years, And Delicious From The First Taste<br class="hidden-xs"> To The Last Drop...</h2>
+	<p>Your survival coffee kit comes with some of the best coffee on the planet&hellip;</p>
+	<p>It&rsquo;s 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster to the freeze dryer and into your cup. (Compare that to a $5.00 latte from your local Starbucks!)</p>
+	<p>Plus&hellip; it tastes GREAT! Our super fast processing keeps this coffee incredibly fresh and robust&hellip; and we&rsquo;ll guarantee it for the next 25 full years.&nbsp;</p>
+	<p>And, I&rsquo;m 100% sure you&rsquo;re gonna LOVE it.</p>
+	<p>What if coffee&rsquo;s just not for you?</p>
 
-	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit, Veggie and Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
+	<h2 class="darkRed text-center">Hey Frank… I’m NOT A Coffee Drinker.<br class="hidden-xs"> What’s In It For Me?</h2>
+	<p>Well ain&rsquo;t that something.</p>
+	<p>Alright, maybe you are one of the few people in the world who don&rsquo;t wake up every single morning craving (or demanding!) a fresh cuppa Joe.</p>
+	<p><strong>That may put you in the very best position of all&hellip; </strong></p>
+	<p>Why?</p>
+	<p>If you find yourself in a crisis situation, <strong>coffee is one of the best possible things to be in possession of,</strong> to use for barter or trade for other necessities that you may not have access to.</p>
+	<p>Even if you&rsquo;re not going to drink it yourself, people will line up outside your door like you&rsquo;ve become their personal barista&hellip; because so many people just can&rsquo;t function without their daily dose.&nbsp;</p>
+	<p><strong><em>So, you might be thinking, &ldquo;well Frank, can&rsquo;t I just use cash?&rdquo;</em></strong></p>
+	<p>Sure&hellip; you could&hellip; theoretically.</p>
+	<p><strong>But relying solely on cash could land you and your family in hot water.</strong>&nbsp;</p>
+	<p>A crisis situation can play out a lot like a no-limit game of Texas Hold &lsquo;Em (that&rsquo;s poker to me and you), and winning can mean the difference between life and death.</p>
+	<p>The stakes are high.</p>
+	<p><strong><em>You might not want to show your whole hand, and keeping a poker face is instrumental to your survival.</em></strong></p>
+	<p>If you have cash on hand, do you really want others to know you do?</p>
+	<p>Plus, if things get bad enough for banks to shut down, your money may not be worth the paper it&rsquo;s printed on&hellip;</p>
+	<p>But you can run the table if you have a good stockpile of coffee on hand.&nbsp;</p>
+	<p><strong><em>It&rsquo;s the difference between holding two pairs of aces&hellip; or a pair of two&rsquo;s.</em></strong></p>
+	<p>And in contrast to cash, if you&rsquo;re bartering coffee you have the upper hand, and you get to decide &ldquo;how much&rdquo; it&rsquo;s worth in exchange.</p>
+	<p>You just might be surprised at how much value others will place on it.</p>
+	<p>And that, friends, is how you turn a cup of coffee into a pot of gold.</p>
+	<p>So&hellip; what&rsquo;s in the box? Happy to tell you:</p>
+
+	<h2 class="darkRed text-center">Here's Exactly What You'll Get When You Get Your Food4patriots Survival Coffee Kit:</h2>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee600-kit-tote-01.jpg" alt="">
-	<p>Our Fruit, Veggie and Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
-	<p>Keep all your individual packs in the tote, or take them on the go – it’s your choice.</p>
-	<p>Compact and discreet, you can store them anywhere – your garage, basement, RV, cabin, bug-out bag, or even your car!</p>
-
-	<h2 class="darkRed text-center">Here's Exactly What You'll Get:</h2>
-	<div class="container-fluid oto-width margin-tb-20">
-		<div class="row text-center">
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-corn.jpg"  alt="24 servings of freeze-dried corn">
-				<div class="caption"><strong>24 servings</strong> of freeze-dried corn</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-broccoli.jpg"  alt="16 servings of broccoli">
-				<div class="caption"><strong>16 servings</strong> of freeze-dried broccoli</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-blueberries.jpg"  alt="8 servings of freeze-dried blueberries">
-				<div class="caption"><strong>8 servings</strong> of freeze-dried blueberries</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-greenbeans.jpg"  alt="24 servings of green beans">
-				<div class="caption"><strong>24 servings</strong> of freeze-dried green beans</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-strawberries.jpg"  alt="16 servings of freeze-dried strawberries">
-				<div class="caption"><strong>16 servings</strong> of freeze-dried strawberries</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-4">
-				<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-pineapple.jpg"  alt="8 servings of pineapple">
-				<div class="caption"><strong>8 servings</strong> of freeze-dried pineapple</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-6 col-md-push-1">
-				<img style="width: 200px" class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-banana-chips.jpg"  alt="8 servings of honey-coated banana chips">
-				<div class="caption"><strong>8 servings</strong> of honey-coated banana chips</div>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-6 col-md-pull-1">
-				<img style="width: 200px" class="img-responsive center-block thumbnail" src="/media/images/f4p/food/fvs-pudding.jpg"  alt="10 servings of chocolate pudding for dessert!">
-				<div class="caption"><strong>Even 10 servings of chocolate<br/> pudding for dessert!</strong></div>
-			</div>
-		</div>
+	<div class="caption text-center">
+		<p>You’ll be getting 600 full servings of the good stuff. This is, 100% pure Colombian coffee that’s also 100% Non-GMO and 100% Arabica, straight from the tree to the freeze dryer and into your cup, all in airtight foil packets, guaranteed to last 25 years on the shelf.</p>
+		<p>Packaged in a handy burlap sack, inside of an additional watertight plastic storage container for easy stacking.</p>
 	</div>
-	<p><strong>With our Fruit, Veggie and Snack Mix, you can make all kinds of tasty creations like:</strong></p>
-	<ul>
-		<li>Strawberry Oatmeal</li>
-		<li>Healthy Trail Mix</li>
-		<li>Vegetable Medley</li>
-	</ul>
-	<p>And tons more!</p>
 
-	<h2 class="darkRed text-center">Lasts 25 Years, But Tastes As Fresh As If You Just Plucked Them Off A Tree Or Harvested Them Out Of Your Very Own Garden!</h2>
-	<p>Everything is super-easy to prepare. <u>Just add hot water!</u></p>
-	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of fruits and vegetables you will find in our Fruit, Veggie and Snack Mix!</p>
-	<p>Plus, it&rsquo;s very high in essential vitamins and minerals</p>
-	<p>You get <strong>114 total servings</strong> of delectable, healthy fruits and vegetables to help you survive the crisis we all know is coming.</p>
+	<h2 class="darkRed text-center">Rated for 25-Years But Tastes “Fresh Roasted,” Like It Was Ground By A Barista<br class="hidden-xs"> Just Seconds Ago.</h2>
+	<p>So imagine this for me&hellip;</p>
+	<p>You&rsquo;re hunkered in a bunker, waiting out a crisis.</p>
+	<p>There&rsquo;s a lot of people in there. Anxious, tired, wired&hellip; with guns and ammo at their disposal.</p>
+	<p>And some of &lsquo;em with itchy trigger fingers.</p>
+	<p>Tensions are high and the mood is gloomy.</p>
+	<p>But then, you put on some water and whip out a packet of coffee&hellip;</p>
+	<p>The minute the water hits the coffee and the aroma starts to drift around the room, the mood begins to lighten&hellip; and the whole situation takes on a much more normal tone.</p>
+	<p><strong><em>That, fellow patriots, is the power of Survival Coffee.</em></strong></p>
+	<p>Remember: It&rsquo;s been proven that even the SMELL of fresh coffee can boost spirits and elevate moods.</p>
+	<p>I sure wouldn&rsquo;t want to be in that situation and NOT have any coffee&hellip; would you?</p>
+	<p>So I&rsquo;m sure you&rsquo;re wondering about right now&hellip;</p>
 
-	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
-	<p>It’s no secret that fruits and vegetables are essential to any diet.</p>
-	<p>And when a natural disaster happens, there will not be opportunities to go to the nearest store and pick up some fruits and vegetables.</p>
-	<p>Well, you know me well enough by now that I’ve make it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
-	<p>And for a limited time, you can get our Fruit, Veggie and Snack Mix for the <strong>special promotional price of just $97.00!</strong></p>
-	<p><strong>That’s Just $1.18 Per Serving!</strong></p>
-	<p>Normally, this kit would cost around $147, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough vitamin enriched foods in their stockpile.</p>
-	<p>Be sure to jump on this opportunity folks… food prices are going through the roof right now, and I’m struggling to keep these kits in stock.</p>
-	<p>Get your Fruit, Veggie and Snack Mix at this special introductory price while it is still available…</strong></p>
-	<p>I’m not sure how long we will be able to offer this important kit for $97 or $1.18 per serving.</p>
-	<p><strong>Click the <strong>"Add To Cart"</strong> button below now, and I'll rush your kit to your front door right away!</strong></p>
-
+	<h2 class="darkRed text-center">Alright, Frank… How Much?</h2>
+	<p>By now, you can see how valuable coffee can be especially to&hellip;</p>
+	<p>Keep a sense of normalcy in a turbulent and uncertain time&hellip;</p>
+	<p>Maintain optimum performance and keep mental clarity and focus (even if there&rsquo;s chaos around you!)&hellip;</p>
+	<p>And to use as currency and barter for the things you or your family might need, no matter what the future holds.</p>
+	<p><em>How much is that peace of mind really worth to you and your family?</em></p>
+	<p>But good news: I&rsquo;ve got a great supplier who I can deal with directly to get these kits WAY down in price compared to what you&rsquo;d pay at some retail establishment where their canned coffee will waste away in mere months.</p>
+	<p>So, as long as I can keep them in stock (which will be a lot shorter than you might think&hellip;) you can get your hands on the complete <strong>Food4Patriots Survival Coffee Kit for my special price of just $97.00</strong></p>
+	<p>That&rsquo;s a full 600 servings, coming to a paltry $.17 per cup.&nbsp;</p>
+	<p>And like I said earlier, this isn&rsquo;t some cut rate bargain coffee either&hellip;</p>
+	<p>It&rsquo;s 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica&hellip; the best on the planet.</p>
+	<p>Now, under normal circumstances I&rsquo;d price that much coffee at about $147, but times are tough, and food prices continue to soar so I&rsquo;m offering this complete package at just $97.00&nbsp;</p>
+	<p>A real bargain when you think about it and all the benefits that a great cup of coffee brings ya.</p>
+	<p>But let me be real clear, this is a <em>limited time offer</em> and I suspect these kits are going to be gone in a heartbeat.</p>
+	<p>Don&rsquo;t miss out, get your <strong>Food4Patriots Survival Coffee Kit </strong>right now at this special price while you can.</p>
+	<p><strong>Click the big &ldquo;Add To Cart&rdquo; button right here </strong>and I&rsquo;ll get your Food4Patriots Survival Coffee Kit rushed to you!</p>
 
 	<div class="margin-tb-50 center-block text-center">
 		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee600-kit-tote-02.jpg" alt="">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 	</div>
 
-	<p>And just to make this a complete no-brainer for you...</p>
+	<p>And to make this the easiest decision you’ve made today by far...</p>
 
 	<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 	<div class="outLineBoxDarkBlue">
-		<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #1:</h3> This is a <strong>100% money back guarantee.</strong> No questions asked. If for any reason you’re not satisfied with your Food4Patriots Survival Coffee Kit, just return it within 60 days of purchase and I’ll refund 100% of your purchase. </p>
-		<div class="clearfix"></div>
+		<p><img style="padding-right:5px" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #1:</h3> This is a <strong>100% money back guarantee.</strong> No questions asked. If for any reason you’re not satisfied with your Food4Patriots Survival Coffee Kit, just return it within 60 days of purchase and I’ll refund 100% of your purchase. If you try it and decide it’s not as delicious and nutritious as I promised, you can have your money back.</p>
+
+			<div class="clearfix"></div>
 	</div>
 
 	<div class="outLineBoxDarkBlue">
-		<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #2:</h3> It’s in addition to guarantee #1. If you open any of your Food4Patriots Survival Coffee Kit items anytime <strong>in the next 25 years</strong> and find that your coffee has spoiled, you can return your entire Food4Patriots Survival Coffee Kit and I will <strong>triple</strong> your money back!</p>
+		<p><img style="padding-right:5px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Food4Patriots Survival Coffee Kit items anytime <strong>in the next 25 years</strong> and find that your coffee has spoiled, you can return your entire Food4Patriots Survival Coffee Kit and I will <strong>triple</strong> your money back!</p>
 		<div class="clearfix"></div>
 	</div>
 
-	<h2 class="darkRed text-center">Here’s What Patriots Just Like You Have To Say About Our Fruit, Veggie and Snack Mix…</h2>
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-01.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-02.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-fvs-testimonials-03.jpg" alt="Testimonial">
+	<h2 class="darkRed text-center">Here’s What Other Patriots Just Like You Are Saying About The Food4Patriots Survival Coffee Kit</h2>
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonial-coffee600-01.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonial-coffee600-04.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonial-coffee600-02.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonial-coffee600-05.jpg" alt="Testimonial">
+	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonial-coffee600-03.jpg" alt="Testimonial">
 
-	<p><strong><i>It’s all over the news… the worst drought to hit the US since the Dustbowl of the Great Depression is driving the cost of raw ingredients sky-high.</i></strong></p>
-	<p>Most folks recognize the need to “fill in the gaps” of their survival food stockpile to make sure their family has the most nutritious food available in a disaster.</p>
-	<p>Click the <strong>“Add to Cart”</strong> button below now, while I still have these in stock.</p>
-
-	<p>Hey listen… let’s get REAL… you don’t want to compromise on your family’s health or well-being, right?</p>
-	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit, Veggie and Snack Mix at this low price, or even <strong><i>at all… </i></strong></p>
-	<p>Survival food supplies are vanishing before our eyes.</p>
-	<p>So claim your kit NOW by clicking the <strong>“Add to Cart”</strong> button, and have true peace of mind your loved ones WON’T starve in the coming crisis…</p>
+	<h2 class="darkRed text-center">You Can Place Your Order In Just A Minute, But Consider This First...</h2>
+	<p><strong>One last thing&hellip;</strong></p>
+	<p><strong><em>Imagine you wake up one morning flip on the coffee pot, and the television&hellip; and the scene is utter chaos and tragedy.</em></strong></p>
+	<p><strong><em>Before your coffee even has time to brew, you know </em></strong></p>
+	<p><strong><em>something terrible has happened, and you don&rsquo;t even know what yet.</em></strong></p>
+	<p>Through the smoke and the crowds on television you see battered reporters trying to make sense of the mobs that have taken to the streets&hellip; violent gangs that are starting to loot stores in your hometown.</p>
+	<p>You don&rsquo;t know the scale of the event, and you don&rsquo;t know when&hellip; or if&hellip; it will end.</p>
+	<p>Your family, scared out of their wits, comes into the room with you and looks to you for guidance&hellip;</p>
+	<p><strong>What will you tell them?</strong></p>
+	<p>Now, like I said before, you&rsquo;re one of the few smart ones out there, who plans for the future, or you wouldn&rsquo;t be reading this right now.</p>
+	<p>But you may not have that one single &ldquo;game changer&rdquo; that could make all the difference in a time of uncertainty&hellip;</p>
+	<p><strong>And that, fellow patriots, is this coffee.</strong><strong><em>&nbsp;</em></strong></p>
+	<p>Click the <strong>&ldquo;Add to Cart&rdquo;</strong> button below now, and get yours on the truck and out the door NOW, not later.</p>
+	<p>I have no idea just how long I&rsquo;ll be able to hold the price at this ridiculously low rate, if the demand spikes or my supplier runs out&hellip; that&rsquo;s it.</p>
+	<p>So claim your Survival Coffee Kit NOW by clicking <strong>&ldquo;Add to Cart</strong><strong>,&rdquo;</strong> and have true peace of mind your loved ones will be well taken care of&hellip;</p>
+	<p>No matter what happens in the future.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee600-kit-tote-02.jpg" alt="">
 	<div class="margin-tb-50 center-block text-center">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 	</div>
-
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Testimonial">
-	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-26.jpg" alt="Testimonial">
-
 </div>
