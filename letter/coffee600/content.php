@@ -50,7 +50,7 @@
 	<p>What if coffee&rsquo;s just not for you?</p>
 
 	<h2 class="darkRed text-center">Hey Frank… I’m NOT A Coffee Drinker.<br class="hidden-xs"> What’s In It For Me?</h2>
-	<p>Well ain&rsquo;t that something.</p>
+	<p>Well, ain&rsquo;t that something.</p>
 	<p>Alright, maybe you are one of the few people in the world who don&rsquo;t wake up every single morning craving (or demanding!) a fresh cuppa Joe.</p>
 	<p><strong>That may put you in the very best position of all&hellip; </strong></p>
 	<p>Why?</p>
