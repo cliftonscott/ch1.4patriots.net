@@ -61,8 +61,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>And with the kind of shape our country is already in I don't blame you at all.</p>
 				<p>I did notice one thing that I want to bring up just to make sure you're doing all you can.</p>
 				<p>A lot of people have told me that getting their Meat &amp; Protein kit was a great first step, but they really wanted more. That having foods high in protein was just their &quot;starting point&quot;, and I get where they're coming from.</p>
-				<p>Meat &amp; Protein really is just a piece of the stockpiling puzzle.</p>
-				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special 1-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and 6 FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
+				<p>Meat &amp; Protein really are just a piece of the stockpiling puzzle.</p>
+				<p>I still really want you to help you get your food stockpile, protect your family, and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and 6 FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
 				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get A 3-Month Food4Patriots Supply Right Now...</h2>
 				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
