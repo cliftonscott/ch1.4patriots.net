@@ -1,15 +1,25 @@
 <?php
+
+
 if($_SESSION["googleTransaction"]) {
 	$googleTransaction = $_SESSION["googleTransaction"];
 	unset($_SESSION["googleTransaction"]);
+}
+
+if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true) {
+	$testTran = true;
 }
 ?>
 
 <script>
 	dataLayer = [];
 	dataLayer.push({
-		<?php echo JV::getGoogleAnalyticsData(); ?>
-		<?php if(!empty($googleTransaction["customerId"]) && (isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] !== true)) { ?>
+		'funnel': '<?php ?>',
+		/*'step': '<?php ?>',
+		 'eventAction': '<?php ?>',*/
+		<?php if($testTran != true) { echo JV::getGoogleAnalyticsData(); }?>
+		<?php if(!empty($googleTransaction["customerId"])) { ?>
+		<?php if($testTran === true) { echo "/*"; }?>
 		'ecommerce': {
 			'purchase': {
 				'actionField': {
@@ -24,16 +34,17 @@ if($_SESSION["googleTransaction"]) {
 					'name': '<?php echo $googleTransaction["product"];?>',	// Name or ID is required.
 					'id': '<?php echo $googleTransaction["orderSku"];?>',
 					'price': '<?php echo number_format($googleTransaction["price"],2, '.', '');?>',
-					'brand': '<?php echo $googleTransaction["brand"];?>',
 					'category': '<?php echo $googleTransaction["orderCategory"];?>',
 					'variant': '<?php echo $googleTransaction["orderCategory"];?>',
 					'quantity': <?php echo $googleTransaction["orderQty"];?> ,
-					'metric1': '<?php echo number_format($googleTransaction["netRevenue"],2, '.', '');?>'
+					'metric1': '<?php echo number_format($googleTransaction["netRevenue"],2, '.', '');?>',
 				}]
 			}
 		}
+		<?php if($testTran === true) { echo "*/"; }?>
 		<?php } ?>
 	});
+
 </script>
 
 <!-- Google Tag Manager -->

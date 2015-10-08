@@ -109,7 +109,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	?>
 </head>
 <body>
-<?php include_once("analytics-google-ecom.php"); ?>
+<?php include_once("ga-data-layer.php"); ?>
 <script src="/js/audio-gb-v2.js"></script>
 <script>
 	/*
