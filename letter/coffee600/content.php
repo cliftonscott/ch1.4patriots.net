@@ -28,7 +28,7 @@
 	<h2 class="darkRed text-center">Drinking A Cup Of Coffee Might Very Well Be The Thing That Keeps You Safe (And Sane)<br class="hidden-xs"> In A Crisis.</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-coffee600-01.jpg" alt="Coffee bags">
 	<p>And even if getting that little boost wasn&rsquo;t enough&hellip;</p>
-	<p>There are a ton of health benefits to drinking coffee regularly, but there are some other not so commonly known benefits to having coffee on hand too like:</p>
+	<p>There are a ton of health benefits to drinking coffee regularly, but there are some other not so commonly known benefits to having coffee on hand too, like:</p>
 	<ul class="fa-ul fa-ul-space">
 		<li><i class="fa-li fa fa-check"></i><strong>Boost your clarity and concentration: </strong>&ldquo;Calming stimulant&rdquo; may seem like an oxymoron, but the proof is clear. A cup of coffee in a stressful situation has a calming and clarifying effect on many people.</li>
 		<p>Believe it or not, even the SMELL of coffee can bring peace and harmony back in a stressful situation… it’s a subliminal sensory reaction! </p>
