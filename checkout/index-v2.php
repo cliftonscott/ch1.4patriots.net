@@ -71,8 +71,9 @@ if(!empty($customerDataObj->shippingCity)) {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
 	<?php echo $metaDataObj->title;?>
 	<?php echo $metaDataObj->description;?>
 	<?php echo $metaDataObj->keywords;?>
@@ -97,14 +98,8 @@ if(!empty($customerDataObj->shippingCity)) {
 	$REQUEST_PROTOCOL = $isSecure ? 'https' : 'http';
 	?>
 
-	<script src="/js/floating-1.12.js"></script>
+	<!--<script src="/js/floating-1.12.js"></script>-->
 	<?php
-	if($template["floatingTimer"] > 0) {
-		include_once("timer-floating.php");
-	}
-	if($template["exitPopType"] === "video") {
-		include_once("exit-pop-video.php");
-	}
 	echo "\n<script src='/js/jquery.validate.min.js'></script>";
 	//set this variable on a page that uses the customer-form.php template file to provide validation/states functions
 	if($template["formType"] === "customerForm") {
@@ -130,13 +125,11 @@ if(!empty($customerDataObj->shippingCity)) {
 			$(".checkout3m").css("display", "none");
 			$(".checkout4w").css("display", "block");
 			$(".checkout1w").css("display", "none");
-		}
-		if (productId === 19){
+		}else if (productId === 19){
 			$(".checkout3m").css("display", "block");
 			$(".checkout4w").css("display", "none");
 			$(".checkout1w").css("display", "none");
-		}
-		if(productId === 92) {
+		}else if(productId === 92) {
 			$(".checkout3m").css("display", "none");
 			$(".checkout4w").css("display", "none");
 			$(".checkout1w").css("display", "block");
@@ -154,9 +147,9 @@ if(!empty($customerDataObj->shippingCity)) {
 		<img class="logo center-block" src="/media/images/checkout-v2/f4p-logo.png" />
 		<a href='#csr' onclick='showCsrModal();'><img class="phone-contact hidden-xs hidden-sm" src="/media/images/checkout-v2/phone-contact.png" /></a>
 		<?php
-		if($template["floatingTimer"] > 0) {
+		/*if($template["floatingTimer"] > 0) {
 			include_once("../templates/snippets/timer-box.html");
-		}
+		}*/
 		?>
 	</div>
 	<div class="group"></div>
@@ -225,7 +218,7 @@ if(!empty($customerDataObj->shippingCity)) {
 <!--DESKTOP PRODUCT AREA-->
 <div class="group"></div>
 <div class="product-area-wrapper hidden-sm hidden-xs">
-	<div class="product-area-content">
+	<div class="product-area-content" style="position: relative;">
 		<div class="" style="width:1200px; margin: 0 auto;">
 			<div class="tab-content">
 				<div id="home" class="tab-pane fade in active">
@@ -294,6 +287,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 			</div>
 		</div>
+		<div style="position: absolute;top: 87px;left: -151px;"><img src="/assets/images/checkout/arrows-choose-kit.png"></div>
 	</div>
 </div>
 
@@ -541,7 +535,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 			</div>
 		</div>
-		<div style="max-width: 1024px; margin: 0 auto;">
+		<div style="max-width: 1010px; margin: 0 auto;">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="row">
@@ -846,11 +840,11 @@ if(isset($preFill)) {
 <div class="group"></div>
 <div class="whats-included-menu-wrapper">
 	<div class="whats-included-menu-content">
-		<h1 style="padding:20px 35px;">WHAT MEALS ARE INCLUDED?</h1>
-		<ul class="nav nav-pills">
-			<li class="active"><a data-toggle="pill" href="#menu3"><span class="tab-product">3-MONTH FOOD SUPPLY</span><br><span class="tab-price">$497 - ($5/DAY)</span></a></li>
-			<li><a data-toggle="pill" href="#menu4"><span class="tab-product">4-WEEK FOOD SUPPLY</span><br><span class="tab-price">$197 - ($7/DAY)</span></a></li>
-			<li><a data-toggle="pill" href="#menu5"><span class="tab-product">1-WEEK FOOD SUPPLY</span><br><span class="tab-price">$67 - ($10/DAY)</span></a></li>
+		<h1 style="margin: 20px 0;">WHAT MEALS ARE INCLUDED?</h1>
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#menu3"><span class="tab-product">3-MONTH FOOD SUPPLY</span><br><span class="tab-price">$497 - ($5/DAY)</span></a></li>
+			<li><a data-toggle="tab" href="#menu4"><span class="tab-product">4-WEEK FOOD SUPPLY</span><br><span class="tab-price">$197 - ($7/DAY)</span></a></li>
+			<li><a data-toggle="tab" href="#menu5"><span class="tab-product">1-WEEK FOOD SUPPLY</span><br><span class="tab-price">$67 - ($10/DAY)</span></a></li>
 		</ul>
 	</div>
 </div>
@@ -1042,13 +1036,6 @@ if(isset($preFill)) {
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-
-<!--WHATS INCLUDED BUY BUTTON-->
-<div class="buy-button-wrapper">
-	<div class="buy-button-content">
-		<a href="#" ><div class="buy-button">CLICK TO CONTINUE</div></a>
 	</div>
 </div>
 
@@ -1295,6 +1282,20 @@ if(isset($preFill)) {
 		$("#checkout-button-container").css("display", "block");
 		$("#submit-button-container").css("display", "none");
 	}
+	$(document).ready(function(){
+		$('body').append('<div id="toTop" class="btn btn-info"><i class="fa fa-arrow-up"></i>Back to Top</div>');
+		$(window).scroll(function () {
+			if ($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+		$('#toTop').click(function(){
+			$("html, body").animate({ scrollTop: 0 }, 600);
+			return false;
+		});
+	});
 </script>
 <style>
 	#csrModal p {
