@@ -19,7 +19,7 @@ include_once("Product.php");
 $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("oto1");
+$funnelData = $productObj->initFunnel("OTO-C600-1-3MK");
 $declineUrl = $funnelData["declineUrl"];
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/

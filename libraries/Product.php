@@ -233,7 +233,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 3MKITUP";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -242,7 +242,7 @@ class Product {
 				$productObj->price = 397;
 				$productObj->originalPrice = 497;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 145;
+				$productObj->netRevenueEach = 150;
 				$productObj->googleProductName = "F4P-3MK";
 				$productObj->googleProductSKU = "PID23";
 				$productObj->googleProductCategory = "1-PAY-397-DISCOUNT";
@@ -350,7 +350,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-generator.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1YRKIT";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -359,7 +359,7 @@ class Product {
 				$productObj->price = 1997;
 				$productObj->originalPrice = 2997;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 930;
+				$productObj->netRevenueEach = 950;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSKU = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
@@ -405,7 +405,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1YRKIT3PAYMENT";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 8;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -414,7 +414,7 @@ class Product {
 				$productObj->price = 597;
 				$productObj->originalPrice = 597;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 500;
+				$productObj->netRevenueEach = 525;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSKU = "PID120";
 				$productObj->googleProductCategory = "3-PAY-597";
@@ -616,8 +616,8 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 66;
 				$productObj->tags = "LL, COFFEE600";
-				$productObj->shippingIdDomestic = 8;
-				$productObj->shippingIdInternational = 6;
+				$productObj->shippingIdDomestic = 20;
+				$productObj->shippingIdInternational = 21;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 182;
@@ -977,12 +977,12 @@ class Product {
 			"checkout" => array (
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
-				"declineUrl" => null,
+				"declineUrl" => "/checkout/coffee/f4p-coffee-trial.php",
 			),
 			"oto1" => array (
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/coffee600/oto/f4p-messenger-trial.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-4week-kit-discount.php",
 			),
 			"oto1b" => array (
 				"googleBrand" => "F4P-COFFEE600",

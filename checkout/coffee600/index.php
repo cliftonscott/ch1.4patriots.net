@@ -14,7 +14,8 @@ $productObj = new Product();
 
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("checkout");
+
+$funnelData = $productObj->initFunnel("CHECKOUT");
 
 //include template top AFTER the product information is set
 include_once ('template-top.php');
