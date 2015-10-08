@@ -221,6 +221,24 @@ PRODUCT DESKTOP
 	color: green;
 }
 
+.nav-tabs {
+	padding-top:5px;
+	padding-left: 40px;
+}
+.nav-tabs li {
+	text-align: center;
+	font-size:18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	line-height: 1em;
+	height: 71px;
+	width: 270px;
+	margin: 0 auto;
+}
+.nav-tabs>li.active>a .tab-product, .nav-pills>li.active>a:focus .tab-product, .nav-pills>li.active>a:hover .tab-product {
+	color: green;
+}
+
 .buy-button-wrapper {
 	height: 100px;
 	background: linear-gradient(rgba(225,225,225,0.9),rgba(206,206,206,0.9)),
@@ -408,11 +426,9 @@ WHATS INCLUDED
 ******************************/
 
 .whats-included-menu-wrapper {
-	min-height: 200px;
+
 	background: linear-gradient(rgba(254,254,254,0.9),rgba(227,227,227,0.9));
-	border-bottom: solid 1px white;
 	border-top: solid 1px white;
-	box-shadow: 0px 2px 10px #7c7c7c;
 	position: relative;
 	z-index: 6;
 }
@@ -597,6 +613,22 @@ img.audioControl {
 	height:36px;
 	cursor:pointer;
 }
+
+/******************************
+BACK TO TOP BOX
+******************************/
+
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 50px;
+	cursor: pointer;
+	display: none;
+	z-index: 10;
+}
+#toTop .fa {margin-right: 5px;}
+
+
 /* CUSTOMIZE CHECKOUT FORM
 -------------------------------------------------- */
 #secure-order-bar {
