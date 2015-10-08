@@ -11,7 +11,7 @@
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
 	<p>Dear Patriot,</p>
 	<p><strong><em>I&rsquo;m going to go out on a limb here and guess something about you right now.</em></strong></p>
-	<p>I bet you&rsquo;re a fantastic planner, ready for any and everything that might come your way.</p>
+	<p>I bet you&rsquo;re a fantastic planner, ready for anything and everything that might come your way.</p>
 	<p>You may even have a supply stockpile: backup staples like food, candles, batteries and a clean source of water.</p>
 	<p><strong><em>But I can also predict that you&rsquo;re missing one vital thing that&rsquo;s far more important than you might think at first glance and that&rsquo;s&hellip;</em></strong></p>
 	<p><strong>Coffee. </strong></p>
