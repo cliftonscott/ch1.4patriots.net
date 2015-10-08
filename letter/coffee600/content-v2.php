@@ -82,19 +82,15 @@ if(!$pageGreeting) {
 ?>
 <div class="container-main">
 	<div class="container oto-width">
-		<div><h1 class="darkRed text-center">This May Be More Valuable Than Gold In a Crisis</h1>
+		<div><h1 class="darkRed text-center">This May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis</h1>
 		</div>
-		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
-		<div style="margin-top:25px;">
-			<p>There have been giant snowstorms in the northeast and the Ebola scare was enough to put anyone on edge. Especially smart patriots like you.</p>
-			<p>Now, you’ve proven that you’re a true God fearing American patriot who can see the handwriting on the wall and you’ve taken the first step by getting your free coffee today.</p>
-			<h2 class="darkRed text-center">“Coffee is as American as Apple Pie”</h2>
+		<!--<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">-->
+		<img style="width: 400px; margin-top: 5px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" class="img-responsive pull-left img-padding-right media">
 			<p>There’s nothing more comforting and American than being able to sip a cup of fresh hot delicious coffee, and in the event of an emergency it’s a direct part of your “normal” routine.</p>
 			<p>And keep in mind; this is the highest quality coffee we could source on the planet. No GMO’s, all 100% coffee, with absolutely zero additional “fillers”, additives or preservatives.</p>
 			<img src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
-			<p>It’s also 100% Colombian and 100% Arabica, arguably the finest coffee plants on the planet today.</p>
+			<p style="padding-top: 30px">It’s also 100% Colombian and 100% Arabica, arguably the finest coffee plants on the planet today.</p>
 			<p>Harvested at the peak of freshness then immediately roasted to perfection, freeze dried and put in our specially designed Mylar packages designed to ensure safe keeping for at least 25 FULL years.</p>
-			<p>You’ve got a full 30 cups coming to you, but I also want you to think about something for just a second.</p>
 			<p>Imagine you wake up one morning and flip on the television and you find complete chaos.</p>
 			<p><em>Something terrible has happened, and you don’t even know what yet.</em></p>
 			<p>Through the smoke and the crowds on television you see battered reporters trying to make sense of what just happened. You see mobs of people who have taken to the streets in violent gangs starting to loot stores in your city or town.</p>
@@ -107,7 +103,7 @@ if(!$pageGreeting) {
 			<p>But, even though you’ve planned for something, have you really honestly covered all the bases?</p>
 			<p>You probably even have a supply of food in storage, and backup supplies like candles and batteries and a source of clean water.</p>
 			<p>But I think you might be missing one more thing.</p>
-			<p>And that’s… more coffee.</p>
+			<p>And that’s… coffee.</p>
 			<p>Let me tell you why. You’re not the only one who loves a cup of coffee in the morning. It’s you and about 150 million other people in this country who have at least a cup or two in the morning.</p>
 			<p>And I’m deadly serious about this next part…</p>
 			<p>If a food shortage or natural disaster does occur, <strong>coffee might just save your life,</strong> especially if you’re the only one who has any.</p>
@@ -117,14 +113,13 @@ if(!$pageGreeting) {
 			<p>That makes it a whole lot more valuable. All the way back to its origins in Yemen in the early 13th century coffee has been an incredible commodity.</p>
 			<p>If you find yourself in a crisis situation, coffee is easily one of the best possible things to be in possession of, to use for barter or trade for other necessities that you may not have on hand.</p>
 			<p>So here’s what I’m going to do for you today.</p>
-			<p>Since you were one of the people who immediately saw the value of our Food 4 Patriots free coffee offer… I’m going to give you something even better.</p>
 			<p>At the bottom of this page there’s a button that says <strong>“Click to Accept.”</strong></p>
-			<p>When you click it, I’ll add my Food 4 Patriots Coffee Kit to your order for just one additional payment of $97.00.</p>
+			<p>When you click it, I’ll add my Food 4 Patriots Coffee Kit to your order for just one payment of $97.00.</p>
 			<p>Let me tell you what you’re going to get here...</p>
 			<div>
 				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-01.jpg"  alt="Food4Patriots Coffee Kit"/>
 			</div>
-			<p>It’s an additional 600 full servings of the good stuff.</p>
+			<p>The Food4Patriots Survival Coffee Kit contains 600 full servings of the good stuff.</p>
 			<p>That’s just $.16 per serving of the same 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster to the freeze dryer and into your cup. (Compare that to your $5.00 latte from your local Starbucks!)</p>
 			<p>Not only that, it tastes GREAT – our super fast processing keeps this coffee incredibly fresh and robust… just look at what some of our happy customers have said about it:</p>
 
@@ -152,7 +147,7 @@ if(!$pageGreeting) {
 			<p>In this offer you’ll be getting, 10 full pouches (60 servings each) sealed into the specially designed triple-layered, re-sealable, re-usable Mylar packet that will significantly increase the shelf life and viability of your survival coffee.</p>
 			<p>Then we put it all in a handy burlap sack, inside of an additional watertight plastic storage container for easy stacking.</p>
 			<p>You may not ever need to use it in a crisis and I hope that’s the case, if so… you get to enjoy it all by yourself, and believe me you’re going to love it!</p>
-			<p>Keep in mind, this offer is exclusive ONLY to people who just ordered our 30 cup offer, and that means you.  This will be <strong>the only time you see it at this incredible price.</strong></p>
+			<p>Keep in mind, this offer is exclusive ONLY to people who see the importance in having a coffee stockpile, and that means you.</p>
 			<p>Oh, and I’ll gladly pay the shipping, that’s on me, it’s the least I can do to get this into your hands today.</p>
 			<p>And one last thing… like everything other product we sell, you get my outrageous double guarantee which goes a little something like this:</p>
 			<div class="outLineBoxDarkBlueCoffee">
