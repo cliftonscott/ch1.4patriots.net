@@ -481,7 +481,7 @@
 				<div style="margin-bottom: 10px"><img class="img-responsive center-block"src="/media/images/f4p/letter/f4p-letter-mob.jpg"/></div>
 				<p style="text-align: center;" class="caption">Desperate mobs will troll neighborhoods… looking to steal your food!</p>
 				<p>Get the picture?</p>
-				<p>Now the last thing I want happening is someone to give up their chance to claim their Food4Patriots package because they couldn't afford it.</p>
+				<p>Now, the last thing I want happening is someone to give up their chance to claim their Food4Patriots package because they couldn't afford it.</p>
 				<span class="more">The fact is... <span class="dots-down"></span></span>
 				<div class="clear"></div>
 			</div>
@@ -550,7 +550,7 @@
 				<div>
 					<img style="padding-bottom: 10px" src="/media/images/f4p/letter/f4p-letter-eBook-the-water-survival-guide.jpg" alt="Bonus 1" class="media left">
 					<div style="padding-top:0px;">
-						<p><strong class="titles3">Free Bonus #2 - The Water Survival Guide:</strong> Look, without clean water you can't prepare a scrap of food. You've got to have this to complete your stockpile. Not to mention the fact dehydration can hit in as little as 7 hours and turn a full-grown man into a whimpering child. This down-and-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It'll also walk you through the basics of water storage, how to find a source and tricks to easily grab water in an emergency.</p>
+						<p><strong class="titles3">Free Bonus #2 - The Water Survival Guide:</strong> Look, without clean water you can't prepare a scrap of food. You've got to have this to complete your stockpile. Not to mention the fact that dehydration can hit in as little as seven hours and turn a full-grown man into a whimpering child. This down-and-dirty guide will show you desperate-times only water sources to keep your family from going thirsty. It'll also walk you through the basics of water storage, how to find a source, and tricks to easily grab water in an emergency.</p>
 					</div>
 				</div>
 				<div class="clearfix"></div>
@@ -564,7 +564,7 @@
 				<div>
 					<img src="/media/images/f4p/letter/f4p-letter-eBook-cut-grocery-bills-half.jpg" alt="Bonus 1"  class="media left">
 					<div style="padding-top:0px;">
-						<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal…this goes a lot further than clipping coupons!</p>
+						<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal… this goes a lot further than clipping coupons!</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -585,7 +585,7 @@
 		<div class="block bg-blue bg-flag ">
 			<div class=" pad-30  ">
 				<img src="/media/images/f4p/letter/f4p-letter-section6-block1-img1.png" class="media right no-marg-bot absolute">
-				<p><span class="titles3"><strong>Guarantee #1:</strong></span><strong>&nbsp; </strong>is a 100% money back guarantee, no questions asked. If, for any reason, you're not satisfied with your Food4Patriots Kit, just return it within 60 days of purchase and I'll refund 100% of your purchase price. If you try it and decide it's not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. That way there's absolutely no risk for you.</p>
+				<p><span class="titles3"><strong>Guarantee #1:</strong></span><strong>&nbsp; </strong>is a 100% money back guarantee, no questions asked. If, for any reason you're not satisfied with your Food4Patriots Kit, just return it within 60 days of purchase and I'll refund 100% of your purchase price. If you try it and decide it's not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. That way there's absolutely no risk for you.</p>
 				<p><strong><span class="titles3">Guarantee #2:&nbsp;</span></strong>is an unheard of 300% money back guarantee. If you open your Food4Patriots meal anytime in the next 25 years and find your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will triple your money back!</p>
 				<p>Does that sound fair to you? That's how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it.</p>
 			</div>
@@ -628,7 +628,7 @@
 			<div class="padding-all">
 				<p>It's 9:07 AM and the "you know what" has just hit the fan. People are panicking. It's all over the radio and TV.</p>
 				<p>A news anchor comes on the TV screen and in a shaky voice says, "We are in a state of emergency. I repeat, we are now in a state of emergency."</p>
-				<p>The 47 million freeloaders spoon-fed by "big government" are marching in the streets. There are rumors of looting. In fact there's a mob at your local grocery store. Like a swarm of locusts, the mob completely cleans out the grocery store in less than two hours, leaving the shelves completely bare.</p>
+				<p>The 47 million freeloaders spoon-fed by "big government" are marching in the streets. There are rumors of looting. In fact, there's a mob at your local grocery store. Like a swarm of locusts, the mob completely cleans out the grocery store in less than two hours, leaving the shelves completely bare.</p>
 				<p>Panic is spreading and it's quickly becoming every man for himself.</p>
 				<p>You're safe at home with your family, thank goodness. But now your family is looking at you. "What's going to happen?" they ask. And then your spouse pulls you close and whispers in your ear, "What are we going to eat?"</p>
 				<div class="clear"></div>
