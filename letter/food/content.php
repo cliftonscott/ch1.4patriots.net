@@ -74,7 +74,7 @@
 					<img src="/media/images/f4p/letter/f4p-letter-president1.jpg" class="media right">
 					<p>I think that FEMA knows something we don't and is worried that they see a full-scale disaster about to hit. And I think I found the factors that will trigger it.</p>
 					<p>Before I talk about these warning signs, you need to see the actual letter FEMA sent my supplier so <strong>you can see the proof with your own eyes and make up your own mind.</strong></p>
-					<p>It's been all over the Internet. Facebook and even some big radio programs like Alex Jones picked up this story. It seems like everyone is just plain shocked that FEMA would send a letter like this.</p>
+					<p>It's been all over the Internet. Facebook, and even some big radio programs like Alex Jones picked up this story. It seems like everyone is just plain shocked that FEMA would send a letter like this.</p>
 					<p><strong>Here's what happened:</strong> FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many.. Well, maybe I should just let Matt show you the proof since he was the one who received the letter...</p>
 					<div class="center" style="max-width:500px;margin-right:auto;margin-left:auto;margin-bottom:10px;"><img src="/media/images/f4p/letter/f4p-letter-fema-letter-1.jpg" alt="FEMA letter" style="width:100%;"></div>
 					<p style="text-align: center;" class="caption">100% Genuine letter from FEMA... demanding to know how much<br class="hidden-xs"> food we can ship and how fast!</p>
@@ -83,7 +83,7 @@
 						<p>The FEMA and the Department of Homeland Security demanded to know</p>
 						<ul style="font-style: italic; padding-top: 15px; margin-left: 20px">
 							<li><strong>How much</strong> of emergency food we can deliver immediately.</li>
-							<li><strong>How many</strong> food kits we&rsquo;ve got on hand...  (With the government&rsquo;s power to seize supplies in a quote &ldquo;state of emergency&rdquo;, I don&rsquo;t think I want to answer this)</li>
+							<li><strong>How many</strong> food kits we&rsquo;ve got on hand...  (with the government&rsquo;s power to seize supplies in a quote &ldquo;state of emergency&rdquo;, I don&rsquo;t think I want to answer this)</li>
 							<li><strong>If we can ship</strong> dedicated truckloads <em>(that means a truck heading straight for FEMA with nothing but survival food just for them)</em> by the pallet – and how many pallets we could cram in each truck</li>
 						</ul>
 						<p>And the strangest question of all – if we worked like mad men, <strong>how much emergency food could we produce in 24 hours...</strong></p>
@@ -97,7 +97,7 @@
 					<div class="dots-snake">
 						<div class="dots-img">1</div>
 					</div>
-					<h3 class="color-red pad-30-b" style="text-align: right;">&quot;You Should Know That FEMA Won’t Get <br>1 Single Emergency Food Kit From Us.&quot;</h3>
+					<h3 class="color-red pad-30-b" style="text-align: right;">&quot;You Should Know That FEMA Won’t Get <br>One Single Emergency Food Kit From Us.&quot;</h3>
 					<img style="margin-bottom: -40px; margin-top: -30px" src="/media/images/f4p/letter/f4p-letter-section1-block2-img2.png" class="media left">
 					<p>This is truly an urgent situation, but don't worry - you should know that <strong>FEMA and Homeland Security won't get one single emergency food kit from us.</strong></p>
 					<p>Why?</p>
