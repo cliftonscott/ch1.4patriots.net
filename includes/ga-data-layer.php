@@ -14,8 +14,6 @@ if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true)
 <script>
 	dataLayer = [];
 	dataLayer.push({
-		'funnel': '<?php ?>',
-		'step': '<?php ?>',
 		<?php if($testTran != true) { echo JV::getGoogleAnalyticsData(); }?>
 		<?php if(!empty($googleTransaction["customerId"])) { ?>
 		<?php if($testTran === true) { echo "/*"; }?>
