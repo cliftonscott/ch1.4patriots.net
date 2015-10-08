@@ -11,7 +11,7 @@ include_once("Product.php");
 $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("oto1b");
+$funnelData = $productObj->initFunnel("OTO-C600-2D-PA");
 $declineUrl = $funnelData["declineUrl"];
 
 include_once("template-top.php");
