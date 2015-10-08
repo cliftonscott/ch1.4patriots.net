@@ -85,10 +85,10 @@ if(!$pageGreeting) {
 		<div><h1 class="darkRed text-center">This May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis</h1>
 		</div>
 		<!--<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">-->
-		<img style="width: 400px; margin-top: 5px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" class="img-responsive pull-left img-padding-right media">
+			<img class="img-responsive center-block margin-tb-20" style="width: 500px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
 			<p>There’s nothing more comforting and American than being able to sip a cup of fresh hot delicious coffee, and in the event of an emergency it’s a direct part of your “normal” routine.</p>
 			<p>And keep in mind; this is the highest quality coffee we could source on the planet. No GMO’s, all 100% coffee, with absolutely zero additional “fillers”, additives or preservatives.</p>
-			<img src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
+			<img style="width:300px; margin-top:35px" src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
 			<p style="padding-top: 30px">It’s also 100% Colombian and 100% Arabica, arguably the finest coffee plants on the planet today.</p>
 			<p>Harvested at the peak of freshness then immediately roasted to perfection, freeze dried and put in our specially designed Mylar packages designed to ensure safe keeping for at least 25 FULL years.</p>
 			<p>Imagine you wake up one morning and flip on the television and you find complete chaos.</p>
