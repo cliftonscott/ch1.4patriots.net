@@ -221,7 +221,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<p>The 1-Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
 			You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
 
-		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get your 1-Year
+		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get your 1-Year
 			Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
 
 		<div>
@@ -292,10 +292,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-				<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
+				<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 				satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
 				price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-				any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+				any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 				<div class="clearfix"></div>
 			</div>
 
