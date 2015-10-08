@@ -38,7 +38,7 @@
 		<li><i class="fa-li fa fa-check"></i><strong>Take your performance to the next level: </strong> A powerful antioxidant, coffee boosts metabolism, reduces cholesterol levels, and can even ease depression (a powerful benefit indeed if you&rsquo;re in a crisis situation!),</li>
 	</ul>
 	<p>It&rsquo;s crystal clear: <strong>You absolutely MUST have a supply of coffee in your survival stockpile.</strong>&nbsp;</p>
-	<p>And going to Costco just isn&rsquo;t going to cut it. It goes bad faster than you might think! You need a supply of coffee that&rsquo;s guaranteed to stand up to the test of time and taste great from the first cup to the last.&nbsp;</p>
+	<p>And going to Costco just isn&rsquo;t going to cut it. It goes bad faster than you might think! You need a supply of coffee that&rsquo;s guaranteed to stand up to the test of time, and taste great from the first cup to the last.&nbsp;</p>
 	<p>Trust me, you don&rsquo;t want to be caught in a situation where the grocery stores are all shuttered and you don&rsquo;t have a clue when things might return to &ldquo;normal.&rdquo;</p>
 	<p>That&rsquo;s why I&rsquo;ve put together the <strong>Food4Patriots Survival Coffee Kit&hellip;</strong></p>
 
