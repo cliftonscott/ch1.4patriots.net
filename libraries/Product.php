@@ -974,31 +974,51 @@ class Product {
 
 		$funnelData["coffee600"] = array(
 
-			"checkout" => array (
+
+
+			"CHECKOUT" => array (
+//				"productIds" = array(182),
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
-				"declineUrl" => "/checkout/coffee/f4p-coffee-trial.php",
+				"declineUrl" => "/checkout/coffee600/f4p-coffee-trial.php",
 			),
-			"oto1" => array (
+			"OTO-C600-1-3MK" => array (
+//				"productIds" = array(23),
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/coffee600/oto/f4p-4week-kit-discount.php",
+				"declineUrl" => "/checkout/coffee600/oto/f4p-messenger-trial.php",
 			),
-			"oto1b" => array (
+			"OTO-C600-2D-PA" => array (
+//				"productIds" = array(39),
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/thankyou.php",
 				"declineUrl" => "/checkout/coffee600/thankyou.php",
 			),
-			"oto2" => array (
+			"OTO-C600-2A-1YK" => array (
+//				"productIds" = array(40),
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/thankyou.php",
 				"declineUrl" => "/checkout/coffee600/oto/f4p-1year-kit-payments.php",
 			),
-			"oto2b" => array (
+			"OTO-C600-3D-1YKP" => array (
+//				"productIds" = array(120),
 				"googleBrand" => "F4P-COFFEE600",
 				"nextUrl" => "/checkout/coffee600/thankyou.php",
 				"declineUrl" => "/checkout/coffee600/thankyou.php",
 			),
+			"OTO-C600-TYP" => array (
+//				"productIds" = array(230),
+				"googleBrand" => "F4P-COFFEE600",
+				"nextUrl" => "/checkout/coffee600/thankyou.php",
+				"declineUrl" => "/checkout/coffee600/thankyou.php",
+			),
+			"TRIAL" => array (
+//				"productIds" = array(194),
+				"googleBrand" => "F4P-COFFEE600",
+				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
+				"declineUrl" => null,
+			),
+
 		);
 
 		return $funnelData;
