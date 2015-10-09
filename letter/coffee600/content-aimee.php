@@ -194,7 +194,7 @@ if(!$pageGreeting) {
 						<table  style="margin-right:auto;margin-left:auto;" border="0" cellspacing="0" cellpadding="0">
 							<tr>
 								<td><span style="text-align:center;padding-top:10px;padding-bottom:10px;">
-								<select name="quantity"  style="width:50px;margin-top:3px;margin-bottom:3px; z-index: -99999" onchange="productChange();">
+								<select name="quantity" id="quantity" style="width:50px;margin-top:3px;margin-bottom:3px; z-index: -99999" onchange="productChange();">
 									<?php
 									if(!$maxQuantity) {
 										$maxQuantity = 5;
@@ -211,7 +211,7 @@ if(!$pageGreeting) {
 					</div>
 
 					<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
-						<div style="float:left;margin-right:5px;" id="quantity">
+						<div style="float:left;margin-right:5px;">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
 						<div id="terms"></div>
