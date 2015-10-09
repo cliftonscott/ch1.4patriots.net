@@ -168,13 +168,15 @@ if(!$pageGreeting) {
 			<p>Believe it or not, coffee can be an amazing equalizer in a crisis… it provides a familiar routine and a sense of calm and focus, even when everything else could be swirling in chaos.</p>
 			<p>Get your additional supply right away, Click the <strong>“Add to Cart”</strong> button below now:</p>
 		</div>
+	</div>
+
 		<div class="margin-tb-50 center-block text-center">
 			<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
 			<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"></a>
 		</div>
+	<div class="container oto-width">
 			<p><img style="float:left;margin-right:5px;position:relative;" src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes"> I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97 with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.</p>
-</div>
-
+	</div>
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
 					<img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
