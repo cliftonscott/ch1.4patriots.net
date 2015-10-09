@@ -170,29 +170,11 @@ if(!$pageGreeting) {
 		</div>
 	</div>
 
-	<div class="container oto-width">
-		<div>
-			<div>
-				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-04.jpg"  alt="Food4Patriots Coffee Kit"/>
+
+			<div class="margin-tb-50 center-block text-center">
+				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
+				<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 			</div>
-			<a id="accept"></a>
-			<?php
-			if($isUpgrade) {
-				?>
-				<div style="text-align:center;">
-					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"></a>
-				</div>
-			<?php
-			} else {
-				?>
-				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
-					<div style="text-align:center;">
-						<input type="image" src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
-					</div>
-				</form>
-			<?php
-			}
-			?>
 			<p><img style="float:left;margin-right:5px;position:relative;" src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes"> I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97 with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.</p>
 
 			<div class="outLineBoxDarkBlueCoffee">
@@ -207,5 +189,3 @@ if(!$pageGreeting) {
 					<p style="padding: 15px 0 0;"><strong>Guarantee #2 –</strong> This is my completely unheard of 300% money back GUARANTEE. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised, or has gone bad… you can return the entire batch and I’ll give you triple your money back.</p>
 				</div>
 			</div>
-		</div>
-	</div>
