@@ -432,7 +432,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<label for="firstName">First Name:</label>
 						<input type="text" class="form-control" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
 						<script>
-							var firstName = new LiveValidation('firstName', { validMessage: ' '});
+							var firstName = new LiveValidation('firstName', { validMessage: ' ',onlyOnBlur: true});
 							firstName.add(Validate.Presence, {failureMessage: 'Please enter your first name.'});
 						</script>
 					</div>
@@ -440,7 +440,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<label for="lastName">Last Name:</label>
 						<input type="text" class="form-control" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
 						<script>
-							var lastName = new LiveValidation('lastName', { validMessage: ' '});
+							var lastName = new LiveValidation('lastName', { validMessage: ' ',onlyOnBlur: true});
 							lastName.add(Validate.Presence, {failureMessage: 'Please enter your last name.'});
 						</script>
 					</div>
@@ -448,10 +448,10 @@ if(!empty($customerDataObj->shippingCity)) {
 						<label for="email">Email:</label>
 						<input type="text" class="form-control" id="email" name="email" value="<?php echo $preFill['email'];?>">
 						<script>
-							var email = new LiveValidation('email', { validMessage: ' ', wait: 3000});
+							var email = new LiveValidation('email', { validMessage: ' ',onlyOnBlur: true});
 							email.add(Validate.Presence, {failureMessage: 'Please enter your email.'});
 							email.add(Validate.Email);
-							email.add(Validate.Length, { minimum: 5, maximum: 20 } );
+							email.add(Validate.Length, { minimum: 5, maximum: 30 } );
 						</script>
 					</div>
 					<div class="form-group">
@@ -464,6 +464,10 @@ if(!empty($customerDataObj->shippingCity)) {
 							<option value="US">United States</option>
 							<option value="CA">Canada</option>
 						</select>
+						<script>
+							var billingcountry = new LiveValidation('billing-country', { validMessage: ' '});
+							billingcountry.add(Validate.Presence);
+						</script>
 					</div>
 				</div>
 				<div class="col-md-6 right-form">
@@ -471,7 +475,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<label for="billing-address">Billing Address:</label>
 						<input type="text" class="form-control" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
 						<script>
-							var billingAddress = new LiveValidation('billing-address', { validMessage: ' '});
+							var billingAddress = new LiveValidation('billing-address', { validMessage: ' ', onlyOnBlur: true});
 							billingAddress.add(Validate.Presence, {failureMessage: 'Please enter your address.'});
 						</script>
 					</div>
@@ -479,7 +483,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<label for="billing-city">City:</label>
 						<input type="text" class="form-control" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
 						<script>
-							var billingCity = new LiveValidation('billing-city', { validMessage: ' '});
+							var billingCity = new LiveValidation('billing-city', { validMessage: ' ', onlyOnBlur: true});
 							billingCity.add(Validate.Presence, {failureMessage: 'Please enter your city.'});
 						</script>
 					</div>
@@ -500,7 +504,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<label for="billing-zip">Zip:</label>
 						<input type="text" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
 						<script>
-							var billingZip = new LiveValidation('billing-zip', { validMessage: ' '});
+							var billingZip = new LiveValidation('billing-zip', { validMessage: ' ', onlyOnBlur: true});
 							billingZip.add(Validate.Presence, {failureMessage: 'Please enter your zip code.'});
 						</script>
 					</div>
@@ -579,7 +583,7 @@ if(!empty($customerDataObj->shippingCity)) {
 								<label for="creditCardNumber">Card Number:</label>
 								<input type="text" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber"  value="" style="max-width: 269px;display:inline;"><img src="/assets/images/checkout/credit-card.png" style="max-width: 154px; margin: 0 0 0 18px" alt="Credit Cards Accepted">
 								<script>
-									var creditCardNumber = new LiveValidation('creditCardNumber', { validMessage: ' ',  wait: 3000});
+									var creditCardNumber = new LiveValidation('creditCardNumber', { validMessage: ' ', onlyOnBlur: true});
 									creditCardNumber.add(Validate.Presence);
 									creditCardNumber.add(Validate.Numericality, {failureMessage: 'Please enter your credit card number without dashes or spaces.'});
 									creditCardNumber.add(Validate.Length, { minimum: 16, maximum: 19,failureMessage: 'Please check for missing or excess numbers. '} );
@@ -623,14 +627,14 @@ if(!empty($customerDataObj->shippingCity)) {
 						<div class="col-md-3">
 							<div class="form-inline expiration">
 								<div class="form-group left-form">
-									<div class="form-group">
+									<div class="form-group card-cvv2-contain">
 										<label for="card-cvv2" style="margin-bottom:3px;">
 											CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
-										<input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
+										<input type="text" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
 										<script>
-											var ccv2 = new LiveValidation('card-cvv2', { validMessage: ' ',  wait: 3000});
+											var ccv2 = new LiveValidation('card-cvv2', { validMessage: ' ', onlyOnBlur: true});
 											ccv2.add(Validate.Presence);
-											ccv2.add(Validate.Numericality, {failureMessage: 'Please enter your credit card number without dashes or spaces.'});
+											ccv2.add(Validate.Numericality);
 										</script>
 									</div>
 								</div>
@@ -1333,7 +1337,7 @@ if(isset($preFill)) {
 		$("#submit-button-container").css("display", "none");
 	}
 	$(document).ready(function(){
-		$('body').append('<div id="toTop" class="btn btn-info"><i class="fa fa-arrow-up"></i>Back to Top</div>');
+		$('body').append('<div id="toTop"><img src="/assets/images/checkout/btn-backtop.png"></div>');
 		$(window).scroll(function () {
 			if ($(this).scrollTop() != 0) {
 				$('#toTop').fadeIn();

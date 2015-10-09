@@ -12,7 +12,12 @@
 .right-form .LV_valid{
 	margin: -38px 35px 0 0;
 }
-	
+
+
+.card-cvv2-contain .LV_valid{
+	margin: 5px -26px 0 0;
+}
+
 .LV_invalid {
 	color:#CC0000;
 	margin: 0 0 0 25px;
@@ -22,7 +27,13 @@
 	color:#CC0000;
 	margin: 0 0 0 0px;
 }
-	
+.card-cvv2-contain .LV_invalid {
+	color:#CC0000;
+	display: block;
+	width: 150px;
+	margin-left: -20px;
+}
+
 .LV_validation_message{
 	font-weight:bold;
 	font-size: 12px;
