@@ -190,6 +190,27 @@ if(!$pageGreeting) {
 						<input type="image" src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
 					</div>
 
+					<div>
+						<table  style="margin-right:auto;margin-left:auto;" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><div style="text-align: left;margin-right:10px;"><strong>Quantity:</strong></div></td>
+								<td><span style="text-align:center;padding-top:10px;padding-bottom:10px;">
+								<select name="quantity" id="quantity" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange();">
+									<?php
+									if(!$maxQuantity) {
+										$maxQuantity = 5;
+									}
+									for ($i=1; $i<=$maxQuantity; $i++)
+									{
+										echo "<option>". $i . "</option>";
+									}
+									?>
+								</select>
+								</span></td>
+							</tr>
+						</table>
+					</div>
+
 					<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
 						<div style="float:left;margin-right:5px;">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
@@ -199,7 +220,6 @@ if(!$pageGreeting) {
 							productChange();
 						</script>
 					</div>
-					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
 			<?php
 			}
