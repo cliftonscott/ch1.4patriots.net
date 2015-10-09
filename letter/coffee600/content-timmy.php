@@ -5,7 +5,7 @@
 	<?php elseif($variation === "b"): ?>
 		<h1 class="darkRed text-center">Don't Miss the Chance to Take Your Food4Patriots Kit to the Next Level with These Incredible "Superfoods."</h1>
 	<?php else: ?>
-		<h1 class="darkRed text-center">This May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis</h1>
+		<h1 class="darkRed text-center">Why THIS May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis...</h1>
 	<?php endif; ?>
 	</div>
 	<img class="img-responsive center-block margin-tb-20" style="max-width: 500px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
@@ -13,6 +13,7 @@
 	<p><strong><em>I&rsquo;m going to go out on a limb here and guess something about you right now.</em></strong></p>
 	<p>I bet you&rsquo;re a fantastic planner, ready for anything and everything that might come your way.</p>
 	<p>You may even have a supply stockpile: backup staples like food, candles, batteries, and a clean source of water.</p>
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-coffee600-02.jpg" alt="Coffee bags">
 	<p><strong><em>But I can also predict that you&rsquo;re missing one vital thing that&rsquo;s far more important than you might think at first glance, and that&rsquo;s&hellip;</em></strong></p>
 	<p><strong>Coffee. </strong></p>
 	<p>Let me tell you why.</p>
@@ -72,11 +73,7 @@
 	<p>So&hellip; what&rsquo;s in the box? Happy to tell you:</p>
 
 	<h2 class="darkRed text-center">Here's Exactly What You'll Get When You Get Your Food4patriots Survival Coffee Kit:</h2>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee600-kit-tote-01.jpg" alt="">
-	<div class="caption text-center">
-		<p>You’ll be getting 600 full servings of the good stuff. This is, 100% pure Colombian coffee that’s also 100% Non-GMO and 100% Arabica, straight from the tree to the freeze dryer and into your cup, all in airtight foil packets, guaranteed to last 25 years on the shelf.</p>
-		<p>Packaged in a handy burlap sack, inside of an additional watertight plastic storage container for easy stacking.</p>
-	</div>
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee600-kit-tote-03.jpg" alt="">
 
 	<h2 class="darkRed text-center">Rated for 25-Years But Tastes “Fresh Roasted,” Like It Was Ground By A Barista<br class="hidden-xs"> Just Seconds Ago.</h2>
 	<p>So imagine this for me&hellip;</p>
@@ -92,6 +89,7 @@
 	<p>So I&rsquo;m sure you&rsquo;re wondering about right now&hellip;</p>
 
 	<h2 class="darkRed text-center">Alright, Frank… How Much?</h2>
+	<img style="margin-top: 5px" class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-coffee600-03.jpg" alt="Coffee bags">
 	<p>By now, you can see how valuable coffee can be especially to&hellip;</p>
 	<ul>
 		<li>Keep a sense of normalcy in a turbulent and uncertain time&hellip;</li>
@@ -101,7 +99,7 @@
 	<p><em>How much is that peace of mind really worth to you and your family?</em></p>
 	<p>But good news: I&rsquo;ve got a great supplier who I can deal with directly to get these kits WAY down in price compared to what you&rsquo;d pay at some retail establishment where their canned coffee will waste away in mere months.</p>
 	<p>So, as long as I can keep them in stock (which will be a lot shorter than you might think&hellip;) you can get your hands on the complete <strong>Food4Patriots Survival Coffee Kit for my special price of just $97.00</strong></p>
-	<p>That&rsquo;s a full 600 servings, coming to a paltry $.17 per cup.&nbsp;</p>
+	<p>That&rsquo;s a full 600 servings, coming to a paltry $.16 per cup.&nbsp;</p>
 	<p>And like I said earlier, this isn&rsquo;t some cut rate bargain coffee either&hellip;</p>
 	<p>It&rsquo;s 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica&hellip; the best on the planet.</p>
 	<p>Now, under normal circumstances I&rsquo;d price that much coffee at about $147, but times are tough, and food prices continue to soar so I&rsquo;m offering this complete package at just $97.00&nbsp;</p>
