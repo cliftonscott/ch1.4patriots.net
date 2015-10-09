@@ -141,8 +141,7 @@
 	<h2 class="darkRed text-center">You Can Place Your Order In Just A Minute, But Consider This First...</h2>
 	<p>One last thing&hellip;</strong></p>
 	<p><em>Imagine you wake up one morning flip on the coffee pot, and the television&hellip; and the scene is utter chaos and tragedy.</em></strong></p>
-	<p><em>Before your coffee even has time to brew, you know something</em></p>
-	<p><em>terrible has happened, and you don&rsquo;t even know what yet.</em></p>
+	<p><em>Before your coffee even has time to brew, you know something terrible has happened, and you don&rsquo;t even know what yet.</em></p>
 	<p>Through the smoke and the crowds on television you see battered reporters trying to make sense of the mobs that have taken to the streets&hellip; violent gangs that are starting to loot stores in your hometown.</p>
 	<p>You don&rsquo;t know the scale of the event, and you don&rsquo;t know when&hellip; or if&hellip; it will end.</p>
 	<p>Your family, scared out of their wits, comes into the room with you and looks to you for guidance&hellip;</p>
