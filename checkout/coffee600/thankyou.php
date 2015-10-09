@@ -1,40 +1,42 @@
 <?php
 $_SESSION["upsell"] = TRUE; //must stay a boolean
+include_once("Product.php");
+$productObj = new Product();
+
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("OTO-C600-TYP");
+
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<script type="text/javascript">
-	var _vis_opt_revenue = "<?php echo $_SESSION['vwoRevenue'];?>";
-	window._vis_opt_queue = window._vis_opt_queue || [];
-	window._vis_opt_queue.push(function() {_vis_opt_revenue_conversion(_vis_opt_revenue);});
-</script>
+
 <script src="/js/audio.js"></script>
 <div class="container-main">
 	<div class="breadcrumb2">
-	    <a>CHECKOUT</a>
-	    <a class="breadcrumb-center">ORDER CUSTOMIZATION</a>
-	    <a class="current">ORDER CONFIRMATION</a>
+		<a>CHECKOUT</a>
+		<a class="breadcrumb-center">ORDER CUSTOMIZATION</a>
+		<a class="current">ORDER CONFIRMATION</a>
 	</div>
-    <div class="container oto-width">
-    	<div class="johnson-box-02 center-block margin-tb-20">
-			<p><u>Your Order Has Been Received!</u></p>
-			<p>We're Preparing Your Shipment Now.<br>
-		    It Should Arrive In 7-14 Days.</p>
+	<div class="container oto-width">
+		<div class="johnson-box-02 center-block margin-tb-20">
+			<p style="font-size: 25pt;margin-top: 15px;margin-bottom: 30px;"><u>Your Order Has Been Received!</u></p>
+			<p>We're Preparing Your Shipment Now.</p>
+			<p style="font-size: 12pt"><i>Due to unprecedented demand, our warehouse is currently processing an extremely large number of shipments. We anticipate being able to ship your order within 14-21 days. Rest assured, we are working hard to get your order out the door to you as quickly as possible!</i></p>
+			<p>You Can Access Your Bonuses Below.</p>
 		</div>
 		<div class="text-center margin-tb-20">
 			<h1><strong>Thank You For Your Order!</strong></h1>
 		</div>
-        <div class="margin-tb-20">
-        	<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge
-				from Food4Patriots.com</p>
-        </div>
-        <div class="margin-tb-20">
+		<div class="margin-tb-20">
+			<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge from Food4Patriots.com</p>
+		</div>
+		<div class="margin-tb-20">
 			<?php include("snippets/frank-thankyou-msg-coffee.html");?>
-        </div>
-        
+		</div>
+
 		<div class="margin-tb-20">
 			<?php
-			$testimonials = array("thomas", "todd", "rich",);
+			$testimonials = array("catherine", "toney", "susan",);
 			foreach ($testimonials as $count => $testimonial) {
 				echo "<div class='testimonial'>";
 				if($count % 2 == 0) {
@@ -49,22 +51,28 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 
 		<div class="margin-tb-20">
-		<?php include_once("products/F4P-fruitveggiesnack-pid128.php");?>
+			<!-- SPLIT JV-19 10/08/15-->
+			<?php if (JV::in("19-protein")) {
+				include_once("products/F4P-coffeefunnel-protein-pid230.php");
+			}else {
+				include_once("products/F4P-fruitveggiesnack-pid128.php");
+			}?>
+			<!--/// End Test///-->
 		</div>
 
-        <div class="margin-tb-20 text-center">
-        	<h2 class="darkRed">Customer Service Contact Info</h2>
-	
+		<div class="margin-tb-20 text-center">
+			<h2 class="darkRed">Customer Service Contact Info</h2>
+
 			<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
 				<script type="text/javascript">
 					emailE=('help@' + 'food4patriots.com')
 					document.write(
 						'<A href="mailto:' + emailE + '">'
-							+ emailE + '</a>'
+						+ emailE + '</a>'
 					)
 				</script></p>
-        </div>
-        <div class="margin-tb-20">
+		</div>
+		<div class="margin-tb-20">
 			<?php
 			if($_SESSION["orders"]) {
 				echo "<div class='rcBoxR10'>\n";
@@ -93,8 +101,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			?>
 		</div>
 
-    </div>
-	
+	</div>
+
 </div>
 <?php
 include_once("template-bottom.php");
