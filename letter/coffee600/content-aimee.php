@@ -82,10 +82,11 @@ if(!$pageGreeting) {
 ?>
 <div class="container-main">
 	<div class="container oto-width">
-		<div><h1 class="darkRed text-center">This May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis</h1>
+		<div><h1 class="darkRed text-center">Why THIS May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis...</h1>
 		</div>
 		<!--<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">-->
 			<img class="img-responsive center-block margin-tb-20" style="width: 500px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
+			<p>Dear Patriot,</p>
 			<p>There’s nothing more comforting and American than being able to sip a cup of fresh hot delicious coffee. And in the event of an emergency, it’s a direct part of your “normal” routine.</p>
 			<p>And keep in mind; this is the highest quality coffee we could source on the planet. No GMO’s, all 100% coffee, with absolutely zero additional “fillers”, additives or preservatives.</p>
 			<img style="width:300px; margin-top:35px" src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
