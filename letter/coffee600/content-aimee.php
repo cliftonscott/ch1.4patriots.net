@@ -115,7 +115,7 @@ if(!$pageGreeting) {
 			<p>If you find yourself in a crisis situation, coffee is easily one of the best possible things to be in possession of, to use for barter or trade for other necessities that you may not have on hand.</p>
 			<p>So here’s what I’m going to do for you today.</p>
 			<p>At the bottom of this page there’s a button that says <strong>“Add to Cart.”</strong></p>
-			<p>When you click it, I’ll add my Food4Patriots Coffee Kit to your order for just one payment of $97.00.</p>
+			<p>When you click it, I’ll send you my Food4Patriots Coffee Kit for just one payment of $97.00.</p>
 			<p>Let me tell you what you’re going to get here...</p>
 			<div>
 				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-01.jpg"  alt="Food4Patriots Coffee Kit"/>
@@ -173,7 +173,7 @@ if(!$pageGreeting) {
 	<div class="container oto-width">
 		<div>
 			<div>
-				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-02.jpg"  alt="Food4Patriots Coffee Kit"/>
+				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-04.jpg"  alt="Food4Patriots Coffee Kit"/>
 			</div>
 			<a id="accept"></a>
 			<?php
@@ -190,27 +190,6 @@ if(!$pageGreeting) {
 						<input type="image" src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
 					</div>
 
-					<div>
-						<table  style="margin-right:auto;margin-left:auto;" border="0" cellspacing="0" cellpadding="0">
-							<tr>
-								<td><div style="text-align: left;margin-right:10px;"><strong>Quantity:</strong></div></td>
-								<td><span style="text-align:center;padding-top:10px;padding-bottom:10px;">
-								<select name="quantity" id="quantity" style="width:50px;margin-top:3px;margin-bottom:3px;" onchange="productChange();">
-									<?php
-									if(!$maxQuantity) {
-										$maxQuantity = 5;
-									}
-									for ($i=1; $i<=$maxQuantity; $i++)
-									{
-										echo "<option>". $i . "</option>";
-									}
-									?>
-								</select>
-								</span></td>
-							</tr>
-						</table>
-					</div>
-
 					<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
 						<div style="float:left;margin-right:5px;">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
@@ -225,9 +204,6 @@ if(!$pageGreeting) {
 			<?php
 			}
 			?>
-			<div class="noThanks" style="max-width:600px;">
-				<a href="<?php echo $declineUrl;?>">No Thanks</a>, I'd rather pay $5.00+ for a burnt Starbucks latte than $0.16 for a cup of delicious coffee that has a guaranteed shelf-life of 25 years
-			</div>
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
 					<img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
