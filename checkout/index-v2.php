@@ -104,11 +104,11 @@ if(!empty($customerDataObj->shippingCity)) {
 	//set this variable on a page that uses the customer-form.php template file to provide validation/states functions
 	if($template["formType"] === "customerForm") {
 		echo "\n<script src='/js/checkout-states.js'></script>";
-		echo "\n<script src='/js/customer-form-validation.js'></script>";
+		/*echo "\n<script src='/js/customer-form-validation.js'></script>";*/
 	}
 	?>
-	<script src="/js/feelform.min.js"></script>
-
+	<script src='/js/live-validation.js'></script>
+	<link href="/assets/css/validation.css" rel="stylesheet">
 </head>
 <body>
 <?php include_once("analytics-google-ecom.php"); ?>
@@ -430,15 +430,29 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="col-md-6 left-form">
 					<div class="form-group">
 						<label for="firstName">First Name:</label>
-						<input type="text" class="form-control required" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
+						<input type="text" class="form-control" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
+						<script>
+							var firstName = new LiveValidation('firstName', { validMessage: ' '});
+							firstName.add(Validate.Presence, {failureMessage: 'Please enter your first name.'});
+						</script>
 					</div>
 					<div class="form-group">
 						<label for="lastName">Last Name:</label>
-						<input type="text" class="form-control required" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
+						<input type="text" class="form-control" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
+						<script>
+							var lastName = new LiveValidation('lastName', { validMessage: ' '});
+							lastName.add(Validate.Presence, {failureMessage: 'Please enter your last name.'});
+						</script>
 					</div>
 					<div class="form-group">
 						<label for="email">Email:</label>
-						<input type="email" class="form-control email" id="email" name="email" value="<?php echo $preFill['email'];?>">
+						<input type="text" class="form-control" id="email" name="email" value="<?php echo $preFill['email'];?>">
+						<script>
+							var email = new LiveValidation('email', { validMessage: ' ', wait: 3000});
+							email.add(Validate.Presence, {failureMessage: 'Please enter your email.'});
+							email.add(Validate.Email);
+							email.add(Validate.Length, { minimum: 5, maximum: 20 } );
+						</script>
 					</div>
 					<div class="form-group">
 						<label for="phone">Phone:</label>
@@ -455,22 +469,40 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="col-md-6 right-form">
 					<div class="form-group">
 						<label for="billing-address">Billing Address:</label>
-						<input type="text" class="form-control required" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
+						<input type="text" class="form-control" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
+						<script>
+							var billingAddress = new LiveValidation('billing-address', { validMessage: ' '});
+							billingAddress.add(Validate.Presence, {failureMessage: 'Please enter your address.'});
+						</script>
 					</div>
 					<div class="form-group">
 						<label for="billing-city">City:</label>
-						<input type="text" class="form-control required" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
+						<input type="text" class="form-control" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
+						<script>
+							var billingCity = new LiveValidation('billing-city', { validMessage: ' '});
+							billingCity.add(Validate.Presence, {failureMessage: 'Please enter your city.'});
+						</script>
 					</div>
 					<div class="form-group">
 						<label for="billing-state" id="billing-state-label">State:</label>
-						<select class="form-control required" id="billing-state" name="billing-state"  onchange="setStateTax();">
+						<select class="form-control" id="billing-state" name="billing-state"  onchange="setStateTax();">
 							<!--dynamically built w/ javascript-->
 						</select>
-						<input type="text" class="form-control required" id="other-billing-state" name="other-billing-state" style="display:none;visibility:hidden;">
+						<input type="text" class="form-control" id="other-billing-state" name="other-billing-state" style="display:none;visibility:hidden;">
+						<script>
+							var billingState = new LiveValidation('billing-state', { validMessage: ' '});
+							billingState.add(Validate.Presence, {failureMessage: 'Please select your state.'});
+							billingState.add(Validate.Exclusion, { within: [ ''], failureMessage: 'Please select your state.' } );
+						</script>
+
 					</div>
 					<div class="form-group">
 						<label for="billing-zip">Zip:</label>
-						<input type="text" class="form-control zip-field required number" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
+						<input type="text" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
+						<script>
+							var billingZip = new LiveValidation('billing-zip', { validMessage: ' '});
+							billingZip.add(Validate.Presence, {failureMessage: 'Please enter your zip code.'});
+						</script>
 					</div>
 
 					<div class="checkbox">
@@ -545,7 +577,13 @@ if(!empty($customerDataObj->shippingCity)) {
 						<div class="col-md-12">
 							<div class="form-group left-form">
 								<label for="creditCardNumber">Card Number:</label>
-								<input type="number" class="form-control inspectletIgnore required number minLength-16" id="creditCardNumber" name="creditCardNumber"  value="" style="max-width: 269px;display:inline;"><img src="/assets/images/checkout/credit-card.png" style="max-width: 154px; margin: 0 0 0 18px" alt="Credit Cards Accepted">
+								<input type="text" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber"  value="" style="max-width: 269px;display:inline;"><img src="/assets/images/checkout/credit-card.png" style="max-width: 154px; margin: 0 0 0 18px" alt="Credit Cards Accepted">
+								<script>
+									var creditCardNumber = new LiveValidation('creditCardNumber', { validMessage: ' ',  wait: 3000});
+									creditCardNumber.add(Validate.Presence);
+									creditCardNumber.add(Validate.Numericality, {failureMessage: 'Please enter your credit card number without dashes or spaces.'});
+									creditCardNumber.add(Validate.Length, { minimum: 16, maximum: 19,failureMessage: 'Please check for missing or excess numbers. '} );
+								</script>
 							</div>
 						</div>
 					</div>
@@ -588,7 +626,12 @@ if(!empty($customerDataObj->shippingCity)) {
 									<div class="form-group">
 										<label for="card-cvv2" style="margin-bottom:3px;">
 											CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
-										<input type="number" class="form-control cvv2-field required number" id="card-cvv2" name="card-cvv2" value="">
+										<input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
+										<script>
+											var ccv2 = new LiveValidation('card-cvv2', { validMessage: ' ',  wait: 3000});
+											ccv2.add(Validate.Presence);
+											ccv2.add(Validate.Numericality, {failureMessage: 'Please enter your credit card number without dashes or spaces.'});
+										</script>
 									</div>
 								</div>
 							</div>
@@ -657,7 +700,11 @@ if(!empty($customerDataObj->shippingCity)) {
 		<div id="submit-button-container" style="display: none;">
 			<div class="row">
 				<div class="col-md-4"><a href="javascript:void(0);" onclick="hideCheckout();"><div class="buy-button">Back</div></a></div>
-				<div class="col-md-8"><a id="submitButton" href="javascript:void(0);" onclick="document.getElementById('billing-form').submit();"><div class="buy-button">CLICK TO CONTINUE >></div></a></div>
+				<div class="col-md-8">
+					<input type="submit" class="submit buy-button" value="CLICK TO CONTINUE" />
+					<!--<a id="submitButton" href="javascript:void(0);" onclick="document.getElementById('billing-form').submit();"><div class="buy-button">CLICK TO CONTINUE >></div></a>-->
+				</div>
+
 			</div>
 		</div>
 
@@ -1305,13 +1352,6 @@ if(isset($preFill)) {
 		margin-bottom:7px;
 	}
 </style>
-<script>
-	$('#billing-form').feelform({
-		notificationType: 'message, okIcon, errorIcon',
-		validateOnTheFly: true,
-		gravity: 'bottom',
-	});
-</script>
 <div id="csrModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" style="width:500px;height:300px;">
 		<div class="modal-content" style="background-image:url(/assets/images/misc/timer-pop-01.jpg);">
