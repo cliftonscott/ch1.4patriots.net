@@ -191,17 +191,13 @@ if(!$pageGreeting) {
 					</div>
 
 					<div>
-						<table>
+						<table  style="margin-right:auto;margin-left:auto;" border="0" cellspacing="0" cellpadding="0">
 							<tr>
-								<td><span>
-								<select onchange="productChange();">
+								<td><span style="text-align:center;padding-top:10px;padding-bottom:10px;">
+								<select name="quantity" id="quantity" style="width:50px;margin-top:3px;margin-bottom:3px; z-index: -99999" onchange="productChange();">
 									<?php
 									if(!$maxQuantity) {
 										$maxQuantity = 5;
-									}
-									for ($i=1; $i<=$maxQuantity; $i++)
-									{
-										echo "<option>". $i . "</option>";
 									}
 									?>
 								</select>
