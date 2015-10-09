@@ -10,27 +10,29 @@ include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/coffee600/index.php" . $analyticsObj->queryString;
 
-$variantsArray = array (
-	"a", // Headline Split Test
-	"b", // Headline Split Test
-	"v2", // Content Version 2
+/*$variantsArray = array (
+	"timmy", // Timmy Version
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
 		$variation = trim($_GET["v"]);
 	}
-}
+}*/
 
 ?>
 	<div class="container-main">
+		<!-- SPLIT JV-16 9/17/15-->
 		<?php
-		if($variation == "a") {
-			include_once("content.php");
+		if (JV::in("20-aimee")) {
+			include_once("content-aimee.php");
 		}else{
-			include_once("content-v2.php");
+			include_once("content-timmy.php");
 		}
 		?>
+		<!--/// End Test///-->
 	</div>
 <?php
 include_once("template-bottom.php");
 ?>
+
+
