@@ -7,7 +7,7 @@ $template["floatingTimer"] = 0; //minutes to pass to the timer / will not displa
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
-$_SESSION['productId'] = 182; //please keep as an integer
+$_SESSION['productId'] = 194; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 2;
 include_once("Product.php");
