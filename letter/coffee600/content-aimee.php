@@ -170,14 +170,66 @@ if(!$pageGreeting) {
 		</div>
 	</div>
 
+	<div class="container oto-width">
+		<div>
+			<div>
+				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-04.jpg"  alt="Food4Patriots Coffee Kit"/>
+			</div>
+			<a id="accept"></a>
+			<?php
+			if($isUpgrade) {
+				?>
+				<div style="text-align:center;">
+					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"></a>
+				</div>
+			<?php
+			} else {
+				?>
+				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
+					<div style="text-align:center;">
+						<input type="image" src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
+					</div>
 
+					<div>
+						<table  style="margin-right:auto;margin-left:auto;" border="0" cellspacing="0" cellpadding="0">
+							<tr>
+								<td><span style="text-align:center;padding-top:10px;padding-bottom:10px;">
+								<select name="quantity" id="quantity" style="width:50px;margin-top:3px;margin-bottom:3px; z-index: -99999" onchange="productChange();">
+									<?php
+									if(!$maxQuantity) {
+										$maxQuantity = 5;
+									}
+									for ($i=1; $i<=$maxQuantity; $i++)
+									{
+										echo "<option>". $i . "</option>";
+									}
+									?>
+								</select>
+								</span></td>
+							</tr>
+						</table>
+					</div>
+
+					<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
+						<div style="float:left;margin-right:5px;">
+							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
+						</div>
+						<div id="terms"></div>
+						<script>
+							productChange();
+						</script>
+					</div>
+				</form>
+			<?php
+			}
+			?>
 			<div class="margin-tb-50 center-block text-center">
 				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
-				<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"></a>
+				<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
 			</div>
 			<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
 				<div style="float:left;margin-right:5px;">
-					<p><em style="color: #000086">YES!</em>I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97</p>
+					<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 				</div>
 				<div id="terms"></div>
 				<script>
