@@ -174,7 +174,7 @@ if(!$pageGreeting) {
 			<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
 			<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"></a>
 		</div>
-	<div style="margin-top: -20px" class="container oto-width">
+	<div style="margin-top: -40px" class="container oto-width">
 			<p><img style="float:left;margin-right:5px;position:relative;" src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes"> I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97 with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.</p>
 
 			<div class="outLineBoxDarkBlueCoffee">
