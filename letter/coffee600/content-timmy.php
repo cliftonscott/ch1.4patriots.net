@@ -93,9 +93,11 @@
 
 	<h2 class="darkRed text-center">Alright, Frank… How Much?</h2>
 	<p>By now, you can see how valuable coffee can be especially to&hellip;</p>
-	<p>Keep a sense of normalcy in a turbulent and uncertain time&hellip;</p>
-	<p>Maintain optimum performance and keep mental clarity and focus (even if there&rsquo;s chaos around you!)&hellip;</p>
-	<p>And to use as currency and barter for the things you or your family might need, no matter what the future holds.</p>
+	<ul>
+		<li>Keep a sense of normalcy in a turbulent and uncertain time&hellip;</li>
+		<li>Maintain optimum performance and keep mental clarity and focus (even if there&rsquo;s chaos around you!)&hellip;</li>
+		<li>And to use as currency and barter for the things you or your family might need, no matter what the future holds.</li>
+	</ul>
 	<p><em>How much is that peace of mind really worth to you and your family?</em></p>
 	<p>But good news: I&rsquo;ve got a great supplier who I can deal with directly to get these kits WAY down in price compared to what you&rsquo;d pay at some retail establishment where their canned coffee will waste away in mere months.</p>
 	<p>So, as long as I can keep them in stock (which will be a lot shorter than you might think&hellip;) you can get your hands on the complete <strong>Food4Patriots Survival Coffee Kit for my special price of just $97.00</strong></p>
@@ -137,10 +139,10 @@
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonial-coffee600-03.jpg" alt="Testimonial">
 
 	<h2 class="darkRed text-center">You Can Place Your Order In Just A Minute, But Consider This First...</h2>
-	<p><strong>One last thing&hellip;</strong></p>
-	<p><strong><em>Imagine you wake up one morning flip on the coffee pot, and the television&hellip; and the scene is utter chaos and tragedy.</em></strong></p>
-	<p><strong><em>Before your coffee even has time to brew, you know </em></strong></p>
-	<p><strong><em>something terrible has happened, and you don&rsquo;t even know what yet.</em></strong></p>
+	<p>One last thing&hellip;</strong></p>
+	<p><em>Imagine you wake up one morning flip on the coffee pot, and the television&hellip; and the scene is utter chaos and tragedy.</em></strong></p>
+	<p><em>Before your coffee even has time to brew, you know something</em></p>
+	<p><em>terrible has happened, and you don&rsquo;t even know what yet.</em></p>
 	<p>Through the smoke and the crowds on television you see battered reporters trying to make sense of the mobs that have taken to the streets&hellip; violent gangs that are starting to loot stores in your hometown.</p>
 	<p>You don&rsquo;t know the scale of the event, and you don&rsquo;t know when&hellip; or if&hellip; it will end.</p>
 	<p>Your family, scared out of their wits, comes into the room with you and looks to you for guidance&hellip;</p>
