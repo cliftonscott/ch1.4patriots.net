@@ -35,7 +35,7 @@
 		<li><i class="fa-li fa fa-check"></i><strong>Improve taste of your water:</strong> If you&rsquo;re stuck in a crisis filtering water from a &ldquo;survival source,&rdquo; it might be clean and pure&hellip; but it still might taste like dirt.</li>
 		<p>Rather than drinking terrible tasting water, make a cup of coffee and it’ll go down better… the boiling helps to purify it, and the bold flavor will mask any remaining unpleasant odor!</p>
 		<li><i class="fa-li fa fa-check"></i><strong>Use coffee as currency:</strong> Even if you don&rsquo;t plan to drink the coffee yourself, it&rsquo;s incredibly easy to use as a form of currency in an emergency. In fact, coffee is historically one of the most desired items in an uncertain time, going all the way back to 13<sup>th</sup> century Yemen!</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Take your performance to the next level: </strong> A powerful antioxidant, coffee boosts metabolism, reduces cholesterol levels, and can even ease depression (a powerful benefit indeed if you&rsquo;re in a crisis situation!),</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Take your performance to the next level: </strong> A powerful antioxidant, coffee boosts metabolism, reduces cholesterol levels, and can even ease depression (a powerful benefit indeed if you&rsquo;re in a crisis situation!).</li>
 	</ul>
 	<p>It&rsquo;s crystal clear: <strong>You absolutely MUST have a supply of coffee in your survival stockpile.</strong>&nbsp;</p>
 	<p>And going to Costco just isn&rsquo;t going to cut it. It goes bad faster than you might think! You need a supply of coffee that&rsquo;s guaranteed to stand up to the test of time, and taste great from the first cup to the last.&nbsp;</p>
