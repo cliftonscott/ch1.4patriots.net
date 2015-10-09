@@ -205,20 +205,6 @@ if(!$pageGreeting) {
 			<?php
 			}
 			?>
-			<div class="margin-tb-50 center-block text-center">
-				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
-				<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
-			</div>
-			<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
-				<div style="float:left;margin-right:5px;">
-					<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
-				</div>
-				<div id="terms"></div>
-				<script>
-					productChange();
-				</script>
-			</div>
-
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
 					<img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
