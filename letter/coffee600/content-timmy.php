@@ -8,7 +8,7 @@
 		<h1 class="darkRed text-center">This May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis</h1>
 	<?php endif; ?>
 	</div>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="max-width: 500px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
 	<p>Dear Patriot,</p>
 	<p><strong><em>I&rsquo;m going to go out on a limb here and guess something about you right now.</em></strong></p>
 	<p>I bet you&rsquo;re a fantastic planner, ready for anything and everything that might come your way.</p>
