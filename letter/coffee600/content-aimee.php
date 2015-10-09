@@ -223,6 +223,7 @@ if(!$pageGreeting) {
 			<?php
 			}
 			?>
+			<p><img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes"> I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97 with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.</p>
 
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
