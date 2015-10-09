@@ -93,9 +93,11 @@
 
 	<h2 class="darkRed text-center">Alright, Frank… How Much?</h2>
 	<p>By now, you can see how valuable coffee can be especially to&hellip;</p>
-	<p>Keep a sense of normalcy in a turbulent and uncertain time&hellip;</p>
-	<p>Maintain optimum performance and keep mental clarity and focus (even if there&rsquo;s chaos around you!)&hellip;</p>
-	<p>And to use as currency and barter for the things you or your family might need, no matter what the future holds.</p>
+	<ul>
+		<li>Keep a sense of normalcy in a turbulent and uncertain time&hellip;</li>
+		<li>Maintain optimum performance and keep mental clarity and focus (even if there&rsquo;s chaos around you!)&hellip;</li>
+		<li>And to use as currency and barter for the things you or your family might need, no matter what the future holds.</li>
+	</ul>
 	<p><em>How much is that peace of mind really worth to you and your family?</em></p>
 	<p>But good news: I&rsquo;ve got a great supplier who I can deal with directly to get these kits WAY down in price compared to what you&rsquo;d pay at some retail establishment where their canned coffee will waste away in mere months.</p>
 	<p>So, as long as I can keep them in stock (which will be a lot shorter than you might think&hellip;) you can get your hands on the complete <strong>Food4Patriots Survival Coffee Kit for my special price of just $97.00</strong></p>
