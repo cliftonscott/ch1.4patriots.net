@@ -107,6 +107,8 @@ if(!empty($customerDataObj->shippingCity)) {
 		echo "\n<script src='/js/customer-form-validation.js'></script>";
 	}
 	?>
+	<script src="/js/feelform.min.js"></script>
+
 </head>
 <body>
 <?php include_once("analytics-google-ecom.php"); ?>
@@ -136,6 +138,7 @@ if(!empty($customerDataObj->shippingCity)) {
 		}
 	}
 </script>
+
 <div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 	<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
 </div>
@@ -427,15 +430,15 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="col-md-6 left-form">
 					<div class="form-group">
 						<label for="firstName">First Name:</label>
-						<input type="text" class="form-control" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
+						<input type="text" class="form-control required" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
 					</div>
 					<div class="form-group">
 						<label for="lastName">Last Name:</label>
-						<input type="text" class="form-control" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
+						<input type="text" class="form-control required" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
 					</div>
 					<div class="form-group">
 						<label for="email">Email:</label>
-						<input type="email" class="form-control" id="email" name="email" value="<?php echo $preFill['email'];?>">
+						<input type="email" class="form-control email" id="email" name="email" value="<?php echo $preFill['email'];?>">
 					</div>
 					<div class="form-group">
 						<label for="phone">Phone:</label>
@@ -452,22 +455,22 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="col-md-6 right-form">
 					<div class="form-group">
 						<label for="billing-address">Billing Address:</label>
-						<input type="text" class="form-control" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
+						<input type="text" class="form-control required" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
 					</div>
 					<div class="form-group">
 						<label for="billing-city">City:</label>
-						<input type="text" class="form-control" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
+						<input type="text" class="form-control required" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
 					</div>
 					<div class="form-group">
 						<label for="billing-state" id="billing-state-label">State:</label>
-						<select class="form-control" id="billing-state" name="billing-state"  onchange="setStateTax();">
+						<select class="form-control required" id="billing-state" name="billing-state"  onchange="setStateTax();">
 							<!--dynamically built w/ javascript-->
 						</select>
-						<input type="text" class="form-control" id="other-billing-state" name="other-billing-state" style="display:none;visibility:hidden;">
+						<input type="text" class="form-control required" id="other-billing-state" name="other-billing-state" style="display:none;visibility:hidden;">
 					</div>
 					<div class="form-group">
 						<label for="billing-zip">Zip:</label>
-						<input type="text" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
+						<input type="text" class="form-control zip-field required number" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
 					</div>
 
 					<div class="checkbox">
@@ -542,7 +545,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<div class="col-md-12">
 							<div class="form-group left-form">
 								<label for="creditCardNumber">Card Number:</label>
-								<input type="number" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber"  value="" style="max-width: 269px;display:inline;"><img src="/assets/images/checkout/credit-card.png" style="max-width: 154px; margin: 0 0 0 18px" alt="Credit Cards Accepted">
+								<input type="number" class="form-control inspectletIgnore required number minLength-16" id="creditCardNumber" name="creditCardNumber"  value="" style="max-width: 269px;display:inline;"><img src="/assets/images/checkout/credit-card.png" style="max-width: 154px; margin: 0 0 0 18px" alt="Credit Cards Accepted">
 							</div>
 						</div>
 					</div>
@@ -585,7 +588,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<div class="form-group">
 										<label for="card-cvv2" style="margin-bottom:3px;">
 											CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
-										<input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
+										<input type="number" class="form-control cvv2-field required number" id="card-cvv2" name="card-cvv2" value="">
 									</div>
 								</div>
 							</div>
@@ -654,7 +657,7 @@ if(!empty($customerDataObj->shippingCity)) {
 		<div id="submit-button-container" style="display: none;">
 			<div class="row">
 				<div class="col-md-4"><a href="javascript:void(0);" onclick="hideCheckout();"><div class="buy-button">Back</div></a></div>
-				<div class="col-md-8"><a href="javascript:void(0);" onclick="document.getElementById('billing-form').submit();"><div class="buy-button">CLICK TO CONTINUE >></div></a></div>
+				<div class="col-md-8"><a id="submitButton" href="javascript:void(0);" onclick="document.getElementById('billing-form').submit();"><div class="buy-button">CLICK TO CONTINUE >></div></a></div>
 			</div>
 		</div>
 
@@ -1302,6 +1305,13 @@ if(isset($preFill)) {
 		margin-bottom:7px;
 	}
 </style>
+<script>
+	$('#billing-form').feelform({
+		notificationType: 'message, okIcon, errorIcon',
+		validateOnTheFly: true,
+		gravity: 'bottom',
+	});
+</script>
 <div id="csrModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" style="width:500px;height:300px;">
 		<div class="modal-content" style="background-image:url(/assets/images/misc/timer-pop-01.jpg);">
