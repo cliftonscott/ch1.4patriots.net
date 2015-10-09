@@ -10,12 +10,12 @@
 	</div>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
 	<p>Dear Patriot,</p>
-	<p><strong><em>I&rsquo;m gonna go out on a limb here and guess something about you right now.</em></strong></p>
-	<p>I bet you&rsquo;re a fantastic planner, ready for any and everything that might come your way.</p>
-	<p>You may even have a supply stockpile: backup staples like food, candles, batteries and a clean source of water.</p>
-	<p><strong><em>But I can also predict that you&rsquo;re missing one vital thing that&rsquo;s far more important than you might think at first glance and that&rsquo;s&hellip;</em></strong></p>
+	<p><strong><em>I&rsquo;m going to go out on a limb here and guess something about you right now.</em></strong></p>
+	<p>I bet you&rsquo;re a fantastic planner, ready for anything and everything that might come your way.</p>
+	<p>You may even have a supply stockpile: backup staples like food, candles, batteries, and a clean source of water.</p>
+	<p><strong><em>But I can also predict that you&rsquo;re missing one vital thing that&rsquo;s far more important than you might think at first glance, and that&rsquo;s&hellip;</em></strong></p>
 	<p><strong>Coffee. </strong></p>
-	<p><strong>&nbsp;</strong>Let me tell you why.</p>
+	<p>Let me tell you why.</p>
 	<p>For one thing, you&rsquo;re certainly not the only one who loves a cup of coffee first thing in the morning to get them going.</p>
 	<p>Me? I&rsquo;m one of those people who would rather you didn&rsquo;t even LOOK in my direction before I hit the coffee pot.</p>
 	<p><em>And I&rsquo;m not alone.</em></p>
@@ -28,29 +28,29 @@
 	<h2 class="darkRed text-center">Drinking A Cup Of Coffee Might Very Well Be The Thing That Keeps You Safe (And Sane)<br class="hidden-xs"> In A Crisis.</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-coffee600-01.jpg" alt="Coffee bags">
 	<p>And even if getting that little boost wasn&rsquo;t enough&hellip;</p>
-	<p>There are a ton of health benefits to drinking coffee regularly, but there are some other not so commonly known benefits to having coffee on hand too like:</p>
+	<p>There are a ton of health benefits to drinking coffee regularly, but there are some other not so commonly known benefits to having coffee on hand too, like:</p>
 	<ul class="fa-ul fa-ul-space">
 		<li><i class="fa-li fa fa-check"></i><strong>Boost your clarity and concentration: </strong>&ldquo;Calming stimulant&rdquo; may seem like an oxymoron, but the proof is clear. A cup of coffee in a stressful situation has a calming and clarifying effect on many people.</li>
 		<p>Believe it or not, even the SMELL of coffee can bring peace and harmony back in a stressful situation… it’s a subliminal sensory reaction! </p>
 		<li><i class="fa-li fa fa-check"></i><strong>Improve taste of your water:</strong> If you&rsquo;re stuck in a crisis filtering water from a &ldquo;survival source,&rdquo; it might be clean and pure&hellip; but it still might taste like dirt.</li>
 		<p>Rather than drinking terrible tasting water, make a cup of coffee and it’ll go down better… the boiling helps to purify it, and the bold flavor will mask any remaining unpleasant odor!</p>
 		<li><i class="fa-li fa fa-check"></i><strong>Use coffee as currency:</strong> Even if you don&rsquo;t plan to drink the coffee yourself, it&rsquo;s incredibly easy to use as a form of currency in an emergency. In fact, coffee is historically one of the most desired items in an uncertain time, going all the way back to 13<sup>th</sup> century Yemen!</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Take your performance to the next level: </strong> A powerful antioxidant, coffee boosts metabolism, reduces cholesterol levels and can even ease depression (a powerful benefit indeed if you&rsquo;re in a crisis situation!)</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Take your performance to the next level: </strong> A powerful antioxidant, coffee boosts metabolism, reduces cholesterol levels, and can even ease depression (a powerful benefit indeed if you&rsquo;re in a crisis situation!).</li>
 	</ul>
 	<p>It&rsquo;s crystal clear: <strong>You absolutely MUST have a supply of coffee in your survival stockpile.</strong>&nbsp;</p>
-	<p>And going to Costco just isn&rsquo;t going to cut it. It goes bad faster than you might think! You need a supply of coffee that&rsquo;s guaranteed to stand up to the test of time and taste great from the first cup to the last.&nbsp;</p>
+	<p>And going to Costco just isn&rsquo;t going to cut it. It goes bad faster than you might think! You need a supply of coffee that&rsquo;s guaranteed to stand up to the test of time, and taste great from the first cup to the last.&nbsp;</p>
 	<p>Trust me, you don&rsquo;t want to be caught in a situation where the grocery stores are all shuttered and you don&rsquo;t have a clue when things might return to &ldquo;normal.&rdquo;</p>
 	<p>That&rsquo;s why I&rsquo;ve put together the <strong>Food4Patriots Survival Coffee Kit&hellip;</strong></p>
 
 	<h2 class="darkRed text-center"> Guaranteed Shelf Life Of 25 Years, And Delicious From The First Taste<br class="hidden-xs"> To The Last Drop...</h2>
 	<p>Your survival coffee kit comes with some of the best coffee on the planet&hellip;</p>
-	<p>It&rsquo;s 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster to the freeze dryer and into your cup. (Compare that to a $5.00 latte from your local Starbucks!)</p>
+	<p>It&rsquo;s 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster, to the freeze dryer, and into your cup. (Compare that to a $5.00 latte from your local Starbucks!)</p>
 	<p>Plus&hellip; it tastes GREAT! Our super fast processing keeps this coffee incredibly fresh and robust&hellip; and we&rsquo;ll guarantee it for the next 25 full years.&nbsp;</p>
-	<p>And, I&rsquo;m 100% sure you&rsquo;re gonna LOVE it.</p>
+	<p>And, I&rsquo;m 100% sure you&rsquo;re going to LOVE it.</p>
 	<p>What if coffee&rsquo;s just not for you?</p>
 
 	<h2 class="darkRed text-center">Hey Frank… I’m NOT A Coffee Drinker.<br class="hidden-xs"> What’s In It For Me?</h2>
-	<p>Well ain&rsquo;t that something.</p>
+	<p>Well, ain&rsquo;t that something.</p>
 	<p>Alright, maybe you are one of the few people in the world who don&rsquo;t wake up every single morning craving (or demanding!) a fresh cuppa Joe.</p>
 	<p><strong>That may put you in the very best position of all&hellip; </strong></p>
 	<p>Why?</p>
@@ -65,7 +65,7 @@
 	<p>If you have cash on hand, do you really want others to know you do?</p>
 	<p>Plus, if things get bad enough for banks to shut down, your money may not be worth the paper it&rsquo;s printed on&hellip;</p>
 	<p>But you can run the table if you have a good stockpile of coffee on hand.&nbsp;</p>
-	<p><strong><em>It&rsquo;s the difference between holding two pairs of aces&hellip; or a pair of two&rsquo;s.</em></strong></p>
+	<p><strong><em>It&rsquo;s the difference between holding two pairs of aces&hellip; or a pair of twos.</em></strong></p>
 	<p>And in contrast to cash, if you&rsquo;re bartering coffee you have the upper hand, and you get to decide &ldquo;how much&rdquo; it&rsquo;s worth in exchange.</p>
 	<p>You just might be surprised at how much value others will place on it.</p>
 	<p>And that, friends, is how you turn a cup of coffee into a pot of gold.</p>

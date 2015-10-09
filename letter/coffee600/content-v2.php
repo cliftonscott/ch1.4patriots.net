@@ -67,9 +67,9 @@
 		tax = taxrate * subtot;
 		gtotal = tax + subtot;
 		if (taxrate != 0){
-			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
+			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
 		}else {
-			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
+			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
 		}
 	}
 </script>
@@ -86,11 +86,11 @@ if(!$pageGreeting) {
 		</div>
 		<!--<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">-->
 			<img class="img-responsive center-block margin-tb-20" style="width: 500px" src="/media/images/f4p/f4p-coffee-montage-01.jpg" alt="">
-			<p>There’s nothing more comforting and American than being able to sip a cup of fresh hot delicious coffee, and in the event of an emergency it’s a direct part of your “normal” routine.</p>
+			<p>There’s nothing more comforting and American than being able to sip a cup of fresh hot delicious coffee. And in the event of an emergency, it’s a direct part of your “normal” routine.</p>
 			<p>And keep in mind; this is the highest quality coffee we could source on the planet. No GMO’s, all 100% coffee, with absolutely zero additional “fillers”, additives or preservatives.</p>
 			<img style="width:300px; margin-top:35px" src="/media/images/misc/img-coffee-pouring.jpg" class="img-responsive pull-right img-padding-left media">
 			<p style="padding-top: 30px">It’s also 100% Colombian and 100% Arabica, arguably the finest coffee plants on the planet today.</p>
-			<p>Harvested at the peak of freshness then immediately roasted to perfection, freeze dried and put in our specially designed Mylar packages designed to ensure safe keeping for at least 25 FULL years.</p>
+			<p>Harvested at the peak of freshness then immediately roasted to perfection, freeze dried, and put in our specially designed Mylar packages designed to ensure safe keeping for at least 25 FULL years.</p>
 			<p>Imagine you wake up one morning and flip on the television and you find complete chaos.</p>
 			<p><em>Something terrible has happened, and you don’t even know what yet.</em></p>
 			<p>Through the smoke and the crowds on television you see battered reporters trying to make sense of what just happened. You see mobs of people who have taken to the streets in violent gangs starting to loot stores in your city or town.</p>
@@ -110,17 +110,17 @@ if(!$pageGreeting) {
 			<p>It’s the last part that’s really important here. If a crisis like the one I described does take place, stores will run out of almost ALL supplies in as little as 72 short hours.</p>
 			<h2 class="darkRed text-center">“The Ultimate Survival Commodity?”</h2>
 			<p>You can bet that coffee will be gone before that. If you have a decent stockpile of it, you might just be the only person within a hundred miles or more that has any at all.</p>
-			<p>That makes it a whole lot more valuable. All the way back to its origins in Yemen in the early 13th century coffee has been an incredible commodity.</p>
+			<p>That makes it a whole lot more valuable. All the way back to its origins in Yemen in the early 13th century, coffee has been an incredible commodity.</p>
 			<p>If you find yourself in a crisis situation, coffee is easily one of the best possible things to be in possession of, to use for barter or trade for other necessities that you may not have on hand.</p>
 			<p>So here’s what I’m going to do for you today.</p>
 			<p>At the bottom of this page there’s a button that says <strong>“Click to Accept.”</strong></p>
-			<p>When you click it, I’ll add my Food 4 Patriots Coffee Kit to your order for just one payment of $97.00.</p>
+			<p>When you click it, I’ll add my Food4Patriots Coffee Kit to your order for just one payment of $97.00.</p>
 			<p>Let me tell you what you’re going to get here...</p>
 			<div>
 				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-coffee-kit-01.jpg"  alt="Food4Patriots Coffee Kit"/>
 			</div>
 			<p>The Food4Patriots Survival Coffee Kit contains 600 full servings of the good stuff.</p>
-			<p>That’s just $.16 per serving of the same 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster to the freeze dryer and into your cup. (Compare that to your $5.00 latte from your local Starbucks!)</p>
+			<p>That’s just $.16 per serving of the same 100% pure Colombian coffee, 100% Non-GMO and 100% Arabica, straight from the tree to the roaster, to the freeze dryer, and into your cup. (Compare that to your $5.00 latte from your local Starbucks!)</p>
 			<p>Not only that, it tastes GREAT – our super fast processing keeps this coffee incredibly fresh and robust… just look at what some of our happy customers have said about it:</p>
 
 			<div class="testimonial"><i class="fa fa-quote-left fa-2x pull-left red-quote"></i>
@@ -144,7 +144,7 @@ if(!$pageGreeting) {
 				<i class="fa fa-quote-right fa-2x pull-right red-quote-no-audio"></i></div>
 
 			<p>And there are plenty more happy customers where they came from.</p>
-			<p>In this offer you’ll be getting, 10 full pouches (60 servings each) sealed into the specially designed triple-layered, re-sealable, re-usable Mylar packet that will significantly increase the shelf life and viability of your survival coffee.</p>
+			<p>In this offer you’ll be getting 10 full pouches (60 servings each) sealed into the specially designed triple-layered, re-sealable, re-usable Mylar packet that will significantly increase the shelf life and viability of your survival coffee.</p>
 			<p>Then we put it all in a handy burlap sack, inside of an additional watertight plastic storage container for easy stacking.</p>
 			<p>You may not ever need to use it in a crisis and I hope that’s the case, if so… you get to enjoy it all by yourself, and believe me you’re going to love it!</p>
 			<p>Keep in mind, this offer is exclusive ONLY to people who see the importance in having a coffee stockpile, and that means you.</p>
