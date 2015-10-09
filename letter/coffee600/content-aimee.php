@@ -176,7 +176,7 @@ if(!$pageGreeting) {
 		</div>
 	<div class="container oto-width">
 			<p><img style="float:left;margin-right:5px;position:relative;" src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes"> I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97 with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.</p>
-	</div>
+
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
 					<img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
@@ -189,3 +189,4 @@ if(!$pageGreeting) {
 					<p style="padding: 15px 0 0;"><strong>Guarantee #2 –</strong> This is my completely unheard of 300% money back GUARANTEE. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised, or has gone bad… you can return the entire batch and I’ll give you triple your money back.</p>
 				</div>
 			</div>
+	</div>
