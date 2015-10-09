@@ -114,7 +114,7 @@ if(!$pageGreeting) {
 			<p>That makes it a whole lot more valuable. All the way back to its origins in Yemen in the early 13th century, coffee has been an incredible commodity.</p>
 			<p>If you find yourself in a crisis situation, coffee is easily one of the best possible things to be in possession of, to use for barter or trade for other necessities that you may not have on hand.</p>
 			<p>So here’s what I’m going to do for you today.</p>
-			<p>At the bottom of this page there’s a button that says <strong>“Add to Cart.”</strong></p>
+			<p>At the bottom of this page there’s a button that says <strong>“Click to Accept.”</strong></p>
 			<p>When you click it, I’ll add my Food4Patriots Coffee Kit to your order for just one payment of $97.00.</p>
 			<p>Let me tell you what you’re going to get here...</p>
 			<div>
@@ -166,7 +166,7 @@ if(!$pageGreeting) {
 			<p>That’s about the best I can do to prove just how much I stand behind this product and its quality.</p>
 			<p>That’s all I’ve got.</p>
 			<p>Believe it or not, coffee can be an amazing equalizer in a crisis… it provides a familiar routine and a sense of calm and focus, even when everything else could be swirling in chaos.</p>
-			<p>Get your additional supply right away, Click the <strong>“Add to Cart”</strong> button below now:</p>
+			<p>Get your additional supply right away, Click the <strong>“Click to Accept”</strong> button below now:</p>
 		</div>
 	</div>
 
@@ -180,14 +180,14 @@ if(!$pageGreeting) {
 			if($isUpgrade) {
 				?>
 				<div style="text-align:center;">
-					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" name="submit" class="img-responsive center-block"></a>
+					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 				</div>
 			<?php
 			} else {
 				?>
 				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 					<div style="text-align:center;">
-						<input type="image" src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
+						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
 					</div>
 
 					<div>
