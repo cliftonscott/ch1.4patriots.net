@@ -45,34 +45,7 @@
 
 	});
 </script>
-<script>
-	function productChange(){
-		if ('<?php echo $customerDataObj->billingState;?>' == 'AZ') {
-			taxrate = .0810;
-			taxedstate = " AZ (8.10%) sales tax";
-		}else if ('<?php echo $customerDataObj->billingState;?>' == 'TN') {
-			taxrate = .0925;
-			taxedstate = ' TN (9.25%) sales tax';
-		}else {
-			var taxrate = 0;
-			taxedstate = '';
-		}
 
-		price = 97;
-		e = document.getElementById("quantity");
-		quant = e.options[e.selectedIndex].value;
-		discount = 1000 * quant;
-		$("#save").html('Act Today And Save Over $' + discount);
-		subtot = price * quant;
-		tax = taxrate * subtot;
-		gtotal = tax + subtot;
-		if (taxrate != 0){
-			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
-		}else {
-			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
-		}
-	}
-</script>
 <?php
 
 if(!$pageGreeting) {
