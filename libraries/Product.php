@@ -616,8 +616,8 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 66;
 				$productObj->tags = "LL, COFFEE600";
-				$productObj->shippingIdDomestic = 20;
-				$productObj->shippingIdInternational = 21;
+				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 182;

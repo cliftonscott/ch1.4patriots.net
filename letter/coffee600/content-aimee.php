@@ -1,85 +1,3 @@
-<script src="/js/zoommain.js"></script>
-<style>
-	.small { display: block; }
-</style>
-
-<script src="/js/audio.js"></script>
-<script language="javascript">
-	$(document).ready(function() {
-
-		$("#optin-form").validate({
-//			rules: {
-//				check1: {
-//					required: true
-//				}
-//			},
-			messages: {
-				check1: '<div class="warning-check"></div>'
-			},
-			submitHandler: function(form) {
-				//optIn();
-				form.submit();
-			}
-		});
-
-	});
-</script>
-<script type="text/javascript">
-	// Change these values for the content within the "buttons" div to appear at this time.
-	$(document).ready(function(){
-
-		var hours = 0;
-		var minutes = 3;
-		var seconds = 45;
-		// Start by converting hours to milliseconds
-		var time = hours * 60 * 60 * 1000;
-
-		// Add minutes converted to milliseconds and add to total time
-		time += minutes * 60 * 1000;
-		// Add seconds to total time after converting to milliseconds
-		time += seconds * 1000;
-
-		setTimeout(function() {
-			$("#buyButton").css("display", "block");
-		}, time);
-
-	});
-</script>
-<script>
-	function productChange(){
-		if ('<?php echo $customerDataObj->billingState;?>' == 'AZ') {
-			taxrate = .0810;
-			taxedstate = " AZ (8.10%) sales tax";
-		}else if ('<?php echo $customerDataObj->billingState;?>' == 'TN') {
-			taxrate = .0925;
-			taxedstate = ' TN (9.25%) sales tax';
-		}else {
-			var taxrate = 0;
-			taxedstate = '';
-		}
-
-		price = 97;
-		e = document.getElementById("quantity");
-		quant = e.options[e.selectedIndex].value;
-		discount = 1000 * quant;
-		$("#save").html('Act Today And Save Over $' + discount);
-		subtot = price * quant;
-		tax = taxrate * subtot;
-		gtotal = tax + subtot;
-		if (taxrate != 0){
-			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
-		}else {
-			$("#terms").html('I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + ' with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.');
-		}
-	}
-</script>
-<?php
-
-if(!$pageGreeting) {
-	$pageGreeting = ""; // add default greeting here // override this default in the calling template
-}
-
-?>
 <div class="container-main">
 	<div class="container oto-width">
 		<div><h1 class="darkRed text-center">Why THIS May Be More Valuable<br class="hidden-xs"> Than Gold In a Crisis...</h1>
@@ -169,21 +87,12 @@ if(!$pageGreeting) {
 			<p>Get your additional supply right away, Click the <strong>“Add to Cart”</strong> button below now:</p>
 		</div>
 	</div>
-
-
-			<div class="margin-tb-50 center-block text-center">
-				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
-				<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
-			</div>
-			<div style="position:relative;text-align:left;margin-top:10px;max-width:600px;margin-right:auto;margin-left:auto;">
-				<div style="float:left;margin-right:5px;">
-					<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
-				</div>
-				<div id="terms"></div>
-				<script>
-					productChange();
-				</script>
-			</div>
+	<div style="margin-top: -75px" class="container oto-width">
+		<div class="margin-tb-50 center-block text-center">
+			<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-coffee-kit-04.jpg" alt="">
+			<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" class="img-responsive center-block" alt="Add To Cart"></a>
+		</div>
+			<p style="margin-top: -40px"><img style="float:left;margin-right:5px;position:relative;" src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes"> I want to add the Food4Patriots Coffee Kit to my order at the one-time discount sale price of $97 with FREE SHIPPING. Each kit contains 600 servings of this amazing-tasting survival coffee with a 25-year shelf-life for just $0.16 per cup.</p>
 
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
@@ -197,5 +106,4 @@ if(!$pageGreeting) {
 					<p style="padding: 15px 0 0;"><strong>Guarantee #2 –</strong> This is my completely unheard of 300% money back GUARANTEE. And it’s on TOP of guarantee #1… if at any time in the next 25 years you open one of your packets of coffee and find that it’s been compromised, or has gone bad… you can return the entire batch and I’ll give you triple your money back.</p>
 				</div>
 			</div>
-		</div>
 	</div>
