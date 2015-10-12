@@ -1,8 +1,33 @@
+.navbar {
+    margin-top: -5px;
+    background-color: #011839;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    max-width: 958px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+
+.navbar-default {
+    background-image: none;
+    border-bottom-color: #000;
+    border: none;
+}
 
 #start-quiz {
     margin:auto;
     width:100%;
     text-align:center;
+}
+#start-quiz a{
+    color:#e09800;
+    text-decoration: none;
+}
+
+#start-quiz a:hover{
+    color: #c98800;
+    text-decoration: none;
 }
 
 #section_1{
