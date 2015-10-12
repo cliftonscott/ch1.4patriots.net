@@ -125,9 +125,9 @@
 
 	<div class="jumbotron text-left">
 		<h2 class="darkRed"><i class="fa fa-check-square-o"></i> Guarantees</h2>
-		<p class="lead"><strong>Guarantee #1:</strong>  is a 100% money back guarantee. No questions asked. If for any reason, you’re not satisfied with your
+		<p class="lead"><strong>Guarantee #1:</strong>  is a 100% money back guarantee. No questions asked. If for any reason you’re not satisfied with your
 			Food4Patriots kit, just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide
-			it’s not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. That way
+			it’s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. That way
 			there’s absolutely no risk for you.</p>
 		<p><img class="pull-right" src="letter/images/samples/section6-block1-img1.png" /></p>
 		<p><strong>Guarantee #2:</strong> is an unheard of 300% money back guarantee. If you open your Food4Patriots meals anytime in the next 25 years and find
