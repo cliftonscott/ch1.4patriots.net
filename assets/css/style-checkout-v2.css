@@ -671,7 +671,7 @@ BACK TO TOP BOX
 	margin-bottom: 5px;
 }
 .form-container #firstName, #lastName,#email, #phone, #billing-country, #creditCardNumber, #shipping-address  {
-	width: 100%;
+	width: 95%;
 	margin-left:5%;
 	margin-bottom:10px;
 }
