@@ -36,6 +36,7 @@ $vslArray = array (
 	"stansberry", // JV Partner Stansberry No Warning Intro
 	"fs", // 3.1 Food Stamp Hook
 	"3f", // 3.1 3 Foods Hook
+
 );
 if($_GET["vsl"]) {
 	if(in_array(trim($_GET["vsl"]),$vslArray)) {
