@@ -677,7 +677,7 @@ if(!empty($customerDataObj->shippingCity)) {
 <div class="buy-button-wrapper">
 	<div class="buy-button-content">
 		<div class="audio-message-container">
-			<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto"></audio>
+			<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto" onended="endAudio('frankCheckout');"></audio>
 			<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off_white.gif" onclick="toggleAudio('frankCheckout');">
 			<div class="audio-message">Special Message From Frank</div>
 		</div>
@@ -932,8 +932,8 @@ if(isset($preFill)) {
 				<div class="glenn-beck-caption">Glenn Beck (host of The Glenn Beck Show on radio, TV, and frequent guest on FoxNews), recommends Patriot Pantry, the survival food in Food4patriots Kits.</div>
 			</div>
 			<div class="col-sm-5 glenn-beck-img">
-				<audio id="GBCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
-				<img id="GBCheckoutAudioControl" class="gb-button" src="/media/images/checkout-v2/gb-button.png" onclick="toggleAudio('GBCheckout');">
+				<audio id="GBCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" onended="endAudio('GBCheckout');"></audio>
+				<img id="GBCheckoutAudioControl" class="gb-button" src="/media/images/checkout-v2/gb-button.png" onclick="toggleAudio('GBCheckout'); stopAudio('frankCheckout');">
 			</div>
 		</div>
 	</div>
