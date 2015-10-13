@@ -6,9 +6,9 @@
 			<div class="col-md-12">
 				<div class="center-block text-center">
 					<?php
-					if($variation == "quiz") {
+					if($variation === "quiz") {
 						echo "<h1><strong>Your Quiz Results Show THIS Is The #1<br class='hidden-xs'> Item To Hoard... So Why Is FEMA<br class='hidden-xs'> Trying To Buy It All Up?</strong></h1>";
-					}
+					} else {
 					?>
 					<?php
 					if($_GET["pub"]) {
@@ -27,12 +27,12 @@
 						<h1><strong>3 Foods NEVER To Eat<br> In A Crisis</strong></h1>
 					<?php
 					}else {
-						if($variation !=="quiz"){
 						?>
 						<h1><strong>Why Was This Video Banned?</strong></h1>
 					<?php
 					}}
 					?>
+
 				</div>
 			</div>
 			<div class="col-md-12">
