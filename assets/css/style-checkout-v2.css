@@ -313,44 +313,45 @@ Stopwatch
 .container-stopwatch{
 	max-width:500px;
 	overflow:hidden;
-	margin-left:-250px;
+	margin-top:-107px;
+	margin-left: -323px;
 }
 .stopwatch{
 	position: absolute;
-	width:250px;
-	margin-left:250px;
+	width:140px;
+	margin-left:305px;
 	z-index:9999;
 }
 .circle-min{
 	background-color:#fff;
-	margin-left:328px;
-	margin-top:129px;
+	margin-left:348.5px;
+	margin-top:72px;
 	z-index:1;
 	position:absolute;
 	border-radius: 50%;
-	width: 94px;
-	height: 94px;
+	width: 53px;
+	height: 53px;
 }
 .color1{
 	background-color:#fff;
-	margin-left:265px;
-	margin-top:60px;
+	margin-left:315px;
+	margin-top:30px;
 	position:absolute;
 	border-radius: 50%;
-	width: 225px;
-	height: 225px;
+	width: 125px;
+	height: 125px;
 }
 .color2{
 	background-color:#ff7260;
-	margin-left:265px;
-	margin-top:60px;
+	margin-left:315px;
+	margin-top:30px;
 	position:absolute;
 	border-radius: 50%;
-	width: 225px;
-	height: 225px;
+	width: 125px;
+	height: 125px;
 }
 .time_circles {
-	margin-top:51px;
+	margin-top:20px;
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -359,7 +360,8 @@ Stopwatch
 text used in Stopwatch
  ------------------------*/
 .time_circles > div {
-	margin-left:250px;
+	margin-left:160px;
+	margin-top:0px;
 	color:#000;
 	z-index:2;
 	position: absolute;
@@ -377,6 +379,7 @@ text used in Stopwatch
 	margin-top: 0.5em;
 	font-weight: bold;
 }
+
 
 /******************************
 TESTIMONIALS
