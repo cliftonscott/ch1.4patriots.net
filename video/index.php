@@ -25,6 +25,7 @@ $variantsArray = array (
 	"np-nologo", // No exit pop, and no logos/badges
 	"np", // No exit pop
 	"pu", // Pop Under
+	"quiz", // Quiz
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
