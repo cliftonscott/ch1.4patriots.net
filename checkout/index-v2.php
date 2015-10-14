@@ -79,8 +79,8 @@ if(!empty($customerDataObj->shippingCity)) {
 	<?php echo $metaDataObj->keywords;?>
 	<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/assets/css/style-checkout-v2.css">
-	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -743,7 +743,7 @@ if(!empty($customerDataObj->shippingCity)) {
 								element.addClass('color' + curNumber, 0);
 								// So previous classes get removed.
 								element.attr('class', 'color' + curNumber);
-								setTimeout(function(){changeColor(element, curNumber)}, 60000);
+								setTimeout(function(){changeColor(element, curNumber)}, 9000000);
 							}
 							changeColor($('.circle-bg'), 0);
 						</script>
