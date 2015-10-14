@@ -19,7 +19,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
     	<div class="johnson-box-02 center-block margin-tb-20">
 			<p style="font-size: 25pt;margin-top: 15px;margin-bottom: 30px;"><u>Your Order Has Been Received!</u></p>
 			<p>We're Preparing Your Shipment Now.</p>
-			<p style="font-size: 12pt"><i>Due to unprecedented demand, our warehouse is currently processing an extremely large number of shipments. We anticipate being able to ship your order within 14-21 days. Rest assured, we are working hard to get your order out the door to you as quickly as possible!</i></p>
+			<p style="font-size: 12pt"><i>Due to unprecedented demand, our warehouse is currently processing an extremely large number of shipments. We anticipate being able to ship your order within 7-10 days. Rest assured, we are working hard to get your order out the door to you as quickly as possible!</i></p>
 			<p>You Can Access Your Bonuses Below.</p>
 		</div>
 		<div class="text-center margin-tb-20">
