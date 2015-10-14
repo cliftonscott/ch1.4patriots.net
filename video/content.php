@@ -1,9 +1,15 @@
+
 <div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="center-block text-center">
+					<?php
+					if($variation === "quiz") {
+						echo "<h1><strong>Your Quiz Results Show THIS Is The #1<br class='hidden-xs'> Item To Hoard... So Why Is FEMA<br class='hidden-xs'> Trying To Buy It All Up?</strong></h1>";
+					} else {
+					?>
 					<?php
 					if($_GET["pub"]) {
 						echo "<div style='font-size:18pt;'>Special presentation for ". $pubArray[$pub] ." </div>";
@@ -24,8 +30,9 @@
 						?>
 						<h1><strong>Why Was This Video Banned?</strong></h1>
 					<?php
-					}
+					}}
 					?>
+
 				</div>
 			</div>
 			<div class="col-md-12">
