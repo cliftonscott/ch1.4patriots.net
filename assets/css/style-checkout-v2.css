@@ -157,6 +157,13 @@ PRODUCT DESKTOP
 	padding-left: 0;
 	line-height: 1.2em;
 }
+.include-list .popul li {
+	color: #000 !important;
+	font-size: 16px;
+}
+.include-list .fa-info-circle {
+	color: #ACF0FF;
+}
 .shipping-truck {
 	margin: 0 auto;
 	padding-bottom: 20px;
@@ -238,6 +245,9 @@ PRODUCT DESKTOP
 .nav-tabs>li.active>a .tab-product, .nav-pills>li.active>a:focus .tab-product, .nav-pills>li.active>a:hover .tab-product {
 	color: green;
 }
+.whats-included-menu-wrapper .tab-product, .whats-included-menu-wrapper .tab-price  {
+	padding-left: 0px;
+}
 
 .buy-button-wrapper {
 	height: 100px;
@@ -276,6 +286,11 @@ PRODUCT DESKTOP
 	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 	padding-top: 14px;
 }
+
+.submit {
+	padding-top: 0px;
+}
+
 .buy-button:hover {
 	background: linear-gradient(rgba(101,179,39,0.9),rgba(79,141,29,0.9)),
 				url("/media/images/checkout-v2/buy-button-pattern.png");
@@ -284,6 +299,87 @@ PRODUCT DESKTOP
 .buy-button-content a:hover {
 	text-decoration: none;
 }
+
+.back-button {
+	font-size: 18px;
+	font-weight: 700;
+	margin: auto;
+	padding: 20px 0 0 0;
+}
+
+/*-----------------------
+Stopwatch
+ ------------------------*/
+.container-stopwatch{
+	max-width:500px;
+	overflow:hidden;
+	margin-top:-107px;
+	margin-left: -323px;
+}
+.stopwatch{
+	position: absolute;
+	width:140px;
+	margin-left:305px;
+	z-index:9999;
+}
+.circle-min{
+	background-color:#fff;
+	margin-left:348.5px;
+	margin-top:72px;
+	z-index:1;
+	position:absolute;
+	border-radius: 50%;
+	width: 53px;
+	height: 53px;
+}
+.color1{
+	background-color:#fff;
+	margin-left:315px;
+	margin-top:30px;
+	position:absolute;
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+}
+.color2{
+	background-color:#ff7260;
+	margin-left:315px;
+	margin-top:30px;
+	position:absolute;
+	border-radius: 50%;
+	width: 125px;
+	height: 125px;
+}
+.time_circles {
+	margin-top:20px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/*-----------------------
+text used in Stopwatch
+ ------------------------*/
+.time_circles > div {
+	margin-left:160px;
+	margin-top:0px;
+	color:#000;
+	z-index:2;
+	position: absolute;
+	text-align: right;
+}
+/*-----------------------
+ Stopwatch numbers, ie
+ ------------------------*/
+.time_circles > div > span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Century Gothic', Arial;
+	font-size: 300%;
+	margin-top: 0.5em;
+	font-weight: bold;
+}
+
 
 /******************************
 TESTIMONIALS
@@ -541,7 +637,6 @@ FOOTER
 	color: #FFFFFF;
 	text-align: center;
 	margin-top: 10px;
-	margin-bottom: 10px;
 	font-size: 14px;
 }
 
@@ -600,15 +695,22 @@ TIMER BOX
 	margin-right: 200px;
 	border-radius: 15px;
 }
+.audio-message-container {
+	max-width: 900px;
+	margin: 0 auto;
+	position: absolute;
+	top: -44px;
+	left: 174px;
+}
 .audio-message {
-	padding-top: 25px;
+	padding-top: 5px;
 	font-weight: bold;
-	color: #cc0000;
+	color: #ffffff;
 	font-size: 17px;
 	width:400px;
 }
 img.audioControl {
-	margin:17px 3px 3px 3px;
+	margin:0px 3px 3px 3px;
 	width:36px;
 	height:36px;
 	cursor:pointer;
@@ -620,8 +722,8 @@ BACK TO TOP BOX
 
 #toTop{
 	position: fixed;
-	bottom: 10px;
-	right: 50px;
+	bottom: 30px;
+	right: 105px;
 	cursor: pointer;
 	display: none;
 	z-index: 10;
@@ -690,7 +792,7 @@ BACK TO TOP BOX
 	width: 92%;
 }
 .form-container #card_expires_on_month {
-	width:60%;
+	width:130px;
 }
 .form-container input.error {
 	background: #ff9c9c !important;
@@ -702,6 +804,15 @@ BACK TO TOP BOX
 	height:0px;
 	display:none;
 	visibility:hidden;
+}
+
+@-moz-document url-prefix() {
+	.form-container .card-cvv2-contain label {
+		margin-left: 15px;
+	}
+	.form-container .card-cvv2-contain .LV_invalid {
+		right: 30px;
+	}
 }
 
 .sameas-select{
@@ -716,10 +827,10 @@ BACK TO TOP BOX
 	text-align: center;
 }
 .expiration select{
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 }
 .cvv2-field {
-	width: 60px !important;
+	width: 65px !important;
 }
 #productInfo {
 	padding-top: 10px;
@@ -914,7 +1025,7 @@ RESPONSIVE
 	}
 	.testimonial-text {
 		display: table;
-		min-height: 180px;
+		height: 180px;
 		float: left;
 		padding-bottom: 0;
 	}

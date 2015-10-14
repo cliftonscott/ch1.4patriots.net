@@ -113,6 +113,7 @@ if(!empty($customerDataObj->shippingCity)) {
 <body>
 <?php include_once("analytics-google-ecom.php"); ?>
 <script src="/js/audio-gb-v2.js"></script>
+<script src="/js/time-circles.js"></script>
 <script>
 	/*
 	 This function works in parallel with the setStateTax() function found in the
@@ -218,27 +219,29 @@ if(!empty($customerDataObj->shippingCity)) {
 	</div>
 </div>
 
+
+
 <!--DESKTOP PRODUCT AREA-->
 <div class="group"></div>
 <div class="product-area-wrapper hidden-sm hidden-xs">
 	<div class="product-area-content" style="position: relative;">
-		<div class="" style="width:1200px; margin: 0 auto;">
+		<div class="" style="max-width:1200px; margin: 0 auto;padding-bottom: 27px;">
 			<div class="tab-content">
 				<div id="home" class="tab-pane fade in active">
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-md-8">
 							<h3>3-MONTH FOOD SUPPLY</h3>
 							<h4>DELUXE FOOD4PATRIOTS KIT</h4>
 							<img src="/media/images/checkout-v2/f4p-3month-kit.png" class="img-responsive center-block">
 						</div>
-						<div class="col-lg-5 col-md-5 hidden-sm hidden-xs include-column">
+						<div class="col-md-4 hidden-sm hidden-xs">
 							<img src="/media/images/checkout-v2/free-shipping-truck.png" class="img-responsive shipping-truck hidden-sm hidden-xs" style="padding-top:25px;">
 							<h5 class="hidden-sm hidden-xs">INCLUDES:</h5>
 							<ul class="include-list hidden-sm hidden-xs">
-								<li>450 Servings</li>
+								<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 								<li>FREE Shipping</li>
-								<li>FREE Survival Tool</li>
-								<li>FREE Seeds Vault</li>
+								<li>FREE Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li>FREE Seeds Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 								<li>10 Items Sold Out After Crisis Report</li>
 								<li>Water Survival Guide Report</li>
 								<li>How to Cut Your Grocery Bill Report</li>
@@ -249,16 +252,16 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 				<div id="menu1" class="tab-pane fade">
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-md-8">
 							<h3>4-WEEK FOOD SUPPLY</h3>
 							<h4>BASIC FOOD4PATRIOTS KIT</h4>
 							<img src="/media/images/checkout-v2/f4p-4week-kit.png" class="img-responsive center-block">
 						</div>
-						<div class="col-lg-5 col-md-5 hidden-sm hidden-xs include-column">
+						<div class="col-md-4 hidden-sm hidden-xs">
 							<img src="/media/images/checkout-v2/free-shipping-truck.png" class="img-responsive shipping-truck hidden-sm hidden-xs" style="padding-top:25px;">
 							<h5 class="hidden-sm hidden-xs">INCLUDES:</h5>
 							<ul class="include-list hidden-sm hidden-xs">
-								<li>140 Servings</li>
+								<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 								<li>FREE Shipping</li>
 								<li>10 Items Sold Out After Crisis Report</li>
 								<li>Water Survival Guide Report</li>
@@ -270,16 +273,16 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 				<div id="menu2" class="tab-pane fade">
 					<div class="row">
-						<div class="col-lg-6 col-md-6">
+						<div class="col-md-8">
 							<h3>1-WEEK FOOD SUPPLY</h3>
 							<h4>MINIMUM FOOD4PATRIOTS KIT</h4>
 							<img src="/media/images/checkout-v2/f4p-1week-kit.png" class="img-responsive center-block">
 						</div>
-						<div class="col-lg-5 col-md-5 hidden-sm hidden-xs include-column">
+						<div class="col-md-4 hidden-sm hidden-xs">
 							<div style="padding-top:73px;"></div>
 							<h5 class="hidden-sm hidden-xs">INCLUDES:</h5>
 							<ul class="include-list hidden-sm hidden-xs">
-								<li>36 Servings</li>
+								<li>36 Servings <a href="#info" id="1wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 								<li>10 Items Sold Out After Crisis Report</li>
 								<li>Water Survival Guide Report</li>
 								<li>How to Cut Your Grocery Bill Report</li>
@@ -416,15 +419,16 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 		</div>
 
-		<?php
-		$_SESSION["upsell"] = FALSE;
-		$_SESSION["formReturn"] = $_SERVER["PHP_SELF"];
-		if($_SESSION['errorMessage'] != '') {
-			include_once("error-message.php");
-			unset($_SESSION['errorMessage']);
-		}
-		?>
 		<div style="max-width: 1024px; margin: 0 auto;">
+			<?php
+			$_SESSION["upsell"] = FALSE;
+			$_SESSION["formReturn"] = $_SERVER["PHP_SELF"];
+			if($_SESSION['errorMessage'] != '') {
+				include_once("error-message.php");
+				echo "<script>$(document).ready(function(){showCheckout();})</script>";
+				unset($_SESSION['errorMessage']);
+			}
+			?>
 			<input type="hidden" name="productId" id="productId" value="<?php echo $productDataObj->productId;?>" onchange="setStateTax();">
 			<div class="row" style="padding-bottom: 7px;">
 				<div class="col-md-6 left-form">
@@ -596,6 +600,23 @@ if(!empty($customerDataObj->shippingCity)) {
 							<div class="form-inline expiration">
 								<div class="form-group left-form">
 									<label for="card_expires_on_month" style="padding: 0;">Expiration:</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="form-inline expiration">
+								<div class="form-group">
+									<div class="form-group card-cvv2-contain">
+										<label for="card-cvv2" style="margin-bottom:3px;">CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12" style="margin-left: 15px;">
+							<div class="form-inline expiration">
+								<div class="form-group left-form card-cvv2-contain">
 									<select class="form-control" id="card_expires_on_month" name="card_expires_on_month" >
 										<option selected="selected" value="01">01 - January</option>
 										<option value="02">02 - February</option>
@@ -621,22 +642,13 @@ if(!empty($customerDataObj->shippingCity)) {
 										}
 										?>
 									</select>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="form-inline expiration">
-								<div class="form-group left-form">
-									<div class="form-group card-cvv2-contain">
-										<label for="card-cvv2" style="margin-bottom:3px;">
-											CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
-										<input type="text" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
-										<script>
-											var ccv2 = new LiveValidation('card-cvv2', { validMessage: ' ', onlyOnBlur: true});
-											ccv2.add(Validate.Presence);
-											ccv2.add(Validate.Numericality);
-										</script>
-									</div>
+
+									<input type="text" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
+									<script>
+										var ccv2 = new LiveValidation('card-cvv2', { validMessage: ' ', onlyOnBlur: true});
+										ccv2.add(Validate.Presence);
+										ccv2.add(Validate.Numericality);
+									</script>
 								</div>
 							</div>
 						</div>
@@ -664,6 +676,11 @@ if(!empty($customerDataObj->shippingCity)) {
 	<!--BUY BUTTON-->
 <div class="buy-button-wrapper">
 	<div class="buy-button-content">
+		<div class="audio-message-container">
+			<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto" onended="endAudio('frankCheckout');"></audio>
+			<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off_white.gif" onclick="toggleAudio('frankCheckout');">
+			<div class="audio-message">Special Message From Frank</div>
+		</div>
 		<div class=" quantity-box hidden-sm hidden-xs  quantity-box-content">
 			<div class="row" style="">
 				<div class="col-xs-5">Quantity:</div>
@@ -698,15 +715,50 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 		<div id="checkout-button-container">
 			<div class="row">
-				<div class="col-md-12"><a href="javascript:void(0);" onclick="showCheckout();"><div class="buy-button">ADD TO CART</div></a></div>
+				<div class="col-md-2">
+					<div class="container-stopwatch">
+						<div class="stopwatch"><img src="/assets/images/checkout/stopwatch.svg"></div>
+						<div class="circle-min"></div>
+						<div class="circle-bg"></div>
+						<div id="CountDownTimer" data-timer="900" style="width: 0px; height: 160px; margin-left:135px"></div>
+
+						<script>
+							$("#CountDownTimer").TimeCircles({ time: { Days: { show: false }, Hours: { show: false } }});
+
+							var updateTime = function(){
+								var date = $("#date").val();
+								var time = $("#time").val();
+								var datetime = date + ' ' + time + ':00';
+								$("#DateCountdown").data('date', datetime).TimeCircles().start();
+							}
+						</script>
+						<script>
+							function changeColor(element, curNumber){
+								curNumber++;
+
+								if(curNumber > 1){
+									curNumber = 2;
+								}
+								console.log(curNumber);
+								element.addClass('color' + curNumber, 0);
+								// So previous classes get removed.
+								element.attr('class', 'color' + curNumber);
+								setTimeout(function(){changeColor(element, curNumber)}, 60000);
+							}
+							changeColor($('.circle-bg'), 0);
+						</script>
+					</div>
+				</div>
+
+				<div class="col-md-10"><a href="javascript:void(0);" onclick="showCheckout();$('#firstName').focus();"><div class="buy-button">ADD TO CART</div></a></div>
+				<!--<div class="col-md-12"><a href="javascript:void(0);" onclick="showCheckout();$('#firstName').focus();"><div class="buy-button">ADD TO CART</div></a></div>-->
 			</div>
 		</div>
 		<div id="submit-button-container" style="display: none;">
 			<div class="row">
-				<div class="col-md-4"><a href="javascript:void(0);" onclick="hideCheckout();"><div class="buy-button">Back</div></a></div>
+				<div class="col-md-4"><a href="javascript:void(0);" onclick="hideCheckout();"><div class="back-button"><i class="fa fa-angle-double-left"></i> Back To Product Selection</div></a></div>
 				<div class="col-md-8">
 					<input type="submit" class="submit buy-button" value="CLICK TO CONTINUE" />
-					<!--<a id="submitButton" href="javascript:void(0);" onclick="document.getElementById('billing-form').submit();"><div class="buy-button">CLICK TO CONTINUE >></div></a>-->
 				</div>
 
 			</div>
@@ -883,8 +935,8 @@ if(isset($preFill)) {
 				<div class="glenn-beck-caption">Glenn Beck (host of The Glenn Beck Show on radio, TV, and frequent guest on FoxNews), recommends Patriot Pantry, the survival food in Food4patriots Kits.</div>
 			</div>
 			<div class="col-sm-5 glenn-beck-img">
-				<audio id="GBCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" preload="auto"></audio>
-				<img id="GBCheckoutAudioControl" class="gb-button" src="/media/images/checkout-v2/gb-button.png" onclick="toggleAudio('GBCheckout');">
+				<audio id="GBCheckoutAudioSrc" src="/media/audio/f4p-beck-testimonial-01.mp3" onended="endAudio('GBCheckout');"></audio>
+				<img id="GBCheckoutAudioControl" class="gb-button" src="/media/images/checkout-v2/gb-button.png" onclick="toggleAudio('GBCheckout'); stopAudio('frankCheckout');">
 			</div>
 		</div>
 	</div>
@@ -1328,6 +1380,8 @@ if(isset($preFill)) {
 		$(".form-container").css("display", "block");
 		$("#checkout-button-container").css("display", "none");
 		$("#submit-button-container").css("display", "block");
+		$(".audio-message-container").css("display", "none");
+
 	}
 	function hideCheckout() {
 		$(".tabs-wrapper").css("display", "block");
@@ -1335,6 +1389,7 @@ if(isset($preFill)) {
 		$(".form-container").css("display", "none");
 		$("#checkout-button-container").css("display", "block");
 		$("#submit-button-container").css("display", "none");
+		$(".audio-message-container").css("display", "block");
 	}
 	$(document).ready(function(){
 		$('body').append('<div id="toTop"><img src="/assets/images/checkout/btn-backtop.png"></div>');
@@ -1351,6 +1406,74 @@ if(isset($preFill)) {
 		});
 	});
 </script>
+<script>
+	$(document ).ready(function () {
+		$("#1wkPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"1 Week Kit May Include:",
+			content: function() {
+				return $('#1wk').html();
+			},
+		});
+	});
+	$(document ).ready(function () {
+		$("#4wkPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"4 Week Kit May Include:",
+			content: function() {
+				return $('#4wk').html();
+			},
+		});
+	});
+	$(document ).ready(function () {
+		$("#3mkPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"3 Month Kit May Include:",
+			content: function() {
+				return $('#3mk').html();
+			},
+		});
+
+	});
+	$(document ).ready(function () {
+		$("#toolPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"11-in-1 Survival Tool",
+			content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
+		});
+
+	});
+	$(document ).ready(function () {
+		$("#seedsPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"Liberty Seed Vault",
+			content: function() {
+				return $('#lsv').html();
+			},
+		});
+
+	});
+	$(document).ready(function () {
+		toggleAudio('frankCheckout');
+	});
+</script>
+<div id="1wk" style="display:none;">
+	<?php include_once("f4p-product-info-1wk.html"); ?>
+</div>
+<div id="4wk" style="display:none;">
+	<?php include_once("f4p-product-info-4wk.html"); ?>
+</div>
+<div id="3mk" style="display:none;">
+	<?php include_once("f4p-product-info-3mk.html"); ?>
+</div>
+<div id="lsv" style="display:none;">
+	<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
+</div>
 <style>
 	#csrModal p {
 		margin-bottom:7px;

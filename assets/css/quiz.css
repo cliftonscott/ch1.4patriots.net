@@ -129,6 +129,14 @@ input.radio:focus ~ label:before {
     box-shadow: 0 0 0 3px #999;
 }
 
+.img-flip {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
 
 /* =============================================================================
    Buttons
