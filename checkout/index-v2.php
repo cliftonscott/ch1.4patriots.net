@@ -743,7 +743,7 @@ if(!empty($customerDataObj->shippingCity)) {
 								element.addClass('color' + curNumber, 0);
 								// So previous classes get removed.
 								element.attr('class', 'color' + curNumber);
-								setTimeout(function(){changeColor(element, curNumber)}, 9000000);
+								setTimeout(function(){changeColor(element, curNumber)}, 900000);
 							}
 							changeColor($('.circle-bg'), 0);
 						</script>
