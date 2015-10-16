@@ -8,7 +8,7 @@
 $quizName = "Government Survival Quiz";
 include_once ('template-top.php');
 ?>
-<?php if ($_SESSION["variation"] === "2"): ?>
+<?php if ($_SESSION["variation"] === "quizv2"): ?>
 	<style>
 		p{
 			font-size: 14pt;

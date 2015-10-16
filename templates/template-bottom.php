@@ -8,7 +8,12 @@ if(!empty($template["formType"])) {
 <?php
 ?>
 <!-- /main-container -->
-<?php include_once('footer.php'); ?>
+<?php
+/* SPLIT JV-22 10/16/15 */
+	if ($_SESSION["variation"] != 'quizv2'){
+		include_once('footer.php');
+	}
+?>
 <?php
 $suppressOlark = array (
 	"/video/index.php",

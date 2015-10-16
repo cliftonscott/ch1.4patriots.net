@@ -1,6 +1,6 @@
 <?php
 $variantsArray = array (
-	"2", // Clean Back Ground
+	"quizv2", // Clean Back Ground
 );
 if($_GET["v"]) {
 	if(in_array(trim($_GET["v"]),$variantsArray)) {
@@ -9,6 +9,13 @@ if($_GET["v"]) {
 	}
 }
 ?>
+<!-- SPLIT JV-22 10/16/15-->
+<?php
+	if (JV::in("22-quizv2")) {
+		$_SESSION["variation"] = "quizv2";
+	}
+?>
+<!--/// End Test///-->
 <style>
 	p{
 		font-size: 15pt;
@@ -18,7 +25,7 @@ if($_GET["v"]) {
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
-<?php if ($variation === "2"): ?>
+<?php if ($variation === "quizv2"): ?>
 <style>
 	p{
 		font-size: 14pt;
@@ -55,7 +62,7 @@ include_once ('template-top.php');
 </style>
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <?php endif; ?>
-<?php if ($variation === "2"): ?>
+<?php if ($_SESSION["variation"] === "quizv2"): ?>
 	<div class="container-main">
 		<div class="container oto-width">
 			<div class="row">
