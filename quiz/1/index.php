@@ -9,13 +9,6 @@ if($_GET["v"]) {
 	}
 }
 ?>
-<!-- SPLIT JV-22 10/16/15-->
-<?php
-	if (JV::in("22-quizv2")) {
-		$_SESSION["variation"] = "quizv2";
-	}
-?>
-<!--/// End Test///-->
 <style>
 	p{
 		font-size: 15pt;
@@ -25,7 +18,14 @@ if($_GET["v"]) {
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
-<?php if ($variation === "quizv2"): ?>
+<!-- SPLIT JV-22 10/16/15-->
+<?php
+if (JV::in("22-quizv2")) {
+	$_SESSION["variation"] = "quizv2";
+}
+?>
+<!--/// End Test///-->
+<?php if ($_SESSION["variation"] === "quizv2"): ?>
 <style>
 	p{
 		font-size: 14pt;
