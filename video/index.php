@@ -57,6 +57,7 @@ $pubArray = array (
 	"110" => "subscribers of Laissez Faire Today",
 	"111" => "Dr. Sears&#39; Readers",
 	"112" => "subscriber of The Oxford Club",
+	"113" => "subscribers of House Calls",
 );
 if($_GET["pub"]) {
 	if(array_key_exists(trim($_GET["pub"]),$pubArray)) {
