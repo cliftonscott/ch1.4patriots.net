@@ -49,7 +49,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 23;
 				$productObj->googleProductName = "SS4P-LSV";
-				$productObj->googleProductSKU = "PID7";
+				$productObj->googleProductSku = "PID7";
 				$productObj->googleProductCategory = "1-PAY-47";
 				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
 				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
@@ -79,7 +79,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 33;
 				$productObj->googleProductName = "SS4P-LSV";
-				$productObj->googleProductSKU = "PID8";
+				$productObj->googleProductSku = "PID8";
 				$productObj->googleProductCategory = "BOGO";
 				$productObj->metaTitle = "Liberty Seed Vault Buy 1 More Get 1 More Free";
 				$productObj->metaDescription = "Liberty Seed Vault Buy 1 More Get 1 More Free";
@@ -108,7 +108,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "SS4P-RUTGERS";
-				$productObj->googleProductSKU = "PID11";
+				$productObj->googleProductSku = "PID11";
 				$productObj->googleProductCategory = "FREE";
 				$productObj->metaTitle = "Food4Patriots Free Rutgers Tomato Seeds";
 				$productObj->metaDescription = "Food4Patriots Free Rutgers Tomato Seeds";
@@ -135,7 +135,7 @@ class Product {
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 72HKIT";
 				$productObj->googleProductName = "F4P-72HRK";
-				$productObj->googleProductSKU = "PID17";
+				$productObj->googleProductSku = "PID17";
 				$productObj->googleProductCategory = "1-PAY-27";
 				$productObj->metaTitle = "Food4Patriots 72 Hour Food Supply";
 				$productObj->metaDescription = "Food4Patriots 72 Hour Food Supply";
@@ -160,7 +160,7 @@ class Product {
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 4WKIT";
 				$productObj->googleProductName = "F4P-4WK";
-				$productObj->googleProductSKU = "PID18";
+				$productObj->googleProductSku = "PID18";
 				$productObj->googleProductCategory = "1-PAY-197";
 				$productObj->metaTitle = "Food4Patriots 4 Week Food Supply";
 				$productObj->metaDescription = "Food4Patriots 4 Week Food Supply";
@@ -186,7 +186,7 @@ class Product {
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 3MKIT";
 				$productObj->googleProductName = "F4P-3MK";
-				$productObj->googleProductSKU = "PID19";
+				$productObj->googleProductSku = "PID19";
 				$productObj->googleProductCategory = "1-PAY-497";
 				$productObj->metaTitle = "Food4Patriots 3 Month Food Supply";
 				$productObj->metaDescription = "Food4Patriots 3 Month Food Supply";
@@ -214,7 +214,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 67;
 				$productObj->googleProductName = "F4P-4WK";
-				$productObj->googleProductSKU = "PID22";
+				$productObj->googleProductSku = "PID22";
 				$productObj->googleProductCategory = "1-PAY-147-DISCOUNT";
 				$productObj->metaTitle = "Additional Food4Patriots 4 Week Food Supply $50 Off";
 				$productObj->metaDescription = "Additional Food4Patriots 4 Week Food Supply $50 Off";
@@ -244,7 +244,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 145;
 				$productObj->googleProductName = "F4P-3MK";
-				$productObj->googleProductSKU = "PID23";
+				$productObj->googleProductSku = "PID23";
 				$productObj->googleProductCategory = "1-PAY-397-DISCOUNT";
 				$productObj->metaTitle = "Additional Food4Patriots 3 Month Food Supply $100 Off";
 				$productObj->metaDescription = "Additional Food4Patriots 3 Month Food Supply $100 Off";
@@ -274,7 +274,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-72HRK";
-				$productObj->googleProductSKU = "PID27";
+				$productObj->googleProductSku = "PID27";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
 				$productObj->metaTitle = "Food4Patriots FREE Food Offer";
 				$productObj->metaDescription = "Food4Patriots FREE Survival Food Offer";
@@ -303,7 +303,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = null;
-				$productObj->googleProductSKU = null;
+				$productObj->googleProductSku = null;
 				$productObj->googleProductCategory = null;
 				$productObj->metaTitle = null;
 				$productObj->metaDescription = null;
@@ -332,7 +332,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 25;
 				$productObj->googleProductName = "PA-MESSENGER";
-				$productObj->googleProductSKU = "PID39";
+				$productObj->googleProductSku = "PID39";
 				$productObj->googleProductCategory = "30-DAY-TRIAL";
 				$productObj->metaTitle = "Patriot Alliance Messenger Trial Subscription";
 				$productObj->metaDescription = "Patriot Alliance Messenger Trial Subscription";
@@ -361,7 +361,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 930;
 				$productObj->googleProductName = "F4P-1YK";
-				$productObj->googleProductSKU = "PID40";
+				$productObj->googleProductSku = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply";
 				$productObj->metaDescription = "Foood4Patriots 1 Year Food Supply";
@@ -389,7 +389,7 @@ class Product {
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1WKKIT";
 				$productObj->googleProductName = "F4P-1WK";
-				$productObj->googleProductSKU = "PID92";
+				$productObj->googleProductSku = "PID92";
 				$productObj->googleProductCategory = "1-PAY-67";
 				$productObj->metaTitle = "Food4Patriots 1 Week Food Supply";
 				$productObj->metaDescription = "Food4Patriots 1 Week Food Supply";
@@ -416,7 +416,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 500;
 				$productObj->googleProductName = "F4P-1YK";
-				$productObj->googleProductSKU = "PID120";
+				$productObj->googleProductSku = "PID120";
 				$productObj->googleProductCategory = "3-PAY-597";
 				$productObj->metaTitle = "Food4Patriots 1 Year Food Supply 3 Payments";
 				$productObj->metaDescription = "Food4Patriots 1 Year Food Supply 3 Payments";
@@ -446,7 +446,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 35;
 				$productObj->googleProductName = "F4P-FVSK";
-				$productObj->googleProductSKU = "PID128";
+				$productObj->googleProductSku = "PID128";
 				$productObj->googleProductCategory = "1-PAY-97";
 				$productObj->metaTitle = "Fruit, Veggie and Snack Mix";
 				$productObj->metaDescription = "Food4Patriots Fruit, Veggie and Snack Mix";
@@ -475,7 +475,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 23.50;
 				$productObj->googleProductName = "SS4P-LSV";
-				$productObj->googleProductSKU = "PID142";
+				$productObj->googleProductSku = "PID142";
 				$productObj->googleProductCategory = "2-PAY-23";
 				$productObj->metaTitle = "Food4Patriots Liberty Seed Vault";
 				$productObj->metaDescription = "Food4Patriots Liberty Seed Vault";
@@ -503,7 +503,7 @@ class Product {
 				$productObj->listId = 55;
 				$productObj->tags = "LL, ppg1500";
 				$productObj->googleProductName = "PPG-GENERATOR";
-				$productObj->googleProductSKU = "PID162";
+				$productObj->googleProductSku = "PID162";
 				$productObj->googleProductCategory = "1-PAY-1997";
 				$productObj->metaTitle = "Patriot Power Generator 1500";
 				$productObj->metaDescription = "Patriot Power Generator 1500 - Plus Bonuses";
@@ -529,7 +529,7 @@ class Product {
 				$productObj->listId = 55;
 				$productObj->tags = "LL, ppg1500pmt";
 				$productObj->googleProductName = "PPG-GENERATOR";
-				$productObj->googleProductSKU = "PID174";
+				$productObj->googleProductSku = "PID174";
 				$productObj->googleProductCategory = "2-PAY-997";
 				$productObj->metaTitle = "Patriot Power Generator 1500";
 				$productObj->metaDescription = "Patriot Power Generator 1500 - Plus Bonuses";
@@ -554,7 +554,7 @@ class Product {
 				$productObj->listId = null;
 				$productObj->tags = null;
 				$productObj->googleProductName = "";
-				$productObj->googleProductSKU = "PID170";
+				$productObj->googleProductSku = "PID170";
 				$productObj->googleProductCategory = "";
 				$productObj->metaTitle = "Patriot Power Generator 1500 - Bonuses";
 				$productObj->metaDescription = "Patriot Power Generator 1500 - Bonuses";
@@ -578,7 +578,7 @@ class Product {
 				$productObj->listId = 56;
 				$productObj->tags = "LL, ppgDeluxe";
 				$productObj->googleProductName = "PPG-PLATINUM";
-				$productObj->googleProductSKU = "PID164";
+				$productObj->googleProductSku = "PID164";
 				$productObj->googleProductCategory = "1-PAY-997";
 				$productObj->metaTitle = "PPG Platinum Upgrade";
 				$productObj->metaDescription = "Patriot Power Generator Platinum Upgrade";
@@ -602,7 +602,7 @@ class Product {
 				$productObj->listId = 57;
 				$productObj->tags = "LL, ppgDeluxe2pay";
 				$productObj->googleProductName = "PPG-PLATINUM";
-				$productObj->googleProductSKU = "PID166";
+				$productObj->googleProductSku = "PID166";
 				$productObj->googleProductCategory = "2-PAY-497";
 				$productObj->metaTitle = "PPG Platinum Upgrade - 2 Easy Payment Plan";
 				$productObj->metaDescription = "PPG Platinum Upgrade - 2 Easy Payment Plan";
@@ -627,7 +627,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 44;
 				$productObj->googleProductName = "F4P-C600";
-				$productObj->googleProductSKU = "PID182";
+				$productObj->googleProductSku = "PID182";
 				$productObj->googleProductCategory = "1-PAY-97";
 				$productObj->metaTitle = "Food4Patriots Coffee - 600 Servings";
 				$productObj->metaDescription = "Food4Patriots Coffee - 600 Servings";
@@ -657,7 +657,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-C30";
-				$productObj->googleProductSKU = "PID194";
+				$productObj->googleProductSku = "PID194";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
 				$productObj->metaTitle = "Food4Patriots FREE Survival Coffee";
 				$productObj->metaDescription = "Food4Patriots Free Survival Coffee Offer";
@@ -686,7 +686,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 0;
 				$productObj->googleProductName = "F4P-C30";
-				$productObj->googleProductSKU = "PID196";
+				$productObj->googleProductSku = "PID196";
 				$productObj->googleProductCategory = "1-PAY-10";
 				$productObj->metaTitle = "Food4Patriots 30 SERVING Survival Coffee Offer";
 				$productObj->metaDescription = "Food4Patriots 30 SERVING Survival Coffee Offer";
@@ -715,7 +715,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 196;
 				$productObj->googleProductName = "F4P-SUPERPAK";
-				$productObj->googleProductSKU = "PID228";
+				$productObj->googleProductSku = "PID228";
 				$productObj->googleProductCategory = "1-PAY-397";
 				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
 				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
@@ -745,7 +745,7 @@ class Product {
 				//GA Naming Wiki
 				$productObj->netRevenueEach = 60;
 				$productObj->googleProductName = "F4P-PROTEIN";
-				$productObj->googleProductSKU = "PID230";
+				$productObj->googleProductSku = "PID230";
 				$productObj->googleProductCategory = "1-PAY-147";
 				$productObj->metaTitle = "Food4Patriots - Meat & Protein Kit";
 				$productObj->metaDescription = "Food4Patriots - Meat & Protein Kit";
