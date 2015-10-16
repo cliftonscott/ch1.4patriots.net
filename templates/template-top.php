@@ -7,6 +7,8 @@ require_once("Meta.php");
 $metaDataObj = new Meta();
 require_once("Customer.php");
 $customerObj = new Customer();
+require_once("MobileDetect.php");
+$detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 if($customerDataObj = $customerObj->getStoredCustomer()) {
@@ -123,7 +125,7 @@ if(!empty($customerDataObj->shippingCity)) {
 
 	</head>
 	<body id="background-img">
-	<?php include_once("analytics-google-ecom.php"); ?>
+	<?php include_once("ga-data-layer.php"); ?>
 
 	<?php
 	if($platformCountDownToDate) {

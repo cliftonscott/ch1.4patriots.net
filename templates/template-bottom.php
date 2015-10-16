@@ -8,11 +8,18 @@ if(!empty($template["formType"])) {
 <?php
 ?>
 <!-- /main-container -->
-<?php include_once('footer.php'); ?>
+<?php
+/* SPLIT JV-22 10/16/15 */
+	if ($_SESSION["variation"] != 'quizv2'){
+		include_once('footer.php');
+	}
+?>
 <?php
 $suppressOlark = array (
 	"/video/index.php",
 	"/video/t1/index.php",
+	"/quiz/1/index.php",
+	"/quiz/1/quiz.php",
 );
 if(!in_array($_SERVER["PHP_SELF"], $suppressOlark)) {
 	include_once("chat-olark.php");
