@@ -1,6 +1,7 @@
 <?php
 
 include_once "Curl.php";
+include_once "MobileDetect.php";
 
 /**
  * A dedicated library class for retrieving and
@@ -11,7 +12,7 @@ include_once "Curl.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.1.0
+ * @version 1.2.0
  *
  * Class JavelinApi
  */
@@ -36,13 +37,21 @@ class JavelinApi {
 	static $webPropertyName = "F4P";
 
 	/**
+	 * The loaded dependency used to determine the
+	 * device and browser information of the visitor.
+	 *
+	 * @var Mobile_Detect
+	 */
+	private $mobileDetect;
+
+	/**
 	 * The environment-specific API URLs to post
 	 * requests to.
 	 *
 	 * @var array
 	 */
 	static $urls = array(
-		'dev' 			=> 'http://brad01.4patriots.net/api/javelin/variation',
+		'dev' 			=> 'http://bf.dash01.4patriots.net/api/javelin/variation',
 		'stage' 		=> 'http://stage.dash.4patriots.net/api/javelin/variation',
 		'production' 	=> 'http://dashboard.4patriots.com/api/javelin/variation'
 	);
@@ -169,9 +178,17 @@ class JavelinApi {
 	 * (Non-public to enforce singleton instantiation.)
 	 */
 	private function __construct() {
+
+		// Load library dependencies.
+		$this->mobileDetect = new Mobile_Detect();
+
+		// Handle preview-splitting immediately.
 		if ($this->decideIfPreview()) {
 			$this->enablePreview();
 		} else {
+
+			// Only send an API request if the user
+			// is not previewing a variation.
 			$this->send();
 		}
 	}
@@ -223,6 +240,8 @@ class JavelinApi {
 		$parameters = array (
 			"sessionId" 		=> session_id(),
 			"requestUri"		=> $_SERVER["REQUEST_URI"],
+			"device"			=> $this->resolveDevice(),
+			"browser"			=> $this->resolveBrowser(),
 			"website"			=> self::$webPropertyName,
 			"environment"		=> getenv("APP_ENV"),
 			"apiToken" 			=> self::$apiTokens[getenv("APP_ENV")]
@@ -316,6 +335,164 @@ class JavelinApi {
 		$this->analytics = null;
 		$this->clickGoals = null;
 	}
+
+	/**
+	 * Determine as accurately as possible the browser
+	 * name and version of the user.
+	 *
+	 * We intentionally avoid PHP's get_browser() for memory
+	 * and configuration concerns.
+	 *
+	 * Code adapted from http://php.net/manual/en/function.get-browser.php#101125
+	 *
+	 * @return string
+	 */
+	private function resolveBrowser()
+	{
+		// Bring in the user data agent.
+		$userAgent = $_SERVER['HTTP_USER_AGENT'];
+		$name = null;
+
+		// Determine the vendor name by examining the
+		// user agent data directly.
+		if (preg_match('/MSIE/i', $userAgent) && !preg_match('/Opera/i', $userAgent)) {
+			$name = "MSIE";
+		} elseif (preg_match('/Trident/i', $userAgent) && !preg_match('/Opera/i', $userAgent)) {
+			$name = "MSIE";
+		} elseif (preg_match('/Firefox/i', $userAgent)) {
+			$name = "Firefox";
+		} elseif (preg_match('/Chrome/i', $userAgent)) {
+			$name = "Chrome";
+		} elseif (preg_match('/Safari/i', $userAgent)) {
+			$name = "Safari";
+		} elseif (preg_match('/Opera/i', $userAgent)) {
+			$name = "Opera";
+		} elseif (preg_match('/Netscape/i', $userAgent)) {
+			$name = "Netscape";
+		} elseif (preg_match('/Opera Mini/i', $userAgent)) {
+			$name = "Opera_Mini";
+		} elseif (preg_match('/Silk/i', $userAgent)) {
+			$name = "Amazon_Silk";
+		} elseif (preg_match('/BlackBerry/i', $userAgent)) {
+			$name = "BlackBerry";
+		}
+
+		// Evaluate for matches of the declared version
+		// in the user agent data.
+		$known = array('Version', $name, 'other');
+		$pattern = '#(?<browser>' . join('|', $known) .
+			')[/ ]+(?<version>[0-9.|a-zA-Z.]*)#';
+		if (!preg_match_all($pattern, $userAgent, $matches)) {
+		}
+
+		// Decide the version by examining the matches from above.
+		$i = count($matches['browser']);
+		if ($i != 1) {
+			if (strripos($userAgent, "Version") < strripos($userAgent, $name)) {
+				$version = $matches['version'][0];
+			} else {
+				$version = $matches['version'][1];
+			}
+		} else {
+			$version = $matches['version'][0];
+		}
+
+		// Handle cases in which the version of the browser
+		// could not be resolved.
+		if ($version == null || $version == "") {
+			$version = "Unknown";
+		}
+
+		return $name . "::" . $version;
+	}
+
+	/**
+	 * Resolve and return the device information for
+	 * the current visitor.
+	 *
+	 * Examples:
+	 * 		"mobile::iPhone"
+	 * 		"tablet::Kindle"
+	 * 		"desktop::Desktop"
+	 *
+	 * @return string
+	 */
+	private function resolveDevice()
+	{
+		$type = $this->resolveDeviceType();
+		$os = $this->resolveDeviceOperatingSystem($type);
+		$name = $this->resolveDeviceName($type);
+		return $type . "::" . $os . "::" . $name;
+	}
+
+	/**
+	 * Resolve and return the type of device for
+	 * the current visitor.
+	 *
+	 * @return string
+	 */
+	private function resolveDeviceType()
+	{
+		if ($this->mobileDetect->isMobile()) {
+			return "mobile";
+		}
+		if ($this->mobileDetect->isTablet()) {
+			return "tablet";
+		}
+		return "desktop";
+	}
+
+	/**
+	 * Resolve and return the operating system of the device
+	 * for the current visitor.
+	 *
+	 * Desktop operating systems are not supported at this time
+	 * and will always return "Desktop".
+	 *
+	 * @param $deviceType
+	 * @return int|string
+	 */
+	private function resolveDeviceOperatingSystem($deviceType)
+	{
+		if ($deviceType === "desktop") {
+			return "Desktop";
+		}
+
+		foreach ($this->mobileDetect->getOperatingSystems() as $name => $rule) {
+			if ($this->mobileDetect->match($rule)) {
+				return $name;
+			}
+		}
+
+		return "Unknown";
+	}
+
+	/**
+	 * Resolve and return the name of the device for
+	 * the current visitor.
+	 *
+	 * @param $deviceType
+	 * @return int|string
+	 */
+	private function resolveDeviceName($deviceType)
+	{
+		if ($deviceType === 'desktop') {
+			return 'Desktop';
+		}
+
+		$deviceRules = array(
+			'mobile'		=> $this->mobileDetect->getPhoneDevices(),
+			'tablet'		=> $this->mobileDetect->getTabletDevices()
+		);
+
+		foreach ($deviceRules[$deviceType] as $name => $rule) {
+			if ($this->mobileDetect->match($rule)) {
+				return $name;
+			}
+		}
+
+		return "Unknown";
+	}
 }
 
 /**
@@ -323,7 +500,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.1.0
+ * @version 1.2.0
  *
  * Class JV
  */

@@ -111,7 +111,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<link href="/assets/css/validation.css" rel="stylesheet">
 </head>
 <body>
-<?php include_once("analytics-google-ecom.php"); ?>
+<?php include_once("ga-data-layer.php"); ?>
 <script src="/js/audio-gb-v2.js"></script>
 <script src="/js/time-circles.js"></script>
 <script>
