@@ -496,7 +496,7 @@
 						<p>To get on the road to food independence, just click the button to claim your kit now.</p>
 						<div class="block txt-center">
 							<div class="inner pad-30">
-								<a href="" onClick="_gaq.push(['_trackEvent', 'exitpop1', 'exit-cd-rom--buy', 'top-add-to-cart',, false]);PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
+								<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a>
 								<br/>
 								<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png">
 								<br/><br/>
