@@ -56,6 +56,18 @@ if(!empty($customerDataObj->shippingCity)) {
 } else {
 	$view->customer->shippingCityState = " your area";
 }
+
+// SPLIT JV-24 10/19/15
+if (JV::in("24-letter")) {
+	if ($_SERVER["PHP_SELF"] === "/video/index.php"){
+		// Redirect Tablet To Letter
+		if($detect->isTablet() ){
+			header('Location: /letter/index.php');
+			exit();
+		}
+	}
+}
+// END TEST
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -105,7 +117,6 @@ if(!empty($customerDataObj->shippingCity)) {
 		<script src="/assets/js/bootstrap.min.js"></script>
 		<script src="/js/patriot.js"></script>
 
-		<?php include_once("visualwo.php"); ?>
 		<!--TODO only pull in if we need the exit confirm-->
 		<script src="/js/floating-1.12.js"></script>
 		<?php

@@ -172,11 +172,18 @@ $platform->setCsrModalButtons("sample,video,letter");
 	}
 </script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
-<?php if($templateDesign === "wp") {
-	include_once('content-wp.php'); /*White Paper Template*/
-}else{
-	include_once('content.php'); /*CONTROL*/
+<?php
+// SPLIT JV-24 10/19/15
+if (JV::in("24-play")) {
+	include_once('content-jv-24.php'); /*TABLET SPLIT*/
+}else {
+	if ($templateDesign === "wp") {
+		include_once('content-wp.php'); /*White Paper Template*/
+	}else{
+		include_once('content.php'); /*CONTROL*/
+	}
 }
+
 ?>
 <!--INCLUDE CONTENT-->
 <script>
