@@ -5,6 +5,9 @@ body{
 p {
 	margin: 0 0 20px;
 }
+.view {
+	opacity: 0;
+}
 .container {
 	margin: 0 auto;
 	max-width: 926px;

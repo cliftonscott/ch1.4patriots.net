@@ -80,10 +80,10 @@ if (JV::in("24-letter")) {
 		<?php echo $metaDataObj->keywords;?>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="/assets/css/bootstrap.css" rel="stylesheet">
+		<link href="/video/agile/css/bootstrap.css" rel="stylesheet">
 		<link rel="shortcut icon" href="/favicon.ico">
-		<link href="/assets/css/styles.css" rel="stylesheet">
-		<link href="/assets/css/styles-content.css" rel="stylesheet">
+		<link href="/video/agile/css/styles.css" rel="stylesheet">
+		<link href="/video/agile/css/styles-content.css" rel="stylesheet">
 		<?php
 		if(strpos($_SERVER["PHP_SELF"],"quiz") > 0) {
 			echo "<link href='/assets/css/quiz.css' rel='stylesheet'>\n";

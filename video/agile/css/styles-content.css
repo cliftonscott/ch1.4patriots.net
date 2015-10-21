@@ -1,0 +1,638 @@
+/* BASIC TYPOGRAPHY
+-------------------------------------------------- */
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-bottom: 25px;
+	font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+h1 {
+	font-size: 27pt;
+}
+.fa-ul-space li {
+	margin: 0 0 17px 0;
+}
+.darkRed {
+	/*text-align:center;*/
+	color:#cc0000;
+	font-weight:bold;
+}
+.brightBlue {
+	color: #0000FF;	
+}
+.gray13 {
+	font-size: 13px;
+	color:#666;
+}
+.black18 {
+	font-size: 18px;
+	color: black;
+}
+.red17 {
+	font-size: 17px;
+	color:#cc0000;
+}
+.red21 {
+	font-size: 21px;
+	color:#cc0000;
+}
+.caption {
+	margin-bottom: 10px !important;
+	margin-top: 5px !important;
+	font-size: 12px;
+	color: #666666;
+}
+.darkRedStrike {
+	position: relative;
+	color:#000000;
+}
+.darkRedStrike::after {
+	border-bottom: 4px solid #cc0000;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.thumbnail {
+	margin-bottom: 0px !important; 
+}
+/* GENERAL SUPPORT PAGE CSS TWEAKS
+-------------------------------------------------- */
+.question {
+	font-weight: bold;
+	color:#cc0000;
+}
+.question p {
+	margin-bottom: 0px;
+	padding-bottom: 0px;	
+}
+.answer {
+	
+}
+
+.testimonial{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #e9f4ff;
+	margin: 30px auto;
+	min-height: 60px;
+	max-width: 800px;
+	height:auto;
+	
+}
+#testimonials-checkout .row{
+	border-top: 1px solid #eee;
+	padding: 25px 0;
+}
+#testimonials-checkout .section-header{
+	margin: 30px 0 0 -47px;
+	color: white;
+	height: 60px;
+	background: url("/assets/images/misc/blue-strip.png") no-repeat left top;
+}
+#testimonials-checkout .section-header .section-header-bg {
+	background-color: rgb(49, 98, 170);
+	padding: 2px 20px;
+	margin: 0 8px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-topright: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.video-ref-test{
+	color: #767676;
+	font-style: normal;
+	max-width:640px; 
+	padding-top:10px; 
+	padding-bottom:20px; 
+	text-align:center; 
+	margin:0 auto;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+.testimonial-text {
+	max-width: 88%; 
+	margin-right: auto; 
+	margin-left: auto;
+}
+
+.testimonial-header {
+	font-size: 21px; 
+	padding: 0px; 
+	margin: 0px;
+}
+
+.testimonial-audio {
+	max-width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.testimonial-audio-image {
+	float: left;
+	margin-bottom: 5px;
+}
+.red-quote{
+	color: rgb(173, 0, 0) !important;
+}
+
+.red-quote-no-audio{
+	color: rgb(173, 0, 0) !important;
+	margin-top:-36px !important;
+	margin-bottom:10px !important;
+}
+
+.fa-quote-right, .fa-quote-left {
+	color: #D9D9D9;
+}
+.adbox{
+	text-align: center;
+	border: 2px solid #00C;
+	padding: 10px;
+	margin-top: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+article.content  {
+	padding:20px;
+}
+article.content .header {
+	font-size:1.25em;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-transform: uppercase;
+}
+article.content .effective-date {
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+/* GENERAL CSS TWEAKS
+-------------------------------------------------- */
+.nopadding {
+	padding: 0px !important;
+}
+.nomargin {
+	margin: 0px;
+}
+.margin-tb-20{
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+.margin-tb-50 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.margin-t-20{
+	margin-top: 20px !important;
+}
+.margin-b-10{
+	margin-bottom: 10px;
+}
+.margin-b-16 li{
+	margin-bottom: 16px;
+}
+.img-padding-right {
+	padding-right: 10px;
+}
+.img-padding-left {
+	padding-left: 10px;
+}
+/* LOADING DIV
+-------------------------------------------------- */
+#LoadingDiv{
+	margin:0px 0px 0px 0px;
+	position:fixed;
+	height: 100%;
+	z-index:9999;
+	padding-top:350px;
+	width:100%;
+	clear:none;
+	background:url("/assets/images/misc/trans.png");
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	/*background-color:#666666;
+	border:1px solid #000000;*/
+}
+/*IE will need an 'adjustment'*/
+* html #LoadingDiv{
+	 position: absolute;
+  }
+
+/* THE FLOATING TIMER STYLES
+-------------------------------------------------- */
+.timeClass {
+	font-family:arial,verdana,helvetica,sans-serif;
+	font-weight:normal;
+	font-size:15pt;
+}
+#time-container{
+	font-size: 12px;
+	text-align: center;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 35px;
+	padding-right: 3px;
+	padding-top: 5px;
+}
+#floatingTimer {
+	float: right;
+	width: 150px;
+	height: 60px;
+	background-color: #C00;
+	background-image: url(/assets/images/misc/timerbg.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 10%;
+	border-radius: 15px;
+}
+
+/* VIDEO CONTAINER EDITS
+-------------------------------------------------- */
+#videobox{
+	max-width: 634px;
+	max-height: 352px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+.videobox{
+	max-width: 634px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+#videobox iframe{
+	position: relative;
+	left: -2px;
+	top: -2px;
+}
+#videobox div{
+	z-index: 1;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	position: absolute;
+	left: -2px;
+	top: -2px;
+}
+
+/* AS SEEN ON CONTAINER EDITS
+-------------------------------------------------- */
+.tv {
+	width:100%;
+	margin:auto;
+	text-align:center;
+	cursor:pointer;
+}
+#tvBadges {
+	margin:auto;
+}
+#tvText {
+	width: 95%;
+	margin: auto;
+	visibility: hidden;
+	display: none;
+	border: 1px solid #0A427A;
+	border-radius: 3px;
+	background-color: #fff;
+}
+#tvText p {
+	font-family: Verdana,Helvetica,Arial;
+	font-size:11pt;
+	padding:10px;
+	cursor:auto;
+}
+#tvClose {
+	float:right;
+	cursor:pointer;
+}
+
+/* Countdown timer on video/index page
+-------------------------------------------------- */
+#countDownTimer {
+	clear:both;
+	text-align: center;
+	margin:auto;
+	font-size:55px;
+	font-weight: bold;
+	font-family: 'Allerta Stencil', sans-serif;
+	color:#333333;
+}
+
+/* Countdown styles of endOfDate Timer (used at year end)
+-------------------------------------------------- */
+#endofDateCountDown {
+    background-color: #ffe167;
+    width:100%;
+	min-height:36px;
+    display:block;
+    text-align: center;
+    border-bottom: 1px solid black;
+	position: fixed;
+	z-index: 10000;
+}
+#endofDateCountDown p {
+    color: black;
+	font-family: "Arial", "Helvetica", Helvetica, sans-serif;
+	font-size: 26px;
+	margin:0;
+	padding:0;
+}
+
+/* References on video/index/checkout page
+-------------------------------------------------- */
+#video-references {
+	color: #767676;
+	font-style: normal;
+	max-width: 745px;
+	margin:0 auto;
+}
+#video-references p{
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+	line-height: 14px;
+}
+#checkout-references {
+	color: #767676;
+	font-style: normal;
+	max-width: 580px;
+	margin: 20px auto;
+}
+#checkout-references p{
+	font-size: 12px;
+	line-height:1.25;
+	margin:0 auto;
+}
+/* CHECKOUT PAGE STYLES 
+-------------------------------------------------- */
+.guaranteeBox p {margin:0px;}
+.audio-message {
+	padding-top: 10px;
+	font-weight: bold;
+	color: #cc0000;
+	font-size: 17px;
+}
+#checkoutMenu .panel-title{
+	font-size:18px;
+}
+#checkoutMenu a:hover{
+	text-decoration:none;
+}
+#checkoutMenu a:focus{
+	outline:none;
+	text-decoration:none;
+	border: 0;
+}
+#checkoutMenu .panel-heading{
+	color: #000000;
+	background-image: url(/assets/images/checkout/box-unchecked.png);
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-size: 20px 20px;
+}
+#checkoutMenu .active-panel{
+	background-color: #67BC07;
+	color: #FFFFFF !important;
+	background-image: url(/assets/images/checkout/box-checked.png);
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-size: 20px 20px;
+}
+.productList {
+	max-width: 310px;
+	font-size: 15px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.coffee-checkout{
+	font-size:15px;
+}
+.hidden-button-coffee {
+	padding-bottom:0px;
+	margin-bottom:-20px;
+}
+/* OTO PAGE STYLES 
+-------------------------------------------------- */
+.oto-width {
+	max-width: 750px !important;
+}
+.noThanks {
+	padding-top:10px;
+	padding-bottom:30px;
+	text-align:center;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.betweenGuarantees {
+	padding-top:0px;
+	padding-bottom:0px;
+	text-align:center;
+	max-width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.noThanks a {
+font-weight:bold;
+} 
+.terms {
+	position:relative;
+	text-align:left;
+	margin-top:10px;
+	max-width:620px;
+	margin-right:auto;
+	margin-left:auto;	
+}
+.johnson-box-01 {
+	max-width: 600px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	background: #FFFFCC; 
+	border: 4px dashed #666666; 
+	padding-top: 10px; 
+	padding-right: 15px; 
+	padding-bottom: 10px; 
+	padding-left: 15px; 
+	font-family: 'Courier New', Courier, monospace; 
+	font-size: large;	
+}
+.johnson-box-01 p {
+	margin-bottom: 10px;
+}
+.johnson-box-02 {
+	background-color: #FCFFA6;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	border: 1px solid #3E5F59;
+	padding: 12px;
+	line-height: 1.2em;
+}
+.rcBoxR15 {
+	max-width: 400px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	background-color: #E9EFFF; 
+	border-radius: 15px; 
+	padding: 10px;
+}
+.rcBoxR10 {
+	max-width: 700px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom:25px;
+	background-color: #E9EFFF; 
+	border-radius: 10px; 
+	padding: 20px; 
+}
+.rcBoxR15-red-dot-border {
+	padding: 5px;
+	margin: 5px;
+	border: 2px dashed #CC0000;
+	border-radius: 15px;
+	-moz-border-radius: 25px;
+}
+.outLineBoxDarkBlue {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+	padding: 20px;
+	border: 2px solid #125597;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.outLineBoxDarkBlueCoffee {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 700px;
+	padding: 20px;
+	border: 2px solid #125597;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	min-height:230px;
+}
+.outLineBoxDarkBlue h3 {
+	display:inline;
+	color:#0000FF;
+	font-size:1em;
+	font-weight:bold;
+}
+.numberCircle { 
+	border-radius: 0.8em;
+	-moz-border-radius: 0.8em;
+	-webkit-border-radius: 0.8em;
+	color: #ffffff;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.6em;
+	margin-right: 5px;
+	text-align: center;
+	width: 1.6em;
+	background-color: #0C0;
+}
+.read-warning{
+	background-color: #FFFE00;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 400px;
+	margin-right: auto;
+	margin-left:auto;
+}
+/* TITLE MAX WIDTH - FORCE LINE_BREAK
+-------------------------------------------------- */
+.title-max-600{
+	max-width: 600px;
+}
+.title-max-560{
+	max-width: 560px;
+}
+.title-max-595{
+	max-width: 595px;
+}
+.title-max-40{
+	max-width: 400px;
+}
+
+/* FOOTER DISCLAIMERS */
+div.disclaimer {
+	margin-top:50px;
+}
+
+/* ADOBE READER
+-------------------------------------------------- */
+.adobeReaderBox {
+	margin-right: auto; 
+	margin-left: auto; 
+	margin-bottom:25px;
+	padding-top: 10px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-bottom: 10px;
+	background-color:#FFFFFF;
+}
+.adobeReaderBox p {
+	margin-bottom:30px;
+}
+ /* CUSTOMIZE THE AUDIO CONTROLS
+-------------------------------------------------- */
+img.audioControl {
+	margin:3px;
+	width:36px;
+	height:36px;
+	cursor:pointer;
+}
+ /* CUSTOMIZE FONT AWSOME ICONS
+-------------------------------------------------- */
+.fa-check {
+	color: #34C901;
+}
+.panel-title .fa-check {
+	color: #FFFFFF;
+}
+.fa-check-square {
+	color: #001F98;
+}
+/* Bonus Materials
+-------------------------------------------------- */
+.bonus-materials {
+	border:2px solid black;
+	padding:25px;
+	margin: auto;
+}
+.bonus-materials h3 {
+	font-weight: bold;
+	color:#CC0000;
+	text-align: center;
+}
+.bonus-materials p {
+	text-align:center;
+}
+/* More Info Popup
+-------------------------------------------------- */
+.popul {
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+	margin: 0px;
+}
+.popul li {
+	padding: 0px;
+	margin: 0px;
+}
