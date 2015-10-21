@@ -146,7 +146,7 @@ if (JV::in("24-letter")) {
 	}
 	?>
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
-		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
+		<img src="/assets/images/misc/progressbar.gif" width="220" height="19" class="displayed" alt="" />
 	</div>
 <div class="navbar navbar-default">
 	<div class="container">
