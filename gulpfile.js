@@ -102,10 +102,13 @@ gulp.task('clean', function() {
 
 // Combine processed CSS files into one.
 gulp.task('combine', function() {
-    return gulp.src(['assets/css/agile/*.css'])
-        .pipe(minifyCss())
-        .pipe(concat('styles.css'))
-        .pipe(gulp.dest('assets/css/prod'));
+    for (var i = 0; i < pages.length; i++) {
+        var page = pages[i];
+        gulp.src(['assets/css/agile/*.css', 'assets/css/agile/pages/styles-' + page + '.css'])
+            .pipe(minifyCss())
+            .pipe(concat('styles-' + page + '.css'))
+            .pipe(gulp.dest('assets/css/prod'));
+    }
 });
 
 // Compile our JS.

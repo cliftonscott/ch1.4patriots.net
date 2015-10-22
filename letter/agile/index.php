@@ -37,7 +37,7 @@ include_once 'agile/head.php';
 
 	<header id="head" class="clearfix has-absolute-img">
 		<div class="absolute-flag">
-			<img src="/media/images/f4p/letter/f4p-letter-head-flag.png">
+			<img src="/media/images/f4p/letter/f4p-letter-head-flag.png" width="1639" height="587" >
 		</div>
 
 		<div class="head-mid">
@@ -69,12 +69,16 @@ include_once 'agile/head.php';
 
 		<div class="head-logos">
 			<div class="holder">
-				<img src="/media/images/misc/as-seen-advertised-on-01-grayscale.jpg" class="img-responsive center-block">
+				<img src="/media/images/misc/as-seen-advertised-on-01-grayscale.jpg" width="678" height="99" class="img-responsive center-block">
 			</div>
 		</div>
 	</header>
 
-	<div id="view-letter" class="view"></div>
+	<?php $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsObj->queryString; ?>
+
+	<div id="view-section-1" class="view-unveil view-give-2000"></div>
+	<div id="view-section-2" class="view-unveil view-give-2000"></div>
+	<div id="view-section-3" class="view-unveil view-give-2000"></div>
 
 </body>
 
@@ -90,15 +94,7 @@ include_once 'agile/head.php';
 
 	window.onload = function() {
 
-		var pageBehavior = function() {
-			$(".lazy").unveil(1000, function() {
-				$(this).load(function() {
-					this.style.opacity = 1;
-				});
-			});
-		};
-
-		var viewService = new ViewService(pageBehavior);
+		var viewService = new ViewService(function(){});
 
 	};
 

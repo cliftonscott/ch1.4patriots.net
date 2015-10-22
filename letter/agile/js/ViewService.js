@@ -47,7 +47,8 @@ var ViewService = function ViewService(callback) {
  	 */
 	var refreshElements = function() {
 		elements = {
-			'views': $('.view')
+			'views': $('.view'),
+			'unveilViews': $('.view-unveil')
 		}
 	};
 
@@ -73,6 +74,12 @@ var ViewService = function ViewService(callback) {
 		if (viewCount === 0) {
 			renderCallback();
 		}
+
+
+		elements.unveilViews.each(function(){
+			var view = $(this);
+			$(this).unveilView(1000, function() { that.load(view); });
+		});
 	};
 
 	/**
@@ -96,6 +103,15 @@ var ViewService = function ViewService(callback) {
 	 */
 	var getViewName = function(element) {
 		return element.attr('id').replace('view-', '');
+	};
+
+	var removeGives = function(element) {
+		console.log('remove gives element >');
+		console.log(element);
+		var classes = element.attr('class').split(" ").filter(function(c) {
+			return c.lastIndexOf('view-give', 0) !== 0;
+		});
+		element.attr('class', $.trim(classes.join(" ")));
 	};
 
 	/**
@@ -122,7 +138,9 @@ var ViewService = function ViewService(callback) {
 	 */
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
+		console.log('loading view:' + name);
 		$.get('views/' + name + '.phtml', function(data) {
+			removeGives(element);
 			element.html(data).animate({ opacity: 1 }, 200);
 			if (callback) callback();
 		});
