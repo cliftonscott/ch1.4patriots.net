@@ -41,7 +41,7 @@ class AssetManager {
 	public function serveCSS()
 	{
 		if ($this->isProduction()) {
-			$this->serveStylesheet("styles");
+			$this->serveStylesheet("styles-" . $this->page);
 
 		} else {
 			foreach (scandir($this->cssBaseUrl) as $file) {
@@ -49,6 +49,7 @@ class AssetManager {
 					$this->serveStylesheet($file);
 				}
 			}
+			$this->serveStylesheet("pages/styles-" . $this->page);
 		}
 
 		return $this->css;
