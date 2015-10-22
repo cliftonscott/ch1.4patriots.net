@@ -1,57 +1,81 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Bootstrap
-|--------------------------------------------------------------------------
-|
-| Bootstrap this application page.
-|
-*/
-include_once("Analytics.php");
-$analyticsObj = new Analytics();
-//include_once("Platform.php");
-//$platform = new Platform();
-//require_once("Meta.php");
-//$metaDataObj = new Meta();
-//require_once("Customer.php");
-//$customerObj = new Customer();
-//require_once("MobileDetect.php");
-//$detect = new Mobile_Detect;
-//require_once("JavelinApi.php");
-//$javelinApi = JV::load();
+// Define the current page name.
+$page = "video";
 
-include_once 'AssetManager.php';
-$assets = new AssetManager("video");
+// Bootstrap this application page.
+include_once 'agile/bootstrap.php';
+
+// Load the HTML head of this page.
+include_once 'agile/head.php';
 
 ?>
-<!doctype html>
-<html lang="">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-	<!-- Place favicon.ico in the root directory -->
-
-
-	<!-- Latest compiled and minified CSS. -->
-	<?php $assets->css(); ?>
-
-</head>
 <body>
 
-	<div id="view-header" class="view" style="height: 219px;"></div>
+	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
+		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
+	</div>
+
+	<div class="navbar navbar-default">
+		<div class="container"><div class="navbar navbar-inverse navbar-static-top">
+				<div class="navbar-header">
+					<div class="navbar-brand"><img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="navbar-phone-contain">
+		<div class="container nopadding">
+			<div class="navbar-phone">
+				<div id="phone-txt"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</div>
+				<div id="phone-button"><button type="button" class="btn btn-primary"><a href="tel:1-800-728-0008"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</a></button></div>
+			</div>
+		</div>
+	</div>
+	<div class="container subheader"></div>
 
 	<div class="container-main">
 
-		<div class="row pad-20-b" style="padding-bottom: 20px;">
+		<div class="row pad-20-b">
 
-			<div id="view-vslheader" class="view"></div>
+			<div class="col-md-12">
+				<div class="center-block text-center">
+					<?php
+					if($variation === "quiz") {
+						echo "<h1><strong>Your Quiz Results Show THIS Is The #1<br class='hidden-xs'> Item To Hoard... So Why Is FEMA<br class='hidden-xs'> Trying To Buy It All Up?</strong></h1>";
+					} else {
+						?>
+						<?php
+						if($_GET["pub"]) {
+							echo "<div style='font-size:18pt;'>Special presentation for ". $pubArray[$pub] ." </div>";
+						}elseif($variation == "gb") {
+							echo "<div style='font-size:18pt;'>Special presentation for fans of Glenn Beck and TheBlaze...</div>";
+						}
+						?>
+						<?php
+						if($vsl === "fs") {
+							?>
+							<h1><strong>Obama’s Food Stamp “Time Bomb”<br> Is About To Explode</strong></h1>
+							<?php
+						}elseif($vsl === "3f") {
+							?>
+							<h1><strong>3 Foods NEVER To Eat<br> In A Crisis</strong></h1>
+							<?php
+						}else {
+							?>
+							<h1><strong>Why Was This Video Banned?</strong></h1>
+							<?php
+						}}
+					?>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<!-- Button Stuff -->
+				<div id="buyButton" class="center-block text-center" style="display:none;">
+					<a href="<?php echo $offerUrl; ?>"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
+				</div>
+			</div>
 
 			<div class="col-md-12">
 				<div id="videobox">
@@ -93,13 +117,16 @@ $assets = new AssetManager("video");
 
 </body>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-<!-- Load the application JS. -->
-<?php $assets->js(); ?>
+<?php include_once 'agile/scripts.php'; ?>
 
 <script>
+
+	window.onbeforeunload = grayOut;
+	function grayOut(){
+		var ldiv = document.getElementById('LoadingDiv');
+		ldiv.style.display='block';
+	}
+
 	window.onload = function() {
 
 		var viewService = new ViewService();
@@ -221,4 +248,4 @@ $assets = new AssetManager("video");
 	};
 </script>
 
-</html>
+<?php include_once 'agile/footer.php'; ?>
