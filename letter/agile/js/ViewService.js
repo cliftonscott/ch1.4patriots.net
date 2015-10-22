@@ -73,6 +73,7 @@ var ViewService = function ViewService() {
 	 */
 	var checkForRenderCompletion = function() {
 		if (renderCount == viewCount) {
+			console.log('render callback');
 			renderCallback();
 		}
 	};

@@ -22,7 +22,7 @@ $analyticsObj = new Analytics();
 //$javelinApi = JV::load();
 
 include_once 'AssetManager.php';
-$assets = new AssetManager("video");
+$assets = new AssetManager("video", true);
 
 
 
@@ -47,11 +47,12 @@ $assets = new AssetManager("video");
 </head>
 <body>
 
-	<div id="view-header" class="view" style="height: 219px;"></div>
+<div id="view-header" class="view" style="height: 219px;"></div>
 
-	<div class="container-main">
+<div class="container-main">
+	<div class="container">
 
-		<div class="row pad-20-b" style="padding-bottom: 20px;">
+		<div class="row">
 
 			<div id="view-vslheader" class="view"></div>
 
@@ -60,7 +61,7 @@ $assets = new AssetManager("video");
 					<?php
 					if($variation === "pu") {
 						?>
-
+						<iframe src="//fast.wistia.net/embed/iframe/voc8m0rg1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					} elseif($vsl === "stansberry") {
 					?>
@@ -87,11 +88,13 @@ $assets = new AssetManager("video");
 
 		</div>
 
-		<div id="view-foodimages" class="view-on-demand"></div>
-
 	</div>
 
-	<div id="view-footer" class="view"></div>
+	<div id="view-foodimages" class="view-on-demand"></div>
+
+</div>
+
+<div id="view-footer" class="view"></div>
 
 </body>
 

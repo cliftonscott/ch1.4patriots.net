@@ -8,13 +8,36 @@
  |
  */
 
+/*
+ |--------------------------------------------------------------------------
+ | Dependencies
+ |--------------------------------------------------------------------------
+ |
+ | These are the node modules required to run the tasks
+ | defined in this file.
+ |
+ */
 var gulp = require('gulp');
 var less = require('gulp-less');
 var sass = require('gulp-sass');
+var rimraf = require('gulp-rimraf');
 var minifyCss = require('gulp-minify-css');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+
+/*
+ |--------------------------------------------------------------------------
+ | Configuration
+ |--------------------------------------------------------------------------
+ |
+ | All configuration data for reading and manipulating assets
+ | are defined here.
+ |
+ */
+
+// The "agile" pages of this website.
+var pages = ["video", "letter"];
 
 /*
  |--------------------------------------------------------------------------
@@ -44,22 +67,6 @@ var rename = require('gulp-rename');
 //		.pipe(gulp.dest('public/css'));
 //});
 
-// Combine processed CSS files into one.
-gulp.task('combine', function() {
-	return gulp.src(['assets/css/agile/*.css'])
-        .pipe(minifyCss())
-		.pipe(concat('style.css'))
-		.pipe(gulp.dest('video/agile/prod'));
-});
-
-// Compile our Angular app.
-gulp.task('scripts', function() {
-	return gulp.src('video/agile/js/*.js')
-        .pipe(uglify())
-		.pipe(concat('scripts.js'))
-		.pipe(gulp.dest('video/agile/prod'));
-});
-
 // Watch files for changes. Run "gulp" on the command-line to start watching.
 //gulp.task('watch', function() {
 //	gulp.watch('front/bootstrap/**/*.less', ['less', 'combine']);
@@ -84,23 +91,37 @@ gulp.task('default', ['less', 'sass', 'combine', 'scripts', 'watch']);
  |
  */
 
-// Minify our CSS. Everything should already be concatenated into style.css.
-gulp.task('minifyCss', function(){
-	return gulp.src('public/css/*.css')
-		.pipe(minifyCss())
-		.pipe(concat('styles.css'))
-		.pipe(gulp.dest('public/css'));
+// Clean out CSS and JS for fresh batch.
+gulp.task('clean', function() {
+    gulp.src('assets/css/prod/**', { read: false })
+        .pipe(rimraf());
+    for (var i = 0; i < pages.length; i++) {
+        var page = pages[i];
+        gulp.src(page + '/agile/js/prod/**', { read: false })
+            .pipe(rimraf());
+    }
 });
 
-// Uglify and concatenate our JS.
-gulp.task('uglify', function(){
-	return gulp.src('public/js/*.js')
-		.pipe(uglify())
-		.pipe(concat('scripts.js'))
-		.pipe(gulp.dest('public/js'));
+// Combine processed CSS files into one.
+gulp.task('combine', function() {
+    return gulp.src(['assets/css/agile/*.css'])
+        .pipe(minifyCss())
+        .pipe(concat('styles.css'))
+        .pipe(gulp.dest('assets/css/prod'));
+});
+
+// Compile our JS.
+gulp.task('scripts', function() {
+    for (var i = 0; i < pages.length; i++) {
+        var page = pages[i];
+        gulp.src(page + '/agile/js/*.js')
+            .pipe(uglify())
+            .pipe(concat('scripts.js'))
+            .pipe(gulp.dest(page + '/agile/js/prod'));
+    }
 });
 
 // Define the production task. Run "gulp production" on the command-line to build.
-gulp.task('production', ['combine', 'scripts']);
+gulp.task('production', ['clean', 'combine', 'scripts']);
 
 

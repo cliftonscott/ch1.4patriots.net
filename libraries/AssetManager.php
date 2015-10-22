@@ -19,10 +19,10 @@ class AssetManager {
 
 	private $js = "";
 	
-	public function __construct($page, $production = false)
+	public function __construct($page)
 	{
 		$this->page = $page;
-		$this->production = $production;
+		$this->production = $this->resolveEnvironment();
 		$this->resolveBaseUrls();
 		$this->serveCSS();
 		$this->serveJS();
@@ -41,7 +41,7 @@ class AssetManager {
 	public function serveCSS()
 	{
 		if ($this->isProduction()) {
-			$this->serveStylesheet("style");
+			$this->serveStylesheet("styles");
 
 		} else {
 			foreach (scandir($this->cssBaseUrl) as $file) {
@@ -188,6 +188,14 @@ class AssetManager {
 		return $filename;
 	}
 
+	private function resolveEnvironment()
+	{
+		if (getenv('APP_ENV') === 'production' || isset($_GET["fakeProd"])) {
+			return true;
+		}
+		return false;
+	}
+
 	private function resolveBaseUrls()
 	{
 		$base = "";
@@ -195,10 +203,10 @@ class AssetManager {
 //		$base .= "/agile/";
 
 		if ($this->isProduction()) {
-			$this->cssBaseUrl = $base . "prod/";
-			$this->jsBaseUrl = $base . "prod/";
+			$this->cssBaseUrl = $base . "../../assets/css/prod/";
+			$this->jsBaseUrl = $base . "js/prod/";
 		} else {
-			$this->cssBaseUrl = $base . "css/";
+			$this->cssBaseUrl = $base . "../../assets/css/agile/";
 			$this->jsBaseUrl = $base . "js/";
 		}
 	}
