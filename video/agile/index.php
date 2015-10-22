@@ -177,11 +177,11 @@ include_once 'agile/head.php';
 			if ($.cookie("sawbutton")) {
 				var hours = 0;
 				var minutes = 0;
-				var seconds = 2;
+				var seconds = 5;
 			} else {
 				var hours = 0;
-				var minutes = 0;
-				var seconds = 2;
+				var minutes = 27;
+				var seconds = 51;
 			}
 
 			// Start by converting hours to milliseconds
