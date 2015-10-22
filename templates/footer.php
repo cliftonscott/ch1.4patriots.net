@@ -16,9 +16,9 @@ if(strpos($_SERVER["PHP_SELF"], "/oto/") === FALSE) {
 	<div><br />Copyright &copy; <?php echo date("Y");?> Food4Patriots<strong>&reg;</strong> — All rights reserved.<br /><br /></div>
 	<div class="badge-4p">
 		<?php if($templateDesign === "wp") { ?>
-			<img src="/assets/images/misc/4p-badge-invert.png"/>
+			<img src="/assets/images/misc/4p-badge-invert.png" width="163" height="50"/>
 		<?php }else{ ?>
-			<img src="/assets/images/misc/4p-badge.png"/>
+			<img src="/assets/images/misc/4p-badge.png" width="163" height="50"/>
 		<?php }?>
 
 	</div>
