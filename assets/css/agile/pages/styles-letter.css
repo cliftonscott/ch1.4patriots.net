@@ -431,7 +431,7 @@ h1.large, h2.large{font-size: 48px; line-height: 52px;}
    ========================================================================== */
 
 ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-ul { list-style-image: url(../../media/images/f4p/letter/f4p-letter-ul-img.png); padding-left: 15px; margin-top: 0;}
+ul { list-style-image: url(/media/images/f4p/letter/f4p-letter-ul-img.png); padding-left: 15px; margin-top: 0;}
 
 ul li:first-child{margin-top: 0;}
 ul li{margin-top: 8px;}
@@ -476,7 +476,7 @@ body{background-color: #001d4b;}
 	background: none;
 }
 .full-width .bg-flag{
-	background-image: url(../../media/images/f4p/letter/f4p-letter-block-flag-large.png);
+	background-image: url(/media/images/f4p/letter/f4p-letter-block-flag-large.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -535,7 +535,7 @@ body{background-color: #001d4b;}
 .color-black{color: #000; text-shadow: none;}
 
 .intro-content{
-	background: url(../../media/images/f4p/letter/f4p-letter-media-right-bg-small.png) no-repeat 0 0;
+	background: url(/media/images/f4p/letter/f4p-letter-media-right-bg-small.png) no-repeat 0 0;
 	margin-left: -10px;
 	padding: 1px 10px 0 10px;
 }
@@ -561,7 +561,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f7f8', end
 .head-logos .holder{position: relative;}
 
 .head-dots{
-	background-image: url(../../media/images/f4p/letter/f4p-letter-head-dots.png);
+	background-image: url(/media/images/f4p/letter/f4p-letter-head-dots.png);
 	height: 185px;
 	width: 92px;
 	display: block;
@@ -711,7 +711,7 @@ div.media{min-width: 450px;}
 	position: relative;
 }
 .head-dots{
-	background-image: url(../../media/images/f4p/letter/f4p-letter-head-dots.png);
+	background-image: url(/media/images/f4p/letter/f4p-letter-head-dots.png);
 	height: 185px;
 	width: 92px;
 	display: block;
@@ -814,7 +814,7 @@ div.media{min-width: 450px;}
 	background-color: #cdd4dc;
 }
 .bg-flag{
-	background-image: url(../../media/images/f4p/letter/f4p-letter-block-flag.png);
+	background-image: url(/media/images/f4p/letter/f4p-letter-block-flag.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -837,7 +837,7 @@ p{position: relative; z-index: 100;}
 .dots-snake{position: relative; height: 80px; width: 100%; overflow: visible; z-index: 1;}
 	.dots-snake.small-gap{height: 15px;}
 	.dots-snake .dots-img{
-		background-image: url(../../media/images/f4p/letter/f4p-letter-dots-snake.png);
+		background-image: url(/media/images/f4p/letter/f4p-letter-dots-snake.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 315px;
@@ -847,7 +847,7 @@ p{position: relative; z-index: 100;}
 		text-indent: -5000px;
 	}
 	.dots-snake .dots-img2{
-		background-image: url(../../media/images/f4p/letter/f4p-letter-dots-snake2.png);
+		background-image: url(/media/images/f4p/letter/f4p-letter-dots-snake2.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 315px;
@@ -863,11 +863,11 @@ p{position: relative; z-index: 100;}
 	.media.has-bg.right{
 		padding-top: 1px;
 		padding-left: 10px;
-		background-image: url(../../media/images/f4p/letter/f4p-letter-media-right-bg.png);
+		background-image: url(/media/images/f4p/letter/f4p-letter-media-right-bg.png);
 		background-position: 0 0;
 		background-repeat: no-repeat;
 	}
-	.media.has-bg.small.right{background-image: url(../../media/images/f4p/letter/f4p-letter-media-right-bg-small.png)}
+	.media.has-bg.small.right{background-image: url(/media/images/f4p/letter/f4p-letter-media-right-bg-small.png)}
 
 	.medium-size .media.small{width: 305px; text-align: center; min-width: inherit!important;}
 
@@ -875,7 +875,7 @@ p{position: relative; z-index: 100;}
 	.media.has-bg.left{
 		padding-top: 1px;
 		padding-right: 10px;
-		background-image: url(../../media/images/f4p/letter/f4p-letter-media-left-bg.png);
+		background-image: url(/media/images/f4p/letter/f4p-letter-media-left-bg.png);
 		background-position: 100% 0;
 		background-repeat: no-repeat;
 	}
@@ -890,7 +890,7 @@ p{position: relative; z-index: 100;}
 	bottom: -85px;
 	position: absolute;
 	background-repeat: no-repeat;
-	background-image:url(../../media/images/f4p/letter/f4p-letter-dots-down.png);
+	background-image:url(/media/images/f4p/letter/f4p-letter-dots-down.png);
 	width: 84px;
 	height: 88px;
 	display: block;
@@ -909,7 +909,7 @@ p{position: relative; z-index: 100;}
 	bottom: -45px;
 	position: absolute;
 	background-repeat: no-repeat;
-	background-image: url(../../media/images/f4p/letter/f4p-letter-dots-down2.png);
+	background-image: url(/media/images/f4p/letter/f4p-letter-dots-down2.png);
 	width: 84px;
 	height: 88px;
 	display: block;
@@ -938,13 +938,13 @@ p{position: relative; z-index: 100;}
    ========================================================================== */
 #footer{
 	font-size: 13px; color: #fff;
-	background-image: url(../../media/images/f4p/letter/f4p-letter-footer-flag.jpg);
+	background-image: url(/media/images/f4p/letter/f4p-letter-footer-flag.jpg);
 	background-position: center 0;
 	background-repeat: no-repeat;
 }
 
 .black-opacity{
-	background: url(../../media/images/f4p/letter/f4p-letter-black-opacity.png) repeat;
+	background: url(/media/images/f4p/letter/f4p-letter-black-opacity.png) repeat;
 }
 
 #footer > div{
