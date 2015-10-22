@@ -18,8 +18,6 @@
  |
  */
 var gulp = require('gulp');
-var less = require('gulp-less');
-var sass = require('gulp-sass');
 var rimraf = require('gulp-rimraf');
 var minifyCss = require('gulp-minify-css');
 var concat = require('gulp-concat');
