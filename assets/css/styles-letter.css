@@ -1070,6 +1070,7 @@ p{position: relative; z-index: 100;}
         width: 100%;
         margin: 17px 0;
     }
+	.blockquote-1 {margin:0;padding:0;}
     .head-mid span{font-size: 20px; line-height: 20px;}
     .head-mid h1{text-align: left!important;}
     .head-bot .semi-bold{display: none;}
@@ -1094,7 +1095,7 @@ p{position: relative; z-index: 100;}
 
     .watch-vid, .more{padding-bottom: 0;}
 
-    .section h1, h1.large, h2.large{font-size: 31px; line-height: 33px; text-align: center!important;}
+    .section h1, h1.large, h2, h2.large{font-size: 31px; line-height: 33px; text-align: center!important;}
 
 
     h3{font-size: 25px; line-height: 27px; text-align: center!important;}
@@ -1150,7 +1151,7 @@ p{position: relative; z-index: 100;}
     .old-price{font-size: 18px;}
     .price{font-size: 25px;}
 
-
+	.button.blue {font-size: 26px;}
     #footer{line-height: 13px; }
     #footer ul li{float: none; width: 100%;}
 
