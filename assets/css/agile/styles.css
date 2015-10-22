@@ -8,6 +8,12 @@ p {
 .view {
 	opacity: 0;
 }
+.view-unveil {
+	opacity: 0;
+}
+.view-give-1000 { height: 1000px; }
+.view-give-2000 { height: 2000px; }
+
 .container {
 	margin: 0 auto;
 	max-width: 926px;
