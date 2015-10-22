@@ -99,6 +99,7 @@ include_once 'agile/head.php';
 					}else {
 					?>
 						<iframe src="//fast.wistia.net/embed/iframe/voc8m0rg1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+						<!--<iframe src="//fast.wistia.net/embed/playlists/kxu9naj4y2?media_0_0%5BautoPlay%5D=true&media_0_0%5BcontrolsVisibleOnLoad%5D=false&version=v1&videoOptions%5BautoPlay%5D=true&videoOptions%5BfullscreenButton%5D=false&videoOptions%5Bplaybar%5D=false&videoOptions%5BplayerColor%5D=ffffff&videoOptions%5BsmallPlayButton%5D=false&videoOptions%5BvideoHeight%5D=360&videoOptions%5BvideoWidth%5D=640" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_playlist" name="wistia_playlist" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>-->
 						<?php
 					}
 					?>
