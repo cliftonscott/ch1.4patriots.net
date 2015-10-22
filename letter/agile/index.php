@@ -94,15 +94,7 @@ include_once 'agile/head.php';
 
 	window.onload = function() {
 
-		var pageBehavior = function() {
-			$(".lazy").unveil(1500, function() {
-				$(this).load(function() {
-					this.style.opacity = 1;
-				});
-			});
-		};
-
-		var viewService = new ViewService(pageBehavior);
+		var viewService = new ViewService(function(){});
 
 	};
 
