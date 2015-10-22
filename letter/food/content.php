@@ -1,3 +1,4 @@
+<script src="/js/audio.js"></script>
 <div>
 	<header id="head" class="clearfix has-absolute-img">
 		<div class="absolute-flag">
