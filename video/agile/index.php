@@ -24,8 +24,6 @@ $analyticsObj = new Analytics();
 include_once 'AssetManager.php';
 $assets = new AssetManager("video");
 
-
-
 ?>
 <!doctype html>
 <html lang="">

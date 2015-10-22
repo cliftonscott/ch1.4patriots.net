@@ -66,6 +66,10 @@ var ViewService = function ViewService() {
 				element.html(data).animate({ opacity: 1 }, 200);
 			}).always(function() { renderCount++; checkForRenderCompletion();  });
 		});
+
+		if (viewCount === 0) {
+			renderCallback();
+		}
 	};
 
 	/**

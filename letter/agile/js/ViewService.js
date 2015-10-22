@@ -3,7 +3,7 @@
  *
  * @constructor
  */
-var ViewService = function ViewService() {
+var ViewService = function ViewService(callback) {
 
 	var that = this;
 
@@ -20,7 +20,7 @@ var ViewService = function ViewService() {
 	 *
 	 * See done()
 	 */
-	var renderCallback = function() {};
+	var renderCallback = callback;
 
 	/**
 	 * The number of standard views on the current page.
@@ -58,6 +58,7 @@ var ViewService = function ViewService() {
 	 * Call done() when all views have been rendered.
 	 */
 	var loadViews = function() {
+		console.log('loading views');
 		elements.views.each(function() {
 			var element = $(this);
 			var name = getViewName($(this));
@@ -66,6 +67,12 @@ var ViewService = function ViewService() {
 				element.html(data).animate({ opacity: 1 }, 200);
 			}).always(function() { renderCount++; checkForRenderCompletion();  });
 		});
+
+		console.log('view count >');
+		console.log(viewCount);
+		if (viewCount === 0) {
+			renderCallback();
+		}
 	};
 
 	/**
