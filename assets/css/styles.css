@@ -458,7 +458,7 @@ input[type=number]::-webkit-outer-spin-button {
 	border-radius: 15px;
 }
 .warning-check {
-	background-image: url(../images/misc/warning-check-left.gif);
+	background-image: url(../../../assets/images/misc/warning-check-left.gif);
 	width: 120px;
 	height: 52px;
 	position:absolute;top:-10px;
@@ -816,7 +816,7 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 
 	.warning-check {
-		background-image: url(../images/misc/warning-check.gif);
+		background-image: url(../../../assets/images/misc/warning-check.gif);
 		position: absolute;
 		left: -120px;
 		top: -10px;
