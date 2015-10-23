@@ -6,6 +6,9 @@ $page = "letter";
 // Bootstrap this application page.
 include_once 'agile/bootstrap.php';
 
+// Configure the Letter page.
+$offerUrl = "https://secure.food4patriots.com/checkout/agile/index.php" . $analyticsObj->queryString;
+
 // Load the HTML head of this page.
 include_once 'agile/head.php';
 
@@ -29,7 +32,7 @@ include_once 'agile/head.php';
 	<div class="navbar-phone-contain">
 		<div class="container nopadding">
 			<div class="navbar-phone">
-				<div id="phone-txt"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</div>
+				<div id="phone-txt"><img class="icon-phone" src="/assets/images/misc/phone.svg" /> Phone: 1-800-728-0008</div>
 				<div id="phone-button"><button type="button" class="btn btn-primary"><a href="tel:1-800-728-0008"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</a></button></div>
 			</div>
 		</div>
@@ -74,8 +77,7 @@ include_once 'agile/head.php';
 		</div>
 	</header>
 
-	<?php $offerUrl = "https://secure.food4patriots.com/checkout/index.php" . $analyticsObj->queryString; ?>
-
+	<div class="loading-letter"></div>
 	<div id="view-section-1" class="view-unveil view-give-2000"></div>
 	<div id="view-section-2" class="view-unveil view-give-2000"></div>
 	<div id="view-section-3" class="view-unveil view-give-2000"></div>
@@ -94,8 +96,12 @@ include_once 'agile/head.php';
 
 	window.onload = function() {
 
-		var viewService = new ViewService(function(){});
-
+		var viewService = new ViewService(
+			function(){},
+			function(){
+				$('.blue.button').attr('href', '<?php echo $offerUrl; ?>');
+			}
+		);
 	};
 
 </script>

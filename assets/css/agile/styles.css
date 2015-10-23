@@ -11,8 +11,20 @@ p {
 .view-unveil {
 	opacity: 0;
 }
+.view-give-500 { height: 500px; }
 .view-give-1000 { height: 1000px; }
 .view-give-2000 { height: 2000px; }
+.loading-letter {
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background: transparent url('/assets/images/misc/loading-letter.gif') no-repeat center center;
+	opacity: 0.5;
+}
+.lazy {
+	opacity: 0;
+}
+.icon-phone { width: 18px; }
 
 .container {
 	margin: 0 auto;

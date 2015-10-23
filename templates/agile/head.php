@@ -30,6 +30,7 @@
 	}
 	$REQUEST_PROTOCOL = $isSecure ? 'https' : 'http';
 	?>
+	<?php if ($page == "checkout"): ?><link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><?php endif; ?>
 	<!--[if lt IE 9]>
 	<script src="<?php echo $REQUEST_PROTOCOL;?>://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->

@@ -3,7 +3,7 @@
  *
  * @constructor
  */
-var ViewService = function ViewService(callback) {
+var ViewService = function ViewService(callback, unveilCallback) {
 
 	var that = this;
 
@@ -21,6 +21,11 @@ var ViewService = function ViewService(callback) {
 	 * See done()
 	 */
 	var renderCallback = callback;
+
+	/**
+	 * The callback to run after a view has been unveiled.
+	 */
+	var unveilCallback = unveilCallback;
 
 	/**
 	 * The number of standard views on the current page.
@@ -78,7 +83,7 @@ var ViewService = function ViewService(callback) {
 
 		elements.unveilViews.each(function(){
 			var view = $(this);
-			$(this).unveilView(1000, function() { that.load(view); });
+			$(this).unveilView(1000, function() { that.load(view, unveilCallback); });
 		});
 	};
 

@@ -255,11 +255,9 @@
 </section>
 <script>
 
-		$(".lazy").unveil(0, function() {
-			$(this).load(function() {
-				console.log('lazy loading');
-				this.style.opacity = 1;
-			});
+		$(".lazy").unveil(600, function() {
+			console.log('animate');
+			$(this).animate({ opacity: 1 }, 300);
 		});
 
 </script>

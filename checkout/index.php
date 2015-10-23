@@ -164,7 +164,7 @@ include_once ('template-top.php');
 				<div>
 					<div class="row">
 						<div class="col-lg-12">
-							<?php include_once ('customer-form.php'); ?>
+							<?php include_once ('customer-form-agile.php'); ?>
 						</div>
 					</div>
 					<div class="row">
