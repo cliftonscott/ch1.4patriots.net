@@ -59,7 +59,6 @@ var ViewService = function ViewService(callback) {
 	 * Call done() when all views have been rendered.
 	 */
 	var loadViews = function() {
-		console.log('loading views');
 		elements.views.each(function() {
 			var element = $(this);
 			var name = getViewName($(this));
@@ -69,12 +68,9 @@ var ViewService = function ViewService(callback) {
 			}).always(function() { renderCount++; checkForRenderCompletion();  });
 		});
 
-		console.log('view count >');
-		console.log(viewCount);
 		if (viewCount === 0) {
 			renderCallback();
 		}
-
 
 		elements.unveilViews.each(function(){
 			var view = $(this);
@@ -106,8 +102,6 @@ var ViewService = function ViewService(callback) {
 	};
 
 	var removeGives = function(element) {
-		console.log('remove gives element >');
-		console.log(element);
 		var classes = element.attr('class').split(" ").filter(function(c) {
 			return c.lastIndexOf('view-give', 0) !== 0;
 		});
@@ -138,11 +132,8 @@ var ViewService = function ViewService(callback) {
 	 */
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
-		console.log('loading view:' + name);
 		$.get('views/' + name + '.phtml', function(data) {
 			removeGives(element);
-			console.log('data >');
-			console.log(data);
 			element.html(data).animate({ opacity: 1 }, 200);
 			if (callback) callback();
 		});
