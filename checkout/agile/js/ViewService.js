@@ -138,11 +138,8 @@ var ViewService = function ViewService(callback) {
 	 */
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
-		console.log('loading view:' + name);
 		$.get('views/' + name + '.phtml', function(data) {
 			removeGives(element);
-			console.log('data >');
-			console.log(data);
 			element.html(data).animate({ opacity: 1 }, 200);
 			if (callback) callback();
 		});

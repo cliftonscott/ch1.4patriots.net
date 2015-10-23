@@ -337,7 +337,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 	var min = <?php echo $template["floatingTimer"];?>;	// set from within the template
 
 	function countDown() {
-		console.log('min >');console.log(min);
 		sec--;
 		if (sec == -01) {
 			sec = 59;
