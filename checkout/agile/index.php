@@ -50,6 +50,25 @@ include_once 'agile/head.php';
 		document.getElementById("productId").value = productId;
 		setStateTax();
 	}
+
+	function showProductModal() {
+		$('#productModal').modal('show');
+	}
+	function hideProductModal() {
+		$('#productModal').modal('hide');
+	}
+	function showProductModal2() {
+		$('#productModal2').modal('show');
+	}
+	function hideProductModal2() {
+		$('#productModal2').modal('hide');
+	}
+	function showProductModal3() {
+		$('#productModal3').modal('show');
+	}
+	function hideProductModal3() {
+		$('#productModal3').modal('hide');
+	}
 </script>
 
 <body>
@@ -494,34 +513,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 				}
 			});
 
-
-			/*
-			 |--------------------------------------------------------------------------
-			 | Product Modals
-			 |--------------------------------------------------------------------------
-			 |
-			 | This establishes the behavior of the main product modals.
-			 |
-			 */
-
-			function showProductModal() {
-				$('#productModal').modal('show');
-			}
-			function hideProductModal() {
-				$('#productModal').modal('hide');
-			}
-			function showProductModal2() {
-				$('#productModal2').modal('show');
-			}
-			function hideProductModal2() {
-				$('#productModal2').modal('hide');
-			}
-			function showProductModal3() {
-				$('#productModal3').modal('show');
-			}
-			function hideProductModal3() {
-				$('#productModal3').modal('hide');
-			}
 
 			/*
 			 |--------------------------------------------------------------------------
