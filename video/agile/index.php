@@ -413,6 +413,7 @@ include_once 'agile/head.php';
 			$('.subheader').click(function(){
 				viewService.load($('#view-foodimages'), function() {
 					showProductModal();
+					$('.glyphicon-remove-circle').click(hideProductModal);
 				});
 			});
 			$(document).ready(function() {
