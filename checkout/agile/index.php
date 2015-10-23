@@ -175,7 +175,7 @@ include_once 'agile/head.php';
 								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>3 Month Food Supply - $497 <span class="gray13">($5/day)</span></span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+											<div>3 Month Food Supply - $497 <span class="gray13">($5/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 										</h4>
 									</div>
 								</a>
@@ -318,7 +318,10 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 			 | This establishes the behavior of the main checkout form.
 			 |
 			 */
-
+			function switchProduct(productId) {
+				document.getElementById("productId").value = productId;
+				setStateTax();
+			}
 			<?php if (isset($preFill)): ?>
 
 				billingCountry = document.getElementById("billing-country");
