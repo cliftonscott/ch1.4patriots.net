@@ -45,6 +45,13 @@ include_once 'agile/head.php';
 
 ?>
 
+<script>
+	function switchProduct(productId) {
+		document.getElementById("productId").value = productId;
+		setStateTax();
+	}
+</script>
+
 <body>
 <?php include_once("ga-data-layer.php"); ?>
 <div id="LoadingDiv" style="display:none;">One Moment Please...<br />
@@ -318,10 +325,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 			 | This establishes the behavior of the main checkout form.
 			 |
 			 */
-			function switchProduct(productId) {
-				document.getElementById("productId").value = productId;
-				setStateTax();
-			}
 			<?php if (isset($preFill)): ?>
 
 				billingCountry = document.getElementById("billing-country");
