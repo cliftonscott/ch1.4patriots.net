@@ -2,9 +2,11 @@
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
+/*SPLIT JV-25 10/23/15*/
 if (JV::in("25-agile")) {
 	header("Location: /video/agile/index.php" . $analyticsObj->queryString); exit;
 }
+/*END TEST*/
 
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
@@ -206,13 +208,6 @@ if (JV::in("24-play")) {
 		})
 	});
 </script>
-
-	<!-- Offer Conversion: Food4Patriots  -->
-	<img src="https://trk.rebootmarketing.com/SL1S" width="1" height="1" />
-	<!-- // End Offer Conversion -->
-	<!-- Offer Conversion: Food4Patriots - No International -->
-	<img src="https://trk.rebootmarketing.com/SL2i" width="1" height="1" />
-	<!-- // End Offer Conversion -->
 
 <?php
 include_once("template-bottom.php");

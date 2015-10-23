@@ -7,7 +7,7 @@ $page = "letter";
 include_once 'agile/bootstrap.php';
 
 // Configure the Letter page.
-$offerUrl = "https://secure.food4patriots.com/checkout/agile/index.php" . $analyticsObj->queryString;
+$offerUrl = "/checkout/agile/index.php" . $analyticsObj->queryString;
 
 // Load the HTML head of this page.
 include_once 'agile/head.php';
