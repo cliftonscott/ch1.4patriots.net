@@ -18,6 +18,8 @@ $javelinApi = JV::load();
 
 /*SPLIT JV-25 10/23/15*/
 if (JV::in("25-agile")) {
+	include_once("Analytics.php");
+	$analyticsObj = new Analytics();
 	header("Location: /video/agile/index.php" . $analyticsObj->queryString); exit;
 }
 /*END TEST*/
