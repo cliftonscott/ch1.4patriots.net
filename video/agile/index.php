@@ -97,7 +97,7 @@ $platform->setCsrModalButtons("sample,video,letter");
 
 // Send all mobile traffic to the Letter page immediately.
 if($vsl != "3f" && $vsl != "fs") {
-	if ($detect->isMobile()) {
+	if ($detect->isMobile() && !$detect->isTablet()) {
 		header("Location: /letter/agile/index.php" . $analyticsObj->queryString); exit;
 	}
 }
