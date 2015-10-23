@@ -14,16 +14,16 @@
 
 if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
 	$logoImage = "<a href='/index.php'>";
-	$logoImage.= "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
+	$logoImage.= "<img src='/assets/images/logo-small.png' width='384' height='103' alt='power4patriots' class='img-responsive'/>";
 	$logoImage.= "</a>";
 }
 elseif(in_array($_SERVER["PHP_SELF"], $logoLink)) {
 	$logoImage = "<a href='/index.php'>";
-	$logoImage.= "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
+	$logoImage.= "<img src='/assets/images/logo-small.png' width='384' height='103' alt='power4patriots' class='img-responsive'/>";
 	$logoImage.= "</a>";
 }
 else {
-	$logoImage = "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
+	$logoImage = "<img src='/assets/images/logo-small.png' width='384' height='103' alt='power4patriots' class='img-responsive'/>";
 }
 ?>
 		<div class="navbar-brand"><?php echo $logoImage;?></div>

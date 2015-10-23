@@ -1,4 +1,13 @@
 <?php
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
+
+/*SPLIT JV-25 10/23/15*/
+if (JV::in("25-agile")) {
+	header("Location: /video/agile/index.php" . $analyticsObj->queryString); exit;
+}
+/*END TEST*/
+
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
 	$isSecure = true;
@@ -66,7 +75,7 @@ if($_GET["pub"]) {
 }
 
 if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "3f") {
-	$template["exitPopType"] = video; //designates that this should not have an exit pop of type video
+	$template["exitPopType"] = "video"; //designates that this should not have an exit pop of type video
 }
 
 // SET PRODUCT ID
@@ -172,11 +181,18 @@ $platform->setCsrModalButtons("sample,video,letter");
 	}
 </script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
-<?php if($templateDesign === "wp") {
-	include_once('content-wp.php'); /*White Paper Template*/
-}else{
-	include_once('content.php'); /*CONTROL*/
+<?php
+// SPLIT JV-24 10/19/15
+if (JV::in("24-play")) {
+	include_once('content-jv-24.php'); /*TABLET SPLIT*/
+}else {
+	if ($templateDesign === "wp") {
+		include_once('content-wp.php'); /*White Paper Template*/
+	}else{
+		include_once('content.php'); /*CONTROL*/
+	}
 }
+
 ?>
 <!--INCLUDE CONTENT-->
 <script>
@@ -192,13 +208,6 @@ $platform->setCsrModalButtons("sample,video,letter");
 		})
 	});
 </script>
-
-	<!-- Offer Conversion: Food4Patriots  -->
-	<img src="https://trk.rebootmarketing.com/SL1S" width="1" height="1" />
-	<!-- // End Offer Conversion -->
-	<!-- Offer Conversion: Food4Patriots - No International -->
-	<img src="https://trk.rebootmarketing.com/SL2i" width="1" height="1" />
-	<!-- // End Offer Conversion -->
 
 <?php
 include_once("template-bottom.php");

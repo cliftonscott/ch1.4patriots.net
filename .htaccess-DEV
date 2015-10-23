@@ -24,9 +24,5 @@ RewriteRule ^checkout/alt1year$ checkout/alt/f4p-1yearkit-offer.php [QSA]
 RewriteRule ^checkout/altdiscount$ checkout/alt/f4p-discount-offer.php [QSA]
 RewriteRule ^checkout/altfree$ checkout/alt/f4p-free-food-offer.php [QSA]
 
-RewriteRule ^/order/index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /order/index.php [L]
 </IfModule>
 php_value auto_prepend_file "/var/www/vhosts/development/dev.sf4p.4patriots.net/includes/AUTO-PREPEND.php"

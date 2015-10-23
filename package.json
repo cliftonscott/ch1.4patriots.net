@@ -1,0 +1,22 @@
+{
+  "name": "secure.food4patriots.com",
+  "version": "1.0.0",
+  "description": "README FILE ===========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4patriots/secure.food4patriots.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4patriots/secure.food4patriots.com/issues"
+  },
+  "homepage": "https://github.com/4patriots/secure.food4patriots.com#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

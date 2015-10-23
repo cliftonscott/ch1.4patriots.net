@@ -11,12 +11,15 @@
 .media.left, .media.right{
 	margin-bottom: 10px;
 }
-.media.left{
+.media.left, .media-contain.left{
 	float: left;
 	margin-right: 30px;
 }
-.media.right{
+.media.right, .media-contain.right{
 	float: right; margin-left: 30px;
+}
+.media-contain {
+	width: 50%;
 }
 .inner p, .inner ul {
 	zoom: 1;
@@ -1001,8 +1004,9 @@ p{position: relative; z-index: 100;}
     #head.has-absolute-img .call-us{margin-right: 160px;}
     .holder, .section .section-inner{width: 90%; margin: 0 auto 15px;}
     .medium-size, .medium-size700, .medium-size740, .medium-size800, .medium-size960{width: auto!important; padding-left: 15px; padding-right: 15px; max-width: 94%;}
-    .section img{max-width: 45%; height: auto;}
+    /*.section img{max-width: 45%; height: auto;}*/
     div.media{min-width: 45%;}
+	div.media-contain{min-width: 50%;}
     .dots-snake{display: none;}
     .inner p{padding-bottom: 15px;}
     .inner{line-height: 22px;}
@@ -1032,8 +1036,9 @@ p{position: relative; z-index: 100;}
     #head.has-absolute-img .call-us{margin-right: 160px;}
     .holder, .section .section-inner{width: 90%; margin: 0 auto 15px;}
     .medium-size, .medium-size700, .medium-size740, .medium-size800, .medium-size960{width: auto!important; padding-left: 15px; padding-right: 15px; max-width: 94%;}
-    .section img{max-width: 45%; height: auto;}
+    /*.section img{max-width: 45%; height: auto;}*/
     div.media{min-width: 45%;}
+	div.media-contain{min-width: 50%;}
     .dots-snake{display: none;}
     .inner p{padding-bottom: 15px;}
     .inner{line-height: 22px;}
@@ -1049,7 +1054,7 @@ p{position: relative; z-index: 100;}
 ================================================== */
 @media only screen and (max-width: 767px) {
     html{font-size: 14px;}
-    .media{
+    .media, .media-contain{
         width: 100%;
     }
     .media-2{
@@ -1065,6 +1070,7 @@ p{position: relative; z-index: 100;}
         width: 100%;
         margin: 17px 0;
     }
+	.blockquote-1 {margin:0;padding:0;}
     .head-mid span{font-size: 20px; line-height: 20px;}
     .head-mid h1{text-align: left!important;}
     .head-bot .semi-bold{display: none;}
@@ -1089,7 +1095,7 @@ p{position: relative; z-index: 100;}
 
     .watch-vid, .more{padding-bottom: 0;}
 
-    .section h1, h1.large, h2.large{font-size: 31px; line-height: 33px; text-align: center!important;}
+    .section h1, h1.large, h2, h2.large{font-size: 31px; line-height: 33px; text-align: center!important;}
 
 
     h3{font-size: 25px; line-height: 27px; text-align: center!important;}
@@ -1111,7 +1117,7 @@ p{position: relative; z-index: 100;}
     .section .section-inner{width: 90%; margin: 0 auto 15px;}
 
     #head-logo img,
-    .section img{max-width: 100%; height: auto;}
+    /*.section img{max-width: 100%; height: auto;}*/
 
     .media-book .has-bg.left,
 
@@ -1121,8 +1127,8 @@ p{position: relative; z-index: 100;}
 
     .full-left{margin-left: auto;}
     .full-right{margin-right: auto;}
-    .media.right{margin-left: 0; float: none;}
-    .media.left{margin-right: 0; float: none;}
+    .media.right,.media-contain.right{margin-left: 0; float: none;}
+    .media.left,.media-contain.left{margin-right: 0; float: none;}
 
     .pad-30{padding: 15px;}
     .medium-size, .medium-size700, .medium-size740, .medium-size800, .medium-size960{width: auto!important; padding-left: 15px; padding-right: 15px; max-width: 94%;}
@@ -1145,7 +1151,7 @@ p{position: relative; z-index: 100;}
     .old-price{font-size: 18px;}
     .price{font-size: 25px;}
 
-
+	.button.blue {font-size: 26px;}
     #footer{line-height: 13px; }
     #footer ul li{float: none; width: 100%;}
 
@@ -1164,10 +1170,10 @@ p{position: relative; z-index: 100;}
     }
     .bot-position{bottom: 0;}
 
-    .section{
-        background-image: url(/media/images/letter/bgs/mobile-flag.png);
-        background-repeat: repeat-x;
-    }
+    /*.section{*/
+        /*background-image: url(/media/images/letter/bgs/mobile-flag.png);*/
+        /*background-repeat: repeat-x;*/
+    /*}*/
     .no-marg-bot{margin-bottom: 15px!important;}
     .media.left, .media.right{margin-bottom: 15px;}
     .head-mid{}
