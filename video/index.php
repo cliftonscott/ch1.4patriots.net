@@ -1,12 +1,4 @@
 <?php
-require_once("JavelinApi.php");
-$javelinApi = JV::load();
-
-/*SPLIT JV-25 10/23/15*/
-if (JV::in("25-agile")) {
-	header("Location: /video/agile/index.php" . $analyticsObj->queryString); exit;
-}
-/*END TEST*/
 
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
@@ -20,6 +12,17 @@ if($isSecure ) {
 	header("Location: http://" . $nonSecureHost . $nonSecurePath);
 	exit;
 }
+
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
+
+/*SPLIT JV-25 10/23/15*/
+if (JV::in("25-agile")) {
+	header("Location: /video/agile/index.php" . $analyticsObj->queryString); exit;
+}
+/*END TEST*/
+
+
 $templateArray = array (
 	"wp", // White Paper Template
 );
