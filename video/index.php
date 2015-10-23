@@ -1,4 +1,11 @@
 <?php
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
+
+if (JV::in("25-agile")) {
+	header("Location: /video/agile/index.php" . $analyticsObj->queryString); exit;
+}
+
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
 	$isSecure = true;

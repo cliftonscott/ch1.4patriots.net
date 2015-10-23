@@ -107,7 +107,7 @@ include_once 'agile/head.php';
 ?>
 
 <body>
-
+	<?php include_once("ga-data-layer.php"); ?>
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 		<img src="/assets/images/misc/progressbar.gif" class="displayed" alt="" />
 	</div>
