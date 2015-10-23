@@ -191,7 +191,7 @@ class AssetManager {
 
 	private function resolveEnvironment()
 	{
-		if (getenv('APP_ENV') === 'production' || isset($_GET["fakeProd"])) {
+		if (getenv('APP_ENV') === 'production' || getenv('APP_ENV') === 'stage' || get isset($_GET["fakeProd"])) {
 			return true;
 		}
 		return false;
