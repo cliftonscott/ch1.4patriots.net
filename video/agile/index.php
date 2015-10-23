@@ -8,18 +8,6 @@
 | the application.
 |
 */
-$isSecure = false;
-if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
-	$isSecure = true;
-} elseif (!empty($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || !empty($_SERVER['HTTP_X_FORWARDED_SSL']) && $_SERVER['HTTP_X_FORWARDED_SSL'] == 'on') {
-	$isSecure = true;
-}
-if($isSecure ) {
-	$nonSecureHost = $_SERVER["HTTP_HOST"];
-	$nonSecurePath = $_SERVER["REQUEST_URI"];
-	header("Location: http://" . $nonSecureHost . $nonSecurePath);
-	exit;
-}
 $templateArray = array (
 	"wp", // White Paper Template
 );
