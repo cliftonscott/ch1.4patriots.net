@@ -11,7 +11,7 @@ session_start();
 $host = $_SERVER['HTTP_HOST'];
 if (strpos($host, '.4patriots.net') === false) {
 	putenv("APP_ENV=production");
-	if((!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) && (strpos($_SERVER["PHP_SELF"],"/video/index.php") === FALSE)) {
+	if((!isset($_SERVER['HTTPS']) || !$_SERVER['HTTPS']) && (strpos($_SERVER["PHP_SELF"],"/video/") === FALSE)) {
 		header("Location: https://secure.food4patriots.com" . $_SERVER["REQUEST_URI"]);
 		exit();
 	}
