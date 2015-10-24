@@ -214,7 +214,7 @@ class JavelinApi {
 
 			// Enforce any loaded white list.
 			if ($this->enforceWhiteList()) {
-				echo "WHITELIST ENFORCED";
+				echo "WHITELIST ENFORCED" . json_encode($this->whiteList, true) . " | ";
 				return;
 			}
 
@@ -309,7 +309,7 @@ class JavelinApi {
 			$this->analytics = $this->readCollectionData($json["ga"]);
 			$this->clickGoals = json_encode($json["clickGoals"]);
 			$this->whiteList = json_decode($json["whiteList"]);
-			echo "WHITELIST RECEIVED " . $this->whiteList . " | ";
+			echo "WHITELIST RECEIVED " . json_encode($this->whiteList, true) . " | ";
 			$this->saveSession();
 		}
 	}
