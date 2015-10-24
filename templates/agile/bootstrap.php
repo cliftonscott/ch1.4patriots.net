@@ -18,8 +18,10 @@ require_once("Customer.php");
 $customerObj = new Customer();
 require_once("MobileDetect.php");
 $detect = new Mobile_Detect;
-require_once("JavelinApi.php");
-$javelinApi = JV::load();
+if ($page !== "video") {
+	require_once("JavelinApi.php");
+	$javelinApi = JV::load();
+}
 
 // Allow the asset manager to resolve assets for this page.
 include_once 'AssetManager.php';
