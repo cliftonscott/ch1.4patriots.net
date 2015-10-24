@@ -12,7 +12,7 @@ include_once "MobileDetect.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.2.0
+ * @version 1.3.0
  *
  * Class JavelinApi
  */
@@ -35,6 +35,14 @@ class JavelinApi {
 	 * @var string
 	 */
 	static $webPropertyName = "F4P";
+
+	/**
+	 * The session key where the array collection of
+	 * stored Javelin data is placed.
+	 *
+	 * @var string
+	 */
+	static $sessionKey = "Javelin";
 
 	/**
 	 * The loaded dependency used to determine the
@@ -100,6 +108,14 @@ class JavelinApi {
 	private $clickGoals;
 
 	/**
+	 * The array of page URLs provided by the Javelin API
+	 * when requested that should require a fresh API call.
+	 *
+	 * @var array|null
+	 */
+	private $whiteList;
+
+	/**
 	 * Returns the singleton instance of this class.
 	 *
 	 * @return JavelinApi The singleton instance
@@ -157,6 +173,12 @@ class JavelinApi {
 		// Attempt to decode the JSON data from the Javelin API.
 		$data = $instance->getAnalytics();
 
+		// Return empty content if no GA data is available for
+		// the current visitor.
+		if (! is_array($data)) {
+			return "";
+		}
+
 		// Iterate over each variation the current visitor
 		// is participating in, building a JS code string that
 		// can be printed into the GA data layer push call.
@@ -187,8 +209,17 @@ class JavelinApi {
 			$this->enablePreview();
 		} else {
 
+			// Load any persisted Javelin state.
+			$this->loadSession();
+
+			// Enforce any loaded white list.
+			if ($this->enforceWhiteList()) {
+				return;
+			}
+
 			// Only send an API request if the user
-			// is not previewing a variation.
+			// is not previewing a variation and the
+			// white list is not being enforced.
 			$this->send();
 		}
 	}
@@ -247,6 +278,12 @@ class JavelinApi {
 			"apiToken" 			=> self::$apiTokens[getenv("APP_ENV")]
 		);
 
+		// Request a white list be provided if one has not
+		// been loaded yet.
+		if (!isset($this->whitelist) || ! $this->whiteList) {
+			$parameters["provideWhiteList"] = true;
+		}
+
 		// Initialize and configure the Curl request.
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
@@ -270,6 +307,8 @@ class JavelinApi {
 			$this->variations = $this->readCollectionData($json["variation"]);
 			$this->analytics = $this->readCollectionData($json["ga"]);
 			$this->clickGoals = json_encode($json["clickGoals"]);
+			$this->whiteList = json_decode($json["whiteList"]);
+			$this->saveSession();
 		}
 	}
 
@@ -480,10 +519,10 @@ class JavelinApi {
 			return 'Desktop';
 		}
 
-		$deviceRules = array(
+		$deviceRules = [
 			'mobile'		=> $this->mobileDetect->getPhoneDevices(),
 			'tablet'		=> $this->mobileDetect->getTabletDevices()
-		);
+		];
 
 		foreach ($deviceRules[$deviceType] as $name => $rule) {
 			if ($this->mobileDetect->match($rule)) {
@@ -493,6 +532,62 @@ class JavelinApi {
 
 		return "Unknown";
 	}
+
+	/**
+	 * Save the current state of Javelin for the current visitor
+	 * in the session data.
+	 */
+	private function saveSession()
+	{
+		$_SESSION[self::$sessionKey] = array(
+			"variations"		=> json_encode($this->variations),
+			"analytics"			=> json_encode($this->analytics),
+			"whiteList"			=> json_encode($this->whiteList)
+		);
+	}
+
+	/**
+	 * Load the persisted state of Javelin for the current visitor
+	 * from the session data.
+	 *
+	 * @return bool
+	 */
+	private function loadSession()
+	{
+		if (! isset($_SESSION[self::$sessionKey])) {
+			return false;
+		}
+
+		$data = $_SESSION[self::$sessionKey];
+
+		$this->variations = json_decode($data["variations"], true);
+		$this->analytics = json_decode($data["analytics"], true);
+		$this->whiteList = json_decode(stripslashes($data["whiteList"]), true);
+
+		return true;
+	}
+
+	/**
+	 * Enforce the persisted white list if available.
+	 *
+	 * @return bool True to enforce, false to not enforce
+	 */
+	private function enforceWhiteList()
+	{
+		if (! $this->whiteList ||
+			! is_array($this->whiteList)) {
+			return false;
+		}
+
+		$uri = $_SERVER["REQUEST_URI"];
+		foreach ($this->whiteList as $whiteListed) {
+			if (stripos($uri, $whiteListed) !== false) {
+				return false;
+			}
+		}
+
+		return true;
+	}
 }
 
 /**
@@ -500,7 +595,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.2.0
+ * @version 1.3.0
  *
  * Class JV
  */
