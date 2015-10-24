@@ -214,6 +214,7 @@ class JavelinApi {
 
 			// Enforce any loaded white list.
 			if ($this->enforceWhiteList()) {
+				echo "WHITELIST ENFORCED";
 				return;
 			}
 
@@ -308,6 +309,7 @@ class JavelinApi {
 			$this->analytics = $this->readCollectionData($json["ga"]);
 			$this->clickGoals = json_encode($json["clickGoals"]);
 			$this->whiteList = json_decode($json["whiteList"]);
+			echo "WHITELIST RECEIVED " . $this->whiteList . " | ";
 			$this->saveSession();
 		}
 	}
@@ -576,12 +578,14 @@ class JavelinApi {
 	{
 		if (! $this->whiteList ||
 			! is_array($this->whiteList)) {
+			echo "NO WHITELIST | ";
 			return false;
 		}
 
 		$uri = $_SERVER["REQUEST_URI"];
 		foreach ($this->whiteList as $whiteListed) {
 			if (stripos($uri, $whiteListed) !== false) {
+				echo "WHITE LIST MATCH " . $uri . " | ";
 				return false;
 			}
 		}
