@@ -519,10 +519,10 @@ class JavelinApi {
 			return 'Desktop';
 		}
 
-		$deviceRules = [
+		$deviceRules = array(
 			'mobile'		=> $this->mobileDetect->getPhoneDevices(),
 			'tablet'		=> $this->mobileDetect->getTabletDevices()
-		];
+		);
 
 		foreach ($deviceRules[$deviceType] as $name => $rule) {
 			if ($this->mobileDetect->match($rule)) {
