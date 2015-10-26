@@ -63,7 +63,7 @@ var ViewService = function ViewService(callback) {
 			var element = $(this);
 			var name = getViewName($(this));
 			viewCount++;
-			$.get('views/' + name + '.phtml', function(data) {
+			$.get('agile/views/' + name + '.phtml', function(data) {
 				element.html(data).animate({ opacity: 1 }, 200);
 			}).always(function() { renderCount++; checkForRenderCompletion();  });
 		});
@@ -132,7 +132,7 @@ var ViewService = function ViewService(callback) {
 	 */
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
-		$.get('views/' + name + '.phtml', function(data) {
+		$.get('agile/views/' + name + '.phtml', function(data) {
 			removeGives(element);
 			element.html(data).animate({ opacity: 1 }, 200);
 			if (callback) callback();

@@ -69,8 +69,9 @@ var ViewService = function ViewService(callback, unveilCallback) {
 			var element = $(this);
 			var name = getViewName($(this));
 			viewCount++;
-			$.get('views/' + name + '.phtml', function(data) {
+			$.get('views/' + name + '.html', function(data) {
 				element.html(data).animate({ opacity: 1 }, 200);
+				removeGives(element);
 			}).always(function() { renderCount++; checkForRenderCompletion();  });
 		});
 
@@ -144,10 +145,10 @@ var ViewService = function ViewService(callback, unveilCallback) {
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
 		console.log('loading view:' + name);
-		$.get('views/' + name + '.phtml', function(data) {
+		$.get('views/' + name + '.html', function(data) {
 			removeGives(element);
 			element.html(data).animate({ opacity: 1 }, 200);
-			if (callback) callback();
+			if (callback) callback(name);
 		});
 	};
 

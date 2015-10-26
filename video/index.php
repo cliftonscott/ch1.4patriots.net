@@ -16,6 +16,12 @@ if($isSecure ) {
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
+/*SPLIT JV-26 10/26/15*/
+if (JV::in("26-agile2")) {
+	include_once("agile/index.php"); exit;
+}
+/*END TEST*/
+
 /*SPLIT JV-25 10/23/15*/
 if (JV::in("25-agile")) {
 	include_once("Analytics.php");
