@@ -40,6 +40,9 @@ $page = "checkout";
 // Bootstrap this application page.
 include_once 'agile/bootstrap.php';
 
+// Update checkout redirects to be the Agile-version.
+$platform->setCsrOrderFormUrl("/checkout/agile/index.php");
+
 // Load the HTML head of this page.
 include_once 'agile/head.php';
 

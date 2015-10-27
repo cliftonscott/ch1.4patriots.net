@@ -103,7 +103,12 @@ class AssetManager {
 	private function serveScript($filename)
 	{
 		$filename = $this->addExtension($filename, ".js");
-		$this->js .= '<script type="text/javascript" src="' . $this->jsBaseUrl . $filename . '"></script>';
+
+		if ($this->page === "video") {
+			$this->js .= '<script type="text/javascript" src="' . 'agile/' . $this->jsBaseUrl . $filename . '"></script>';
+		} else {
+			$this->js .= '<script type="text/javascript" src="' . $this->jsBaseUrl . $filename . '"></script>';
+		}
 	}
 
 	/**

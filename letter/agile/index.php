@@ -78,9 +78,9 @@ include_once 'agile/head.php';
 	</header>
 
 	<div class="loading-letter"></div>
-	<div id="view-section-1" class="view-unveil view-give-2000"></div>
-	<div id="view-section-2" class="view-unveil view-give-2000"></div>
-	<div id="view-section-3" class="view-unveil view-give-2000"></div>
+	<div id="view-section-1" class="view view-give-2000"></div>
+	<div id="view-section-2" class="view view-give-2000"></div>
+	<div id="view-section-3" class="view view-give-2000"></div>
 
 </body>
 
@@ -98,7 +98,7 @@ include_once 'agile/head.php';
 
 		var viewService = new ViewService(
 			function(){},
-			function(){
+			function(name){
 				$('.blue.button').attr('href', '<?php echo $offerUrl; ?>');
 			}
 		);

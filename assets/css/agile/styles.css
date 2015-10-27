@@ -627,6 +627,9 @@ input[type=number]::-webkit-outer-spin-button {
 .checkout-btn-green-01 {
 	font-size: 33px;
 }
+/* REMOVE ADROLL POPUP
+-------------------------------------------------- */
+#adroll_bounce_notice{display:none !important;}
 @media (min-width: 650px) {
 /* CUSTOMIZE CHECKOUT FORM
 -------------------------------------------------- */
