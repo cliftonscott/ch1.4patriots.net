@@ -1,6 +1,8 @@
 <?php
 $targetNewArray = array (
 	"/video/index.php",
+	"/video/agile/index.php", //JV-26
+	"/checkout/agile/index.php", //JV-26
 	"/checkout/index.php",
 	"/letter/index.php",
 	"/letter/food/index.php",
