@@ -46,6 +46,53 @@ $platform->setCsrOrderFormUrl("/checkout/agile/index.php");
 // Load the HTML head of this page.
 include_once 'agile/head.php';
 
+// Bring in pre-fill customer data.
+if($customerDataObj = $customerObj->getStoredCustomer()) {
+	$preFill["firstName"] = $customerDataObj->firstName;
+	$preFill["lastName"] = $customerDataObj->lastName;
+	$preFill["email"] = $customerDataObj->email;
+	$preFill["phone"] = $customerDataObj->phone;
+	$preFill["billing-address"] = $customerDataObj->billingAddress1;
+	$preFill["billing-city"] = $customerDataObj->billingCity;
+	$preFill["billing-country"] = $customerDataObj->billingCountry;
+	$preFill["billing-state"] = $customerDataObj->billingState;
+	$preFill["billing-state-name"] = $customerDataObj->billingStateName;
+	$preFill["billing-zip"] = $customerDataObj->billingZip;
+	$preFill["shipping-address"] = $customerDataObj->shippingAddress1;
+	$preFill["shipping-city"] = $customerDataObj->shippingCity;
+	$preFill["shipping-country"] = $customerDataObj->shippingCountry;
+	$preFill["shipping-state"] = $customerDataObj->shippingState;
+	$preFill["shipping-state-name"] = $customerDataObj->shippingStateName;
+	$preFill["shipping-zip"] = $customerDataObj->shippingZip;
+} elseif (!empty($_GET["email"])) {
+	include("Limelight.php");
+	$ll = new Limelight();
+	$customerDataObj = $ll->getCustomerByEmail($_GET["email"]);
+	$preFill["firstName"] = $customerDataObj->firstName;
+	$preFill["lastName"] = $customerDataObj->lastName;
+	$preFill["email"] = $customerDataObj->email;
+	$preFill["phone"] = $customerDataObj->phone;
+	$preFill["billing-address"] = $customerDataObj->billingAddress1;
+	$preFill["billing-city"] = $customerDataObj->billingCity;
+	$preFill["billing-country"] = $customerDataObj->billingCountry;
+	$preFill["billing-state"] = $customerDataObj->billingState;
+	$preFill["billing-state-name"] = $customerDataObj->billingStateName;
+	$preFill["billing-zip"] = $customerDataObj->billingZip;
+	$preFill["shipping-address"] = $customerDataObj->shippingAddress1;
+	$preFill["shipping-city"] = $customerDataObj->shippingCity;
+	$preFill["shipping-country"] = $customerDataObj->shippingCountry;
+	$preFill["shipping-state"] = $customerDataObj->shippingState;
+	$preFill["shipping-state-name"] = $customerDataObj->shippingStateName;
+	$preFill["shipping-zip"] = $customerDataObj->shippingZip;
+	$_SESSION["customerDataArray"] = (array)$customerDataObj;
+}
+$view->customer = $customerDataObj;
+if(!empty($customerDataObj->shippingCity)) {
+	$view->customer->shippingCityState = $customerDataObj->shippingCity . "X " . $customerDataObj->shippingStateName;
+} else {
+	$view->customer->shippingCityState = " your area";
+}
+
 ?>
 
 <script>
