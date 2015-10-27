@@ -20,6 +20,11 @@ $stepTimeLog[] = $stepTime . " :: Create analyticsObj";
 include_once("Sale.php");
 $saleDataObj = new Sale();
 
+if (!isset($_SESSION["formReturn"])) {
+	$_SESSION["formReturn"] = "/checkout/index.php";
+}
+echo "RETURN" . $_SESSION["formReturn"];
+
 //--------------------------------------------------------------------------------------------------------------//
 
 //set the productId
@@ -145,6 +150,8 @@ if($postLimelight->responseCode !== 100) {
 			break;
 	}
 	unset($_SESSION["formReturn"]);
+	echo "NEXT PAGE:" . $nextPage;
+	exit;
 	header("Location: " . $nextPage);
 	////NOT PROCESSED ANY FURTHER
 	exit;
