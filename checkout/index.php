@@ -14,7 +14,6 @@ if($_SESSION["soldout"]["flag"] !== true) {
 }
 $maxQuantity = 5;
 
-$_SESSION["formReturn"] = "/checkout/index.php";
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
@@ -27,6 +26,7 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once ('template-top.php');
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
+<?php $_SESSION["formReturn"] = "/checkout/index.php"; ?>
 <script src="/js/audio.js"></script>
 <script>
 	/*
