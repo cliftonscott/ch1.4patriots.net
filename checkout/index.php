@@ -1,4 +1,5 @@
 <?php
+
 /*
  * use session soldout multidimensional array to indicate sold out conditions and associated
  * variables

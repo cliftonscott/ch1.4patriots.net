@@ -104,11 +104,7 @@ class AssetManager {
 	{
 		$filename = $this->addExtension($filename, ".js");
 
-		if ($this->page === "video") {
-			$this->js .= '<script type="text/javascript" src="' . 'agile/' . $this->jsBaseUrl . $filename . '"></script>';
-		} else {
-			$this->js .= '<script type="text/javascript" src="' . $this->jsBaseUrl . $filename . '"></script>';
-		}
+		$this->js .= '<script type="text/javascript" src="' . $this->jsBaseUrl . $filename . '"></script>';
 	}
 
 	/**
@@ -214,6 +210,16 @@ class AssetManager {
 		} else {
 			$this->cssBaseUrl = $base . "../../assets/css/agile/";
 			$this->jsBaseUrl = $base . "js/";
+		}
+
+		if ($this->page == "video") {
+			if ($this->isProduction()) {
+				$this->cssBaseUrl = $base . "../assets/css/prod/";
+				$this->jsBaseUrl = $base . "agile/js/prod/";
+			} else {
+				$this->cssBaseUrl = $base . "../assets/css/agile/";
+				$this->jsBaseUrl = $base . "agile/js/";
+			}
 		}
 	}
 }
