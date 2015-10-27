@@ -64,23 +64,31 @@ var ViewService = function ViewService(callback, unveilCallback) {
 	 * Call done() when all views have been rendered.
 	 */
 	var loadViews = function() {
-		console.log('loading views');
+
 		elements.views.each(function() {
 			var element = $(this);
 			var name = getViewName($(this));
 			viewCount++;
-			$.get('views/' + name + '.html', function(data) {
-				element.html(data).animate({ opacity: 1 }, 200);
-				removeGives(element);
-			}).always(function() { renderCount++; checkForRenderCompletion();  });
+
+			$.ajax({
+				method: "GET",
+				url: 'views/' + name + '.html',
+				cache: true,
+				headers: {
+					'Pragma': 'public, max-age=14400, must-revalidate',
+					'Cache-Control': 'public, max-age=14400, must-revalidate'
+				}
+			})
+				.done(function(data) {
+					element.html(data).animate({ opacity: 1 }, 200);
+					removeGives(element);
+				})
+				.always(function() { renderCount++; checkForRenderCompletion();  });
 		});
 
-		console.log('view count >');
-		console.log(viewCount);
 		if (viewCount === 0) {
 			renderCallback();
 		}
-
 
 		elements.unveilViews.each(function(){
 			var view = $(this);
@@ -144,12 +152,21 @@ var ViewService = function ViewService(callback, unveilCallback) {
 	 */
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
-		console.log('loading view:' + name);
-		$.get('views/' + name + '.html', function(data) {
-			removeGives(element);
-			element.html(data).animate({ opacity: 1 }, 200);
-			if (callback) callback(name);
-		});
+
+		$.ajax({
+			method: "GET",
+			url: 'views/' + name + '.html',
+			cache: true,
+			headers: {
+				'Pragma': 'public, max-age=14400, must-revalidate',
+				'Cache-Control': 'public, max-age=14400, must-revalidate'
+			}
+		})
+			.done(function(data) {
+				removeGives(element);
+				element.html(data).animate({ opacity: 1 }, 200);
+				if (callback) callback(name);
+			});
 	};
 
 	/**
