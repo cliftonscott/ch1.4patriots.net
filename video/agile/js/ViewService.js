@@ -63,9 +63,21 @@ var ViewService = function ViewService(callback) {
 			var element = $(this);
 			var name = getViewName($(this));
 			viewCount++;
-			$.get('views/' + name + '.phtml', function(data) {
-				element.html(data).animate({ opacity: 1 }, 200);
-			}).always(function() { renderCount++; checkForRenderCompletion();  });
+
+			$.ajax({
+				method: "GET",
+				url: 'agile/views/' + name + '.phtml',
+				cache: true,
+				headers: {
+					'Pragma': 'public, max-age=14400, must-revalidate',
+					'Cache-Control': 'public, max-age=14400, must-revalidate'
+				}
+			})
+				.done(function(data) {
+					element.html(data).animate({ opacity: 1 }, 200);
+					removeGives(element);
+				})
+				.always(function() { renderCount++; checkForRenderCompletion();  });
 		});
 
 		if (viewCount === 0) {
@@ -132,11 +144,21 @@ var ViewService = function ViewService(callback) {
 	 */
 	that.load = function load(element, callback) {
 		var name = getViewName(element);
-		$.get('views/' + name + '.phtml', function(data) {
-			removeGives(element);
-			element.html(data).animate({ opacity: 1 }, 200);
-			if (callback) callback();
-		});
+
+		$.ajax({
+			method: "GET",
+			url: 'agile/views/' + name + '.phtml',
+			cache: true,
+			headers: {
+				'Pragma': 'public, max-age=14400, must-revalidate',
+				'Cache-Control': 'public, max-age=14400, must-revalidate'
+			}
+		})
+			.done(function(data) {
+				removeGives(element);
+				element.html(data).animate({ opacity: 1 }, 200);
+				if (callback) callback(name);
+			});
 	};
 
 	/**

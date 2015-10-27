@@ -1,4 +1,8 @@
 <?php
+
+// Change the working directory immediately.
+chdir('agile/');
+
 /*
 |--------------------------------------------------------------------------
 | VSL Configuration
