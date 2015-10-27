@@ -1,8 +1,11 @@
 <?php
+echo "RETURN" . $_SESSION["formReturn"];
 include_once("Platform.php");
 $platform = new Platform();
 include_once("Dblog.php");
 $startProcessTime = microtime(true);
+
+echo "RETURN" . $_SESSION["formReturn"];
 
 //==============================================================================================================//
 //==============================================================================================================//
