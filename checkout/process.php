@@ -1,11 +1,8 @@
 <?php
-echo "RETURN" . $_SESSION["formReturn"];
 include_once("Platform.php");
 $platform = new Platform();
 include_once("Dblog.php");
 $startProcessTime = microtime(true);
-
-echo "RETURN" . $_SESSION["formReturn"];
 
 //==============================================================================================================//
 //==============================================================================================================//
@@ -22,11 +19,6 @@ $stepTimeLog[] = $stepTime . " :: Create analyticsObj";
 //get/create a data object where we can store values related to this single sale
 include_once("Sale.php");
 $saleDataObj = new Sale();
-
-if (!isset($_SESSION["formReturn"])) {
-	$_SESSION["formReturn"] = "/checkout/index.php";
-}
-echo "RETURN" . $_SESSION["formReturn"];
 
 //--------------------------------------------------------------------------------------------------------------//
 
@@ -153,8 +145,6 @@ if($postLimelight->responseCode !== 100) {
 			break;
 	}
 	unset($_SESSION["formReturn"]);
-	echo "NEXT PAGE:" . $nextPage;
-	exit;
 	header("Location: " . $nextPage);
 	////NOT PROCESSED ANY FURTHER
 	exit;

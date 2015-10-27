@@ -26,8 +26,6 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 include_once ('template-top.php');
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
-<?php $_SESSION["formReturn"] = "/checkout/index.php"; ?>
-<?php echo "RETURN:" . $_SESSION["formReturn"]; ?>
 <script src="/js/audio.js"></script>
 <script>
 	/*
@@ -328,4 +326,3 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<?php include_once("f4p-product-info-seeds-bonus.html"); ?>
 	</div>
 	<?php include_once ('template-bottom.php'); ?>
-	<?php echo "RETURN:" . $_SESSION["formReturn"]; ?>
