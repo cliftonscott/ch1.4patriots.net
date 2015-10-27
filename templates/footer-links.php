@@ -1,8 +1,6 @@
 <?php
 $targetNewArray = array (
 	"/video/index.php",
-	"/video/agile/index.php", //JV-26
-	"/checkout/agile/index.php", //JV-26
 	"/checkout/index.php",
 	"/letter/index.php",
 	"/letter/food/index.php",
@@ -12,7 +10,7 @@ $targetNewArray = array (
 	"/checkout/t1/thankyou.php",
 
 	);
-if(in_array($_SERVER["PHP_SELF"], $targetNewArray)) {
+if(in_array($_SERVER["PHP_SELF"], $targetNewArray) || stripos($_SERVER["PHP_SELF"], "/agile/") !== FALSE) { //JV-26
 	$footerLinkTarget = "_blank";
 } else {
 	$footerLinkTarget = "_self";
