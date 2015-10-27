@@ -21,6 +21,7 @@ include_once("Sale.php");
 $saleDataObj = new Sale();
 
 //--------------------------------------------------------------------------------------------------------------//
+
 //set the productId
 if($_POST["productId"]) {
 	$productId = intval($_POST["productId"]);

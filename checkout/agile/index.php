@@ -23,6 +23,7 @@ if($_SESSION["soldout"]["flag"] !== true) {
 }
 $maxQuantity = 5;
 
+$_SESSION["formReturn"] = "/checkout/index.php";
 $template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
 // SET PRODUCT ID
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
