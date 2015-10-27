@@ -77,8 +77,37 @@ include_once 'agile/head.php';
 		</div>
 	</header>
 
-	<div class="loading-letter"></div>
-	<div id="view-section-1" class="view view-give-2000"></div>
+	<!-- start of section 1 -->
+	<section class="section dots-top">
+		<div class="section-inner">
+			<span class="head-dots"></span>
+			<!-- start of block white -->
+			<div class="white-bg">
+				<div class="section1-header">
+					<h2 class="dark-red">&quot;A Letter From The Feds That Chilled Me To The Bone...&quot;</h2>
+					<p class="section-description">Not too long ago, FEMA went directly to my supplier and tried to buy up my entire stockpile of high-quality survival food. It sounds crazy, but I'll show you the exact letter they sent in a minute.</p>
+					<p></p>
+					<p>Revealing FEMA's plot could land me in hot water, but I think  <strong>you deserve to know exactly what they're doing.</strong></p>
+					<p>Sounds fair, right?</p>
+					<p>I'm about to show you undeniable proof that FEMA is on the hunt for as much survival food as they can grab in 24 hours.</p>
+				</div>
+				<div class="padding-all pad-bottom">
+					<img data-src="/media/images/f4p/letter/f4p-letter-fema.jpg" src="/media/images/f4p/letter/blank.gif" width="320" height="241" class="media lazy has-bg right">
+					<p><strong>&quot;I've got to tell you - it's really disturbing.&quot; </strong></p>
+					<p>You can imagine that FEMA was willing to pay a pretty penny; the kind of money small businesses dream about in an economy like this. Money that would probably come with a nice, fat government contract.</p>
+					<p><strong>The fact is - they must know something we don't.</strong></p>
+					<p>My first thought was that they must be trying to control the supply. Control the food supply and you control the people. I mean, it worked for Stalin and Mao, right? Why not Obama?</p>
+					<p><i>But then I dug deeper and I think the situation is even worse. </i></p>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<div id="view-section-1" class="view view-give-2000"></div>
+
+		</div>
+	</section>
+
 	<div id="view-section-2" class="view view-give-2000"></div>
 	<div id="view-section-3" class="view view-give-2000"></div>
 
@@ -97,10 +126,15 @@ include_once 'agile/head.php';
 	window.onload = function() {
 
 		var viewService = new ViewService(
-			function(){},
 			function(name){
 				$('.blue.button').attr('href', '<?php echo $offerUrl; ?>');
-			}
+
+				$(".lazy").unveil(1000, function() {
+					console.log('animate');
+					$(this).animate({ opacity: 1 }, 300);
+				});
+			},
+			function() {}
 		);
 	};
 
