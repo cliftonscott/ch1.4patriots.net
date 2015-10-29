@@ -21,15 +21,7 @@ if($_GET["v"]) {
 
 ?>
 	<div class="container-main">
-		<!-- SPLIT JV-16 9/17/15-->
-		<?php
-		if (JV::in("20-aimee")) {
-			include_once("content-aimee.php");
-		}else{
-			include_once("content-timmy.php");
-		}
-		?>
-		<!--/// End Test///-->
+		<?php include_once("content-timmy.php"); ?>
 	</div>
 <?php
 include_once("template-bottom.php");
