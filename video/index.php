@@ -102,6 +102,61 @@ $platform->setCsrModalButtons("sample,video,letter");
 <script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
+<!--// SPLIT JV-24 10/19/15-->
+<?php if (JV::in("24-play")) { ?>
+<script>
+	// Change these values for the content within the "buttons" div to appear at this time.
+
+	function tabletTimers(){
+
+		if ($.cookie("sawbutton")) {
+			var hours = 0;
+			var minutes = 0;
+			var seconds = 5;
+		} else {
+			var hours = 0;
+			var minutes = 27;
+			var seconds = 51;
+		}
+
+		// Start by converting hours to milliseconds
+		var time = hours * 60 * 60 * 1000;
+		// Add minutes converted to milliseconds and add to total time
+		time += minutes * 60 * 1000;
+		// Add seconds to total time after converting to milliseconds
+		time += seconds * 1000;
+
+		if ($.cookie("sawbutton")) {
+			// If return visitor that saw button, show alt button
+			$("#reserve").oneTime(time, function() {
+				$("#reserve").css("display", "block");
+				$("#reserve").oneTime(5000, function() {
+					$("#reserve").css("display", "none");
+					$("#buyButton").css("display", "block");
+					$("#buyButton2").css("display", "block");
+					$("#buyButton3").css("display", "block");
+					$("#buyButton4").css("display", "block");
+				});
+
+			});
+		} else {
+			// If visitor hasn't seen button yet, show default button
+			$("#reserve").oneTime(time, function() {
+				$("#reserve").css("display", "block");
+				$("#reserve").oneTime(5000, function() {
+					$("#reserve").css("display", "none");
+					$("#buyButton").css("display", "block");
+					$("#buyButton2").css("display", "block");
+					$("#buyButton3").css("display", "block");
+					$("#buyButton4").css("display", "block");
+				});
+			});
+		}
+		setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
+	};
+
+</script>
+<?php } else { ?>
 <script>
 // Change these values for the content within the "buttons" div to appear at this time.
  
@@ -154,6 +209,8 @@ $platform->setCsrModalButtons("sample,video,letter");
 		});
 
 </script>
+<?php } ?>
+
 <script>
 /*
 	This is the countdown timer, used for the visual display of the 'clock'.

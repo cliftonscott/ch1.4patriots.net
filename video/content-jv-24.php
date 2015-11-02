@@ -66,18 +66,28 @@
 					<?php
 					}else {
 					?>
-						<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-						<div class="wistia_embed wistia_async_voc8m0rg1a" style="height:360px;width:640px">&nbsp;</div>
+						<iframe src="//fast.wistia.net/embed/iframe/7lkd7964gi" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 						<script>
 							window._wq = window._wq || [];
 							_wq.push({ "_all": function(video) {
 								$("#tapplay").click(function() {
-									video.play()
+									video.play();
+									$("#tapplay").css("display", "none");
+								});
+								video.bind("pause", function() {
+									$("#buyButton").css("display", "block");
+									$("#buyButton2").css("display", "block");
+									$("#buyButton3").css("display", "block");
+									$("#buyButton4").css("display", "block");
+								});
+								video.bind("play", function() {
+									tabletTimers();
+									$("#tapplay").css("display", "none");
 								});
 							}});
 
 						</script>
-
 					<?php
 					}
 					?>
