@@ -46,12 +46,8 @@
 					<?php
 					if($variation === "pu") {
 						?>
-						<iframe src="//fast.wistia.net/embed/iframe/voc8m0rg1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<script type="text/javascript">
-							window.addEventListener("focus", function(event)
-								{ startTimer(); }
-								, false);
-						</script>
+						<iframe src="//fast.wistia.net/embed/iframe/7lkd7964gi" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					} elseif($vsl === "stansberry") {
 					?>
