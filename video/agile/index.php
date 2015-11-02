@@ -160,13 +160,12 @@ include_once 'agile/head.php';
 					<a href="<?php echo $offerUrl; ?>"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-choose-kit-01.jpg" alt="Order Now!"></a>
 				</div>
 			</div>
-
 			<div class="col-md-12">
 				<div id="videobox">
 					<?php
-					if($variation === "pu") {
-						?>
-
+					if($variation === "pu") { ?>
+						<iframe src="//fast.wistia.net/embed/iframe/7lkd7964gi" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					} elseif($vsl === "stansberry") {
 					?>
