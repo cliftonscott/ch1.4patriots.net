@@ -273,7 +273,7 @@ PRODUCT DESKTOP
 	height:73px;
 	width:100%;
 	margin: 0 auto;
-	background: linear-gradient(rgba(79,141,29,0.9),rgba(101,179,39,0.9)),
+	background: linear-gradient(rgba(255, 163, 0, 0.9), rgba(255, 121, 31, 0.9)),
 				url("/media/images/checkout-v2/buy-button-pattern.png");
 	border: solid 2px #fff;
 	box-shadow: 0 0 18px 0 rgba(0,0,0,0.5);
@@ -292,7 +292,7 @@ PRODUCT DESKTOP
 }
 
 .buy-button:hover {
-	background: linear-gradient(rgba(101,179,39,0.9),rgba(79,141,29,0.9)),
+	background: linear-gradient(rgba(255, 163, 0, 0.9), rgba(255, 163, 0, 0.9)),
 				url("/media/images/checkout-v2/buy-button-pattern.png");
 	color: rgba(255,255,255,0.8);
 }
@@ -723,12 +723,20 @@ BACK TO TOP BOX
 #toTop{
 	position: fixed;
 	bottom: 30px;
-	right: 105px;
+	left: 50%;
 	cursor: pointer;
 	display: none;
 	z-index: 10;
+	color: #fff;
+	background-color: rgba(16, 63, 186, 0.91);
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	width: 800px;
+	text-align: center;
+	margin: 7px 0 0 -400px;
 }
-#toTop .fa {margin-right: 5px;}
+#toTop .fa {margin: 10px;}
 
 
 /* CUSTOMIZE CHECKOUT FORM

@@ -293,7 +293,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 			</div>
 		</div>
-		<div style="position: absolute;top: 87px;left: -151px;"><img src="/assets/images/checkout/arrows-choose-kit.png"></div>
+		<div style="position: absolute;top: 104px;left: -156px;"><img src="/assets/images/checkout/arrows-choose-kit.png"></div>
 	</div>
 </div>
 
@@ -715,7 +715,7 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 		<div id="checkout-button-container">
 			<div class="row">
-				<div class="col-md-2">
+				<!--<div class="col-md-2">
 					<div class="container-stopwatch">
 						<div class="stopwatch"><img src="/assets/images/checkout/stopwatch.svg"></div>
 						<div class="circle-min"></div>
@@ -748,9 +748,9 @@ if(!empty($customerDataObj->shippingCity)) {
 							changeColor($('.circle-bg'), 0);
 						</script>
 					</div>
-				</div>
+				</div>-->
 
-				<div class="col-md-10"><a href="javascript:void(0);" onclick="showCheckout();$('#firstName').focus();"><div class="buy-button">ADD TO CART</div></a></div>
+				<div class="col-md-12"><a href="javascript:void(0);" onclick="showCheckout();$('#firstName').focus();"><div class="buy-button">ADD TO CART</div></a></div>
 				<!--<div class="col-md-12"><a href="javascript:void(0);" onclick="showCheckout();$('#firstName').focus();"><div class="buy-button">ADD TO CART</div></a></div>-->
 			</div>
 		</div>
@@ -1392,7 +1392,7 @@ if(isset($preFill)) {
 		$(".audio-message-container").css("display", "block");
 	}
 	$(document).ready(function(){
-		$('body').append('<div id="toTop"><img src="/assets/images/checkout/btn-backtop.png"></div>');
+		$('body').append('<div id="toTop"><i class="fa fa-arrow-circle-up pull-left"></i><i class="fa fa-arrow-circle-up pull-right"></i><div style="margin-top: 7px;">BACK TO TOP</div></div>');
 		$(window).scroll(function () {
 			if ($(this).scrollTop() != 0) {
 				$('#toTop').fadeIn();
