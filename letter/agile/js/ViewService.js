@@ -101,7 +101,7 @@ var ViewService = function ViewService(callback, unveilCallback) {
 	 */
 	var checkForRenderCompletion = function() {
 		if (renderCount == viewCount) {
-			console.log('render callback');
+			/*console.log('render callback');*/
 			renderCallback();
 		}
 	};
@@ -120,8 +120,8 @@ var ViewService = function ViewService(callback, unveilCallback) {
 	};
 
 	var removeGives = function(element) {
-		console.log('remove gives element >');
-		console.log(element);
+		/*console.log('remove gives element >');
+		console.log(element);*/
 		var classes = element.attr('class').split(" ").filter(function(c) {
 			return c.lastIndexOf('view-give', 0) !== 0;
 		});

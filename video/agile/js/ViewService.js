@@ -95,7 +95,7 @@ var ViewService = function ViewService(callback) {
 	 */
 	var checkForRenderCompletion = function() {
 		if (renderCount == viewCount) {
-			console.log('render callback');
+			/*console.log('render callback');*/
 			renderCallback();
 		}
 	};
