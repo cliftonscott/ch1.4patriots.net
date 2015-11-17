@@ -285,7 +285,7 @@ class Analytics {
 		if(!empty(self::$sspData)){
 			$qs["sspdata"] = self::$sspData;
 		}
-		if($qs) {
+		if(isset($qs)) {
 			$qs = http_build_query($qs);
 			$this->setQueryString($qs);
 		}
