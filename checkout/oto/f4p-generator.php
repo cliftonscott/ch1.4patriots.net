@@ -138,7 +138,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>…targeting something critical to life as we know it that&rsquo;s so old, so under-protected, and so vulnerable, it&rsquo;s become our &quot;weakest link&quot;. </p>
 			<p>And it&rsquo;s shocking it hasn&rsquo;t been destroyed...<strong>YET.</strong></p>
 			<p>And I&rsquo;m not talking about terror attacks that are in the planning stages…</p>
-			<h2 class="darkRed text-center center-block title-max-560"><strong>&quot;I&rsquo;m Talking About Attacks That Are ALREADY HAPPENING.&quot;</strong></h2>
+			<h2 class="darkRed text-center center-block title-max-560"><strong>I&rsquo;m Talking About Attacks That Are ALREADY HAPPENING.</strong></h2>
 			<p><img src="/media/images/ppg/ppg-oto-powerstation-01.jpg" class="img-responsive pull-right img-padding-left media">And yet somehow the government is managing to bury this terrifying threat, and what&rsquo;s worse, they&rsquo;re not doing anything to stop it.</p>
 			<p>If you want those you love to survive this all-too-real threat that&rsquo;s just around the corner, pay very close attention to this entire presentation...</p>
 			<p>If you leave this page, you'll be missing your opportunity to protect yourself and your family from this devastating disaster. </p>
@@ -154,7 +154,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Because the truth is, losing the grid would be like watching our country have a heart attack&#8230; </p>
 			<p>&#8230;When the heart stops pumping, everything shuts down and the patient flatlines. </p>
 			<p>When a full-blown terrorist attack on the grid happens, (and it's not a question of "if" but "when", folks) inconvenience turns to a real-life horror movie... </p>
-			<h2 class="darkRed text-center">&quot;Except In This Case, There's No End In Sight.&quot;</h2>
+			<h2 class="darkRed text-center">Except In This Case, <br class="hidden-xs">There's No End In Sight.</h2>
 			<p>Our great country would be crippled in a matter of minutes, before our enemies even have boots on the ground. </p>
 			<p>Imagine your life frozen in time right at the moment the power fails...and that you'd begin to lose everything in that split-second. </p>
 			<p>Lights all over country would go out, throwing people into total darkness. </p>
@@ -170,7 +170,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>All your communication devices would be as useful as a tin-can telephone. </p>
 			<p>Nope - no smart phones, no tablets, no computers.</p>
 			<p>You'd be isolated and alone, cut off from your friends and family&#8230;or any form of help. </p>
-			<h2 class="darkRed text-center"><strong>&quot;The Simple Fact Is That EVERYTHING Would Just...STOP.&quot;</strong> </h2>
+			<h2 class="darkRed text-center"><strong>The Simple Fact Is That <br class="hidden-xs">EVERYTHING Would Just...STOP.</strong> </h2>
 			<p>Every store would be picked over and shelves completely emptied within hours. </p>
 			<p>Looters would make quick work of any remaining stock, to keep for themselves, or sell at jacked-up prices to desperate people clamoring for supplies or food.</p>
 			<p>Forget stores...you couldn't even get to your money in your bank account to buy anything, anyway! </p>
@@ -187,7 +187,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Society would quickly become a deadly free-for-all. </p>
 			<p>Sound like something out of a Stephen King novel? </p>
 			<p>Well, it isn't folks. This isn't some tin-foil hat wearing conspiracy theory. </p>
-			<h2 class="darkRed text-center"><strong>&quot;It Could Happen At Any Moment, And I've Got The Stone Cold Proof.&quot;</strong> </h2>
+			<h2 class="darkRed text-center"><strong>It Could Happen At Any Moment,<br class="hidden-xs"> And I've Got The Stone Cold Proof.</strong> </h2>
 			<p>Here's a frightening quote from Dr. Richard Andres, US National War College: </p>
 			<p><strong> <em> "A massive and well-coordinated cyber-attack on the electrical grid could devastate the economy and cause a large-scale loss of life." </em> </strong> </p>
 			<p>Just to show you how very hard terrorists are working to bring down the grid using nothing more than an Internet connection, check this out from Politico.com: </p>
@@ -209,7 +209,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p> The attack was so bold, former Chairman of the Federal Energy Regulatory Committee, Jon Wellinghoff, calls this attack <strong>"the most significant incident of domestic terrorism involving the grid that has ever occurred</strong>." </p>
 			<p>AND he's concerned an even LARGER ATTACK could be in our near future. </p>
 			<p>Even Col. Allen West, a highly decorated soldier and American hero, called it "a dry run" for future attacks. </p>
-			<h2 class="darkRed text-center">&quot;What Does This Really Mean?&quot;</h2>
+			<h2 class="darkRed text-center">What Does This Really Mean?</h2>
 			<p>It means the terrorists are just getting started.<strong><em></em></strong> </p>
 			<p>And what do you think Obama and his cronies plan to do about these threats? </p>
 			<p>They probably have some sort of special team working on this 24/7, right? </p>
@@ -231,7 +231,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Talk about being ripe for a crisis. </p>
 			<p>If you were to compare the grid to an American city, guess which one it would resemble the most? </p>
 			<p>With all its ruin and decay, without hesitating, I would say...<strong>Washington, D.C.</strong> </p>
-			<h2 class="darkRed text-center"><strong>&quot;Are You Scared Yet? You Should Be.&quot;</strong> </h2>
+			<h2 class="darkRed text-center"><strong>Are You Scared Yet?<br class="hidden-xs"> You Should Be.</strong> </h2>
 			<p><img src="/media/images/ppg/ppg-oto-sandystorm-01.jpg" class="img-responsive pull-right img-padding-left media" >Case in point, the best example we have of how weak the grid really is happened just a couple of years ago, when the East Coast got pulverized by Superstorm Sandy. </p>
 			<p>This "Nor' Easter" packed such a wallop, <strong>it knocked out power to over 250,000 NYC residents!</strong> </p>
 			<p>I couldn't believe my eyes as I watched New Yorkers actually DUMPSTER DIVING for food after the storm, because they had no power and nothing to eat. </p>
@@ -261,7 +261,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>It's a pretty bleak picture right now. </p>
 			<p>Soon, the burden on our already weak grid will become completely unsustainable. </p>
 			<p>Not to mention the fact that they're doing precisely NOTHING to harden the grid against the attacks that just keep coming. </p>
-			<h2 class="darkRed text-center">&quot;No Friends, If You Want To Survive The Coming Power Failures And Blackouts, The Bare-knuckled Truth Is That You Are Going To Have To Take Care Of It Yourself.&quot;</h2>
+			<h2 class="darkRed text-center">No Friends, If You Want To Survive The Coming Power Failures And Blackouts, The Bare-knuckled Truth Is That You Are Going To Have To Take Care Of It Yourself.</h2>
 			<p><img src="/media/images/ppg/ppg-oto-gasprices-01.png" class="img-responsive pull-left img-padding-right media" >Now, maybe you’re thinking a backup generator would be just the ticket. But did you know that even a small generator with just enough juice to power a few appliances and lights costs over $30 a day to operate?</p>
 
 			<p><strong>That’s over $230 a week... more than $12,000 a year!</strong></p>
@@ -272,7 +272,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>They will take what they want, and may even be armed. You certainly don&rsquo;t want to make yourself an easy target with a loud and stinky generator!</p>
 			<p>Plus, who wants to listen to that constant engine knock or breathe in all those smelly fumes? Not to mention having to keep a huge supply of flammable gasoline near your house at all times!</p>
 			<p>And the big question…</p>
-			<h2 class="darkRed text-center">&quot;What If You Can’t Get Any Gas Because The Stations Have Been Pumped Dry As A Bone?&quot;</h2>
+			<h2 class="darkRed text-center">What If You Can’t Get Any <br class="hidden-xs">Gas Because The Stations Have <br class="hidden-xs">Been Pumped Dry As A Bone?</h2>
 			<img src="/media/images/ppg/ppg-oto-riot-01.jpg" class="img-responsive pull-right img-padding-left media">
 			<p>Gas stations don&rsquo;t function without electricity, anyway!</p>
 			<p>What then? You&rsquo;d be SOL, that&rsquo;s what.</p>
@@ -289,7 +289,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>You don&rsquo;t want to have to resort to a gas guzzling or natural gas generator, which would require you to completely empty your bank account.</p>
 			<p>You don&rsquo;t want to worry about another Sandy or Katrina, wiping out power for days or weeks on end…leaving you and your family completely helpless…</p>
 			<p>You need to be sure you don&rsquo;t have to rely on any outside source to keep the lights on, appliances running, or your house warm or cool…</p>
-			<h2 class="darkRed text-center">&quot;So What’s The Answer?&quot;</h2>
+			<h2 class="darkRed text-center">So What’s The Answer?</h2>
 			<p><strong>The answer is having a way to harness the limitless and FREE energy from the sun, with a portable solar powered generator.</strong></p>
 			<p>Here&rsquo;s the truth, folks: You need to make your home a self-powered oasis…with a reliable, discreet, and MOBILE source of power.</p>
 			<p>No gas or propane required. Ever.</p>
@@ -299,13 +299,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>One that could harness limitless FREE power from the sun…one that was powerful and could provide enough juice to keep vital devices running: lights, cell phones, laptops, tablets, small appliances, even a freezer and small fridge.</p>
 			<p>But most important? One that you could pack up in a matter of minutes, load into your car, truck, or RV, and get the heck out of dodge when a crisis hits.</p>
 			<p>I was completely frustrated by the lack of solutions on the market. So...</p>
-			<h2 class="darkRed text-center">&quot;I Finally Took Matters Into My Own Hands…&quot;</h2>
+			<h2 class="darkRed text-center">I Finally Took Matters <br class="hidden-xs">Into My Own Hands...</h2>
 			<p>I got in touch with a rogue engineer based in Utah who is just as passionate about this I am and 100 times more knowledgeable than me. This guy has spent years training as an engineer and has traveled all over the world for the past two decades, relentlessly researching the best way to generate and store the free power from the sun. </p>
 			<p>When I told him what I was trying to do, he got on board immediately...we got so worked up about the idea that we were both talking at once! I begged and pleaded, and he retreated to his lab for months of hard work.</p>
 			<p>Finally he had a design nailed down. And we found an innovative manufacturer who was willing to take chance on this idea. After months and months of tweaking and testing..</p>
-			<h2 class="darkRed text-center">&quot;I’m Proud To Introduce The Patriot Power Generator 1500.&quot;</h2>
+			<h2 class="darkRed text-center">I’m Proud To Introduce The <br class="hidden-xs">Patriot Power Generator 1500.</h2>
 			<img src="/media/images/ppg/ppg-product-oto-01.jpg" class="img-responsive center-block">
-			<p>I can honestly tell you that you’ll be stunned at how powerful and yet portable this complete generator is. It’s got a state-of-the-art lithium-ion battery that charges completely using the included top of the line folding solar panel. At only 38.2 pounds, anybody can lift it and it fits neatly into almost any cargo space, ready to go at any time.</p>
+			<p>I can honestly tell you that you’ll be stunned at how powerful and yet portable this complete generator is. It’s got a state-of-the-art lithium-iron phosphate battery that charges completely using the included top of the line folding solar panel. At only 38.2 pounds, anybody can lift it and it fits neatly into almost any cargo space, ready to go at any time.</p>
 			<p>Compared to the alternatives, the Patriot Power Generator 1500 has so many advantages <strong>it&rsquo;s almost UNFAIR for it to even be on the market.</strong></p>
 			<p>Before I tell you more of the details, I keep coming back to this point…being able to have a power source like this that you can recharge ENDLESSLY, that will never run out of gas…and that you can keep safely and discreetly in your home OR grab it and go if you need to. This is true peace of mind for you and your family. </p>
 			<p>Just imagine…this one device could be the difference between being able to live through a crisis in safety and comfort, or having to scramble desperately to take care of even your family&rsquo;s most basic needs. Just think of all the ways you will use this:</p>
@@ -318,7 +318,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<li>And much more!</li>
 			</ul>
 			<p>Okay so…</p>
-			<h2 class="darkRed text-center">&quot;You Know It Isn’t A Matter Of IF You Need A Generator, But Which One?&quot;</h2>
+			<h2 class="darkRed text-center">You Know It Isn’t A Matter Of <br class="hidden-xs">IF You Need A Generator,<br class="hidden-xs"> But Which One?</h2>
 			<img src="/media/images/ppg/ppg-oto-checkmarks-01.jpg" class="img-responsive pull-left img-padding-right media">
 			<p>So let&rsquo;s take a moment here so you can understand why my <strong>Patriot Power Generator 1500 checks all the &quot;must have&rdquo; boxes to be the finest personal power source available on the market.</strong></p>
 			<p>First off, we all know that gasoline generators, the most common type on the market, will make a TON of noise and pollute the air with noxious fumes. They&rsquo;ll also DRAW UNWANTED ATTENTION when all hell is breaking loose outside, and marauders and looters are scanning your neighborhood for resources they can use for themselves.</p>
@@ -326,7 +326,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>The Patriot Power Generator 1500 is much quieter than a gas/diesel generator, fume-free, discreet AND SAFE. There are no caustic, flammable chemicals or lead-acid batteries to worry you or your family. You can keep it right in your bedroom and still sleep like a baby.</p>
 			<p>Natural gas generators may be able to power your whole house, but guess what? If a storm flattens your residence, you&rsquo;re without your fancy generator AND the tens of thousands of dollars it costs to install!</p>
 			<p>The Patriot Power Generator 1500 is so simple to use, it&rsquo;s truly a &quot;plug and play&rdquo; generator. Even a child can easily use it.</p>
-			<h2 class="darkRed text-center">&quot;It Really IS As Easy As 1-2-3!&quot;</h2>
+			<h2 class="darkRed text-center">It Really IS As Easy As 1-2-3!</h2>
 			<img src="/media/images/ppg/ppg-oto-ppg-steps-01.jpg" class="img-responsive pull-right img-padding-left media">
 			<p><span class="brightBlue"><strong>Step 1:</strong></span> Unfold and set up your solar panel in the sunlight.</p>
 			<p><span class="brightBlue"><strong>Step 2:</strong></span> Plug the solar panel into the Patriot Power Generator 1500.</p>
@@ -337,14 +337,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>That means that you can &quot;set it and forget it&rdquo;…if a crisis hits you won&rsquo;t have to wait for it to charge. It will be good to go!</p>
 			<p>But I&rsquo;m saving the best for last. </p>
 			<p>As I&rsquo;ve said repeatedly throughout this entire presentation, any source of power is absolutely useless if you can&rsquo;t take it with you.</p>
-			<h2 class="darkRed text-center">&quot;That’s Why I Made Sure The Patriot Power Generator 1500 Was Small, Compact, AND Powerful.&quot;</h2>
+			<h2 class="darkRed text-center">That’s Why I Made Sure The <br class="hidden-xs">Patriot Power Generator 1500 Was<br class="hidden-xs"> Small, Compact, AND Powerful.</h2>
 			<p>It weighs only 38.2 pounds, and at only 18”L x 10”W x 12”H, is small enough to go anywhere with you. The compact size also means it&rsquo;s easy to store discreetly; no one needs to know you have a covert power source tucked away in your home. Don&rsquo;t be fooled by its small size, friends. This little generator packs a punch when it comes to delivering power. It can be fully charged in as little as 3.5 hours, and comes with a commercial grade, collapsible solar panel that folds up nice and easy.</p>
 			<p>I  always recommend to all of my friends and family to have a fully realized &quot;bug out&rdquo; plan. This is exactly what I envisioned when I came up with the Patriot Power Generator 1500. It&rsquo;s only a matter of time before a major event cripples the grid – and none of us knows if that will be for a few hours, days, or even weeks or longer!</p>
 			<p>But don’t think you have to wait until the “you-know-what” hits the fan to take advantage of this little workhorse. Its small size, portability, and ease of use make it perfect for camping, hunting and fishing trips, taking along on your next RV vacation, or even weekend tailgating and sporting events. I bet you can picture literally a HUNDRED ways you will use and enjoy having an easy, free source of power!</p>
 			<p>We have to be prepared. And I&rsquo;ve thought of everything in this &quot;little generator that could&rdquo; so YOU don&rsquo;t have to…</p>
 			<p>Just so you can clearly see what makes my Patriot Power Generator 1500 head and shoulders above the rest, here it is &quot;up close and personal&rdquo;...</p>
-			<h2 class="darkRed text-center">&quot;Truth Is, My Generator’s Combination Of Features Gives It An Unfair Edge Over Its Competition...&quot;</h2>
-			<p> <strong>Lithium Ion Battery:</strong> my Patriot Power Generator 1500 contains a safe, state-of-the-art lithium-iron phosphate (LiFePO4) battery (this is the same kind of battery used by NASA). This is far superior to older, out of date lead acid batteries, which can leak caustic chemicals, causing a hazard to your family’s health and safety. Plus they don’t last nearly as long.</p>
+			<h2 class="darkRed text-center">Truth Is, My Generator’s <br class="hidden-xs">Combination Of Features Gives It An<br class="hidden-xs"> Unfair Edge Over Its Competition...</h2>
+			<p> <strong>Lithium Iron Phosphate Battery:</strong> my Patriot Power Generator 1500 contains a safe, state-of-the-art lithium-iron phosphate (LiFePO4) battery (this is the same kind of battery used by NASA). This is far superior to older, out of date lead acid batteries, which can leak caustic chemicals, causing a hazard to your family’s health and safety. Plus they don’t last nearly as long.</p>
 			<p> <strong>No assembly required:</strong> Your generator arrives already assembled and charged. You don&rsquo;t have to wait to try out your generator; you can start using it right away.</p>
 			<p> <strong>1000+ Life Cycles:</strong> This means you can fully drain and recharge your battery over 1,000 times, insuring a long life of peak performance and power when you need it. </p>
 			<p> <strong>The &quot;Triple Charge&rdquo; Advantage:</strong> Of course you can charge your generator using the included solar panels, but you can also charge it by plugging it into a wall outlet or by using a wind turbine.</p>
@@ -363,13 +363,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p> <strong>The solar panel folds easily for discreet storage and transport anywhere</strong> and includes a sturdy carrying handle!</p>
 			<p> <strong>You can &quot;daisy-chain&rdquo; additional solar panels for even more power: </strong>You can easily connect additional solar panels to your generator to reduce charging time and power your devices even longer.</p>
 
-			<h2 class="darkRed text-center">&quot;See What Others Are Saying About the <br class="hidden-xs">Patriot Power Generator 1500.&quot;</h2>
+			<h2 class="darkRed text-center">See What Others Are Saying About the <br class="hidden-xs">Patriot Power Generator 1500.</h2>
 			<img src="/media/images/ppg/ppg-testimonial-fb-01.jpg" class="img-responsive media margin-tb-20 center-block">
 			<img src="/media/images/ppg/ppg-testimonial-fb-02.jpg" class="img-responsive media margin-tb-20 center-block">
 			<img src="/media/images/ppg/ppg-testimonial-fb-03.jpg" class="img-responsive media margin-tb-20 center-block">
 			<img src="/media/images/ppg/ppg-testimonial-fb-04.jpg" class="img-responsive media margin-tb-20 center-block">
 
-			<h2 class="darkRed text-center">&quot;So Let’s Talk About Reality Here.&quot;</h2>
+			<h2 class="darkRed text-center">So Let’s Talk About Reality Here.</h2>
 			<img src="/media/images/ppg/ppg-oto-sun-01.jpg" class="img-responsive pull-right img-padding-left media">
 			<p>You and I both know there are some things you simply can&rsquo;t put a price tag on…your family&rsquo;s safety and survival being the most important.</p>
 			<p>As you can see, for solutions that even come close to my Patriot Power Generator 1500, you could expect to pay $10,000 or more. But even though I could charge close to that, I simply in good conscience couldn&rsquo;t do that to my fellow hard-working, patriotic Americans.</p>
@@ -379,7 +379,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>The Patriot Power Generator 1500 creates free electricity for you immediately and protects your family in case of a crisis. Isn&rsquo;t it worth the peace of mind to know you&rsquo;ve got the ONE thing – the GLUE – to keep your family&rsquo;s life together…no matter where you are?</p>
 			<p>You could be at home, or in your RV, cabin, or undisclosed, completely off the grid location…it DOESN&rsquo;T MATTER. <strong><em>If the sun is shining, you can charge your Patriot Power Generator 1500 for FREE. And it will power your critical devices 24 hours a day, 7 days a week, 365 days a year.</em></strong></p>
 			<p>Your decision today to ensure your family&rsquo;s survival with a clean and renewable power source that can go anywhere will allow you to focus on other areas of your bug out plan.</p>
-			<p>Remember…having a power source you can rely on is the foundation of any survival strategy. Without it, and you may as well be running a marathon on a darn treadmill.               		  </p>
+			<p>Remember…having a power source you can rely on is the foundation of any survival strategy. Without it, and you may as well be running a marathon on a darn treadmill.</p>
 			<div class="margin-tb-50">
 				<?php
 				if($isUpgrade) {
@@ -408,7 +408,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 			</div>
 			<div>
-				<h2 class="darkRed text-center">&quot;To Make This A Truly Unbeatable Deal, I’m  Going To Add Some AMAZING Free Bonuses&quot;</h2>
+				<h2 class="darkRed text-center">To Make This A Truly Unbeatable Deal, I’m  Going To Add Some AMAZING Free Bonuses</h2>
 
 				<div class="">
 					<p><strong>Not one, not three, but TEN incredible FREE bonuses if you act now.</strong></p>
@@ -494,8 +494,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<div>
 
-					<h2 class="darkRed text-center">&quot;That&rsquo;s A Total Value Of Over <strong>$400</strong> … <br>
-						And You’re Getting All 10 Bonuses Absolutely FREE!&quot;</h2>
+					<h2 class="darkRed text-center">That&rsquo;s A Total Value Of Over $400... <br class="hidden-xs"> And You’re Getting All 10 Bonuses <br class="hidden-xs">Absolutely FREE!</h2>
 					<h4><img src="/media/images/ppg/ppg-product-checkout-01.jpg" class="img-responsive center-block">
 					</h4>
 					<p>I am taking this deal one step further. Because I am a man on a mission to make sure every American has this kind of security, I am offering a...</p>
@@ -503,30 +502,30 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 			</div>
 
-			<h2 class="darkRed text-center">&quot;365 Day, 100% Money-Back Guarantee On My Patriot Power Generator 1500&quot;</h2>
+			<h2 class="darkRed text-center">365 Day, 100% Money-Back Guarantee <br class="hidden-xs">On My Patriot Power Generator 1500</h2>
 			<img src="/media/images/ppg/ppg-oto-satisfaction-01.png" class="img-responsive pull-right img-padding-left media">
 			<p>Let me spell it out for you (you&rsquo;ll be floored by this!):</p>
 			<p>This is a 365 Day 100% money-back guarantee. I want you to try this in your home for a full year….really put it to the test. Charge it up and drain it multiple times…I want you to really get to know your generator and what it can do for you. If it doesn&rsquo;t do everything I say or if you&rsquo;re unsatisfied for any reason, return it and I&rsquo;ll give you your money back, <strong>no questions asked</strong>. <strong><em>You literally can&rsquo;t lose.</em></strong></p>
 			<p>Why I am offering this? Well, simply put, it&rsquo;s to demonstrate my level of confidence in the Patriot Power Generator 1500, and how simple it is to use. Most companies would choke on such a guarantee, but for me, it&rsquo;s just part of the way I want to do business – up front, honest, and ethical. <strong>The American Way.</strong></p>
 			<p>And please do not think you can get this generator anywhere else. You can&rsquo;t.</p>
 			<p>The Patriot Power Generator 1500 is NOT available from any store, website, or distributor. You can only get it here.</p>
-			<h2 class="darkRed text-center">&quot;Now, Here&rsquo;s The Most Important Part. My Supply On These Generators Is VERY LIMITED.&quot;</h2>
+			<h2 class="darkRed text-center">Now, Here&rsquo;s The Most Important Part.<br class="hidden-xs"> My Supply On These Generators Is <br class="hidden-xs">VERY LIMITED.</h2>
 			<p>I was only able to manufacture a small supply of these revolutionary generators, just under 300 in fact, and I am telling you the truth when I say I WILL RUN OUT…</p>
 			<p>AND QUICKLY. It takes four months to manufacture these state-of-the-art generators, so there will be a LONG wait for more units once we are sold out.</p>
 			<p>No pressure, but I need to give you fair warning on the supply situation. That&rsquo;s why you really do to need to act fast. </p>
 			<p>You can get your Patriot Power Generator 1500 in just a moment, but 1st...</p>
-			<h2 class="darkRed text-center">&quot;I Want You To Picture This In Your Mind...&quot;</h2>
+			<h2 class="darkRed text-center">I Want You To Picture This In Your Mind...</h2>
 			<p>It&rsquo;s 8:47 AM and the &ldquo;you know what&rdquo; has just hit the fan. People are panicking. It&rsquo;s all over the radio and TV. A news anchor comes on the TV screen and in a shaky voice says &quot;We have reports of wide-spread power failures sweeping the area. The power here could go out at any moment. We are now in a state of emergency. I repeat, we are now in a state of…&quot;</p>
 			<img src="/media/images/ppg/ppg-oto-house-light.jpg" class="img-responsive center-block margin-b-10">
 			<p>The lights and TV blink out, and an eerie silence fills your home. </p>
 			<p>You turn on your portable AM radio and hear rumors of looting and other unrest. Panic is spreading and it&rsquo;s quickly becoming every man for himself.</p>
 			<p>You are safe at home with your family, thank goodness. But now your family is looking at you… &ldquo;What&rsquo;s going to happen?&rdquo; they ask. &ldquo;When will the power come back on?&rdquo; The look of fear in your family&rsquo;s eyes hits you like a punch to the gut. What are you going to tell your family? What have you done to prepare?</p>
-			<h2 class="darkRed text-center center-block title-max-560">&quot;Look, You Have Come To A Fork In The Road...&quot;</h2>
+			<h2 class="darkRed text-center center-block title-max-560">Look, You Have Come To <br class="hidden-xs">A Fork In The Road...</h2>
 			<p>It&rsquo;s entirely up to you which way you go.</p>
 			<p>If you don&rsquo;t take action to get your generator right now, you&rsquo;ll be in the same boat as the brainwashed masses who think &ldquo;everything is fine.&rdquo; And if a crisis hits and your family asks, &ldquo;When will the power come back on?&rdquo; your mouth will go dry and you&rsquo;ll feel powerless.</p>
 			<p>But what if you decide right now to secure your generator instead? Just imagine how much better you&rsquo;ll feel right away. And if a crisis hits and your family asks, &ldquo;When will the power come back on?&rdquo; you&rsquo;ll calmly reassure them that they&rsquo;re safe and they will have plenty of electricity to power the critical items. You can power the freezer… recharge cell phones and computers… keep critical medical devices going… and much more. </p>
 			<p>Your home will be a little island of light and warmth, even if it is dark everywhere else. Your generator will be a source of comfort and strength in the storm. Your family will think you&rsquo;re a hero… because you will BE a hero. Can&rsquo;t you just picture how that will feel?                        </p>
-			<h2 class="darkRed text-center">&quot;Listen, I Can’t Predict The Future.&quot;</h2>
+			<h2 class="darkRed text-center">Listen, I Can’t Predict The Future.</h2>
 			<p>I don&rsquo;t know exactly when or how the next power grid disaster will hit. But from everything I see, it could be soon and it could be a big one. That&rsquo;s why I really want you to get your generator now. Click the &ldquo;Add To Cart&rdquo; button below. You&rsquo;ll be glad you did.</p>
 			<p>Remember, this generator makes free electricity from the sun. So even if I&rsquo;m wrong and everything turns out fine, then you&rsquo;ll still come out ahead and be able to generate free electricity to help reduce your power bill!</p>
 			<p>If you want to get real power independence &amp; security click on the button at the bottom of this page.</p>
