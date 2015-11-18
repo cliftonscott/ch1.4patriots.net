@@ -133,9 +133,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div>
 			<p><?php echo $firstName;?>, do you know that your life, and the life of everyone you love, is hanging in the balance RIGHT NOW? </p>
-			<p>You and your family are literally one step away from a 21st century apocalypse.<strong></strong><br>
-				While you go about your day, dark forces across the globe are at work 24/7 taking aim at our country&rsquo;s beating heart...</p>
-			<p>…targeting something critical to life as we know it that&rsquo;s so old, so under-protected, and so vulnerable, it&rsquo;s become our &quot;weakest link&quot;. </p>
+			<p>You and your family are literally one step away from a 21st century apocalypse. While you go about your day, dark forces across the globe are at work 24/7 taking aim at our country&rsquo;s beating heart... targeting something critical to life as we know it that&rsquo;s so old, so under-protected, and so vulnerable, it&rsquo;s become our &quot;weakest link&quot;. </p>
 			<p>And it&rsquo;s shocking it hasn&rsquo;t been destroyed...<strong>YET.</strong></p>
 			<p>And I&rsquo;m not talking about terror attacks that are in the planning stages…</p>
 			<h2 class="darkRed text-center center-block title-max-560"><strong>I&rsquo;m Talking About Attacks That Are ALREADY HAPPENING.</strong></h2>
