@@ -12,7 +12,7 @@ include_once "MobileDetect.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.3.0
+ * @version 1.3.1
  *
  * Class JavelinApi
  */
@@ -472,11 +472,13 @@ class JavelinApi {
 	 */
 	private function resolveDeviceType()
 	{
-		if ($this->mobileDetect->isMobile()) {
-			return "mobile";
-		}
+		// Note: MobileDetect library considers tablets as "mobile",
+		// so in this context we must make sure to check for tablet first.
 		if ($this->mobileDetect->isTablet()) {
 			return "tablet";
+		}
+		if ($this->mobileDetect->isMobile()) {
+			return "mobile";
 		}
 		return "desktop";
 	}
@@ -595,7 +597,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.3.0
+ * @version 1.3.1
  *
  * Class JV
  */
