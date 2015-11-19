@@ -130,7 +130,7 @@ include_once 'agile/head.php';
 				$('.blue.button').attr('href', '<?php echo $offerUrl; ?>');
 
 				$(".lazy").unveil(1000, function() {
-					console.log('animate');
+					/*console.log('animate');*/
 					$(this).animate({ opacity: 1 }, 300);
 				});
 			},
