@@ -1,4 +1,12 @@
 <?php
+error_reporting(E_ALL);
+//error_reporting(E_ALL & ~E_NOTICE | E_STRICT)
+ini_set("display_errors", "1");
+
+// SPLIT JV-38 11/20/15 //
+// Define the current page name.
+$page = "video";
+// END TEST //
 
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
@@ -12,16 +20,6 @@ if($isSecure ) {
 	header("Location: http://" . $nonSecureHost . $nonSecurePath);
 	exit;
 }
-
-require_once("JavelinApi.php");
-$javelinApi = JV::load();
-
-/*SPLIT JV-26 10/26/15*/
-if (JV::in("26-agile2")) {
-	include_once("agile/index.php"); exit;
-}
-/*END TEST*/
-
 
 $templateArray = array (
 	"wp", // White Paper Template
@@ -88,20 +86,32 @@ include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-include_once ('template-top.php');
+
+/*SPLIT JV-38 11/20/15*/
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
+if (JV::in("38-gulp")) {
+	include_once("agile/template-top.php");
+}else{
+	include_once ('template-top.php');
+}
+/*END TEST*/
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
+
+if($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet()) ) {
+	header('Location: /letter/index.php');
+	exit();
+};
+
 ?>
-<?php if($vsl != "3f" && $vsl != "fs") { ?>
-<script>
-	if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
-</script>
-<?php }; ?>
 
 <script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
+
 <!--// SPLIT JV-24 10/19/15-->
 <?php if (JV::in("24-play")) { ?>
 <script>
