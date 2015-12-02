@@ -111,19 +111,12 @@ if (JV::in("24-letter")) {
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<?php $assets->js(); ?>
 
-	<!--[if lt IE 9]>
+	<?php if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) { ?>
 	<script src="<?php echo $REQUEST_PROTOCOL;?>://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<!--Internet Explorer 9,8,7,....-->
-	<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/assets/css/ie10.css"/><![endif]-->
-	<!--Internet Explorer 10-->
-
-	<!--Internet Explorer Cross Browsing Ends-->
-	<!--Enable HTML 5 Elements and Media Queries-->
-	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="/assets/css/ie10.css"/>
 	<script type="text/javascript" src="/assets/js/html5shiv.js"></script>
 	<script type="text/javascript" src="/assets/js/respond.min.js"></script>
-	<![endif]-->
+	<?php } ?>
 
 </head>
 <body>
