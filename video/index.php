@@ -1,7 +1,4 @@
 <?php
-error_reporting(E_ALL);
-//error_reporting(E_ALL & ~E_NOTICE | E_STRICT)
-ini_set("display_errors", "1");
 
 // SPLIT JV-38 11/20/15 //
 // Define the current page name.
@@ -22,7 +19,7 @@ if($isSecure ) {
 }
 
 $templateArray = array (
-	"wp", // White Paper Template
+	"null", // Template Variations
 );
 if($_GET["t"]) {
 	if(in_array(trim($_GET["t"]),$templateArray)) {
@@ -79,6 +76,20 @@ if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "
 	$template["exitPopType"] = "video"; //designates that this should not have an exit pop of type video
 }
 
+/*SPLIT JV-38 11/20/15*/
+require_once("MobileDetect.php");
+$detect = new Mobile_Detect;
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
+
+if (JV::in("38-gulp")) {
+	if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())) {
+		header('Location: /letter/index.php');
+		exit();
+	};
+};
+/*END TEST*/
+
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;
@@ -88,8 +99,6 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 
 /*SPLIT JV-38 11/20/15*/
-require_once("JavelinApi.php");
-$javelinApi = JV::load();
 if (JV::in("38-gulp")) {
 	include_once("agile/template-top.php");
 }else{
@@ -100,20 +109,20 @@ if (JV::in("38-gulp")) {
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
-
-if($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet()) ) {
-	header('Location: /letter/index.php');
-	exit();
-};
-
 ?>
 
+<?php if (!JV::in("38-gulp")) { /*SPLIT JV-38 11/20/15*/ ?>
+	<?php if($vsl != "3f" && $vsl != "fs") { ?>
+	<script>
+		if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
+	</script>
+	<?php }; ?>
 <script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
+<?php }; ?>
 
-<!--// SPLIT JV-24 10/19/15-->
-<?php if (JV::in("24-play")) { ?>
+<?php if (JV::in("24-play")) { /*SPLIT JV-24 10/19/15*/?>
 <script>
 	// Change these values for the content within the "buttons" div to appear at this time.
 
@@ -252,17 +261,12 @@ if($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())
 </script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-// SPLIT JV-24 10/19/15
-if (JV::in("24-play")) {
-	include_once('content-jv-24.php'); /*TABLET SPLIT*/
-}else {
-	if ($templateDesign === "wp") {
-		include_once('content-wp.php'); /*White Paper Template*/
-	}else{
+	// SPLIT JV-24 TABLET ONLY 10/19/15
+	if (JV::in("24-play")) {
+		include_once('content-jv-24.php'); /*TABLET SPLIT*/
+	}else {
 		include_once('content.php'); /*CONTROL*/
-	}
-}
-
+	};
 ?>
 <!--INCLUDE CONTENT-->
 <script>

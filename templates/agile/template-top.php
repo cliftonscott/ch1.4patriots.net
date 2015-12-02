@@ -107,10 +107,8 @@ if (JV::in("24-letter")) {
 	?>
 	<?php if ($page == "checkout"): ?><link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><?php endif; ?>
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
 	<!-- Load the application JS. -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<?php $assets->js(); ?>
 
 	<!--[if lt IE 9]>
@@ -128,7 +126,7 @@ if (JV::in("24-letter")) {
 	<![endif]-->
 
 </head>
-<body id="background-img">
+<body>
 <?php include_once("ga-data-layer.php"); ?>
 
 <div id="LoadingDiv" style="display:none;">One Moment Please...<br />
