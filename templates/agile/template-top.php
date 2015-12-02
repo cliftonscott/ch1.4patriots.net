@@ -77,7 +77,7 @@ if (JV::in("24-letter")) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<?php echo $metaDataObj->title;?>
 	<?php echo $metaDataObj->description;?>
 	<?php echo $metaDataObj->keywords;?>
