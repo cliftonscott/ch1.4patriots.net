@@ -29,12 +29,8 @@ if($_POST["productId"]) {
 	$productId = intval($_SESSION["productId"]);
 } else {
 	//the productId must be explicitly set by either a post or by session variable
-	// Quickly check for Agile 2.0 participation without loading Javelin entirely.
-	if (isset($_SESSION["Javelin"]) && stripos($_SESSION["Javelin"]["variation"], '26-agile2') !== FALSE) {
-		$nextPage = "/checkout/agile/index.php";
-	} else {
-		$nextPage = "/checkout/index.php";
-	}
+	//the productId must be explicitly set by either a post or by session variable
+	$nextPage = "/checkout/index.php";
 	header("Location: " . $nextPage);
 	exit;
 }
