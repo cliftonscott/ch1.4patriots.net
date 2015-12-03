@@ -1,5 +1,10 @@
 <?php
 
+// SPLIT JV-38 11/20/15 //
+// Define the current page name.
+$page = "video";
+// END TEST //
+
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
 	$isSecure = true;
@@ -13,18 +18,8 @@ if($isSecure ) {
 	exit;
 }
 
-require_once("JavelinApi.php");
-$javelinApi = JV::load();
-
-/*SPLIT JV-26 10/26/15*/
-if (JV::in("26-agile2")) {
-	include_once("agile/index.php"); exit;
-}
-/*END TEST*/
-
-
 $templateArray = array (
-	"wp", // White Paper Template
+	"null", // Template Variations
 );
 if($_GET["t"]) {
 	if(in_array(trim($_GET["t"]),$templateArray)) {
@@ -81,6 +76,20 @@ if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "
 	$template["exitPopType"] = "video"; //designates that this should not have an exit pop of type video
 }
 
+/*SPLIT JV-38 11/20/15*/
+require_once("MobileDetect.php");
+$detect = new Mobile_Detect;
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
+
+if (JV::in("38-gulp")) {
+	if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())) {
+		header('Location: /letter/index.php');
+		exit();
+	};
+};
+/*END TEST*/
+
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
 $_SESSION['quantity'] = 1;
@@ -88,22 +97,32 @@ include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-include_once ('template-top.php');
+
+/*SPLIT JV-38 11/20/15*/
+if (JV::in("38-gulp")) {
+	include_once("agile/template-top.php");
+}else{
+	include_once ('template-top.php');
+}
+/*END TEST*/
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
-<?php if($vsl != "3f" && $vsl != "fs") { ?>
-<script>
-	if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
-</script>
-<?php }; ?>
 
+<?php if (!JV::in("38-gulp")) { /*SPLIT JV-38 11/20/15*/ ?>
+	<?php if($vsl != "3f" && $vsl != "fs") { ?>
+	<script>
+		if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
+	</script>
+	<?php } ?>
 <script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
-<!--// SPLIT JV-24 10/19/15-->
-<?php if (JV::in("24-play")) { ?>
+<?php } ?>
+
+<?php if (JV::in("24-play")) { /*SPLIT JV-24 10/19/15*/?>
 <script>
 	// Change these values for the content within the "buttons" div to appear at this time.
 
@@ -242,17 +261,12 @@ $platform->setCsrModalButtons("sample,video,letter");
 </script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-// SPLIT JV-24 10/19/15
-if (JV::in("24-play")) {
-	include_once('content-jv-24.php'); /*TABLET SPLIT*/
-}else {
-	if ($templateDesign === "wp") {
-		include_once('content-wp.php'); /*White Paper Template*/
-	}else{
+	// SPLIT JV-24 TABLET ONLY 10/19/15
+	if (JV::in("24-play")) {
+		include_once('content-jv-24.php'); /*TABLET SPLIT*/
+	}else {
 		include_once('content.php'); /*CONTROL*/
-	}
-}
-
+	};
 ?>
 <!--INCLUDE CONTENT-->
 <script>
