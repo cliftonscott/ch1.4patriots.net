@@ -374,6 +374,7 @@ if(isset($preFill)) {
 
 		}else{
 			$('#shipaddd').hide('fast');
+			setStateTax();
 		}
 	});
 

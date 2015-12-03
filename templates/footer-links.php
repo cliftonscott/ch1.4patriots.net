@@ -5,12 +5,9 @@ $targetNewArray = array (
 	"/letter/index.php",
 	"/letter/food/index.php",
 	"/checkout/thankyou.php",
-	"/video/t1/index.php",
-	"/checkout/t1/index.php",
-	"/checkout/t1/thankyou.php",
 
 	);
-if(in_array($_SERVER["PHP_SELF"], $targetNewArray) || stripos($_SERVER["PHP_SELF"], "/agile/") !== FALSE) { //JV-26
+if(in_array($_SERVER["PHP_SELF"], $targetNewArray)) {
 	$footerLinkTarget = "_blank";
 } else {
 	$footerLinkTarget = "_self";
