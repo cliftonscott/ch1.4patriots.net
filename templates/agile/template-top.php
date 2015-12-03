@@ -119,6 +119,15 @@ if (JV::in("24-letter")) {
 	<script type="text/javascript" src="/assets/js/respond.min.js"></script>
 	<?php } ?>
 
+	<?php
+	if($template["floatingTimer"] > 0) {
+		include_once("timer-floating.php");
+	}
+	if($template["exitPopType"] === "video") {
+		include_once("exit-pop-video.php");
+	}
+	?>
+
 </head>
 <body>
 <?php include_once("ga-data-layer.php"); ?>
