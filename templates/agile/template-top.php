@@ -74,6 +74,7 @@ if (JV::in("24-letter")) {
 }
 // END TEST
 ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
