@@ -135,16 +135,12 @@ if (JV::in("24-letter")) {
 		?>
 
 	</head>
-	<body id="background-img">
+	<body>
 	<?php include_once("ga-data-layer.php"); ?>
 
-	<?php
-	if($platformCountDownToDate) {
-	?>
+	<?php if($platformCountDownToDate) { ?>
 	<div id="endofDateCountDown"></div>
-	<?php
-	}
-	?>
+	<?php } ?>
 	<div id="LoadingDiv" style="display:none;">One Moment Please...<br />
 		<img src="/assets/images/misc/progressbar.gif" width="220" height="19" class="displayed" alt="" />
 	</div>

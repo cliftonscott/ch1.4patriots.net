@@ -116,11 +116,11 @@ $platform->setCsrModalButtons("sample,video,letter");
 	<script>
 		if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
 	</script>
-	<?php }; ?>
+	<?php } ?>
 <script src="/js/audio.js"></script>
 <script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
 <script src="/js/jcookie.js" type="text/javascript"></script>
-<?php }; ?>
+<?php } ?>
 
 <?php if (JV::in("24-play")) { /*SPLIT JV-24 10/19/15*/?>
 <script>

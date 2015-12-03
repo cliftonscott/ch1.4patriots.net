@@ -40,7 +40,11 @@ if (JV::in("38-gulp")) {
 
 ?>
 <?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
+<!--SPLIT JV-38 11/20/15-->
+<?php if (!JV::in("38-gulp")) { ?>
 <script src="/js/audio.js"></script>
+<?php } ?>
+<!--END TEST-->
 <script>
 	/*
 	 This function works in parallel with the setStateTax() function found in the
