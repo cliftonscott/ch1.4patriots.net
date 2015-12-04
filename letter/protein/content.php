@@ -40,7 +40,7 @@
 	<p>Dear Patriot,</p>
 	<p>Chances are you&rsquo;ve got a great start on your survival food stockpile... </p>
 	<p><strong>But do you have protein to &ldquo;survive and thrive&rdquo;?</strong></p>
-	<p>In a crisis, your body is under extreme stress.  You need all your strength and then some to cope with all the chaos going on around you, and to keep your loved ones safe. To do that, you&rsquo;ve got to get enough high-quality protein.</p>
+	<p>In a crisis your body is under extreme stress.  You need all your strength and then some to cope with all the chaos going on around you, and to keep your loved ones safe. To do that, you&rsquo;ve got to get enough high-quality protein.</p>
 	<p>In fact, protein isn&rsquo;t just a nutritional staple of a good diet; it&rsquo;s a critical component to staying healthy...<strong> especially when the crap hits the fan!</strong></p>
 	<p>Why?</p>
 	<p>Well, for starters, unless you&rsquo;re getting enough, your body will turn to the only other source of protein that&rsquo;s available – by consuming its own muscle tissue.</p>
