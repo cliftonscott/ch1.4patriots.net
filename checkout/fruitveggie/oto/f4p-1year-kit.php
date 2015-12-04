@@ -213,7 +213,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Survival Spring Personal Water Filters and over
 				22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 
-			<p>I was only able to secure a limited quantity of these 1-year kit and it&rsquo;s been one of our most frequent requests,
+			<p>I was only able to secure a limited quantity of these 1-year kits and it&rsquo;s been one of our most frequent requests,
 				so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours,
 				go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 1-year kit to your order
 				today!</p>
