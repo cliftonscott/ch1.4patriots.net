@@ -69,7 +69,7 @@
 	<h2 class="darkRed text-center">Meat &amp; Protein Kit Was The #1 Requested Item From Food4Patriots Customers...</h2>
 	<p>A real “protein boost” to round out and “supercharge” their survival food stockpiles was just the ticket.</p>
 	<p>My name is Frank Bates and I am the founder of 4Patriots. I&rsquo;ve helped over <strong>106,321 fellow patriots</strong> help build their food stockpiles with my top-rated Food4Patriots products.</p>
-	<p>And when it came to finding a Meat &amp; Protein solution, truth be told, I didn&rsquo;t want to offer anything less than the very best...no cutting corners or using cheap fillers. No sir.</p>
+	<p>And when it came to finding a meat and protein solution, truth be told, I didn&rsquo;t want to offer anything less than the very best...no cutting corners or using cheap fillers. No sir.</p>
 	<p>I searched for the best quality meat &amp; protein options available. Most didn&rsquo;t pass muster for quality, taste, or long shelf life. </p>
 	<p>After much trial and error, I finally found the exact high-quality protein kit my customers have been clamoring for – one that&rsquo;s delicious, nutritious, and rated good for 25 years! </p>
 	<p>Now just so you know...I&rsquo;m more than a perfectionist when it comes to any of my Food4Patriots products. It&rsquo;s no different with my Meat &amp; Protein Kit...</p>
