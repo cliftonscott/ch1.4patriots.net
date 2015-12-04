@@ -18,7 +18,7 @@
 	<p>Truth is, without an adequate intake of fruits and veggies, your body simply isn’t getting the nutrients it needs to work right.</p>
 	<p>And folks, despite what others may claim, <strong>there’s no pill you can pop that will replace them.</strong></p>
 	<p>Let me explain…</p>
-	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keeps things “humming along” better.</p>
+	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keep things “humming along” better.</p>
 
 	<h2 class="darkRed text-center">Eating Fruits and Vegetables Can Help Maximize the Nutrition of Your Survival Food!</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket.jpg" alt="Food4Patriots 1 Year Kit">
