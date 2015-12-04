@@ -1,6 +1,6 @@
 <div class="container oto-width">
 	<div>
-		<h1 class="darkRed text-center">Who Else Wants More Protein, Nutrition & Taste... GUARANTEED For 25 Years of Storage?</h1>
+		<h1 class="darkRed text-center">Who Else Wants More Protein, Nutrition and Taste... GUARANTEED For 25 Years of Storage?</h1>
 	</div>
 	<div class="margin-b-10">
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
