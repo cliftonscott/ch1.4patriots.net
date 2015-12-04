@@ -171,7 +171,7 @@
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-23.jpg" alt="Testimonial">
 
 	<p>Please hurry Friend...</p>
-	<p>I don't know how long I'm going to be able to offer these Meat &amp; Protein Kits at this rock-bottom introductory price, or <strong><em>at all...</em></strong>with survival food supplies disappearing, I'm bound to sell out fast.</p>
+	<p>I don't know how long I'm going to be able to offer these Meat &amp; Protein Kits at this rock-bottom introductory price, or <strong><em>at all...</em></strong> with survival food supplies disappearing, I'm bound to sell out fast.</p>
 	<p>I'd hate to think your family's nutrition might be compromised because you didn't act while you had the chance...</p>
 	<p><strong>So claim your kit NOW by clicking the "Add To Cart" button, and have true peace of mind that your loved ones WON'T starve in the coming crisis...</strong></p>
 
