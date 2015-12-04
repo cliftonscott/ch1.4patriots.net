@@ -72,7 +72,7 @@
 	<p>And when it came to finding a meat and protein solution, truth be told, I didn&rsquo;t want to offer anything less than the very best... no cutting corners or using cheap fillers. No sir.</p>
 	<p>I searched for the best quality meat and protein options available. Most didn&rsquo;t pass muster for quality, taste, or long shelf life. </p>
 	<p>After much trial and error, I finally found the exact high-quality protein kit my customers have been clamoring for – one that&rsquo;s delicious, nutritious, and rated good for 25 years! </p>
-	<p>Now just so you know...I&rsquo;m more than a perfectionist when it comes to any of my Food4Patriots products. It&rsquo;s no different with my Meat &amp; Protein Kit...</p>
+	<p>Now just so you know... I&rsquo;m more than a perfectionist when it comes to any of my Food4Patriots products. It&rsquo;s no different with my Meat &amp; Protein Kit...</p>
 	<p>That&rsquo;s why this painstaking process took so long. I was going to &ldquo;do it right&rdquo; or not at all...</p>
 	<p>From the advanced dehydration process and space-age Mylar packaging that seals in nutrients and flavor, to <strong>using a separate FDA approved facility to make them</strong>, I refused to cut corners in any way. It costs me more, but nothing is too good for my customers.</p>
 
