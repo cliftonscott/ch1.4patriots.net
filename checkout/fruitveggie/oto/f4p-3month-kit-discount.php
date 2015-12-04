@@ -81,7 +81,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War 1, when a pound of bread cost 3 BILLION marks! </p>
 				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 and Get FREE Shipping </strong></p>
 				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a one-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already low price</strong> – but only if you act now.</p>
-				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food And 3-Month Kits Are Flying Off The Shelves!</strong></p>
+				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food And 3-month Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
 				<?php include 'f4p-3month-whatsincluded.html'; ?><p>&nbsp;</p>
