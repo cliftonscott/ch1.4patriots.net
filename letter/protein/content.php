@@ -121,7 +121,7 @@
 	<p>Everything is super-easy to prepare. <u>Just add hot water!</u></p>
 	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of dried meat you find in our Meat &amp; Protein Kit! </p>
 	<p>Plus, it&rsquo;s very low in fat yet high in life-sustaining protein!</p>
-	<p>You get a whopping 80 total servings of high-quality, lean protein to keep you fit as a fiddle and ready for whatever Mother Nature or other man-mad catastrophes can throw at you.</p>
+	<p>You get a whopping 80 total servings of high-quality, lean protein to keep you fit as a fiddle and ready for whatever Mother Nature or other man-made catastrophes can throw at you.</p>
 
 	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
 	<p>It's no secret that good, lean protein can cost a pretty penny.</p>
