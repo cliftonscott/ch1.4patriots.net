@@ -63,7 +63,7 @@
 	</ul>
 
 	<p>It&rsquo;s obvious that a high-quality source of digestible protein should be a critical part of your overall survival food plan. And that doesn&rsquo;t mean buying up loads of fattening, sugary peanut butter or tasteless cans of tuna... all of which can go bad in just a couple of years.</p>
-	<p>Nope – I&rsquo;ve got a better solution...one that&rsquo;s proven to stay fresh for a staggering 25 years!</p>
+	<p>Nope – I&rsquo;ve got a better solution... one that&rsquo;s proven to stay fresh for a staggering 25 years!</p>
 	<p>In fact, my new...</p>
 
 	<h2 class="darkRed text-center">Meat &amp; Protein Kit Was The #1 Requested Item From Food4Patriots Customers...</h2>
