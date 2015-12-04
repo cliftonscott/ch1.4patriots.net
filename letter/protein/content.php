@@ -133,7 +133,7 @@
 	<p><strong>Get your Meat &amp; Protein Kit at this special introductory price while it is still available...</strong></p>
 	<p>I'm not sure how long we will be able to offer this important kit for $147 or <strong>$1.83 Per Serving.</strong></p>
 	<p>Be sure to jump on this opportunity while it lasts...</p>
-	<p>Unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that's making headlines all across America...so please...<strong>claim your kit while there's still time.</strong></p>
+	<p>Unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that's making headlines all across America... so please...<strong> claim your kit while there's still time.</strong></p>
 	<p><strong>Click the "Add To Cart" button below now, and I'll rush your kit to your front door right away!</strong></p>
 
 
