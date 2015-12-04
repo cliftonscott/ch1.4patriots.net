@@ -62,7 +62,7 @@
 		<li><i class="fa-li fa fa-check"></i><strong>Better sleep. </strong>Adequate protein keeps you active during the day and helps you get a peaceful night&rsquo;s rest.<strong></strong></li>
 	</ul>
 
-	<p>It&rsquo;s obvious that a high-quality source of digestible protein should be a critical part of your overall survival food plan. And that doesn&rsquo;t mean buying up loads of fattening, sugary peanut butter or tasteless cans of tuna...all of which can go bad in just a couple of years.</p>
+	<p>It&rsquo;s obvious that a high-quality source of digestible protein should be a critical part of your overall survival food plan. And that doesn&rsquo;t mean buying up loads of fattening, sugary peanut butter or tasteless cans of tuna... all of which can go bad in just a couple of years.</p>
 	<p>Nope – I&rsquo;ve got a better solution...one that&rsquo;s proven to stay fresh for a staggering 25 years!</p>
 	<p>In fact, my new...</p>
 
