@@ -155,7 +155,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Liberty Seed Vault</h2>
 					<p>More than 5,640 survival seeds from 22 varieties of hardy and delicious heirloom seeds passed down from our forefathers. No GMO crap or hybrids here. Sealed in an airtight container rated for 5+ years of storage.</p>
-					<p>All the seeds are re-harvestable and can be re-grown over and over again giving you 1000's of pounds of fresh, nutrient dense food… for literally pennies per pound. Enough to last your family a lifetime.</p>
+					<p>All the seeds are re-harvestable and can be re-grown over and over again giving you thousands of pounds of fresh, nutrient dense food… for literally pennies per pound. Enough to last your family a lifetime.</p>
 					<p>These survival seeds are the perfect companion to your survivalfood stockpile. Some companies charge over $200 for seeds that don't even come close to the quality I'm giving you today.</p>
 					<div class="row">
 						<div class="col-sm-12 col-md-5 "><img src="/media/images/ss4p/ss4p-lsv-single-bluebg.jpg" alt="Survival Seeds" class="img-responsive center-block" /></div>
