@@ -171,7 +171,7 @@ $offerName = $_SESSION["firstName"];
 				with your Food4Patriots order. </p>
 			<p>But wouldn’t it make sense to also safeguard their nutrition by <b>adding healthy fruits and vegetables</b> to your food stockpile?
 				<b>Click the big, green ‘Add to Order’ button below in the next 10 minutes (before our warehouse finalizes your shipping details)</b>
-				and we’ll add our Food4Patriots <i>Fruit, Veggie &amp; Snack Mix</i> package to today’s order for just one additional payment of $97 (free shipping).</p>
+				and we’ll add our Food4Patriots <i>Fruit, Veggie and Snack Mix</i> package to today’s order for just one additional payment of $97 (free shipping).</p>
 			<p>That’s 114 servings of fruits, vegetables, and delicious snacks for less than $1.18 per serving. And because we use our unique
 				“low heat dehydration method”, these nutrition-packed fruits and veggies have a <u>guaranteed</u> shelf-life of 25+ years!</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span class="bold red">only time you see it at this special price.</span></p>
