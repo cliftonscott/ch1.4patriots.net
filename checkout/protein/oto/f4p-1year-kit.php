@@ -215,7 +215,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 		<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
 			so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours,
-			go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 1-year Food4Patriots Kit to your order
+			go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 1-year Food4Patriots kit to your order
 			today!</p>
 
 		<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
