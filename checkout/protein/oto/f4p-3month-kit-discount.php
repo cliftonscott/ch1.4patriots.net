@@ -195,7 +195,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping, AND 6 awesome bonuses.</p>
 				<p>All for you today. I think that's about the best deal I can make you.</p>
-				<p>Just click the link the button below and I’ll send you your goodies right away.</p>
+				<p>Just click the button below and I’ll send you your goodies right away.</p>
 			</div>
 			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
 			<div class="row">
