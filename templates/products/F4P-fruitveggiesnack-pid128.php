@@ -176,7 +176,7 @@ $offerName = $_SESSION["firstName"];
 				“low heat dehydration method”, these nutrition-packed fruits and veggies have a <u>guaranteed</u> shelf-life of 25+ years!</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span class="bold red">only time you see it at this special price.</span></p>
 			<p>You’ve come this far to ensure the safety and well-being of your loved ones, wouldn’t you like to ensure their health as well?
-				<b>Click the big, green 'Add to Order'</b> button below now.</p>
+				<b>Click the big green 'Add to Order'</b> button below now.</p>
 			<p class="small">An additional $97 will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back
 				guarantee and are 100% refundable.</p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
