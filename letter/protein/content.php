@@ -126,7 +126,7 @@
 	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
 	<p>It's no secret that good, lean protein can cost a pretty penny.</p>
 	<p>Heck, it makes sense considering how important protein is to our diets, right?</p>
-	<p>Well, you know me well enough by now that I've made it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I'm able to cut out the middle man and give these kits away for pennies on the dollar of what they'd normally cost.</p>
+	<p>Well, you know me well enough by now that I've made it my mission to help get as many Food4Patriots Meat & Protein kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I'm able to cut out the middle man and give these kits away for pennies on the dollar of what they'd normally cost.</p>
 	<p>So, <strong>as a special introductory offer,</strong> you can get my Meat &amp; Protein Kit for the special promotional price of <strong>just $147.</strong></p>
 	<p>That's just $1.83 Per Serving!</p>
 	<p>Normally, this kit would cost around $197, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough protein enriched foods in their stockpile.</p>
