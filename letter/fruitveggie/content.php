@@ -96,7 +96,7 @@
 	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
 	<p>It’s no secret that fruits and vegetables are essential to any diet.</p>
 	<p>And when a natural disaster happens, there will not be opportunities to go to the nearest store and pick up some fruits and vegetables.</p>
-	<p>Well, you know me well enough by now that I’ve make it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
+	<p>Well, you know me well enough by now that I’ve make it my mission to help get as many Fruit, Veggie and Snack Mixes as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
 	<p>And for a limited time, you can get our Fruit, Veggie and Snack Mix for the <strong>special promotional price of just $97.00!</strong></p>
 	<p><strong>That’s Just $1.18 Per Serving!</strong></p>
 	<p>Normally, this kit would cost around $147, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough vitamin enriched foods in their stockpile.</p>
