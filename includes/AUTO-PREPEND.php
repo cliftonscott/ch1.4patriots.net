@@ -6,8 +6,11 @@
  * The downside is that changing this file can take the site down. So you have to take as much care changing this
  * file as you would say an apache config file or a php.ini file.
  */
-$some_session = session_name("f4p_session");
-session_start();
+
+// Establish the name of this Platform instance.
+// This is used often in Platform libraries and DB tables.
+putenv("APP_NAME=W4P");
+
 $host = $_SERVER['HTTP_HOST'];
 if (strpos($host, '.4patriots.net') === false) {
 	putenv("APP_ENV=production");
@@ -32,3 +35,11 @@ $appConfig["path"] = implode(PATH_SEPARATOR, $addPath);
 set_include_path(get_include_path() . PATH_SEPARATOR . $appConfig["path"]);
 unset($addPath);
 $view = new stdClass();
+
+// Allow session to be initialized with custom handler immediately
+// for instances in which session data is used before Platform
+// is bootstrapped in template-top.php.
+require_once "Db.php";
+require_once 'PdoSessionHandler.php';
+$db = new Db();
+$session = new PdoSessionHandler($db->connect(), array("db_table" => "sessions_" . getenv("APP_NAME")));
