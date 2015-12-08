@@ -9,7 +9,7 @@
 
 // Establish the name of this Platform instance.
 // This is used often in Platform libraries and DB tables.
-putenv("APP_NAME=W4P");
+putenv("APP_NAME=F4P");
 
 $host = $_SERVER['HTTP_HOST'];
 if (strpos($host, '.4patriots.net') === false) {
