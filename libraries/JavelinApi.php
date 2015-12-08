@@ -12,7 +12,7 @@ include_once "MobileDetect.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.3.1
+ * @version 1.4.0
  *
  * Class JavelinApi
  */
@@ -34,7 +34,7 @@ class JavelinApi {
 	 *
 	 * @var string
 	 */
-	static $webPropertyName = "F4P";
+	static $webPropertyName;
 
 	/**
 	 * The session key where the array collection of
@@ -84,6 +84,14 @@ class JavelinApi {
 	private static $instance;
 
 	/**
+	 * The unique ID for the current visitor
+	 * as reported by the Javelin API.
+	 *
+	 * @var int|null
+	 */
+	private $visitorId;
+
+	/**
 	 * The variations the current visitor is
 	 * participating in.
 	 *
@@ -114,6 +122,14 @@ class JavelinApi {
 	 * @var array|null
 	 */
 	private $whiteList;
+
+	/**
+	 * Whether the current visitor is previewing
+	 * a variation at the moment.
+	 *
+	 * @var bool
+	 */
+	private $isPreview;
 
 	/**
 	 * Returns the singleton instance of this class.
@@ -194,12 +210,42 @@ class JavelinApi {
 	}
 
 	/**
+	 * Get a string of JS that can be printed directly
+	 * into the HTML document to load the click goal service.
+	 *
+	 * @return string
+	 */
+	public static function establishClickGoalService()
+	{
+		// Load the singleton if required.
+		$instance = self::getInstance();
+
+		// Do not establish JS if no click goals are active.
+		if (! $instance->clickGoals) {
+			return "";
+		}
+
+		// Concatenate a string of JS while inserting the required
+		// parameter data. Look away.
+		$string = "<script src='/js/JavelinClickService.js'></script>";
+		$string .= "<script>";
+		$string .= 'var javelinClickService = new JavelinClickService(' . $instance->getClickGoals() . ', ' . $instance->getVisitorId() . ')';
+		$string .= "</script>";
+
+		// Return the JS to be printed.
+		return $string;
+	}
+
+	/**
 	 * Initialize Javelin for this page request
 	 * by handling previewing and API requests.
 	 *
 	 * (Non-public to enforce singleton instantiation.)
 	 */
 	private function __construct() {
+
+		// Establish the name of the current web property.
+		self::$webPropertyName = getenv("APP_NAME");
 
 		// Load library dependencies.
 		$this->mobileDetect = new Mobile_Detect();
@@ -222,6 +268,16 @@ class JavelinApi {
 			// white list is not being enforced.
 			$this->send();
 		}
+	}
+
+	/**
+	 * Get the unique ID of the current visitor.
+	 *
+	 * @return array|null
+	 */
+	public function getVisitorId()
+	{
+		return $this->visitorId;
 	}
 
 	/**
@@ -304,10 +360,12 @@ class JavelinApi {
 
 		// Set our Javelin constants by examining the response data.
 		if (is_array($json) && isset($json["success"]) && $json["success"] == "1") {
+			$this->visitorId = $json["visitorId"];
 			$this->variations = $this->readCollectionData($json["variation"]);
 			$this->analytics = $this->readCollectionData($json["ga"]);
-			$this->clickGoals = json_encode($json["clickGoals"]);
+			$this->clickGoals = $json["clickGoals"];
 			$this->whiteList = json_decode($json["whiteList"]);
+			$this->isPreview = false;
 			$this->saveSession();
 		}
 	}
@@ -358,7 +416,30 @@ class JavelinApi {
 			return true;
 		}
 
+		if ($this->examineSessionForPreview()) {
+			return true;
+		}
+
 		return false;
+	}
+
+	/**
+	 * Examine the current session data and determine
+	 * if this request can be considered a preview.
+	 *
+	 * @return bool
+	 */
+	private function examineSessionForPreview()
+	{
+		if (! isset($_SESSION[self::$sessionKey])) {
+			return false;
+		}
+
+		if (! isset($_SESSION[self::$sessionKey]["isPreview"])) {
+			return false;
+		}
+
+		return $_SESSION[self::$sessionKey]["isPreview"];
 	}
 
 	/**
@@ -367,12 +448,22 @@ class JavelinApi {
 	 */
 	private function enablePreview()
 	{
+		// Load the current session data to bring in
+		// the persisted preview variations if available.
+		$this->loadSession();
+
+		// Override the session preview variations if
+		// they are provided in the GET data.
 		if (isset($_GET[self::PREVIEW_VARIATION_KEY])) {
 			$this->variations = array($_GET[self::PREVIEW_VARIATION_KEY]);
 		}
 
 		$this->analytics = null;
 		$this->clickGoals = null;
+		$this->whiteList = null;
+		$this->isPreview = true;
+
+		$this->saveSession();
 	}
 
 	/**
@@ -542,9 +633,11 @@ class JavelinApi {
 	private function saveSession()
 	{
 		$_SESSION[self::$sessionKey] = array(
+			"visitorId"			=> $this->visitorId,
 			"variations"		=> json_encode($this->variations),
 			"analytics"			=> json_encode($this->analytics),
-			"whiteList"			=> json_encode($this->whiteList)
+			"whiteList"			=> json_encode($this->whiteList),
+			"isPreview"			=> $this->isPreview
 		);
 	}
 
@@ -562,9 +655,11 @@ class JavelinApi {
 
 		$data = $_SESSION[self::$sessionKey];
 
+		$this->visitorId = $data["visitorId"];
 		$this->variations = json_decode($data["variations"], true);
 		$this->analytics = json_decode($data["analytics"], true);
 		$this->whiteList = json_decode(stripslashes(stripslashes($data["whiteList"])), true);
+		$this->isPreview = $data["isPreview"];
 
 		return true;
 	}
@@ -597,7 +692,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.3.1
+ * @version 1.4.0
  *
  * Class JV
  */
@@ -632,5 +727,15 @@ class JV {
 	static function getGoogleAnalyticsData()
 	{
 		return JavelinApi::getGoogleAnalyticsData();
+	}
+
+	/**
+	 * @see JavelinApi::establishClickGoalService()
+	 *
+	 * @return string|null
+	 */
+	static function establishClickGoalService()
+	{
+		echo JavelinApi::establishClickGoalService();
 	}
 }
