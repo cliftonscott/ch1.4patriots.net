@@ -43,6 +43,9 @@ if($template["exitPopType"] == "vwo") {
 echo $analyticsObj->serverId;
 ?>
 -->
+
+	<?php JV::establishClickGoalService(); ?>
+
 	</body>
 </html>
 <?php
