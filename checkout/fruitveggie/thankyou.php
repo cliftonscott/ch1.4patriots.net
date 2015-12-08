@@ -22,7 +22,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h1><strong>Thank You For Your Order!</strong></h1>
 			</div>
 			<div class="margin-tb-20">
-				<p class="read-warning text-center "><strong>NOTE:</strong>Your credit card statement will show a charge from Food4Patriots.com</p>
+				<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge from Food4Patriots.com</p>
 			</div>
 			<div class="margin-tb-20">
 				<?php include("snippets/frank-thankyou-msg-fruitveggie.html");?>

@@ -154,7 +154,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div class="container oto-width">
 		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots Kit when you upgrade today!</p>
-		<p>Because we’re already going to be sending you your Meat & Protein Kit, we can add the 1-year Kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+		<p>Because we’re already going to be sending you your Meat & Protein Kit, we can add the 1-year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
 		<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 
 		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-year Kit!</h2>
@@ -215,7 +215,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 		<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
 			so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours,
-			go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 1-year Food4Patriots Kit to your order
+			go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 1-year Food4Patriots kit to your order
 			today!</p>
 
 		<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
@@ -288,7 +288,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}
 			?>
 			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 			</div>
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
