@@ -42,4 +42,4 @@ $view = new stdClass();
 require_once "Db.php";
 require_once 'PdoSessionHandler.php';
 $db = new Db();
-$session = new PdoSessionHandler($db->connect(), array("db_table" => "sessions_" . getenv("APP_NAME")));
+$session = new PdoSessionHandler($db->connect(), array("db_table" => "sessions" . getenv("APP_NAME")));
