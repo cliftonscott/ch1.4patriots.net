@@ -18,17 +18,17 @@
 	<p>Truth is, without an adequate intake of fruits and veggies, your body simply isn’t getting the nutrients it needs to work right.</p>
 	<p>And folks, despite what others may claim, <strong>there’s no pill you can pop that will replace them.</strong></p>
 	<p>Let me explain…</p>
-	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keeps things “humming along” better.</p>
+	<p>Plant-based foods are naturally low in calories but high in nutrition. There’s no other food group (what scientists with fancy degrees call macronutrients) that can protect your body’s cells and keep things “humming along” better.</p>
 
 	<h2 class="darkRed text-center">Eating Fruits and Vegetables Can Help Maximize the Nutrition of Your Survival Food!</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket.jpg" alt="Food4Patriots 1 Year Kit">
-	<p>When you add high-quality fruits and vegetables to your existing survival food stockpile, you’ll enjoy knowing you’re optimizing the level of nutrients your body needs</p>
-	<p>What Are Some Other Crucial Benefits of fruits and vegetables?</p>
+	<p>When you add high-quality fruits and vegetables to your existing survival food stockpile, you’ll enjoy knowing you’re optimizing the level of nutrients your body needs.</p>
+	<p>What are some other crucial benefits of fruits and vegetables?</p>
 	<ul class="fa-ul fa-ul-space">
-		<li><i class="fa-li fa fa-check"></i><strong>Better regularity</strong> Fiber keeps your digestive tract healthy and helps move waste out of your system, which helps you feel your best and be “light on your feet” – which is critical when you need to move fast.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Faster healing and boosted immunity</strong> Our bodies don’t make all the vitamins we need, so we need to eat foods that are rich in them to recover faster from infections and illness, which helps if you’re injured or catch a nasty bug.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Clear thinking</strong> Whole plant foods contain the nutrients that keep your brain sharp as a tack – especially important in a survival situation.</li>
-		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory</strong> Antioxidants in fruit and veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Better regularity</strong> - Fiber keeps your digestive tract healthy and helps move waste out of your system, which helps you feel your best and be “light on your feet” – which is critical when you need to move fast.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Faster healing and boosted immunity</strong> - Our bodies don’t make all the vitamins we need, so we need to eat foods that are rich in them to recover faster from infections and illness, which helps if you’re injured or catch a nasty bug.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Clear thinking</strong> - Whole plant foods contain the nutrients that keep your brain sharp as a tack – especially important in a survival situation.</li>
+		<li><i class="fa-li fa fa-check"></i><strong>Natural anti-inflammatory</strong> - Antioxidants in fruit and veggies help protect your ticker and other vital organs by scavenging for free radicals that cause sickness.</li>
 	</ul>
 
 	<p>Okay… so there’s no arguing that you’ve got to have an adequate amount of fruits and vegetables every day for <strong>better</strong> health… but how do you work them into your survival food plan? </p>
@@ -90,13 +90,13 @@
 	<h2 class="darkRed text-center">Lasts 25 Years, But Tastes As Fresh As If You Just Plucked Them Off A Tree Or Harvested Them Out Of Your Very Own Garden!</h2>
 	<p>Everything is super-easy to prepare. <u>Just add hot water!</u></p>
 	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of fruits and vegetables you will find in our Fruit, Veggie and Snack Mix!</p>
-	<p>Plus, it&rsquo;s very high in essential vitamins and minerals</p>
+	<p>Plus, it&rsquo;s very high in essential vitamins and minerals.</p>
 	<p>You get <strong>114 total servings</strong> of delectable, healthy fruits and vegetables to help you survive the crisis we all know is coming.</p>
 
 	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
 	<p>It’s no secret that fruits and vegetables are essential to any diet.</p>
 	<p>And when a natural disaster happens, there will not be opportunities to go to the nearest store and pick up some fruits and vegetables.</p>
-	<p>Well, you know me well enough by now that I’ve make it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
+	<p>Well, you know me well enough by now that I’ve make it my mission to help get as many Fruit, Veggie and Snack Mixes as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I’m able to cut out the middle man and give these kits away for pennies on the dollar of what they’d normally cost.</p>
 	<p>And for a limited time, you can get our Fruit, Veggie and Snack Mix for the <strong>special promotional price of just $97.00!</strong></p>
 	<p><strong>That’s Just $1.18 Per Serving!</strong></p>
 	<p>Normally, this kit would cost around $147, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough vitamin enriched foods in their stockpile.</p>

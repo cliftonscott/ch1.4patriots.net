@@ -61,16 +61,16 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>And with the kind of shape our country is already in I don't blame you at all.</p>
 				<p>I did notice one thing that I want to bring up just to make sure you're doing all you can.</p>
 				<p>A lot of people have told me that getting their Meat &amp; Protein kit was a great first step, but they really wanted more. That having foods high in protein was just their &quot;starting point&quot;, and I get where they're coming from.</p>
-				<p>Meat &amp; Protein really are just a piece of the stockpiling puzzle.</p>
+				<p>Meat and protein really are just a piece of the stockpiling puzzle.</p>
 				<p>I still really want you to help you get your food stockpile, protect your family, and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and 6 FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
 				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get A 3-Month Food4Patriots Supply Right Now...</h2>
-				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
+				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You and Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 				<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
 				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War 1, when a pound of bread cost 3 BILLION marks! </p>
-				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
+				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 and Get FREE Shipping </strong></p>
 				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a one-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now.</p>
-				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
+				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food and 3-month Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-Month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
 				<?php include 'f4p-3month-whatsincluded.html'; ?><p>&nbsp;</p>
@@ -155,7 +155,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Liberty Seed Vault</h2>
 					<p>More than 5,640 survival seeds from 22 varieties of hardy and delicious heirloom seeds passed down from our forefathers. No GMO crap or hybrids here. Sealed in an airtight container rated for 5+ years of storage.</p>
-					<p>All the seeds are re-harvestable and can be re-grown over and over again giving you 1000's of pounds of fresh, nutrient dense food… for literally pennies per pound. Enough to last your family a lifetime.</p>
+					<p>All the seeds are re-harvestable and can be re-grown over and over again giving you thousands of pounds of fresh, nutrient dense food… for literally pennies per pound. Enough to last your family a lifetime.</p>
 					<p>These survival seeds are the perfect companion to your survivalfood stockpile. Some companies charge over $200 for seeds that don't even come close to the quality I'm giving you today.</p>
 					<div class="row">
 						<div class="col-sm-12 col-md-5 "><img src="/media/images/ss4p/ss4p-lsv-single-bluebg.jpg" alt="Survival Seeds" class="img-responsive center-block" /></div>
@@ -193,9 +193,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p>Each one of these amazing tools could be a real life-saver, yet they are no bigger than a credit card so you’ll always have it handy.</p>
 					<div><img class="img-responsive center-block" src="/media/images/bonuses/bonus-multi-tool-04.jpg" alt="Multi Tool Bonus"></div>
 				</div>
-				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping AND 6 awesome bonuses.</p>
+				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping, AND 6 awesome bonuses.</p>
 				<p>All for you today. I think that's about the best deal I can make you.</p>
-				<p>Just click the link the button below and I’ll send you your goodies right away.</p>
+				<p>Just click the button below and I’ll send you your goodies right away.</p>
 			</div>
 			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
 			<div class="row">

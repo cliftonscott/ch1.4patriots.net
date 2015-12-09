@@ -1,6 +1,6 @@
 <div class="container oto-width">
 	<div>
-		<h1 class="darkRed text-center">Who Else Wants More Protein, Nutrition & Taste... GUARANTEED For 25 Years of Storage?</h1>
+		<h1 class="darkRed text-center">Who Else Wants More Protein, Nutrition and Taste... GUARANTEED For 25 Years of Storage?</h1>
 	</div>
 	<div class="margin-b-10">
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -40,8 +40,8 @@
 	<p>Dear Patriot,</p>
 	<p>Chances are you&rsquo;ve got a great start on your survival food stockpile... </p>
 	<p><strong>But do you have protein to &ldquo;survive and thrive&rdquo;?</strong></p>
-	<p>In a crisis, your body is under extreme stress.  You need all your strength and then some to cope with all the chaos going on around you, and to keep your loved ones safe. To do that, you&rsquo;ve got to get enough high-quality protein.</p>
-	<p>In fact, protein isn&rsquo;t just a nutritional staple of a good diet; it&rsquo;s a critical component to staying healthy...<strong>especially when the crap hits the fan!</strong></p>
+	<p>In a crisis your body is under extreme stress.  You need all your strength and then some to cope with all the chaos going on around you, and to keep your loved ones safe. To do that, you&rsquo;ve got to get enough high-quality protein.</p>
+	<p>In fact, protein isn&rsquo;t just a nutritional staple of a good diet; it&rsquo;s a critical component to staying healthy...<strong> especially when the crap hits the fan!</strong></p>
 	<p>Why?</p>
 	<p>Well, for starters, unless you&rsquo;re getting enough, your body will turn to the only other source of protein that&rsquo;s available – by consuming its own muscle tissue.</p>
 	<p><strong>Without enough quality protein, your body literally STARTS EATING ITSELF.</strong></p>
@@ -62,17 +62,17 @@
 		<li><i class="fa-li fa fa-check"></i><strong>Better sleep. </strong>Adequate protein keeps you active during the day and helps you get a peaceful night&rsquo;s rest.<strong></strong></li>
 	</ul>
 
-	<p>It&rsquo;s obvious that a high-quality source of digestible protein should be a critical part of your overall survival food plan. And that doesn&rsquo;t mean buying up loads of fattening, sugary peanut butter or tasteless cans of tuna...all of which can go bad in just a couple of years.</p>
-	<p>Nope – I&rsquo;ve got a better solution...one that&rsquo;s proven to stay fresh for a staggering 25 years!</p>
+	<p>It&rsquo;s obvious that a high-quality source of digestible protein should be a critical part of your overall survival food plan. And that doesn&rsquo;t mean buying up loads of fattening, sugary peanut butter or tasteless cans of tuna... all of which can go bad in just a couple of years.</p>
+	<p>Nope – I&rsquo;ve got a better solution... one that&rsquo;s proven to stay fresh for a staggering 25 years!</p>
 	<p>In fact, my new...</p>
 
 	<h2 class="darkRed text-center">Meat &amp; Protein Kit Was The #1 Requested Item From Food4Patriots Customers...</h2>
 	<p>A real “protein boost” to round out and “supercharge” their survival food stockpiles was just the ticket.</p>
 	<p>My name is Frank Bates and I am the founder of 4Patriots. I&rsquo;ve helped over <strong>106,321 fellow patriots</strong> help build their food stockpiles with my top-rated Food4Patriots products.</p>
-	<p>And when it came to finding a Meat &amp; Protein solution, truth be told, I didn&rsquo;t want to offer anything less than the very best...no cutting corners or using cheap fillers. No sir.</p>
-	<p>I searched for the best quality meat &amp; protein options available. Most didn&rsquo;t pass muster for quality, taste, or long shelf life. </p>
+	<p>And when it came to finding a meat and protein solution, truth be told, I didn&rsquo;t want to offer anything less than the very best... no cutting corners or using cheap fillers. No sir.</p>
+	<p>I searched for the best quality meat and protein options available. Most didn&rsquo;t pass muster for quality, taste, or long shelf life. </p>
 	<p>After much trial and error, I finally found the exact high-quality protein kit my customers have been clamoring for – one that&rsquo;s delicious, nutritious, and rated good for 25 years! </p>
-	<p>Now just so you know...I&rsquo;m more than a perfectionist when it comes to any of my Food4Patriots products. It&rsquo;s no different with my Meat &amp; Protein Kit...</p>
+	<p>Now just so you know... I&rsquo;m more than a perfectionist when it comes to any of my Food4Patriots products. It&rsquo;s no different with my Meat &amp; Protein Kit...</p>
 	<p>That&rsquo;s why this painstaking process took so long. I was going to &ldquo;do it right&rdquo; or not at all...</p>
 	<p>From the advanced dehydration process and space-age Mylar packaging that seals in nutrients and flavor, to <strong>using a separate FDA approved facility to make them</strong>, I refused to cut corners in any way. It costs me more, but nothing is too good for my customers.</p>
 
@@ -121,19 +121,19 @@
 	<p>Everything is super-easy to prepare. <u>Just add hot water!</u></p>
 	<p>Native Americans and Pioneers got through the toughest winters and survival situations with the same kind of dried meat you find in our Meat &amp; Protein Kit! </p>
 	<p>Plus, it&rsquo;s very low in fat yet high in life-sustaining protein!</p>
-	<p>You get a whopping 80 total servings of high-quality, lean protein to keep you fit as a fiddle and ready for whatever Mother Nature or other man-mad catastrophes can throw at you.</p>
+	<p>You get a whopping 80 total servings of high-quality, lean protein to keep you fit as a fiddle and ready for whatever Mother Nature or other man-made catastrophes can throw at you.</p>
 
 	<h2 class="darkRed text-center">So, How Much Does This Cost?</h2>
 	<p>It's no secret that good, lean protein can cost a pretty penny.</p>
 	<p>Heck, it makes sense considering how important protein is to our diets, right?</p>
-	<p>Well, you know me well enough by now that I've made it my mission to help get as many Food4Patriots kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I'm able to cut out the middle man and give these kits away for pennies on the dollar of what they'd normally cost.</p>
+	<p>Well, you know me well enough by now that I've made it my mission to help get as many Food4Patriots Meat & Protein kits as I can into the hands of my fellow patriots and, because I have been blessed with the ability to buy in bulk, I'm able to cut out the middle man and give these kits away for pennies on the dollar of what they'd normally cost.</p>
 	<p>So, <strong>as a special introductory offer,</strong> you can get my Meat &amp; Protein Kit for the special promotional price of <strong>just $147.</strong></p>
 	<p>That's just $1.83 Per Serving!</p>
 	<p>Normally, this kit would cost around $197, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough protein enriched foods in their stockpile.</p>
 	<p><strong>Get your Meat &amp; Protein Kit at this special introductory price while it is still available...</strong></p>
 	<p>I'm not sure how long we will be able to offer this important kit for $147 or <strong>$1.83 Per Serving.</strong></p>
 	<p>Be sure to jump on this opportunity while it lasts...</p>
-	<p>Unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that's making headlines all across America...so please...<strong>claim your kit while there's still time.</strong></p>
+	<p>Unfortunately for you and me, the cost of food is currently skyrocketing from drought and scarcity that's making headlines all across America... so please...<strong> claim your kit while there's still time.</strong></p>
 	<p><strong>Click the "Add To Cart" button below now, and I'll rush your kit to your front door right away!</strong></p>
 
 
@@ -147,10 +147,10 @@
 	<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 	<div class="outLineBoxDarkBlue">
 		<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
+		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 		satisfied with your Meat &amp; Protein Kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
 		price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-		any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+		any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 		<div class="clearfix"></div>
 	</div>
 
@@ -171,7 +171,7 @@
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-23.jpg" alt="Testimonial">
 
 	<p>Please hurry Friend...</p>
-	<p>I don't know how long I'm going to be able to offer these Meat &amp; Protein Kits at this rock-bottom introductory price, or <strong><em>at all...</em></strong>with survival food supplies disappearing, I'm bound to sell out fast.</p>
+	<p>I don't know how long I'm going to be able to offer these Meat &amp; Protein Kits at this rock-bottom introductory price, or <strong><em>at all...</em></strong> with survival food supplies disappearing, I'm bound to sell out fast.</p>
 	<p>I'd hate to think your family's nutrition might be compromised because you didn't act while you had the chance...</p>
 	<p><strong>So claim your kit NOW by clicking the "Add To Cart" button, and have true peace of mind that your loved ones WON'T starve in the coming crisis...</strong></p>
 
