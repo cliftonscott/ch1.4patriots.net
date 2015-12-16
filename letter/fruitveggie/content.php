@@ -102,13 +102,13 @@
 	<p>Normally, this kit would cost around $147, but for a limited time, I want to make it available to anyone that wants to ensure their family has enough vitamin enriched foods in their stockpile.</p>
 	<p>Be sure to jump on this opportunity folks… food prices are going through the roof right now, and I’m struggling to keep these kits in stock.</p>
 	<p>Get your Fruit, Veggie and Snack Mix at this special introductory price while it is still available…</strong></p>
-	<p>I’m not sure how long we will be able to offer this important kit for $97 or $1.18 per serving.</p>
+	<p>I’m not sure how long we will be able to offer this important kit for $97.00 or $1.18 per serving.</p>
 	<p><strong>Click the <strong>"Add To Cart"</strong> button below now, and I'll rush your kit to your front door right away!</strong></p>
 
 
 	<div class="margin-tb-50 center-block text-center">
 		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-03.jpg" alt="">
-		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
+		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97.00</strong></a>
 	</div>
 
 	<p>And just to make this a complete no-brainer for you...</p>
@@ -141,7 +141,7 @@
 	<p>So claim your kit NOW by clicking the <strong>“Add to Cart”</strong> button, and have true peace of mind your loved ones WON’T starve in the coming crisis…</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-03.jpg" alt="">
 	<div class="margin-tb-50 center-block text-center">
-		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97</strong></a>
+		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97.00</strong></a>
 	</div>
 
 	<img class="img-responsive center-block margin-tb-20" src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Testimonial">
