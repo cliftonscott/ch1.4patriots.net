@@ -88,6 +88,8 @@ class Analytics {
 
 		include_once("Dblog.php");
 
+		self::$serverId = getenv("4PAT_SERVER_NAME");
+
 		if(getenv("APP_ENV") === "production") {
 			self::$googleAccount = self::PROD_GA_ACCT;
 			self::$googleDomain = self::PROD_GA_DOMAIN;
