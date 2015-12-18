@@ -145,7 +145,7 @@ class Dblog {
 		$db = $dbObj->connect();
 
 		$userIpStr = self::getIpAddress();
-		$serverId = getenv("DESIGNATION");
+		$serverId = getenv("4PAT_SERVER_NAME");
 		$visitorId = session_id();
 
 		$sql = "INSERT INTO `" . self::DB_TABLE . "` SET process=:processStr, userIp=:userIpStr, log =:inputStr, serverId=:serverId, visitorId=:visitorId, json=:json";
