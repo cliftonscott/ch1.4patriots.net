@@ -376,7 +376,7 @@ $dblog = Dblog::setDblog($saleInfo,"saleObj");
 
 $endProcessTime = microtime(true);
 $elapsedProcesstime = $endProcessTime - $startProcessTime;
-$stepText .= $elapsedProcesstime . " :: Total process time (" . getenv("DESIGNATION") . ")";
+$stepText .= $elapsedProcesstime . " :: Total process time (" . getenv("4PAT_SERVER_NAME") . ")";
 $dblog = Dblog::setDblog($stepText,"PROCESS TIMES<br>" . $postLimelight->orderId);
 
 
