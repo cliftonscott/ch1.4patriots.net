@@ -93,7 +93,7 @@ if($platformCountDownToDate) {
 					<p>I have a problem:</p>
 					<p><strong>The Tax Man.</strong></p>
 					<p>And my pain is your gain.</p>
-					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, 2014!</p>
+					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, <?php echo date("Y") ?>!</p>
 					<p>So, I’m going to do something I’ve never done.</p>
 					<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $700.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
 					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
