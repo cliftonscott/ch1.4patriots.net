@@ -86,14 +86,14 @@ if($platformCountDownToDate) {
 				<div><h1 class="darkRed text-center">The Tax Man is Coming For Me!<br> 1-Year Food4Patriots Kits On Sale <br>[$700.00 Instant Rebate]</h1></div>
 				<div class="text-center">
 					<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
-					<span class="caption"><i>Save $700.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Lifestraw Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
+					<span class="caption"><i>Save $700.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 				</div>
 				<div style="margin-top:50px;">
 					<p>Dear Friend,</p>
 					<p>I have a problem:</p>
 					<p><strong>The Tax Man.</strong></p>
 					<p>And my pain is your gain.</p>
-					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, 2014!</p>
+					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, <?php echo date("Y") ?>!</p>
 					<p>So, I’m going to do something I’ve never done.</p>
 					<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $700.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
 					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
@@ -108,7 +108,7 @@ if($platformCountDownToDate) {
 					<p>That’s below cost, Folks!</p>
 					<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the tax man won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
 					<div style="text-align:center;">
-						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart">Add to Cart - $1497</a>
+						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
 					</div>
 					<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 				</div>
@@ -153,7 +153,7 @@ if($platformCountDownToDate) {
 				<h2 class="darkRed text-center">What's Included?</h2>
 
 				<p>The 1 Year Food Supply kit provides one adult with a whopping 1,800 servings of healthy, delicious storable food, drinks and snacks for 12 months.</p>
-				<p>Packaged in convenient and lightweight 4-serving Mylar pouches, our low-heat dehydrated food seals in the flavor and high-nutritional value. Simple and easy to prepare…. just boil water, pour in the food, simmer for 10 to 15 minutes and serve up a great meal.</p>
+				<p>Packaged in convenient and lightweight Mylar pouches, our low-heat dehydrated food seals in the flavor and high-nutritional value. Simple and easy to prepare…. just boil water, pour in the food, simmer for 10 to 15 minutes and serve up a great meal.</p>
 
 				<p>Here’s some of what’s included in your 1 Year Food4Patriots Kit:</p>
 			</div>
@@ -275,7 +275,7 @@ if($platformCountDownToDate) {
 				<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you order today!</p>
 				<p>This is an incredibly valuable item, and I want to get it into your hands with the least amount of hassle and worry for you. Your Food4Patriots 1-Year Kit will be delivered right to your door in plain packaging that won’t reveal the contents…it’s totally covert. And it’s all on my dime!</p>
 				<div style="text-align:center;">
-					<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart">Add to Cart - $1497</a>
+					<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
 				</div>
 			</div>
 			<div class="container oto-width">
@@ -313,9 +313,9 @@ if($platformCountDownToDate) {
 				<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,497.</p>
 				<p><strong>You get a year&rsquo;s worth of delicious survival food for less than $0.83 per serving!</strong></p>
 				<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
-				<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;Add To Cart&rdquo; button below to add the 1 Year Food4Patriots Kit to your order today!</p>
+				<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below to add the 1 Year Food4Patriots Kit to your order today!</p>
 				<p>The 1 Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
-				<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1 Year Food4Patriots kit at $700.00 off, click the big green &ldquo;Add To Cart&rdquo; button below.</p>
+				<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1 Year Food4Patriots kit at $700.00 off, click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below.</p>
 				<div>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
@@ -324,7 +324,7 @@ if($platformCountDownToDate) {
 					<a id="accept"></a>
 
 					<div style="text-align:center;">
-						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart">Add to Cart - $1497</a>
+						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
 					</div>
 					<div style="margin-top:20px;">
 						<img class="img-responsive center-block"  src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Food4Patriots Testimonial">
