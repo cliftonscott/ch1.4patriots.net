@@ -28,23 +28,12 @@ include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 
-/*SPLIT JV-38 11/20/15*/
-require_once("JavelinApi.php");
-$javelinApi = JV::load();
-if (JV::in("38-gulp")) {
-	include_once("agile/template-top.php");
-}else{
-	include_once ('template-top.php');
-}
+/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
+include_once("agile/template-top.php");
 /*END TEST*/
 
+include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
-<!--SPLIT JV-38 11/20/15-->
-<?php if (!JV::in("38-gulp")) { ?>
-<script src="/js/audio.js"></script>
-<?php } ?>
-<!--END TEST-->
 <script>
 	/*
 	 This function works in parallel with the setStateTax() function found in the

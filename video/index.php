@@ -82,11 +82,10 @@ $detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
-if (JV::in("38-gulp")) {
-	if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())) {
-		header('Location: /letter/index.php');
-		exit();
-	};
+/*USES MOBILE DETECT TO REDIRECT*/
+if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())) {
+	header('Location: /letter/index.php');
+	exit();
 };
 /*END TEST*/
 
@@ -98,29 +97,14 @@ include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 
-/*SPLIT JV-38 11/20/15*/
-if (JV::in("38-gulp")) {
-	include_once("agile/template-top.php");
-}else{
-	include_once ('template-top.php');
-}
+/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
+include_once("agile/template-top.php");
 /*END TEST*/
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
-
-<?php if (!JV::in("38-gulp")) { /*SPLIT JV-38 11/20/15*/ ?>
-	<?php if($vsl != "3f" && $vsl != "fs") { ?>
-	<script>
-		if (isMobile()) { document.location = "<?php echo $productDataObj->mobileLink ?>"; }
-	</script>
-	<?php } ?>
-<script src="/js/audio.js"></script>
-<script src="/js/jquery.timers-1.2.js" type="text/javascript"></script>
-<script src="/js/jcookie.js" type="text/javascript"></script>
-<?php } ?>
 
 <?php if (JV::in("24-play")) { /*SPLIT JV-24 10/19/15*/?>
 <script>
