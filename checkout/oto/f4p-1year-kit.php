@@ -284,7 +284,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			?>
 
 <?php
-// SPLIT JV-24 TABLET ONLY 10/19/15
+// SPLIT JV-49 DESKTOP ONLY 12/21/15
 if (JV::in("49-modal")) { ?>
 			<div class="noThanks">
 				<a href="javascript:void(0);" onclick="showDeclineModal();">No Thanks</a> – I am choosing to abandon my steeply discounted 1-Year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
