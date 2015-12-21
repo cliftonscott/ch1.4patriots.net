@@ -39,8 +39,13 @@ if($variation !== "np" & $variation !== "np-nologo") {
 	$template["exitPopType"] = "video"; //designates that this should not have an exit pop of type video
 }
 
+
+include_once("Product.php");
+$productObj = new Product();
+
 // SET PRODUCT ID
 $_SESSION['productId'] = 253; //please keep as an integer
+$funnelData = $productObj->initFunnel("OTO1");
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
@@ -176,7 +181,7 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 				<div class="clearfix"></div>
 				<!-- Button Stuff -->
 				<div id="buyButton" class="center-block text-center" style="display:none;padding-bottom:10px;">
-					<a href="/order/<?php echo $productDataObj->productId;?>"><button type="button-1" class="btn-1"><strong>Yes, I Want Pure Water!</strong></button></a><br>
+					<a href="/checkout/process.php"><button type="button-1" class="btn-1"><strong>Yes, I Want Pure Water!</strong></button></a><br>
 				</div>
 				<div class="col-md-12">
 					<div id="videobox">

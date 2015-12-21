@@ -21,8 +21,10 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 	$firstName = "Fellow Patriot";
 }
 include_once("Product.php");
+$productObj = new Product();
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("OTO2");
 
 /*
  * Determines the primary and secondary ids to use in the content template

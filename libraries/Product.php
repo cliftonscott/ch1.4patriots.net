@@ -757,6 +757,89 @@ class Product {
 				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
 				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
 				break;
+
+			/*
+			 * ============================================
+			 * Alexapure Pro Product Data
+			 * ============================================
+			 *
+			 * This product data supports the 1-Year Firesale
+			 * funnel, which offers PIDs 253, 257, and 258.
+			 *
+			 * ============================================
+			*/
+			case 253: //Alexapure Pro
+				$productObj->pmaSku = null;
+				$productObj->dynamicPricing = true;
+				$productObj->campaignId = 14;
+				$productObj->price = 197;
+				$productObj->originalPrice = 197;
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 253;
+				$productObj->netRevenueEach = 82;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 999;
+				$productObj->tags = "LL, boughtAPP";
+				$productObj->metaTitle = "Alexapure Pro";
+				$productObj->metaDescription = "Alexapure Pro";
+				$productObj->defaultQuantity = 1;
+				$productObj->defaultImage = null;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 257: //Alexapure Filter - 1 Pack
+				$productObj->pmaSku = null;
+				$productObj->dynamicPricing = true;
+				$productObj->campaignId = 14;
+				$productObj->price = 99.95;
+				$productObj->originalPrice = 99.95;
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 257;
+				$productObj->netRevenueEach = 54;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 999;
+				$productObj->tags = "LL, boughtAPF";
+				$productObj->metaTitle = "Alexapure Filter - 1 Pack";
+				$productObj->metaDescription = "Alexapure Filter - 1 Pack";
+				$productObj->defaultQuantity = 1;
+				$productObj->defaultImage = null;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			case 258: //Alexapure Filter - 3 Pack
+				$productObj->pmaSku = null;
+				$productObj->dynamicPricing = true;
+				$productObj->campaignId = 14;
+				$productObj->price = 277;
+				$productObj->originalPrice = 277;
+				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 258;
+				$productObj->netRevenueEach = 146;
+				$productObj->taxable = TRUE;
+				$productObj->listId = 999;
+				$productObj->tags = "LL, boughtAPF";
+				$productObj->metaTitle = "Alexapure Filter - 3 Pack";
+				$productObj->metaDescription = "Alexapure Filter - 3 Pack";
+				$productObj->defaultQuantity = 1;
+				$productObj->defaultImage = null;
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				break;
+			/* ============================================
+			 * End Of Alexapure Pro Product Data
+			 * ============================================ */
 		}
 		return $productObj;
 	}
@@ -1021,6 +1104,37 @@ class Product {
 
 		);
 
+/*
+ * ============================================
+ * 1-Year Firesale Funnel
+ * ============================================
+*/
+
+		$funnelData["1year-firesale"] = array(
+
+			"MAIN" => array (
+				"googleBrand" => "F4P-1YFIRE",
+				"tags" => "1YRKIT",
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-app.php",
+				"declineUrl" => null,
+			),
+			"OTO1" => array (
+				"googleBrand" => "F4P-1YFIRE",
+				"nextUrl" => "/checkout/1year-firesale/oto/f4p-apf.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+			"OTO2" => array (
+				"googleBrand" => "F4P-1YFIRE",
+				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+			"TYP" => array (
+				"googleBrand" => "F4P-1YFIRE",
+				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+			),
+		);
+
 		return $funnelData;
 
 	}
@@ -1041,6 +1155,7 @@ class Product {
 			"/checkout/protein/" => "protein",
 			"/checkout/fruitveggie/" => "fruitveggie",
 			"/checkout/coffee600/" => "coffee600",
+			"/checkout/1year-firesale" => "1year-firesale"
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];

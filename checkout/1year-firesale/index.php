@@ -25,7 +25,7 @@ $productObj = new Product();
 
 //creates a product object that is available from every template
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("checkout");
+$funnelData = $productObj->initFunnel("MAIN");
 
 $platformCountDownToDate = true;
 
