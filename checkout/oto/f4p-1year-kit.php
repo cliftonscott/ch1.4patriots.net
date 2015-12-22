@@ -335,7 +335,7 @@ if (JV::in("49-modal")) { ?>
 								<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
 								<p>I accept that by declining this offer, I may never see the Food4Patriots 1­year kit at this price ever again.</p>
 								<div class="text-center" style="padding:20px;"><a href="/checkout/oto/f4p-1year-kit-payments.php">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
-								<button class ="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
+								<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
 							</div>
 						</div>
 					</div>
