@@ -86,7 +86,7 @@ if($platformCountDownToDate) {
 				<div><h1 class="darkRed text-center">The Tax Man is Coming For Me!<br> 1-Year Food4Patriots Kits On Sale <br>[$700.00 Instant Rebate]</h1></div>
 				<div class="text-center">
 					<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
-					<span class="caption"><i>Save $700.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
+					<span class="caption"><i>Save $700.00 when you order a 1-year kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 				</div>
 				<div style="margin-top:50px;">
 					<p>Dear Friend,</p>
@@ -104,7 +104,7 @@ if($platformCountDownToDate) {
 					<p>Each kit comes packaged in space-age, air-tight Mylar pouches locking air out and flavor in! All tucked neatly into convenient, covert, stackable totes that you can store anywhere – garage, basement, cabin, RV, car, or bunker.</p>
 					<p>It’s a snap to prepare, too – just add boiling water, heat ‘n eat.</p>
 					<p>Plus, I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
-					<p>Normally priced at $2,200, I’m offering my Food4Patriots 1-Year Kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
+					<p>Normally priced at $2,200, I’m offering my Food4Patriots 1-year kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
 					<p>That’s below cost, Folks!</p>
 					<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the tax man won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
 					<div style="text-align:center;">
@@ -114,7 +114,7 @@ if($platformCountDownToDate) {
 				</div>
 			</div>
 			<div class="container oto-width">
-				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get The One Year Food4Patriots Kit Right Now...</h2>
+				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get The 1-Year Food4Patriots Kit Right Now...</h2>
 				<p><span class="numberCircle"><strong>1</strong></span><strong> You Need More Food To Protect You & Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits ... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores throughout your area. By stocking up on non-perishable food now, not only you will have your own “food insurance policy” no matter what happens, you’ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 				<p><span class="numberCircle"><strong>2</strong></span><strong> You Can Barter Your Food In Times Of Crisis</strong></p>
@@ -152,10 +152,10 @@ if($platformCountDownToDate) {
 			<div class="container oto-width">
 				<h2 class="darkRed text-center">What's Included?</h2>
 
-				<p>The 1 Year Food Supply kit provides one adult with a whopping 1,800 servings of healthy, delicious storable food, drinks and snacks for 12 months.</p>
+				<p>The 1-year food supply kit provides one adult with a whopping 1,800 servings of healthy, delicious storable food, drinks and snacks for 12 months.</p>
 				<p>Packaged in convenient and lightweight Mylar pouches, our low-heat dehydrated food seals in the flavor and high-nutritional value. Simple and easy to prepare…. just boil water, pour in the food, simmer for 10 to 15 minutes and serve up a great meal.</p>
 
-				<p>Here’s some of what’s included in your 1 Year Food4Patriots Kit:</p>
+				<p>Here’s some of what’s included in your 1-year Food4Patriots kit:</p>
 			</div>
 			<div class="container-fluid oto-width">
 				<div class="row text-center">
@@ -272,15 +272,15 @@ if($platformCountDownToDate) {
 			</div>
 			<div class="container oto-width">
 				<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-				<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you order today!</p>
-				<p>This is an incredibly valuable item, and I want to get it into your hands with the least amount of hassle and worry for you. Your Food4Patriots 1-Year Kit will be delivered right to your door in plain packaging that won’t reveal the contents…it’s totally covert. And it’s all on my dime!</p>
+				<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots kit when you order today!</p>
+				<p>This is an incredibly valuable item, and I want to get it into your hands with the least amount of hassle and worry for you. Your Food4Patriots 1-year kit will be delivered right to your door in plain packaging that won’t reveal the contents…it’s totally covert. And it’s all on my dime!</p>
 				<div style="text-align:center;">
 					<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
 				</div>
 			</div>
 			<div class="container oto-width">
-				<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses You Can ONLY Get With The 1 Year Kit!</h2>
-				<p>You’re going to get the “mother lode” of special bonuses that are ONLY available with the 1 Year Kit!</p>
+				<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses You Can ONLY Get With The 1-Year Kit!</h2>
+				<p>You’re going to get the “mother lode” of special bonuses that are ONLY available with the 1-year kit!</p>
 			</div>
 			<?php include("f4p-1year-bonus-survivalspring.html");?>
 			<?php include("f4p-1year-bonus-survivalbooks.html");?>
@@ -309,13 +309,13 @@ if($platformCountDownToDate) {
 					<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
 				</div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
-				<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1 Year Food4Patriots Kit Plus Bonuses For $1,500.00 Off Right Now! </h2>
-				<p>Now I understand that the 1 Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1 Year Food4Patriots kit today for just $1,497.</p>
+				<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1-Year Food4Patriots Kit Plus Bonuses For $1,500.00 Off Right Now! </h2>
+				<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,497.</p>
 				<p><strong>You get a year&rsquo;s worth of delicious survival food for less than $0.83 per serving!</strong></p>
 				<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
-				<p>I was only able to secure a limited quantity of these 1 Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below to add the 1 Year Food4Patriots Kit to your order today!</p>
-				<p>The 1 Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
-				<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1 Year Food4Patriots kit at $700.00 off, click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below.</p>
+				<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below to add the 1-year Food4Patriots kit to your order today!</p>
+				<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
+				<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1-year Food4Patriots kit at $700.00 off, click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below.</p>
 				<div>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
@@ -351,7 +351,7 @@ if($platformCountDownToDate) {
 									<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 										<div class="panel-heading">
 											<h4 class="panel-title">
-												<div>1 Year Food Supply - $1497 <span class="gray13">($0.83/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+												<div>1-Year Food Supply - $1497 <span class="gray13">($0.83/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 											</h4>
 										</div>
 									</a>
@@ -362,7 +362,7 @@ if($platformCountDownToDate) {
 												<div class="row">
 													<div class="col-sm-12 col-md-6 nopadding">
 														<div class="productList">
-															<p class="text-center red17"><strong>1 Year Food <br>
+															<p class="text-center red17"><strong>1-Year Food <br>
 																	Supply Includes:</strong></p>
 															<ul>
 																<li>1,800 Servings <a href="#info" id="1yrPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
