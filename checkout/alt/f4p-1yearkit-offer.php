@@ -38,8 +38,7 @@ include_once ('template-top.php');
 			<span class="caption"><i>Save $200.00 when you order a 1 Year Kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filters, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 		</div>
 		<div style="margin-top:50px;">
-			<p>Thank you for being a Food4Patriots customer! I hope that you love you love your Food4Patriots kit and have been sleeping easier at night knowing that you are more prepared for whatever may happen.</p>
-			<p>I've got a special "customers only" offer for you...</p>
+			<p>Even though the Year-End Fire Sale has ended, you can still purchase the Food4Patriots 1-year kit at a great discount.</p>
 			<p>A lot of folks have told me that given the scary state of affairs in this country and the constant threat of natural disasters, they want more food. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
 			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for being a customer today, I am offering you an <strong>exclusive $200.00 discount</strong> on a ONE YEAR Food4Patriots kit if you act now. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts worth $470.00 -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds</strong> -- just to make this a "no-brainer" for you!</p>
