@@ -1115,6 +1115,9 @@ class Product {
 			"MAIN" => array (
 				"googleBrand" => "F4P-1YFIRE",
 				"tags" => "1YRKIT",
+				"price" => 1497.00,
+				"customPrice" => 1497.00,
+				"netRevenueEach" => 531.55,
 				"nextUrl" => "/checkout/1year-firesale/oto/f4p-app.php",
 				"declineUrl" => null,
 			),

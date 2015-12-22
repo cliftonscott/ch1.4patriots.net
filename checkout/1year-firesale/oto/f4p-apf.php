@@ -30,11 +30,8 @@ $funnelData = $productObj->initFunnel("OTO2");
  * Determines the primary and secondary ids to use in the content template
  * where primaryId should be the default
  */
-foreach ($funnelData as $k => $v) {
-	$idCollection[] = $k;
-}
-$primaryProductId = $idCollection[0];
-$secondaryProductId = $idCollection[1];
+$primaryProductId = 258;
+$secondaryProductId = 257;
 
 
 $declineUrl = "/checkout/1year-firesale/thankyou.php";
