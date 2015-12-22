@@ -8,9 +8,24 @@
         _els = document.getElementsByTagName(_tags[_i]);
         for(_i2 in _els) {
             if((_tags[_i] == 'input' && _els[_i2].type != 'button' && _els[_i2].type != 'submit' && _els[_i2].type != 'image') || _els[_i2].target == '_blank') continue;
-            _els[_i2].onclick = function() {window.onbeforeunload = function(){};}
+            if (_els[_i2].className && _els[_i2].className.indexOf('exit-safe') > -1) {
+
+                // Determine the new onBeforeUnload function to add to the onClick function.
+                // Because the customer form 'gray out' functionality directly attaches to onBeforeUnload,
+                // we have to make a special case for it.
+                var onBeforeUnload = 'window.onbeforeunload = function(){};';
+                if (_els[_i2].className.indexOf('gray-out') > -1) {
+                    onBeforeUnload = "window.onbeforeunload = function(){ var ldiv = document.getElementById('LoadingDiv'); ldiv.style.display='block'; };";
+                }
+
+                // Set the new onClick function.
+                var newOnClickFunction = new Function(onBeforeUnload + _els[_i2].getAttribute('onclick'));
+                _els[_i2].onclick = newOnClickFunction;
+            } else {
+                _els[_i2].onclick = function() {window.onbeforeunload = function(){};}
+            }
         }
-   }
+    }
 	setTimeout(function() {
     window.onbeforeunload = function() {
         setTimeout(function() {
