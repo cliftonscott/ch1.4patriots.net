@@ -285,10 +285,7 @@
 							<div class="text-center">
 								<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 								<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
-								<!--<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-								<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
-								<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
-								<div class="clear"></div>-->
+								<div class="clear"></div>
 							</div>
 							<p>So, why is our food flying off the shelves?</p>
 						</div>

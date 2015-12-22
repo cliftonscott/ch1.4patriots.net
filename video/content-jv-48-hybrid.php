@@ -540,6 +540,11 @@
 							<p>Look, I'd rather you get your own personal food stockpile than see Homeland Security hoard them.</p>
 							<p>Since these are clearing out fast I'll be ordering as many as I can. But if this new FEMA demand drains up all the raw ingredients, there may be no way of restocking - indefinitely.</p>
 							<p>Keep in mind we have over 106,321 customers who have already taken us up on “The Stockpiler’s Dream.”</p>
+							<div class="text-center">
+								<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+								<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+								<div class="clear"></div>
+							</div>
 							<p>So, why is our food flying off the shelves?</p>
 						</div>
 					</div>
@@ -634,6 +639,15 @@
 							<p><strong>“We just don't need that much food.”</strong></p>
 							<p>But I figured if I could get this information out to people like you, you'd want to grab the same discount I got and would claim your own food package.</p>
 							<p>That way I wouldn't be stuck with a big bill for more food than we could ever eat.</p>
+							<p>Click the orange button below to choose your kit.</p>
+							<div class="text-center">
+								<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+								<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+								<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+								<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+								<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+								<div class="clear"></div>
+							</div>
 						</div>
 					</div>
 					<div class="block bg-white">
@@ -786,6 +800,14 @@
 						<p>To keep your Food4Patriots order under the radar, we ship it in normal unmarked packaging. There're no flashy logos, advertisements or emblems on the outside. Not even the postman will know what you're getting.</p>
 						<p><strong>Click the “Choose My Kit” button down below to get started.</strong> Don't leave empty handed! You can get a kit with three square meals a day for as little as $1.11 per serving. Are you ready to get started?</p>
 						<p>Claim your Food4Patriots package now. Click the big orange “Choose My Kit” button below.</p>
+						<div class="text-center">
+							<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+							<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+							<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+							<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+							<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+							<div class="clear"></div>
+						</div>
 					</div>
 
 					<!-- start of flat brown block -->
