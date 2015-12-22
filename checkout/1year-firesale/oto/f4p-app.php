@@ -169,6 +169,11 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 	</style>
 	<!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 	<div class="container-main">
+		<div class="breadcrumb1">
+			<a>CHECKOUT</a>
+			<a class="current">ORDER CUSTOMIZATION</a>
+			<a>ORDER CONFIRMATION</a>
+		</div>
 		<div class="container">
 
 
@@ -180,9 +185,6 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 				</div>
 				<div class="clearfix"></div>
 				<!-- Button Stuff -->
-				<div id="buyButton" class="center-block text-center" style="display:none;padding-bottom:10px;">
-					<a href="/checkout/process.php"><button type="button-1" class="btn-1"><strong>Yes, I Want Pure Water!</strong></button></a><br>
-				</div>
 				<div class="col-md-12">
 					<div id="videobox">
 						<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/pxdv021fpu?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
@@ -205,14 +207,13 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 					<div class="col-md-12">
 						<!-- Button Stuff -->
 						<div id="buyButton2" class="center-block text-center" style="display:none;padding-bottom:10px;">
-							<a href="/order/<?php echo $productDataObj->productId;?>"><button type="button-1" class="btn-1"><strong>Yes, I Want Pure Water!</strong></button></a><br>
+							<a href="/checkout/process.php"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"><br><strong>Add To Cart - $197</strong></a><br>
 						</div>
 
 					</div>
 				</div>
 			</div>
 			<div class="container">
-				<?php include("snippets/as-seen-on-tv.phtml"); ?>
 				<div style="text-align: center; font-size:16px;margin-bottom:10px;"><a href="#img" class="exit-safe" onclick="showProductModal();wistiaPause();"> *Click Here For The Complete Lab Tests.</a></div>
 			</div>
 			<div class="container">
