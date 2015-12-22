@@ -207,7 +207,7 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 					<div class="col-md-12">
 						<!-- Button Stuff -->
 						<div id="buyButton2" class="center-block text-center" style="display:none;padding-bottom:10px;">
-							<a href="/checkout/process.php"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg"><br>Add To Cart - $197</a><br>
+							<a href="/checkout/process.php"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"><br><strong>Add To Cart - $197</strong></a><br>
 						</div>
 
 					</div>
