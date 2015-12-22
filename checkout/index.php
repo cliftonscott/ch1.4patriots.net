@@ -8,6 +8,7 @@ $page = "checkout";
  * use session soldout multidimensional array to indicate sold out conditions and associated
  * variables
  */
+unset($_SESSION["Funnel"]);
 $_SESSION["soldout"]["flag"] = false; //this is the primary trigger
 $_SESSION["soldout"]["audio"] = null;
 //$_SESSION["soldout"]["waitlist"] = false;
