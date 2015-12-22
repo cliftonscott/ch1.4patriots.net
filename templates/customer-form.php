@@ -298,7 +298,7 @@ if($_SESSION['errorMessage'] != '') {
 
 		</div><!-- *PRODUCT INFO -->
 
-	  <div><input id="submitButton" type="image" src="<?php echo $submitButtonSource;?>" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block" alt="Click To Continue"></div>
+	  <div><input id="submitButton" type="image" src="<?php echo $submitButtonSource;?>" value="" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue"></div>
 	</form>
 </div>
 
