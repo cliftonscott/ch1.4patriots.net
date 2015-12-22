@@ -105,7 +105,7 @@ if($isUpgrade) {
 ?>
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-seeds-rutgers.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+				<a href="/checkout/thankyou.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>
 	</div>

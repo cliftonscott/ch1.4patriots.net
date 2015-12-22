@@ -49,8 +49,15 @@ if($product->getFunnel()) {
 	//FUNNEL REDIRECT TO NEXT PAGE
 	$currentStep = $product->getStep();
 	$funnelData = $product->initFunnel($currentStep);
-	if($funnelData["googleBrand"]) {
+	if (isset($funnelData["googleBrand"]) && $funnelData["googleBrand"] !== null) {
 		$productDataObj->googleBrand = $funnelData["googleBrand"];
+	}
+	if (isset($funnelData["price"]) && $funnelData["price"] !== null) {
+		$productDataObj->price = $funnelData["price"];
+		$productDataObj->isCustomPrice = true;
+	}
+	if (isset($funnelData["netRevenueEach"]) && $funnelData["netRevenueEach"] !== null) {
+		$productDataObj->netRevenueEach = $funnelData["netRevenueEach"];
 	}
 }
 if($_SESSION["customTemplate"]["price"] > 0) {
