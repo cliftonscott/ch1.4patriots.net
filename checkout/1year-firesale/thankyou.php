@@ -34,7 +34,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 			<div class="margin-tb-20">
 				<?php
-				$testimonials = array("thomas", "todd", "rich",);
+				$testimonials = array("rolf", "wanda", "anon04",);
 				foreach ($testimonials as $count => $testimonial) {
 					echo "<div class='testimonial'>";
 					if($count % 2 == 0) {
