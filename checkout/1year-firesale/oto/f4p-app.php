@@ -205,7 +205,7 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 					<div class="col-md-12">
 						<!-- Button Stuff -->
 						<div id="buyButton2" class="center-block text-center" style="display:none;padding-bottom:10px;">
-							<a href="/order/<?php echo $productDataObj->productId;?>"><button type="button-1" class="btn-1"><strong>Yes, I Want Pure Water!</strong></button></a><br>
+							<a href="/checkout/process.php"><button type="button-1" class="btn-1"><strong>Yes, I Want Pure Water!</strong></button></a><br>
 						</div>
 
 					</div>
