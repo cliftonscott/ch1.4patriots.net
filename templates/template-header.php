@@ -1,5 +1,6 @@
 <div class="navbar navbar-inverse navbar-static-top">
-			<?php if($template["formType"] === "customerForm") { echo "<div class='hidden-xs' style='float:right; cursor:pointer;'><a href='#csr' onclick='showCsrModal();'><img src='/assets/images/misc/customer-service-rep-01.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>";} ?>
+			<?php if($template["formType"] === "customerForm" && (!isset($template["unclickableCsrModal"]) || !$template["unclickableCsrModal"])) { echo "<div class='hidden-xs' style='float:right; cursor:pointer;'><a href='#csr' onclick='showCsrModal();'><img src='/assets/images/misc/customer-service-rep-01.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>";} ?>
+			<?php if($template["formType"] === "customerForm" && (isset($template["unclickableCsrModal"]) && $template["unclickableCsrModal"] === true)) { echo "<div class='hidden-xs' style='float:right;'><img src='/assets/images/misc/customer-service-rep-01.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></div>";} ?>
 	<?php
 	if($template["floatingTimer"] > 0) {
 		include_once("snippets/timer-box.html");
