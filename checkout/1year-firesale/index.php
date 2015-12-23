@@ -97,7 +97,7 @@ if($platformCountDownToDate) {
 					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, <?php echo date("Y") ?>!</p>
 					<p>So, I’m going to do something I’ve never done.</p>
 					<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $500.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
-					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
+					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.90 per meal!</strong></p>
 					<p>This price is unheard of, folks.</p>
 					<p>Look, I try to price my kits as fair as I can to get as many people as possible prepared for a disaster.</p>
 					<p>But offering my food kits at a loss is NOT something I can do long term, or even more than a few days!</p>
@@ -352,7 +352,7 @@ if($platformCountDownToDate) {
 									<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 										<div class="panel-heading">
 											<h4 class="panel-title">
-												<div>1-Year Food Supply - $1497 <span class="gray13">($0.83/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+												<div>1-Year Food Supply - $1497 <span class="gray13">($0.90/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 											</h4>
 										</div>
 									</a>
