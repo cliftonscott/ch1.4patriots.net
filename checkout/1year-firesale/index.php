@@ -84,10 +84,10 @@ if($platformCountDownToDate) {
 	<div class="container-main">
 		<div id="content" style="display:block;">
 			<div class="container oto-width">
-				<div><h1 class="darkRed text-center">The Tax Man is Coming For Me!<br> 1-Year Food4Patriots Kits On Sale <br>[$700.00 Instant Rebate]</h1></div>
+				<div><h1 class="darkRed text-center">The Tax Man is Coming For Me!<br> 1-Year Food4Patriots Kits On Sale <br>[$500.00 Instant Rebate]</h1></div>
 				<div class="text-center">
 					<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="Food4Patriots 1 Year Kit" style="margin-bottom:20px;">
-					<span class="caption"><i>Save $700.00 when you order a 1-year kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
+					<span class="caption"><i>Save $500.00 when you order a 1-year kit,  plus get FREE Shipping, 4 FREE Survival Spring Personal Water Filers, 2 FREE brand-new Survival hard copy books, 4 FREE Liberty Seed Vaults, 4 FREE 11-in-1 Survival Tools and more!</i></span>
 				</div>
 				<div style="margin-top:50px;">
 					<p>Dear Friend,</p>
@@ -96,7 +96,7 @@ if($platformCountDownToDate) {
 					<p>And my pain is your gain.</p>
 					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, <?php echo date("Y") ?>!</p>
 					<p>So, I’m going to do something I’ve never done.</p>
-					<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $700.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
+					<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $500.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
 					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
 					<p>This price is unheard of, folks.</p>
 					<p>Look, I try to price my kits as fair as I can to get as many people as possible prepared for a disaster.</p>
@@ -105,7 +105,7 @@ if($platformCountDownToDate) {
 					<p>Each kit comes packaged in space-age, air-tight Mylar pouches locking air out and flavor in! All tucked neatly into convenient, covert, stackable totes that you can store anywhere – garage, basement, cabin, RV, car, or bunker.</p>
 					<p>It’s a snap to prepare, too – just add boiling water, heat ‘n eat.</p>
 					<p>Plus, I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
-					<p>Normally priced at $2,200, I’m offering my Food4Patriots 1-year kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
+					<p>Normally priced at $2,000, I’m offering my Food4Patriots 1-year kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
 					<p>That’s below cost, Folks!</p>
 					<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the tax man won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
 					<div style="text-align:center;">
@@ -120,7 +120,7 @@ if($platformCountDownToDate) {
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits ... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores throughout your area. By stocking up on non-perishable food now, not only you will have your own “food insurance policy” no matter what happens, you’ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 				<p><span class="numberCircle"><strong>2</strong></span><strong> You Can Barter Your Food In Times Of Crisis</strong></p>
 				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won’t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War I, when a pound of bread cost 3 BILLION marks!</p>
-				<p><span class="numberCircle"><strong>3</strong></span><strong> You Save $700.00 & Get FREE Shipping & Get 27 FREE Bonus Gifts Worth Over $800!</strong></p>
+				<p><span class="numberCircle"><strong>3</strong></span><strong> You Save $500.00 & Get FREE Shipping & Get 27 FREE Bonus Gifts Worth Over $800!</strong></p>
 				<p>You will get a great deal if you act now! <?php echo $pagePurchasedProduct;?> It&rsquo;s a 1-time discount sale price of $1497 –  plus <strong>FREE</strong> Shipping plus 27 <strong>FREE</strong> gifts worth $800.00 (more details below) – but only if you act now.</p>
 				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 1-Year Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food 4 Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 1-year emergency food kits available so get yours TODAY while we still have them in stock!</p>
@@ -310,17 +310,17 @@ if($platformCountDownToDate) {
 					<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
 				</div>
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
-				<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1-Year Food4Patriots Kit Plus Bonuses For $1,500.00 Off Right Now! </h2>
-				<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,497.</p>
-				<p><strong>You get a year&rsquo;s worth of delicious survival food for less than $0.83 per serving!</strong></p>
+				<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1-Year Food4Patriots Kit Plus Bonuses For $1,300.00 Off Right Now! </h2>
+				<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $2,800, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,497.</p>
+				<p><strong>You get a year&rsquo;s worth of delicious survival food for less than $0.90 per serving!</strong></p>
 				<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 				<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below to add the 1-year Food4Patriots kit to your order today!</p>
 				<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
-				<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1-year Food4Patriots kit at $700.00 off, click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below.</p>
+				<p>This is your last chance for this special 1-time discount, so you need to act now. To get your 1-year Food4Patriots kit at $500.00 off, click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below.</p>
 				<div>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1 Year Kit"/></div>
-					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
-					<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1500</h2></div>
+					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-firesale-value-chart-01.png" alt="Value Chart"/></div>
+					<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1,300</h2></div>
 
 					<a id="accept"></a>
 
