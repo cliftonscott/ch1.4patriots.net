@@ -1,6 +1,6 @@
 <?php
-//header("Location: /checkout/1year-firesale/index-expired.php");
-//exit;
+header("Location: /checkout/1year-firesale/index-expired.php");
+exit;
 /*
  * use session soldout multidimensional array to indicate sold out conditions and associated
  * variables
@@ -38,6 +38,7 @@ $platform->setCsrOrderFormUrl("/checkout/1year-firesale/index.php");
 
 	<style>
 		.navbar-default .container {margin-top: 36px !important;}*/
+
 	</style>
 	<script src="/js/audio.js"></script>
 <?php
@@ -81,6 +82,22 @@ if($platformCountDownToDate) {
 	<?php
 }
 ?>
+<style>
+	.strikeout {
+		position: relative;
+		color: #000;
+	}
+	.strikeout::after {
+		border-bottom: 0.3em solid rgba(209, 0, 2, 0.82);
+		content: "";
+		left: 0;
+		line-height: 1em;
+		margin-top: calc(0.125em / 2 * -1);
+		position: absolute;
+		right: 0;
+		top: 50%;
+	}
+</style>
 	<div class="container-main">
 		<div id="content" style="display:block;">
 			<div class="container oto-width">
@@ -97,7 +114,7 @@ if($platformCountDownToDate) {
 					<p>See, Uncle Sam put a hefty tax burden on any inventory I’ve got leftover in the warehouse come the New Year. That means I’ve got to have my current survival food kits GONE by December 31, <?php echo date("Y") ?>!</p>
 					<p>So, I’m going to do something I’ve never done.</p>
 					<h2 class="darkRed text-center">You'll Get The Food4Patriots 1-Year Kit At A Mind-Boggling $500.00 Discount, The Lowest Price Ever, But Only If You Order Now!</h2>
-					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.90 per meal!</strong></p>
+					<p>That means you’re going to get 1,800 servings – a full 12 months – of delicious, hearty, nutritious survival food for a <strong>staggeringly low $0.83 per meal!</strong></p>
 					<p>This price is unheard of, folks.</p>
 					<p>Look, I try to price my kits as fair as I can to get as many people as possible prepared for a disaster.</p>
 					<p>But offering my food kits at a loss is NOT something I can do long term, or even more than a few days!</p>
@@ -106,10 +123,9 @@ if($platformCountDownToDate) {
 					<p>It’s a snap to prepare, too – just add boiling water, heat ‘n eat.</p>
 					<p>Plus, I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
 					<p>Normally priced at $2,000, I’m offering my Food4Patriots 1-year kit (and $800 worth of free bonuses) for a one-time-only year-end fire sale price of just $1,497.</p>
-					<p>That’s below cost, Folks!</p>
-					<p>I’d quickly go under if I continued to sell these food kits at a loss like that. But it’s crunch time, and the tax man won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
+					<p>My accountant hates it when I "give away the farm" like this. But it’s crunch time, and the tax man won’t wait, so please grab your 1-year kit (or multiple kits!) while they last, because they will be gone quicker than you can say, “Fire!”</p>
 					<div style="text-align:center;">
-						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
+						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><span class="strikeout">Add to Cart - $2,000</span> <br> <strong>Add to Cart - $1,497</strong></a>
 					</div>
 					<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 				</div>
@@ -121,7 +137,7 @@ if($platformCountDownToDate) {
 				<p><span class="numberCircle"><strong>2</strong></span><strong> You Can Barter Your Food In Times Of Crisis</strong></p>
 				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won’t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War I, when a pound of bread cost 3 BILLION marks!</p>
 				<p><span class="numberCircle"><strong>3</strong></span><strong> You Save $500.00 & Get FREE Shipping & Get 27 FREE Bonus Gifts Worth Over $800!</strong></p>
-				<p>You will get a great deal if you act now! <?php echo $pagePurchasedProduct;?> It&rsquo;s a 1-time discount sale price of $1497 –  plus <strong>FREE</strong> Shipping plus 27 <strong>FREE</strong> gifts worth $800.00 (more details below) – but only if you act now.</p>
+				<p>You will get a great deal if you act now! <?php echo $pagePurchasedProduct;?> It&rsquo;s a 1-time discount sale price of $1,497 –  plus <strong>FREE</strong> Shipping plus 27 <strong>FREE</strong> gifts worth $800.00 (more details below) – but only if you act now.</p>
 				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 1-Year Kits Are Flying Off The Shelves!</strong></p>
 				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food 4 Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 1-year emergency food kits available so get yours TODAY while we still have them in stock!</p>
 				<h2 class="darkRed text-center">Glenn Beck Uses THIS Survival Emergency Food to Protect His Own Family</h2>
@@ -276,7 +292,7 @@ if($platformCountDownToDate) {
 				<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots kit when you order today!</p>
 				<p>This is an incredibly valuable item, and I want to get it into your hands with the least amount of hassle and worry for you. Your Food4Patriots 1-year kit will be delivered right to your door in plain packaging that won’t reveal the contents…it’s totally covert. And it’s all on my dime!</p>
 				<div style="text-align:center;">
-					<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
+					<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><span class="strikeout">Add to Cart - $2,000</span> <br> <strong>Add to Cart - $1,497</strong></a>
 				</div>
 			</div>
 			<div class="container oto-width">
@@ -312,7 +328,7 @@ if($platformCountDownToDate) {
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
 				<h2 class="darkRed title-max-600 center-block text-center">Get On The ‘Fast Track’ - Claim Your 1-Year Food4Patriots Kit Plus Bonuses For $1,300.00 Off Right Now! </h2>
 				<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $2,800, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,497.</p>
-				<p><strong>You get a year&rsquo;s worth of delicious survival food for less than $0.90 per serving!</strong></p>
+				<p><strong>You get a year&rsquo;s worth of delicious survival food for less than $0.83 per serving!</strong></p>
 				<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Lifestraw Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 				<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big green &ldquo;<strong>Add To Cart</strong>&rdquo; button below to add the 1-year Food4Patriots kit to your order today!</p>
 				<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
@@ -325,7 +341,7 @@ if($platformCountDownToDate) {
 					<a id="accept"></a>
 
 					<div style="text-align:center;">
-						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $1497</strong></a>
+						<a href="#" onclick="checkOut();"><img src="/assets/images/buttons/btn-green-add-to-cart-01.jpg" class="img-responsive center-block" alt="Add To Cart"><span class="strikeout">Add to Cart - $2,000</span> <br> <strong>Add to Cart - $1,497</strong></a>
 					</div>
 					<div style="margin-top:20px;">
 						<img class="img-responsive center-block"  src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Food4Patriots Testimonial">
@@ -352,13 +368,13 @@ if($platformCountDownToDate) {
 									<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree">
 										<div class="panel-heading">
 											<h4 class="panel-title">
-												<div>1-Year Food Supply - $1497 <span class="gray13">($0.90/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+												<div>1-Year Food Supply - $1,497 <span class="gray13">($0.83/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 											</h4>
 										</div>
 									</a>
 									<div id="chooseProductThree" class="panel-collapse collapse in">
 										<div class="panel-body">
-											<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-kit-05.jpg" class="img-responsive center-block"></a>
+											<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-year-firesale-01.jpg" class="img-responsive center-block"></a>
 											<div class="nopadding">
 												<div class="row">
 													<div class="col-sm-12 col-md-6 nopadding">
