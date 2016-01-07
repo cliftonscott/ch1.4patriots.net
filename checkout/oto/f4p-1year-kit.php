@@ -22,25 +22,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 ?>
 
 
-	<style>
-		.magnify {
-			max-width: 700px;
-			margin: 50px auto;
-			position: relative;
-		}
-
-		.large {
-			width: 175px;
-			height: 175px;
-			position: absolute;
-			border-radius: 100%;
-			box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),  0 0 7px 7px rgba(0, 0, 0, 0.25),  inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-			background: url('/media/images/f4p/f4p-1-year-kit-04.jpg') no-repeat;
-			display: none;
-		}
-		.small { display: block; }
-	</style>
-
 	<script src="/js/audio.js"></script>
 	<script language="javascript">
 		$(document).ready(function() {
