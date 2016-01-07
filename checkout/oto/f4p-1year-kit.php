@@ -107,6 +107,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<iframe src="//fast.wistia.net/embed/iframe/tpnfvst02e?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
+			<?php if (JV::in("52-hybrid")) { ?>
 			<script>
 				window._wq = window._wq || [];
 				_wq.push({ "tpnfvst02e": function(video) {
@@ -116,6 +117,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					});
 				}});
 			</script>
+			<?php } // SPLIT JV-52 DESKTOP ONLY 1/7/16?>
 		</div>
 	</div>
 	<div class="content" <?php if (JV::in("52-hybrid")) { ?> style="display:none;" <?php } // SPLIT JV-52 DESKTOP ONLY 1/7/16?>>
