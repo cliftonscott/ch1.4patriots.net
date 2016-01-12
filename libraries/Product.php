@@ -840,6 +840,71 @@ class Product {
 			/* ============================================
 			 * End Of Alexapure Pro Product Data
 			 * ============================================ */
+
+			/*
+			 * ============================================
+			 * JV-55 1 Month - 2 Month - 3 Month Split
+			 * ============================================
+			 *
+			 * This product data supports JV-55 Split
+			 *
+			 * ============================================
+			*/
+			case 277: //main product - 1 Month Kit
+				$productObj->pmaSku = null;
+				$productObj->price = 197;
+				$productObj->originalPrice = 197;
+				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 18;
+				$productObj->campaignId = 9;
+				$productObj->netRevenueEach = 115; //UPDATE!!
+				$productObj->taxable = TRUE;
+				$productObj->listId = 35;
+				$productObj->tags = "LL, 1MKIT";
+				$productObj->googleProductName = "F4P-1MK";
+				$productObj->googleProductSku = "PID277";
+				$productObj->googleProductCategory = "1-PAY-197";
+				$productObj->metaTitle = "Food4Patriots 1 Month Food Supply";
+				$productObj->metaDescription = "Food4Patriots 1 Month Food Supply";
+				$productObj->defaultQuantity = 1;
+				$productObj->defaultImage = "/media/images/f4p/f4p-4-week-kit-02.jpg";
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				$productObj->nextPage = "/checkout/oto/f4p-3month-kit-discount-b.php";
+				break;
+			case 278: //main product - 2 Month Kit
+				$productObj->pmaSku = null;
+				$productObj->price = 397;
+				$productObj->originalPrice = 397;
+				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdInternational = 6;
+				$productObj->shippingCostDomestic = 0;
+				$productObj->shippingCostInternational = 0;
+				$productObj->mpsId = 18;//UPDATE!!
+				$productObj->campaignId = 9;
+				$productObj->netRevenueEach = 115;//UPDATE!!
+				$productObj->taxable = TRUE;
+				$productObj->listId = 35;
+				$productObj->tags = "LL, 2MKIT";
+				$productObj->googleProductName = "F4P-2MK";
+				$productObj->googleProductSku = "PID278";
+				$productObj->googleProductCategory = "1-PAY-397";
+				$productObj->metaTitle = "Food4Patriots 2 Month Food Supply";
+				$productObj->metaDescription = "Food4Patriots 2 Month Food Supply";
+				$productObj->defaultQuantity = 1;
+				$productObj->defaultImage = "/media/images/f4p/f4p-2-month-kit-01.jpg";
+				$productObj->isBonus = FALSE;
+				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
+				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
+				$productObj->nextPage = "/checkout/oto/f4p-3month-kit-discount-b.php";
+				break;
+			/* ============================================
+			 * End Of Alexapure Pro Product Data
+			 * ============================================ */
 		}
 		return $productObj;
 	}
