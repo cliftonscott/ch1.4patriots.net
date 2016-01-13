@@ -872,7 +872,7 @@ class Product {
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 18;
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 115; //UPDATE!!
+				$productObj->netRevenueEach = 116;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1MKIT";
@@ -898,7 +898,7 @@ class Product {
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 18;//UPDATE!!
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 115;//UPDATE!!
+				$productObj->netRevenueEach = 244.55;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 2MKIT";
