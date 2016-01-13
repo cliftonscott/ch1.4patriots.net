@@ -21,25 +21,6 @@ include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 
-	<script src="/js/zoommain.js"></script>
-	<style>
-		.magnify {
-			max-width: 700px;
-			margin: 50px auto;
-			position: relative;
-		}
-
-		.large {
-			width: 175px;
-			height: 175px;
-			position: absolute;
-			border-radius: 100%;
-			box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),  0 0 7px 7px rgba(0, 0, 0, 0.25),  inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-			background: url('/media/images/f4p/f4p-1-year-kit-04.jpg') no-repeat;
-			display: none;
-		}
-		.small { display: block; }
-	</style>
 
 	<script src="/js/audio.js"></script>
 	<script language="javascript">
@@ -78,6 +59,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			time += seconds * 1000;
 
 			setTimeout(function() {
+				$(".content").css("display", "block");
 				$("#buyButton").css("display", "block");
 			}, time);
 
@@ -125,25 +107,37 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<iframe src="//fast.wistia.net/embed/iframe/tpnfvst02e?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
-		</div>
-		<div id="buyButton" style="padding-bottom:40px;display:none;">
-			<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
-		</div>
-		<div style="margin-top:50px;">
-			<p><?php echo $view->customer->firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
-			<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
-			<p>But before you move on, I've got a <strong>special one-time offer</strong> for you... </p>
-			<p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
-			<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
-		</div>
-		<div>
-			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
-			<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
-			<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
-
-			<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
+			<?php if (JV::in("52-hybrid")) { ?>
+			<script>
+				window._wq = window._wq || [];
+				_wq.push({ "tpnfvst02e": function(video) {
+					video.bind("pause", function() {
+						$(".content").css("display", "block");
+						$("#buyButton").css("display", "block");
+					});
+				}});
+			</script>
+			<?php } // SPLIT JV-52 DESKTOP ONLY 1/7/16?>
 		</div>
 	</div>
+	<div class="content" <?php if (JV::in("52-hybrid")) { ?> style="display:none;" <?php } // SPLIT JV-52 DESKTOP ONLY 1/7/16?>>
+		<div class="container oto-width">
+			<div id="buyButton" class="text-center" style="display:none;"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
+			<div style="margin-top:50px;">
+				<p><?php echo $view->customer->firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
+				<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
+				<p>But before you move on, I've got a <strong>special one-time offer</strong> for you... </p>
+				<p>A lot of folks have told me that while they love having the 3-month kit on hand, they feel that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters. In fact, we have quite a few folks telling us, &ldquo;I&rsquo;ll take everything you&rsquo;ve got!&rdquo;</p>
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
+			</div>
+			<div>
+				<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
+				<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
+				<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
+				<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
+			</div>
+		</div>
+
 	<?php include("f4p-1year-glenbeck.html");?>
 	<?php include("f4p-1year-whatsincluded.html");?>
 	<div class="container oto-width">
@@ -172,8 +166,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 
 	<div class="container oto-width">
-
-
 		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 		<div class="outLineBoxDarkBlue">
 			<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
@@ -222,10 +214,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div>
 			<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 			<div>
-				<div class="magnify">
-					<div class="large"></div>
-					<img class="img-responsive center-block small" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/>
-				</div>
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/>
 			</div>
 			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
 			<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
@@ -369,7 +358,7 @@ if (JV::in("49-modal")) { ?>
 			</div>
 		</div>
 	</div>
-
+	</div>
 
 
 <?php
