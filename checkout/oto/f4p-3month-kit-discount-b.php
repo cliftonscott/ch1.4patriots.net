@@ -1,5 +1,21 @@
 <?php
-// For 3mo Discount Split Test
+// JV-55 1M/2M/3M Change Previous Product Name
+$prevProduct = end($_SESSION["purchasedIds"]);
+/*echo $prevProduct;*/
+switch ($prevProduct) {
+	case 277:
+		$PrevProductName = "1-month";
+		$PrevProductTime = "1 month";
+		break;
+	case 278:
+		$PrevProductName = "2-month";
+		$PrevProductTime = "2 months";
+		break;
+	default:
+		$PrevProductName = "4-week";
+		$PrevProductTime = "4 weeks";
+}
+//END TEST
 if($_GET["upgrade"] == 1 ) {
 	$isUpgrade = TRUE;
 }
@@ -54,12 +70,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			?>
 		</div>
 		<div>
-			<p>You just got your own 4-week supply of food from Food4Patriots, and I'm super excited that you did.</p>
+			<p>You just got your own <?php echo $PrevProductName; ?> supply of food from Food4Patriots, and I'm super excited that you did.</p>
 			<p>You've joined the ranks of people who aren't leaving their safety and their family's safety up to chance.</p>
 			<p>And with the kind of shape our country is already in I don't blame you at all.</p>
 			<p>I did notice one thing that I want to bring up just to make sure you're doing all you can.</p>
-			<p>A lot of people have told me that getting their 4-week supply was a great first step, but they really wanted more. That 4 weeks was just their "starting point" and I get where they're coming from.</p>
-			<p>4 weeks is really a *minimum* recommendation...</p>
+			<p>A lot of people have told me that getting their <?php echo $PrevProductName; ?> supply was a great first step, but they really wanted more. That <?php echo $PrevProductTime; ?> was just their "starting point" and I get where they're coming from.</p>
+			<p><?php echo $PrevProductTime; ?> is really a *minimum* recommendation...</p>
 			<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special 1-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and 6 FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
 			<h2 class="darkRed text-center">Here Are 3 Reasons Why You Need To Get A 3-Month Food4Patriots Supply Right Now...</h2>
 			<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
