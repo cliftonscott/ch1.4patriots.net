@@ -181,14 +181,8 @@
 					<?php
 					} elseif($vsl === "fs") {
 					?>
-						<!-- SPLIT JV-37 11/17/15-->
-						<?php if (JV::in("37-infographic")) { ?>
-						<iframe src="//fast.wistia.net/embed/iframe/zhacnz5eu2" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
-						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<?php }else { ?>
 						<iframe src="//fast.wistia.net/embed/iframe/0lf2bumkj0" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<?php } ?>
 					<?php
 					}elseif($vsl === "3f") {
 					?>
