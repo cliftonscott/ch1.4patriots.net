@@ -1,46 +1,3 @@
-<?php
-// SPLIT JV-38 11/20/15 //
-// Define the current page name.
-$page = "checkout";
-// END TEST //
-
-/*
- * use session soldout multidimensional array to indicate sold out conditions and associated
- * variables
- */
-unset($_SESSION["Funnel"]);
-$_SESSION["soldout"]["flag"] = false; //this is the primary trigger
-$_SESSION["soldout"]["audio"] = null;
-//$_SESSION["soldout"]["waitlist"] = false;
-if($_SESSION["soldout"]["flag"] !== true) {
-	$template["floatingTimer"] = 20; //minutes to pass to the timer / will not display if not greater than zero
-} else {
-	$template["floatingTimer"] = 0; //minutes to pass to the timer / will not display if not greater than zero
-}
-$maxQuantity = 5;
-
-$template["formType"] = "customerForm"; //designates that this is a form using customer-form.php as included form
-// SET PRODUCT ID
-// THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
-$_SESSION['productId'] = 19; //please keep as an integer
-$_SESSION['quantity'] = 1;
-include_once("Product.php");
-//creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
-//include template top AFTER the product information is set
-
-/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
-include_once("agile/template-top.php");
-/*END TEST*/
-
-include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-
-// SPLIT JV-55 DESKTOP ONLY 1/15/16
-if (JV::in("55-month")) {
-	include_once('index-jv-55.php');
-	exit;
-}
-?>
 <script>
 	/*
 	 This function works in parallel with the setStateTax() function found in the
@@ -63,7 +20,7 @@ if (JV::in("55-month")) {
 					<?php
 					if($_SESSION["soldout"]["flag"] !== true) {
 						?>
-						<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto"></audio>
+						<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-1m-2m-3m.mp3" preload="auto"></audio>
 						<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off.gif" width="36" height="36" onclick="toggleAudio('frankCheckout');">
 						<div class="audio-message"><span class="hidden-xs">Now Playing:</span> Special Message From Frank</div>
 					<?php
@@ -76,21 +33,22 @@ if (JV::in("55-month")) {
 					<div class="col-lg-12">
 						<div class="panel-group" id="accordion">
 							<div class="panel panel-default">
-								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct(92);">
+								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct(277);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>1 Week Food Supply - $67 <span class="gray13">($10/day)</span></div>
+											<div>1 Month Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 										</h4>
 									</div>
 								</a>
 								<div id="chooseProductOne" class="panel-collapse collapse">
 									<div class="panel-body">
 
-										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-01.jpg" width="530" height="356" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-month-kit-01.jpg" width="449" height="378" class="img-responsive center-block"></a>
 										<div class="productList">
-											<p class="text-center red17"><strong>1 Week Food Supply Includes:</strong></p>
+											<p class="text-center red17"><strong>1 Month Food Supply Includes:</strong></p>
 											<ul>
-												<li>36 Servings <a href="#info" id="1wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+												<li>140 Servings <a href="#info" id="1mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+												<li><strong>FREE</strong> Shipping</li>
 												<li>10 Items Sold Out After Crisis Report</li>
 												<li>Water Survival Guide Report</li>
 												<li>How to Cut Your Grocery Bills Report</li>
@@ -102,21 +60,21 @@ if (JV::in("55-month")) {
 								</div>
 							</div>
 							<div class="panel panel-default">
-								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct(18);">
+								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct(278);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+											<div>2 Month Food Supply - $397 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 										</h4>
 									</div>
 								</a>
 								<div id="chooseProductTwo" class="panel-collapse collapse">
 									<div class="panel-body">
 
-										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-03.jpg" width="449" height="392" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-2-month-kit-01.jpg" width="449" height="392" class="img-responsive center-block"></a>
 										<div class="productList">
-											<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
+											<p class="text-center red17"><strong>2 Month Food Supply Includes:</strong></p>
 											<ul>
-												<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+												<li>280 Servings <a href="#info" id="2mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 												<li><strong>FREE</strong> Shipping</li>
 												<li>10 Items Sold Out After Crisis Report</li>
 												<li>Water Survival Guide Report</li>
@@ -210,7 +168,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 
 		<hr>
 		<div><h4 class="darkRed">Frequently Asked Questions:</h4></div>
-		<?php include_once ('snippets/faq-accordian-1wk.html'); ?>
+		<?php include_once ('snippets/faq-accordian-1m-2m-3m.html'); ?>
 
 	</div>
 	<script>
@@ -227,22 +185,22 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 			}
 		});
 		$(document ).ready(function () {
-			$("#1wkPopover").popover({
+			$("#1mkPopover").popover({
 				html:true,
 				trigger: 'hover',
-				title:"1 Week Kit May Include:",
+				title:"1 Month Kit May Include:",
 				content: function() {
-					return $('#1wk').html();
+					return $('#1mk').html();
 				},
 			});
 		});
 		$(document ).ready(function () {
-			$("#4wkPopover").popover({
+			$("#2mkPopover").popover({
 				html:true,
 				trigger: 'hover',
-				title:"4 Week Kit May Include:",
+				title:"2 Month Kit May Include:",
 				content: function() {
-					return $('#4wk').html();
+					return $('#2mk').html();
 				},
 			});
 		});
@@ -307,7 +265,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-02.jpg" width="800" height="412">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-04.jpg" width="800" height="412">
 			</div>
 		</div>
 	</div>
@@ -315,7 +273,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal2();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-04.jpg" width="750" height="500">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-2-month-kit-02.jpg" width="750" height="500">
 			</div>
 		</div>
 	</div>
@@ -327,11 +285,11 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 			</div>
 		</div>
 	</div>
-	<div id="1wk" style="display:none;">
-		<?php include_once("f4p-product-info-1wk.html"); ?>
+	<div id="1mk" style="display:none;">
+		<?php include_once("f4p-product-info-1mk.html"); ?>
 	</div>
-	<div id="4wk" style="display:none;">
-		<?php include_once("f4p-product-info-4wk.html"); ?>
+	<div id="2mk" style="display:none;">
+		<?php include_once("f4p-product-info-2mk.html"); ?>
 	</div>
 	<div id="3mk" style="display:none;">
 		<?php include_once("f4p-product-info-3mk.html"); ?>
