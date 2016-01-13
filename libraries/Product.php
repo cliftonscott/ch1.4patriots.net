@@ -783,6 +783,10 @@ class Product {
 				$productObj->taxable = TRUE;
 				$productObj->listId = 999;
 				$productObj->tags = "LL, boughtAPP";
+				//GA Naming Wiki
+				$productObj->googleProductName = "W4P-APP";
+				$productObj->googleProductSku = "PID253";
+				$productObj->googleProductCategory = "1-PAY-197";
 				$productObj->metaTitle = "Alexapure Pro";
 				$productObj->metaDescription = "Alexapure Pro";
 				$productObj->defaultQuantity = 1;
@@ -806,6 +810,10 @@ class Product {
 				$productObj->taxable = TRUE;
 				$productObj->listId = 999;
 				$productObj->tags = "LL, boughtAPF";
+				//GA Naming Wiki
+				$productObj->googleProductName = "W4P-APF1";
+				$productObj->googleProductSku = "PID257";
+				$productObj->googleProductCategory = "1-PAY-197";
 				$productObj->metaTitle = "Alexapure Filter - 1 Pack";
 				$productObj->metaDescription = "Alexapure Filter - 1 Pack";
 				$productObj->defaultQuantity = 1;
@@ -829,6 +837,10 @@ class Product {
 				$productObj->taxable = TRUE;
 				$productObj->listId = 999;
 				$productObj->tags = "LL, boughtAPF";
+				//GA Naming Wiki
+				$productObj->googleProductName = "W4P-APF3";
+				$productObj->googleProductSku = "PID258";
+				$productObj->googleProductCategory = "1-PAY-197";
 				$productObj->metaTitle = "Alexapure Filter - 3 Pack";
 				$productObj->metaDescription = "Alexapure Filter - 3 Pack";
 				$productObj->defaultQuantity = 1;
