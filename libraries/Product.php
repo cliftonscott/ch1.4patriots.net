@@ -866,11 +866,11 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 197;
 				$productObj->originalPrice = 197;
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 18;
+				$productObj->mpsId = 277;
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 116;
 				$productObj->taxable = TRUE;
@@ -892,11 +892,11 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 397;
 				$productObj->originalPrice = 397;
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 7;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 18;//UPDATE!!
+				$productObj->mpsId = 278;
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 244.55;
 				$productObj->taxable = TRUE;
