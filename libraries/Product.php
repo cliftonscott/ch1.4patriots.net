@@ -915,7 +915,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-3month-kit-discount-b.php";
 				break;
 			/* ============================================
-			 * End Of Alexapure Pro Product Data
+			 * End Of 1M/2M Product Data
 			 * ============================================ */
 		}
 		return $productObj;
