@@ -55,6 +55,56 @@ h1 {
 .thumbnail {
 	margin-bottom: 0px !important; 
 }
+/* BUTTONS
+-------------------------------------------------- */
+.arrowR{
+	width: 60px;
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 23px;
+}
+/*a:hover .arrowR {
+	margin-left: -20px;
+}*/
+.arrowL{
+	width: 60px;
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 23px;
+}
+/*a:hover .arrowL{
+	margin-left: -40px;
+}*/
+.btn-2 {
+	background: #ff9427 url(http://dev.pph.4patriots.net/assets/images/buttons/pattern-02-01.svg) no-repeat right top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;  -webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	-webkit-box-shadow: 0px 3px 8px #666666;
+	-moz-box-shadow: 0px 3px 8px #666666;
+	box-shadow: 0px 3px 8px #666666;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 52px;
+	letter-spacing: 3px;
+	padding: 15px 31px 15px 31px;
+	border: solid #FFDD00 6px;
+	text-decoration: none;
+	width:435px;
+}
+.btn-2:hover {
+	background: #ef8220 url(http://dev.pph.4patriots.net/assets/images/buttons/pattern-02-02.svg) no-repeat right top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	cursor:pointer;
+}
 /* GENERAL SUPPORT PAGE CSS TWEAKS
 -------------------------------------------------- */
 .question {
@@ -316,7 +366,7 @@ article.content .effective-date {
 	box-shadow: 0 0 7px 1px #B5B5B5;
 	text-decoration: none;
 }
-.pop-list-button a, {
+.pop-list-button a{
 	color: white;
 	text-decoration: none;
 }
@@ -701,4 +751,51 @@ img.audioControl {
 .popul li {
 	padding: 0px;
 	margin: 0px;
+}
+/* MEDIA
+-------------------------------------------------- */
+@media screen and (max-width: 750px) {
+	.btn-2 {
+		width: 70%;
+	}
+
+}
+@media screen and (max-width: 640px) {
+	.arrowR {
+		width: 60px;
+		position: absolute;
+		margin-left: -40px;
+		margin-top: 15px;
+	}
+	.arrowL {
+		width: 60px;
+		position: absolute;
+		margin-left: -20px;
+		margin-top: 15px;
+	}
+	.btn-2 {
+		font-size: 40px;
+	}
+
+}
+@media screen and (max-width: 520px) {
+	.arrowR {
+		display: none;
+		width: 60px;
+		position: absolute;
+		margin-left: -40px;
+		margin-top: 23px;
+	}
+	.arrowL {
+		display: none;
+		width: 60px;
+		position: absolute;
+		margin-left: -20px;
+		margin-top: 23px;
+	}
+	.btn-2 {
+		font-size: 40px;
+		width: 90%;
+	}
+
 }
