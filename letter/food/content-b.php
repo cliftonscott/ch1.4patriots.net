@@ -137,7 +137,6 @@
 	<p>But to be honest, we were worried that this was too good to be true. Was it going to cost an arm and a leg?</p>
 	<p>The short answer was no. I&rsquo;ll explain why in just a minute (the answer is so simple you won&rsquo;t believe it!)&nbsp;</p>
 	<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/misc/placeholder.jpg" alt="">
 	<p>First, we take <strong>100% non-GMO fruits and veggies as a starting point</strong>. Our food is made in America. Not assembled from Chinese imported ingredients. Grown, harvested, and made from scratch here in the land of the free and home of the brave.<em>&nbsp;</em></p>
 	<p>We source most of our raw ingredients from the &ldquo;fresh produce&rdquo; category &ndash; picture the delicious veggies you find in season at your local farmer&rsquo;s market. And we absolutely refuse to use anything from the &ldquo;rejected from dry good&rdquo; category that some competitors sneak in to lower their costs.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/misc/placeholder.jpg" alt="">
@@ -194,7 +193,7 @@
 	</ul>
 	<p>And just to prove we’re on the level about how good this food really tastes, we did a secret taste test with the folks over at The Blaze, one of the country’s most popular conservative news website.</p>
 
-	<h2 class="darkRed text-center">Mouthwatering Freshness And Taste... Even After 25 Years!</h2>
+	<h2 class="darkRed text-center">Mouthwatering Freshness And Taste... <br class="hidden-sm"> Even After 25 Years!</h2>
 	<p>Second, thanks to the breakthrough manufacturing process you saw earlier in this presentation, you know that your food is guaranteed to last for 25 years. It's military-grade sturdy stuff and can stand up to the crazy things that happen in a crisis, so you have complete peace of mind for the long term. Remember, we use the special &ldquo;<strong>Low-Heat Dehydration Method</strong>&rdquo; to preserve your food&hellip; top-of-the-line Mylar pouches, the same material used in NASA's space suits, to keep all the air, moisture, and light out so it stays fresh&hellip; and a $150,000 machine to blast out all the left-over oxygen with CO2. So when you need your food stockpile it'll be as fresh as the day you bought it.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/misc/placeholder.jpg" alt="">
 	<p>You get tremendous peace of mind and you will never have to worry about your food spoiling.</p>
@@ -263,7 +262,7 @@
 	<p>Just so you know what to expect, a few weeks after you order and receive your food kit, we&rsquo;ll politely ask you to please review your purchase. It&rsquo;s totally optional, we just really appreciate the feedback so we can make things better.</p>
 	<p>And to date we&rsquo;ve gotten 1,338 verified 4- and 5-star reviews back from customers. These are not anonymous, paid, fake reviews, folks. Only real Food4Patriots customers can review a food kit they purchased.&nbsp;</p>
 	<p>Here are a couple:</p>
-	<p>Paula says,</p>
+	<p>Paula says:</p>
 	<img src="/media/images/f4p/f4p-testimonial-34-v2.jpg" width="630" height="207" class="img-responsive center-block"/>
 	<p></p>
 	<p>And here’s Rom’s review:</p>
@@ -282,24 +281,36 @@
 	<p>Now to help make this a complete no-brainer for you, I'm also offering four incredible FREE bonus reports that will be a perfect complement for your food.</p>
 	<div class="row">
 		<div class="col-xs-6 col-md-4"><img src="/media/images/f4p/letter/f4p-letter-eBook-10-items-after-crisis.jpg" width="100%" alt="Bonus 1"  class="media left img-responsive"></div>
-		<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
+		<div style="margin-top:45px" class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-md-4"><img src="/media/images/f4p/letter/f4p-letter-eBook-the-water-survival-guide.jpg" width="100%" alt="Bonus 2" class="media left img-responsive"></div>
-		<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - The Water Survival Guide: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
+		<div style="margin-top:20px" class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - The Water Survival Guide: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-md-4"><img src="/media/images/f4p/letter/f4p-letter-eBook-the-survival-garden-guide.jpg" width="100%" alt="Bonus 3"  class="media left img-responsive"></div>
-		<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - The Survival Garden Guide: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
+		<div style="margin-top:20px" class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - The Survival Garden Guide: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
 	</div>
 	<div class="row">
 		<div class="col-xs-6 col-md-4"><img src="/media/images/f4p/letter/f4p-letter-eBook-cut-grocery-bills-half.jpg" width="100%" alt="Bonus 4"  class="media left img-responsive"></div>
-		<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- How to Cut Your Grocery Bills in Half: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
+		<div style="margin-top:30px" class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- How to Cut Your Grocery Bills in Half: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
 	</div>
 	<p>And when you click the button below you'll see a couple of special deals I just added&hellip; including <strong>FREE SHIPPING</strong> on our most popular kit, the 3-month supply.</p>
 	<p>&nbsp;As you&rsquo;ve seen in this presentation, there&rsquo;s a lot involved in making survival food of this quality and that is guaranteed to last for 25 years.</p>
 
 	<h2 class="darkRed text-center">An Outrageous Guarantee You Won’t Find Anyplace Else – That’s How Serious I Am!</h2>
+	<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
+	<div class="outLineBoxDarkBlue">
+		<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you’re not satisfied with your Fruit, Veggie and Snack Mix, just return it within 60 days of purchase and I’ll refund 100% of your purchase price. If you try it and decide it’s not as delicious and nutritious as I promised, you can have your money back </p>
+		<div class="clearfix"></div>
+	</div>
+
+	<div class="outLineBoxDarkBlue">
+		<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit, Veggie and Snack Mix anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Fruit, Veggie and Snack Mix and I will <strong>triple</strong> your money back!</p>
+		<p>That’s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I’m not really worried about it, because I am so confident you’re going to see the value in your Fruit, Veggie and Snack Mix as soon as you have it in your hands.</p>
+	</div>
 	<p>I also believe that you should be 100% happy with your purchase or you shouldn&rsquo;t pay a penny&hellip;</p>
 	<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if, for any reason, you're not satisfied with your Food4Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price. That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
 	<p>One more thing... when you claim your Food4Patriots kit, you&rsquo;ll not only get food to feed your family in a disaster&hellip; you&rsquo;ll also get tremendous peace of mind just like our customer Jan explains:</p>
@@ -317,13 +328,8 @@
 	<p>When a food crisis strikes there are really two groups of people: the people who prepared, and the people who didn't. If you've watched this video so far my guess is you're someone who's going to prepare. But let me warn you - the rest of the world may very well be greedy for your stockpile. Especially now that we know that government wants to hoard these meals too.</p>
 	<p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
 	<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There're no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
-	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Claim Your Kit</strong>&rdquo; button below this video to get started.</p>
-	<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
-		<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-			<iframe src="//fast.wistia.net/embed/iframe/71s2k1o9ng?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
-		</div>
-	</div>
-	<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Claim Your Kit</strong>&rdquo; button below now.</p>
+	<img src="/media/images/f4p/letter/f4p-letter-kit-tote-01-v2.jpg" width="100%" class="img-responsive center-block"  alt="Food4Patriots Kit"/>
 	<p></p>
 	<div class="center-block text-center">
 		<a href=""><img class="arrowR" src="http://dev.pph.4patriots.net/assets/images/buttons/arrow-right.svg"><button style="margin-bottom: 10px" type="button-2" class="btn-2"><b>Claim Your Kit</b></button><img class="arrowL" src="http://dev.pph.4patriots.net/assets/images/buttons/arrow-left.svg"></a>
