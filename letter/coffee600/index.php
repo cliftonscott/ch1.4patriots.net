@@ -21,7 +21,9 @@ if($_GET["v"]) {
 
 ?>
 	<div class="container-main">
-		<?php include_once("content-timmy.php"); ?>
+		<?php
+		include_once("content-timmy.php");
+		?>
 	</div>
 <?php
 include_once("template-bottom.php");
