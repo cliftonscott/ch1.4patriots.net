@@ -211,7 +211,7 @@ if($_SESSION['errorMessage'] != '') {
 	  <div class="cc-align"><img src="/assets/images/checkout/credit-card.png" width="200" height="26" alt="Credit Cards Accepted"></div>
 	  <div class="form-group">
 		<label for="creditCardNumber">Card Number:</label>
-		<input type="number" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber" value="">
+		<input type="tel" class="form-control inspectletIgnore" id="creditCardNumber" name="creditCardNumber" value="">
 	  </div>
 	  <div class="form-inline expiration">
 	  <div class="form-group">
@@ -247,7 +247,7 @@ if($_SESSION['errorMessage'] != '') {
 	  <div class="form-group">
 		<label for="card-cvv2">
 			CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
-		<input type="number" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
+		<input type="tel" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
 	  </div>
 
 		<!-- *PRODUCT INFO -->

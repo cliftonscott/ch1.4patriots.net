@@ -12,7 +12,14 @@
 			var minutes = 27;
 			var seconds = 51;
 		}
-
+		<?php
+		//Conditionally changes the timer values
+		if($_GET["poptimers"] == "false") {
+			echo "var hours = 0;\n";
+			echo "var minutes = 0;\n";
+			echo "var seconds = 0;\n";
+		}
+		?>
 		// Start by converting hours to milliseconds
 		var time = hours * 60 * 60 * 1000;
 		// Add minutes converted to milliseconds and add to total time

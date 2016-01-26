@@ -84,6 +84,7 @@ if (JV::in("24-letter")) {
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link href="/assets/css/styles.css" rel="stylesheet">
 		<link href="/assets/css/styles-content.css" rel="stylesheet">
+		<link href='//fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 		<?php
 		if(strpos($_SERVER["PHP_SELF"],"quiz") > 0) {
 			echo "<link href='/assets/css/quiz.css' rel='stylesheet'>\n";
