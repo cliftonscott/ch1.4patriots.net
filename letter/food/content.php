@@ -381,10 +381,10 @@
 						<p style="text-align: center;" class="caption">You'll get a whole slew of choices for breakfast, lunch, and dinner.</p>
 						<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
 						<ul style="margin-left: 20px">
-							<li>Mountain Man Granola</li>
-							<li>Apple Orchard Oatmeal</li>
+							<li>Honey Coated Banana Chips</li>
+							<li>Maple Grove Oatmeal</li>
 							<li>Granny's Home Style Potato Soup</li>
-							<li>Blue Ribbon Cheesy Rice (My kids actually beg me to make this one all the time!)</li>
+							<li>Blue Ribbon Creamy Chicken Rice (My kids actually beg me to make this one all the time!)</li>
 							<li>Heartland’s Best Mashed Potatoes</li>
 							<li>Creamy Beef Stroganoff</li>
 						</ul>
