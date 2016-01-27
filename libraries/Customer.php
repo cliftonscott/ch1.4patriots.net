@@ -54,7 +54,7 @@ class Customer {
 
 			//TODO handle credit card formatting
 			'creditCardType' => $this->getCardTypeByNumber($_POST["creditCardNumber"]),
-			'creditCardNumber' => $_POST["creditCardNumber"],
+			'creditCardNumber' => str_replace("-", "", $_POST["creditCardNumber"]),
 
 			//TODO move expiration checking to customer from limelight
 			'expirationDate' => $_POST['card_expires_on_month'] . $_POST['card_expires_on_year'],
