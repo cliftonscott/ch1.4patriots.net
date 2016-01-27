@@ -37,7 +37,7 @@ $(document).ready(function() {
 			"creditCardNumber": {
 				required: true,
 				minlength: 13,
-				maxlength: 20,
+				maxlength: 20
 			},
 			"billadd": {
 				required: true
