@@ -53,6 +53,20 @@ if (JV::in("55-month")) {
 		setStateTax();
 	}
 </script>
+<style>
+	.navbar-phone-contain {
+		height: 28px;
+	}
+	.navbar-phone{
+		font-size: 20px;
+	}
+	.pad-l-10{
+		padding-left: 10px;
+	}
+	ul .no-bullet {
+		list-style-type: none;
+	}
+</style>
 <div class="container-main">
 
 	<div class="container">
@@ -63,7 +77,7 @@ if (JV::in("55-month")) {
 					<?php
 					if($_SESSION["soldout"]["flag"] !== true) {
 						?>
-						<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto"></audio>
+						<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-03-1wk.mp3" preload="auto"></audio>
 						<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off.gif" width="36" height="36" onclick="toggleAudio('frankCheckout');">
 						<div class="audio-message"><span class="hidden-xs">Now Playing:</span> Special Message From Frank</div>
 					<?php
@@ -91,10 +105,11 @@ if (JV::in("55-month")) {
 											<p class="text-center red17"><strong>1 Week Food Supply Includes:</strong></p>
 											<ul>
 												<li>36 Servings <a href="#info" id="1wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-												<li>10 Items Sold Out After Crisis Report</li>
-												<li>Water Survival Guide Report</li>
-												<li>How to Cut Your Grocery Bills Report</li>
-												<li>Survival Garden Guide Report</li>
+												<li>Four FREE Special Reports</li>
+												<li class="pad-l-10 no-bullet">- 10 Items Sold Out After Crisis Report</li>
+												<li class="pad-l-10 no-bullet">- Water Survival Guide Report</li>
+												<li class="pad-l-10 no-bullet">- How to Cut Your Grocery Bills Report</li>
+												<li class="pad-l-10 no-bullet">- Survival Garden Guide Report</li>
 											</ul>
 										</div>
 
@@ -117,11 +132,12 @@ if (JV::in("55-month")) {
 											<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
 											<ul>
 												<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-												<li><strong>FREE</strong> Shipping</li>
-												<li>10 Items Sold Out After Crisis Report</li>
-												<li>Water Survival Guide Report</li>
-												<li>How to Cut Your Grocery Bills Report</li>
-												<li>Survival Garden Guide Report</li>
+												<li>FREE Shipping</li>
+												<li>Four FREE Special Reports</li>
+												<li class="pad-l-10 no-bullet">- 10 Items Sold Out After Crisis Report</li>
+												<li class="pad-l-10 no-bullet">- Water Survival Guide Report</li>
+												<li class="pad-l-10 no-bullet">- How to Cut Your Grocery Bills Report</li>
+												<li class="pad-l-10 no-bullet">- Survival Garden Guide Report</li>
 											</ul>
 										</div>
 
@@ -146,15 +162,15 @@ if (JV::in("55-month")) {
 														<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
 														<ul>
 															<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li><strong>FREE</strong> Shipping</li>
-															<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>FREE Shipping</li>
+															<li>FREE 11-in-1 <br class="hidden-sm"> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>FREE Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 														</ul>
 													</div>
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Digital Bonus Reports</strong></p>
+														<p class="text-center red17"><strong>FREE Hardcopy <u>and</u> Digital<br class="hidden-sm"> Bonus Reports</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
@@ -165,7 +181,7 @@ if (JV::in("55-month")) {
 												</div>
 											</div>
 										</div>
-										<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>
+										<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-02.jpg" width="530" height="118" alt="Wounded Warrior Project"/>
 									</div>
 								</div>
 							</div>
@@ -200,7 +216,10 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
 			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" width="448" height="236" alt="Testimonial" /></div>
 		</div>
-
+		<div class="guaranteeBox">
+			<p><strong>Your Purchase Is Backed By A 365-Day Money Back Guarantee!</strong></p>
+			<p>We’re totally confident that your family will love Food4Patriots survival food. That’s why every order is protected by our ironclad 365-Day Money Back Guarantee. If for any reason — or for no reason at all — you are not 100% satisfied with your purchase, simply return it within the next year for a full refund of every penny you paid. No questions asked. There is ABSOLUTELY NO RISK to you.</p>
+		</div>
 		<div class="guaranteeBox">
 			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
 			<p>&nbsp;</p>
