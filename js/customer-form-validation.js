@@ -32,7 +32,7 @@ $(document).ready(function() {
 			"card-cvv2": {
 				required: true,
 				minlength: 3,
-				maxlength: 4,
+				maxlength: 4
 			},
 			"creditCardNumber": {
 				required: true,
