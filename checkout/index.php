@@ -35,11 +35,6 @@ include_once("agile/template-top.php");
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 
-// SPLIT JV-55 DESKTOP ONLY 1/15/16
-if (JV::in("55-month")) {
-	include_once('index-jv-55.php');
-	exit;
-}
 ?>
 <script>
 	/*
