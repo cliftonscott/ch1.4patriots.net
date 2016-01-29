@@ -187,7 +187,7 @@ if (JV::in("55-month")) {
 							</div>
 						</div>
 					</div>
-				</div> <!--END CHOOSE PRODUCT ACCORDIAN-->
+				</div> <!-- END CHOOSE PRODUCT ACCORDIAN -->
 
 			</div>
 
