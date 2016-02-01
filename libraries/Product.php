@@ -242,7 +242,7 @@ class Product {
 				$productObj->price = 397;
 				$productObj->originalPrice = 497;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 145;
+				$productObj->netRevenueEach = 132.79;
 				$productObj->googleProductName = "F4P-3MK";
 				$productObj->googleProductSku = "PID23";
 				$productObj->googleProductCategory = "1-PAY-397-DISCOUNT";
@@ -359,7 +359,7 @@ class Product {
 				$productObj->price = 1997;
 				$productObj->originalPrice = 2997;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 930;
+				$productObj->netRevenueEach = 880.01;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSku = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
@@ -414,7 +414,7 @@ class Product {
 				$productObj->price = 597;
 				$productObj->originalPrice = 597;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 500;
+				$productObj->netRevenueEach = 449.95;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSku = "PID120";
 				$productObj->googleProductCategory = "3-PAY-597";
@@ -444,7 +444,7 @@ class Product {
 				$productObj->price = 97;
 				$productObj->originalPrice = 97;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 35;
+				$productObj->netRevenueEach = 33.26;
 				$productObj->googleProductName = "F4P-FVSK";
 				$productObj->googleProductSku = "PID128";
 				$productObj->googleProductCategory = "1-PAY-97";
@@ -625,7 +625,7 @@ class Product {
 				$productObj->price = 97;
 				$productObj->originalPrice = 97;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 44;
+				$productObj->netRevenueEach = 36.21;
 				$productObj->googleProductName = "F4P-C600";
 				$productObj->googleProductSku = "PID182";
 				$productObj->googleProductCategory = "1-PAY-97";
