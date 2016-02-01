@@ -700,6 +700,5 @@ var exitsplashpage = '<? echo $triallink; ?>';
 </script>-->
 
 <!-- End of ExitSplash.com Code -->
-<?php include ('clickytrack.php'); ?>
 </body>
 </html>
