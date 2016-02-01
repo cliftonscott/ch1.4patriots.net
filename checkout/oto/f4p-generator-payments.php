@@ -14,7 +14,10 @@ $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("F4P-OTO#3-3D-PPG-GEN-PAY");
+$declineUrl = $funnelData["declineUrl"];
 
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
@@ -103,7 +106,7 @@ if($isUpgrade) {
 }
 	?>
 			<div class="noThanks">
-				<a href="/checkout/thankyou.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
+				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
 		</div>
 
 	</div>

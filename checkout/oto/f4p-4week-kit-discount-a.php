@@ -14,8 +14,14 @@ $_SESSION['productId'] = 22; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+
 include_once("agile/template-top.php");
+
+$funnelData = $productObj->initFunnel("F4P-OTO#1-1A1-F4P-4WK");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 
@@ -105,7 +111,7 @@ if($isUpgrade) {
 ?>
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 			<div class="noThanks">
-				<a href="/checkout/thankyou.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>
 	</div>

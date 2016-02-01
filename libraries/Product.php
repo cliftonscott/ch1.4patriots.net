@@ -863,6 +863,81 @@ class Product {
 
 	function loadFunnelData() {
 
+		/*
+		 * ============================================
+		 * Main Food Funnel
+		 * ============================================
+		*/
+
+		$funnelData["food"] = array(
+				"checkout" => array (
+						"pidVariableNextUrl" => true,
+						92 => array (
+								"nextUrl" => "/checkout/oto/f4p-4week-kit-discount-a.php",
+						),
+						18 => array (
+								"nextUrl" => "/checkout/oto/f4p-3month-kit-discount-b.php",
+						),
+						19 => array (
+								"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => null,
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#1-1A1-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#2-1A2-F4P-3MO" => array (
+						"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/oto/f4p-4week-kit-discount-c.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#3-1A3-F4P-1YK" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#2-2D-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#3-2D-F4P-1YK-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#3-2A-PPG-GEN" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#3-3A-PPG-PLAT" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#3-3D-F4P-3MO" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+				"F4P-OTO#3-3D-PPG-GEN-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-MAIN",
+				),
+
+		);
+
+
+		/*
+		 * ============================================
+		 * Free Coffee Funnel
+		 * ============================================
+		*/
 		$funnelData["freecoffee"] = array(
 			"checkout" => array (
 				"nextUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
@@ -920,76 +995,7 @@ class Product {
 			),
 		);
 
-		/*
-		 * ============================================
-		 * t1 Google Funnel
-		 * ============================================
-		*/
 
-		$funnelData["t1"] = array(
-			"checkout" => array (
-				"pidVariableNextUrl" => true,
-				92 => array (
-					"nextUrl" => "/checkout/t1/oto/f4p-4week-kit-discount-a.php",
-				),
-				18 => array (
-					"nextUrl" => "/checkout/t1/oto/f4p-4week-kit-discount-b.php",
-				),
-				19 => array (
-					"nextUrl" => "/checkout/t1/oto/f4p-1year-kit.php",
-				),
-				"declineUrl" => null,
-			),
-			"oto1a" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
-			),
-			"oto1b" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-seeds-rutgers.php",
-			),
-			"oto1c" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-generator.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-1year-kit-payments.php",
-			),
-			"oto2" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-seeds.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
-			),
-			"oto2a" => array (
-				"nextUrl" => "/checkout/t1/thankyou.php",
-				"declineUrl" => "/checkout/t1/thankyou.php",
-			),
-			"oto2b" => array (
-				"nextUrl" => "/checkout/t1/thankyou.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-3month-kit-discount.php",
-			),
-			"oto2c" => array (
-				"nextUrl" => "/checkout/t1/thankyou.php",
-				"declineUrl" => "/checkout/t1/thankyou.php",
-			),
-			"oto3" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-seeds-bogo.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
-			),
-			"oto4" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-messenger-trial.php",
-			),
-			"oto4a" => array (
-				"nextUrl" => "/checkout/t1/oto/f4p-generator-platinum.php",
-				"declineUrl" => "/checkout/t1/oto/f4p-generator-payments.php",
-			),
-			"oto4b" => array (
-				"nextUrl" => "/checkout/t1/thankyou.php",
-				"declineUrl" => "/checkout/t1/thankyou.php",
-			),
-			"oto5" => array (
-				"nextUrl" => "/checkout/t1/thankyou.php",
-				"declineUrl" => "/checkout/t1/thankyou.php",
-			),
-
-		);
 
 /*
  * ============================================
@@ -1166,12 +1172,18 @@ class Product {
 	function setFunnel() {
 
 		$validFunnels = array (
+			"/checkout/" => "food",
 			"/checkout/coffee/" => "freecoffee",
-			"/checkout/t1/" => "t1",
 			"/checkout/protein/" => "protein",
 			"/checkout/fruitveggie/" => "fruitveggie",
 			"/checkout/coffee600/" => "coffee600",
-			"/checkout/1year-firesale" => "1year-firesale"
+			"/checkout/1year-firesale" => "1year-firesale",
+			"/checkout/alt/f4p-1yearkit-discount-offer.php" => "food-1year-discount",
+			"/checkout/alt/f4p-1yearkit-offer.php" => "food-1year",
+			"/checkout/alt/f4p-3month-discount-offer.php" => "food-3month-discount",
+			"/checkout/alt/f4p-discount-offer.php" => "food-discount",
+			"/checkout/alt/f4p-free-food-offer.php" => "food-free",
+
 		);
 
 		$currentPath = $_SERVER["PHP_SELF"];

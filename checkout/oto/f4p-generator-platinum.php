@@ -14,7 +14,10 @@ $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("F4P-OTO#3-3A-PPG-PLAT");
+$declineUrl = $funnelData["declineUrl"];
 
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
@@ -214,7 +217,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				</form>
 				<div class="noThanks">
-					<a href="/checkout/thankyou.php"">No Thanks</a> – I want to give up this opportunity.<br>
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity.<br>
 					I understand that I will not receive this special offer again.
 				</div>
 
