@@ -498,7 +498,7 @@ class Product {
 				$productObj->mpsId = null; //used for MPS
 				$productObj->ffhId = 162; //used for FFH integration
 				$productObj->campaignId = 16;
-				$productObj->netRevenueEach = 615;
+				$productObj->netRevenueEach = 698.65;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 55;
 				$productObj->tags = "LL, ppg1500";
@@ -524,7 +524,7 @@ class Product {
 				$productObj->mpsId = null; //used for MPS
 				$productObj->ffhId = 162; //used for FFH integration
 				$productObj->campaignId = 16;
-				$productObj->netRevenueEach = 393;
+				$productObj->netRevenueEach = 506.37;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 55;
 				$productObj->tags = "LL, ppg1500pmt";
@@ -573,7 +573,7 @@ class Product {
 				$productObj->mpsId = null; //used for MPS
 				$productObj->ffhId = 164; //used for FFH integration
 				$productObj->campaignId = 16;
-				$productObj->netRevenueEach = 546;
+				$productObj->netRevenueEach = 540.63;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 56;
 				$productObj->tags = "LL, ppgDeluxe";
