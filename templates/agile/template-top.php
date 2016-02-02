@@ -12,6 +12,11 @@ $detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
+// Allow the page type to revert to OTO as default.
+if (! isset($page) || !$page) {
+	$page = "oto";
+}
+
 // Allow the asset manager to resolve assets for this page.
 include_once 'AssetManager.php';
 $assets = new AssetManager($page);
