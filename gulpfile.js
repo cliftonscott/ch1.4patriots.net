@@ -91,11 +91,11 @@ gulp.task('default', ['less', 'sass', 'combine', 'scripts', 'watch']);
 
 // Clean out CSS and JS for fresh batch.
 gulp.task('clean', function() {
-    gulp.src('assets/css/prod/**', { read: false })
+    gulp.src('assets/css/prod/**.css', { read: false })
         .pipe(rimraf());
     for (var i = 0; i < pages.length; i++) {
         var page = pages[i];
-        gulp.src(page + '/agile/js/prod/**', { read: false })
+        gulp.src('assets/js/prod/**.js', { read: false })
             .pipe(rimraf());
     }
 });
@@ -115,10 +115,10 @@ gulp.task('combine', function() {
 gulp.task('scripts', function() {
     for (var i = 0; i < pages.length; i++) {
         var page = pages[i];
-        gulp.src(['/assets/js/' + page + '/**/*.js', '/assets/js/common/**/*.js'])
+        gulp.src(['assets/js/' + page + '/**/*.js', 'assets/js/common/**/*.js'])
             .pipe(uglify())
             .pipe(concat('scripts-' + page + '.js'))
-            .pipe(gulp.dest('/assets/js/prod'));
+            .pipe(gulp.dest('assets/js/prod'));
     }
 });
 
