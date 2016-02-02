@@ -112,7 +112,7 @@ if (JV::in("24-letter")) {
 	$REQUEST_PROTOCOL = $isSecure ? 'https' : 'http';
 	?>
 	<?php if ($page == "checkout"): ?><link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><?php endif; ?>
-	<?php if ($page == "oto"): ?><link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'><?php endif; ?>
+	<?php if ($page == "oto"): ?><link href="<?php echo $REQUEST_PROTOCOL;?>://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"><?php endif; ?>
 
 	<!-- Load the application JS. -->
 	<script src="<?php echo $REQUEST_PROTOCOL;?>://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
