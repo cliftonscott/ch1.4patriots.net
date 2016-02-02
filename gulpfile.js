@@ -35,7 +35,7 @@ var rename = require('gulp-rename');
  */
 
 // The "agile" pages of this website.
-var pages = ["video", "letter", "checkout"];
+var pages = ["video", "letter", "checkout", "oto"];
 
 /*
  |--------------------------------------------------------------------------
