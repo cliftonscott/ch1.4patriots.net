@@ -15,7 +15,7 @@ $_SESSION['quantity'] = '1';
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-include_once("template-top.php");
+include_once("agile/template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 

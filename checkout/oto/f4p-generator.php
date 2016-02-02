@@ -30,7 +30,7 @@ if($isLion) {
 		exit;
 	}
 }
-include_once("template-top.php");
+include_once("agile/template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script src="/js/audio.js"></script>
@@ -393,7 +393,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"/>
 						</div>
 
-						<div style="position:relative;margin 10 auto;">
+						<div style="position:relative;margin: 10px auto;">
 							<div style="float:left;margin-right:5px;">
 								<input type="checkbox" id="check2" name="check2">
 								<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
@@ -555,7 +555,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"/>
 					</div>
 
-					<div style="position:relative;margin 10 auto;">
+					<div style="position:relative;margin: 10px auto;">
 						<div style="float:left;margin-right:5px;">
 							<input type="checkbox" id="check3" name="check3">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
