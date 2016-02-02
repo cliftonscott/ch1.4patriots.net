@@ -102,7 +102,6 @@
 
 <!-- Add clicky tracking scripts -->
 <?php include '../checkout/helpers/analyticstrack.php';?>
-<?php include '../checkout/helpers/clickytrack.php';?>
 
 <script type="text/javascript">
 	//hide address bar in Android / iOS
