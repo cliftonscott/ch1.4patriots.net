@@ -115,7 +115,7 @@ if (JV::in("24-letter")) {
 
 
 		<script src="<?php echo $REQUEST_PROTOCOL;?>://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="/assets/js/bootstrap.min.js"></script>
+		<script src="/assets/js/common/bootstrap.min.js"></script>
 		<script src="/js/patriot.js"></script>
 
 		<!--TODO only pull in if we need the exit confirm-->

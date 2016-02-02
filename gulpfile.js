@@ -115,10 +115,10 @@ gulp.task('combine', function() {
 gulp.task('scripts', function() {
     for (var i = 0; i < pages.length; i++) {
         var page = pages[i];
-        gulp.src(page + '/agile/js/*.js')
+        gulp.src(['/assets/js/' + page + '/**/*.js', '/assets/js/common/**/*.js'])
             .pipe(uglify())
             .pipe(concat('scripts.js'))
-            .pipe(gulp.dest(page + '/agile/js/prod'));
+            .pipe(gulp.dest('/assets/js/prod/' + page + '.js'));
     }
 });
 
