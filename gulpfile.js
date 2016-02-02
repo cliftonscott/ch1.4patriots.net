@@ -117,8 +117,8 @@ gulp.task('scripts', function() {
         var page = pages[i];
         gulp.src(['/assets/js/' + page + '/**/*.js', '/assets/js/common/**/*.js'])
             .pipe(uglify())
-            .pipe(concat('scripts.js'))
-            .pipe(gulp.dest('/assets/js/prod/' + page + '.js'));
+            .pipe(concat('scripts-' + page + '.js'))
+            .pipe(gulp.dest('/assets/js/prod'));
     }
 });
 
