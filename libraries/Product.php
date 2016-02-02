@@ -978,7 +978,7 @@ class Product {
 				),
 				"F4P-OTO-3D-F4P-1YK-PAY" => array (
 						"nextUrl" => "/checkout/freefood/thankyou.php",
-						"declineUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount.php",
+						"declineUrl" => "/checkout/freefood/thankyou.php",
 						"googleBrand" => "F4P-FREE",
 				),
 				"F4P-OTO-3D-F4P-4WK" => array (
