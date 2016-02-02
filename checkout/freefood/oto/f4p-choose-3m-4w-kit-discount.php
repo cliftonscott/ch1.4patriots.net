@@ -17,12 +17,10 @@ $_SESSION['3mDiscountSkip'] = TRUE; // Redirects If Already Offered 3 Month Disc
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-
-include_once("agile/template-top.php");
-
 $funnelData = $productObj->initFunnel("F4P-OTO-1D-F4P-CHOOSE-4W-3M");
 $declineUrl = $funnelData["declineUrl"];
-
+var_dump($funnelData);
+include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script language="javascript">

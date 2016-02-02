@@ -1,22 +1,22 @@
 <?php
 /**
  * Product utilities
- * 
- * 
+ *
+ *
  * @author Brian Gibbins
  * @copyright 2014
  */
 class Product {
-	
+
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
+
 	const VSL_VERSION = "VSL 1.0";
-	
+
 	public function __construct() {
 		self::setFunnel();
 	}
-	
+
 	function getProduct($productId) {
 
 		$productObj = new stdClass();
@@ -26,7 +26,7 @@ class Product {
 		$productObj->exitLink = "/letter/index.php";
 		$productObj->mobileLink = "/letter/index.php";
 		$productObj->trialLink = "/checkout/alt/f4p-free-food-offer.php";
-		
+
 		//TODO ensure there is a variable here
 		$productObj->productId = intval($productId);
 		switch($productObj->productId) {
@@ -856,7 +856,7 @@ class Product {
 		}
 		return $productObj;
 	}
-	
+
 	function setQuantity($quantity) {
 		self::$variableQuantity = $quantity;
 	}
@@ -932,6 +932,78 @@ class Product {
 
 		);
 
+		/*
+		 * ============================================
+		 * Free Food Funnel
+		 * ============================================
+		*/
+
+		$funnelData["food-free"] = array(
+				"checkout" => array (
+						"nextUrl" => "/checkout/freefood/oto/f4p-choose-3m-4w-kit.php",
+						"declineUrl" => null,
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-1A-F4P-CHOOSE-4W-3M" => array (
+						"pidVariableNextUrl" => true,
+						18 => array (
+								"nextUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount-b.php",
+						),
+						19 => array (
+								"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => "/checkout/freefood/oto/f4p-choose-3m-4w-kit-discount.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-1D-F4P-CHOOSE-4W-3M" => array (
+						"pidVariableNextUrl" => true,
+						18 => array (
+								"nextUrl" => "/checkout/freefood/thankyou.php",
+						),
+						19 => array (
+								"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => "/checkout/freefood/thankyou.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-2A-F4P-3MK" => array (
+						"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount-c.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-2A-F4P-1YK" => array (
+						"nextUrl" => "/checkout/freefood/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/freefood/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-3D-F4P-1YK-PAY" => array (
+						"nextUrl" => "/checkout/freefood/thankyou.php",
+						"declineUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-3D-F4P-4WK" => array (
+						"nextUrl" => "/checkout/freefood/thankyou.php",
+						"declineUrl" => "/checkout/freefood/thankyou.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-3A-PPG-GEN" => array (
+						"nextUrl" => "/checkout/freefood/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/freefood/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-4D-PPG-GEN-PAY" => array (
+						"nextUrl" => "/checkout/freefood/thankyou.php",
+						"declineUrl" => "/checkout/freefood/thankyou.php",
+						"googleBrand" => "F4P-FREE",
+				),
+				"F4P-OTO-4A-PPG-GEN-PLAT" => array (
+						"nextUrl" => "/checkout/freefood/thankyou.php",
+						"declineUrl" => "/checkout/freefood/thankyou.php",
+						"googleBrand" => "F4P-FREE",
+				),
+
+		);
+
 
 		/*
 		 * ============================================
@@ -939,222 +1011,222 @@ class Product {
 		 * ============================================
 		*/
 		$funnelData["freecoffee"] = array(
-			"checkout" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
-				"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
-			),
-			"oto1" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php?b=true",
-				"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
-			),
+				"checkout" => array (
+						"nextUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
+						"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
+				),
+				"oto1" => array (
+						"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php?b=true",
+						"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+				),
 //			"oto1" => array (
 //				"nextUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
 //				"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
 //			),
-			"oto2" => array (
-				"pidVariableNextUrl" => true,
-				18 => array (
-					"nextUrl" => "/checkout/coffee/oto/f4p-4week-kit-discount.php",
+				"oto2" => array (
+						"pidVariableNextUrl" => true,
+						18 => array (
+								"nextUrl" => "/checkout/coffee/oto/f4p-4week-kit-discount.php",
+						),
+						19 => array (
+								"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit-discount.php",
 				),
-				19 => array (
-					"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+				"oto2b" => array (
+						"nextUrl" => "/checkout/coffee/thankyou.php",
+						"declineUrl" => "/checkout/coffee/thankyou.php",
 				),
-				"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit-discount.php",
-			),
-			"oto2b" => array (
-				"nextUrl" => "/checkout/coffee/thankyou.php",
-				"declineUrl" => "/checkout/coffee/thankyou.php",
-			),
-			"oto3" => array (
-				"nextUrl" => "/checkout/coffee/thankyou.php",
-				"declineUrl" => "/checkout/coffee/thankyou.php",
-			),
-			"oto4" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-generator.php",
-				"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit-payments.php",
-			),
-			"oto4b" => array (
-				"nextUrl" => "/checkout/coffee/thankyou.php",
-				"declineUrl" => "/checkout/coffee/oto/f4p-3month-kit-discount.php",
-			),
-			"oto4c" => array (
-				"nextUrl" => "/checkout/coffee/thankyou.php",
-				"declineUrl" => "/checkout/coffee/thankyou.php",
-			),
-			"oto5" => array (
-				"nextUrl" => "/checkout/coffee/oto/f4p-generator-platinum.php",
-				"declineUrl" => "/checkout/coffee/oto/f4p-generator-payments.php",
-			),
-			"oto5b" => array (
-				"nextUrl" => "/checkout/coffee/thankyou.php",
-				"declineUrl" => "/checkout/coffee/thankyou.php",
-			),
-			"oto6" => array (
-				"nextUrl" => "/checkout/coffee/thankyou.php",
-				"declineUrl" => "/checkout/coffee/thankyou.php",
-			),
+				"oto3" => array (
+						"nextUrl" => "/checkout/coffee/thankyou.php",
+						"declineUrl" => "/checkout/coffee/thankyou.php",
+				),
+				"oto4" => array (
+						"nextUrl" => "/checkout/coffee/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit-payments.php",
+				),
+				"oto4b" => array (
+						"nextUrl" => "/checkout/coffee/thankyou.php",
+						"declineUrl" => "/checkout/coffee/oto/f4p-3month-kit-discount.php",
+				),
+				"oto4c" => array (
+						"nextUrl" => "/checkout/coffee/thankyou.php",
+						"declineUrl" => "/checkout/coffee/thankyou.php",
+				),
+				"oto5" => array (
+						"nextUrl" => "/checkout/coffee/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/coffee/oto/f4p-generator-payments.php",
+				),
+				"oto5b" => array (
+						"nextUrl" => "/checkout/coffee/thankyou.php",
+						"declineUrl" => "/checkout/coffee/thankyou.php",
+				),
+				"oto6" => array (
+						"nextUrl" => "/checkout/coffee/thankyou.php",
+						"declineUrl" => "/checkout/coffee/thankyou.php",
+				),
 		);
 
 
 
-/*
- * ============================================
- * Meat & Protein Funnel
- * ============================================
-*/
+		/*
+		 * ============================================
+		 * Meat & Protein Funnel
+		 * ============================================
+		*/
 
 		$funnelData["protein"] = array(
 
-			"checkout" => array (
-				"googleBrand" => "F4P-PROTEIN",
-				"nextUrl" => "/checkout/protein/oto/f4p-3month-kit-discount.php",
-				"declineUrl" => null,
-			),
-			"oto1" => array (
-				"googleBrand" => "F4P-PROTEIN",
-				"nextUrl" => "/checkout/protein/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/protein/oto/f4p-messenger-trial.php",
-			),
-			"oto1b" => array (
-				"googleBrand" => "F4P-PROTEIN",
-				"nextUrl" => "/checkout/protein/thankyou.php",
-				"declineUrl" => "/checkout/protein/thankyou.php",
-			),
-			"oto2" => array (
-				"googleBrand" => "F4P-PROTEIN",
-				"nextUrl" => "/checkout/protein/thankyou.php",
-				"declineUrl" => "/checkout/protein/oto/f4p-1year-kit-payments.php",
-			),
-			"oto2b" => array (
-				"googleBrand" => "F4P-PROTEIN",
-				"nextUrl" => "/checkout/protein/thankyou.php",
-				"declineUrl" => "/checkout/protein/thankyou.php",
-			),
+				"checkout" => array (
+						"googleBrand" => "F4P-PROTEIN",
+						"nextUrl" => "/checkout/protein/oto/f4p-3month-kit-discount.php",
+						"declineUrl" => null,
+				),
+				"oto1" => array (
+						"googleBrand" => "F4P-PROTEIN",
+						"nextUrl" => "/checkout/protein/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/protein/oto/f4p-messenger-trial.php",
+				),
+				"oto1b" => array (
+						"googleBrand" => "F4P-PROTEIN",
+						"nextUrl" => "/checkout/protein/thankyou.php",
+						"declineUrl" => "/checkout/protein/thankyou.php",
+				),
+				"oto2" => array (
+						"googleBrand" => "F4P-PROTEIN",
+						"nextUrl" => "/checkout/protein/thankyou.php",
+						"declineUrl" => "/checkout/protein/oto/f4p-1year-kit-payments.php",
+				),
+				"oto2b" => array (
+						"googleBrand" => "F4P-PROTEIN",
+						"nextUrl" => "/checkout/protein/thankyou.php",
+						"declineUrl" => "/checkout/protein/thankyou.php",
+				),
 		);
-/*
- * ============================================
- * Fruit & Veggie Funnel
- * ============================================
-*/
+		/*
+		 * ============================================
+		 * Fruit & Veggie Funnel
+		 * ============================================
+		*/
 
 		$funnelData["fruitveggie"] = array(
 
-			"checkout" => array (
-				"googleBrand" => "F4P-FVSK",
-				"tags" => "FVSNACK",
-				"nextUrl" => "/checkout/fruitveggie/oto/f4p-3month-kit-discount.php",
-				"declineUrl" => null,
-			),
-			"oto1" => array (
-				"googleBrand" => "F4P-FVSK",
-				"tags" => "FVSNACK",
-				"nextUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/fruitveggie/oto/f4p-messenger-trial.php",
-			),
-			"oto1b" => array (
-				"googleBrand" => "F4P-FVSK",
-				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
-				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
-			),
-			"oto2" => array (
-				"googleBrand" => "F4P-FVSK",
-				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
-				"declineUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit-payments.php",
-			),
-			"oto2b" => array (
-				"googleBrand" => "F4P-FVSK",
-				"nextUrl" => "/checkout/fruitveggie/thankyou.php",
-				"declineUrl" => "/checkout/fruitveggie/thankyou.php",
-			),
+				"checkout" => array (
+						"googleBrand" => "F4P-FVSK",
+						"tags" => "FVSNACK",
+						"nextUrl" => "/checkout/fruitveggie/oto/f4p-3month-kit-discount.php",
+						"declineUrl" => null,
+				),
+				"oto1" => array (
+						"googleBrand" => "F4P-FVSK",
+						"tags" => "FVSNACK",
+						"nextUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/fruitveggie/oto/f4p-messenger-trial.php",
+				),
+				"oto1b" => array (
+						"googleBrand" => "F4P-FVSK",
+						"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+						"declineUrl" => "/checkout/fruitveggie/thankyou.php",
+				),
+				"oto2" => array (
+						"googleBrand" => "F4P-FVSK",
+						"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+						"declineUrl" => "/checkout/fruitveggie/oto/f4p-1year-kit-payments.php",
+				),
+				"oto2b" => array (
+						"googleBrand" => "F4P-FVSK",
+						"nextUrl" => "/checkout/fruitveggie/thankyou.php",
+						"declineUrl" => "/checkout/fruitveggie/thankyou.php",
+				),
 		);
 
-/*
- * ============================================
- * Coffee 600 Funnel
- * ============================================
-*/
+		/*
+		 * ============================================
+		 * Coffee 600 Funnel
+		 * ============================================
+		*/
 
 		$funnelData["coffee600"] = array(
 
 
 
-			"CHECKOUT" => array (
+				"CHECKOUT" => array (
 //				"productIds" = array(182),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
-				"declineUrl" => "/checkout/coffee600/f4p-coffee-trial.php",
-			),
-			"OTO-C600-1-3MK" => array (
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
+						"declineUrl" => "/checkout/coffee600/f4p-coffee-trial.php",
+				),
+				"OTO-C600-1-3MK" => array (
 //				"productIds" = array(23),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/coffee600/oto/f4p-messenger-trial.php",
-			),
-			"OTO-C600-2D-PA" => array (
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/coffee600/oto/f4p-messenger-trial.php",
+				),
+				"OTO-C600-2D-PA" => array (
 //				"productIds" = array(39),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/thankyou.php",
-				"declineUrl" => "/checkout/coffee600/thankyou.php",
-			),
-			"OTO-C600-2A-1YK" => array (
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/thankyou.php",
+						"declineUrl" => "/checkout/coffee600/thankyou.php",
+				),
+				"OTO-C600-2A-1YK" => array (
 //				"productIds" = array(40),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/thankyou.php",
-				"declineUrl" => "/checkout/coffee600/oto/f4p-1year-kit-payments.php",
-			),
-			"OTO-C600-3D-1YKP" => array (
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/thankyou.php",
+						"declineUrl" => "/checkout/coffee600/oto/f4p-1year-kit-payments.php",
+				),
+				"OTO-C600-3D-1YKP" => array (
 //				"productIds" = array(120),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/thankyou.php",
-				"declineUrl" => "/checkout/coffee600/thankyou.php",
-			),
-			"OTO-C600-TYP" => array (
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/thankyou.php",
+						"declineUrl" => "/checkout/coffee600/thankyou.php",
+				),
+				"OTO-C600-TYP" => array (
 //				"productIds" = array(230),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/thankyou.php",
-				"declineUrl" => "/checkout/coffee600/thankyou.php",
-			),
-			"TRIAL" => array (
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/thankyou.php",
+						"declineUrl" => "/checkout/coffee600/thankyou.php",
+				),
+				"TRIAL" => array (
 //				"productIds" = array(194),
-				"googleBrand" => "F4P-COFFEE600",
-				"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
-				"declineUrl" => null,
-			),
+						"googleBrand" => "F4P-COFFEE600",
+						"nextUrl" => "/checkout/coffee600/oto/f4p-3month-kit-discount.php",
+						"declineUrl" => null,
+				),
 
 		);
 
-/*
- * ============================================
- * 1-Year Firesale Funnel
- * ============================================
-*/
+		/*
+		 * ============================================
+		 * 1-Year Firesale Funnel
+		 * ============================================
+		*/
 
 		$funnelData["1year-firesale"] = array(
 
-			"MAIN" => array (
-				"googleBrand" => "F4P-1YFIRE",
-				"tags" => "1YRKIT",
-				"price" => 1497.00,
-				"customPrice" => 1497.00,
-				"netRevenueEach" => 531.55,
-				"nextUrl" => "/checkout/1year-firesale/oto/f4p-app.php",
-				"declineUrl" => null,
-			),
-			"OTO1" => array (
-				"googleBrand" => "F4P-1YFIRE",
-				"nextUrl" => "/checkout/1year-firesale/oto/f4p-apf.php",
-				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
-			),
-			"OTO2" => array (
-				"googleBrand" => "F4P-1YFIRE",
-				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
-				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
-			),
-			"TYP" => array (
-				"googleBrand" => "F4P-1YFIRE",
-				"nextUrl" => "/checkout/1year-firesale/thankyou.php",
-				"declineUrl" => "/checkout/1year-firesale/thankyou.php",
-			),
+				"MAIN" => array (
+						"googleBrand" => "F4P-1YFIRE",
+						"tags" => "1YRKIT",
+						"price" => 1497.00,
+						"customPrice" => 1497.00,
+						"netRevenueEach" => 531.55,
+						"nextUrl" => "/checkout/1year-firesale/oto/f4p-app.php",
+						"declineUrl" => null,
+				),
+				"OTO1" => array (
+						"googleBrand" => "F4P-1YFIRE",
+						"nextUrl" => "/checkout/1year-firesale/oto/f4p-apf.php",
+						"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+				),
+				"OTO2" => array (
+						"googleBrand" => "F4P-1YFIRE",
+						"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+						"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+				),
+				"TYP" => array (
+						"googleBrand" => "F4P-1YFIRE",
+						"nextUrl" => "/checkout/1year-firesale/thankyou.php",
+						"declineUrl" => "/checkout/1year-firesale/thankyou.php",
+				),
 		);
 
 		return $funnelData;
@@ -1170,28 +1242,39 @@ class Product {
 	}
 
 	function setFunnel() {
+		$currentPath = $_SERVER["PHP_SELF"];
+
+		if (strpos($currentPath,'index.php') !== false) {
+			$_SESSION["maintainFunnel"] = FALSE;
+		}
+
+		if (($_SESSION["maintainFunnel"]) || (strpos($currentPath,'process.php') !== false)){
+			return;
+		}
 
 		$validFunnels = array (
-			"/checkout/" => "food",
-			"/checkout/coffee/" => "freecoffee",
-			"/checkout/protein/" => "protein",
-			"/checkout/fruitveggie/" => "fruitveggie",
-			"/checkout/coffee600/" => "coffee600",
-			"/checkout/1year-firesale" => "1year-firesale",
-			"/checkout/alt/f4p-1yearkit-discount-offer.php" => "food-1year-discount",
-			"/checkout/alt/f4p-1yearkit-offer.php" => "food-1year",
-			"/checkout/alt/f4p-3month-discount-offer.php" => "food-3month-discount",
-			"/checkout/alt/f4p-discount-offer.php" => "food-discount",
-			"/checkout/alt/f4p-free-food-offer.php" => "food-free",
-
+				"/checkout/" => "food",
+				"/checkout/coffee/" => "freecoffee",
+				"/checkout/protein/" => "protein",
+				"/checkout/fruitveggie/" => "fruitveggie",
+				"/checkout/coffee600/" => "coffee600",
+				"/checkout/1year-firesale" => "1year-firesale",
+				"/checkout/alt/f4p-1yearkit-discount-offer.php" => "food-1year-discount",
+				"/checkout/alt/f4p-1yearkit-offer.php" => "food-1year",
+				"/checkout/alt/f4p-3month-discount-offer.php" => "food-3month-discount",
+				"/checkout/alt/f4p-discount-offer.php" => "food-discount",
+				"/checkout/alt/f4p-free-food-offer.php" => "food-free",
+				"/checkout/freefood/" => "food-free",
 		);
-
-		$currentPath = $_SERVER["PHP_SELF"];
 
 		foreach($validFunnels as $path => $funnel) {
 			if(stripos($currentPath,$path) > -1) {
 				$_SESSION["Funnel"]["name"] = $funnel;
 			}
+		}
+
+		if (strpos($currentPath,'/checkout/alt/') !== false) {
+			$_SESSION["maintainFunnel"] = TRUE;
 		}
 
 	}
@@ -1225,8 +1308,8 @@ class Product {
 		self::setStep($step);
 		return $initData;
 	}
-	
-	
+
+
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
 		$message = array("timestamp" => microtime(), "message" => $msg);
