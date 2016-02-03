@@ -205,11 +205,11 @@ class AssetManager {
 //		$base .= "/agile/";
 
 		if ($this->isProduction()) {
-			$this->cssBaseUrl = "../assets/css/prod/";
-			$this->jsBaseUrl = "../assets/js/prod/";
+			$this->cssBaseUrl = "/assets/css/prod/";
+			$this->jsBaseUrl = "/assets/js/prod/";
 		} else {
-			$this->cssBaseUrl = "../assets/css/agile/";
-			$this->jsBaseUrl = "../assets/js/";
+			$this->cssBaseUrl = "/assets/css/agile/";
+			$this->jsBaseUrl = "/assets/js/";
 		}
 
 		/*if ($this->page == "video") {
