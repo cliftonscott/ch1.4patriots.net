@@ -957,10 +957,10 @@ class Product {
 				),
 				"F4P-OTO-1D-F4P-CHOOSE-4W-3M" => array (
 						"pidVariableNextUrl" => true,
-						18 => array (
+						22 => array (
 								"nextUrl" => "/checkout/freefood/thankyou.php",
 						),
-						19 => array (
+						23 => array (
 								"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
 						),
 						"declineUrl" => "/checkout/freefood/thankyou.php",
