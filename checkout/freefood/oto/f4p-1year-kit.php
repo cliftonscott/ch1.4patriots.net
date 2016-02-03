@@ -20,7 +20,7 @@ $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO-2A-F4P-1YK");
 $declineUrl = $funnelData["declineUrl"];
-var_dump($funnelData);
+
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>

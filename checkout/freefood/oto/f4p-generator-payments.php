@@ -18,7 +18,7 @@ $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO-4D-PPG-GEN-PAY");
 $declineUrl = $funnelData["declineUrl"];
-var_dump($funnelData);
+
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
 include_once("Inventory.php");
