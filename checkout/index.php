@@ -29,8 +29,7 @@ include_once("Product.php");
 $productObj = new Product();
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
-$declineUrl = $funnelData["declineUrl"];
-var_dump($funnelData);
+
 //include template top AFTER the product information is set
 /*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
 include_once("agile/template-top.php");
