@@ -10,7 +10,11 @@ $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 $_SESSION['3mDiscountSkip'] = TRUE; // Redirects If Already Offered 3 Month Discount
 include_once("Product.php");
+//creates a product object that is available from every template
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
+
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>

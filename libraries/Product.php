@@ -934,7 +934,7 @@ class Product {
 
 		/*
 		 * ============================================
-		 * Free Food Funnel
+		 * Free Food Funnel - 72hr kit
 		 * ============================================
 		*/
 
@@ -942,7 +942,7 @@ class Product {
 				"checkout" => array (
 						"nextUrl" => "/checkout/freefood/oto/f4p-choose-3m-4w-kit.php",
 						"declineUrl" => null,
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-1A-F4P-CHOOSE-4W-3M" => array (
 						"pidVariableNextUrl" => true,
@@ -953,7 +953,7 @@ class Product {
 								"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
 						),
 						"declineUrl" => "/checkout/freefood/oto/f4p-choose-3m-4w-kit-discount.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-1D-F4P-CHOOSE-4W-3M" => array (
 						"pidVariableNextUrl" => true,
@@ -964,42 +964,124 @@ class Product {
 								"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
 						),
 						"declineUrl" => "/checkout/freefood/thankyou.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-2A-F4P-3MK" => array (
 						"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
 						"declineUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount-c.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-2A-F4P-1YK" => array (
 						"nextUrl" => "/checkout/freefood/oto/f4p-generator.php",
 						"declineUrl" => "/checkout/freefood/oto/f4p-1year-kit-payments.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-3D-F4P-1YK-PAY" => array (
 						"nextUrl" => "/checkout/freefood/thankyou.php",
 						"declineUrl" => "/checkout/freefood/thankyou.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-3D-F4P-4WK" => array (
 						"nextUrl" => "/checkout/freefood/thankyou.php",
 						"declineUrl" => "/checkout/freefood/thankyou.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-3A-PPG-GEN" => array (
 						"nextUrl" => "/checkout/freefood/oto/f4p-generator-platinum.php",
 						"declineUrl" => "/checkout/freefood/oto/f4p-generator-payments.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-4D-PPG-GEN-PAY" => array (
 						"nextUrl" => "/checkout/freefood/thankyou.php",
 						"declineUrl" => "/checkout/freefood/thankyou.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-4A-PPG-GEN-PLAT" => array (
 						"nextUrl" => "/checkout/freefood/thankyou.php",
 						"declineUrl" => "/checkout/freefood/thankyou.php",
-						"googleBrand" => "F4P-FREE",
+						"googleBrand" => "F4P-FREE-72HR",
+				),
+
+		);
+
+		/*
+		 * ============================================
+		 * Minestrone Free Food Funnel - /alt/f4p-free-food-offer.php
+		 * ============================================
+		*/
+
+		$funnelData["food-free-minestrone"] = array(
+				"checkout" => array (
+						"nextUrl" => "/checkout/oto/f4p-choose-3m-4w-kit.php",
+						"declineUrl" => null,
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO-1A-F4P-CHOOSE-4W-3M" => array (
+						"pidVariableNextUrl" => true,
+						18 => array (
+								"nextUrl" => "/checkout/oto/f4p-3month-kit-discount-b.php",
+						),
+						19 => array (
+								"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => "/checkout/oto/f4p-choose-3m-4w-kit-discount.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO-1D-F4P-CHOOSE-4W-3M" => array (
+						"pidVariableNextUrl" => true,
+						22 => array (
+								"nextUrl" => "/checkout/thankyou.php",
+						),
+						23 => array (
+								"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#1-1A1-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#2-1A2-F4P-3MO" => array (
+						"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/oto/f4p-4week-kit-discount-c.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#3-1A3-F4P-1YK" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#2-2D-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#3-2D-F4P-1YK-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#3-2A-PPG-GEN" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#3-3A-PPG-PLAT" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#3-3D-F4P-3MO" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
+				),
+				"F4P-OTO#3-3D-PPG-GEN-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-FREE-MINESTRONE",
 				),
 
 		);
@@ -1014,10 +1096,12 @@ class Product {
 				"checkout" => array (
 						"nextUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
 						"declineUrl" => "/checkout/coffee/oto/f4p-coffee-deluxe.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto1" => array (
 						"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php?b=true",
 						"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 //			"oto1" => array (
 //				"nextUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit.php",
@@ -1032,38 +1116,47 @@ class Product {
 								"nextUrl" => "/checkout/coffee/oto/f4p-1year-kit.php",
 						),
 						"declineUrl" => "/checkout/coffee/oto/f4p-choose-3m-4w-kit-discount.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto2b" => array (
 						"nextUrl" => "/checkout/coffee/thankyou.php",
 						"declineUrl" => "/checkout/coffee/thankyou.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto3" => array (
 						"nextUrl" => "/checkout/coffee/thankyou.php",
 						"declineUrl" => "/checkout/coffee/thankyou.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto4" => array (
 						"nextUrl" => "/checkout/coffee/oto/f4p-generator.php",
 						"declineUrl" => "/checkout/coffee/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto4b" => array (
 						"nextUrl" => "/checkout/coffee/thankyou.php",
 						"declineUrl" => "/checkout/coffee/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto4c" => array (
 						"nextUrl" => "/checkout/coffee/thankyou.php",
 						"declineUrl" => "/checkout/coffee/thankyou.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto5" => array (
 						"nextUrl" => "/checkout/coffee/oto/f4p-generator-platinum.php",
 						"declineUrl" => "/checkout/coffee/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto5b" => array (
 						"nextUrl" => "/checkout/coffee/thankyou.php",
 						"declineUrl" => "/checkout/coffee/thankyou.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 				"oto6" => array (
 						"nextUrl" => "/checkout/coffee/thankyou.php",
 						"declineUrl" => "/checkout/coffee/thankyou.php",
+						"googleBrand" => "F4P-COFFEE30",
 				),
 		);
 
@@ -1229,6 +1322,181 @@ class Product {
 				),
 		);
 
+		/*
+		 * ============================================
+		 * 1 Year Kit Food Funnel - /alt/f4p-1yearkit-offer.php
+		 * ============================================
+		*/
+
+		$funnelData["food-1year"] = array(
+				"checkout" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#1-1A1-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#2-1A2-F4P-3MO" => array (
+						"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/oto/f4p-4week-kit-discount-c.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#3-1A3-F4P-1YK" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#2-2D-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#3-2D-F4P-1YK-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#3-2A-PPG-GEN" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#3-3A-PPG-PLAT" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#3-3D-F4P-3MO" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+				"F4P-OTO#3-3D-PPG-GEN-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-1YEAR",
+				),
+
+		);
+
+		/*
+		 * ============================================
+		 * 3 Month Discount Food Funnel - /alt/f4p-3month-discount-offer.php
+		 * ============================================
+		*/
+
+		$funnelData["food-3month-discount"] = array(
+				"checkout" => array (
+						"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#3-1A3-F4P-1YK" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#2-2D-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#3-2D-F4P-1YK-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#3-2A-PPG-GEN" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#3-3A-PPG-PLAT" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#3-3D-F4P-3MO" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+				"F4P-OTO#3-3D-PPG-GEN-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-3MONTH-DISCOUNT",
+				),
+
+		);
+
+		/*
+		 * ============================================
+		 * 3 Month Discount Food Funnel - /alt/f4p-3month-discount-offer.php
+		 * ============================================
+		*/
+
+		$funnelData["food-discount"] = array(
+				"checkout" => array (
+						"pidVariableNextUrl" => true,
+						22 => array (
+								"nextUrl" => "/checkout/thankyou.php",
+						),
+						23 => array (
+								"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						),
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#1-1A1-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#2-1A2-F4P-3MO" => array (
+						"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						"declineUrl" => "/checkout/oto/f4p-4week-kit-discount-c.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#3-1A3-F4P-1YK" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator.php",
+						"declineUrl" => "/checkout/oto/f4p-1year-kit-payments.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#2-2D-F4P-4WK" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#3-2D-F4P-1YK-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/oto/f4p-3month-kit-discount.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#3-2A-PPG-GEN" => array (
+						"nextUrl" => "/checkout/oto/f4p-generator-platinum.php",
+						"declineUrl" => "/checkout/oto/f4p-generator-payments.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#3-3A-PPG-PLAT" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#3-3D-F4P-3MO" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+				"F4P-OTO#3-3D-PPG-GEN-PAY" => array (
+						"nextUrl" => "/checkout/thankyou.php",
+						"declineUrl" => "/checkout/thankyou.php",
+						"googleBrand" => "F4P-4W3M-DISCOUNT",
+				),
+
+		);
+
 		return $funnelData;
 
 	}
@@ -1263,7 +1531,7 @@ class Product {
 				"/checkout/alt/f4p-1yearkit-offer.php" => "food-1year",
 				"/checkout/alt/f4p-3month-discount-offer.php" => "food-3month-discount",
 				"/checkout/alt/f4p-discount-offer.php" => "food-discount",
-				"/checkout/alt/f4p-free-food-offer.php" => "food-free",
+				"/checkout/alt/f4p-free-food-offer.php" => "food-free-minestrone",
 				"/checkout/freefood/" => "food-free",
 		);
 
