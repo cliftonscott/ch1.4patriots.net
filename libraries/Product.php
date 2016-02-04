@@ -1433,7 +1433,7 @@ class Product {
 
 		/*
 		 * ============================================
-		 * 3 Month Discount Food Funnel - /alt/f4p-3month-discount-offer.php
+		 * Discount Food Funnel - /alt/f4p-discount-offer.php
 		 * ============================================
 		*/
 
@@ -1527,7 +1527,7 @@ class Product {
 				"/checkout/fruitveggie/" => "fruitveggie",
 				"/checkout/coffee600/" => "coffee600",
 				"/checkout/1year-firesale" => "1year-firesale",
-				"/checkout/alt/f4p-1yearkit-discount-offer.php" => "food-1year-discount",
+				"/checkout/alt/f4p-1yearkit-discount-offer.php" => "food-1year",
 				"/checkout/alt/f4p-1yearkit-offer.php" => "food-1year",
 				"/checkout/alt/f4p-3month-discount-offer.php" => "food-3month-discount",
 				"/checkout/alt/f4p-discount-offer.php" => "food-discount",
