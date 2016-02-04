@@ -30,10 +30,14 @@ $(document).ready(function() {
 				maxlength: 7
 			},
 			"card-cvv2": {
-				required: true
+				required: true,
+				minlength: 3,
+				maxlength: 4
 			},
 			"creditCardNumber": {
-				required: true
+				required: true,
+				minlength: 13,
+				maxlength: 20
 			},
 			"billadd": {
 				required: true
@@ -45,7 +49,7 @@ $(document).ready(function() {
 				required: true
 			}
 		},
-		messages: { 
+		messages: {
 			"email": "",
 			"firstName": null,
 			"lastName": "",

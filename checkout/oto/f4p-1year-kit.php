@@ -59,7 +59,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			time += seconds * 1000;
 
 			setTimeout(function() {
-				$(".content").css("display", "block");
 				$("#buyButton").css("display", "block");
 			}, time);
 
@@ -107,20 +106,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div id="videobox" class="hidden-xs">
 			<iframe src="//fast.wistia.net/embed/iframe/tpnfvst02e?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js"></script>
-			<?php if (JV::in("52-hybrid")) { ?>
-			<script>
-				window._wq = window._wq || [];
-				_wq.push({ "tpnfvst02e": function(video) {
-					video.bind("pause", function() {
-						$(".content").css("display", "block");
-						$("#buyButton").css("display", "block");
-					});
-				}});
-			</script>
-			<?php } // SPLIT JV-52 DESKTOP ONLY 1/7/16?>
 		</div>
 	</div>
-	<div class="content" <?php if (JV::in("52-hybrid")) { ?> style="display:none;" <?php } // SPLIT JV-52 DESKTOP ONLY 1/7/16?>>
+	<div class="content">
 		<div class="container oto-width">
 			<div id="buyButton" class="text-center" style="display:none;"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 			<div style="margin-top:50px;">
