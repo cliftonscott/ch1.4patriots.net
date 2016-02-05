@@ -322,7 +322,7 @@ class Product {
 				$productObj->listId = 43;
 				$productObj->tags = "LL, boughtpamtrial";
 				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 9;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = null;
