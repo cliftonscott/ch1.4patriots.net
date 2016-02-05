@@ -292,8 +292,8 @@ class Product {
 				$productObj->nextPage = null;
 				$productObj->listId = null;
 				$productObj->tags = null;
-				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 21;
+				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = null;
@@ -322,7 +322,7 @@ class Product {
 				$productObj->listId = 43;
 				$productObj->tags = "LL, boughtpamtrial";
 				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 5;
+				$productObj->shippingIdInternational = 9;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = null;
@@ -330,7 +330,7 @@ class Product {
 				$productObj->price = 0;
 				$productObj->originalPrice = 19.95;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 25;
+				$productObj->netRevenueEach = 13.16;
 				$productObj->googleProductName = "PA-MESSENGER";
 				$productObj->googleProductSku = "PID39";
 				$productObj->googleProductCategory = "30-DAY-TRIAL";
@@ -435,7 +435,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, FVSNACK";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -734,7 +734,7 @@ class Product {
 				$productObj->nextPage = "/checkout/protein/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, F4PMeatProteinKit";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
