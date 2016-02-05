@@ -149,7 +149,7 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 197;
 				$productObj->originalPrice = 197;
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -175,7 +175,7 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 497;
 				$productObj->originalPrice = 497;
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -202,7 +202,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 4WKITUP";
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -233,7 +233,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 3MKITUP";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -350,7 +350,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-generator.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1YRKIT";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -378,7 +378,7 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 67;
 				$productObj->originalPrice = 67;
-				$productObj->shippingIdDomestic = 24;
+				$productObj->shippingIdDomestic = 31;
 				$productObj->shippingIdInternational = 19;
 				$productObj->shippingCostDomestic = 5.95;
 				$productObj->shippingCostInternational = 5.95;
@@ -405,7 +405,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1YRKIT3PAYMENT";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -704,7 +704,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = null;
 				$productObj->tags = "LL, SUPERPAK";
-				$productObj->shippingIdDomestic = 26;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
