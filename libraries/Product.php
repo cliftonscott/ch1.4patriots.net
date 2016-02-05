@@ -387,7 +387,7 @@ class Product {
 				$productObj->netRevenueEach = 40.45;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
-				$productObj->tags = "LL, 1WKKIT";
+				$productObj->tags = "LL, 1WKIT";
 				$productObj->googleProductName = "F4P-1WK";
 				$productObj->googleProductSku = "PID92";
 				$productObj->googleProductCategory = "1-PAY-67";
@@ -702,8 +702,8 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = null;
-				$productObj->tags = "LL, SUPERPAK";
+				$productObj->listId = 35;
+				$productObj->tags = "LL, F4PSuperPak";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
