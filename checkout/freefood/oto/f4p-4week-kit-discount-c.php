@@ -17,12 +17,10 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-
-include_once("agile/template-top.php");
-
-$funnelData = $productObj->initFunnel("F4P-OTO#2-2D-F4P-4WK");
+$funnelData = $productObj->initFunnel("F4P-OTO-3D-F4P-4WK");
 $declineUrl = $funnelData["declineUrl"];
 
+include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 	<script src="/js/audio.js"></script>

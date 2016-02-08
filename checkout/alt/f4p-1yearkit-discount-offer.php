@@ -1,7 +1,9 @@
 <?php
 $today = date(mktime());
 $offerExpired = false;
-$expiresOn = date(strtotime("07/14/2015"));
+
+$expiresOn = date(strtotime("03/05/2016"));
+
 if($today >= $expiresOn) {
 	$offerExpired = true;
 }
@@ -16,7 +18,10 @@ $maxQuantity = 4;
 
 include_once("Product.php");
 //creates a product object that is available from every template
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
+
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
@@ -222,7 +227,7 @@ include_once ('template-top.php');
 </div>
 <script>
 	// set the date we're counting down to
-	var target_date = new Date("Jul 14, 2015").getTime();
+	var target_date = new Date("Mar 5, 2016").getTime();
 
 	// variables for time units
 	var days, hours, minutes, seconds;

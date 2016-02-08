@@ -9,29 +9,17 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 	$firstName = "Fellow Patriot";
 }
 // SET PRODUCT ID
-$_SESSION['productId'] = 174; //please keep as an integer
+$_SESSION['productId'] = 120; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("F4P-OTO#3-3D-PPG-GEN-PAY");
+$funnelData = $productObj->initFunnel("F4P-OTO-3D-F4P-1YK-PAY");
 $declineUrl = $funnelData["declineUrl"];
 
-//check for inventory supply for Lion Energy Products
-$productId = $_SESSION['productId'];
-include_once("Inventory.php");
-$inventoryObj = new Inventory();
-$isLion = $inventoryObj->isLion($productId);
-if($isLion) {
-	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
-	if($hasAllInventory === false) {
-		header("Location: /checkout/thankyou.php");
-		exit;
-	}
-}
-include_once("agile/template-top.php");
+include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script src="/js/audio.js"></script>
@@ -45,7 +33,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				},
 			},
 			messages: {
-		  check1: '<div class="warning-check"></div>',
+				check1: '<div class="warning-check"></div>',
 		},
 		submitHandler: function(form) {
 		 //optIn(); 
@@ -64,17 +52,16 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 <div class="container oto-width">
 		<div>
 			<div>
-				<audio id="frankPaymentsAudioSrc" src="/media/audio/ppg-generator-downsell-audio-01.mp3" preload="auto" autoplay></audio>
+				<audio id="frankPaymentsAudioSrc" src="/media/audio/f4p-1year-kit-3pay.mp3" preload="auto" autoplay></audio>
 			</div>
 			<img id="frankPaymentsAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_on.gif" onclick="toggleAudio('frankPayments');">
 				<h1 class="darkRed text-center">Was It The Price?</h1>
 		</div>
 		<div>
-			<p><?php echo $firstName;?>, I’ve had a number of anxious Patriots desperately reach out to me to secure their own Patriot Power Generator 1500 while I still had them in stock…but they just weren’t able to swing the upfront cost all at once. </p>
-			<p>I don't think price should EVER get in the way of your family's security. So here's the deal - I'm offering you a payment plan on the Patriot Power Generator 1500 today. </p>
-			<p>Just click the “Click to Accept” button below and I’ll ship your Patriot Power Generator 1500 (and all the bonuses you saw on the previous page) for just one payment of $997 today and another payment of $997 in 30 days.</p>
-			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/ppg/ppg-product-checkout-01.jpg" alt="Patriot Power Generator"/></div>
-			<h3 class="text-center darkRed">$997 Today Plus $997 In 30 Days</h3>
+			<p><?php echo $firstName;?>, people often email me, letting me know they want to grab their 1-Year Food4Patriots kit (before it's too late).  The only reason they didn't is because of the price.  I don't think price should EVER get in the way of your family's security.		    </p>
+			<p>So here's the deal...  I'm offering you a payment plan on the 1-Year Food4Patriots kit... just $597 today plus 2 more monthly payments of $597. It's the exact same kit, and I'll ship it to you right away (I know you're good for the 2 additional payments).</p>
+			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-1-year-kit-01.jpg" alt="1 Year Food4Patriots Food Kit"/></div>
+			<h3 class="text-center darkRed">$597 Today Plus 2 Monthly Payments Of $597 Later</h3>
 
 		<div>
 <?php
@@ -88,7 +75,7 @@ if($isUpgrade) {
 	?>
 		<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 			<div class="text-center center-block">
-				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class="img-responsive center-block" />
+				<input type="image" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/>
 			</div>
 				<input type="hidden" name="quantity" id="quantity" value="1">
 			<div class="terms">
@@ -96,17 +83,16 @@ if($isUpgrade) {
 					<input type="checkbox" id="check1" name="check1">
 						<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 				</div>
-				<div style="line-height: 1.2;">I want to add the Patriot Power Generator 1500 to my order at the 1-time discount sale price of $997 today and $997 in 30 days. I will get FREE Shipping with my Generator, Solar Panel &amp; bonuses (a $200 value) as well as a 100% 365-day guarantee.</div>
+				<div style="line-height: 1.2;">I want to add the 1 Year Food4Patriots Kit to my order at the one-time discount sale price of $597 today plus two more payments of $597 thirty days apart. <strong>I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds.</strong></div>
 				</div>
 
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-	  </form>
+		</form>
 
 	<?php
 }
 	?>
-			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
+			<div class="noThanks"><a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
 		</div>
 
 	</div>

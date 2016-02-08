@@ -29,7 +29,6 @@ if($_POST["productId"]) {
 	$productId = intval($_SESSION["productId"]);
 } else {
 	//the productId must be explicitly set by either a post or by session variable
-	//the productId must be explicitly set by either a post or by session variable
 	$nextPage = "/checkout/index.php";
 	header("Location: " . $nextPage);
 	exit;

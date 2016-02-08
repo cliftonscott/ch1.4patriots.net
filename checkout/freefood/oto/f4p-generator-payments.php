@@ -16,7 +16,7 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("F4P-OTO#3-3D-PPG-GEN-PAY");
+$funnelData = $productObj->initFunnel("F4P-OTO-4D-PPG-GEN-PAY");
 $declineUrl = $funnelData["declineUrl"];
 
 //check for inventory supply for Lion Energy Products
@@ -31,7 +31,7 @@ if($isLion) {
 		exit;
 	}
 }
-include_once("agile/template-top.php");
+include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script src="/js/audio.js"></script>

@@ -20,12 +20,10 @@ $_SESSION['3mDiscountSkip'] = TRUE;
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-
-include_once("agile/template-top.php");
-
-$funnelData = $productObj->initFunnel("F4P-OTO#2-1A2-F4P-3MO");
+$funnelData = $productObj->initFunnel("F4P-OTO-2A-F4P-3MK");
 $declineUrl = $funnelData["declineUrl"];
 
+include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 	<script src="/js/audio.js"></script>

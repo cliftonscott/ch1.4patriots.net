@@ -26,9 +26,11 @@ $_SESSION['productId'] = 19; //please keep as an integer
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
-//include template top AFTER the product information is set
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
 
+//include template top AFTER the product information is set
 /*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
 include_once("agile/template-top.php");
 /*END TEST*/

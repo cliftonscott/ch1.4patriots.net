@@ -13,19 +13,15 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 5;
-// Define the current page name.
-$page = "oto";
 
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-
-include_once("agile/template-top.php");
-
-$funnelData = $productObj->initFunnel("F4P-OTO#3-1A3-F4P-1YK");
+$funnelData = $productObj->initFunnel("F4P-OTO-2A-F4P-1YK");
 $declineUrl = $funnelData["declineUrl"];
 
+include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 
