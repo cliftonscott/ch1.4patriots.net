@@ -63,7 +63,7 @@ $platform->setCsrOrderFormUrl("/checkout/protein/index.php");
 												</div>
 											</div>
 										</div>
-										<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" alt=""/>
+									<!--	<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" alt=""/>-->
 									</div>
 								</div>
 							</div>
