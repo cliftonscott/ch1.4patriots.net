@@ -160,7 +160,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 											</div>
 										</div>
-										<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>
+										<!--<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>-->
 									</div>
 								</div>
 							</div>
