@@ -212,10 +212,10 @@ class AssetManager {
 //		$base .= "/agile/";
 
 		if ($this->isProduction()) {
-			$this->cssBaseUrl = $base . "../assets/css/prod/";
+			$this->cssBaseUrl = $base . "../../assets/css/prod/";
 			$this->jsBaseUrl = $base . "agile/js/prod/";
 		} else {
-			$this->cssBaseUrl = $base . "../assets/css/agile/";
+			$this->cssBaseUrl = $base . "../../assets/css/agile/";
 			$this->jsBaseUrl = $base . "agile/js/";
 		}
 
