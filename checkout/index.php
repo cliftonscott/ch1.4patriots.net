@@ -314,7 +314,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-02.jpg" width="800" height="412">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-03.jpg" width="800" height="412">
 			</div>
 		</div>
 	</div>
@@ -322,7 +322,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal2();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-04.jpg" width="750" height="500">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-06.jpg" width="750" height="500">
 			</div>
 		</div>
 	</div>
@@ -330,7 +330,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal3();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-3-month-kit-04.jpg" width="800" height="614">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-3-month-kit-06.jpg" width="800" height="614">
 			</div>
 		</div>
 	</div>
