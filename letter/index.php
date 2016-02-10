@@ -20,5 +20,11 @@ $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 ?>
 
 <div id="wrapper">
-	<?php include_once("food/content.php"); /*temporary include until platform changes can be made*/?>
+	<?php
+	if (JV::in("56-VSL4")) {
+		include_once('food/content-b.php'); /*JV-56 SPLIT*/
+	}else{
+		include_once('food/content.php'); /*CONTROL*/
+	};
+	?>
 </div>
