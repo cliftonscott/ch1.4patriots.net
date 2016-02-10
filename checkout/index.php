@@ -89,7 +89,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductOne" class="panel-collapse collapse">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-01.jpg" width="530" height="356" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-07.jpg" width="530" height="356" class="img-responsive center-block"></a>
 										<div class="productList">
 											<p class="text-center red17"><strong>1 Week Food Supply Includes:</strong></p>
 											<ul>
@@ -114,7 +114,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductTwo" class="panel-collapse collapse">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-03.jpg" width="449" height="392" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-05.jpg" width="449" height="392" class="img-responsive center-block"></a>
 										<div class="productList">
 											<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
 											<ul>
@@ -140,7 +140,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductThree" class="panel-collapse collapse in">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-05.jpg" width="530" height="491" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
