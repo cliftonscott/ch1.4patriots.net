@@ -256,7 +256,7 @@
 	<p>So why is <span style="text-decoration: line-through;">it</span> our survival food flying off the shelves?</p>
 	<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>. Just add boiling water, simmer and serve.&nbsp;</p>
 	<p>Can you picture how easy this is? It's so simple even kids can make our food.</p>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/misc/placeholder.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
 
 	<h2 class="darkRed text-center">Each Food4Patriots survival food kit is packed with variety.</h2>
 	<p>And don't worry that you&rsquo;ll be eating the same thing every day. You&rsquo;ll get a whole slew of choices for breakfast, lunch, and dinner so your family&rsquo;s meals are never boring.&nbsp;</p>
