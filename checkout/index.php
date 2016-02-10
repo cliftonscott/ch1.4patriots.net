@@ -93,18 +93,29 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								<div id="chooseProductOne" class="panel-collapse collapse">
 									<div class="panel-body">
 										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-07.jpg" width="530" height="356" class="img-responsive center-block"></a>
-										<div class="productList">
-											<p class="text-center red17"><strong>1 Week Food Supply Includes:</strong></p>
-											<ul>
-												<li>36 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-												<li>Four FREE Special Reports</li>
-												<li style="padding-left: 10px;list-style: none">- 10 Items Sold Out After Crisis Report</li>
-												<li style="padding-left: 10px;list-style: none">- Water Survival Guide Report</li>
-												<li style="padding-left: 10px;list-style: none">- How to Cut Your Grocery Bills Report</li>
-												<li style="padding-left: 10px;list-style: none">- Survival Garden Guide Report</li>
-											</ul>
+										<div class="nopadding">
+											<div class="row">
+												<div class="col-sm-12 col-md-5 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>1 Week Supply Includes:</strong></p>
+														<ul>
+															<li>36 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-7 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>FREE Hardcopy <u>and</u> Digital<br class="hidden-sm"> Bonus Reports</strong></p>
+														<ul>
+															<li>10 Items Sold Out After Crisis</li>
+															<li>Water Survival Guide</li>
+															<li>How to Cut Your Grocery Bills</li>
+															<li>Survival Garden Guide</li>
+														</ul>
+													</div>
+												</div>
+											</div>
 										</div>
-
 									</div>
 								</div>
 							</div>
@@ -119,19 +130,30 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								<div id="chooseProductTwo" class="panel-collapse collapse">
 									<div class="panel-body">
 										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-05.jpg" width="449" height="392" class="img-responsive center-block"></a>
-										<div class="productList">
-											<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
-											<ul>
-												<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-												<li>FREE Shipping</li>
-												<li>Four FREE Special Reports</li>
-												<li style="padding-left: 10px;list-style: none">- 10 Items Sold Out After Crisis Report</li>
-												<li style="padding-left: 10px;list-style: none">- Water Survival Guide Report</li>
-												<li style="padding-left: 10px;list-style: none">- How to Cut Your Grocery Bills Report</li>
-												<li style="padding-left: 10px;list-style: none">- Survival Garden Guide Report</li>
-											</ul>
+										<div class="nopadding">
+											<div class="row">
+												<div class="col-sm-12 col-md-5 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>4 Week Supply Includes:</strong></p>
+														<ul>
+															<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>FREE Shipping</li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-7 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>FREE Hardcopy <u>and</u> Digital<br class="hidden-sm"> Bonus Reports</strong></p>
+														<ul>
+															<li>10 Items Sold Out After Crisis</li>
+															<li>Water Survival Guide</li>
+															<li>How to Cut Your Grocery Bills</li>
+															<li>Survival Garden Guide</li>
+														</ul>
+													</div>
+												</div>
+											</div>
 										</div>
-
 									</div>
 								</div>
 							</div>

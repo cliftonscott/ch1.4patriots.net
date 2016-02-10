@@ -92,6 +92,9 @@ if (JV::in("24-letter")) {
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="/assets/css/bootstrap.css" rel="stylesheet">
 	<link rel="shortcut icon" href="/favicon.ico">
+	<link href="/assets/css/styles.css" rel="stylesheet">
+	<link href="/assets/css/styles-content.css" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- Latest compiled and minified CSS. -->
 	<?php $assets->css(); ?>
