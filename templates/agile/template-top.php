@@ -127,13 +127,6 @@ if (JV::in("24-letter")) {
 		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
 	<?php } ?>
 
-
-	<script src="<?php echo $REQUEST_PROTOCOL;?>://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-	<script src="/assets/js/bootstrap.min.js"></script>
-	<script src="/js/patriot.js"></script>
-
-	<!--TODO only pull in if we need the exit confirm-->
-	<script src="/js/floating-1.12.js"></script>
 	<?php
 	if($template["floatingTimer"] > 0) {
 		include_once("timer-floating.php");
