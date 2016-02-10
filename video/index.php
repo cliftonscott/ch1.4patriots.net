@@ -93,10 +93,8 @@ include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-
-/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
 include_once("agile/template-top.php");
-/*END TEST*/
+
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;

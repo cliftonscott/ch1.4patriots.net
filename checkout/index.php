@@ -1,8 +1,6 @@
 <?php
-// SPLIT JV-38 11/20/15 //
 // Define the current page name.
 $page = "checkout";
-// END TEST //
 
 /*
  * use session soldout multidimensional array to indicate sold out conditions and associated

@@ -1,8 +1,6 @@
 <?php
-// SPLIT JV-38 11/20/15 //
 // Define the current page name.
 $page = "letter";
-// END TEST //
 
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
