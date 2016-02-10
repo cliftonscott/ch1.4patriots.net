@@ -192,9 +192,16 @@ class AssetManager {
 
 	private function resolveEnvironment()
 	{
-		if (getenv('APP_ENV') === 'production' || getenv('APP_ENV') === 'stage' || isset($_GET["fakeProd"])) {
+		if (isset($_GET["fakeProd"]) && $_GET["fakeProd"] === "0") {
+			$_SESSION["fakeProd"] = false;
+			return false;
+		}
+
+		if (getenv('APP_ENV') === 'production' || getenv('APP_ENV') === 'stage' || isset($_GET["fakeProd"]) || $_SESSION["fakeProd"]) {
+			$_SESSION["fakeProd"] = true;
 			return true;
 		}
+
 		return false;
 	}
 
@@ -205,10 +212,10 @@ class AssetManager {
 //		$base .= "/agile/";
 
 		if ($this->isProduction()) {
-			$this->cssBaseUrl = $base . "../assets/css/prod/";
+			$this->cssBaseUrl = $base . "/assets/css/prod/";
 			$this->jsBaseUrl = $base . "agile/js/prod/";
 		} else {
-			$this->cssBaseUrl = $base . "../assets/css/agile/";
+			$this->cssBaseUrl = $base . "/assets/css/agile/";
 			$this->jsBaseUrl = $base . "agile/js/";
 		}
 

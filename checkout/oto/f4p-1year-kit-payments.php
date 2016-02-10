@@ -14,8 +14,14 @@ $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-include_once("template-top.php");
+
+include_once("agile/template-top.php");
+
+$funnelData = $productObj->initFunnel("F4P-OTO#3-2D-F4P-1YK-PAY");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script src="/js/audio.js"></script>
@@ -88,7 +94,7 @@ if($isUpgrade) {
 	<?php
 }
 	?>
-			<div class="noThanks"><a href="/checkout/oto/f4p-3month-kit-discount.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
+			<div class="noThanks"><a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.</div>
 		</div>
 
 	</div>

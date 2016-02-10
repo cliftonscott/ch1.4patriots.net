@@ -26,7 +26,10 @@ $_SESSION['productId'] = 19; //please keep as an integer
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
+
 //include template top AFTER the product information is set
 
 /*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
@@ -101,6 +104,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												<li style="padding-left: 10px;list-style: none">- Survival Garden Guide Report</li>
 											</ul>
 										</div>
+
 									</div>
 								</div>
 							</div>
@@ -127,6 +131,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												<li style="padding-left: 10px;list-style: none">- Survival Garden Guide Report</li>
 											</ul>
 										</div>
+
 									</div>
 								</div>
 							</div>
@@ -167,6 +172,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 											</div>
 										</div>
+										<!--<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>-->
 									</div>
 								</div>
 							</div>

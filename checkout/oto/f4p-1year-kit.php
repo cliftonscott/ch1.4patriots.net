@@ -13,11 +13,19 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = 1;
 $maxQuantity = 5;
+// Define the current page name.
+$page = "oto";
 
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-include_once("template-top.php");
+
+include_once("agile/template-top.php");
+
+$funnelData = $productObj->initFunnel("F4P-OTO#3-1A3-F4P-1YK");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 
@@ -320,7 +328,7 @@ if (JV::in("49-modal")) { ?>
 			</div>
 <?php }else{ ?>
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-1year-kit-payments.php">No Thanks</a> – I am choosing to abandon my steeply discounted 1-Year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-Year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 			</div>
 <?php } //END TEST?>
 

@@ -18,8 +18,14 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 // Redirects If Already Offered 3 Month Discount
 $_SESSION['3mDiscountSkip'] = TRUE;
 include_once("Product.php");
+$productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-include_once("template-top.php");
+
+include_once("agile/template-top.php");
+
+$funnelData = $productObj->initFunnel("F4P-OTO#2-1A2-F4P-3MO");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 	<script src="/js/audio.js"></script>
@@ -270,7 +276,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-4week-kit-discount-c.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 				</div>
 			</div>
 			<div>
