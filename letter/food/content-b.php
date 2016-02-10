@@ -186,7 +186,7 @@
 	<p>Or any other kind of hellish scenario.</p>
 	<p>There&rsquo;s no way to tell when it will hit. But it is coming. Heck, we&rsquo;ve already seen a record amount of violence and looting in places like Ferguson and Baltimore&hellip;and we aren&rsquo;t even in a full on crisis&hellip; YET!</p>
 
-	<h2 class="darkRed text-center">I want you to really think about this...</h2>
+	<h2 class="darkRed text-center">I Want You To Really Think About This...</h2>
 	<p>Think about the disaster footage you’re seeing on the news these days, pretty much 24-7. How long before the disaster is at YOUR front door… hordes of desperate people roaming the streets of YOUR town… grocery stores picked over and shelves stripped bare?</p>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-looters.jpg" alt="">
 	<p>Get the picture? Because this is the reality we are looking at when the next big crisis happens.</p>
@@ -210,7 +210,7 @@
 	<p>The food was delicious, easy to store long-term, and best of all, it was packaged right here in the U.S. of A. That&rsquo;s why we decided to call it <strong>Food4Patriots</strong>.&nbsp;</p>
 	<p>Plus, our food didn't have any of those harmful chemicals or genetically modified ingredients, no MSG, no GMOs and no mystery &ldquo;Frankenfood&rdquo; from China.</p>
 
-	<h2 class="darkRed text-center">But to be honest, we were worried that this was too good to be true. Was it going to cost an arm and a leg</h2>
+	<h2 class="darkRed text-center">But To Be Honest, We Were Worried That This Was Too Good To Be True. Was It Going To Cost An Arm And A Leg</h2>
 	<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket-02.jpg" alt="">
 	<p>First, we take <strong>100% non-GMO fruits and veggies as a starting point</strong>. Our food is made in America. Not assembled from Chinese imported ingredients. It&rsquo;s grown, harvested, and made from scratch here in the land of the free and home of the brave.</p>
@@ -229,7 +229,7 @@
 	<p>We use re-sealable pouches made of space-age Mylar &ndash; the same material that&rsquo;s used in NASA space suits &ndash; to store your food in convenient servings.</p>
 	<p>This is the absolute best packaging material available. It&rsquo;s so strong it&rsquo;s used to protect astronauts in outer space, for Pete&rsquo;s sake!</p>
 
-	<h2 class="darkRed text-center">Our packaging makes a big difference</h2>
+	<h2 class="darkRed text-center">Our Packaging Makes A Big Difference</h2>
 	<p>The reason this is so critical is because our packaging provides a <strong>COMPLETE barrier against light, oxygen and moisture</strong>&hellip; the three things that will destroy food over time. These pouches cost us twice as much as the flimsy stuff that some competitors use, but we insist on it because it&rsquo;s scientifically designed to guarantee that your food will last an amazing 25 years.</p>
 	<p>Next, we use a special $150,000 machine to package these meals to the highest industry standards.&nbsp;</p>
 	<p>It works like this: the advanced Mylar pouches are blasted clean with CO<sub>2</sub> gas and then it&rsquo;s packed to the brim with a hefty helping of your delicious food. This process forces out any left-over oxygen.</p>
@@ -261,7 +261,7 @@
 	<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>. Just add boiling water, simmer and serve.&nbsp;</p>
 	<p>Can you picture how easy this is? It's so simple even kids can make our food.</p>
 
-	<h2 class="darkRed text-center">Each Food4Patriots survival food kit is packed with variety</h2>
+	<h2 class="darkRed text-center">Each Food4Patriots Survival Food Kit Is Packed With Variety</h2>
 	<p>And don't worry that you&rsquo;ll be eating the same thing every day. You&rsquo;ll get a whole slew of choices for breakfast, lunch, and dinner so your family&rsquo;s meals are never boring.&nbsp;</p>
 	<p>Now, one of the questions most people have is, "What kind of food will I get to eat?" I know what you&rsquo;re worried about here&hellip; maybe you&rsquo;re imagining bland, tasteless mush.</p>
 	<p>But that couldn&rsquo;t be further from the truth.</p>
@@ -301,6 +301,7 @@
 	<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 	<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
 	<img src="/media/images/f4p/letter/f4p-letter-infograph.jpg" width="100%" class="img-responsive center-block"/>
+	<p></p>
 	<p><strong>Over the last 3 years, 160,064 customers have trusted Food4Patriots. </strong>And according to my numbers, 92% are happy with their purchase. Plus, nearly half of our customers come back to us to order more food at sometime in the future. I think these numbers show that folks are happy with the product.</p>
 	<p>And it&rsquo;s not just our customers who are praising Food4Patriots&hellip; celebrities and survival experts are recommending it as &ldquo;the perfect survival food solution.&rdquo; Look at what Glenn Beck, one of America&rsquo;s top talk radio hosts, thinks about this survival food that&rsquo;s in these kits:</p>
 	<div class="johnson-box-01">
