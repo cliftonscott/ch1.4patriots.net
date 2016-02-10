@@ -169,7 +169,7 @@
 	<p>We&rsquo;ve all heard of &ldquo;The Greatest Generation&rdquo; (this was my Dad and his buddies), The Baby Boomers, Generation X&hellip; but now, we have to contend with &ldquo;Generation Entitlement&rdquo;.</p>
 	<p>And folks, it really doesn&rsquo;t have much to do with age. It&rsquo;s a mindset. It&rsquo;s the belief that <strong>the country owes you a living for just existing and breathing air</strong>.</p>
 	<p>Just like that surfer that made the news in California, living it up on your taxpayer dime, buying LOBSTER with his food stamp card and even proud of the fact he&rsquo;s a good-for-nothing bum!</p>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-welfare-troll.jpg" alt="">
+	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-welfare-troll.jpg" alt="">
 	<p>He&rsquo;d much rather play &ldquo;rock star&rdquo; than get a job and earn a respectable living, like other hard-working Americans. It&rsquo;s losers like him that really get my blood boiling.</p>
 	<p>These are the kind of people that my Grandpa used to say &ldquo;always want something for nothing.&rdquo;</p>
 	<p>And our socialist-in-chief and the rest of the politicians are all too happy to provide it&hellip; because it keeps them and their kind in power, election after election. Just look at Obama and Hillary.</p>
@@ -186,7 +186,7 @@
 
 	<h2 class="darkRed text-center">I want you to really think about this...</h2>
 	<p>Think about the disaster footage you’re seeing on the news these days, pretty much 24-7. How long before the disaster is at YOUR front door… hordes of desperate people roaming the streets of YOUR town… grocery stores picked over and shelves stripped bare?</p>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-looters.jpg" alt="">
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-looters.jpg" alt="">
 	<p>Get the picture? Because this is the reality we are looking at when the next big crisis happens.</p>
 	<p>At no time in history have we had so many people as dependent on government as we do today. <strong>It&rsquo;s a ticking time bomb&hellip; 47 million people strong</strong>.</p>
 	<p>These days, people want what THEY think they&rsquo;re entitled to&hellip; and they&rsquo;ll take away what we&rsquo;ve worked hard to earn.</p>
