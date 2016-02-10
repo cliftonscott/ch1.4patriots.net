@@ -144,8 +144,9 @@
 		
 		<div class="content" style="display: none;">
 			<!--4.0 LETTER GOES HERE-->
+			<?php include("../letter/food/content-b.php"); ?>
 		</div>
-		
+</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
