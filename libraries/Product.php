@@ -149,13 +149,13 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 197;
 				$productObj->originalPrice = 197;
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 18;
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 115;
+				$productObj->netRevenueEach = 113.27;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 4WKIT";
@@ -175,13 +175,13 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 497;
 				$productObj->originalPrice = 497;
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = 19;
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 245;
+				$productObj->netRevenueEach = 227.79;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 3MKIT";
@@ -202,7 +202,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 4WKITUP";
-				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -212,7 +212,7 @@ class Product {
 				$productObj->price = 147;
 				$productObj->originalPrice = 197;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 67;
+				$productObj->netRevenueEach = 65.77;
 				$productObj->googleProductName = "F4P-4WK";
 				$productObj->googleProductSku = "PID22";
 				$productObj->googleProductCategory = "1-PAY-147-DISCOUNT";
@@ -233,7 +233,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 3MKITUP";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -242,7 +242,7 @@ class Product {
 				$productObj->price = 397;
 				$productObj->originalPrice = 497;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 145;
+				$productObj->netRevenueEach = 132.79;
 				$productObj->googleProductName = "F4P-3MK";
 				$productObj->googleProductSku = "PID23";
 				$productObj->googleProductCategory = "1-PAY-397-DISCOUNT";
@@ -292,8 +292,8 @@ class Product {
 				$productObj->nextPage = null;
 				$productObj->listId = null;
 				$productObj->tags = null;
-				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 21;
+				$productObj->shippingIdDomestic = 8;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = null;
@@ -322,7 +322,7 @@ class Product {
 				$productObj->listId = 43;
 				$productObj->tags = "LL, boughtpamtrial";
 				$productObj->shippingIdDomestic = 5;
-				$productObj->shippingIdInternational = 5;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
 				$productObj->mpsId = null;
@@ -330,7 +330,7 @@ class Product {
 				$productObj->price = 0;
 				$productObj->originalPrice = 19.95;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 25;
+				$productObj->netRevenueEach = 13.16;
 				$productObj->googleProductName = "PA-MESSENGER";
 				$productObj->googleProductSku = "PID39";
 				$productObj->googleProductCategory = "30-DAY-TRIAL";
@@ -350,7 +350,7 @@ class Product {
 				$productObj->nextPage = "/checkout/oto/f4p-generator.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1YRKIT";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -359,7 +359,7 @@ class Product {
 				$productObj->price = 1997;
 				$productObj->originalPrice = 2997;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 930;
+				$productObj->netRevenueEach = 880.01;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSku = "PID40";
 				$productObj->googleProductCategory = "1-PAY-1997";
@@ -378,16 +378,16 @@ class Product {
 				$productObj->pmaSku = null;
 				$productObj->price = 67;
 				$productObj->originalPrice = 67;
-				$productObj->shippingIdDomestic = 24;
+				$productObj->shippingIdDomestic = 31;
 				$productObj->shippingIdInternational = 19;
 				$productObj->shippingCostDomestic = 5.95;
 				$productObj->shippingCostInternational = 5.95;
 				$productObj->mpsId = 92;
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 42;
+				$productObj->netRevenueEach = 40.45;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
-				$productObj->tags = "LL, 1WKKIT";
+				$productObj->tags = "LL, 1WKIT";
 				$productObj->googleProductName = "F4P-1WK";
 				$productObj->googleProductSku = "PID92";
 				$productObj->googleProductCategory = "1-PAY-67";
@@ -405,7 +405,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 1YRKIT3PAYMENT";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -414,7 +414,7 @@ class Product {
 				$productObj->price = 597;
 				$productObj->originalPrice = 597;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 500;
+				$productObj->netRevenueEach = 449.95;
 				$productObj->googleProductName = "F4P-1YK";
 				$productObj->googleProductSku = "PID120";
 				$productObj->googleProductCategory = "3-PAY-597";
@@ -435,7 +435,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, FVSNACK";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -444,7 +444,7 @@ class Product {
 				$productObj->price = 97;
 				$productObj->originalPrice = 97;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 35;
+				$productObj->netRevenueEach = 33.26;
 				$productObj->googleProductName = "F4P-FVSK";
 				$productObj->googleProductSku = "PID128";
 				$productObj->googleProductCategory = "1-PAY-97";
@@ -498,7 +498,7 @@ class Product {
 				$productObj->mpsId = null; //used for MPS
 				$productObj->ffhId = 162; //used for FFH integration
 				$productObj->campaignId = 16;
-				$productObj->netRevenueEach = 615;
+				$productObj->netRevenueEach = 698.65;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 55;
 				$productObj->tags = "LL, ppg1500";
@@ -524,7 +524,7 @@ class Product {
 				$productObj->mpsId = null; //used for MPS
 				$productObj->ffhId = 162; //used for FFH integration
 				$productObj->campaignId = 16;
-				$productObj->netRevenueEach = 393;
+				$productObj->netRevenueEach = 506.37;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 55;
 				$productObj->tags = "LL, ppg1500pmt";
@@ -573,7 +573,7 @@ class Product {
 				$productObj->mpsId = null; //used for MPS
 				$productObj->ffhId = 164; //used for FFH integration
 				$productObj->campaignId = 16;
-				$productObj->netRevenueEach = 546;
+				$productObj->netRevenueEach = 540.63;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 56;
 				$productObj->tags = "LL, ppgDeluxe";
@@ -616,7 +616,7 @@ class Product {
 				$productObj->nextPage = "/checkout/thankyou.php";
 				$productObj->listId = 66;
 				$productObj->tags = "LL, COFFEE600";
-				$productObj->shippingIdDomestic = 5;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -625,7 +625,7 @@ class Product {
 				$productObj->price = 97;
 				$productObj->originalPrice = 97;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 44;
+				$productObj->netRevenueEach = 36.21;
 				$productObj->googleProductName = "F4P-C600";
 				$productObj->googleProductSku = "PID182";
 				$productObj->googleProductCategory = "1-PAY-97";
@@ -702,9 +702,9 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = null;
-				$productObj->tags = "LL, SUPERPAK";
-				$productObj->shippingIdDomestic = 26;
+				$productObj->listId = 35;
+				$productObj->tags = "LL, F4PSuperPak";
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -713,7 +713,7 @@ class Product {
 				$productObj->price = 397;
 				$productObj->originalPrice = 450;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 196;
+				$productObj->netRevenueEach = 195.66;
 				$productObj->googleProductName = "F4P-SUPERPAK";
 				$productObj->googleProductSku = "PID228";
 				$productObj->googleProductCategory = "1-PAY-397";
@@ -734,7 +734,7 @@ class Product {
 				$productObj->nextPage = "/checkout/protein/thankyou.php";
 				$productObj->listId = 35;
 				$productObj->tags = "LL, F4PMeatProteinKit";
-				$productObj->shippingIdDomestic = 7;
+				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 0;
 				$productObj->shippingCostInternational = 0;
@@ -743,7 +743,7 @@ class Product {
 				$productObj->price = 147;
 				$productObj->originalPrice = 147;
 				//GA Naming Wiki
-				$productObj->netRevenueEach = 60;
+				$productObj->netRevenueEach = 57.88;
 				$productObj->googleProductName = "F4P-PROTEIN";
 				$productObj->googleProductSku = "PID230";
 				$productObj->googleProductCategory = "1-PAY-147";
@@ -853,70 +853,6 @@ class Product {
 			 * End Of Alexapure Pro Product Data
 			 * ============================================ */
 
-			/*
-			 * ============================================
-			 * JV-55 1 Month - 2 Month - 3 Month Split
-			 * ============================================
-			 *
-			 * This product data supports JV-55 Split
-			 *
-			 * ============================================
-			*/
-			case 277: //main product - 1 Month Kit
-				$productObj->pmaSku = null;
-				$productObj->price = 197;
-				$productObj->originalPrice = 197;
-				$productObj->shippingIdDomestic = 7;
-				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = 0;
-				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 277;
-				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 116;
-				$productObj->taxable = TRUE;
-				$productObj->listId = 35;
-				$productObj->tags = "LL, 1MKIT";
-				$productObj->googleProductName = "F4P-1MK";
-				$productObj->googleProductSku = "PID277";
-				$productObj->googleProductCategory = "1-PAY-197";
-				$productObj->metaTitle = "Food4Patriots 1 Month Food Supply";
-				$productObj->metaDescription = "Food4Patriots 1 Month Food Supply";
-				$productObj->defaultQuantity = 1;
-				$productObj->defaultImage = "/media/images/f4p/f4p-4-week-kit-02.jpg";
-				$productObj->isBonus = FALSE;
-				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
-				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-3month-kit-discount-b.php";
-				break;
-			case 278: //main product - 2 Month Kit
-				$productObj->pmaSku = null;
-				$productObj->price = 397;
-				$productObj->originalPrice = 397;
-				$productObj->shippingIdDomestic = 7;
-				$productObj->shippingIdInternational = 6;
-				$productObj->shippingCostDomestic = 0;
-				$productObj->shippingCostInternational = 0;
-				$productObj->mpsId = 278;
-				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 244.55;
-				$productObj->taxable = TRUE;
-				$productObj->listId = 35;
-				$productObj->tags = "LL, 2MKIT";
-				$productObj->googleProductName = "F4P-2MK";
-				$productObj->googleProductSku = "PID278";
-				$productObj->googleProductCategory = "1-PAY-397";
-				$productObj->metaTitle = "Food4Patriots 2 Month Food Supply";
-				$productObj->metaDescription = "Food4Patriots 2 Month Food Supply";
-				$productObj->defaultQuantity = 1;
-				$productObj->defaultImage = "/media/images/f4p/f4p-2-month-kit-01.jpg";
-				$productObj->isBonus = FALSE;
-				$productObj->hasBonuses = FALSE; //set this to trigger any bonuses for this id
-				$productObj->bonusIds = array (0); //set this as a single integer in an array (1) or a string of integers (123,456)
-				$productObj->nextPage = "/checkout/oto/f4p-3month-kit-discount-b.php";
-				break;
-			/* ============================================
-			 * End Of 1M/2M Product Data
-			 * ============================================ */
 		}
 		return $productObj;
 	}
