@@ -78,6 +78,8 @@ if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "
 /*USES MOBILE DETECT TO REDIRECT*/
 require_once("MobileDetect.php");
 $detect = new Mobile_Detect;
+require_once("JavelinApi.php");
+$javelinApi = JV::load();
 
 if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile())) {
 	header('Location: /letter/index.php');
