@@ -82,7 +82,7 @@ if(!empty($customerDataObj->shippingCity)) {
 
 	<!-- Latest compiled and minified CSS. -->
 	<?php $assets->css(); ?>
-	<?php if ($page === "letter"): ?>
+	<?php if ($page === "letter" || $page == "video"): ?>
 		<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800' rel='stylesheet' type='text/css'>
 	<?php endif; ?>

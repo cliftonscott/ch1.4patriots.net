@@ -1,4 +1,4 @@
-<div class="container-main">
+
 	<style>
 		/* =============================================================================
 	   buttons
@@ -443,7 +443,3 @@
 			<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 		</div>
 	</div>
-</div>
-<?php
-include_once("template-bottom.php");
-?>
