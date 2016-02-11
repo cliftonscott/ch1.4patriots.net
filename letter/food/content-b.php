@@ -350,6 +350,23 @@
 	<p>It&rsquo;s hard to put a price on the peace of mind that a survival food stockpile gives you.</p>
 	<p>And I know every family is different and there's no one-size-fits-all survival food solution.</p>
 	<p>So I've put together a variety of Food4Patriots kits based on feeding an adult over a specific period of time. That way, <strong>you can pick the exact size that works best for you and your family</strong>. No need to buy more or less than you actually need, so nothing goes to waste.&nbsp;</p>
+	<p>Click the &ldquo;<strong><?php echo $buttonCTA; ?></strong>&rdquo; button to see the product options page.</p>
+	<?php if($page == "video"): ?>
+		<div class="text-center">
+			<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+			<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+			<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+			<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+			<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+		</div>
+	<?php else:?>
+		<div class="text-center">
+			<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
+			<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+			<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+			<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+		</div>
+	<?php endif?>
 	<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-3mokit-array-new.jpg" alt="">
 
