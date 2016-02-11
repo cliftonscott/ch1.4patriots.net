@@ -1,36 +1,4 @@
 <style>
-	p{
-		font-size: 16px;
-	}
-	ul li{
-		margin: 0 25px;
-		font-size: 16px;
-		list-style-type: none;
-	}
-	blockquote{
-		margin: 5px;
-	}
-	h1{
-		font-size: 36px;
-		font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
-		margin-top: 20px;
-		margin-bottom: 25px;
-		font-weight: 700;
-		line-height: 1.1;
-	}
-
-	h2 {
-		font-size: 30px;
-		font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
-		margin-top: 20px;
-		margin-bottom: 25px;
-		font-weight: 700;
-		line-height: 1.1;
-		color: inherit;
-	}
-	img{
-		margin-bottom: 10px;
-	}
 	.button.big{font-size: 39px; font-weight: 700; margin-bottom: 18px;}
 
 	.button,
@@ -352,7 +320,7 @@
 		</div>
 	</div>
 	<p>And here&rsquo;s survival expert Jeff Anderson from Modern Combat &amp; Survival Magazine&hellip;this guy really knows what he&rsquo;s talking about. See what Jeff likes most about Food4Patriots, in his own words:</p>
-	<iframe src="//fast.wistia.net/embed/iframe/sc1v9c9t2v" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="360"></iframe>
+	<iframe src="//fast.wistia.net/embed/iframe/agauk0y719" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="360"></iframe>
 	<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 	<p></p>
 	<p>The fact is, you get what you pay for and you can't expect this kind of quality to come cheap. But we found a way to make this work&hellip; <strong>and it&rsquo;s dead simple</strong>.</p>
