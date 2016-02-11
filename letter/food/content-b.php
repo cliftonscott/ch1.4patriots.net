@@ -1,3 +1,9 @@
+<?php if($page == "video"){
+	$buttonCTA = "Choose My Kit";
+}else{
+	$buttonCTA = "Claim Your Kit";
+}
+?>
 <style>
 	.button.big{font-size: 39px; font-weight: 700; margin-bottom: 18px;}
 
@@ -412,13 +418,23 @@
 	<p>When a food crisis strikes there are really two groups of people: the people who prepared, and the people who didn't. If you've read this far, my guess is you're someone who's going to prepare. But let me warn you - the rest of the world may very well be greedy for your stockpile. Especially now that we know that government wants to hoard these meals too.</p>
 	<p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
 	<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There're no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
-	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Claim Your Kit</strong>&rdquo; button below&nbsp;to get started.</p>
+	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong><?php echo $buttonCTA; ?></strong>&rdquo; button below&nbsp;to get started.</p>
+	<?php if($page == "video"): ?>
+	<div class="text-center">
+		<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+		<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+		<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+	</div>
+	<?php else:?>
 	<div class="text-center">
 		<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
 		<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
 		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
 		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 	</div>
+	<?php endif?>
 	<p>Now, bear with me for another few seconds and picture something in your mind because it&rsquo;s important.</p>
 	<p>Imagine that it's 9:07 a.m. and the "you know what" has just hit the fan. People are panicking. It's all over the radio and TV.</p>
 	<p>A news anchor comes on the TV screen and in a shaky voice says, "We are in a state of emergency. I repeat, we are now in a state of emergency."</p>
@@ -435,7 +451,16 @@
 	<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
 	<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
 	<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
-	<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;Claim Your Kit&rdquo; button below</strong>.</p>
+	<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;<?php echo $buttonCTA; ?>&rdquo; button below</strong>.</p>
+	<?php if($page == "video"): ?>
+	<div class="text-center">
+		<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+		<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+		<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+	</div>
+	<?php else:?>
 	<div class="text-center">
 		<h2 class="color-red large"><strong>Claim Your Kit Now</strong></h2>
 		<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
@@ -443,4 +468,5 @@
 		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
 		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 	</div>
+	<?php endif?>
 </div>
