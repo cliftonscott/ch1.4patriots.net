@@ -350,7 +350,6 @@
 	<p>It&rsquo;s hard to put a price on the peace of mind that a survival food stockpile gives you.</p>
 	<p>And I know every family is different and there's no one-size-fits-all survival food solution.</p>
 	<p>So I've put together a variety of Food4Patriots kits based on feeding an adult over a specific period of time. That way, <strong>you can pick the exact size that works best for you and your family</strong>. No need to buy more or less than you actually need, so nothing goes to waste.&nbsp;</p>
-	<p>Click the orange &ldquo;<strong>Choose My Kit</strong>&rdquo; button to see the product options page.</p>
 	<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-3mokit-array-new.jpg" alt="">
 
