@@ -121,7 +121,7 @@
 					<?php
 					}else {
 					?>
-						<iframe src="//fast.wistia.net/embed/iframe/voc8m0rg1a" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+						<iframe src="//fast.wistia.net/embed/iframe/qrlktwrpfl" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="361"></iframe>
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					}
@@ -143,6 +143,52 @@
 		</div>
 		
 		<div class="content" style="display: none;">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+			<style>
+				p{
+					font-size: 16px;
+				}
+				blockquote{
+					margin: 5px;
+				}
+				h1{
+					font-size: 36px;
+					font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+					margin-top: 20px;
+					margin-bottom: 25px;
+					font-weight: 700;
+					line-height: 1.1;
+				}
+
+				h2 {
+					font-size: 30px;
+					font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+					margin-top: 20px;
+					margin-bottom: 25px;
+					font-weight: 700;
+					line-height: 1.1;
+					color: inherit;
+				}
+				img{
+					margin-bottom: 10px;
+				}
+
+				/* =============================================================================
+			   Lists
+			   ========================================================================== */
+				ul {
+					list-style-image:none;
+				}
+
+				ul li{
+					margin: 0 25px;
+					font-size: 16px;
+				}
+
+				.fa-check {
+					color: #34C901;
+				}
+				</style>
 			<!--4.0 LETTER GOES HERE-->
 			<?php include("../letter/food/content-b.php"); ?>
 		</div>
