@@ -145,49 +145,49 @@
 		<div class="content" style="display: none;">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 			<style>
-				p{
-					font-size: 16px;
-				}
-				blockquote{
-					margin: 5px;
-				}
-				h1{
-					font-size: 36px;
-					font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
-					margin-top: 20px;
-					margin-bottom: 25px;
-					font-weight: 700;
-					line-height: 1.1;
-				}
+					p{
+						font-size: 16px;
+					}
+					blockquote{
+						margin: 5px;
+					}
+					h1{
+						font-size: 36px;
+						font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+						margin-top: 20px;
+						margin-bottom: 25px;
+						font-weight: 700;
+						line-height: 1.1;
+					}
 
-				h2 {
-					font-size: 30px;
-					font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
-					margin-top: 20px;
-					margin-bottom: 25px;
-					font-weight: 700;
-					line-height: 1.1;
-					color: inherit;
-				}
-				img{
-					margin-bottom: 10px;
-				}
+					h2 {
+						font-size: 30px;
+						font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+						margin-top: 20px;
+						margin-bottom: 25px;
+						font-weight: 700;
+						line-height: 1.1;
+						color: inherit;
+					}
+					img{
+						margin-bottom: 10px;
+					}
 
-				/* =============================================================================
-			   Lists
-			   ========================================================================== */
-				ul {
-					list-style-image:none;
-				}
+					/* =============================================================================
+				   Lists
+				   ========================================================================== */
+					ul {
+						list-style-image:none;
+					}
 
-				ul li{
-					margin: 0 25px;
-					font-size: 16px;
-				}
+					ul li{
+						margin: 0 25px;
+						font-size: 16px;
+					}
 
-				.fa-check {
-					color: #34C901;
-				}
+					.fa-check {
+						color: #34C901;
+					}
 				</style>
 			<!--4.0 LETTER GOES HERE-->
 			<?php include("../letter/food/content-b.php"); ?>
