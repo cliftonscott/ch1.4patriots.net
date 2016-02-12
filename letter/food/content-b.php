@@ -222,7 +222,7 @@
 	<p>He&rsquo;d much rather play &ldquo;rock star&rdquo; than get a job and earn a respectable living, like other hard-working Americans. It&rsquo;s losers like him that really get my blood boiling.</p>
 	<p>These are the kind of people that my Grandpa used to say &ldquo;always want something for nothing.&rdquo;</p>
 	<p>And our socialist-in-chief and the rest of the politicians are all too happy to provide it&hellip; because it keeps them and their kind in power, election after election. Just look at Obama and Hillary.</p>
-	<p>The government takes more and more from the have&rsquo;s, who have worked HARD for everything they earned&hellip; and gives to the have not&rsquo;s, most of whom are freeloaders who did NOTHING to earn it.</p>
+	<p>The government takes more and more from the haves, who have worked HARD for everything they earned&hellip; and gives to the have nots, most of whom are freeloaders who did NOTHING to earn it.</p>
 
 	<h2 class="darkRed text-center">It’s Not IF Disaster Strikes… It’s WHEN</h2>
 	<p>Which brings me to my next point. What do you think&rsquo;s going to happen when the &ldquo;you know what&rdquo; hits the industrial sized fan, and 47 million people, or 1/6 of the population, can&rsquo;t get their handouts? If a disaster hits and FEMA completely drops the ball (as usual!), <strong>it could spark riots and looting just like Katrina </strong>&ndash; except this time on an explosive, massive scale.</p>
