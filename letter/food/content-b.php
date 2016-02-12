@@ -504,7 +504,7 @@
 	<h2 class="darkRed text-center">I Can’t Make It Any Plainer Than This</h2>
 	<p>You&rsquo;re at a crossroads. You can either take action now and be able to feed your family no matter what happens, or you can rely on the government for help in a crisis.</p>
 	<p>Remember what Ronald Reagan once said&hellip; the 10 most terrifying words you&rsquo;ll ever hear are:</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" alt="">
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-f4p-disaster-02.jpg" alt="">
 	<p>&ldquo;I&rsquo;m from the government, and I&rsquo;m here to help you.&rdquo;</p>
 	<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 	<p>Be sure to make the right one.</p>
