@@ -40,10 +40,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div>
 		<p><?php echo $firstName;?>, congratulations for making the great decision to get the Food4Patriots basic survival kit.</p>
 		<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
-		<p>But before you move on, I've got a <strong>special 1-time offer</strong> for you... </p>
+		<p>But before you move on, I've got a <strong>special one-time offer</strong> for you... </p>
 		<p>A lot of folks have told me that while they love having the basic kit on hand, they know that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters.</p>
 		<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an <strong>exclusive</strong> <strong>$50.00 discount (that&rsquo;s 25% off) on the 4-week food supply kit</strong> <strong>if you act now</strong>. But this special sale offer is only for customers who have already purchased our Food4Patriots basic kit. If you&rsquo;re seeing this, then good news, you qualify!</p>
-		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
+		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a one-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 		<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
 <?php
 if($isUpgrade) {
@@ -90,7 +90,7 @@ if($isUpgrade) {
 		<p>That&rsquo;s $50.00 – a massive 25% savings – off the already-discounted price. </p>
 		<p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add the 4-Week Food4Patriots to your order today!</p>
 		<p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
-		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
+		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get the 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
 		<div>
 <?php
 if($isUpgrade) {
