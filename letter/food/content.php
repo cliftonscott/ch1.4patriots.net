@@ -573,7 +573,7 @@
 				<div class="block bg-blue bg-flag ">
 					<div class=" pad-30  ">
 						<img src="/media/images/f4p/letter/f4p-letter-section6-block1-img1.png" width="410" height="250" class="media right no-marg-bot absolute img-responsive">
-						<p><span class="titles3"><strong>Guarantee #1:</strong></span><strong>&nbsp; </strong>is a 100% money back guarantee, no questions asked. If for any reason you're not satisfied with your Food4Patriots Kit, just return it within 60 days of purchase and I'll refund 100% of your purchase price. If you try it and decide it's not as delicious and nutritious as I promised, you can have your money back for any reason or no reason whatsoever. That way there's absolutely no risk for you.</p>
+						<p><span class="titles3"><strong>Guarantee #1:</strong></span><strong>&nbsp; </strong>is a 100% money back guarantee, no questions asked. If for any reason you're not satisfied with your Food4Patriots Kit, just return it within 60 days of purchase and I'll refund 100% of your purchase price. If you try it and decide it's not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. That way there's absolutely no risk for you.</p>
 						<p><strong><span class="titles3">Guarantee #2:&nbsp;</span></strong>is an unheard of 300% money back guarantee. If you open your Food4Patriots meals anytime in the next 25 years and find your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will triple your money back!</p>
 						<p>Does that sound fair to you? That's how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it.</p>
 					</div>
