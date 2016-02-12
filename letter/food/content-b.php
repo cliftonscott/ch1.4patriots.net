@@ -415,7 +415,7 @@
 	<p>&nbsp;As you&rsquo;ve seen there&rsquo;s a lot involved in making survival food of this quality and that is guaranteed to last for 25 years.</p>
 
 	<h2 class="darkRed text-center">An Outrageous Guarantee You Won’t Find Anyplace Else – That’s How Serious I Am</h2>
-	<img class="img-responsive pull-left img-padding-right" width="270px" src="/media/images/f4p/letter/f4p-letter-guarantee-badge.svg" alt="">
+	<img class="img-responsive pull-left img-padding-right" width="270px" src="/media/images/f4p/letter/f4p-letter-guarantee-badge-blue.svg" alt="">
 	<p>I also believe that you should be 100% happy with your purchase or you shouldn&rsquo;t pay a penny&hellip;&nbsp;</p>
 	<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if, for any reason, you're not satisfied with your Food4Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price. That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
 	<p>One more thing... when you claim your Food4Patriots kit, you&rsquo;ll not only get food to feed your family in a disaster&hellip; you&rsquo;ll also get tremendous peace of mind just like our customer Jan explains:</p>
