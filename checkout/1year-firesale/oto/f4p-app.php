@@ -49,7 +49,7 @@ $funnelData = $productObj->initFunnel("OTO1");
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/

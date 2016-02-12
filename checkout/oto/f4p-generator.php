@@ -17,7 +17,7 @@ $maxQuantity = 1;
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO#3-2A-PPG-GEN");
 $declineUrl = $funnelData["declineUrl"];
 

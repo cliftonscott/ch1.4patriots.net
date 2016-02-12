@@ -16,7 +16,7 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 $_SESSION['3mDiscountSkip'] = TRUE; // Redirects If Already Offered 3 Month Discount
 include_once("Product.php");
 $productObj = new Product();
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 
 include_once("agile/template-top.php");
 

@@ -22,7 +22,7 @@ if($_SESSION['3mDiscountSkip'] === TRUE) {
 }
 include_once("Product.php");
 $productObj = new Product();
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 
 include_once("agile/template-top.php");
 

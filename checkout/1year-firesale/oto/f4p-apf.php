@@ -23,7 +23,7 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 include_once("Product.php");
 $productObj = new Product();
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("OTO2");
 
 /*

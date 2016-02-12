@@ -12,7 +12,7 @@ $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
 $productObj = new Product();
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
 //include template top AFTER the product information is set
