@@ -238,7 +238,7 @@
 						<p>These are the kind of people that my Grandpa used to say “always want something for nothing.”</p>
 						<p>And our socialist-in-chief and his minions are all too happy to provide it… because it keeps them and their kind in power, election after election.</p>
 						<p><strong>Which brings me to my next point...</strong></p>
-						<p>What do you think’s going to happen when the real crap hits the industrial-sized fan, and 47 million people, or one-sixth of the population, can’t get their handouts?</p>
+						<p>What do you think is going to happen when the real crap hits the industrial-sized fan, and 47 million people, or one-sixth of the population, can’t get their handouts?</p>
 						<div class="clear"></div>
 					</div>
 				</div>
