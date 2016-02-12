@@ -641,7 +641,7 @@
 					<div class="block-header">
 							<h2 class="dark-red">&quot;Look, You Have Come To A Fork In The Road And It's Entirely Up To You Which Way You Go.&quot;</h2>
 						<div class="section-description">
-							<img src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" width="240" height="333" class="media right" style="margin-bottom:10px;">
+							<img src="/media/images/f4p/letter/f4p-letter-f4p-disaster-02.jpg" width="240" height="333" class="media right" style="margin-bottom:10px;">
 							<p>Look, I can’t make it any plainer than this.</p>
 							<p>You’re at a crossroads. You can either take action NOW and be able to feed your family in a crisis, or you can be one of the hordes of helpless idiots clamoring for a crust of bread when everything collapses.</p>
 							<p><strong>One thing is clear… you’ve got to make a choice.</strong></p>
