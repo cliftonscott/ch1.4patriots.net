@@ -14,7 +14,7 @@ $_SESSION['productId'] = 22; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 include_once("agile/template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>

@@ -20,7 +20,7 @@ include_once("Product.php");
 include_once("agile/template-top.php");
 
 $productObj = new Product();
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO-1A-F4P-CHOOSE-4W-3M");
 $declineUrl = $funnelData["declineUrl"];
 
