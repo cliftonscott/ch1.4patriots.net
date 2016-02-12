@@ -139,7 +139,7 @@
 		<p><em>FEMA and the Department of Homeland Security demanded to know:</em></p>
 		<ul>
 			<li><strong><em>How much emergency food we can deliver immediately.</em></strong></li>
-			<li><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a quote "state of emergency" I don't think I want to answer this). </em></li>
+			<li><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a "state of emergency" I don't think I want to answer this). </em></li>
 			<li><strong><em>If we can ship dedicated truckloads</em></strong><em> (that means a truck heading straight for FEMA with nothing but survival food just for them) by the pallet, and how many pallets we could cram in each truck.</em><em>&nbsp;</em></li>
 		</ul>
 		<p><em>And the strangest question of all, if we worked like mad men, <strong>how much emergency food could we produce in 24 hours?</strong></em></p>
