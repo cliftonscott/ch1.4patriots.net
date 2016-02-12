@@ -398,7 +398,7 @@
 						<p><strong>Second, you get my guaranteed "disaster-proof" packaging.</strong></p>
 						<p>I may not have used "showy" packaging for expensive branding, but I did make sure it's military-grade sturdy stuff and can stand up to the crazy things that happen in a crisis.</p>
 						<p>This food has a shelf life of up to 25 years, so you have complete peace of mind for the long term.</p>
-						<img src="/media/images/f4p/letter/f4p-letter-food-packets.jpg" width="500" height="342" class="img-responsive center-block"/>
+						<img src="/media/images/f4p/letter/f4p-letter-food-packets-02.jpg" width="500" height="342" class="img-responsive center-block"/>
 						<p style="text-align: center;" class="caption">Meals as fresh as the day we package them… no matter when you need them.</p>
 						<p>I've used Mylar pouches, the same material used in NASA's space suits. This means you'll keep all the air, moisture, and light out of the package.</p>
 						<p>It'll also keep the food nutritionally sound and tasting great. So when you need your food stockpile it'll be guaranteed to be as fresh as the day you bought it.</p>
