@@ -259,7 +259,6 @@
 
 	<h2 class="darkRed text-center">But To Be Honest, We Were Worried That This Was Too Good To Be True. Was It Going To Cost An Arm And A Leg</h2>
 	<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket-02.jpg" alt="">
 	<p>First, we take <strong>100% non-GMO fruits and veggies as a starting point</strong>. Our food is made in America. Not assembled from Chinese imported ingredients. It&rsquo;s grown, harvested, and made from scratch here in the land of the free and home of the brave.</p>
 	<p>We source most of our raw ingredients from the &ldquo;fresh produce&rdquo; category &ndash; picture the delicious veggies you find in season at your local farmer&rsquo;s market. And we absolutely refuse to use anything from the &ldquo;rejected dry goods&rdquo; category that some competitors sneak in to lower their costs.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-grandpa-grandson.jpg" alt="">
