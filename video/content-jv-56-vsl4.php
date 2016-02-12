@@ -9,8 +9,8 @@
 			var seconds = 5;
 		} else {
 			var hours = 0;
-			var minutes = 27;
-			var seconds = 51;
+			var minutes = 33;
+			var seconds = 22;
 		}
 		<?php
 		//Conditionally changes the timer values
