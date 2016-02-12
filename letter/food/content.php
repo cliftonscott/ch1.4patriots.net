@@ -679,7 +679,7 @@
 		<footer id="footer" class="pull-up">
 			<div class="medium-size960 txt-center">
 				Information contained on Food4Patriots.com such as text, graphics, images and other materials are for educational use only.<br class="hidden-sm hidden-xs"> Although not guaranteed, every attempt has been made for accuracy.<br/></br>
-				Copyright © 2015 Food4Patriots.com — All rights reserved.
+				Copyright © <?php echo date("Y");?> Food4Patriots.com — All rights reserved.
 			</div>
 
 			<div class="black-opacity">
