@@ -577,7 +577,7 @@
 					<div class="block bg-white">
 						<div class="padding-no-top">
 							<h3 class="color-red pad-30 pad-60-t" style="text-align: center;">&quot;Confession: Survival Food This Good Won’t<br class="hidden-sm hidden-xs"> Always Be This Cheap&quot;</h3>
-							<p>But I've got a confession to make about this delicious food - it won't always be this cheap. In fact, imagine what will happen when you see the headlines,</p>
+							<p>But I've got a confession to make about this delicious food - it won't always be this cheap. In fact, imagine what will happen when you see the headlines.</p>
 							<p><strong><i>"Food prices skyrocketing. Grain shortage forces farms to close and cows starve."</i></strong></p>
 							<p>Since the Food4Patriots package is made from honest-to-goodness ingredients produced by farmers here in the U.S. of A., when a crisis hits it'll automatically skyrocket the prices of this kit.</p>
 							<p>Farms will shut down and their livestock will go hungry. Grain shortages will drive bread to $10, $25, even $100 per loaf.</p>
