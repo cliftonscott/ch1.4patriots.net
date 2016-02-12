@@ -109,7 +109,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-Month Supply Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
@@ -204,7 +204,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-Month Supply Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
