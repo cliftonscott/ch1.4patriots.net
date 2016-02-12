@@ -82,7 +82,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct(92);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>1 Week Food Supply - $67 <span class="gray13">($10/day)</span></div>
+											<div>1-Week Food Supply - $67 <span class="gray13">($10/day)</span></div>
 										</h4>
 									</div>
 								</a>
@@ -119,7 +119,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct(18);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+											<div>4-Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 										</h4>
 									</div>
 								</a>
@@ -157,7 +157,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>3 Month Food Supply - $497 <span class="gray13">($5/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+											<div>3-Month Food Supply - $497 <span class="gray13">($5/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
 										</h4>
 									</div>
 								</a>
