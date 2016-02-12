@@ -103,35 +103,6 @@ $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
 
-<script>
-/*
-	This is the countdown timer, used for the visual display of the 'clock'.
-	It uses a date object where the last three integers are hours, minutes, seconds.
-	When the timer reaches zero it clears the timer object and calls a function
-	to call the CSR Modal Window.
-
-	This timer requires a block object (div) with an id of 'countDownTimer'.
- */
-	var jsTimer = setInterval(function(){timerChange()},1000);
-
-	timerDateObj = new Date(2014, 01, 01, 12, 48, 00);51;
-
-	function timerChange() {
-		time = timerDateObj.getTime();
-		newTime = time - 1000;
-		timerDateObj.setTime(newTime);
-		m = timerDateObj.getMinutes();
-		s = timerDateObj.getSeconds();
-		if(s < 10) {
-			s = "0" + s;
-		}
-		$("#countDownTimer").html(m + ":" + s);
-		if(parseInt(s) + parseInt(m) == 0) {
-			clearInterval(jsTimer);
-			showCsrModal();
-		}
-	}
-</script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
 	// SPLIT JV-56 ALL DEVICES 2/12/16
