@@ -248,7 +248,7 @@
 	<p>So this is what I did&hellip;</p>
 
 	<h2 class="darkRed text-center">I Decided to Stop Worrying</h2>
-	<p>My partner Matt &amp; I put together our own survival food kit containing only cream-of-the-crop food designed to last for an amazing 25 years.&nbsp;</p>
+	<p>My partner Matt and I put together our own survival food kit containing only cream-of-the-crop food designed to last for an amazing 25 years.&nbsp;</p>
 	<p>That means foods scientifically engineered to last for over two decades, simple to prepare and conveniently packed in airtight containers that would be easy to conceal, move and store.</p>
 	<p>I wanted only the absolutely best tasting meals that provided the most nutrition for breakfast, lunch, and dinner and that were useful for the long haul.</p>
 	<img src="/media/images/f4p/letter/f4p-letter-3-mokit-new.jpg" width="100%" class="img-responsive center-block"  alt="Food4Patriots Kit"/>
