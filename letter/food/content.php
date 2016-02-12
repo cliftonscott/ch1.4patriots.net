@@ -226,7 +226,7 @@
 						<p>They don’t call him the “Food Stamp President” for nothing! Now, of course you and I were raised to help others in need.</p>
 						<p>The difference was, people had pride back then… they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
 						<p><i>Nowadays it’s an entirely different story.</i></p>
-						<p>We’ve all heard of “The Greatest Generation” (this was my Dad and his buddies), The Baby Boomers, Generation X, …but now, we have to contend with “Generation Entitlement.”</p>
+						<p>We’ve all heard of “The Greatest Generation” (this was my Dad and his buddies), The Baby Boomers, Generation X... but now, we have to contend with “Generation Entitlement.”</p>
 						<p>And folks, it really doesn’t have much to do with age. It’s a mindset.</p>
 						<p><strong>It’s the belief that the country owes you a living for just existing and breathing air.</strong></p>
 						<p>Just like that surfer that made the news in California, living it up on YOUR taxpayer dime, buying LOBSTER with his food stamp card and proud of the fact he’s a good-for-nothing bum! </p>
