@@ -189,7 +189,7 @@
 	<blockquote style="font-size: 16px;border: none">
 		<p><strong>Bitter cold or blistering heat</strong> from living in a tent with no insulation&hellip;&nbsp;</p>
 		<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-dumpster-diving.jpg" alt="">
-		<p><strong>Inadequate food</strong> - (think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only 3 days after the storm!)</p>
+		<p><strong>Inadequate food</strong> - (think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</p>
 		<p><strong>Crime</strong> - from robbery to assault to rape and worse. (Remember those first few days post-Katrina? Even the police were afraid to be out on the street!)</p>
 		<p><strong>The Feds refusing to let folks return to their homes or even leave. </strong>Imagine having FEMA agents in your personal business, watching your every move. It would feel like you&rsquo;re in prison&hellip; just for the crime of being unprepared! The media turned away, forbidden from filming inside the camps.</p>
 	</blockquote>
@@ -213,7 +213,7 @@
 	<h2 class="darkRed text-center">Total Anarchy When 47 Million Freeloaders Can’t Get Their Government Handouts</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-info-graph.jpg" alt="">
 	<p>Since 2008 when Obama took office, the number of Americans on the government dole has increased from around a little over 27 million to 47 million today &ndash; that&rsquo;s just about <strong>15% of the whole damn country</strong>! They don&rsquo;t call him the &ldquo;Food Stamp President&rdquo; for nothing!</p>
-	<p>Now, of course you and I were raised to help others in need. The difference was, people had pride back then&hellip;they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
+	<p>Now, of course you and I were raised to help others in need. The difference was, people had pride back then&hellip; they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
 	<p>Nowadays when you look at the younger generation, it&rsquo;s an entirely different story.</p>
 	<p>We&rsquo;ve all heard of &ldquo;The Greatest Generation&rdquo; (this was my Dad and his buddies), The Baby Boomers, Generation X&hellip; but now, we have to contend with &ldquo;Generation Entitlement&rdquo;.</p>
 	<p>And folks, it really doesn&rsquo;t have much to do with age. It&rsquo;s a mindset. It&rsquo;s the belief that <strong>the country owes you a living for just existing and breathing air</strong>.</p>
@@ -339,8 +339,6 @@
 	<div style="margin-top: -10px;margin-bottom: 20px"><img src="/media/images/f4p/f4p-testimonial-33.jpg" width="630" height="176" class="img-responsive center-block"/></div>
 	<p>But here's another important part: your kids won’t have to settle for smaller serving sizes. Some brands use kids’ meals to skimp on the amount of food they give you. With Food4Patriots, kids get a full adult-size portion without getting charged extra.</p>
 
-
-
 	<h2 class="darkRed text-center">Survival Food That Doesn’t Scream... ‘Here’s My Food, Come Take It</h2>
 	<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
@@ -461,7 +459,7 @@
 	<h2 class="darkRed text-center">An Outrageous Guarantee You Won’t Find Anyplace Else – That’s How Serious I Am</h2>
 	<img class="img-responsive pull-left img-padding-right" width="270px" src="/media/images/f4p/letter/f4p-letter-guarantee-badge-blue.svg" alt="">
 	<p>I also believe that you should be 100% happy with your purchase or you shouldn&rsquo;t pay a penny&hellip;&nbsp;</p>
-	<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if, for any reason, you're not satisfied with your Food4Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price. That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
+	<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here’s how it works: if for any reason you're not satisfied with your Food4Patriots Kit, just return it within 365 days (that’s a full year) of purchase and we'll refund 100% of your purchase price. That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
 	<p>One more thing... when you claim your Food4Patriots kit, you&rsquo;ll not only get food to feed your family in a disaster&hellip; you&rsquo;ll also get tremendous peace of mind just like our customer Jan explains:</p>
 	<img src="/media/images/f4p/f4p-testimonial-37.jpg" width="630" height="247" class="img-responsive center-block"/>
 	<p></p>
@@ -498,7 +496,7 @@
 	<p>Now, bear with me for another few seconds and picture something in your mind because it&rsquo;s important.</p>
 	<p>Imagine that it's 9:07 a.m. and the "you know what" has just hit the fan. People are panicking. It's all over the radio and TV.</p>
 	<p>A news anchor comes on the TV screen and in a shaky voice says, "We are in a state of emergency. I repeat, we are now in a state of emergency."</p>
-	<p>The 47 million freeloaders spoon-fed by big government are marching in the streets. There are rumors of looting. In fact there's a mob at your local grocery store. Like a swarm of locusts, the mob completely cleans out the store in less than 2 hours, leaving the shelves completely bare. Panic is spreading and it's quickly becoming every man for himself. You're safe at home with your family, thank goodness. But now your family is looking at you. "What's going to happen?" they ask. And then your spouse pulls you close and whispers in your ear, "What are we going to eat?"</p>
+	<p>The 47 million freeloaders spoon-fed by big government are marching in the streets. There are rumors of looting. In fact there's a mob at your local grocery store. Like a swarm of locusts, the mob completely cleans out the store in less than two hours, leaving the shelves completely bare. Panic is spreading and it's quickly becoming every man for himself. You're safe at home with your family, thank goodness. But now your family is looking at you. "What's going to happen?" they ask. And then your spouse pulls you close and whispers in your ear, "What are we going to eat?"</p>
 	<p>Get your Food4Patriots kit now and you&rsquo;ll NEVER have to worry about how you&rsquo;re going to answer that question. You&rsquo;ll calmly reassure them that they&rsquo;re safe and they will have plenty to eat. Because your food stockpile will be a source of comfort and strength in the storm. Just imagine how much better you&rsquo;ll feel.</p>
 
 	<h2 class="darkRed text-center">I Can’t Make It Any Plainer Than This</h2>
