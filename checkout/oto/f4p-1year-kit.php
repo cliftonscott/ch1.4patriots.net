@@ -324,5 +324,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 			</div>
 		</div>
+
 <?php
 include_once("template-bottom.php");
