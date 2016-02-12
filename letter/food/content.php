@@ -251,7 +251,7 @@
 						<p>It can be a crisis from crazy weather that produces monster storms...</p>
 						<p>A terrorist attack on our crumbling power grid...</p>
 						<p>Another outbreak of Ebola, this time causing a nationwide pandemic… (remember that even healthcare workers in hazmat suits got infected, folks!)</p>
-						<p>...or any other kind of hellish scenario.</p>
+						<p>... or any other kind of hellish scenario.</p>
 						<p>There’s no way to tell when it will hit. But it IS coming.</p>
 						<p>Heck, we’ve already seen a record amount of violence and looting this year… and we aren’t even in a full on crisis… YET!</p>
 						<div style="padding-bottom: 10px" ">
