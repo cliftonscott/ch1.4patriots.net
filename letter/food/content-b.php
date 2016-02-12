@@ -369,6 +369,8 @@
 	<?php endif?>
 	<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-3mokit-array-new.jpg" alt="">
+
+	<!--<h2 class="darkRed text-center">We Want to Know What You Think</h2>-->
 	<p>Just so you know what to expect, a few weeks after you order and receive your food kit, we&rsquo;ll politely ask you to please review your purchase. It&rsquo;s totally optional, we just really appreciate the feedback so we can make things better.</p>
 	<p>And to date we&rsquo;ve gotten 1,338 verified 4- and 5-star reviews back from customers. These are not anonymous, paid, fake reviews, folks. Only real Food4Patriots customers can review a food kit they purchased.&nbsp;</p>
 	<p>Here are a couple:</p>
