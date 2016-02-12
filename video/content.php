@@ -38,7 +38,7 @@
 			var seconds = 5;
 		} else {
 			var hours = 0;
-			var minutes = 27;
+			var minutes = 0;
 			var seconds = 51;
 		}
 		<?php
