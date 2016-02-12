@@ -139,7 +139,7 @@
 		<p><em>FEMA and the Department of Homeland Security demanded to know:</em></p>
 		<ul>
 			<li><strong><em>How much emergency food we can deliver immediately.</em></strong></li>
-			<li><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a quote "state of emergency" I don't think I want to answer this). </em></li>
+			<li><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a "state of emergency" I don't think I want to answer this). </em></li>
 			<li><strong><em>If we can ship dedicated truckloads</em></strong><em> (that means a truck heading straight for FEMA with nothing but survival food just for them) by the pallet, and how many pallets we could cram in each truck.</em><em>&nbsp;</em></li>
 		</ul>
 		<p><em>And the strangest question of all, if we worked like mad men, <strong>how much emergency food could we produce in 24 hours?</strong></em></p>
@@ -259,7 +259,6 @@
 
 	<h2 class="darkRed text-center">But To Be Honest, We Were Worried That This Was Too Good To Be True. Was It Going To Cost An Arm And A Leg</h2>
 	<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fvs-basket-02.jpg" alt="">
 	<p>First, we take <strong>100% non-GMO fruits and veggies as a starting point</strong>. Our food is made in America. Not assembled from Chinese imported ingredients. It&rsquo;s grown, harvested, and made from scratch here in the land of the free and home of the brave.</p>
 	<p>We source most of our raw ingredients from the &ldquo;fresh produce&rdquo; category &ndash; picture the delicious veggies you find in season at your local farmer&rsquo;s market. And we absolutely refuse to use anything from the &ldquo;rejected dry goods&rdquo; category that some competitors sneak in to lower their costs.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-grandpa-grandson.jpg" alt="">
@@ -345,7 +344,7 @@
 	<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy, waterproof and easy-to-stack.</p>
 	<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 	<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
-	<img src="/media/images/f4p/letter/f4p-checklist-graphic-JG-V6-1-min.jpg" width="100%" class="img-responsive center-block"/>
+	<img src="/media/images/f4p/letter/f4p-checklist-graphic-min.jpg" width="100%" class="img-responsive center-block"/>
 	<p></p>
 	<p><strong>Over the last 3 years, 160,064 customers have trusted Food4Patriots. </strong>And according to my numbers, 92% are happy with their purchase. Plus, nearly half of our customers come back to us to order more food at sometime in the future. I think these numbers show that folks are happy with the product.</p>
 	<p>And it&rsquo;s not just our customers who are praising Food4Patriots&hellip; celebrities and survival experts are recommending it as &ldquo;the perfect survival food solution.&rdquo; Look at what Glenn Beck, one of America&rsquo;s top talk radio hosts, thinks about this survival food that&rsquo;s in these kits:</p>
