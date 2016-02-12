@@ -131,7 +131,7 @@
 
 	<h2 class="darkRed text-center">But Here's Why This Fire Sale Could End in a Matter of Days</h2>
 	<p>First, Matt could run out of the raw ingredients needed to get these kits produced. I'd be shocked if FEMA stopped looking for suppliers just because we turned them down. And there are companies a whole lot bigger than us that can buy up all the ingredients.</p>
-	<p>Second, and I hope the government never gets to this point, part of me thinks that the government might have wanted to know how much food we've got in stock in case they ever decided to take it. The fact is they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat. All it would take is the president declaring a "state of emergency.&rdquo;</p>
+	<p>Second, and I hope the government never gets to this point, part of me thinks that the government might have wanted to know how much food we've got in stock in case they ever decided to take it. The fact is, they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat. All it would take is the president declaring a "state of emergency.&rdquo;</p>
 
 	<h2 class="darkRed text-center">With A Stroke Of Obama’s Pen, Food Confiscation Could Start… Tomorrow</h2>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-obama-01.jpg" alt="">

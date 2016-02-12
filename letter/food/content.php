@@ -147,7 +147,7 @@
 						<p>Second, and I hope the government never gets to this point, part of me thinks that FEMA might have wanted to know how much food we've got in stock in case they ever decided to take it!</p>
 
 						<h3 class="color-red pad-40-t pad-30-b">&quot;With A Stroke Of Obama’s Pen, Food Confiscation Could<br class="hidden-sm hidden-xs"> Start… Tomorrow!&quot;</h3>
-						<p>The fact is they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat.</p>
+						<p>The fact is, they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat.</p>
 						<p>All it would take is President Obama declaring a "state of emergency". </p>
 						<div class="media-contain right full-right text-center">
 							<img src="/media/images/f4p/letter/f4p-letter-obama-02.jpg" width="438" height="239" class="img-responsive">
