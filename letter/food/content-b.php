@@ -189,7 +189,7 @@
 	<blockquote style="font-size: 16px;border: none">
 		<p><strong>Bitter cold or blistering heat</strong> from living in a tent with no insulation&hellip;&nbsp;</p>
 		<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-dumpster-diving.jpg" alt="">
-		<p><strong>Inadequate food</strong> - (think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only 3 days after the storm!)</p>
+		<p><strong>Inadequate food</strong> - (think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</p>
 		<p><strong>Crime</strong> - from robbery to assault to rape and worse. (Remember those first few days post-Katrina? Even the police were afraid to be out on the street!)</p>
 		<p><strong>The Feds refusing to let folks return to their homes or even leave. </strong>Imagine having FEMA agents in your personal business, watching your every move. It would feel like you&rsquo;re in prison&hellip; just for the crime of being unprepared! The media turned away, forbidden from filming inside the camps.</p>
 	</blockquote>
