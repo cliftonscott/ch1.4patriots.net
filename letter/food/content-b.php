@@ -227,7 +227,7 @@
 	<p>Some manufacturers freeze-dry their food - which is hideously expensive for you - while others use the cheaper, rapid-dehydration method that sucks all the water out but also pulls nutrients and flavor with it.&nbsp;</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-mylar-packaging.jpg" alt="">
 	<p></p>
-	<p>Our meals are made with our unique <strong>"Low-Heat Dehydration"</strong>. This is a much slower and more painstaking technique&hellip; but it&rsquo;s worth it because the flavor and nutrition stay locked in and the food lasts every bit as long as freeze-dried without costing you a fortune.</p>
+	<p>Our meals are made with our unique <strong>"low-heat dehydration method"</strong>. This is a much slower and more painstaking technique&hellip; but it&rsquo;s worth it because the flavor and nutrition stay locked in and the food lasts every bit as long as freeze-dried without costing you a fortune.</p>
 	<p>Now here&rsquo;s more on the breakthrough technology that makes our meals last for 25 years&hellip;</p>
 	<p>We use re-sealable pouches made of space-age Mylar &ndash; the same material that&rsquo;s used in NASA space suits &ndash; to store your food in convenient servings.</p>
 	<p>This is the absolute best packaging material available. It&rsquo;s so strong it&rsquo;s used to protect astronauts in outer space, for Pete&rsquo;s sake!</p>
@@ -284,7 +284,7 @@
 
 	<h2 class="darkRed text-center">Mouthwatering Freshness And Taste... <br class="hidden-sm"> Even After 25 Years</h2>
 	<p>Also, thanks to our breakthrough manufacturing process, you know that your food is guaranteed to last for 25 years. Our packaging is military-grade sturdy stuff and can stand up to the crazy things that happen in a crisis. You&rsquo;ll have complete peace of mind for the long term.</p>
-	<p>Let me repeat: We use the special &ldquo;<strong>Low-Heat Dehydration Method</strong>&rdquo; to preserve your food&hellip; top-of-the-line Mylar pouches &ndash; the same material used in NASA's space suits &ndash; to keep all the air, moisture, and light out so it stays fresh&hellip; and a $150,000 machine to blast out any left-over oxygen with CO2. So when you need your food stockpile it'll be as fresh as the day you bought it.</p>
+	<p>Let me repeat: We use the special &ldquo;<strong>low-heat dehydration method</strong>&rdquo; to preserve your food&hellip; top-of-the-line Mylar pouches &ndash; the same material used in NASA's space suits &ndash; to keep all the air, moisture, and light out so it stays fresh&hellip; and a $150,000 machine to blast out any left-over oxygen with CO2. So when you need your food stockpile it'll be as fresh as the day you bought it.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-low-heat-dehydration.jpg" alt="">
 	<p>You really do get tremendous peace of mind and you will never have to worry about your food spoiling.</p>
 
