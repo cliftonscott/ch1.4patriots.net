@@ -520,6 +520,7 @@
 					</div>
 				</div>
 		</section>
+
 		<!-- start of section 3 -->
 		<section class="section">
 			<div class="section-inner">
