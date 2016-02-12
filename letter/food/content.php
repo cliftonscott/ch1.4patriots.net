@@ -305,7 +305,7 @@
 						<p>After putting it all together, I had to give myself a reality check. This was amazing! But was it going to cost an arm and a leg?</p>
 						<p><strong>The short answer was… no.</strong></p>
 						<img src="/media/images/f4p/letter/f4p-letter-food1.jpg" width="250" height="255"  class="media left" style="margin-bottom:10px;margin-top:5px">
-						<p>I’ll explain why in just a minute (the answer’s so simple you won’t believe it!).</p>
+						<p>I’ll explain why in just a minute (the answer is so simple you won’t believe it!).</p>
 						<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
 						<p><strong>First, we take 100% non-GMO</strong> fruits and veggies as a starting point. </p>
 						<p>Our food is <u>made in America.</u> Not assembled from Chinese imported ingredients. Grown, harvested, and made here in the land of the free and home of the brave.</p>
