@@ -127,7 +127,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-15.jpg" alt="Erik's Testimonial" style="margin-bottom:20px;">
 			</div>
 			<div>
-				<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
+				<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-year Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 				<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
 				<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 				<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
@@ -201,7 +201,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1-year Food4Patriots Kit to your order
 			today!</p>
 
-		<p>The 1-Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
+		<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
 			You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
 
 		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get your 1-year
