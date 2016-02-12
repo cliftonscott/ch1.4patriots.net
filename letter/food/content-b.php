@@ -277,7 +277,7 @@
 		<li><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
 		<li><i class="fa fa-check"></i> Blue Ribbon Cheesy Rice (My kids actually beg me to make this one all the time!)</li>
 		<li><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
-		<li><i class="fa fa-check"></i> Creamy Beef Stroganoff</li>
+		<li><i class="fa fa-check"></i> Creamy Stroganoff</li>
 	</ul>
 	<p>And just to prove we’re on the level about how good this food really tastes, we did a secret taste test with the folks over at The Blaze, one of the country’s most popular conservative news website.</p>
 	<p>They loved the taste. They had no idea they’d been eating survival food. In fact, they thought it had been a catered lunch!</p>

@@ -176,7 +176,7 @@ Anti-Hoarding Law Sparks Food Riots</h2>
 			<li>Granny&rsquo;s Home-style Potato Soup</li>
 			<li>Blue Ribbon Cheesy Rice (my kids actually beg me to make this one all the time!)</li>
 			<li>Ol&rsquo; 49ers Hearty Chili </li>
-			<li>Creamy Beef Stroganoff</li>
+			<li>Creamy Stroganoff</li>
 			<li>Frank&rsquo;s Five Star Minestrone (can you tell this is my favorite?) </li>
 		  </ul>
 		  <p>Now because you&rsquo;re one of the folks who took me up on my offer to send you a <strong>FREE</strong> sample of survival food to try, I wanted to give you the first crack at setting up a long term food stockpile just like mine while I still have some of the complete kits available.</p>

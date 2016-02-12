@@ -386,7 +386,7 @@
 							<li>Granny's Home Style Potato Soup</li>
 							<li>Blue Ribbon Creamy Chicken Rice (My kids actually beg me to make this one all the time!)</li>
 							<li>Heartland’s Best Mashed Potatoes</li>
-							<li>Creamy Beef Stroganoff</li>
+							<li>Creamy Stroganoff</li>
 						</ul>
 						<p>And just to prove we’re on the level about how great this food really tastes, we did a secret taste test with the good folks over at The Blaze, the world’s most popular conservative news website.</p>
 						<p>They loved the taste so much, they had no idea it was “survival food!”</p>

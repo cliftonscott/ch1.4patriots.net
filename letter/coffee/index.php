@@ -426,7 +426,7 @@ Setting Your Family Up To Starve…&quot;</h3>
 					  <li>Granny&rsquo;s Home-style Potato Soup</li>
 					  <li>Blue Ribbon Cheesy Chicken Rice (my kids actually beg me to make this one all the time!)</li>
 					  <li>Ol&rsquo; 49ers Hearty Chili </li>
-					  <li>Creamy Beef Stroganoff</li>
+					  <li>Creamy Stroganoff</li>
 					  <li>Frank&rsquo;s Five Star Minestrone (can you tell this is my favorite?)</li>
 					</ul>
 					<p>But I&rsquo;ve got a confession to make about this delicious food…  It won&rsquo;t always be this cheap.  In fact, imagine what will happen when you see the headlines: </p>
