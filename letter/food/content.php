@@ -233,7 +233,7 @@
 						<p>He’d much rather play “rock star” than get a job and earn a respectable living, like other hard-working Americans. It’s losers like him that really get my blood boiling. Just look at him!</p>
 						<div class="media-contain left full-left text-center">
 							<img src="/media/images/f4p/letter/f4p-letter-welfare-troll.jpg" width="422" height="237" class="img-responsive">
-							<div class="caption">This bum thinks you should foot his<br class="hidden-sm hidden-xs"> grocery bill…so he can play “rock star!”</div>
+							<div class="caption">This bum thinks you should foot his<br class="hidden-sm hidden-xs"> grocery bill... so he can play “rock star!”</div>
 						</div>
 						<p>These are the kind of people that my Grandpa used to say “always want something for nothing.”</p>
 						<p>And our socialist-in-chief and his minions are all too happy to provide it… because it keeps them and their kind in power, election after election.</p>
