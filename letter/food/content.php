@@ -171,7 +171,7 @@
 						<p>Things like:</p>
 						<ul style="margin-left: 20px">
 							<li>Bitter cold or blistering heat from living in a tent with no insulation...</li>
-							<li>Inadequate food… (just think about those New Yorkers dumpster diving for food after Superstorm Sandy...rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</li>
+							<li>Inadequate food… (just think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</li>
 							<li>Crime, from robbery to assault to rape and worse... (remember those first few days post-Katrina? Even the police were afraid to be out on the street!)</li>
 							<li>The Feds refusing to let folks return to their homes or even leave and FEMA agents in your personal business, watching your every move. It would feel like you’re in prison…just for the crime of being unprepared!</li>
 						</ul>
