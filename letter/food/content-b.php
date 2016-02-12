@@ -316,8 +316,8 @@
 	<p></p>
 	<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
 	<ul style="margin-left: 30px;list-style-type: none;">
-		<li><i class="fa fa-check"></i> Mountain Man Granola</li>
-		<li><i class="fa fa-check"></i> Apple Orchard Oatmeal</li>
+		<li><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
+		<li><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
 		<li><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
 		<li><i class="fa fa-check"></i> Blue Ribbon Cheesy Rice (My kids actually beg me to make this one all the time!)</li>
 		<li><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
@@ -345,7 +345,7 @@
 	<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy, waterproof and easy-to-stack.</p>
 	<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 	<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
-	<img src="/media/images/f4p/letter/f4p-letter-infograph.jpg" width="100%" class="img-responsive center-block"/>
+	<img src="/media/images/f4p/letter/f4p-checklist-graphic-JG-V6-1-min.jpg" width="100%" class="img-responsive center-block"/>
 	<p></p>
 	<p><strong>Over the last 3 years, 160,064 customers have trusted Food4Patriots. </strong>And according to my numbers, 92% are happy with their purchase. Plus, nearly half of our customers come back to us to order more food at sometime in the future. I think these numbers show that folks are happy with the product.</p>
 	<p>And it&rsquo;s not just our customers who are praising Food4Patriots&hellip; celebrities and survival experts are recommending it as &ldquo;the perfect survival food solution.&rdquo; Look at what Glenn Beck, one of America&rsquo;s top talk radio hosts, thinks about this survival food that&rsquo;s in these kits:</p>
@@ -367,7 +367,7 @@
 			</div>
 		</div>
 	</div>
-	<p>And here&rsquo;s survival expert Jeff Anderson from Modern Combat &amp; Survival Magazine&hellip;this guy really knows what he&rsquo;s talking about. See what Jeff likes most about Food4Patriots, in his own words:</p>
+	<p>And here&rsquo;s survival expert Jeff Anderson from Modern Combat &amp; Survival Magazine&hellip; this guy really knows what he&rsquo;s talking about. See what Jeff likes most about Food4Patriots, in his own words:</p>
 	<iframe src="//fast.wistia.net/embed/iframe/agauk0y719" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="360"></iframe>
 	<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 	<p></p>
