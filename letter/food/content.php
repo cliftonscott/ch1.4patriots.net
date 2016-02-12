@@ -553,7 +553,7 @@
 					<div>
 						<img src="/media/images/f4p/letter/f4p-letter-eBook-cut-grocery-bills-half.jpg" width="187" height="180" alt="Bonus 1"  class="media left img-responsive">
 						<div style="padding-top:0px;">
-							<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal…this goes a lot further than clipping coupons!</p>
+							<p><strong class="titles3">Free Bonus #4 - How to Cut Your Grocery Bills in Half:</strong> It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending, too. Well, it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal... this goes a lot further than clipping coupons!</p>
 						</div>
 						<div class="clearfix"></div>
 					</div>
