@@ -94,9 +94,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			tax = taxrate * subtot;
 			gtotal = tax + subtot;
 			if (taxrate != 0){
-				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the one-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 			}else {
-				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the 1-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE Shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 			}
 
 		}
@@ -129,7 +129,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-YEAR Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 				<p>Plus I'll throw in <strong>FREE Shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
-				<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-Year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get 1-year&rsquo;s worth of food for just $1.11 per serving!)</p>
+				<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 				<p class="text-center read-warning">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 			</div>
 		</div>
@@ -138,12 +138,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<?php include("f4p-1year-whatsincluded.html");?>
 	<div class="container oto-width">
 		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-Year Food4Patriots Kit when you upgrade today!</p>
-		<p>Because we're already going to be sending you a 3-month kit, we can add the 1-Year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots Kit when you upgrade today!</p>
+		<p>Because we're already going to be sending you a 3-month kit, we can add the 1-year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
 		<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
 
 		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
-		<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-Year Kit!</p>
+		<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-year Kit!</p>
 	</div>
 	<?php include("f4p-1year-bonus-survivalspring.html");?>
 	<?php include("f4p-1year-bonus-survivalbooks.html");?>
@@ -189,22 +189,22 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1-Year
 			Food4Patriots Kit For $1000.00 Off Right Now!</h2>
 
-		<p>Now I understand that the 1-Year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-Year Food4Patriots kit today for just $1,997.</p>
+		<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the 1st step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,997.</p>
 
 		<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 
-		<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including 4 of the super-popular Survival Spring Personal Water Filters and over
+		<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including four of the super-popular Survival Spring Personal Water Filters and over
 			22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 
-		<p>I was only able to secure a limited quantity of these 1-Year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
+		<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests,
 			so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours,
-			go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1-Year Food4Patriots Kit to your order
+			go ahead and click the big orange &ldquo;Click Here To Accept&rdquo; button below to add the 1-year Food4Patriots Kit to your order
 			today!</p>
 
 		<p>The 1-Year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come.
 			You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
 
-		<p><?php echo $firstName;?>, this is your last chance for this special 1-time discount, so you need to act now. To get your 1-Year
+		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get your 1-year
 			Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click Here To Accept&rdquo; button below.</p>
 
 		<div>
@@ -253,7 +253,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<input type="checkbox" id="check1" name="check1">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 						</div>
-						<div id="terms">I want to add the 1-Year Food4Patriots Kit to my order at the 1-time discount sale price of $1,997. <strong>I will get FREE Shipping and 27 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
+						<div id="terms">I want to add the 1-year Food4Patriots Kit to my order at the one-time discount sale price of $1,997. <strong>I will get FREE Shipping and 27 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
 						</div>
 					</div>
 					<div style="margin-top:20px;">
@@ -272,7 +272,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 // SPLIT JV-49 DESKTOP ONLY 12/21/15
 if (JV::in("49-modal")) { ?>
 			<div class="noThanks">
-				<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-Year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+				<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 			</div>
 
 			<script>
@@ -328,7 +328,7 @@ if (JV::in("49-modal")) { ?>
 			</div>
 <?php }else{ ?>
 			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-Year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 			</div>
 <?php } //END TEST?>
 
