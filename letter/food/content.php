@@ -155,7 +155,7 @@
 						</div>
 						<p>The actual term for this “legal confiscation” is the <strong>“National Defense Resources Preparedness Act.”</strong> All he needs is his phone and his pen and food confiscation could begin... tomorrow.</p>
 						<p>But the real thing that keeps me up most nights?  <i>It’s the way FEMA wanted to know how many meals we could ship out in 24 hours.</i></p>
-						<p>It makes me think they know something that we don't…and it could happen soon.</p>
+						<p>It makes me think they know something that we don't... and it could happen soon.</p>
 						<p>That brings us to the third reason this offer could grind to a halt. </p>
 						<p></p>
 
