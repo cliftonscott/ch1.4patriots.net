@@ -452,7 +452,7 @@
 						</div>
 						<p>The fact is, you get what you pay for and you can't expect this kind of quality to come cheap.</p>
 						<p>Now here's the problem: if you're like most people, you don't have that kind of cash lying around...</p>
-						<p><strong>But Matt and I found a way to make this work...</strong> and it’s dead simple. We buy in bulk</p>
+						<p><strong>But Matt and I found a way to make this work...</strong> and it’s dead simple. We buy in bulk.</p>
 						<p>Now just to give you some perspective, a bulk order costs tens of thousands of dollars and is a decade of food for my family of four. My first thought was...</p>
 						<p><strong>“We just don't need that much food.”</strong></p>
 						<p>But I figured if I could get this information out to people like you, you'd want to grab the same discount I got and would claim your own food package.</p>
