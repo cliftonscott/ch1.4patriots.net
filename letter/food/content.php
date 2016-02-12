@@ -84,7 +84,7 @@
 							<p>"Thanks Frank. Well, it was kind of crazy to get a letter from FEMA. I don't mean to sound paranoid, but FEMA is asking some questions that make me pretty nervous.</p>
 							<p>The FEMA and the Department of Homeland Security demanded to know</p>
 						<ul style="font-style: italic; padding-top: 15px; margin-left: 20px">
-							<li><strong>How much</strong> emergency food we can deliver immediately.</li>
+							<li><strong>How much</strong> emergency food we can deliver immediately</li>
 							<li><strong>How many</strong> food kits we&rsquo;ve got on hand...  (With the government&rsquo;s power to seize supplies in a  &ldquo;state of emergency&rdquo;, I don&rsquo;t think I want to answer this)</li>
 							<li><strong>If we can ship</strong> dedicated truckloads <em>(that means a truck heading straight for FEMA with nothing but survival food just for them)</em> by the pallet – and how many pallets we could cram in each truck</li>
 						</ul>
