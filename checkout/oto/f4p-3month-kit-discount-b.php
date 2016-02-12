@@ -83,7 +83,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="row">
 						<div class="col-sm-12 col-md-12">
 							<div class="pull-left hidden-xs" style="margin-right:25px;width:198px;">
-								<img src="/media/images/f4p/f4p-glen-beck-07.png" width="198" height="198" alt="Glen Beck Food4Patriots" />
+								<img src="/media/images/f4p/f4p-glen-beck-07.png" width="198" height="198" alt="Glenn Beck Food4Patriots" />
 								<div style="font-size: 13px;">
 									<div style="float:left;">
 										<audio id="beckAudioSrc" src="/media/audio/f4p-beck-testimonial-02.mp3" preload="auto">Your browser does not support HTML5 Audio</audio>

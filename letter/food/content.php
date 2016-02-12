@@ -431,12 +431,12 @@
 						<div style="margin-bottom: 10px"><img src="/media/images/f4p/letter/f4p-letter-infograph.jpg" width="643" height="342" class="img-responsive center-block"/></div>
 						<p style="text-align: center;" class="caption">Don’t make the mistake of stockpiling inferior products that are going<br class="hidden-sm hidden-xs"> to backfire and disappoint when you need them most.</p>
 						<p>And it’s not just our 106,321 customers who are praising Food4Patriots to the skies… celebrities and survival experts are recommending “the perfect survival food solution.”</p>
-						<p>Customers and experts agree: Food4Patriots really IS the perfect survival food solution! Even Glen Beck sings the praises of Food4Patriots survival food.</p>
+						<p>Customers and experts agree: Food4Patriots really IS the perfect survival food solution! Even Glenn Beck sings the praises of Food4Patriots survival food.</p>
 						<div class="johnson-box-01">
 							<div class="row">
 								<div class="col-sm-12 col-md-12">
 									<div class="pull-left hidden-xs" style="margin-right:25px;width:198px;">
-										<img src="/media/images/f4p/f4p-glen-beck-07.png" width="198" height="198" alt="Glen Beck Food4Patriots" />
+										<img src="/media/images/f4p/f4p-glen-beck-07.png" width="198" height="198" alt="Glenn Beck Food4Patriots" />
 										<div style="font-size: 13px;">
 											<div style="float:left;">
 												<audio id="beckAudioSrc" src="/media/audio/f4p-beck-testimonial-02.mp3" preload="auto">Your browser does not support HTML5 Audio</audio>
