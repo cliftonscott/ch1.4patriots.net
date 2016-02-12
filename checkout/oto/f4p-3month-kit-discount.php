@@ -39,7 +39,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 	<div class="container oto-width">
 		<div>
-		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Please Accept This $100 Discount On An Additional 3 Month Kit...&quot;</h1>
+		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Please Accept This $100 Discount On An Additional 3-month Kit...&quot;</h1>
 		</div>
 		<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-01.jpg" alt="3 Month Kit"/></div>
 		<div>

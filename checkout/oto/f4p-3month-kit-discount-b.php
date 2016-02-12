@@ -37,7 +37,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
+				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
 				<script type="text/javascript" src="https://reboot.evsuite.com/player/M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ=/?container=evp-DCCKOWHMRF"></script><div id="evp-DCCKOWHMRF" data-role="evp-video" data-evp-id="M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ="></div>
