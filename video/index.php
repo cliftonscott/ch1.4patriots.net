@@ -1,6 +1,5 @@
 <?php
 
-// SPLIT JV-38 11/20/15 //
 // Define the current page name.
 $page = "video";
 // END TEST //
@@ -76,18 +75,18 @@ if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "
 	$template["exitPopType"] = "video"; //designates that this should not have an exit pop of type video
 }
 
-/*SPLIT JV-38 11/20/15*/
+/*USES MOBILE DETECT TO REDIRECT*/
 require_once("MobileDetect.php");
 $detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
-/*USES MOBILE DETECT TO REDIRECT*/
-if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())) {
+if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile())) {
 	header('Location: /letter/index.php');
 	exit();
 };
-/*END TEST*/
+/*END MOBILE REDIRECT*/
+
 
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
@@ -96,10 +95,8 @@ include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-
-/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
 include_once("agile/template-top.php");
-/*END TEST*/
+
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
@@ -137,13 +134,9 @@ $platform->setCsrModalButtons("sample,video,letter");
 </script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-	// SPLIT JV-24 TABLET ONLY 10/19/15
-	if (JV::in("24-play")) {
-		include_once('content-jv-24.php'); /*TABLET SPLIT*/
-	}elseif((JV::in("48-hybrid")) && $vsl != "3f" && $vsl != "fs") {
-		include_once('content-jv-48-hybrid.php'); /* SPLIT JV-48 HYBRID 12/21/15 */
-	}elseif((JV::in("48-pmhybrid")) && $vsl != "3f" && $vsl != "fs") {
-		include_once('content-jv-48-pmhybrid.php'); /* SPLIT JV-48 PMHYBRID 12/21/15 */
+	// SPLIT JV-56 ALL DEVICES 2/12/16
+	if (JV::in("56-VSL4")) {
+		include_once('content-jv-56-vsl4.php'); /*JV-56 SPLIT*/
 	}else{
 		include_once('content.php'); /*CONTROL*/
 	};

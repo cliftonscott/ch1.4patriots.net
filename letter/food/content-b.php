@@ -1,7 +1,10 @@
+<?php if($page == "video"){
+	$buttonCTA = "Choose My Kit";
+}else{
+	$buttonCTA = "Claim Your Kit";
+}
+?>
 <style>
-	/* =============================================================================
-   buttons
-   ========================================================================== */
 	.button.big{font-size: 39px; font-weight: 700; margin-bottom: 18px;}
 
 	.button,
@@ -296,7 +299,7 @@
 
 	<h2 class="darkRed text-center">Survival Food That Doesn’t Scream... ‘Here’s My Food, Come Take It</h2>
 	<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt=""> 
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
 	<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy, waterproof and easy-to-stack.</p>
 	<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 	<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
@@ -323,7 +326,7 @@
 		</div>
 	</div>
 	<p>And here&rsquo;s survival expert Jeff Anderson from Modern Combat &amp; Survival Magazine&hellip;this guy really knows what he&rsquo;s talking about. See what Jeff likes most about Food4Patriots, in his own words:</p>
-	<iframe src="//fast.wistia.net/embed/iframe/sc1v9c9t2v" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="360"></iframe>
+	<iframe src="//fast.wistia.net/embed/iframe/agauk0y719" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="360"></iframe>
 	<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 	<p></p>
 	<p>The fact is, you get what you pay for and you can't expect this kind of quality to come cheap. But we found a way to make this work&hellip; <strong>and it&rsquo;s dead simple</strong>.</p>
@@ -339,7 +342,7 @@
 
 	<h2 class="darkRed text-center">Looters Scouring the Streets<br class="hidden-sm"> Looking for Victims</h2>
 	<p>When a crisis hits, stores will be hit by angry urban swarms demanding food and other supplies. Just think, people stampede for toys on sale on Black Friday at Walmart. When their children are starving because they didn't prepare and the government fails to bail them out, riots and roving mobs are almost certain.</p>
-	<img class="img-responsive center-block" width="100%" src="/media/images/f4p/letter/f4p-letter-looters-on-camera.jpg" alt=""> 
+	<img class="img-responsive center-block" width="100%" src="/media/images/f4p/letter/f4p-letter-looters-on-camera.jpg" alt="">
 	<p>Now that is a really scary thought.</p>
 
 	<h2 class="darkRed text-center">Food Stockpiles Shouldn’t Only<br class="hidden-sm"> Be For Well-Off Americans</h2>
@@ -347,7 +350,23 @@
 	<p>It&rsquo;s hard to put a price on the peace of mind that a survival food stockpile gives you.</p>
 	<p>And I know every family is different and there's no one-size-fits-all survival food solution.</p>
 	<p>So I've put together a variety of Food4Patriots kits based on feeding an adult over a specific period of time. That way, <strong>you can pick the exact size that works best for you and your family</strong>. No need to buy more or less than you actually need, so nothing goes to waste.&nbsp;</p>
-	<p>Click the orange &ldquo;<strong>Choose My Kit</strong>&rdquo; button to see the product options page.</p>
+	<p>Click the &ldquo;<strong><?php echo $buttonCTA; ?></strong>&rdquo; button to see the product options page.</p>
+	<?php if($page == "video"): ?>
+		<div class="text-center">
+			<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+			<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+			<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+			<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+			<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+		</div>
+	<?php else:?>
+		<div class="text-center">
+			<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
+			<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+			<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+			<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+		</div>
+	<?php endif?>
 	<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
 	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-3mokit-array-new.jpg" alt="">
 
@@ -362,7 +381,7 @@
 	<img src="/media/images/f4p/f4p-testimonial-35-v2.jpg" width="630" height="210" class="img-responsive center-block"/>
 	<p></p>
 	<p>It&rsquo;s not just our customer&rsquo;s reviews and testimonials we&rsquo;re proud of. We&rsquo;re also proud to give back to our country&rsquo;s veterans.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fisher-house.jpg" alt=""> 
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fisher-house.jpg" alt="">
 	<p>When you claim your Food4Patriots kit today, we will also <strong>donate a portion of the proceeds to Fisher House</strong>, the charity selected by our very own customers in a recent survey.</p>
 	<p>Our donations topped $20,000 by 2016, so you can feel good knowing that you&rsquo;re supporting our veterans while getting the peace of mind that comes from having a survival food stockpile.</p>
 
@@ -370,8 +389,8 @@
 	<p>So many folks are jumping on board with us to make sure their families don&rsquo;t go hungry in a crisis. So many, in fact, that we recently celebrated getting 13 million meals into the hands of American families who want to be prepared. WOW!</p>
 	<p>As you can see we&rsquo;re no fly-by-night operation. No sir.</p>
 	<p>Our office is located in Nashville, Tennessee and is just a few of miles from the famous Ryman Auditorium, home of the Grande Ole Opry.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-recent-csr-team.jpg" alt=""> 
-	<p style="margin-top: -20px">Here&rsquo;s a recent snapshot we took at the office here in Nashville so you can see we&rsquo;re real people &ndash; Americans &ndash; not some 800 number being routed over to some foreign basement call center in India or the Philippines, forced to talk with someone named &ldquo;Bob&rdquo; with an accent you can barely understand.&nbsp;</p>
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-recent-csr-team.jpg" alt="">
+	<p>Here&rsquo;s a recent snapshot we took at the office here in Nashville so you can see we&rsquo;re real people &ndash; Americans &ndash; not some 800 number being routed over to some foreign basement call center in India or the Philippines, forced to talk with someone named &ldquo;Bob&rdquo; with an accent you can barely understand.&nbsp;</p>
 	<p>With us, you&rsquo;ll only be dealing with Josh, Bonnie, Ray, Lisa and other good folks right here in the USA. People who own and have eaten Food4Patriots themselves and know the product inside out.</p>
 	<p>Now to help make this a complete no-brainer for you.</p>
 
@@ -408,20 +427,30 @@
 	<h2 class="darkRed text-center">You Have Come To A Fork In The Road And It’s Entirely Up To You Which Way You Go</h2>
 	<p>But if you're <strong>ready to take charge and look out for yourself and your family</strong>, then click on the button below. You'll be glad you did.</p>
 	<p>This is about peace of mind, knowing that you and your family are well protected in the case of man-made or natural disasters. Don't you deserve this?</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-stockpile-greed.jpg" alt=""> 
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-stockpile-greed.jpg" alt="">
 	<p>To get your Food4Patriots kit rushed to you at this special price, plus the four free bonus reports, just click the big button below.&nbsp;</p>
 	<p>Fair warning&hellip;</p>
 	<p>If you decide to claim your package, there is something you should know about. It's a danger I call &ldquo;25-Year Stockpile Greed&rdquo;.</p>
 	<p>When a food crisis strikes there are really two groups of people: the people who prepared, and the people who didn't. If you've read this far, my guess is you're someone who's going to prepare. But let me warn you - the rest of the world may very well be greedy for your stockpile. Especially now that we know that government wants to hoard these meals too.</p>
 	<p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
 	<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There're no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
-	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Claim Your Kit</strong>&rdquo; button below&nbsp;to get started.</p>
+	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong><?php echo $buttonCTA; ?></strong>&rdquo; button below&nbsp;to get started.</p>
+	<?php if($page == "video"): ?>
+	<div class="text-center">
+		<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+		<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+		<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+	</div>
+	<?php else:?>
 	<div class="text-center">
 		<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
 		<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
 		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
 		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 	</div>
+	<?php endif?>
 	<p>Now, bear with me for another few seconds and picture something in your mind because it&rsquo;s important.</p>
 	<p>Imagine that it's 9:07 a.m. and the "you know what" has just hit the fan. People are panicking. It's all over the radio and TV.</p>
 	<p>A news anchor comes on the TV screen and in a shaky voice says, "We are in a state of emergency. I repeat, we are now in a state of emergency."</p>
@@ -431,14 +460,23 @@
 	<h2 class="darkRed text-center">I Can’t Make It Any Plainer Than This</h2>
 	<p>You&rsquo;re at a crossroads. You can either take action now and be able to feed your family no matter what happens, or you can rely on the government for help in a crisis.</p>
 	<p>Remember what Ronald Reagan once said&hellip; the 10 most terrifying words you&rsquo;ll ever hear are:</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" alt=""> 
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" alt="">
 	<p>&ldquo;I&rsquo;m from the government, and I&rsquo;m here to help you.&rdquo;</p>
 	<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 	<p>Be sure to make the right one.</p>
 	<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
 	<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
 	<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
-	<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;Claim Your Kit&rdquo; button below</strong>.</p>
+	<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;<?php echo $buttonCTA; ?>&rdquo; button below</strong>.</p>
+	<?php if($page == "video"): ?>
+	<div class="text-center">
+		<a href="<?php echo $offerUrl; ?>"><button type="button-1" class="btn-1">Choose My Kit</button></a>
+		<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+		<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
+		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
+	</div>
+	<?php else:?>
 	<div class="text-center">
 		<h2 class="color-red large"><strong>Claim Your Kit Now</strong></h2>
 		<a href="<?php echo $offerUrl;?>" onClick="PreventExitSplash=true;" class="blue button big">Claim Your Kit</a><br>
@@ -446,4 +484,5 @@
 		<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
 		<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 	</div>
+	<?php endif?>
 </div>
