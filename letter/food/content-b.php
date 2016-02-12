@@ -213,7 +213,7 @@
 	<h2 class="darkRed text-center">Total Anarchy When 47 Million Freeloaders Can’t Get Their Government Handouts</h2>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-info-graph.jpg" alt="">
 	<p>Since 2008 when Obama took office, the number of Americans on the government dole has increased from around a little over 27 million to 47 million today &ndash; that&rsquo;s just about <strong>15% of the whole damn country</strong>! They don&rsquo;t call him the &ldquo;Food Stamp President&rdquo; for nothing!</p>
-	<p>Now, of course you and I were raised to help others in need. The difference was, people had pride back then&hellip;they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
+	<p>Now, of course you and I were raised to help others in need. The difference was, people had pride back then&hellip; they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
 	<p>Nowadays when you look at the younger generation, it&rsquo;s an entirely different story.</p>
 	<p>We&rsquo;ve all heard of &ldquo;The Greatest Generation&rdquo; (this was my Dad and his buddies), The Baby Boomers, Generation X&hellip; but now, we have to contend with &ldquo;Generation Entitlement&rdquo;.</p>
 	<p>And folks, it really doesn&rsquo;t have much to do with age. It&rsquo;s a mindset. It&rsquo;s the belief that <strong>the country owes you a living for just existing and breathing air</strong>.</p>
