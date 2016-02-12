@@ -316,8 +316,8 @@
 	<p></p>
 	<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
 	<ul style="margin-left: 30px;list-style-type: none;">
-		<li><i class="fa fa-check"></i> Mountain Man Granola</li>
-		<li><i class="fa fa-check"></i> Apple Orchard Oatmeal</li>
+		<li><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
+		<li><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
 		<li><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
 		<li><i class="fa fa-check"></i> Blue Ribbon Cheesy Rice (My kids actually beg me to make this one all the time!)</li>
 		<li><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
@@ -367,7 +367,7 @@
 			</div>
 		</div>
 	</div>
-	<p>And here&rsquo;s survival expert Jeff Anderson from Modern Combat &amp; Survival Magazine&hellip;this guy really knows what he&rsquo;s talking about. See what Jeff likes most about Food4Patriots, in his own words:</p>
+	<p>And here&rsquo;s survival expert Jeff Anderson from Modern Combat &amp; Survival Magazine&hellip; this guy really knows what he&rsquo;s talking about. See what Jeff likes most about Food4Patriots, in his own words:</p>
 	<iframe src="//fast.wistia.net/embed/iframe/agauk0y719" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="360"></iframe>
 	<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 	<p></p>
