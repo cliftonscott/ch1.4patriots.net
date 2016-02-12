@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/4patriots/secure.food4patriots.com#readme",
   "devDependencies": {
-    "gulp": "^3.9.0"
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.2"
   }
 }

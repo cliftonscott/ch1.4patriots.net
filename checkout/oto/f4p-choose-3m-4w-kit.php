@@ -16,7 +16,14 @@ $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
-include_once("template-top.php");
+
+include_once("agile/template-top.php");
+
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("F4P-OTO-1A-F4P-CHOOSE-4W-3M");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 
@@ -169,7 +176,7 @@ Anti-Hoarding Law Sparks Food Riots</h2>
 			<li>Granny&rsquo;s Home-style Potato Soup</li>
 			<li>Blue Ribbon Cheesy Rice (my kids actually beg me to make this one all the time!)</li>
 			<li>Ol&rsquo; 49ers Hearty Chili </li>
-			<li>Creamy Beef Stroganoff</li>
+			<li>Creamy Stroganoff</li>
 			<li>Frank&rsquo;s Five Star Minestrone (can you tell this is my favorite?) </li>
 		  </ul>
 		  <p>Now because you&rsquo;re one of the folks who took me up on my offer to send you a <strong>FREE</strong> sample of survival food to try, I wanted to give you the first crack at setting up a long term food stockpile just like mine while I still have some of the complete kits available.</p>
@@ -447,7 +454,7 @@ if($isUpgrade) {
 
 	<div>
 	  <div class="noThanks">
-		<a href="/checkout/oto/f4p-choose-3m-4w-kit-discount.php" onClick="">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+		<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 
 	</div>

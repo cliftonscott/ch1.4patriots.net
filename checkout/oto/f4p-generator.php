@@ -16,7 +16,10 @@ $maxQuantity = 1;
 
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("F4P-OTO#3-2A-PPG-GEN");
+$declineUrl = $funnelData["declineUrl"];
 
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
@@ -30,7 +33,7 @@ if($isLion) {
 		exit;
 	}
 }
-include_once("template-top.php");
+include_once("agile/template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script src="/js/audio.js"></script>
@@ -393,7 +396,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"/>
 						</div>
 
-						<div style="position:relative;margin 10 auto;">
+						<div style="position:relative;margin: 10px auto;">
 							<div style="float:left;margin-right:5px;">
 								<input type="checkbox" id="check2" name="check2">
 								<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
@@ -555,7 +558,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"/>
 					</div>
 
-					<div style="position:relative;margin 10 auto;">
+					<div style="position:relative;margin: 10px auto;">
 						<div style="float:left;margin-right:5px;">
 							<input type="checkbox" id="check3" name="check3">
 							<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
@@ -568,7 +571,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					}
 					?>
 				<div class="noThanks">
-					<a href="/checkout/oto/f4p-generator-payments.php">No Thanks</a> – I want to give up this opportunity.<br />I understand that I will not receive this special offer again.
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity.<br />I understand that I will not receive this special offer again.
 				</div>
 			</div>
 

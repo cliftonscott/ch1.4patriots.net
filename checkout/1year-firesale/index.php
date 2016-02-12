@@ -145,7 +145,7 @@ if($platformCountDownToDate) {
 					<div class="row">
 						<div class="col-sm-12 col-md-12">
 							<div class="pull-left hidden-xs" style="margin-right:25px;width:198px;">
-								<img src="/media/images/f4p/f4p-glen-beck-07.png" width="198" height="198" alt="Glen Beck Food4Patriots" />
+								<img src="/media/images/f4p/f4p-glen-beck-07.png" width="198" height="198" alt="Glenn Beck Food4Patriots" />
 								<div style="font-size: 13px;">
 									<div style="float:left;">
 										<audio id="beckAudioSrc" src="/media/audio/f4p-beck-testimonial-02.mp3" preload="auto">Your browser does not support HTML5 Audio</audio>
@@ -247,8 +247,8 @@ if($platformCountDownToDate) {
 							(80 servings)</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 col-md-4">
-						<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/beef-stroganoff.jpg"  alt="Creamy Beef Stroganoff">
-						<div class="caption"><span class="hidden-xs">Creamy</span> Beef Stroganoff<br>
+						<img class="img-responsive center-block thumbnail" src="/media/images/f4p/food/beef-stroganoff.jpg"  alt="Creamy Stroganoff">
+						<div class="caption"><span class="hidden-xs">Creamy</span> Stroganoff<br>
 							(64 servings)</div>
 					</div>
 					<div class="col-xs-6 col-sm-4 col-md-4">

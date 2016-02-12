@@ -22,7 +22,10 @@ $maxQuantity = 5;
 
 include_once("Product.php");
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
+
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>

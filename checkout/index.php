@@ -1,8 +1,6 @@
 <?php
-// SPLIT JV-38 11/20/15 //
 // Define the current page name.
 $page = "checkout";
-// END TEST //
 
 /*
  * use session soldout multidimensional array to indicate sold out conditions and associated
@@ -26,21 +24,26 @@ $_SESSION['productId'] = 19; //please keep as an integer
 $_SESSION['quantity'] = 1;
 include_once("Product.php");
 //creates a product object that is available from every template
-$productDataObj = Product::getProduct($_SESSION["productId"]);
-//include template top AFTER the product information is set
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+$funnelData = $productObj->initFunnel("checkout");
 
-/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
+//include template top AFTER the product information is set
 include_once("agile/template-top.php");
-/*END TEST*/
+
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 
-// SPLIT JV-55 DESKTOP ONLY 1/15/16
-if (JV::in("55-month")) {
-	include_once('index-jv-55.php');
-	exit;
-}
 ?>
+<style>
+	.navbar-phone {
+		font-size: 20px;
+		float: right;
+	}
+	.navbar-phone-contain {
+		height:28px;
+	}
+</style>
 <script>
 	/*
 	 This function works in parallel with the setStateTax() function found in the
@@ -63,7 +66,7 @@ if (JV::in("55-month")) {
 					<?php
 					if($_SESSION["soldout"]["flag"] !== true) {
 						?>
-						<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-02-1wk.mp3" preload="auto"></audio>
+						<audio id="frankCheckoutAudioSrc" src="/media/audio/f4p-checkout-audio-04-1wk.mp3" preload="auto"></audio>
 						<img id="frankCheckoutAudioControl" class="audioControl" style="float:left;" src="/assets/images/misc/speaker_off.gif" width="36" height="36" onclick="toggleAudio('frankCheckout');">
 						<div class="audio-message"><span class="hidden-xs">Now Playing:</span> Special Message From Frank</div>
 					<?php
@@ -79,76 +82,20 @@ if (JV::in("55-month")) {
 								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductOne" onclick="switchProduct(92);">
 									<div class="panel-heading">
 										<h4 class="panel-title">
-											<div>1 Week Food Supply - $67 <span class="gray13">($10/day)</span></div>
+											<div>1-Week Food Supply - $67 <span class="gray13">($10/day)</span></div>
 										</h4>
 									</div>
 								</a>
 								<div id="chooseProductOne" class="panel-collapse collapse">
 									<div class="panel-body">
-
-										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-01.jpg" width="530" height="356" class="img-responsive center-block"></a>
-										<div class="productList">
-											<p class="text-center red17"><strong>1 Week Food Supply Includes:</strong></p>
-											<ul>
-												<li>36 Servings <a href="#info" id="1wkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-												<li>10 Items Sold Out After Crisis Report</li>
-												<li>Water Survival Guide Report</li>
-												<li>How to Cut Your Grocery Bills Report</li>
-												<li>Survival Garden Guide Report</li>
-											</ul>
-										</div>
-
-									</div>
-								</div>
-							</div>
-							<div class="panel panel-default">
-								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct(18);">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<div>4 Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
-										</h4>
-									</div>
-								</a>
-								<div id="chooseProductTwo" class="panel-collapse collapse">
-									<div class="panel-body">
-
-										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-03.jpg" width="449" height="392" class="img-responsive center-block"></a>
-										<div class="productList">
-											<p class="text-center red17"><strong>4 Week Food Supply Includes:</strong></p>
-											<ul>
-												<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-												<li><strong>FREE</strong> Shipping</li>
-												<li>10 Items Sold Out After Crisis Report</li>
-												<li>Water Survival Guide Report</li>
-												<li>How to Cut Your Grocery Bills Report</li>
-												<li>Survival Garden Guide Report</li>
-											</ul>
-										</div>
-
-									</div>
-								</div>
-							</div>
-							<div id="initial" class="panel panel-default">
-								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
-									<div class="panel-heading">
-										<h4 class="panel-title">
-											<div>3 Month Food Supply - $497 <span class="gray13">($5/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
-										</h4>
-									</div>
-								</a>
-								<div id="chooseProductThree" class="panel-collapse collapse in">
-									<div class="panel-body">
-										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-08.jpg" width="530" height="356" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+														<p class="text-center red17"><strong>1 Week Supply Includes:</strong></p>
 														<ul>
-															<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li><strong>FREE</strong> Shipping</li>
-															<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>40 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 														</ul>
 													</div>
 												</div>
@@ -165,13 +112,91 @@ if (JV::in("55-month")) {
 												</div>
 											</div>
 										</div>
-										<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-default">
+								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductTwo" onclick="switchProduct(18);">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<div>4-Week Food Supply - $197 <span class="gray13">($7/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+										</h4>
+									</div>
+								</a>
+								<div id="chooseProductTwo" class="panel-collapse collapse">
+									<div class="panel-body">
+										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-05.jpg" width="449" height="392" class="img-responsive center-block"></a>
+										<div class="nopadding">
+											<div class="row">
+												<div class="col-sm-12 col-md-5 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>4 Week Supply Includes:</strong></p>
+														<ul>
+															<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>FREE Shipping</li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-7 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>FREE Digital Bonus Reports</strong></p>
+														<ul>
+															<li>10 Items Sold Out After Crisis</li>
+															<li>Water Survival Guide</li>
+															<li>How to Cut Your Grocery Bills</li>
+															<li>Survival Garden Guide</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="initial" class="panel panel-default">
+								<a data-toggle="collapse" data-parent="#accordion" href="#chooseProductThree" onclick="switchProduct(19);">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<div>3-Month Food Supply - $497 <span class="gray13">($5/day)</span><span class="label label-primary pull-right hidden-xs hidden-sm"><i class="fa fa-check"></i> FREE SHIPPING!</span></div>
+										</h4>
+									</div>
+								</a>
+								<div id="chooseProductThree" class="panel-collapse collapse in">
+									<div class="panel-body">
+										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-07.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<div class="nopadding">
+											<div class="row">
+												<div class="col-sm-12 col-md-5 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+														<ul>
+															<li>450 Servings <a href="#info" id="3mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>FREE Shipping</li>
+															<li>FREE Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>FREE Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-7 nopadding">
+													<div class="productList">
+														<p class="text-center red17"><strong>FREE Hardcopy <u>and</u> Digital<br class="hidden-sm"> Bonus Reports</strong></p>
+														<ul>
+															<li>10 Items Sold Out After Crisis</li>
+															<li>Water Survival Guide</li>
+															<li>How to Cut Your Grocery Bills</li>
+															<li>Survival Garden Guide</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!--<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>-->
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> <!--END CHOOSE PRODUCT ACCORDIAN-->
+				</div> <!-- END CHOOSE PRODUCT ACCORDIAN -->
 
 			</div>
 
@@ -199,6 +224,12 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 			<div class="col-sm-6 col-md-6"><a href="//fast.wistia.net/embed/iframe/yy5q5l29h0?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-11.jpg" width="448" height="236" alt="Testimonial"/></a>
 				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script></div>
 			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" width="448" height="236" alt="Testimonial" /></div>
+		</div>
+
+		<div class="guaranteeBox">
+			<p><strong>Your Purchase Is Backed By A 365-Day Money Back Guarantee!</strong></p>
+			<p>&nbsp;</p>
+			<p>We’re totally confident that your family will love Food4Patriots survival food. That’s why every order is protected by our ironclad 365-Day Money Back Guarantee. If for any reason — or for no reason at all — you are not 100% satisfied with your purchase, simply return it within the next year for a full refund of every penny you paid. No questions asked. There is ABSOLUTELY NO RISK to you.</p>			<div class="clearfix"></div>
 		</div>
 
 		<div class="guaranteeBox">
@@ -307,7 +338,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-02.jpg" width="800" height="412">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-week-kit-03.jpg" width="800" height="412">
 			</div>
 		</div>
 	</div>
@@ -315,7 +346,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal2();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-04.jpg" width="750" height="500">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-06.jpg" width="750" height="500">
 			</div>
 		</div>
 	</div>
@@ -323,7 +354,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal3();"></div>
-				<img class="img-responsive center-block" src="/media/images/f4p/f4p-3-month-kit-04.jpg" width="800" height="614">
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-3-month-kit-06.jpg" width="800" height="614">
 			</div>
 		</div>
 	</div>

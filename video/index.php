@@ -1,6 +1,5 @@
 <?php
 
-// SPLIT JV-38 11/20/15 //
 // Define the current page name.
 $page = "video";
 // END TEST //
@@ -76,18 +75,18 @@ if($variation !== "np" & $variation !== "np-nologo" & $vsl !== "fs" & $vsl !== "
 	$template["exitPopType"] = "video"; //designates that this should not have an exit pop of type video
 }
 
-/*SPLIT JV-38 11/20/15*/
+/*USES MOBILE DETECT TO REDIRECT*/
 require_once("MobileDetect.php");
 $detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
-/*USES MOBILE DETECT TO REDIRECT*/
-if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile() && !$detect->isTablet())) {
+if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile())) {
 	header('Location: /letter/index.php');
 	exit();
 };
-/*END TEST*/
+/*END MOBILE REDIRECT*/
+
 
 // SET PRODUCT ID
 $_SESSION['productId'] = 162; //please keep as an integer
@@ -96,54 +95,19 @@ include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-
-/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
 include_once("agile/template-top.php");
-/*END TEST*/
+
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
 
-<script>
-/*
-	This is the countdown timer, used for the visual display of the 'clock'.
-	It uses a date object where the last three integers are hours, minutes, seconds.
-	When the timer reaches zero it clears the timer object and calls a function
-	to call the CSR Modal Window.
-
-	This timer requires a block object (div) with an id of 'countDownTimer'.
- */
-	var jsTimer = setInterval(function(){timerChange()},1000);
-
-	timerDateObj = new Date(2014, 01, 01, 12, 48, 00);51;
-
-	function timerChange() {
-		time = timerDateObj.getTime();
-		newTime = time - 1000;
-		timerDateObj.setTime(newTime);
-		m = timerDateObj.getMinutes();
-		s = timerDateObj.getSeconds();
-		if(s < 10) {
-			s = "0" + s;
-		}
-		$("#countDownTimer").html(m + ":" + s);
-		if(parseInt(s) + parseInt(m) == 0) {
-			clearInterval(jsTimer);
-			showCsrModal();
-		}
-	}
-</script>
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-	// SPLIT JV-24 TABLET ONLY 10/19/15
-	if (JV::in("24-play")) {
-		include_once('content-jv-24.php'); /*TABLET SPLIT*/
-	}elseif((JV::in("48-hybrid")) && $vsl != "3f" && $vsl != "fs") {
-		include_once('content-jv-48-hybrid.php'); /* SPLIT JV-48 HYBRID 12/21/15 */
-	}elseif((JV::in("48-pmhybrid")) && $vsl != "3f" && $vsl != "fs") {
-		include_once('content-jv-48-pmhybrid.php'); /* SPLIT JV-48 PMHYBRID 12/21/15 */
+	// SPLIT JV-56 ALL DEVICES 2/12/16
+	if (JV::in("56-vsl4")) {
+		include_once('content-jv-56-vsl4.php'); /*JV-56 SPLIT*/
 	}else{
 		include_once('content.php'); /*CONTROL*/
 	};

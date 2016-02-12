@@ -58,7 +58,7 @@ class AssetManager {
 	public function serveJS()
 	{
 		if ($this->isProduction()) {
-			$this->serveScript(self::JS_PRODUCTION_FILE);
+			$this->serveScript("scripts-" . $this->page);
 
 		} else {
 			foreach (scandir($this->jsBaseUrl) as $file) {
@@ -192,9 +192,16 @@ class AssetManager {
 
 	private function resolveEnvironment()
 	{
-		if (getenv('APP_ENV') === 'production' || getenv('APP_ENV') === 'stage' || isset($_GET["fakeProd"])) {
+		if (isset($_GET["fakeProd"]) && $_GET["fakeProd"] === "0") {
+			$_SESSION["fakeProd"] = false;
+			return false;
+		}
+
+		if (getenv('APP_ENV') === 'production' || getenv('APP_ENV') === 'stage' || isset($_GET["fakeProd"]) || $_SESSION["fakeProd"]) {
+			$_SESSION["fakeProd"] = true;
 			return true;
 		}
+
 		return false;
 	}
 
@@ -205,11 +212,11 @@ class AssetManager {
 //		$base .= "/agile/";
 
 		if ($this->isProduction()) {
-			$this->cssBaseUrl = $base . "../assets/css/prod/";
-			$this->jsBaseUrl = $base . "agile/js/prod/";
+			$this->cssBaseUrl = $base . "/assets/css/prod/";
+			$this->jsBaseUrl = $base . "/assets/js/prod/";
 		} else {
-			$this->cssBaseUrl = $base . "../assets/css/agile/";
-			$this->jsBaseUrl = $base . "agile/js/";
+			$this->cssBaseUrl = $base . "/assets/css/agile/";
+			$this->jsBaseUrl = $base . "/assets/js/";
 		}
 
 		/*if ($this->page == "video") {

@@ -21,8 +21,14 @@ if($_SESSION['3mDiscountSkip'] === TRUE) {
 	header("Location: /checkout/thankyou.php");
 }
 include_once("Product.php");
-$productDataObj = Product::getProduct($_SESSION["productId"]);
-include_once("template-top.php");
+$productObj = new Product();
+$productDataObj = $productObj->getProduct($_SESSION["productId"]);
+
+include_once("agile/template-top.php");
+
+$funnelData = $productObj->initFunnel("F4P-OTO#3-3D-F4P-3MO");
+$declineUrl = $funnelData["declineUrl"];
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <div class="container-main">
@@ -33,15 +39,15 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 	<div class="container oto-width">
 		<div>
-		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Please Accept This $100 Discount On An Additional 3 Month Kit...&quot;</h1>
+		  <h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Please Accept This $100 Discount On An Additional 3-month Kit...&quot;</h1>
 		</div>
 		<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-01.jpg" alt="3 Month Kit"/></div>
 		<div>
-			<p><?php echo $firstName;?>, one more thing... The folks in our warehouse have reserved your 3-Month Food4Patriot kit and are already busy getting it ready to ship to you.</p>
-			<p>I understand a 1-Year Kit may be too much for you right now, so how about one more 3 Month Kit for $100.00 off?</p>
-			<p>We can offer you this special 1-time offer because the folks in our warehouse are already busy getting your order ready for shipment and it's easy for them to add another 3-Month kit to your package.</p>
-			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an exclusive $100.00 discount on another 3-Month Food4Patriots Kit if you act now. That drops the price to only $397 (plus you'll get Free Shipping plus all the other Free bonuses included with the 3 Month Kit).</p>
-			<p><?php echo $firstName;?>, please accept this opportunity to get an additional 3-Month Food4Patriots Kit for only $397 and save $100 today.          Just click on the big orange "Click To Accept" button below.</p>
+			<p><?php echo $firstName;?>, one more thing... The folks in our warehouse have reserved your 3-month Food4Patriot kit and are already busy getting it ready to ship to you.</p>
+			<p>I understand a 1-Year Kit may be too much for you right now, so how about one more 3-month Kit for $100.00 off?</p>
+			<p>We can offer you this special one-time offer because the folks in our warehouse are already busy getting your order ready for shipment and it's easy for them to add another 3-month kit to your package.</p>
+			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an exclusive $100.00 discount on another 3-month Food4Patriots Kit if you act now. That drops the price to only $397 (plus you'll get Free Shipping plus all the other Free bonuses included with the 3-month Kit).</p>
+			<p><?php echo $firstName;?>, please accept this opportunity to get an additional 3-month Food4Patriots Kit for only $397 and save $100 today. Just click on the big orange "Click To Accept" button below.</p>
 		</div>
 		<div>
 
@@ -62,7 +68,7 @@ if($isUpgrade) {
 ?>
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 			<div class="noThanks">
-				<a href="/checkout/thankyou.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>
 	</div>
