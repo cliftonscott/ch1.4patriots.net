@@ -95,7 +95,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 													<div class="productList">
 														<p class="text-center red17"><strong>1 Week Supply Includes:</strong></p>
 														<ul>
-															<li>36 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li>40 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 														</ul>
 													</div>
 												</div>
