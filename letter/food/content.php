@@ -99,7 +99,7 @@
 					<div class="dots-snake">
 						<div class="dots-img">1</div>
 					</div>
-						<h3 class="color-red pad-30-b" style="text-align: right;">&quot;You Should Know That FEMA Won’t Get <br>1 Single Emergency Food Kit From Us.&quot;</h3>
+						<h3 class="color-red pad-30-b" style="text-align: right;">&quot;You Should Know That FEMA Won’t Get <br>One Single Emergency Food Kit From Us.&quot;</h3>
 						<img style="" src="/media/images/f4p/letter/f4p-letter-section1-block2-img2.png" width="423" height="472" class="media-contain left img-responsive">
 						<p>This is truly an urgent situation, but don't worry - you should know that <strong>FEMA and Homeland Security won't get one single emergency food kit from us.</strong></p>
 						<p>Why?</p>
