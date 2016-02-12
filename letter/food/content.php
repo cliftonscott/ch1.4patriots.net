@@ -468,7 +468,7 @@
 						<p>Farms will shut down and their livestock will go hungry. Grain shortages will drive bread to $10, $25, even $100 per loaf.</p>
 						<h3 class="color-red pad-30" style="text-align: center;">&quot;Looters Scouring the Streets Looking for Victims...&quot;</h3>
 						<p>When a crisis hits, stores will be hit by angry urban swarms demanding food and other supplies.</p>
-						<p>Just think, people stampede for toys on sale on Black Friday at Wal-Mart. When they and their children are starving because they didn't prepare, riots and roving mobs are almost certain.</p>
+						<p>Just think, people stampede for toys on sale on Black Friday at Walmart. When they and their children are starving because they didn't prepare, riots and roving mobs are almost certain.</p>
 						<div style="margin-bottom: 10px"><img src="/media/images/f4p/letter/f4p-letter-mob.jpg" width="422" height="235" class="img-responsive center-block"/></div>
 						<p style="text-align: center;" class="caption">Desperate mobs will troll neighborhoods… looking to steal your food!</p>
 						<p>Get the picture?</p>

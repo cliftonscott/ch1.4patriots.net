@@ -445,7 +445,7 @@ Setting Your Family Up To Starve…&quot;</h3>
 					  <p>Since the Food4Patriots package is made from honest-to-goodness ingredients produced by farmers here in the US of A, when a crisis hits it&rsquo;ll automatically skyrocket the prices of this kit.</p>
 					<p>Farms will shut down and their livestock will go hungry.</p>
 					<p>Grain shortages will drive bread to $10, $25, even $100 per loaf. Heck in Germany after World War One, a loaf of bread cost 3 BILLION marks…</p>
-					<p>And stores will be hit by angry urban mobs. Just think, people stampede for toys on sale at Wal-Mart. When they and their children are starving because they didn&rsquo;t prepare… <strong>mobs are almost certain. </strong>Are you following this?</p>
+					<p>And stores will be hit by angry urban mobs. Just think, people stampede for toys on sale at Walmart. When they and their children are starving because they didn&rsquo;t prepare… <strong>mobs are almost certain. </strong>Are you following this?</p>
 					<p>Now the last thing I want happening is someone to give up their chance to claim their Food4Patriots package because they couldn&rsquo;t afford it.</p>
 							<span class="more">The fact is… <span class="dots-down"></span></span>
 
