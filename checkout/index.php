@@ -163,7 +163,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductThree" class="panel-collapse collapse in">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-05.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-07.jpg" width="530" height="491" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
