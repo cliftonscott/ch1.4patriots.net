@@ -222,10 +222,10 @@
 	<p>He&rsquo;d much rather play &ldquo;rock star&rdquo; than get a job and earn a respectable living, like other hard-working Americans. It&rsquo;s losers like him that really get my blood boiling.</p>
 	<p>These are the kind of people that my Grandpa used to say &ldquo;always want something for nothing.&rdquo;</p>
 	<p>And our socialist-in-chief and the rest of the politicians are all too happy to provide it&hellip; because it keeps them and their kind in power, election after election. Just look at Obama and Hillary.</p>
-	<p>The government takes more and more from the have&rsquo;s, who have worked HARD for everything they earned&hellip; and gives to the have not&rsquo;s, most of whom are freeloaders who did NOTHING to earn it.</p>
+	<p>The government takes more and more from the haves, who have worked HARD for everything they earned&hellip; and gives to the have nots, most of whom are freeloaders who did NOTHING to earn it.</p>
 
 	<h2 class="darkRed text-center">It’s Not IF Disaster Strikes… It’s WHEN</h2>
-	<p>Which brings me to my next point. What do you think&rsquo;s going to happen when the &ldquo;you know what&rdquo; hits the industrial sized fan, and 47 million people, or 1/6 of the population, can&rsquo;t get their handouts? If a disaster hits and FEMA completely drops the ball (as usual!), <strong>it could spark riots and looting just like Katrina </strong>&ndash; except this time on an explosive, massive scale.</p>
+	<p>Which brings me to my next point. What do you think&rsquo;s going to happen when the &ldquo;you know what&rdquo; hits the industrial sized fan, and 47 million people, or &#8537; of the population, can&rsquo;t get their handouts? If a disaster hits and FEMA completely drops the ball (as usual!), <strong>it could spark riots and looting just like Katrina </strong>&ndash; except this time on an explosive, massive scale.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-powerline-bent.jpg" alt="">
 	<p>It can be a crisis from crazy weather that produces monster storms&hellip;</p>
 	<p>An ISIS terrorist attack on our crumbling power grid as predicted by news anchor Ted Koppel in his book <em>Lights Out</em>&hellip;</p>
@@ -263,7 +263,7 @@
 	<p>First, we take <strong>100% non-GMO fruits and veggies as a starting point</strong>. Our food is made in America. Not assembled from Chinese imported ingredients. It&rsquo;s grown, harvested, and made from scratch here in the land of the free and home of the brave.</p>
 	<p>We source most of our raw ingredients from the &ldquo;fresh produce&rdquo; category &ndash; picture the delicious veggies you find in season at your local farmer&rsquo;s market. And we absolutely refuse to use anything from the &ldquo;rejected dry goods&rdquo; category that some competitors sneak in to lower their costs.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-grandpa-grandson.jpg" alt="">
-	<p>We work with a family-owned co-packing facility located in Utah. They folks have over <strong>40 years of experience</strong> in the food business, they hold numerous USDA, FDA and GMP manufacturing certifications, and they are also one of the only Level 2 SQF (that &rsquo;s the Safe Quality Food Institute) certified emergency food companies in the country.</p>
+	<p>We work with a family-owned co-packing facility located in Utah. They folks have over <strong>40 years of experience</strong> in the food business, they hold numerous USDA, FDA and GMP manufacturing certifications, and they are also one of the only Level 2 SQF (that&rsquo;s the Safe Quality Food Institute) certified emergency food companies in the country.</p>
 	<p>These hard-working folks are experts in their field&hellip; nutritionists, chefs, engineers, packers and quality control inspectors. You&rsquo;ll meet some of our people and learn more about our unique manufacturing process in just a bit.</p>
 	<p>Next, we combine our top-quality ingredients using prize-winning recipes. In fact, many of our recipes have won independent taste tests.</p>
 
@@ -343,7 +343,7 @@
 
 	<h2 class="darkRed text-center">Survival Food That Doesn’t Scream... ‘Here’s My Food, Come Take It</h2>
 	<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
+	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
 	<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy, waterproof and easy-to-stack.</p>
 	<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 	<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
@@ -504,7 +504,7 @@
 	<h2 class="darkRed text-center">I Can’t Make It Any Plainer Than This</h2>
 	<p>You&rsquo;re at a crossroads. You can either take action now and be able to feed your family no matter what happens, or you can rely on the government for help in a crisis.</p>
 	<p>Remember what Ronald Reagan once said&hellip; the 10 most terrifying words you&rsquo;ll ever hear are:</p>
-	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-f4p-disasters.jpg" alt="">
+	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-f4p-disaster-02.jpg" alt="">
 	<p>&ldquo;I&rsquo;m from the government, and I&rsquo;m here to help you.&rdquo;</p>
 	<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 	<p>Be sure to make the right one.</p>
