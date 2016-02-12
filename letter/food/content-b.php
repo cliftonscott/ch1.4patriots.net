@@ -225,7 +225,7 @@
 	<p>The government takes more and more from the haves, who have worked HARD for everything they earned&hellip; and gives to the have nots, most of whom are freeloaders who did NOTHING to earn it.</p>
 
 	<h2 class="darkRed text-center">It’s Not IF Disaster Strikes… It’s WHEN</h2>
-	<p>Which brings me to my next point. What do you think&rsquo;s going to happen when the &ldquo;you know what&rdquo; hits the industrial sized fan, and 47 million people, or 1/6 of the population, can&rsquo;t get their handouts? If a disaster hits and FEMA completely drops the ball (as usual!), <strong>it could spark riots and looting just like Katrina </strong>&ndash; except this time on an explosive, massive scale.</p>
+	<p>Which brings me to my next point. What do you think&rsquo;s going to happen when the &ldquo;you know what&rdquo; hits the industrial sized fan, and 47 million people, or &#8537; of the population, can&rsquo;t get their handouts? If a disaster hits and FEMA completely drops the ball (as usual!), <strong>it could spark riots and looting just like Katrina </strong>&ndash; except this time on an explosive, massive scale.</p>
 	<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-powerline-bent.jpg" alt="">
 	<p>It can be a crisis from crazy weather that produces monster storms&hellip;</p>
 	<p>An ISIS terrorist attack on our crumbling power grid as predicted by news anchor Ted Koppel in his book <em>Lights Out</em>&hellip;</p>
