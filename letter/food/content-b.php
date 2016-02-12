@@ -433,7 +433,7 @@
 	<p>If you decide to claim your package, there is something you should know about. It's a danger I call &ldquo;25-Year Stockpile Greed&rdquo;.</p>
 	<p>When a food crisis strikes there are really two groups of people: the people who prepared, and the people who didn't. If you've read this far, my guess is you're someone who's going to prepare. But let me warn you - the rest of the world may very well be greedy for your stockpile. Especially now that we know that government wants to hoard these meals too.</p>
 	<p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
-	<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There're no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
+	<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There are no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
 	<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong><?php echo $buttonCTA; ?></strong>&rdquo; button below&nbsp;to get started.</p>
 	<?php if($page == "video"): ?>
 	<div class="text-center">

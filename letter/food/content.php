@@ -605,7 +605,7 @@
 					<p>Especially now that we know that FEMA wants to hoard these meals too.</p>
 					<p><i>It's easy to imagine.</i></p>
 					<p>If they run out of food for their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.</p>
-					<p>To keep your Food4Patriots order under the radar, we ship it in normal unmarked packaging. There're no flashy logos, advertisements or emblems on the outside. Not even the postman will know what you're getting.</p>
+					<p>To keep your Food4Patriots order under the radar, we ship it in normal unmarked packaging. There are no flashy logos, advertisements or emblems on the outside. Not even the postman will know what you're getting.</p>
 					<p><strong>Click the “Claim Your Kit” button down below to get started.</strong> Don't leave empty handed! You can get a kit with three square meals a day for as little as $1.11 per serving. Are you ready to get started?</p>
 					<p>Claim your Food4Patriots package now. Click the big blue “Claim Your Kit” button below.</p>
 				</div>
