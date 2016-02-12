@@ -37,7 +37,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<p>But before you move on, I've got a <strong>special one-time offer</strong> for you... </p>
 		<p>A lot of folks have told me that while they love having the  4-week kit on hand, they know that it&rsquo;s simply not enough food… especially given the scary state of affairs in this country and the constant threat of natural disasters.</p>
 		<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an <strong>exclusive</strong> <strong>$50.00 discount (that&rsquo;s 25% off) on the 4-week food supply kit</strong> <strong>if you act now</strong>. But this special sale offer is only for customers who have already purchased the 4-week kit of Food4Patriots. If you&rsquo;re seeing this, then good news, you qualify!</p>
-		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-Week Food4Patriots Kit to your order at a one-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
+		<p><?php echo $firstName;?>, would you like to accelerate your results by adding the 4-week Food4Patriots Kit to your order at a one-time discount sale price of $147 (that&rsquo;s a $50.00 discount and 25% off the already low price)?</p>
 		<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
 
 <?php
@@ -61,7 +61,7 @@ if($isUpgrade) {
 
 		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 		<p><img src="/media/images/misc/free-shipping-burst-01.png" alt="FREE Shipping" width="181" height="104" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 4-Week Food4Patriots Kit when you upgrade today!</p>
-	  <p>Because we're already going to be sending you a 4-week kit to your address in <?php echo $shippingCity;?>, we can add the 4-Week kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
+	  <p>Because we're already going to be sending you a 4-week kit to your address in <?php echo $shippingCity;?>, we can add the 4-week kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
 
 		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 		<div class="outLineBoxDarkBlue">
@@ -83,11 +83,11 @@ if($isUpgrade) {
 
 		<h2 class="darkRed text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ – Claim Your
 4-Week Food4Patriots Kit For $50.00 Off Right Now! </h2>
-		<p>Now I understand that the 4-Week Food4Patriots kit is the right choice for most people. This kit normally sells for $197, but because you&rsquo;ve already taken the 1st step by getting the 4-week kit, and because I appreciate you putting your trust in us by being a customer, you can get another 4-Week Food4Patriots kit today for just $147.</p>
+		<p>Now I understand that the 4-week Food4Patriots kit is the right choice for most people. This kit normally sells for $197, but because you&rsquo;ve already taken the 1st step by getting the 4-week kit, and because I appreciate you putting your trust in us by being a customer, you can get another 4-week Food4Patriots kit today for just $147.</p>
 		<p>That&rsquo;s $50.00 – a massive 25% savings – off the already-discounted price. </p>
-		<p>I was only able to secure a limited quantity of these 4-Week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add another 4-Week Food4Patriots to your order today!</p>
-	  <p>The 4-Week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
-		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get another 4-Week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
+		<p>I was only able to secure a limited quantity of these 4-week Food4Patriots kits and it&rsquo;s been our most popular upgrade, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;Click To Accept&rdquo; button below to add another 4-week Food4Patriots to your order today!</p>
+	  <p>The 4-week Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing your food stockpile.</p>
+		<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get another 4-week Food4Patriots kit at $50.00 less than everybody else pays (that&rsquo;s 25% off), click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
 		<div>
 <?php
 if($isUpgrade) {
