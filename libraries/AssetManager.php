@@ -58,7 +58,7 @@ class AssetManager {
 	public function serveJS()
 	{
 		if ($this->isProduction()) {
-			$this->serveScript(self::JS_PRODUCTION_FILE);
+			$this->serveScript("scripts-" . $this->page);
 
 		} else {
 			foreach (scandir($this->jsBaseUrl) as $file) {
@@ -213,10 +213,10 @@ class AssetManager {
 
 		if ($this->isProduction()) {
 			$this->cssBaseUrl = $base . "/assets/css/prod/";
-			$this->jsBaseUrl = $base . "agile/js/prod/";
+			$this->jsBaseUrl = $base . "/assets/js/prod/";
 		} else {
 			$this->cssBaseUrl = $base . "/assets/css/agile/";
-			$this->jsBaseUrl = $base . "agile/js/";
+			$this->jsBaseUrl = $base . "/assets/js/";
 		}
 
 		/*if ($this->page == "video") {
