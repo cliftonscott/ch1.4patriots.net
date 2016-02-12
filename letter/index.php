@@ -21,7 +21,7 @@ $offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
 
 <div id="wrapper">
 	<?php
-	if (JV::in("56-VSL4")) {
+	if (JV::in("56-vsl4")) {
 		echo '<div class="container-main">';
 		include_once('food/content-b.php'); /*JV-56 SPLIT*/
 		echo '</div>';
