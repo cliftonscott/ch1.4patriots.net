@@ -153,7 +153,7 @@
 							<img src="/media/images/f4p/letter/f4p-letter-obama-02.jpg" width="438" height="239" class="img-responsive">
 							<div class="caption">That’s right...Obama can seize your<br class="hidden-sm hidden-xs"> food with the stroke of his pen.</div>
 						</div>
-						<p>The actual term for this “legal confiscation” is the <strong>“National Defense Resources Preparedness Act.”</strong> All he needs is his phone and his pen and food confiscation could begin…tomorrow.</p>
+						<p>The actual term for this “legal confiscation” is the <strong>“National Defense Resources Preparedness Act.”</strong> All he needs is his phone and his pen and food confiscation could begin... tomorrow.</p>
 						<p>But the real thing that keeps me up most nights?  <i>It’s the way FEMA wanted to know how many meals we could ship out in 24 hours.</i></p>
 						<p>It makes me think they know something that we don't…and it could happen soon.</p>
 						<p>That brings us to the third reason this offer could grind to a halt. </p>
