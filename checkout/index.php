@@ -133,7 +133,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 														<p class="text-center red17"><strong>4 Week Supply Includes:</strong></p>
 														<ul>
 															<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li>FREE Shipping</li>
+															<li><strong>FREE</strong> Shipping</li>
 														</ul>
 													</div>
 												</div>
