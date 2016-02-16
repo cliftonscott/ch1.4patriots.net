@@ -236,44 +236,24 @@
 					<div id="video-references">
 						<div>Research References</div>
 						<p>
-							1. <em>Fox News.</em> &ldquo;<a href="http://insider.foxnews.com/2015/05/17/americans-may-soon-be-able-get-food-stamps-phone">Americans May Soon Be Able to Get Food Stamps By Phone.</a>&rdquo; 2015.<br>
-							2. <em>Fox News</em>. <a href="http://www.foxnews.com/politics/2015/08/06/most-states-waiving-work-requirements-for-food-stamps-despite-improving-job.html">Most states waiving work requirements for food stamps, despite improving job market</a>.&rdquo; 2015.<br>
-							3. Thomas Vilsack. <em>Wall Street Journal</em>. &ldquo;<a href="http://www.wsj.com/articles/thomas-j-vilsack-a-half-baked-gop-plan-for-food-stamps-1427492865">A Half-Baked GOP Plan for Food Stamps</a>.&rdquo; 2015.<br>
-							4. James Bovard. <em>Wall Street Journal</em>. &ldquo;<a href="http://www.wsj.com/articles/james-bovard-how-the-feds-distort-their-food-insecurity-numbers-1409786373">How the Feds Distort Their 'Food Insecurity' Numbers</a>.&rdquo; 2014.<br>
-							5. Wynton Hall. <em>BreitBart</em>. &ldquo;<a href="http://www.breitbart.com/big-government/2014/07/06/14-million-more-on-food-stamps-under-obama/">14 Million More on Food Stamps Under Obama</a>.&rdquo; 2014.<br>
-							6. John Lott. <em>Fox News</em>. &ldquo;<a href="http://www.foxnews.com/opinion/2015/04/28/price-protest.html">Baltimore riots and the price of protest</a>.&rdquo; 2015.<br>
-							7. <em>Fox News.</em> &ldquo;<a href="http://www.foxnews.com/us/2015/11/07/fema-cant-account-for-up-to-456m-sandy-fuel-funds.html">FEMA can't account for up to $4.56M Sandy fuel funds</a>.&rdquo; 2015.<br>
-							8. Perry Chiaramonte. <em>Fox News</em>. &ldquo;<a href="http://www.foxnews.com/us/2015/10/08/black-lives-leader-defends-looting-in-yale-lecture.html">Black Lives' leader defends looting in Yale lecture</a>.&rdquo; 2015.<br>
-							9. Jason Riley. <em>Wall Street Journal</em>. &ldquo;<a href="http://www.wsj.com/articles/the-lawbreakers-of-baltimoreand-ferguson-1430263032">The Lawbreakers of Baltimore&mdash;and Ferguson</a>.&rdquo; 2015.<br>
-							10. Cameron McWhirter. <em>Wall Street Journal</em>. &ldquo;<a href="http://www.wsj.com/articles/u-s-cities-prepare-for-reaction-to-ferguson-grand-jury-decision-1416874256">Protesters Turn Out in U.S. Cities Following Ferguson Decision</a>.&rdquo; 2015.<br>
-							11. J.D. Heyes. <em>Natural News</em>. &ldquo;<a href="http://www.naturalnews.com/050940_Obama_executive_orders_food_supply.html">Why did Obama nationalize the U.S. food supply with executive order 13603?</a>.&rdquo; 2015.<br>
-							12. <em>Fox News</em>. &ldquo;<a href="http://www.foxnews.com/us/2014/11/09/fema-asking-disabled-elderly-residents-to-repay-aid-from-superstorm-sandy.html"> FEMA asking disabled, elderly residents to repay aid from superstorm Sandy</a>.&rdquo; 2015.<br>
-							13. <em>Before It&rsquo;s News</em>. &ldquo;<a href="http://beforeitsnews.com/self-sufficiency/2015/02/disaster-looms-fema-scrambles-to-stockpile-food-reserves-2486558.html">Disaster Looms: FEMA Scrambles to Stockpile Food Reserves</a>.&rdquo; 2015.<br>
-							14. Chip Reid. CBS News. <a href="http://www.cbsnews.com/news/in-the-dark-over-power-grid-security/">&ldquo;In the Dark of Power Grid Security.&rdquo;</a> 2015.<br>
-							15. Charles Green. <em>AARP</em>. &ldquo;<a href="http://www.aarp.org/politics-society/history/info-2015/ted-koppel-us-unprepared-for-cyberattacks.html">A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism and lessons learned over his long career</a>.&rdquo; 2015.<br>
-							16. Geoffrey Lean. <em>The Telegraph</em>. &ldquo;<a href="http://www.telegraph.co.uk/news/earth/agriculture/11802703/Theres-a-crisis-a-comin.html">There's a food crisis coming. Are we ready?</a>.&rdquo; 2015.<br>
-							17. <em>Fox News</em>. &ldquo;<a href="http://www.foxnews.com/us/2015/04/28/national-guard-arrives-in-baltimore-after-day-and-night-rioting-following.html">New Reports of looting in Baltimore as national guard join police in patrolling streets.</a>&rdquo; 2015.<br>
-							18. Paul Bedard. <em>Washington Examiner.</em> &ldquo;<a href="http://www.washingtonexaminer.com/article/2552766">New Isis threat: America&rsquo;s electric grid; blackout could kill 9 of 10</a>&rdquo;. 2014.<br>
-							19. Thomas M. Kostigen. <a href="http://www.usatoday.com/story/news/nation/2015/08/21/extreme-weather-cause-extreme-food-shortages-task-force-finds/32104685/"><em>USA Toda. </em>&rdquo; Extreme weather to cause extreme food shortages, task force finds</a>&rdquo;<br>
-							20. Nabham, <em>The New York Times.</em> <a href="http://www.nytimes.com/2013/07/22/opinion/our-coming-food-crisis.html?_r=0">&ldquo;Our Coming Food Crisis.&rdquo;</a> 2013<br>
-							21. Bello, <em>USA Today</em>. <a href="http://usatoday30.usatoday.com/news/nation/story/2012-09-09/food-back-shortage/57698834/1">&ldquo;Food Banks Run Short As Federal Government Hands Out Less.&rdquo;</a> 2012.<br>
-							22. Corbo, <em>Food &amp; Water Watch</em>. <a href="http://www.foodandwaterwatch.org/insight/usda-start-telling-truth-about-inspector-shortages">&ldquo;USDA: Start Telling the Truth About Inspector Shortages.&rdquo;</a> 2014.<br>
-							23. Munshi, <em>Financial Times</em>. <a href="http://www.ft.com/cms/s/0/a503d9ea-803d-11e2-96ba-00144feabdc0.html#axzz3z2ve3fvp">&ldquo;U.S. Food Shortages Loom Amid Budget Cuts.&rdquo;</a> 2013.<br>
-							24. <a href="http://www.fema.gov/media-library/assets/documents/7877"><em>Federal Emergency Management Agency (FEMA).</em> &ldquo;Are You Ready Guide.&rdquo; 2014</a>.<br>
-							25. Watson, <em>Info Wars</em>. <a href="http://www.infowars.com/fema-demanding-24-hour-delivery-of-emergency-food-reserves/">&ldquo;FEMA Demanding 24 Hour Delivery of Emergency Food Reserves.&rdquo;</a> 2013.<br>
-							26. Butler, <em>The Guardian</em>. <a href="http://www.theguardian.com/society/2014/apr/16/million-people-britain-food-banks-religious-leaders-faith-groups">&ldquo;Hunger is a &lsquo;National Crisis&rsquo;, Religious Leaders Tell Cameron.&rdquo;</a> 2014.<br>
-							27. <em>World Net Daily (WND)</em>. <a href="http://www.wnd.com/2010/01/121378/">&ldquo;Government Cover-Up of Food Shortage Feared.&rdquo;</a> 2010.<br>
-							28. Slavo, <em>SHTF Plan</em>. <a href="http://www.shtfplan.com/headline-news/report-disaster-looms-fema-scrambles-to-stockpile-food-reserves_08052013">&ldquo;Report: Disaster Looms &ndash; FEMA Scrambles to Stockpile Food Reserves.&rdquo;</a> 2013.<br>
-							29. Dapice, <em>Yale Global</em>. <a href="http://yaleglobal.yale.edu/content/looming-food-crisis">&ldquo;The Looming Food Crisis.&rdquo;</a> 2011.<br>
-							30. Leaning, M.D.; Guha-Sapir, Ph.D., <em>The New England Journal of Medicine.</em> &ldquo;<a href="http://www.nejm.org/doi/full/10.1056/NEJMra1109877">Natural Disasters, Armed Conflict, and Public Health.&rdquo;</a> 2013.<br>
-							31. Faiola, <em>The Washington Post</em>. <a href="http://www.washingtonpost.com/wp-dyn/content/article/2008/04/26/AR2008042602041.html">&ldquo;The New Economics of Hunger.&rdquo;</a> 2008.<br>
-							32. Sheldrick, <em>Sunday Express</em>. &ldquo;<a href="http://www.express.co.uk/news/uk/430521/Global-food-crisis-set-to-send-prices-of-household-staples-soaring-over-next-five-years">Global Food Crisis Set to Send Prices of Household Staples Soaring Over Next Five Years.&rdquo;</a> 2013.<br>
-							33. Wilkie, Hines, Chun, <em>The Huffington Post.</em> <a href="http://www.huffingtonpost.com/2012/10/31/hurricane-sandy-disrupts-food-distribution_n_2049778.html">&ldquo;Hurricane Sandy Disrupts Food Distribution, &lsquo;Thousands of Trucks&rsquo; in Limbo.&rdquo;</a> 2013.<br>
-							34. Hughes, <em>Info Please</em><a href="http://www.infoplease.com/science/environment/global-food-crisis.html">. &ldquo;Global Food Crisis.&rdquo;</a> 2007<br>
-							35. <em>Reuters.</em> <a href="http://news.trust.org//spotlight/What-creates-food-crises">&ldquo;What Creates Food Crises?&rdquo;</a> 2014.<br>
-							36. Synder, <em>The Economic Collapse Blog</em>. <a href="http://theeconomiccollapseblog.com/archives/20-signs-that-a-horrific-global-food-crisis-is-coming">&ldquo;20 Signs That a Horrific Global Food Crisis is Coming.&rdquo;</a> 2011.<br>
-							37. Martin, Geewax, <em>National Public Radio (NPR)</em>. &ldquo;Skyrocketing Prices Point to Looming Global Food Crisis.&rdquo; 2011.<br>
-							38. Pentland, <em>Forbes</em>. <a href="http://www.forbes.com/forbes/welcome/">&ldquo;The Coming Food Crisis: Blame Ethanol</a>?&rdquo; 2012.
+							1. <em>Fox News.</em> &ldquo;Americans May Soon Be Able to Get Food Stamps By Phone.&rdquo; 2015.<br>
+							2. <em>Fox News</em>. &ldquo;Most states waiving work requirements for food stamps, despite improving job market.&rdquo; 2015.<br>
+							3. Thomas Vilsack. <em>Wall Street Journal</em>. &ldquo;A Half-Baked GOP Plan for Food Stamps.&rdquo; 2015.<br>
+							4. James Bovard. <em>Wall Street Journal</em>. &ldquo;How the Feds Distort Their 'Food Insecurity' Numbers.&rdquo; 2014.<br>
+							5. Wynton Hall. <em>BreitBart</em>. &ldquo;14 Million More on Food Stamps Under Obama.&rdquo; 2014.<br>
+							6. John Lott. <em>Fox News</em>. &ldquo;Baltimore riots and the price of protest.&rdquo; 2015.<br>
+							7. <em>Fox News.</em> &ldquo;FEMA can't account for up to $4.56M Sandy fuel funds.&rdquo; 2015.<br>
+							8. Perry Chiaramonte. <em>Fox News</em>. &ldquo;Black Lives' leader defends looting in Yale lecture.&rdquo; 2015.<br>
+							9. Jason Riley. <em>Wall Street Journal</em>. &ldquo;The Lawbreakers of Baltimore&mdash;and Ferguson.&rdquo; 2015.<br>
+							10. Cameron McWhirter. <em>Wall Street Journal</em>. &ldquo;Protesters Turn Out in U.S. Cities Following Ferguson Decision.&rdquo; 2015.<br>
+							11. J.D. Heyes. <em>Natural News</em>. &ldquo;Why did Obama nationalize the U.S. food supply with executive order 13603?.&rdquo; 2015.<br>
+							12. <em>Fox News</em>. &ldquo; FEMA asking disabled, elderly residents to repay aid from superstorm Sandy.&rdquo; 2015.<br>
+							13. <em>Before It&rsquo;s News</em>. &ldquo;Disaster Looms: FEMA Scrambles to Stockpile Food Reserves.&rdquo; 2015.<br>
+							14. Chip Reid. CBS News. &ldquo;In the Dark of Power Grid Security.&rdquo; 2015.<br>
+							15. Charles Green. <em>AARP</em>. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism and lessons learned over his long career.&rdquo; 2015.<br>
+							16. Geoffrey Lean. <em>The Telegraph</em>. &ldquo;There's a food crisis coming. Are we ready?.&rdquo; 2015.<br>
+							17. <em>Fox News</em>. &ldquo;New Reports of looting in Baltimore as national guard join police in patrolling streets.&rdquo; 2015.<br>
+							18. Paul Bedard. <em>Washington Examiner.</em> &ldquo;New Isis threat: America&rsquo;s electric grid; blackout could kill 9 of 10&rdquo;. 2014.<br>
 						</p>
 
 					</div>
