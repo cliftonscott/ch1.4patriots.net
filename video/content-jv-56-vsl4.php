@@ -246,22 +246,22 @@
 						<p>
 							1. <em>Fox News.</em> &ldquo;Americans May Soon Be Able to Get Food Stamps By Phone.&rdquo; 2015.<br>
 							2. <em>Fox News</em>. &ldquo;Most states waiving work requirements for food stamps, despite improving job market.&rdquo; 2015.<br>
-							3. Thomas Vilsack. <em>Wall Street Journal</em>. &ldquo;A Half-Baked GOP Plan for Food Stamps.&rdquo; 2015.<br>
-							4. James Bovard. <em>Wall Street Journal</em>. &ldquo;How the Feds Distort Their 'Food Insecurity' Numbers.&rdquo; 2014.<br>
-							5. Wynton Hall. <em>BreitBart</em>. &ldquo;14 Million More on Food Stamps Under Obama.&rdquo; 2014.<br>
-							6. John Lott. <em>Fox News</em>. &ldquo;Baltimore riots and the price of protest.&rdquo; 2015.<br>
+							3. <em>Wall Street Journal</em>. Vilsack, T. &ldquo;A Half-Baked GOP Plan for Food Stamps.&rdquo; 2015.<br>
+							4. <em>Wall Street Journal</em>. Bovard, B. &ldquo;How the Feds Distort Their 'Food Insecurity' Numbers.&rdquo; 2014.<br>
+							5. <em>BreitBart</em>. Hall, W.  &ldquo;14 Million More on Food Stamps Under Obama.&rdquo; 2014.<br>
+							6. <em>Fox News</em>. Lott, J. &ldquo;Baltimore riots and the price of protest.&rdquo; 2015.<br>
 							7. <em>Fox News.</em> &ldquo;FEMA can't account for up to $4.56M Sandy fuel funds.&rdquo; 2015.<br>
-							8. Perry Chiaramonte. <em>Fox News</em>. &ldquo;Black Lives' leader defends looting in Yale lecture.&rdquo; 2015.<br>
-							9. Jason Riley. <em>Wall Street Journal</em>. &ldquo;The Lawbreakers of Baltimore&mdash;and Ferguson.&rdquo; 2015.<br>
-							10. Cameron McWhirter. <em>Wall Street Journal</em>. &ldquo;Protesters Turn Out in U.S. Cities Following Ferguson Decision.&rdquo; 2015.<br>
-							11. J.D. Heyes. <em>Natural News</em>. &ldquo;Why did Obama nationalize the U.S. food supply with executive order 13603?.&rdquo; 2015.<br>
+							8. <em>Fox News</em>. Chiaramonte, P. &ldquo;Black Lives' leader defends looting in Yale lecture.&rdquo; 2015.<br>
+							9. <em>Wall Street Journal</em>. Riley, J. &ldquo;The Lawbreakers of Baltimore—and Ferguson.&rdquo; 2015.<br>
+							10. <em>Wall Street Journal</em>. McWhirter, C. &ldquo;Protesters Turn Out in U.S. Cities Following Ferguson Decision.&rdquo; 2015.<br>
+							11. <em>Natural News</em>. Heyes, J.D. &ldquo;Why did Obama nationalize the U.S. food supply with executive order 13603?.&rdquo; 2015.<br>
 							12. <em>Fox News</em>. &ldquo; FEMA asking disabled, elderly residents to repay aid from superstorm Sandy.&rdquo; 2015.<br>
 							13. <em>Before It&rsquo;s News</em>. &ldquo;Disaster Looms: FEMA Scrambles to Stockpile Food Reserves.&rdquo; 2015.<br>
-							14. Chip Reid. CBS News. &ldquo;In the Dark of Power Grid Security.&rdquo; 2015.<br>
-							15. Charles Green. <em>AARP</em>. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism and lessons learned over his long career.&rdquo; 2015.<br>
-							16. Geoffrey Lean. <em>The Telegraph</em>. &ldquo;There's a food crisis coming. Are we ready?.&rdquo; 2015.<br>
+							14. CBS News. Reid, C. &ldquo;In the Dark of Power Grid Security.&rdquo; 2015.<br>
+							15. <em>AARP</em>. Green, C. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism and lessons learned over his long career.&rdquo; 2015.<br>
+							16. <em>The Telegraph</em>. Lean, G. &ldquo;There's a food crisis coming. Are we ready?.&rdquo; 2015.<br>
 							17. <em>Fox News</em>. &ldquo;New Reports of looting in Baltimore as national guard join police in patrolling streets.&rdquo; 2015.<br>
-							18. Paul Bedard. <em>Washington Examiner.</em> &ldquo;New Isis threat: America&rsquo;s electric grid; blackout could kill 9 of 10&rdquo;. 2014.<br>
+							18. <em>Washington Examiner.</em> Bedard, P. &ldquo;New Isis threat: America&rsquo;s electric grid; blackout could kill 9 of 10&rdquo;. 2014.
 						</p>
 
 					</div>

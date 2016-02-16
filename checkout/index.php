@@ -88,7 +88,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductOne" class="panel-collapse collapse">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-08.jpg" width="530" height="356" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-1-week-kit-01.jpg" width="530" height="356" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
@@ -101,7 +101,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Bonus Reports (Digital)</strong></p>
+														<p class="text-center red17"><strong>FREE Bonus Reports (Digital):</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
@@ -139,7 +139,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Bonus Reports (Digital)</strong></p>
+														<p class="text-center red17"><strong>FREE Bonus Reports (Digital):</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
@@ -179,7 +179,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Hardcopy Bonus Reports</strong></p>
+														<p class="text-center red17"><strong>FREE Hardcopy Bonus Reports:</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
