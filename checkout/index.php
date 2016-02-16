@@ -101,7 +101,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Digital Bonus Reports</strong></p>
+														<p class="text-center red17"><strong>FREE Bonus Reports (Digital)</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
@@ -125,7 +125,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductTwo" class="panel-collapse collapse">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-05.jpg" width="449" height="392" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal2()"><img src="/media/images/f4p/f4p-4-week-kit-02.jpg" width="449" height="392" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
@@ -139,7 +139,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Digital Bonus Reports</strong></p>
+														<p class="text-center red17"><strong>FREE Bonus Reports (Digital)</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
@@ -163,7 +163,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductThree" class="panel-collapse collapse in">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-07.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" width="530" height="491" class="img-responsive center-block"></a>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
@@ -171,15 +171,15 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 														<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
 														<ul>
 															<li>450 Servings <a href="#info" id="3mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li>FREE Shipping</li>
-															<li>FREE Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-															<li>FREE Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li><strong>FREE</strong> Shipping</li>
+															<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+															<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 														</ul>
 													</div>
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Hardcopy <u>and</u> Digital<br class="hidden-sm"> Bonus Reports</strong></p>
+														<p class="text-center red17"><strong>FREE Hardcopy Bonus Reports</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
@@ -190,7 +190,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 											</div>
 										</div>
-										<!--<img class="img-responsive center-block" src="/assets/images/checkout/wounded-warrior-01.jpg" width="530" height="118" alt="Wounded Warrior Project"/>-->
+										<img class="img-responsive center-block" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt="Wounded Warrior Project"/>
 									</div>
 								</div>
 							</div>
@@ -227,13 +227,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 		</div>
 
 		<div class="guaranteeBox">
-			<p><strong>Your Purchase Is Backed By A 365-Day Money Back Guarantee!</strong></p>
-			<p>&nbsp;</p>
-			<p>We’re totally confident that your family will love Food4Patriots survival food. That’s why every order is protected by our ironclad 365-Day Money Back Guarantee. If for any reason — or for no reason at all — you are not 100% satisfied with your purchase, simply return it within the next year for a full refund of every penny you paid. No questions asked. There is ABSOLUTELY NO RISK to you.</p>			<div class="clearfix"></div>
-		</div>
-
-		<div class="guaranteeBox">
-			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
+			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
 			<p>&nbsp;</p>
 			<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
 			<div class="clearfix"></div>
