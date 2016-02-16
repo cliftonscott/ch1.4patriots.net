@@ -105,8 +105,8 @@ $platform->setCsrModalButtons("sample,video,letter");
 
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-	// SPLIT JV-56 ALL DEVICES 2/12/16
-	if (JV::in("56-vsl4")) {
+	// SPLIT JV-56 DESKTOP 2/12/16
+	if (JV::in("56-vsl4") || JV::in("56-vsl4pop")) {
 		include_once('content-jv-56-vsl4.php'); /*JV-56 SPLIT*/
 	}else{
 		include_once('content.php'); /*CONTROL*/

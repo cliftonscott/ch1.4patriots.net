@@ -34,9 +34,6 @@
 		margin-bottom: 10px;
 	}
 
-	/* =============================================================================
-   Lists
-   ========================================================================== */
 	ul {
 		list-style-image:none;
 	}
@@ -112,12 +109,14 @@
 </style>
 
 <div class="container oto-width">
-	<div><h1 class="darkRed text-center">Breaking News:<br>FEMA Hates This (#1 Item To Hoard)</h1></div>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-header-array.jpg" alt="">
-	<p>Dear Patriot,</p>
-	<p>We all know a crisis is coming. What's going to happen when disaster strikes? Are you prepared to feed your family?&nbsp;</p>
-	<p>I don't know about you, but I'm sure not counting on the government to help me. In fact, they may be behind <strong>disappearing food stockpiles all over the country</strong>; and I've got the proof.</p>
+	<?php if($page == "video"): ?>
 
+	<?php else:?>
+		<div><h1 class="darkRed text-center">Breaking News:<br>FEMA Hates This (#1 Item To Hoard)</h1></div>
+		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-header-array.jpg" alt="">
+		<p>We all know a crisis is coming. What's going to happen when disaster strikes? Are you prepared to feed your family?&nbsp;</p>
+		<p>I don't know about you, but I'm sure not counting on the government to help me. In fact, they may be behind <strong>disappearing food stockpiles all over the country</strong>; and I've got the proof.</p>
+	<?php endif?>
 	<h2 class="darkRed text-center">A Letter From The Feds That Chilled<br class="hidden-sm"> Me To The Bone...</h2>
 	<p>Not too long ago, FEMA went directly to my supplier and tried to buy up my entire stockpile of high-quality survival food. It sounds crazy, but I'll show you the exact letter they sent in a minute.</p>
 	<p>Revealing their plot could land me in hot water, but I think you deserve to know <strong>exactly what they're doing.</strong></p>
@@ -133,8 +132,8 @@
 	<p>It's been all over the Internet. Facebook and even some big radio programs like Alex Jones picked up this story. It seems like everyone is just plain shocked that a government agency would send a letter like this.</p>
 	<p>Here's what happened: FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many...&nbsp;</p>
 	<p>Well, maybe I should just let Matt tell you about it, since he was the one who received the letter that proves it...</p>
-	<img src="/media/images/f4p/letter/f4p-letter-fema-letter-1.jpg" width="100%" alt="FEMA letter" class="img-responsive center-block">
-	<blockquote style="font-size:16px;border: none;margin-bottom: 0">
+	<img src="/media/images/f4p/letter/f4p-letter-fema-letter-2.jpg"  alt="FEMA letter" class="img-responsive center-block">
+	<p style="text-align: center;" class="caption">100% Genuine letter from FEMA... demanding to know how much<br class="hidden-sm hidden-xs"> food we can ship and how fast!</p>	<blockquote style="font-size:16px;border: none;margin-bottom: 0">
 		<p><em>&ldquo;Thanks Frank. Well, it was kind of crazy to get this letter from FEMA. I don't mean to sound paranoid, but they were asking some questions that make me pretty nervous.</em></p>
 		<p><em>FEMA and the Department of Homeland Security demanded to know:</em></p>
 		<ul>
@@ -251,7 +250,7 @@
 	<p>My partner Matt and I put together our own survival food kit containing only cream-of-the-crop food designed to last for an amazing 25 years.&nbsp;</p>
 	<p>That means foods scientifically engineered to last for over two decades, simple to prepare and conveniently packed in airtight containers that would be easy to conceal, move and store.</p>
 	<p>I wanted only the absolutely best tasting meals that provided the most nutrition for breakfast, lunch, and dinner and that were useful for the long haul.</p>
-	<img src="/media/images/f4p/letter/f4p-letter-3-mokit-new.jpg" width="100%" class="img-responsive center-block"  alt="Food4Patriots Kit"/>
+	<img src="/media/images/f4p/letter/f4p-letter-kit-tote-01-v2.jpg" width="100%" class="img-responsive center-block"  alt="Food4Patriots Kit"/>
 	<p></p>
 	<p>After months of work and research, we finally cooked up our first batch, and I knew we had something nobody else did: American-made food that I'd be happy to feed my own kids and grandkids.</p>
 	<p>The food was delicious, easy to store long-term, and best of all, it was packaged right here in the U.S. of A. That&rsquo;s why we decided to call it <strong>Food4Patriots</strong>.&nbsp;</p>
@@ -409,7 +408,7 @@
 		</div>
 	<?php endif?>
 	<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-3mokit-array-new.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="width:541px " src="/media/images/f4p/letter/f4p-letter-storage-totes-v2.jpg" alt="">
 
 	<!--<h2 class="darkRed text-center">We Want to Know What You Think</h2>-->
 	<p>Just so you know what to expect, a few weeks after you order and receive your food kit, we&rsquo;ll politely ask you to please review your purchase. It&rsquo;s totally optional, we just really appreciate the feedback so we can make things better.</p>
@@ -423,7 +422,7 @@
 	<p></p>
 	<p>It&rsquo;s not just our customer&rsquo;s reviews and testimonials we&rsquo;re proud of. We&rsquo;re also proud to give back to our country&rsquo;s veterans.</p>
 	<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-fisher-house.jpg" alt="">
-	<p>When you claim your Food4Patriots kit today, we will also <strong>donate a portion of the proceeds to Fisher House</strong>, the charity selected by our very own customers in a recent survey.</p>
+	<p>When you claim your Food4Patriots kit today, we will also donate a portion of the proceeds to charities who support our veterans and their families, including Operation Homefront, Fisher House and A Soldier’s Child Foundation.</p>
 	<p>Our donations topped $20,000 by 2016, so you can feel good knowing that you&rsquo;re supporting our veterans while getting the peace of mind that comes from having a survival food stockpile.</p>
 
 	<h2 class="darkRed text-center">Food4Patriots Is A Company You Can Count On</h2>
