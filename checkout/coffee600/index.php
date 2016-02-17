@@ -116,7 +116,6 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 		<div class="row">
 			<div class="col-md-12">
 				<img src="/media/images/misc/img-charitybanner-880x200.jpg" class="img-responsive" style="padding-top: 5px">
-
 			</div>
 		</div>
 		<div class="guaranteeBox">
