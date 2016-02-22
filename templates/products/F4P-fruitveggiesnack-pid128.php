@@ -77,6 +77,15 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	text-align:center;
 	font-style:italic;
 }
+.timer-bg {
+	background-color: #E7B906;
+	padding: 4px;
+	margin: 0 0 10px 0;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	font-size: 27pt;
+}
 </style>
 <script>
 //setInterval(function(timerChange),1000);
@@ -162,14 +171,20 @@ $offerName = $_SESSION["firstName"];
 	<div id="belcher-box" class="hidden-xs">
 		<div class="box-title">Exclusive Offer for Food4Patriots Customers...</div>
 		<div class="box-body">
-			<div class="timer-box">
-				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
-					<div id="timer">10:00</div></a>
+			<div class="timer-bg">
+				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
 			</div>
 			<p><?php echo $customerDataObj->firstName;?>,
 				you’ve taken the first step in ensuring the safety and well-being of your loved ones in times of crisis
 				with your Food4Patriots order. </p>
 			<p>But wouldn’t it make sense to also safeguard their nutrition by <b>adding healthy fruits and vegetables</b> to your food stockpile?
+			<div>
+				<h1 class="text-center darkRed">Fruit, Veggie and Snack Mix</h1>
+				<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();">
+					<img src="/media/images/f4p/f4p-fvs-kit-tote-07.jpg" class="img-responsive center-block" alt="Fruit, Veggie and Snack Mix">
+				</a>
+			</div>
+			<p></p>
 				<b>Click the big, green ‘Add to Order’ button below in the next 10 minutes (before our warehouse finalizes your shipping details)</b>
 				and we’ll add our Food4Patriots <i>Fruit, Veggie and Snack Mix</i> package to today’s order for just one additional payment of $97 (free shipping).</p>
 			<p>That’s 114 servings of fruits, vegetables, and delicious snacks for less than $1.18 per serving. And because we use our unique
@@ -201,7 +216,7 @@ $offerName = $_SESSION["firstName"];
 </script>
 <div id="timerModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg" style="width:700px;height:750px;">
-		<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-fvs-mix-details-01.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
+		<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-product-img-typ-fvs-details.jpg);width:100%;background-repeat: no-repeat;background-position: bottom;">
 			<div style="text-align:center;padding:10px;width:700px;height:750px;">
 				<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
 			</div>
