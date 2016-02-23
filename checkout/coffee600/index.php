@@ -113,7 +113,11 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 				</div>
 			</div>
 		</div>
-
+		<div class="row">
+			<div class="col-md-12">
+				<img src="/media/images/misc/img-charitybanner-880x200.jpg" class="img-responsive" style="padding-top: 5px">
+			</div>
+		</div>
 		<div class="guaranteeBox">
 			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Food4Patriots Survival Coffee Kit, just return it within 60 days of purchase and I’ll refund 100% of your purchase.</p>
 			<p>&nbsp;</p>
