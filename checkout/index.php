@@ -232,7 +232,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 
 		<?php if (JV::in("61-vsl4") || JV::in("61-vsl4-1")): ?> <!--// SPLIT JV-61 DESKTOP 2/23/16-->
 		<div class="guaranteeBox">
-			<img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left" style="max-width: 107px;"><p style="margin: 22px 0 0 155px;"> <strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
+			<img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left" style="max-width: 107px;"><p style="margin: 22px 0 0 155px;"> <strong><span class="brightBlue">Guarantee:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
 			<div class="clearfix"></div>
 		</div>
 		<?php else: ?>
