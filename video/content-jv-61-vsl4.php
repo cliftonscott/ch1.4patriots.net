@@ -37,17 +37,9 @@
 			var minutes = 0;
 			var seconds = 5;
 		} else {
-			<?php // SPLIT JV-56 DESKTOP 2/12/16
-			if (JV::in("56-vsl4pop")) : ?>
-			var hours = 0;
-			var minutes = 29;
-			var seconds = 48;
-			<?php else: ?>
 			var hours = 0;
 			var minutes = 33;
 			var seconds = 22;
-			<?php endif ?>
-
 		}
 		<?php
 		//Conditionally changes the timer values
