@@ -158,7 +158,7 @@
 					<?php
 					}else {
 					?>
-						<iframe src="//fast.wistia.net/embed/iframe/qrlktwrpfl" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="361"></iframe>
+						<iframe src="//fast.wistia.net/embed/iframe/6kiay1gnhp" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					}
