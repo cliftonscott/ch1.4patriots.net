@@ -37,17 +37,9 @@
 			var minutes = 0;
 			var seconds = 5;
 		} else {
-			<?php // SPLIT JV-56 DESKTOP 2/12/16
-			if (JV::in("56-vsl4pop")) : ?>
-			var hours = 0;
-			var minutes = 29;
-			var seconds = 48;
-			<?php else: ?>
 			var hours = 0;
 			var minutes = 33;
 			var seconds = 22;
-			<?php endif ?>
-
 		}
 		<?php
 		//Conditionally changes the timer values
@@ -183,7 +175,7 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 			<style>
 					p{
-						font-size: 16px;
+						font-size: 15pt !important;
 					}
 					blockquote{
 						margin: 5px;
@@ -243,7 +235,7 @@
 					<!-- Start References -->
 					<div id="video-references">
 						<div>Research References</div>
-						<p>
+						<p style="font-size: 12px !important;">
 							1. <em>Fox News.</em> &ldquo;Americans May Soon Be Able to Get Food Stamps By Phone.&rdquo; 2015.<br>
 							2. <em>Fox News</em>. &ldquo;Most states waiving work requirements for food stamps, despite improving job market.&rdquo; 2015.<br>
 							3. <em>Wall Street Journal</em>. Vilsack, T. &ldquo;A Half-Baked GOP Plan for Food Stamps.&rdquo; 2015.<br>
