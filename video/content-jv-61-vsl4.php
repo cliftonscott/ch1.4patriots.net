@@ -175,7 +175,7 @@
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 			<style>
 					p{
-						font-size: 16px;
+						font-size: 15pt !important;
 					}
 					blockquote{
 						margin: 5px;
