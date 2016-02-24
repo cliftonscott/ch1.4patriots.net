@@ -235,7 +235,7 @@
 				<!-- Start References -->
 				<div id="video-references">
 					<div>Research References</div>
-					<p>
+					<p style="font-size: 12px !important;">
 						1. <em>Fox News.</em> &ldquo;Americans May Soon Be Able to Get Food Stamps By Phone.&rdquo; 2015.<br>
 						2. <em>Fox News</em>. &ldquo;Most states waiving work requirements for food stamps, despite improving job market.&rdquo; 2015.<br>
 						3. <em>Wall Street Journal</em>. Vilsack, T. &ldquo;A Half-Baked GOP Plan for Food Stamps.&rdquo; 2015.<br>
