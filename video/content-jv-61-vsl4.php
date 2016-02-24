@@ -37,17 +37,9 @@
 			var minutes = 0;
 			var seconds = 5;
 		} else {
-			<?php // SPLIT JV-56 DESKTOP 2/12/16
-			if (JV::in("56-vsl4pop")) : ?>
-			var hours = 0;
-			var minutes = 29;
-			var seconds = 48;
-			<?php else: ?>
 			var hours = 0;
 			var minutes = 33;
 			var seconds = 22;
-			<?php endif ?>
-
 		}
 		<?php
 		//Conditionally changes the timer values
@@ -158,7 +150,7 @@
 					<?php
 					}else {
 					?>
-						<iframe src="//fast.wistia.net/embed/iframe/qrlktwrpfl" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="361"></iframe>
+						<iframe src="//fast.wistia.net/embed/iframe/6kiay1gnhp" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					<?php
 					}

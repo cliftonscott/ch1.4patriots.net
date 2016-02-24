@@ -163,7 +163,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 								</a>
 								<div id="chooseProductThree" class="panel-collapse collapse in">
 									<div class="panel-body">
-										<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<?php if (JV::in("61-vsl4") || JV::in("61-vsl4-1")): ?> <!--// SPLIT JV-61 DESKTOP 2/23/16-->
+											<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03-alt-reports.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<?php else: ?>
+											<a href="#info" onclick="showProductModal3()"><img src="/media/images/f4p/f4p-3-month-kit-03.jpg" width="530" height="491" class="img-responsive center-block"></a>
+										<?php endif ?>
 										<div class="nopadding">
 											<div class="row">
 												<div class="col-sm-12 col-md-5 nopadding">
@@ -226,12 +230,19 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" width="36" height=
 			<div class="col-sm-6 col-md-6"><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-12.jpg" width="448" height="236" alt="Testimonial" /></div>
 		</div>
 
+		<?php if (JV::in("61-vsl4") || JV::in("61-vsl4-1")): ?> <!--// SPLIT JV-61 DESKTOP 2/23/16-->
 		<div class="guaranteeBox">
-			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
-			<p>&nbsp;</p>
-			<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+			<img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left" style="max-width: 107px;"><p style="margin: 22px 0 0 155px;"> <strong><span class="brightBlue">Guarantee:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
 			<div class="clearfix"></div>
 		</div>
+		<?php else: ?>
+			<div class="guaranteeBox">
+				<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason, you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase.            </p>
+				<p>&nbsp;</p>
+				<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+				<div class="clearfix"></div>
+			</div>
+		<?php endif ?>
 
 		<hr>
 		<div><h4 class="darkRed">Frequently Asked Questions:</h4></div>
