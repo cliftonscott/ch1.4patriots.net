@@ -227,7 +227,7 @@ include_once ('template-top.php');
 </div>
 <script>
 	// set the date we're counting down to
-	var target_date = new Date("Mar 5, 2016").getTime();
+	var target_date = new Date("Mar 6, 2016").getTime();
 
 	// variables for time units
 	var days, hours, minutes, seconds;
