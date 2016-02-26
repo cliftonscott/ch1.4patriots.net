@@ -60,16 +60,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 
         <div class="margin-tb-20 text-center">
-        	<h2 class="darkRed">Customer Service Contact Info</h2>
+        	<h2 class="darkRed">Recommended Products</h2>
+	        <p><iframe src="http://reboot.sitescout.com/disp?pid=D286241DA7" width='600' height='360' marginwidth='0' marginheight='0' scrollbars='0' scrolling='no' frameborder='0' bordercolor='#000000' vspace='0' hspace='0'></iframe></p>
+	        <p><iframe src="http://reboot.sitescout.com/disp?pid=1E9023ACCD" width='600' height='360' marginwidth='0' marginheight='0' scrollbars='0' scrolling='no' frameborder='0' bordercolor='#000000' vspace='0' hspace='0'></iframe></p>
+	        <p><iframe src="http://reboot.sitescout.com/disp?pid=70134DD46A" width='600' height='360' marginwidth='0' marginheight='0' scrollbars='0' scrolling='no' frameborder='0' bordercolor='#000000' vspace='0' hspace='0'></iframe></p>
 	
-			<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
+			<!--<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
 				<script type="text/javascript">
 					emailE=('help@' + 'food4patriots.com')
 					document.write(
 						'<A href="mailto:' + emailE + '">'
 							+ emailE + '</a>'
 					)
-				</script></p>
+				</script></p>-->
         </div>
         <div class="margin-tb-20">
 			<?php
