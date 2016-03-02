@@ -183,7 +183,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 												<div class="col-sm-12 col-md-7 nopadding">
 													<div class="productList">
-														<p class="text-center red17"><strong>FREE Hardcopy and<br class="hidden-xs" />Digital Bonus Reports:</strong></p>
+														<p class="text-center red17"><strong>FREE Hardcopy and Digital <br class="hidden-xs" />Bonus Reports:</strong></p>
 														<ul>
 															<li>10 Items Sold Out After Crisis</li>
 															<li>Water Survival Guide</li>
