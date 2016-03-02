@@ -81,8 +81,9 @@ $detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
+$queryString = $_SERVER['QUERY_STRING'];
 if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile())) {
-	header('Location: /letter/index.php');
+	header('Location: /letter/index.php?' . $queryString);
 	exit();
 };
 /*END MOBILE REDIRECT*/
