@@ -64,7 +64,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	        include_once("recommendations/thankyou-ads.php");
 	        ?>
 			<!--<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
-				<script type="text/javascript">¨
+				<script type="text/javascript">
 					emailE=('help@' + 'food4patriots.com')
 					document.write(
 						'<A href="mailto:' + emailE + '">'
