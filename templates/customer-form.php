@@ -161,7 +161,6 @@ if($_SESSION['errorMessage'] != '') {
 		<label for="billing-state" id="billing-state-label">State:</label>
 		<select class="form-control" id="billing-state" name="billing-state"  onchange="setStateTax();">
 			<!--dynamically built w/ javascript-->
-			<option value="TN">Tennessee</option>
 		</select>
 		<input type="text" class="form-control" id="other-billing-state" name="other-billing-state" style="display:none;visibility:none;">
 	  </div>
