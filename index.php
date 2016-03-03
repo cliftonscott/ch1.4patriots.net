@@ -43,8 +43,8 @@
 			<div class="col-sm-12 col-md-12">
 				<div class="clearfix">
 					<div class="row">
-						<div class="col-sm-6 col-md-6  text-center hidden-xs" style="margin-top:30px;"><a class="btn btn-success btn-lg btn-block" href="/video/index.php?AFID=<?php echo $afid;?>" target="_self"><i class="fa fa-video-camera"></i>  Watch Video</a></div>
-						<div class="col-sm-6 col-md-6  text-center" style="margin-top:30px;"><a class="btn btn-primary btn-lg btn-block" href="/letter/index.php?AFID=<?php echo $afid;?>" target="_self"><i class="fa fa-info-circle"></i> Read Description</a></div>
+						<div class="col-sm-6 col-md-6  text-center hidden-xs" style="margin-top:30px;"><a class="btn btn-success btn-lg btn-block" href="<?php echo url('/video/index.php?AFID=' . $afid); ?>" target="_self"><i class="fa fa-video-camera"></i>  Watch Video</a></div>
+						<div class="col-sm-6 col-md-6  text-center" style="margin-top:30px;"><a class="btn btn-primary btn-lg btn-block" href="<?php echo url('/letter/index.php?AFID=' . $afid); ?>" target="_self"><i class="fa fa-info-circle"></i> Read Description</a></div>
 					</div>
 				</div>
 			</div>
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
-			<p style="padding-bottom:20px;"><a class="btn btn-large btn-success pull-right" href="/testimonials.php" target="ext">Read More</a></p>
+			<p style="padding-bottom:20px;"><a class="btn btn-large btn-success pull-right" href="<?php echo url('/testimonials.php'); ?>" target="ext">Read More</a></p>
 		</div>
 		<div class="jumbotron text-left">
 			<h2 class="darkRed"><i class="fa fa-users"></i> Patriot Headquarters Blog</h2>

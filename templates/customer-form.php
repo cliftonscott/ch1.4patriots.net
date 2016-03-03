@@ -124,7 +124,7 @@ if($_SESSION['errorMessage'] != '') {
 }
 ?>
 
-	<form role="form" action="/checkout/process.php" method="post" accept-charset="utf-8" id="billing-form">
+	<form role="form" action="<?php echo url('/checkout/process.php'); ?>" method="post" accept-charset="utf-8" id="billing-form">
 		<input type="hidden" name="productId" id="productId" value="<?php echo $productDataObj->productId;?>" onchange="setStateTax();">
 	  <div class="form-group">
 		<label for="firstName">First Name:</label>
@@ -161,6 +161,7 @@ if($_SESSION['errorMessage'] != '') {
 		<label for="billing-state" id="billing-state-label">State:</label>
 		<select class="form-control" id="billing-state" name="billing-state"  onchange="setStateTax();">
 			<!--dynamically built w/ javascript-->
+			<option value="TN">Tennessee</option>
 		</select>
 		<input type="text" class="form-control" id="other-billing-state" name="other-billing-state" style="display:none;visibility:none;">
 	  </div>

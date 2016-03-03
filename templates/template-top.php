@@ -1,6 +1,4 @@
 <?php
-include_once("Analytics.php");
-$analyticsObj = new Analytics();
 include_once("Platform.php");
 $platform = new Platform();
 require_once("Meta.php");

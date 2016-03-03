@@ -83,7 +83,7 @@ $javelinApi = JV::load();
 
 $queryString = $_SERVER['QUERY_STRING'];
 if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile())) {
-	header('Location: /letter/index.php?' . $queryString);
+	header('Location: ' . url('/letter/index.php'));
 	exit();
 };
 /*END MOBILE REDIRECT*/
@@ -100,7 +100,7 @@ include_once("agile/template-top.php");
 
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
+$offerUrl = url('/checkout/index.php');
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
 

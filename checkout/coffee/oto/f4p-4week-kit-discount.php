@@ -18,7 +18,7 @@ $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto3");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/

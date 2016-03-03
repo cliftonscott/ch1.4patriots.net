@@ -1,7 +1,7 @@
 <div class="navbar navbar-inverse navbar-static-top">
 <?php
 if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
-	$logoImage = "<a href='/index.php'>";
+	$logoImage = "<a href='" . url('/index.php') . "'>";
 	$logoImage.= "<img src='/assets/images/logo-small.png' alt='power4patriots' class='img-responsive'/>";
 	$logoImage.= "</a>";
 } else {
@@ -18,27 +18,27 @@ if(substr_count($_SERVER["PHP_SELF"],"/") == 1) {
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/index.php">Home</a></li>
+            <li><a href="<?php echo url('/index.php'); ?>">Home</a></li>
 	          <?php
 	          $afid = $analyticsObj->affiliateId;
 	          if(empty($afid)) {
 		         $afid = "MINISITE";
 	          }
 	          ?>
-            <li><a href="/video/index.php?AFID=<?php echo $afid;?>">Purchase</a></li>
-            <li><a href="/contact.php">Contact</a></li>
+            <li><a href="<?php echo url('/video/index.php?AFID=' . $afid); ?>">Purchase</a></li>
+            <li><a href="<?php echo url('/contact.php'); ?>">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Info <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                <li><a href="/faq.php">FAQ</a></li>
-                <li><a href="/testimonials.php">Testimonials</a></li>
+                <li><a href="<?php echo url('/faq.php'); ?>">FAQ</a></li>
+                <li><a href="<?php echo url('/testimonials.php'); ?>">Testimonials</a></li>
                 <li><a href="http://food4patriotsreview.com/" target="_blank">Review Site</a></li>
-                <li><a href="/newsroom.php">Newsroom</a></li>
-                <li><a href="/returns.php">Returns</a></li>
+                <li><a href="<?php echo url('/newsroom.php'); ?>">Newsroom</a></li>
+                <li><a href="<?php echo url('/returns.php'); ?>">Returns</a></li>
                 <li class="divider"></li>
-                <li><a href="/privacy.php">Privacy Policy</a></li>
-                <li><a href="/terms.php">Terms Conditions</a></li>
-                <li><a href="/disclaimer.php">Disclaimer</a></li>
+                <li><a href="<?php echo url('/privacy.php'); ?>">Privacy Policy</a></li>
+                <li><a href="<?php echo url('/terms.php'); ?>">Terms Conditions</a></li>
+                <li><a href="<?php echo url('/disclaimer.php'); ?>">Disclaimer</a></li>
               </ul>
             </li>
           </ul>

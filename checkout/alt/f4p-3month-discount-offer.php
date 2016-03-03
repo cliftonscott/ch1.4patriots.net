@@ -70,7 +70,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="col-sm-12 col-md-1"></div>
 		</div>
 		<div class="text-center center-block margin-b-10">
-			<a href="/order/23"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
+			<a href="<?php echo url('/order/23'); ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
 			<p class="text-center h4" style="margin-bottom:50px;">Add To Cart <strike>$497</strike> $397</p></a>
 		</div>
 		<div>
@@ -128,7 +128,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
 		<div class="text-center center-block margin-tb-50">
-			<a href="/order/23"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
+			<a href="<?php echo url('/order/23'); ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
 			<p class="text-center h4 margin-b-10">Add To Cart <strike>$497</strike> $397</p></a>
 		</div>
 		<div>
@@ -149,7 +149,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 		</div>
 		<div class="text-center center-block margin-tb-50">
-			<a href="/order/23"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
+			<a href="<?php echo url('/order/23'); ?>"><img src="/assets/images/buttons/btn-orange-add-cart-02.jpg" name="submit" class="img-responsive center-block"/>
 			<p class="text-center h4 margin-b-10">Add To Cart <strike>$497</strike> $397</p></a>
 		</div>
 		<div>

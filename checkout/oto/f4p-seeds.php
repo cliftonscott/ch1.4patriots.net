@@ -48,7 +48,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<script type="text/javascript" src="https://reboot.evsuite.com/player/cnV0Z2Vycy1vdG8tNDctcmVuZGVyZWQubXA0/?container=evp-EKHIVEB6MN"></script><div id="evp-EKHIVEB6MN" data-role="evp-video" data-evp-id="cnV0Z2Vycy1vdG8tNDctcmVuZGVyZWQubXA0"></div>
 		</div>
 		<div id="buyButton" style="padding-bottom:20px;display:none;">
-			<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+			<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			<p class="text-center">Get your Liberty Seed Vault (plus 4 FREE bonuses and FREE Shipping) for just $47 today by clicking the big orange &quot;click to accept&quot; button above.</p>
 		</div>
 		<div>
@@ -202,7 +202,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 
 		<div>
 			<div class="text-center">
-				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			</div>
 			<p class="text-center">Get your Liberty Seed Vault (plus 4 FREE bonuses and FREE Shipping) for just $47 today by clicking the big orange &quot;click to accept&quot; button above.</p>
 			<div class="text-center"><img src="/media/images/ss4p/ss4p-testimonials-02.png" class="img-responsive center-block"/><br /> <img src="/media/images/ss4p/ss4p-testimonials-05.png" class="img-responsive center-block"/><br /> <img src="/media/images/ss4p/ss4p-testimonials-04.png" class="img-responsive center-block"/></div>
@@ -210,7 +210,7 @@ THIS OFFER AT THE BOTTOM OF THIS PAGE</p>
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-seeds-23x2.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+				<a href="<?php echo url('/checkout/oto/f4p-seeds-23x2.php'); ?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>  
 

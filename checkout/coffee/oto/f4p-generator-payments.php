@@ -19,7 +19,7 @@ $isLion = $inventoryObj->isLion($productId);
 if($isLion) {
 	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
 	if($hasAllInventory === false) {
-		header("Location: /checkout/coffee/thankyou.php");
+		header("Location: " . url('/checkout/coffee/thankyou.php'));
 		exit;
 	}
 }
@@ -32,7 +32,7 @@ $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto5b");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/

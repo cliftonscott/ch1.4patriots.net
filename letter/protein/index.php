@@ -8,7 +8,7 @@ $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/protein/index.php" . $analyticsObj->queryString;
+$offerUrl = url('/checkout/protein/index.php');
 
 /*$variantsArray = array (
 	"a", // Short Split Test

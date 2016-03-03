@@ -17,14 +17,14 @@ $_SESSION['nextPageOverride'] = '/checkout/thankyou.php'; // $nextPage set to 1 
 // Redirects If Already Offered 3 Month Discount
 if($_SESSION['3mDiscountSkip'] === TRUE) {
 	unset($_SESSION['3mDiscountSkip']);
-	header("Location: /checkout/thankyou.php");
+	header("Location: " . url('/checkout/thankyou.php'));
 }
 include_once("Product.php");
 $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto4c");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/

@@ -30,7 +30,7 @@ if($_POST["productId"]) {
 } else {
 	//the productId must be explicitly set by either a post or by session variable
 	$nextPage = "/checkout/index.php";
-	header("Location: " . $nextPage);
+	header("Location: " . url($nextPage));
 	exit;
 }
 //create sale object
@@ -112,7 +112,7 @@ if($isLion) {
 		$nextPage = $_SESSION["formReturn"];
 		unset($_SESSION["formReturn"]);
 		$nextPage = "/checkout/outofstock.php";
-		header("Location: " . $nextPage);
+		header("Location: " . url($nextPage));
 	}
 }
 $stepTimerStop = microtime(true);
@@ -147,7 +147,7 @@ if($postLimelight->responseCode !== 100) {
 			break;
 	}
 	unset($_SESSION["formReturn"]);
-	header("Location: " . $nextPage);
+	header("Location: " . url($nextPage));
 	////NOT PROCESSED ANY FURTHER
 	exit;
 }
@@ -392,23 +392,23 @@ if($product->getFunnel()) {
 	$currentStep = $product->getStep();
 	$funnel = $product->initFunnel($currentStep);
 	if($funnel["pidVariableNextUrl"] === true) {
-		header("Location: " . $funnel[$productId]["nextUrl"]);
+		header("Location: " . url($funnel[$productId]["nextUrl"]));
 	} else {
-		header("Location: " . $funnel["nextUrl"]);
+		header("Location: " . url($funnel["nextUrl"]));
 	}
 } else {
 	//NON-FUNNEL REDIRECT TO NEXT PAGE
 	if(($customerDataObj->billingCountry !== "US") && ($customerDataObj->billingCountry !== "CA")) {
-		header("Location: /checkout/thankyou.php");
+		header("Location: " . url('/checkout/thankyou.php'));
 		exit;
 	} else {
 		if(!empty($_SESSION['nextPageOverride'])) {
-			header("Location: " . $_SESSION['nextPageOverride']);
+			header("Location: " . url($_SESSION['nextPageOverride']));
 			unset($_SESSION['nextPageOverride']);
 		}elseif(!empty($productDataObj->nextPage)) {
-			header("Location: " . $productDataObj->nextPage);
+			header("Location: " . url($productDataObj->nextPage));
 		} else {
-			header("Location: /checkout/thankyou.php");
+			header("Location: " . url('/checkout/thankyou.php'));
 		}
 	}
 }

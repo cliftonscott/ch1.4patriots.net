@@ -18,7 +18,7 @@ $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto2b");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -68,7 +68,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 if($isUpgrade) {
 ?>
 	<div class="text-center center-block">
-		<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/></a>
+		<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/></a>
 	</div>
 	<?php
 } else {

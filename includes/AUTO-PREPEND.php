@@ -43,3 +43,12 @@ require_once "Db.php";
 require_once 'PdoSessionHandler.php';
 $db = new Db();
 $session = new PdoSessionHandler($db->connect(), array("db_table" => "sessions" . getenv("APP_NAME")));
+
+// Allow the Analytics library to instantiate itself immediately.
+// This establishes our query string immediately to be able to
+// serve redirects and URLs immediately.
+require_once 'Analytics.php';
+$analyticsObj = new Analytics();
+
+// Load our simple helper functions immediately.
+require_once 'helpers.php';
