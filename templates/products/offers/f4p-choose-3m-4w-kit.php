@@ -341,7 +341,7 @@ if(!$pageGreeting) {
 						<?php
 						if($isUpgrade) {
 							?>
-							<a href="/order/18"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+							<a href="<?php echo url('/order/18'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 						<?php
 						} else {
 							?>
@@ -413,7 +413,7 @@ if(!$pageGreeting) {
 						<?php
 						if($isUpgrade) {
 							?>
-							<a href="/order/19"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+							<a href="<?php echo url('/order/19'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 
 						<?php
 						} else {

@@ -89,7 +89,7 @@ if($platformCountDownToDate) {
 				<div>
 					<div style="text-align:center;">
 						<p>Sorry friend, the Year-End Fire Sale has ended, but you can still purchase the Food4Patriots 1-year kit at a great discount. Just click the big orange "<strong>Click To Continue</strong>" button below.</p>
-						<a href="/checkout/alt/f4p-1yearkit-offer.php"><img src="/assets/images/buttons/btn-orange-click-continue-01.png" class="img-responsive center-block" alt="Add To Cart"></a>
+						<a href="<?php echo url('/checkout/alt/f4p-1yearkit-offer.php'); ?>"><img src="/assets/images/buttons/btn-orange-click-continue-01.png" class="img-responsive center-block" alt="Add To Cart"></a>
 					</div>
 				</div>
 			</div>

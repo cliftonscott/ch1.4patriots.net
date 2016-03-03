@@ -20,7 +20,7 @@ $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto2");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 //************************************************************************//
 //todo ideally this whole section will wrap into some platform libraries that are easy to use

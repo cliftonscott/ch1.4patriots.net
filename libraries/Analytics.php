@@ -44,6 +44,7 @@ class Analytics {
 	static $source = null;
 	static $custom = null;
 	static $queryString = null;
+	static $queryData = null;
 	static $vwoTestId = null;
 	static $vwoGoalId = null;
 	static $vwoVariationId = null;
@@ -74,6 +75,7 @@ class Analytics {
 		$this->source = self::$source;
 		$this->custom = self::$custom;
 		$this->queryString = self::$queryString;
+		$this->queryData = self::$queryData;
 		$this->vwoTestId = self::$vwoTestId;
 		$this->vwoGoalId = self::$vwoGoalId;
 		$this->vwoVariationId = self::$vwoVariationId;
@@ -288,6 +290,7 @@ class Analytics {
 			$qs["sspdata"] = self::$sspData;
 		}
 		if(isset($qs)) {
+			$this->setQueryData($qs);
 			$qs = http_build_query($qs);
 			$this->setQueryString($qs);
 		}
@@ -362,6 +365,9 @@ class Analytics {
 	}
 	function setQueryString($queryString) {
 		self::$queryString = "?" . $queryString;
+	}
+	function setQueryData($data) {
+		self::$queryData = $data;
 	}
 	function setVwoTestId($vwoTestId) {
 		self::$vwoTestId = $vwoTestId;

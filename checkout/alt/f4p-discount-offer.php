@@ -86,7 +86,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						  </div><!-- *PRODUCT INFO -->
 
 						  <div class="text-center center-block">
-							<a href="/order/22"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+							<a href="<?php echo url('/order/22'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 						</div>
 				  </div>
 			  </div>
@@ -134,7 +134,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						  </div><!-- *PRODUCT INFO -->
 
 						<div class="text-center center-block">
-							<a href="/order/23"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+							<a href="<?php echo url('/order/23'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 						</div>
 					  </form>
 				  </div>

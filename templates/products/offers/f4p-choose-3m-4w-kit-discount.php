@@ -66,7 +66,7 @@
 							if($isUpgrade) {
 								?>
 								<div class="text-center center-block">
-									<a href="/order/22"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+									<a href="<?php echo url('/order/22'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 								</div>
 							<?php
 							} else {
@@ -123,7 +123,7 @@
 							if($isUpgrade) {
 								?>
 								<div class="text-center center-block">
-									<a href="/order/23"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+									<a href="<?php echo url('/order/23'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 								</div>
 							<?php
 							} else {
