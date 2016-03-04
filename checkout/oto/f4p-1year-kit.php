@@ -24,7 +24,7 @@ $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 include_once("agile/template-top.php");
 
 $funnelData = $productObj->initFunnel("F4P-OTO#3-1A3-F4P-1YK");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -198,7 +198,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					if($isUpgrade) {
 						?>
 						<div style="text-align:center;">
-							<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+							<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 						</div>
 						<?php
 					} else {
@@ -296,7 +296,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 											<p>I understand that these kits are flying off the shelves and may sell out any time.</p>
 											<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
 											<p>I accept that by declining this offer, I may never see the Food4Patriots 1­year kit at this price ever again.</p>
-											<div class="text-center" style="padding:20px;"><a href="/checkout/oto/f4p-1year-kit-payments.php">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
+											<div class="text-center" style="padding:20px;"><a href="<?php echo url('/checkout/oto/f4p-1year-kit-payments.php'); ?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
 											<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
 										</div>
 									</div>

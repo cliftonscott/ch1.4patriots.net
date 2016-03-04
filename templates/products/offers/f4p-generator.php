@@ -348,7 +348,7 @@
 		if($isUpgrade) {
 			?>
 			<div style="text-align:center;">
-				<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+				<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 			</div>
 			<?php
 		} else {
@@ -510,7 +510,7 @@
 		if($isUpgrade) {
 			?>
 			<div style="text-align:center;">
-				<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+				<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 			</div>
 		<?php
 		} else {

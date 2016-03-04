@@ -53,8 +53,8 @@ $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/app/index.php" . $analyticsObj->queryString;
-$declineUrl = "/checkout/1year-firesale/thankyou.php";
+$offerUrl = url("/checkout/app/index.php");
+$declineUrl = url("/checkout/1year-firesale/thankyou.php");
 ?>
 	<script>
 		if (isMobile()) {
@@ -207,7 +207,7 @@ $declineUrl = "/checkout/1year-firesale/thankyou.php";
 					<div class="col-md-12">
 						<!-- Button Stuff -->
 						<div id="buyButton2" class="center-block text-center" style="display:none;padding-bottom:10px;">
-							<a href="/checkout/process.php"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"><br><strong>Add To Cart - $197</strong></a><br>
+							<a href="<?php echo url('/checkout/process.php'); ?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"><br><strong>Add To Cart - $197</strong></a><br>
 						</div>
 
 					</div>

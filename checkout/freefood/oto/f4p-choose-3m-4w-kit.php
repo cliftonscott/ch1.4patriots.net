@@ -19,7 +19,7 @@ include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO-1A-F4P-CHOOSE-4W-3M");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
@@ -361,7 +361,7 @@ Be For Well-Off Americans</h2>
 <?php
 if($isUpgrade) {
 ?>
-<a href="/order/18"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+<a href="<?php echo url('order/18'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 <?php
 } else {
 ?>
@@ -433,7 +433,7 @@ if($isUpgrade) {
 <?php
 if($isUpgrade) {
 ?>
-	<a href="/order/19"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+	<a href="<?php echo url('order/19'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 
 <?php
 } else {

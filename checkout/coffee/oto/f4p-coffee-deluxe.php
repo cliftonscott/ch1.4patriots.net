@@ -20,7 +20,7 @@ $productObj = new Product();
 
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("oto1");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 $pageGreeting = "<strong>Congratulations, " . $firstName . "!</strong> Your 30-serving FREE survival coffee trial packet is on its way to you, and will be at your front door in no time flat. Soon you’ll be sipping a freshly brewed cup by the fire, at your kitchen table, or even on the road in your travel mug. Well done.";
 

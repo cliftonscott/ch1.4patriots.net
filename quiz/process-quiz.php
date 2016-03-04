@@ -18,5 +18,5 @@ include_once("Quiz.php");
 $quizObj = new Quiz();
 $save = $quizObj->saveQuizResults($dataObj);
 
-header("Location: /video/index.php?v=quiz");
+header("Location: " . url('/video/index.php?v=quiz'));
 exit;

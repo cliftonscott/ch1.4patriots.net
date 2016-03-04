@@ -15,7 +15,7 @@ include_once("agile/template-top.php");
 /*END TEST*/
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
+$offerUrl = url('/checkout/index.php');
 
 ?>
 
