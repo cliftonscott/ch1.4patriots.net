@@ -48,6 +48,50 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div class="margin-tb-20">
 				<?php include_once("products/F4P-fruitveggiesnack-pid128.php");?>
 			</div>
+			<div class="margin-tb-20">
+				<div class="bonus-materials">
+					<h3>Food4Patriots Bonus Manuals</h3>
+					<p>Here are all your Food4Patriots bonus manuals. </p>
+					<div>
+						<div class="row">
+							<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-10-Items-After-Crisis.pdf"><img height="231" src="/media/images/f4p/f4p-eBook-10-items-after-crisis.jpg" alt="" /></a></div>
+							<div class="col-sm-12 col-md-8 margin-tb-50"><a target="_blank" href="/media/pdf/F4P-10-Items-After-Crisis.pdf">Right Click Here for Top 10 Items Sold Out After Crisis</a><br />
+								This is manual shows you everything you need to stock to survive a disaster.</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-Cut-Grocery-Bills-Half.pdf"><img src="/media/images/f4p/f4p-eBook-cut-grocery-bills-half.jpg" alt=""></a></div>
+							<div class="col-sm-12 col-md-8 margin-tb-50"><a target="_blank" href="/media/pdf/F4P-Cut-Grocery-Bills-Half.pdf">Right Click here for How To Cut Your Grocery Bills In Half Guide</a><br />
+								Here's the step-by-step manual showing you how to save on your grocery bill.</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-Survival-Garden-Guide.pdf"><img height="231" src="/media/images/f4p/f4p-eBook-the-survival-garden-guide.jpg" alt="" /></a></div>
+							<div class="col-sm-12 col-md-8 margin-tb-50"><a target="_blank" href="/media/pdf/F4P-Survival-Garden-Guide.pdf">Right Click Here For The Survival Garden Guide</a><br />
+								This is the manual showing you the critical steps necessary to plant and grow your survival garden.</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 col-md-4 text-center"><a target="_blank" href="/media/pdf/F4P-Water-Survival-Guide.pdf"><img src="/media/images/f4p/f4p-eBook-the-water-survival-guide.jpg" alt=""></a></div>
+							<div class="col-sm-12 col-md-8 margin-tb-50"><a target="_blank" href="/media/pdf/F4P-Water-Survival-Guide.pdf"> Right Click Here For Water Survival Manual</a><br />
+								This is the manual showing you the critical steps necessary to survive a water crisis.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="margin-tb-20">
+				<div class="adobeReaderBox">
+					<h2 class="darkRed text-center center-block">If You Need To Download PDF Reader</h2>
+
+					<p>You must have Adobe Acrobat PDF Reader (version 5.0 &amp; up) to view the ebook PDF file and the bonuses. If you don't have the latest Adobe Acrobat PDF Reader left click here to get it. </p>
+					<p><a href="https://adobe.com/reader" target="_blank"><img src="/media/images/misc/Adobe_Acrobat_Icon.jpg" alt="Adobe"style="width:75px;" /> Get Adobe Acrobat PDF Reader FREE</a></p>
+					<p>Note - clicking the links above will open a NEW page in your browser so you don't lose this download page.</p>
+					<h2 class="darkRed title-max-560 text-center center-block">If You Need Help Downloading The PDF Bonus Files</h2>
+					<p>How To Download: Click each of the links next to the manual to download that manual: Right click, then select &quot;Save Target As&quot; (or &quot;Save Link As&quot;).</p>
+					<p><img src="/media/images/misc/menu.gif" alt="Menu" class="img-responsive center-block" /></p>
+					<p>Once you select the &quot;save target as&quot; or &quot;save link as&quot;, a download screen will appear asking you where you want to save the file to on your computer.</p>
+					<p><span class="small1">(The download screen will appear like this...)</span><br /> <img src="/media/images/misc/saving.gif" alt="Save" class="img-responsive center-block" /></p>
+					<p>Save the file to your &quot;Desktop&quot; or another folder you can easily find.</p>
+					<p>Once you have downloaded the file, go to your desktop or the folder you saved it to and double click the file to open it.</p>
+				</div>
+			</div>
 
 			<div class="margin-tb-20 text-center">
 				<h2 class="darkRed">Customer Service Contact Info</h2>
