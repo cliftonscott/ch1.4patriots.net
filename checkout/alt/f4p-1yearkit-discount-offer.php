@@ -2,7 +2,7 @@
 $today = date(mktime());
 $offerExpired = false;
 
-$expiresOn = date(strtotime("03/05/2016"));
+$expiresOn = date(strtotime("03/06/2016"));
 
 if($today >= $expiresOn) {
 	$offerExpired = true;
