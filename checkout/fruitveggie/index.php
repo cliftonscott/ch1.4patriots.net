@@ -119,7 +119,7 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 				</div>
 			</div>
 			<div class="guaranteeBox">
-				<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Fruit, Veggie and Snack Mix, just return it within 60 days of purchase and I’ll refund 100% of your purchase.</p>
+				<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Fruit, Veggie and Snack Mix, just return it within 365 days of purchase and I’ll refund 100% of your purchase.</p>
 				<p>&nbsp;</p>
 				<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It’s in addition to guarantee #1. If you open any of your Fruit, Veggie and Snack Mix items anytime <strong>in the next 25 years</strong> and find that your food has spoiled, you can return your entire Fruit, Veggie and Snack Mix and I will <strong>triple</strong> your money back!</p>
 				<div class="clearfix"></div>
