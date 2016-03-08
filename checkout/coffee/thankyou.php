@@ -55,7 +55,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 			<div class="margin-tb-20">
 				<?php
-				include_once("recommendations/thankyou-ads.php");
+				if( $detect->isTablet() || !$detect->isMobile() ){
+					include_once("recommendations/thankyou-ads.php");
+				}
 				?>
 				<!--<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
 					<script type="text/javascript">
