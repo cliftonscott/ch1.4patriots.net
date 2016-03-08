@@ -1,4 +1,5 @@
 <script src="/js/audio.js"></script>
+
 <div>
 	<header id="head" class="clearfix has-absolute-img">
 		<div class="absolute-flag">
@@ -8,10 +9,22 @@
 		<div class="head-mid">
 			<div class="mobile"></div>
 			<div class="holder">
+				<?php if (JV::in("66-geo")): ?>
+				<script>
+					$(document).ready(function() {
+						$('#specialMessage').html("Breaking News For " + geolify_state_name() + " Residents:");
+					});
+				</script>
+				<div class="mobile-wrap">
+					<span id="specialMessage" class="color-black text-center" style="line-height: 23px">Breaking News: </span>
+					<h1><span class="semi-bold text-center" style="font-size: 28px;line-height: 1;">FEMA Hates This <br>(#1 Item To Hoard)</span></h1>
+				</div>
+				<?php else: ?>
 				<div class="mobile-wrap">
 					<span class="color-black">Breaking News: </span>
 					<h1><span class="semi-bold">FEMA Hates This (#1 Item To Hoard)</span></h1>
 				</div>
+				<?php endif ?>
 			</div>
 		</div>
 
