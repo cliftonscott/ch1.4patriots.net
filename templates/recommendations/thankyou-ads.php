@@ -1,6 +1,6 @@
 <?php
-$typAds[1] = "https://securetrack1.com/base.php?c=107&key=98081de8a415bfe1da0f08ea78633bbb&source=f4ptypagetxtlink1";
-$typAds[2] = "https://securetrack1.com/base.php?c=209&key=0e0b4989742e4417ad551164d551f5d9&source=f4ptypagetxtlink2";
+$typAds[1] = "https://securetrack1.com/base.php?c=209&key=0e0b4989742e4417ad551164d551f5d9&source=f4ptypagetxtlink2";
+$typAds[2] = "https://securetrack1.com/base.php?c=107&key=98081de8a415bfe1da0f08ea78633bbb&source=f4ptypagetxtlink1";
 $typAds[3] = "http://jump.patriothealthinstitute.com/aff_c?offer_id=48&aff_id=14&aff_sub=f4ptypagetext";
 ?>
 <h2 class="darkRed text-center">Customers Who Bought Food4Patriots Also Bought These Products</h2>
