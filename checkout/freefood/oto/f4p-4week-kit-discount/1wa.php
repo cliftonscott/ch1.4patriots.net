@@ -17,7 +17,7 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("F4P-OTO-3D-F4P-4WK");
+$funnelData = $productObj->initFunnel("F4P-OTO-4WK-1WA-DIS");
 $declineUrl = $funnelData["declineUrl"];
 
 include_once("template-top.php");

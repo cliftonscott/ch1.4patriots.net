@@ -15,10 +15,13 @@ $_SESSION['quantity'] = 1;
 $maxQuantity = 5;
 
 $_SESSION['pageReturn'] = '/checkout/order.php';
+
+$_SESSION['3mDiscountSkip'] = TRUE;
+
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("F4P-OTO-2A-F4P-1YK");
+$funnelData = $productObj->initFunnel("F4P-OTO-1YK");
 $declineUrl = $funnelData["declineUrl"];
 
 include_once("template-top.php");

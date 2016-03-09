@@ -14,13 +14,17 @@ $_SESSION['productId'] = 23; //please keep as an integer
 $_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
-//$_SESSION['nextPageOverride'] = '/checkout/thankyou.php'; // $nextPage set to 1 Year Kit in Product.php - Keeps From Looping
+
 // Redirects If Already Offered 3 Month Discount
-$_SESSION['3mDiscountSkip'] = TRUE;
+if($_SESSION['3mDiscountSkip'] === TRUE) {
+	unset($_SESSION['3mDiscountSkip']);
+	header("Location: " . url('/checkout/thankyou.php'));
+}
+
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("F4P-OTO-2A-F4P-3MK-DIS");
+$funnelData = $productObj->initFunnel("F4P-OTO-3MK-DIS");
 $declineUrl = $funnelData["declineUrl"];
 
 include_once("template-top.php");
