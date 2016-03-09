@@ -940,19 +940,22 @@ class Product {
 
 		$funnelData["food-free"] = array(
 				"checkout" => array (
-						"nextUrl" => "/checkout/freefood/oto/f4p-choose-3m-4w-kit.php",
+						"nextUrl" => "/checkout/freefood/oto/f4p-main-offer.php",
 						"declineUrl" => null,
 						"googleBrand" => "F4P-FREE-72HR",
 				),
-				"F4P-OTO-1A-F4P-CHOOSE-4W-3M" => array (
+				"F4P-OTO-1A-F4P-MAIN-OFFER" => array (
 						"pidVariableNextUrl" => true,
 						18 => array (
-								"nextUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount-b.php",
+								"nextUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount.php",
 						),
 						19 => array (
 								"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
 						),
-						"declineUrl" => "/checkout/freefood/oto/f4p-choose-3m-4w-kit-discount.php",
+						92 => array (
+								"nextUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount/1wa.php",
+						),
+						"declineUrl" => "/checkout/freefood/thankyou.php",
 						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-1D-F4P-CHOOSE-4W-3M" => array (
@@ -967,13 +970,18 @@ class Product {
 						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-2A-F4P-3MK" => array (
-						"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
-						"declineUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount-c.php",
+						"nextUrl" => "/checkout/freefood/thankyou.php",
+						"declineUrl" => "/checkout/freefood/thankyou.php",
 						"googleBrand" => "F4P-FREE-72HR",
 				),
+				"F4P-OTO-2A-F4P-3MK-DIS" => array (
+					"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
+					"declineUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount/1wa.php",
+					"googleBrand" => "F4P-FREE-72HR",
+				),
 				"F4P-OTO-2A-F4P-1YK" => array (
-						"nextUrl" => "/checkout/freefood/oto/f4p-generator.php",
-						"declineUrl" => "/checkout/freefood/oto/f4p-1year-kit-payments.php",
+						"nextUrl" => "/checkout/freefood/thankyou.php",
+						"declineUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount.php",
 						"googleBrand" => "F4P-FREE-72HR",
 				),
 				"F4P-OTO-3D-F4P-1YK-PAY" => array (
@@ -1023,6 +1031,9 @@ class Product {
 						),
 						19 => array (
 								"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
+						),
+						20 => array (
+							"nextUrl" => "/checkout/oto/f4p-1year-kit.php",
 						),
 						"declineUrl" => "/checkout/oto/f4p-choose-3m-4w-kit-discount.php",
 						"googleBrand" => "F4P-FREE-MINESTRONE",
