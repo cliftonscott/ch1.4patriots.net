@@ -39,7 +39,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-Month Supply Plus FREE Shipping With This 1-Time Offer!</h1>
+				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-month Supply Plus FREE Shipping With This one-time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
 				<script type="text/javascript" src="https://reboot.evsuite.com/player/M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ=/?container=evp-DCCKOWHMRF"></script><div id="evp-DCCKOWHMRF" data-role="evp-video" data-evp-id="M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ="></div>
@@ -68,16 +68,16 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>I did notice one thing that I want to bring up just to make sure you're doing all you can.</p>
 				<p>A lot of people have told me that getting their 4-week supply was a great first step, but they really wanted more. That 4 weeks was just their "starting point" and I get where they're coming from.</p>
 				<p>4 weeks is really a *minimum* recommendation...</p>
-				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special 1-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and 6 FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
-				<h2 class="darkRed text-center">Here Are 3 Reasons Why You Need To Get A 3-Month Food4Patriots Supply Right Now...</h2>
-				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You &amp; Your Family </strong></p>
+				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and six FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
+				<h2 class="darkRed text-center">Here Are 3 Reasons Why You Need To Get A 3-month Food4Patriots Supply Right Now...</h2>
+				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You and Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 				<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
-				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War One, when a pound of bread cost 3 BILLION marks! </p>
-				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 &amp; Get FREE Shipping </strong></p>
-				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a 1-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now. This is the <strong>same exact 3-month kit (with the same free shipping and bonuses)</strong> that you just saw on the previous page at the full price of $497...but I'm knocking an extra $100 off today just to thank you for being a customer.</p>
-				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food & 3-Month Kits Are Flying Off The Shelves!</strong></p>
-				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-Month emergency food kits available so get yours TODAY while we still have them in stock!</p>
+				<p>In a time of crisis, your food will be literally more valuable than gold and you will be able to barter your extra food for whatever you need. When the crisis hits, stores will shut down, farmers won&rsquo;t be able to feed their livestock, urban mobs will riot. Food will be incredibly valuable. Look at what happened in Germany after World War 1, when a pound of bread cost three BILLION marks! </p>
+				<p><strong><span class="numberCircle">3</span> You Save Another $100.00 and Get FREE Shipping </strong></p>
+				<p>You will get the best deal we have ever offered (and may never offer again) if you act now! It’s a one-time discount sale price of $397 for our 3-month kit – that’s <strong>another $100.00 discount off the already-low price</strong> – but only if you act now. This is the <strong>same exact 3-month kit (with the same free shipping and bonuses)</strong> that you just saw on the previous page at the full price of $497... but I'm knocking an extra $100 off today just to thank you for being a customer.</p>
+				<p><span class="numberCircle"><strong>4</strong></span><strong> Glenn Beck Endorses This Survival Food and 3-month Kits Are Flying Off The Shelves!</strong></p>
+				<p>Glenn Beck, the well-known talk-show host and outspoken radio personality, has endorsed Patriot Pantry, the meals in all Food4Patriots kits as THE emergency food kits he recommends for his OWN family. While we’re grateful for Glenn’s support, the phone has been ringing off the hook and we’ve barely been able to keep up with the demand his endorsement has generated. We can’t guarantee we’ll still have 3-month emergency food kits available so get yours TODAY while we still have them in stock!</p>
 
 				<h2 class="darkRed text-center">Glenn Beck Uses THIS Survival Emergency Food to Protect His Own Family</h2>
 
@@ -111,7 +111,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-Month Supply Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
@@ -149,8 +149,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}
 			?>
 			<div class="margin-t-20">
-				<p>And don’t forget…when you order our Food4Patriots 3-month food supply, I’ll throw in 6 incredible bonuses absolutely FREE!</p>
-				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, Water Survival Guide, How to Cut Your Grocery Bills, & the Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
+				<p>And don’t forget... when you order our Food4Patriots 3-month food supply, I’ll throw in six incredible bonuses absolutely FREE!</p>
+				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, Water Survival Guide, How to Cut Your Grocery Bills, and the Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Hard Copy Upgrades <br>To These Professionally Bound  Reports</h2>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-ebook-bonus-01.jpg" alt="Bonus 1" width="550" height="207" ></div>
@@ -166,13 +166,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
 							<ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
 								<li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Califovrnia Wonder Bell Pepper - over 70 seeds </li>
+								<li><i class="fa-li fa fa-check"></i>California Wonder Bell Pepper - over 70 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Golden Acre Cabbage - over 530 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Detroit Dark Red Beet - over 260 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweat Pea - over 100 seeds </li>
+								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweet Pea - over 100 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Beefsteak Tomato - over 180 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Champion Radish - over 320 seeds </li>
 								<li><i class="fa-li fa fa-check"></i>Green Sprouting Broccoli - over 500 seeds </li>
@@ -191,13 +191,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						</div>
 					</div>
 				</div>
-				<p>And last, but certainly not least - I'm going to send you our compact and powerful 11-in-1 survival tool. You never know what you're going to run into in a survival situation. This little tool just might save the day. 11 full functions in a tool that will fit handily in your wallet.</p>
+				<p>And last, but certainly not least - I'm going to send you our compact and powerful 11-in-1 survival tool. You never know what you're going to run into in a survival situation. This little tool just might save the day. Eleven full functions in a tool that will fit handily in your wallet.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE 11-in-1 Survival Tools</h2>
 					<p>Each one of these amazing tools could be a real life-saver, yet they are no bigger than a credit card so you’ll always have it handy.</p>
 					<div><img class="img-responsive center-block" src="/media/images/bonuses/bonus-multi-tool-04.jpg" alt="Multi Tool Bonus"></div>
 				</div>
-				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping AND 6 awesome bonuses.</p>
+				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping AND six awesome bonuses.</p>
 				<p>All for you today. I think that's about the best deal I can make you.</p>
 				<p>Just click the link the button below and I’ll send you your goodies right away.</p>
 			</div>
@@ -206,7 +206,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3 Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-Month Supply Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
@@ -247,10 +247,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 				<div class="outLineBoxDarkBlue">
 					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
-					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
+					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 					satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
-					any reason or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+					any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 					<div class="clearfix"></div>
 				</div>
 
