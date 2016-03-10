@@ -21,8 +21,13 @@ $_SESSION['3mDiscountSkip'] = TRUE;
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
+<<<<<<< HEAD
 $funnelData = $productObj->initFunnel("F4P-OTO-1YK");
 $declineUrl = $funnelData["declineUrl"];
+=======
+$funnelData = $productObj->initFunnel("F4P-OTO-2A-F4P-1YK");
+$declineUrl = url($funnelData["declineUrl"]);
+>>>>>>> NEXT
 
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
@@ -182,7 +187,32 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<p>The 1-year Food4Patriots kit will help secure your stockpile faster and protect you and your family from whatever crisis may come. You&rsquo;ll be on the &ldquo;fast track&rdquo; to securing the ultimate food stockpile.</p>
 
+<<<<<<< HEAD
 				<p><?php echo $firstName;?>, this is your last chance for this special one-time discount, so you need to act now. To get your 1-year Food4Patriots kit at $1000.00 off, click the big orange &ldquo;Click To Accept&rdquo; button below.</p>
+=======
+		<div>
+			<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
+			<div>
+				<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/>
+			</div>
+			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
+			<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
+
+			<a id="accept"></a>
+			<?php
+			if($isUpgrade) {
+				?>
+				<div style="text-align:center;">
+					<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+				</div>
+			<?php
+			} else {
+				?>
+				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
+					<div style="text-align:center;">
+						<input type="image" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block 1yearbuy"/>
+					</div>
+>>>>>>> NEXT
 
 				<div>
 					<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
@@ -251,6 +281,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 						</div>
 
+<<<<<<< HEAD
 						<script>
 							function showDeclineModal() {
 								$('#declineModal').modal('show');
@@ -300,6 +331,26 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 										</div>
 									</div>
 								</div>
+=======
+				.button:hover {
+					background: #489c48;
+					cursor:pointer;
+					-webkit-tap-highlight-color: rgba(0,0,0,0);
+				}
+			</style>
+			<div id="declineModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" style="width:620px;">
+					<div class="modal-content" style="">
+						<div style="padding:10px;width:620px;">
+							<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideDeclineModal();"></div>
+							<div style="padding:10px;">
+								<h3 class="text-center"><span class="darkRed">WAIT!</span> This is your final opportunity to claim your exclusive $1,000.00 discount on our Food4Patriots 1­year kit and you MUST CONFIRM you are permanently giving up this one­time special offer!</h3>
+								<p>I understand that these kits are flying off the shelves and may sell out any time.</p>
+								<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
+								<p>I accept that by declining this offer, I may never see the Food4Patriots 1­year kit at this price ever again.</p>
+								<div class="text-center" style="padding:20px;"><a href="<?php echo url('/checkout/oto/f4p-1year-kit-payments.php'); ?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
+								<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
+>>>>>>> NEXT
 							</div>
 						</div>
 					<?php }else{ ?>

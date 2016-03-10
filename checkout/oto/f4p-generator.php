@@ -19,7 +19,7 @@ include_once("Product.php");
 $productObj = new Product();
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO#3-2A-PPG-GEN");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
@@ -29,7 +29,7 @@ $isLion = $inventoryObj->isLion($productId);
 if($isLion) {
 	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
 	if($hasAllInventory === false) {
-		header("Location: /checkout/thankyou.php?b=t"); //b=t for a 1 year purchase when the generator is out of stock - VWO-333 6/29/15
+		header("Location: " . url('/checkout/thankyou.php?b=t')); //b=t for a 1 year purchase when the generator is out of stock - VWO-333 6/29/15
 		exit;
 	}
 }
@@ -386,7 +386,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				if($isUpgrade) {
 					?>
 					<div style="text-align:center;">
-						<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+						<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 					</div>
 				<?php
 				} else {
@@ -548,7 +548,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				if($isUpgrade) {
 					?>
 					<div style="text-align:center;">
-						<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+						<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 					</div>
 					<?php
 				} else {

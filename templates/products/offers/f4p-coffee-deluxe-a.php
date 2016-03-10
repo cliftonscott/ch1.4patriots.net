@@ -172,7 +172,7 @@ if(!$pageGreeting) {
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
 					<img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
-					<p style="padding: 30px 0 0;"><strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p>
+					<p style="padding: 30px 0 0;"><strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted with your Food4Patriots Coffee purchase, just return it within 365 days and I’ll give you every cent of your money back.</p>
 				</div>
 			</div>
 			<div class="outLineBoxDarkBlueCoffee" style="min-height:240px;">
@@ -198,7 +198,7 @@ if(!$pageGreeting) {
 			if($isUpgrade) {
 				?>
 				<div style="text-align:center;">
-					<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
+					<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg" name="submit" class="img-responsive center-block"></a>
 				</div>
 			<?php
 			} else {
@@ -249,7 +249,7 @@ if(!$pageGreeting) {
 			<div class="outLineBoxDarkBlueCoffee">
 				<div>
 					<img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media" style="padding-right:10px;">
-					<p style="padding: 30px 0 0;"><strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted with your Food4Patriots Coffee purchase, just return it within 60 days and I’ll give you every cent of your money back.</p>
+					<p style="padding: 30px 0 0;"><strong>Guarantee #1 –</strong> A 100%, no questions asked full Money Back Guarantee. If for ANY reason you’re not delighted with your Food4Patriots Coffee purchase, just return it within 365 days and I’ll give you every cent of your money back.</p>
 				</div>
 			</div>
 			<div class="outLineBoxDarkBlueCoffee" style="min-height:240px;">

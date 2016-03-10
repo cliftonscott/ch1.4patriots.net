@@ -81,8 +81,9 @@ $detect = new Mobile_Detect;
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
+$queryString = $_SERVER['QUERY_STRING'];
 if ($vsl != "3f" && $vsl != "fs" && ($detect->isMobile())) {
-	header('Location: /letter/index.php');
+	header('Location: ' . url('/letter/index.php'));
 	exit();
 };
 /*END MOBILE REDIRECT*/
@@ -99,15 +100,17 @@ include_once("agile/template-top.php");
 
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
+$offerUrl = url('/checkout/index.php');
 $platform->setCsrModalButtons("sample,video,letter");
 ?>
 
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-	// SPLIT JV-56 DESKTOP 2/12/16
-	if (JV::in("56-vsl4") || JV::in("56-vsl4pop")) {
-		include_once('content-jv-56-vsl4.php'); /*JV-56 SPLIT*/
+	// SPLIT JV-61 DESKTOP 2/23/16
+	if (JV::in("61-vsl4")) {
+		include_once('content-jv-61-vsl4.php'); /*JV-56 SPLIT*/
+	}elseif(JV::in("61-vsl4-1")) {
+		include_once('content-jv-61-vsl4-1mix.php'); /*CONTROL*/
 	}else{
 		include_once('content.php'); /*CONTROL*/
 	};

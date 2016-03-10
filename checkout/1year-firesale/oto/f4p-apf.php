@@ -34,7 +34,7 @@ $primaryProductId = 258;
 $secondaryProductId = 257;
 
 
-$declineUrl = "/checkout/1year-firesale/thankyou.php";
+$declineUrl = url("/checkout/1year-firesale/thankyou.php");
 include_once("template-top.php");
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>

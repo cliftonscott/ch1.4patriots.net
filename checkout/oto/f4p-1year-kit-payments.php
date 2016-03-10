@@ -20,7 +20,7 @@ $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 include_once("agile/template-top.php");
 
 $funnelData = $productObj->initFunnel("F4P-OTO#3-2D-F4P-1YK-PAY");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -70,7 +70,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 if($isUpgrade) {
 ?>
 	<div class="text-center center-block">
-		<a href="/order/<?php echo $productDataObj->productId;?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/></a>
+		<a href="<?php echo url("/order/" . $productDataObj->productId);?>"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" name="submit" class=" img-responsive center-block"/></a>
 	</div>
 	<?php
 } else {

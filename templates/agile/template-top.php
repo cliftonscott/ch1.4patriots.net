@@ -1,6 +1,4 @@
 <?php
-include_once("Analytics.php");
-$analyticsObj = new Analytics();
 include_once("Platform.php");
 $platform = new Platform();
 require_once("Meta.php");
@@ -122,7 +120,9 @@ if(!empty($customerDataObj->shippingCity)) {
 		include_once("exit-pop-video.php");
 	}
 	?>
-
+	<?php if (JV::in("66-geo")): /*JV-66 MOBILE ONLY GEOTARGETING*/?>
+	<script type='text/javascript' src='https://www.geolify.com/geojavascript.php?id=12428'></script>
+	<?php endif ?>
 </head>
 <body>
 <?php include_once("ga-data-layer.php"); ?>

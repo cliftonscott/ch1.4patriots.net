@@ -15,13 +15,13 @@ include_once("agile/template-top.php");
 /*END TEST*/
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
-$offerUrl = "/checkout/index.php" . $analyticsObj->queryString;
+$offerUrl = url('/checkout/index.php');
 
 ?>
 
 <div id="wrapper">
 	<?php
-	if (JV::in("56-vsl4")) {
+	if (JV::in("61-vsl4") || JV::in("61-vsl4-1")) {
 		echo '<div class="container-main">';
 		include_once('food/content-b.php'); /*JV-56 SPLIT*/
 		echo '</div>';

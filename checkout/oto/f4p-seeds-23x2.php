@@ -32,13 +32,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div class="darkRed text-center h3">$23.50 Today Plus 1 More Payment Of $23.50 In 30 Days</div>
 		<div>
 			<div class="text-center">
-				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			</div>
 
 			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 
 			<div class="noThanks">
-				<a href="/checkout/oto/f4p-messenger-trial.php">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+				<a href="<?php echo url('/checkout/oto/f4p-messenger-trial.php'); ?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>  
 

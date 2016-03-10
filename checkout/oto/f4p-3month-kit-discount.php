@@ -18,7 +18,7 @@ $_SESSION['nextPageOverride'] = '/checkout/thankyou.php'; // $nextPage set to 1 
 // Redirects If Already Offered 3 Month Discount
 if($_SESSION['3mDiscountSkip'] === TRUE) {
 	unset($_SESSION['3mDiscountSkip']);
-	header("Location: /checkout/thankyou.php");
+	header("Location: " . url('/checkout/thankyou.php'));
 }
 include_once("Product.php");
 $productObj = new Product();
@@ -27,7 +27,7 @@ $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 include_once("agile/template-top.php");
 
 $funnelData = $productObj->initFunnel("F4P-OTO#3-3D-F4P-3MO");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -55,13 +55,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 if($isUpgrade) {
 ?>
 			<div class="text-center">
-				<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			</div>
 <?php
 } else {
 ?>
 			<div class="text-center">
-				<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+				<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
 			</div>
 <?php
 }

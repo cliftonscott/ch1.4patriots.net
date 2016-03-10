@@ -17,4 +17,4 @@ if(in_array($pid,$validPids)) {
 	$_SESSION["productId"] = $pid;
 	$_SESSION["upgrade"] = true;
 }
-header("Location: /checkout/order.php");
+header("Location: " . url('/checkout/order.php'));

@@ -17,7 +17,7 @@ include_once("Product.php");
 $productObj = new Product();
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("F4P-OTO#3-3A-PPG-PLAT");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 //check for inventory supply for Lion Energy Products
 $productId = $_SESSION['productId'];
@@ -27,7 +27,7 @@ $isLion = $inventoryObj->isLion($productId);
 if($isLion) {
 	$hasAllInventory = $inventoryObj->hasAllInventoryByPid($productId);
 	if($hasAllInventory === false) {
-		header("Location: /checkout/thankyou.php");
+		header("Location: " . url('/checkout/thankyou.php'));
 		exit;
 	}
 }

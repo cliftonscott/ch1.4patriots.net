@@ -56,20 +56,23 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<?php include_once("products/F4P-bonus-manuals.php");?>
 		</div>
 		<div class="margin-tb-20">
-		<?php include_once("snippets/get-adobe-reader.html");?>
+		<?php //include_once("snippets/get-adobe-reader.html");?>
 		</div>
 
-        <div class="margin-tb-20 text-center">
-        	<h2 class="darkRed">Customer Service Contact Info</h2>
-	
-			<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
+        <div class="margin-tb-20">
+			<?php
+			if( $detect->isTablet() || !$detect->isMobile() ){
+				include_once("recommendations/thankyou-ads.php");
+			}
+			?>
+			<!--<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
 				<script type="text/javascript">
 					emailE=('help@' + 'food4patriots.com')
 					document.write(
 						'<A href="mailto:' + emailE + '">'
 							+ emailE + '</a>'
 					)
-				</script></p>
+				</script></p>-->
         </div>
         <div class="margin-tb-20">
 			<?php

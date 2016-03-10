@@ -21,7 +21,7 @@ $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 include_once("agile/template-top.php");
 
 $funnelData = $productObj->initFunnel("F4P-OTO-1D-F4P-CHOOSE-4W-3M");
-$declineUrl = $funnelData["declineUrl"];
+$declineUrl = url($funnelData["declineUrl"]);
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
@@ -92,7 +92,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 if($isUpgrade) {
 ?>
 						<div class="text-center center-block">
-							<a href="/order/22"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+							<a href="<?php echo url('/order/22'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 						</div>
 	<?php
 } else {
@@ -149,7 +149,7 @@ if($isUpgrade) {
 if($isUpgrade) {
 	?>
 	<div class="text-center center-block">
-		<a href="/order/23"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
+		<a href="<?php echo url('/order/23'); ?>"><img src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class=" img-responsive center-block" onClick="" /></a>
 	</div>
 <?php
 } else {
