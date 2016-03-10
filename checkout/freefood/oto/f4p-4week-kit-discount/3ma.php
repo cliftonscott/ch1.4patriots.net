@@ -32,16 +32,16 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Want To Get Another 4-Week Kit For $50 Off? </span></h1>
+				<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Want To Get Another 4-week kit For $50 Off? </span></h1>
 			</div>
 			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food4Patriots Kit"/></div>
 			<div>
 				<p><?php echo $firstName;?>, once again, congratulations for making the great decision to get the 4-week Food4Patriots kit.</p>
-				<p>I know you declined the previous offer of getting a 3-Month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. I totally understand…but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
+				<p>I know you declined the previous offer of getting a 3-month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. I totally understand…but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
 				<p>So to thank you for becoming a customer today, I am offering you an <strong>exclusive $50.00 discount (that’s 25% off)</strong> on an additional 4-week kit.</p>
-				<p>That’s right, you can get ONE MORE 4-Week Food4Patriots kit for just $147 if you act now.</p>
+				<p>That’s right, you can get ONE MORE 4-week Food4Patriots kit for just $147 if you act now.</p>
 				<p>Look, I want to help you get where you need to be with your food stockpile…but without breaking the bank to get there.</p>
-				<p>So fellow Patriot, would you like to accelerate your results by adding an additional 4-Week Food4Patriots Kit to your order at a 1-time discount sale price of $147 (that’s a $50.00 discount and 25% off the already low price)?</p>
+				<p>So fellow Patriot, would you like to accelerate your results by adding an additional 4-week Food4Patriots kit to your order at a one-time discount sale price of $147 (that’s a $50.00 discount and 25% off the already low price)?</p>
 				<p class="text-center read-warning" style="max-width:100%;">Note: 72% of the people who see this page accept this special offer.</p>
 
 				<?php
