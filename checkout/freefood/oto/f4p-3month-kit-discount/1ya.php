@@ -49,7 +49,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p><?php echo $firstName;?>, please accept this opportunity to get an additional 3-month Food4Patriots Kit for only $397 and save $100 today. Just click on the big orange "Click To Accept" button below.</p>
 		</div>
 		<div>
-
 			<?php
 			if($isUpgrade) {
 				?>

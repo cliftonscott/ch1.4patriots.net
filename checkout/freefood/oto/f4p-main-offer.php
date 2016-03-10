@@ -18,7 +18,7 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
 $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
-$funnelData = $productObj->initFunnel("F4P-OTO-F4P-MAIN-OFFER");
+$funnelData = $productObj->initFunnel("F4P-OTO-MAIN-OFFER");
 $declineUrl = $funnelData["declineUrl"];
 
 include_once("template-top.php");
@@ -644,7 +644,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 				</div>
 				<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
@@ -718,7 +718,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 				</div>
 				<p>Now, bear with me for another few seconds and picture something in your mind because it&rsquo;s important.</p>
@@ -735,14 +735,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 				<p>Be sure to make the right one.</p>
 				<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
-				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
+				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 60 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
 				<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
 				<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;Choose My Kit&rdquo; button below</strong>.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 Days a Year</span><br>
+					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 				</div>
 			</div>

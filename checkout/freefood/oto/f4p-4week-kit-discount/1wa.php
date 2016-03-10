@@ -23,7 +23,7 @@ $declineUrl = $funnelData["declineUrl"];
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<script src="/js/audio.js"></script>
+	<script src="/js/audio.js"></script>
 	<div class="container-main">
 		<div class="breadcrumb1">
 			<a>CHECKOUT</a>
