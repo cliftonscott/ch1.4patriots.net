@@ -504,7 +504,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>After months of work and research, we finally cooked up our first batch, and I knew we had something nobody else did: American-made food that I'd be happy to feed my own kids and grandkids.</p>
 				<p>The food was delicious, easy to store long-term, and best of all, it was packaged right here in the U.S. of A. That&rsquo;s why we decided to call it <strong>Food4Patriots</strong>.&nbsp;</p>
 				<p>Plus, our food didn't have any of those harmful chemicals or genetically modified ingredients, no MSG, no GMOs and no mystery &ldquo;Frankenfood&rdquo; from China.</p>
-				<p>But To Be Honest, We Were Worried That This Was Too Good To Be True.</p>
+				<p>But to be honest, we were worried that this was too good to be true.</p>
 
 				<h2 class="darkRed text-center">Was It Going To Cost An Arm And A Leg?</h2>
 				<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
@@ -567,7 +567,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<li><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
 					<li><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
 					<li><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
-					<li><i class="fa fa-check"></i> Blue Ribbon Cheesy Rice (My kids actually beg me to make this one all the time!)</li>
+					<li><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice (My kids actually beg me to make this one all the time!)</li>
 					<li><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
 					<li><i class="fa fa-check"></i> Creamy Stroganoff</li>
 				</ul>
@@ -735,7 +735,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 				<p>Be sure to make the right one.</p>
 				<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
-				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 60 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
+				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
 				<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
 				<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;Choose My Kit&rdquo; button below</strong>.</p>
 				<div class="text-center">
