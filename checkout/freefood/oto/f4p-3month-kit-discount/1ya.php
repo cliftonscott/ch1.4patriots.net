@@ -30,6 +30,11 @@ $declineUrl = $funnelData["declineUrl"];
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+<style>
+	p{
+		font-size: 20px;
+	}
+</style>
 	<div class="container-main">
 	<div class="breadcrumb1">
 		<a>CHECKOUT</a>
@@ -64,8 +69,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<?php
 			}
 			?>
-			<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
-			<div class="noThanks">
+			<div class="text-center" style="margin-top:20px;font-size: 20px"><strong>OR</strong></div>
+			<div style="font-size: 20px" class="noThanks">
 				<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
 			</div>
 		</div>
