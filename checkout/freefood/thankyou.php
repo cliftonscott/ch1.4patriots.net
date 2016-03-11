@@ -3,6 +3,14 @@ $_SESSION["upsell"] = TRUE; //must stay a boolean
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+<style>
+	body{
+		font-size: 20px;
+	}
+	p{
+		font-size: 20px;
+	}
+</style>
 
 	<script src="/js/audio.js"></script>
 	<div class="container-main">
@@ -45,7 +53,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 			</div>
 
-			<div class="margin-tb-20">
+			<div style="font-size: 20px" class="margin-tb-20">
 				<?php include_once("products/F4P-fruitveggiesnack-pid128.php");?>
 			</div>
 			<div class="margin-tb-20">
@@ -87,7 +95,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p>How To Download: Click each of the links next to the manual to download that manual: Right click, then select &quot;Save Target As&quot; (or &quot;Save Link As&quot;).</p>
 					<p><img src="/media/images/misc/menu.gif" alt="Menu" class="img-responsive center-block" /></p>
 					<p>Once you select the &quot;save target as&quot; or &quot;save link as&quot;, a download screen will appear asking you where you want to save the file to on your computer.</p>
-					<p><span class="small1">(The download screen will appear like this...)</span><br /> <img src="/media/images/misc/saving.gif" alt="Save" class="img-responsive center-block" /></p>
+					<p><span class="small1">(The download screen will appear like this...)</span><br><br> <img src="/media/images/misc/saving.gif" alt="Save" class="img-responsive center-block" /></p>
 					<p>Save the file to your &quot;Desktop&quot; or another folder you can easily find.</p>
 					<p>Once you have downloaded the file, go to your desktop or the folder you saved it to and double click the file to open it.</p>
 				</div>
