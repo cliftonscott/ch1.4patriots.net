@@ -386,9 +386,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p><em>&ldquo;Thanks Frank. Well, it was kind of crazy to get this letter from FEMA. I don't mean to sound paranoid, but they were asking some questions that make me pretty nervous.</em></p>
 					<p><em>FEMA and the Department of Homeland Security demanded to know:</em></p>
 					<ul>
-						<li><strong><em>How much emergency food we can deliver immediately.</em></strong></li>
-						<li><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a "state of emergency" I don't think I want to answer this). </em></li>
-						<li><strong><em>If we can ship dedicated truckloads</em></strong><em> (that means a truck heading straight for FEMA with nothing but survival food just for them) by the pallet, and how many pallets we could cram in each truck.</em><em>&nbsp;</em></li>
+						<li style="font-size: 20px"><strong><em>How much emergency food we can deliver immediately.</em></strong></li>
+						<li style="font-size: 20px"><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a "state of emergency" I don't think I want to answer this). </em></li>
+						<li style="font-size: 20px"><strong><em>If we can ship dedicated truckloads</em></strong><em> (that means a truck heading straight for FEMA with nothing but survival food just for them) by the pallet, and how many pallets we could cram in each truck.</em><em>&nbsp;</em></li>
 					</ul>
 					<p><em>And the strangest question of all, if we worked like mad men, <strong>how much emergency food could we produce in 24 hours?</strong></em></p>
 					<p><em>I gotta tell you, Frank, I'm real concerned. This letter is proof that FEMA wants our emergency survival food. They don't want anyone to know it, and they want to take immediate delivery.</em></p>
@@ -397,7 +397,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>I hear you, Matt. From the sounds of it, something big is about to happen and it's no wonder that our food is literally flying off the shelves. It makes sense, doesn't it?</p>
 
 				<h2 class="darkRed text-center">You Should Know That FEMA Won’t Get Even One Single Emergency Food Kit From Us</h2>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food.jpg" alt="">
+				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-02.jpg" alt="">
 				<p>This is truly an urgent situation, but don't worry - you should know Matt and I refuse to respond to their demands. Why?</p>
 				<p>Because we don't believe that these critical emergency food kits should be in the hands of the government, <strong>stored in some secret warehouse and with the rest of us left with table scraps in a crisis</strong>.</p>
 				<p>Because we understand that without non-perishable food like this, many folks will be <strong>downright helpless and dependent on the government in an emergency</strong>.</p>
@@ -410,7 +410,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Heck, we've had a rush of people taking advantage of our special "fire sale" offer to grab their food kits to protect their family.&nbsp;</p>
 				<p>Now to be blunt, this is a first-come-first-serve opportunity and because of all the controversy, <strong>I cannot guarantee supply forever</strong>. Which means if we run out before you have a chance to claim your kit, I'm sorry, but you'll just have to wait and hope we can get more in before something really bad hits.</p>
 
-				<h2 class="darkRed text-center">You've Seen the Evidence. You Know the Situation is Serious</h2>
+				<h2 class="darkRed text-center">You've Seen the Evidence, You Know the Situation is Serious</h2>
 				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-breaking-news.jpg" alt="">
 				<p>ISIS terrorists inside our country&hellip; <strong>a government that takes more and more away from people who worked hard to earn it</strong> (and gives it to those who want "something for nothing&rdquo;) &hellip; and a history of botched responses to natural disasters &mdash; it all proves we can't rely on the government in a crisis.&nbsp;</p>
 				<p>That may explain why so many folks are taking action right now to stockpile the #1 item needed in a crisis&hellip; <strong>survival food</strong>.&nbsp;</p>
@@ -421,7 +421,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>And we're doing everything we can to accelerate packing and shipping so we can rush your kit to you as soon as you order it.</p>
 				<p>I'm going to keep doing this as long as I can. I hope we can help folks all across the country get peace of mind and know that they&rsquo;re protected in case of disaster for years to come. We&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
 
-				<h2 class="darkRed text-center">But Here's Why This Fire Sale Could End in a Matter of Days</h2>
+				<h2 class="darkRed text-center">But Here's Why This Fire Sale Could<br class="hidden-xs"> End in a Matter of Days</h2>
 				<p>First, Matt could run out of the raw ingredients needed to get these kits produced. I'd be shocked if FEMA stopped looking for suppliers just because we turned them down. And there are companies a whole lot bigger than us that can buy up all the ingredients.</p>
 				<p>Second, and I hope the government never gets to this point, part of me thinks that the government might have wanted to know how much food we've got in stock in case they ever decided to take it. The fact is, they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat. All it would take is the president declaring a "state of emergency.&rdquo;</p>
 
@@ -434,7 +434,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Think I&rsquo;m kidding? Remember the bleak living conditions folks had to endure in one of those Godforsaken places after Hurricane Katrina and Superstorm Sandy?</p>
 				<p>Things like:</p>
 				<blockquote style="font-size: 16px;border: none">
-					<p><strong>Bitter cold or blistering heat</strong> from living in a tent with no insulation&hellip;&nbsp;</p>
+					<p><i class="fa fa-check"></i> <strong>Bitter cold or blistering heat</strong> from living in a tent with no insulation&hellip;&nbsp;</p>
 					<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-dumpster-diving.jpg" alt="">
 					<p><i class="fa fa-check"></i> <strong>Inadequate food</strong> - (think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</p>
 					<p><i class="fa fa-check"></i> <strong>Crime</strong> - from robbery to assault to rape and worse. (Remember those first few days post-Katrina? Even the police were afraid to be out on the street!)</p>
@@ -515,7 +515,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>These hard-working folks are experts in their field&hellip; nutritionists, chefs, engineers, packers and quality control inspectors. You&rsquo;ll meet some of our people and learn more about our unique manufacturing process in just a bit.</p>
 				<p>Next, we combine our top-quality ingredients using prize-winning recipes. In fact, many of our recipes have won independent taste tests.</p>
 
-				<h2 class="darkRed text-center">Space-Age Mylar Packaging Keeps Our Food Fresh… For 25 Years</h2>
+				<h2 class="darkRed text-center">Space-Age Mylar Packaging Keeps<br class="hidden-xs"> Our Food Fresh… For 25 Years</h2>
 				<p>Some manufacturers freeze-dry their food - which is hideously expensive for you - while others use the cheaper, rapid-dehydration method that sucks all the water out but also pulls nutrients and flavor with it.&nbsp;</p>
 				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-mylar-packaging.jpg" alt="">
 				<p></p>
@@ -553,7 +553,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Look, I'd rather you get your own personal food stockpile than see the government hoard them. Since they&rsquo;re clearing out fast I'll be ordering as many as I can to keep up with the demand. But if the supply of raw ingredients dries up or food prices skyrocket, there may be no way of restocking quickly or economically.</p>
 				<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
 				<p>So why is our survival food flying off the shelves?</p>
-				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>. Just add boiling water, simmer and serve.&nbsp;</p>
+				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>.</p>
+				<p>Just add boiling water, simmer and serve.&nbsp;</p>
 				<p>Can you picture how easy this is? It's so simple even kids can make our food.</p>
 
 				<h2 class="darkRed text-center">Each Food4Patriots Survival Food Kit<br class="hidden-xs"> Is Packed With Variety</h2>
@@ -564,12 +565,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p></p>
 				<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
 				<ul style="margin-left: 30px;list-style-type: none;">
-					<li><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
-					<li><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
-					<li><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
-					<li><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice (My kids actually beg me to make this one all the time!)</li>
-					<li><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
-					<li><i class="fa fa-check"></i> Creamy Stroganoff</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice</li>
+					<li style="font-size: 20px;padding-left: 50px"><em>(My kids actually beg me to make this one all the time!)</em></li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Creamy Stroganoff</li>
 				</ul>
 				<p>And just to prove we’re on the level about how good this food really tastes, we did a secret taste test with the folks over at The Blaze, one of the country’s most popular conservative news website.</p>
 				<p>They loved the taste. They had no idea they’d been eating survival food. In fact, they thought it had been a catered lunch!</p>
@@ -587,7 +589,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div style="margin-top: -10px;margin-bottom: 20px"><img src="/media/images/f4p/f4p-testimonial-33.jpg" width="630" height="176" class="img-responsive center-block"/></div>
 				<p>But here's another important part: your kids won’t have to settle for smaller serving sizes. Some brands use kids’ meals to skimp on the amount of food they give you. With Food4Patriots, kids get a full adult-size portion without getting charged extra.</p>
 
-				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream... ‘Here’s My Food, Come Take It</h2>
+				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream...<br class="hidden-xs">Here’s My Food, Come Take It</h2>
 				<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
 				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
 				<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy,  waterproof and<br class="hidden-xs"> easy-to-stack.</p>
@@ -673,7 +675,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>With us, you&rsquo;ll only be dealing with Josh, Bonnie, Ray, Lisa and other good folks right here in the USA. People who own and have eaten Food4Patriots themselves and know the product inside out.</p>
 				<p>Now to help make this a complete no-brainer for you.</p>
 
-				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE Bonus Reports That Will Be A Perfect Complement To Your Food</h2>
+				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE<br class="hidden-xs"> Bonus Reports That Will Be A Perfect<br class="hidden-xs"> Complement To Your Food</h2>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-10-items-after-crisis.jpg" width="100%" alt="Bonus 1" class="media left img-responsive"></div>
 					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
