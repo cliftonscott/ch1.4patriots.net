@@ -31,7 +31,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 			<div class="margin-tb-20">
 				<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge
-					from Food4Patriots.com and your bonuses are below</p>
+					from Food4patriots com and your bonuses are below</p>
 			</div>
 			<div class="margin-tb-20">
 				<?php include("snippets/frank-thankyou-msg.html");?>
@@ -84,35 +84,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 				</div>
 			</div>
-			<div class="margin-tb-20">
-				<div class="adobeReaderBox">
-					<h2 class="darkRed text-center center-block">If You Need To Download PDF Reader</h2>
-
-					<p>You must have Adobe Acrobat PDF Reader (version 5.0 &amp; up) to view the ebook PDF file and the bonuses. If you don't have the latest Adobe Acrobat PDF Reader left click here to get it. </p>
-					<p><a href="https://adobe.com/reader" target="_blank"><img src="/media/images/misc/Adobe_Acrobat_Icon.jpg" alt="Adobe"style="width:75px;" /> Get Adobe Acrobat PDF Reader FREE</a></p>
-					<p>Note - clicking the links above will open a NEW page in your browser so you don't lose this download page.</p>
-					<h2 class="darkRed title-max-560 text-center center-block">If You Need Help Downloading The PDF Bonus Files</h2>
-					<p>How To Download: Click each of the links next to the manual to download that manual: Right click, then select &quot;Save Target As&quot; (or &quot;Save Link As&quot;).</p>
-					<p><img src="/media/images/misc/menu.gif" alt="Menu" class="img-responsive center-block" /></p>
-					<p>Once you select the &quot;save target as&quot; or &quot;save link as&quot;, a download screen will appear asking you where you want to save the file to on your computer.</p>
-					<p><span class="small1">(The download screen will appear like this...)</span><br><br> <img src="/media/images/misc/saving.gif" alt="Save" class="img-responsive center-block" /></p>
-					<p>Save the file to your &quot;Desktop&quot; or another folder you can easily find.</p>
-					<p>Once you have downloaded the file, go to your desktop or the folder you saved it to and double click the file to open it.</p>
-				</div>
-			</div>
-
 			<div class="margin-tb-20 text-center">
-				<h2 class="darkRed">Customer Service Contact Info</h2>
-
-				<p>If you have a problem or question feel free to call 1-800-728-0008<br> or email us at
-					<script type="text/javascript">
-						emailE=('help@' + 'food4patriots.com')
-						document.write(
-							'<A href="mailto:' + emailE + '">'
-							+ emailE + '</a>'
-						)
-					</script></p>
+				<?php include ("recommendations/thankyou-ads.php");?>
 			</div>
+
 			<div class="margin-tb-20">
 				<?php
 				if($_SESSION["orders"]) {
