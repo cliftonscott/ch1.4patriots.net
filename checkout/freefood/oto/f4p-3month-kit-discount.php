@@ -47,7 +47,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots 3-month Supply Plus FREE Shipping With This one-time Offer!</h1>
+				<h1 class="darkRed text-center title-max-595 center-block">Get $100.00 Off Food4Patriots<br class="hidden-xs"> 3-month Supply Plus FREE Shipping <br class="hidden-xs">With This One-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
 				<script type="text/javascript" src="https://reboot.evsuite.com/player/M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ=/?container=evp-DCCKOWHMRF"></script><div id="evp-DCCKOWHMRF" data-role="evp-video" data-evp-id="M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ="></div>
@@ -98,7 +98,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 									<div style="float:left;">
 										<audio id="beckAudioSrc" src="/media/audio/f4p-beck-testimonial-02.mp3" preload="auto">Your browser does not support HTML5 Audio</audio>
 									</div>
-									<img id="beckAudioControl" src="/assets/images/misc/speaker_off.gif" class="audioControl" onclick="toggleAudio('beck');">Listen to Glenn.
+									<img style="margin-bottom: 20px" id="beckAudioControl" src="/assets/images/misc/speaker_off.gif" class="audioControl" onclick="toggleAudio('beck');">Listen to Glenn.
 								</div>
 							</div>
 							<div style="font-size: 25px; margin-top: 20px; font-weight: bold;line-height: 25px;margin-bottom: 30px;">&quot;How Long Would You Last If The Grocery Stores Ceased To Exist?&quot;</div>
@@ -114,7 +114,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 				</div>
 			</div>
-			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
+			<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-3-month-kit-08.jpg" alt="3 Month Kit"/></div>
 			<div class="row">
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
@@ -161,7 +161,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, Water Survival Guide, How to Cut Your Grocery Bills, and the Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Hard Copy Upgrades <br>To These Professionally Bound  Reports</h2>
-					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-ebook-bonus-01.jpg" alt="Bonus 1" width="550" height="207" ></div>
+					<div><img class="img-responsive center-block" src="/media/images/bonuses/f4p-ebook-bonus-02.jpg" alt="Bonus 1" width="550" height="207" ></div>
 				</div>
 				<p>Next, I want to help you get to the next level of food independence and to do that I'm going to throw in one of my Liberty Seed Vaults.</p>
 				<div class="rcBoxR10">
@@ -209,7 +209,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>All for you today. I think that's about the best deal I can make you.</p>
 				<p>Just click the link the button below and I’ll send you your goodies right away.</p>
 			</div>
-			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-02.jpg" alt="3 Month Kit"/></div>
+			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-08.jpg" alt="3 Month Kit"/></div>
 			<div class="row">
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
@@ -263,7 +263,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 
 				<div class="outLineBoxDarkBlue">
-					<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+					<p><img style="margin-bottom: 20px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
 					<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
 				</div>
@@ -286,7 +286,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				<div class="noThanks">
-					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs">  special offer again.
 				</div>
 			</div>
 			<div>
