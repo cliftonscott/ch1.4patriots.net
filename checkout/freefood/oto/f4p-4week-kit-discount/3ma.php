@@ -42,7 +42,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Want To Get Another 4-week kit For $50 Off? </span></h1>
 			</div>
-			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food4Patriots Kit"/></div>
+			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-07.jpg" alt="4 Week Food4Patriots Kit"/></div>
 			<div>
 				<p><?php echo $firstName;?>, once again, congratulations for making the great decision to get the 4-week Food4Patriots kit.</p>
 				<p>I know you declined the previous offer of getting a 3-month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. I totally understand…but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>

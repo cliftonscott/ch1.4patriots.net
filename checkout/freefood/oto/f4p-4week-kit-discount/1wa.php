@@ -42,7 +42,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<h1 class="darkRed text-center"><?php echo $firstName;?>, <span class="titles">Add A 4-Week Food<br class="hidden-xs"> Kit Today And Save $50.00?</span></h1>
 			</div>
-			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-01.jpg" alt="4 Week Food4Patriots Kit"/></div>
+			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-07.jpg" alt="4 Week Food4Patriots Kit"/></div>
 			<div>
 				<p><?php echo $firstName;?>, congratulations for making the great decision to get the Food4Patriots basic survival kit.</p>
 				<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $shippingCity;?>.</p>
