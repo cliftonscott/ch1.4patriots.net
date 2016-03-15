@@ -40,7 +40,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Want To Get Another 4-week kit For $50 Off? </span></h1>
+				<h1 class="darkRed text-center"><?php echo $firstName;?><span class="titles">, Want To Get Another <br class="hidden-xs"> 4-week kit For $50 Off? </span></h1>
 			</div>
 			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-07.jpg" alt="4 Week Food4Patriots Kit"/></div>
 			<div>
@@ -72,7 +72,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 				<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 				<div class="noThanks">
-					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+					<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
 				</div>
 			</div>
 		</div>
