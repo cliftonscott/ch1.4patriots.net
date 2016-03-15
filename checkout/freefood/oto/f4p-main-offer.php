@@ -641,7 +641,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>It&rsquo;s hard to put a price on the peace of mind that a survival food stockpile gives you.</p>
 				<p>And I know every family is different and there's no one-size-fits-all survival food solution.</p>
 				<p>So I've put together a variety of Food4Patriots kits based on feeding an adult over a specific period of time. That way, <strong>you can pick the exact size that works best for you and your family</strong>. No need to buy more or less than you actually need, so nothing goes to waste.&nbsp;</p>
-				<p>Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button to see the product options page.</p>
+				<p>Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below to get started.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
@@ -715,7 +715,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>When a food crisis strikes there are really two groups of people: the people who prepared, and the people who didn't. If you've read this far, my guess is you're someone who's going to prepare. But let me warn you - the rest of the world may very well be greedy for your stockpile. Especially now that we know that government wants to hoard these meals too.</p>
 				<p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
 				<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There are no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
-				<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below&nbsp;to get started.</p>
+				<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below to get started.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
@@ -758,14 +758,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Product Fact</li>
+							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<!--<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Product Fact<span></span></li>-->
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Some other things about the product.</p>
+							<p>Great for a little extra peace of mind in a crisis.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
@@ -794,14 +794,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Product Fact</li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Free 4 Bonus Hardcover Reports</li>
+							<li><i class="fa fa-check"></i> Free Survival Tool<span></span></li>
+							<li><i class="fa fa-check"></i> Free Seed Vault<span></span></li>
+							<li><i class="fa fa-check"></i> Free Shipping <span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Some other things about the product.</p>
+							<p>Deluxe kit that will leave you feel fully prepared. </p>
 						</div>
 						<?php
 						if($isUpgrade) {
@@ -829,14 +828,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Product Fact</li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Some other things about the product.</p>
+							<p>Perfect for covert storage and packaged for a longer crisis.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
