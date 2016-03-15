@@ -82,7 +82,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="clearfix"></div>
 				</div>
 				<div class="outLineBoxDarkBlue">
-					<p><img src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+					<p><img style="margin-bottom: 40px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any
 					of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you
 					can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
