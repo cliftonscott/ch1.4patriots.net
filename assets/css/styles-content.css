@@ -244,6 +244,9 @@ article.content .effective-date {
 .margin-b-16 li{
 	margin-bottom: 16px;
 }
+.margin-b-20 {
+	margin-bottom: 20px !important;
+}
 .img-padding-right {
 	padding-right: 10px;
 }
@@ -731,6 +734,7 @@ img.audioControl {
 	border:2px solid black;
 	padding:25px;
 	margin: auto;
+	border-radius: 15px;
 }
 .bonus-materials h3 {
 	font-weight: bold;
@@ -739,6 +743,9 @@ img.audioControl {
 }
 .bonus-materials p {
 	text-align:center;
+}
+.right-border {
+	border-right: solid 2px #CC0000;
 }
 /* More Info Popup
 -------------------------------------------------- */
@@ -758,6 +765,9 @@ img.audioControl {
 	.btn-2 {
 		width: 70%;
 	}
+	.right-border {
+		border-right: none;
+	}
 
 }
 @media screen and (max-width: 640px) {
@@ -776,7 +786,9 @@ img.audioControl {
 	.btn-2 {
 		font-size: 40px;
 	}
-
+	.right-border {
+		border-right: none;
+	}
 }
 @media screen and (max-width: 520px) {
 	.arrowR {
@@ -797,5 +809,7 @@ img.audioControl {
 		font-size: 40px;
 		width: 90%;
 	}
-
+	.right-border {
+		border-right: none;
+	}
 }
