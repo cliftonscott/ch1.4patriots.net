@@ -324,6 +324,83 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		}
 	}
 </style>
+<script>
+	/*
+	 This is the countdown timer, used for the visual display of the 'clock'.
+	 It uses a date object where the last three integers are hours, minutes, seconds.
+	 When the timer reaches zero it clears the timer object and calls a function
+	 to call the CSR Modal Window.
+
+	 This timer requires a block object (div) with an id of 'countDownTimer'.
+	 */
+	var jsTimer = setInterval(function(){timerChange()},1000);
+
+	timerDateObj = new Date(2014, 01, 01, 12, 50, 00);51;
+
+	function timerChange() {
+		time = timerDateObj.getTime();
+		newTime = time - 1000;
+		timerDateObj.setTime(newTime);
+		m = timerDateObj.getMinutes();
+		s = timerDateObj.getSeconds();
+		if(s < 10) {
+			s = "0" + s;
+		}
+		$("#countDownTimer").html(m + ":" + s);
+		if(parseInt(s) + parseInt(m) == 0) {
+			clearInterval(jsTimer);
+			showCsrModal();
+		}
+	}
+</script>
+<script>
+	// Change these values for the content within the "buttons" div to appear at this time.
+
+	$(document).ready(function(){
+
+		if ($.cookie("sawbutton")) {
+			var hours = 0;
+			var minutes = 0;
+			var seconds = 5;
+		} else {
+			var hours = 0;
+			var minutes = 33;
+			var seconds = 22;
+		}
+		// Start by converting hours to milliseconds
+		var time = hours * 60 * 60 * 1000;
+		// Add minutes converted to milliseconds and add to total time
+		time += minutes * 60 * 1000;
+		// Add seconds to total time after converting to milliseconds
+		time += seconds * 1000;
+
+		if ($.cookie("sawbutton")) {
+			// If return visitor that saw button, show alt button
+			$("#reserve").oneTime(time, function() {
+				$("#reserve").css("display", "block");
+				$("#reserve").oneTime(5000, function() {
+					$("#reserve").css("display", "none");
+					$("#buyButton").css("display", "block");
+					$("#buyButton2").css("display", "block");
+					$(".content").css("display", "block");
+				});
+
+			});
+		} else {
+			// If visitor hasn't seen button yet, show default button
+			$("#reserve").oneTime(time, function() {
+				$("#reserve").css("display", "block");
+				$("#reserve").oneTime(5000, function() {
+					$("#reserve").css("display", "none");
+					$("#buyButton").css("display", "block");
+					$("#buyButton2").css("display", "block");
+					$(".content").css("display", "block");
+				});
+			});
+		}
+		setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
+	});
+</script>
 <div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
 	<div class="container">
