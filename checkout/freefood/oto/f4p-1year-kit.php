@@ -27,7 +27,7 @@ $declineUrl = $funnelData["declineUrl"];
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-<style>
+<style xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 	body{
 		font-size: 20px;
 	}
@@ -60,7 +60,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<script type="text/javascript">
 		// Change these values for the content within the "buttons" div to appear at this time.
 		$(document).ready(function(){
-
 			var hours = 0;
 			var minutes = 10;
 			var seconds = 45;
@@ -75,7 +74,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			setTimeout(function() {
 				$("#buyButton").css("display", "block");
 			}, time);
-
 		});
 	</script>
 	<script>
@@ -104,7 +102,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}else {
 				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 			}
-
 		}
 	</script>
 	<div class="container-main">
@@ -122,7 +119,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="content">
 			<div class="container oto-width">
-				<div id="buyButton" class="text-center" style="display:none;"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><u>Add To Cart $1997</u></div></a></div>
+				<div id="buyButton" class="text-center" style="display:none;"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><u><strong>Add To Cart $1997</strong></u></div></a></div>
 				<div style="margin-top:50px;">
 					<p><?php echo $view->customer->firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
 					<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
@@ -134,7 +131,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-year Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 					<p>Plus I'll throw in <strong>FREE shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
 					<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one-year&rsquo;s worth of food for just $1.11 per serving!)</p>
-					<p style="width: 500px;margin: 0 auto;" class="text-center">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
+					<p style="width: 500px;margin: 0 auto;background-color: yellow;" class="text-center">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 				</div>
 			</div>
 
@@ -144,7 +141,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 				<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181"class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots Kit when you upgrade today!</p>
 				<p>Because we're already going to be sending you a 3-month kit, we can add the 1-year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
-				<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><u>Add To Cart $1997</u></div></a></div>
+				<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><u><strong>Add To Cart $1997</strong></u></div></a></div>
 				<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
 				<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-year Kit!</p>
 			</div>
