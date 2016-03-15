@@ -337,7 +337,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<div id="buyButton" class="center-block text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 				</div>
 			</div>
 			<div class="col-md-12">
@@ -354,7 +354,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
 						<div id="countDownTimer"></div>
 						<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-						<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+						<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 					</div>
 				</div>
 			</div>
@@ -397,7 +397,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>I hear you, Matt. From the sounds of it, something big is about to happen and it's no wonder that our food is literally flying off the shelves. It makes sense, doesn't it?</p>
 
 				<h2 class="darkRed text-center">You Should Know That FEMA Won’t Get Even One Single Emergency Food Kit From Us</h2>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-02.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-02.jpg" alt="">
 				<p>This is truly an urgent situation, but don't worry - you should know Matt and I refuse to respond to their demands. Why?</p>
 				<p>Because we don't believe that these critical emergency food kits should be in the hands of the government, <strong>stored in some secret warehouse and with the rest of us left with table scraps in a crisis</strong>.</p>
 				<p>Because we understand that without non-perishable food like this, many folks will be <strong>downright helpless and dependent on the government in an emergency</strong>.</p>
@@ -569,7 +569,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<li style="font-size: 20px"><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
 					<li style="font-size: 20px"><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
 					<li style="font-size: 20px"><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice</li>
-					<li style="font-size: 20px;padding-left: 50px"><em>(My kids actually beg me to make this one all the time!)</em></li>
+					<li style="font-size: 20px;"><i style="color:#fff" class="fa fa-check"></i> <em>(My kids actually beg me to make this one all the time!)</em></li>
 					<li style="font-size: 20px"><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
 					<li style="font-size: 20px"><i class="fa fa-check"></i> Creamy Stroganoff</li>
 				</ul>
@@ -644,7 +644,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button to see the product options page.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
 					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
@@ -718,7 +718,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below&nbsp;to get started.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
 					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
@@ -739,19 +739,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
 				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
 				<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
-				<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;Choose My Kit&rdquo; button below</strong>.</p>
-				<div class="text-center">
-					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
-					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
-					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
-				</div>
+				<p>Click the '<strong>Add To Cart'</strong>&nbsp;button for the kit that best fits your families needs.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="container content" id="order-form">
+	<div style="margin-top: 0;padding-top: 0" class="container content" id="order-form">
 		<div class="row margin-bottom-40 pricing-sticker">
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
 				<input name="productId" type="hidden" value="92">
@@ -777,11 +770,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<?php
 						if($isUpgrade) {
 							?>
-							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</a>
+							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
 							<?php
 						}
 						?>
@@ -813,11 +806,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<?php
 						if($isUpgrade) {
 							?>
-							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</a>
+							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
 							<?php
 						}
 						?>
@@ -848,11 +841,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<?php
 						if($isUpgrade) {
 							?>
-							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</a>
+							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
 							<?php
 						}
 						?>
@@ -861,8 +854,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 		</div>
 		<div>
-			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+			<div style="font-size: 20px" class="noThanks">
+				<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
 			</div>
 		</div>
 	</div>
