@@ -351,7 +351,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 
 					<div id="buyButton2" class="center-block text-center">
-						<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
+						<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act Fast! Your Reservation and Discount <br> are Guaranteed Until....</strong></h2>
 						<div id="countDownTimer"></div>
 						<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 						<p style="color:#002287;">(This Takes You To The Kit Options)</p>
