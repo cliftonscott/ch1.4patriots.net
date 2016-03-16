@@ -201,7 +201,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<p>And last, but certainly not least - I'm going to send you our compact and powerful 11-in-1 survival tool. You never know what you're going to run into in a survival situation. This little tool just might save the day. Eleven full functions in a tool that will fit handily in your wallet.</p>
 				<div class="rcBoxR10">
-					<h2 class="darkRed text-center">FREE 11-in-1 Survival Tools</h2>
+					<h2 class="darkRed text-center">FREE 11-in-1 Survival Tool</h2>
 					<p>Each one of these amazing tools could be a real life-saver, yet they are no bigger than a credit card so you’ll always have it handy.</p>
 					<div><img class="img-responsive center-block" src="/media/images/bonuses/bonus-multi-tool-04.jpg" alt="Multi Tool Bonus"></div>
 				</div>
