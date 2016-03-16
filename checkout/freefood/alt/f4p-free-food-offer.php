@@ -35,7 +35,6 @@ include_once ('template-top.php');
 						<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 					</div>
 					<div class="col-lg-12 margin-b-10">
-						<p>This isn&rsquo;t ordinary food... it&rsquo;s delicious, nutritious, &ldquo;super survival food&rdquo; that could save your life in a disaster!</p>
 						<p>All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<strong> FREE</strong> (just cover postage) while supplies last!</p>
 						<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and Granny's Homestyle Potato Soup.&nbsp;</p>
 						<p>Here&rsquo;s exactly what you&rsquo;ll get:</p>
