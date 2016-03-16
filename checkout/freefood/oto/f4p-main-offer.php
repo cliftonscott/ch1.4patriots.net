@@ -106,7 +106,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	.pricing-content li i {
 		color:#72c02c;
 		font-size:16px;
-		margin-right:5px;
 		position:relative;
 	}
 
@@ -668,7 +667,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream...<br class="hidden-xs">Here’s My Food, Come Take It</h2>
 				<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 7px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
 				<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy,  waterproof and<br class="hidden-xs"> easy-to-stack.</p>
 				<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 				<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
@@ -747,7 +746,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>So many folks are jumping on board with us to make sure their families don&rsquo;t go hungry in a crisis. So many, in fact, that we recently celebrated getting 13 million meals into the hands of American families who want to be prepared. WOW!</p>
 				<p>As you can see we&rsquo;re no fly-by-night operation. No sir.</p>
 				<p>Our office is located in Nashville, Tennessee and is just a few of miles from the famous Ryman Auditorium, home of the Grande Ole Opry.</p>
-				<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-recent-csr-team.jpg" alt="">
+				<img style="margin-top: 7px" class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-recent-csr-team.jpg" alt="">
 				<p>Here&rsquo;s a recent snapshot we took at the office here in Nashville so you can see we&rsquo;re real people &ndash; Americans &ndash; not some 800 number being routed over to some foreign basement call center in India or the Philippines, forced to talk with someone named &ldquo;Bob&rdquo; with an accent you can barely understand.&nbsp;</p>
 				<p>With us, you&rsquo;ll only be dealing with Josh, Bonnie, Ray, Lisa and other good folks right here in the USA. People who own and have eaten Food4Patriots themselves and know the product inside out.</p>
 				<p>Now to help make this a complete no-brainer for you.</p>
@@ -755,19 +754,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE<br class="hidden-xs"> Bonus Reports That Will Be A Perfect<br class="hidden-xs"> Complement To Your Food</h2>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-10-items-after-crisis.jpg" width="100%" alt="Bonus 1" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - <strong>Top 10 Items Sold Out After a Crisis</strong>: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-water-survival-guide.jpg" width="100%" alt="Bonus 2" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - The Water Survival Guide: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - <strong>The Water Survival Guide</strong>: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-the-survival-garden-guide.jpg" width="100%" alt="Bonus 3" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - The Survival Garden Guide: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - <strong>The Survival Garden Guide</strong>: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-cut-grocery-bills-half.jpg" width="100%" alt="Bonus 4" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- How to Cut Your Grocery Bills in Half: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- <strong>How to Cut Your Grocery Bills in Half</strong>: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
 				</div>
 				<p>And when you click the button below you'll see a couple of special deals I just added&hellip; including <strong>FREE SHIPPING</strong> on our most popular kit, the 3-month supply.</p>
 				<p>&nbsp;As you&rsquo;ve seen there&rsquo;s a lot involved in making survival food of this quality and that is guaranteed to last for 25 years.</p>
@@ -835,7 +834,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
 							<!--<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
@@ -867,17 +866,17 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<div class="sticker-right">Value</div>
 						<div class="pricing-head">
 							<h3>3-Month Kit<span>Includes 450 Servings</span></h3>
-							<img class="product-img" src="http://chris01.4patriots.net/assets/img/tables/3-month-kit.jpg">
+							<img class="product-img" src="//media.4patriots.com/images/f4p/f4p-1year-totes-bonuses-veggies-300x200.jpg">
 							<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Free 4 Bonus Hardcover Reports</li>
+							<li><i class="fa fa-check"></i> Free 4 Hardcover Reports</li>
 							<li><i class="fa fa-check"></i> Free Survival Tool<span></span></li>
 							<li><i class="fa fa-check"></i> Free Seed Vault<span></span></li>
 							<li><i class="fa fa-check"></i> Free Shipping <span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Deluxe kit that will leave you feel fully prepared. </p>
+							<p>Deluxe kit that will leave you feeling fully prepared.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
@@ -905,7 +904,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
 							<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
