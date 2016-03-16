@@ -830,7 +830,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="pricing hover-effect">
 						<div class="pricing-head">
 							<h3>1-Week Kit<span>Includes 40 Servings</span></h3>
-							<img class="product-img" src="http://chris01.4patriots.net/assets/img/tables/1-week-kit.jpg">
+							<img class="product-img" src="https://photos-3.dropbox.com/t/2/AABi7NuVokOXcgTBFnYEZx-44SdvveK5ni72VaujlrJpiQ/12/439971904/png/32x32/1/_/1/2/F4P-1-WEEK-KIT-05.png/EIWFmukCGJ-XByACKAI/dqX-kYITHzyXJKRhndq1u1HHtjXozN8GDwBubGC_tT4%2CIZ91BmcpgN7Tepr4PIReiP72y2Qp2Lgl2wX9Rs2k6iQ%2C-qDZGZs-7x2dAN4DltEVmUfl2_tuREZ1xH9FFmLR9Qc?size=2048x1536&size_mode=3">
 							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
