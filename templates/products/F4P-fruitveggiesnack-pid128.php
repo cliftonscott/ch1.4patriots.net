@@ -175,7 +175,7 @@ $offerName = $_SESSION["firstName"];
 				<div>OFFER EXPIRES IN: <span id="timer">10:00</span></div>
 			</div>
 			<p><?php echo $customerDataObj->firstName;?>,
-				you’ve taken the first step in ensuring the safety and well being of your loved ones in times of crisis
+				you’ve taken the first step in ensuring the safety and wellbeing of your loved ones in times of crisis
 				with your Food4Patriots order. </p>
 			<p>But wouldn’t it make sense to also safeguard their nutrition by <b>adding healthy fruits and vegetables</b> to your food stockpile?
 			<div>
@@ -185,12 +185,12 @@ $offerName = $_SESSION["firstName"];
 				</a>
 			</div>
 			<p></p>
-				<b>Click the big green ‘Add to Order’ button below in the next 10 minutes (before our warehouse finalizes your shipping details)</b>
+			<p><b>Click the big green ‘Add to Order’ button below in the next 10 minutes (before our warehouse finalizes your shipping details)</b>
 				and we’ll add our Food4Patriots <i>Fruit, Veggie and Snack Mix</i> package to today’s order for just one additional payment of $97 (free shipping).</p>
 			<p>That’s 114 servings of fruits, vegetables, and delicious snacks for less than $1.18 per serving. And because we use our unique
 				“low heat dehydration method”, these nutrition-packed fruits and veggies have a <u>guaranteed</u> shelf-life of 25+ years!</p>
 			<p>This offer is exclusive ONLY to Food4Patriots customers and it’s likely this will be the <span class="bold red">only time you see it at this special price.</span></p>
-			<p>You’ve come this far to ensure the safety and well being of your loved ones, wouldn’t you like to ensure their health as well?
+			<p>You’ve come this far to ensure the safety and wellbeing of your loved ones, wouldn’t you like to ensure their health as well?
 				<b>Click the big green 'Add to Order'</b> button below now.</p>
 			<p class="small">An additional $97 will be added to your credit card today, free shipping included. <br>(And remember, all orders are always backed by our 100% money back guarantee.)</p>
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">

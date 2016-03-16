@@ -324,6 +324,83 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		}
 	}
 </style>
+<script>
+	/*
+	 This is the countdown timer, used for the visual display of the 'clock'.
+	 It uses a date object where the last three integers are hours, minutes, seconds.
+	 When the timer reaches zero it clears the timer object and calls a function
+	 to call the CSR Modal Window.
+
+	 This timer requires a block object (div) with an id of 'countDownTimer'.
+	 */
+	var jsTimer = setInterval(function(){timerChange()},1000);
+
+	timerDateObj = new Date(2014, 01, 01, 12, 50, 00);51;
+
+	function timerChange() {
+		time = timerDateObj.getTime();
+		newTime = time - 1000;
+		timerDateObj.setTime(newTime);
+		m = timerDateObj.getMinutes();
+		s = timerDateObj.getSeconds();
+		if(s < 10) {
+			s = "0" + s;
+		}
+		$("#countDownTimer").html(m + ":" + s);
+		if(parseInt(s) + parseInt(m) == 0) {
+			clearInterval(jsTimer);
+			showCsrModal();
+		}
+	}
+</script>
+<script>
+	// Change these values for the content within the "buttons" div to appear at this time.
+
+	$(document).ready(function(){
+
+		if ($.cookie("sawbutton")) {
+			var hours = 0;
+			var minutes = 0;
+			var seconds = 5;
+		} else {
+			var hours = 0;
+			var minutes = 33;
+			var seconds = 22;
+		}
+		// Start by converting hours to milliseconds
+		var time = hours * 60 * 60 * 1000;
+		// Add minutes converted to milliseconds and add to total time
+		time += minutes * 60 * 1000;
+		// Add seconds to total time after converting to milliseconds
+		time += seconds * 1000;
+
+		if ($.cookie("sawbutton")) {
+			// If return visitor that saw button, show alt button
+			$("#reserve").oneTime(time, function() {
+				$("#reserve").css("display", "block");
+				$("#reserve").oneTime(5000, function() {
+					$("#reserve").css("display", "none");
+					$("#buyButton").css("display", "block");
+					$("#buyButton2").css("display", "block");
+					$(".content").css("display", "block");
+				});
+
+			});
+		} else {
+			// If visitor hasn't seen button yet, show default button
+			$("#reserve").oneTime(time, function() {
+				$("#reserve").css("display", "block");
+				$("#reserve").oneTime(5000, function() {
+					$("#reserve").css("display", "none");
+					$("#buyButton").css("display", "block");
+					$("#buyButton2").css("display", "block");
+					$(".content").css("display", "block");
+				});
+			});
+		}
+		setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
+	});
+</script>
 <div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
 	<div class="container">
@@ -337,7 +414,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<div id="buyButton" class="center-block text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 				</div>
 			</div>
 			<div class="col-md-12">
@@ -351,10 +428,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 
 					<div id="buyButton2" class="center-block text-center">
-						<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act fast! Your reservation and discount <br> are guaranteed until...</strong></h2>
+						<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act Fast! Your Reservation and Discount <br> are Guaranteed Until....</strong></h2>
 						<div id="countDownTimer"></div>
 						<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-						<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+						<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 					</div>
 				</div>
 			</div>
@@ -386,9 +463,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p><em>&ldquo;Thanks Frank. Well, it was kind of crazy to get this letter from FEMA. I don't mean to sound paranoid, but they were asking some questions that make me pretty nervous.</em></p>
 					<p><em>FEMA and the Department of Homeland Security demanded to know:</em></p>
 					<ul>
-						<li><strong><em>How much emergency food we can deliver immediately.</em></strong></li>
-						<li><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a "state of emergency" I don't think I want to answer this). </em></li>
-						<li><strong><em>If we can ship dedicated truckloads</em></strong><em> (that means a truck heading straight for FEMA with nothing but survival food just for them) by the pallet, and how many pallets we could cram in each truck.</em><em>&nbsp;</em></li>
+						<li style="font-size: 20px"><strong><em>How much emergency food we can deliver immediately.</em></strong></li>
+						<li style="font-size: 20px"><strong><em>How many food kits we've got on hand</em></strong><em> (remember with the government's power to seize supplies in a "state of emergency" I don't think I want to answer this). </em></li>
+						<li style="font-size: 20px"><strong><em>If we can ship dedicated truckloads</em></strong><em> (that means a truck heading straight for FEMA with nothing but survival food just for them) by the pallet, and how many pallets we could cram in each truck.</em><em>&nbsp;</em></li>
 					</ul>
 					<p><em>And the strangest question of all, if we worked like mad men, <strong>how much emergency food could we produce in 24 hours?</strong></em></p>
 					<p><em>I gotta tell you, Frank, I'm real concerned. This letter is proof that FEMA wants our emergency survival food. They don't want anyone to know it, and they want to take immediate delivery.</em></p>
@@ -397,7 +474,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>I hear you, Matt. From the sounds of it, something big is about to happen and it's no wonder that our food is literally flying off the shelves. It makes sense, doesn't it?</p>
 
 				<h2 class="darkRed text-center">You Should Know That FEMA Won’t Get Even One Single Emergency Food Kit From Us</h2>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-02.jpg" alt="">
 				<p>This is truly an urgent situation, but don't worry - you should know Matt and I refuse to respond to their demands. Why?</p>
 				<p>Because we don't believe that these critical emergency food kits should be in the hands of the government, <strong>stored in some secret warehouse and with the rest of us left with table scraps in a crisis</strong>.</p>
 				<p>Because we understand that without non-perishable food like this, many folks will be <strong>downright helpless and dependent on the government in an emergency</strong>.</p>
@@ -410,7 +487,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Heck, we've had a rush of people taking advantage of our special "fire sale" offer to grab their food kits to protect their family.&nbsp;</p>
 				<p>Now to be blunt, this is a first-come-first-serve opportunity and because of all the controversy, <strong>I cannot guarantee supply forever</strong>. Which means if we run out before you have a chance to claim your kit, I'm sorry, but you'll just have to wait and hope we can get more in before something really bad hits.</p>
 
-				<h2 class="darkRed text-center">You've Seen the Evidence. You Know the Situation is Serious</h2>
+				<h2 class="darkRed text-center">You've Seen the Evidence, You Know the Situation is Serious</h2>
 				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-breaking-news.jpg" alt="">
 				<p>ISIS terrorists inside our country&hellip; <strong>a government that takes more and more away from people who worked hard to earn it</strong> (and gives it to those who want "something for nothing&rdquo;) &hellip; and a history of botched responses to natural disasters &mdash; it all proves we can't rely on the government in a crisis.&nbsp;</p>
 				<p>That may explain why so many folks are taking action right now to stockpile the #1 item needed in a crisis&hellip; <strong>survival food</strong>.&nbsp;</p>
@@ -421,7 +498,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>And we're doing everything we can to accelerate packing and shipping so we can rush your kit to you as soon as you order it.</p>
 				<p>I'm going to keep doing this as long as I can. I hope we can help folks all across the country get peace of mind and know that they&rsquo;re protected in case of disaster for years to come. We&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
 
-				<h2 class="darkRed text-center">But Here's Why This Fire Sale Could End in a Matter of Days</h2>
+				<h2 class="darkRed text-center">But Here's Why This Fire Sale Could<br class="hidden-xs"> End in a Matter of Days</h2>
 				<p>First, Matt could run out of the raw ingredients needed to get these kits produced. I'd be shocked if FEMA stopped looking for suppliers just because we turned them down. And there are companies a whole lot bigger than us that can buy up all the ingredients.</p>
 				<p>Second, and I hope the government never gets to this point, part of me thinks that the government might have wanted to know how much food we've got in stock in case they ever decided to take it. The fact is, they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat. All it would take is the president declaring a "state of emergency.&rdquo;</p>
 
@@ -434,7 +511,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Think I&rsquo;m kidding? Remember the bleak living conditions folks had to endure in one of those Godforsaken places after Hurricane Katrina and Superstorm Sandy?</p>
 				<p>Things like:</p>
 				<blockquote style="font-size: 16px;border: none">
-					<p><strong>Bitter cold or blistering heat</strong> from living in a tent with no insulation&hellip;&nbsp;</p>
+					<p><i class="fa fa-check"></i> <strong>Bitter cold or blistering heat</strong> from living in a tent with no insulation&hellip;&nbsp;</p>
 					<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-dumpster-diving.jpg" alt="">
 					<p><i class="fa fa-check"></i> <strong>Inadequate food</strong> - (think about those New Yorkers dumpster diving for food after Superstorm Sandy... rifling through disgusting TRASH, scraping off bugs and dirt, just to find anything remotely edible! And that was only three days after the storm!)</p>
 					<p><i class="fa fa-check"></i> <strong>Crime</strong> - from robbery to assault to rape and worse. (Remember those first few days post-Katrina? Even the police were afraid to be out on the street!)</p>
@@ -504,7 +581,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>After months of work and research, we finally cooked up our first batch, and I knew we had something nobody else did: American-made food that I'd be happy to feed my own kids and grandkids.</p>
 				<p>The food was delicious, easy to store long-term, and best of all, it was packaged right here in the U.S. of A. That&rsquo;s why we decided to call it <strong>Food4Patriots</strong>.&nbsp;</p>
 				<p>Plus, our food didn't have any of those harmful chemicals or genetically modified ingredients, no MSG, no GMOs and no mystery &ldquo;Frankenfood&rdquo; from China.</p>
-				<p>But To Be Honest, We Were Worried That This Was Too Good To Be True.</p>
+				<p>But to be honest, we were worried that this was too good to be true.</p>
 
 				<h2 class="darkRed text-center">Was It Going To Cost An Arm And A Leg?</h2>
 				<p>The survival food we make for you doesn't cut any corners. You'll understand what I mean when you see exactly how your meals are made.</p>
@@ -515,7 +592,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>These hard-working folks are experts in their field&hellip; nutritionists, chefs, engineers, packers and quality control inspectors. You&rsquo;ll meet some of our people and learn more about our unique manufacturing process in just a bit.</p>
 				<p>Next, we combine our top-quality ingredients using prize-winning recipes. In fact, many of our recipes have won independent taste tests.</p>
 
-				<h2 class="darkRed text-center">Space-Age Mylar Packaging Keeps Our Food Fresh… For 25 Years</h2>
+				<h2 class="darkRed text-center">Space-Age Mylar Packaging Keeps<br class="hidden-xs"> Our Food Fresh… For 25 Years</h2>
 				<p>Some manufacturers freeze-dry their food - which is hideously expensive for you - while others use the cheaper, rapid-dehydration method that sucks all the water out but also pulls nutrients and flavor with it.&nbsp;</p>
 				<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-mylar-packaging.jpg" alt="">
 				<p></p>
@@ -553,7 +630,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Look, I'd rather you get your own personal food stockpile than see the government hoard them. Since they&rsquo;re clearing out fast I'll be ordering as many as I can to keep up with the demand. But if the supply of raw ingredients dries up or food prices skyrocket, there may be no way of restocking quickly or economically.</p>
 				<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
 				<p>So why is our survival food flying off the shelves?</p>
-				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>. Just add boiling water, simmer and serve.&nbsp;</p>
+				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>.</p>
+				<p>Just add boiling water, simmer and serve.&nbsp;</p>
 				<p>Can you picture how easy this is? It's so simple even kids can make our food.</p>
 
 				<h2 class="darkRed text-center">Each Food4Patriots Survival Food Kit<br class="hidden-xs"> Is Packed With Variety</h2>
@@ -564,12 +642,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p></p>
 				<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
 				<ul style="margin-left: 30px;list-style-type: none;">
-					<li><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
-					<li><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
-					<li><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
-					<li><i class="fa fa-check"></i> Blue Ribbon Cheesy Rice (My kids actually beg me to make this one all the time!)</li>
-					<li><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
-					<li><i class="fa fa-check"></i> Creamy Stroganoff</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice</li>
+					<li style="font-size: 20px;"><i style="color:#fff" class="fa fa-check"></i> <em>(My kids actually beg me to make this one all the time!)</em></li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
+					<li style="font-size: 20px"><i class="fa fa-check"></i> Creamy Stroganoff</li>
 				</ul>
 				<p>And just to prove we’re on the level about how good this food really tastes, we did a secret taste test with the folks over at The Blaze, one of the country’s most popular conservative news website.</p>
 				<p>They loved the taste. They had no idea they’d been eating survival food. In fact, they thought it had been a catered lunch!</p>
@@ -587,7 +666,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div style="margin-top: -10px;margin-bottom: 20px"><img src="/media/images/f4p/f4p-testimonial-33.jpg" width="630" height="176" class="img-responsive center-block"/></div>
 				<p>But here's another important part: your kids won’t have to settle for smaller serving sizes. Some brands use kids’ meals to skimp on the amount of food they give you. With Food4Patriots, kids get a full adult-size portion without getting charged extra.</p>
 
-				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream... ‘Here’s My Food, Come Take It</h2>
+				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream...<br class="hidden-xs">Here’s My Food, Come Take It</h2>
 				<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
 				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
 				<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy,  waterproof and<br class="hidden-xs"> easy-to-stack.</p>
@@ -639,10 +718,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>It&rsquo;s hard to put a price on the peace of mind that a survival food stockpile gives you.</p>
 				<p>And I know every family is different and there's no one-size-fits-all survival food solution.</p>
 				<p>So I've put together a variety of Food4Patriots kits based on feeding an adult over a specific period of time. That way, <strong>you can pick the exact size that works best for you and your family</strong>. No need to buy more or less than you actually need, so nothing goes to waste.&nbsp;</p>
-				<p>Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button to see the product options page.</p>
+				<p>Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below to get started.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
 					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
@@ -673,7 +752,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>With us, you&rsquo;ll only be dealing with Josh, Bonnie, Ray, Lisa and other good folks right here in the USA. People who own and have eaten Food4Patriots themselves and know the product inside out.</p>
 				<p>Now to help make this a complete no-brainer for you.</p>
 
-				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE Bonus Reports That Will Be A Perfect Complement To Your Food</h2>
+				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE<br class="hidden-xs"> Bonus Reports That Will Be A Perfect<br class="hidden-xs"> Complement To Your Food</h2>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-10-items-after-crisis.jpg" width="100%" alt="Bonus 1" class="media left img-responsive"></div>
 					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
@@ -713,10 +792,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>When a food crisis strikes there are really two groups of people: the people who prepared, and the people who didn't. If you've read this far, my guess is you're someone who's going to prepare. But let me warn you - the rest of the world may very well be greedy for your stockpile. Especially now that we know that government wants to hoard these meals too.</p>
 				<p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
 				<p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There are no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
-				<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below&nbsp;to get started.</p>
+				<p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below to get started.</p>
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
+					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
 					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
 					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
@@ -735,21 +814,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 				<p>Be sure to make the right one.</p>
 				<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
-				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 60 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
+				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
 				<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
-				<p>Claim your Food4Patriots package now. <strong>Click the &ldquo;Choose My Kit&rdquo; button below</strong>.</p>
-				<div class="text-center">
-					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-					<p style="color:#002287;">(This Takes You To The Product Options Page)</p>
-					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
-					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
-				</div>
+				<p>Click the '<strong>Add To Cart'</strong>&nbsp;button for the kit that best fits your families needs.</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="container content" id="order-form">
+	<div style="margin-top: 0;padding-top: 0" class="container content" id="order-form">
 		<div class="row margin-bottom-40 pricing-sticker">
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
 				<input name="productId" type="hidden" value="92">
@@ -763,23 +835,23 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Product Fact</li>
+							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<!--<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Product Fact<span></span></li>-->
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Some other things about the product.</p>
+							<p>Great for a little extra peace of mind in a crisis.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
 							?>
-							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</a>
+							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
 							<?php
 						}
 						?>
@@ -799,23 +871,22 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Product Fact</li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Free 4 Bonus Hardcover Reports</li>
+							<li><i class="fa fa-check"></i> Free Survival Tool<span></span></li>
+							<li><i class="fa fa-check"></i> Free Seed Vault<span></span></li>
+							<li><i class="fa fa-check"></i> Free Shipping <span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Some other things about the product.</p>
+							<p>Deluxe kit that will leave you feel fully prepared. </p>
 						</div>
 						<?php
 						if($isUpgrade) {
 							?>
-							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</a>
+							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
 							<?php
 						}
 						?>
@@ -834,23 +905,20 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Product Fact</li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Some other things about the product.</p>
+							<p>Perfect for covert storage and packaged for a longer crisis.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
 							?>
-							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</a>
+							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add To Order</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
 							<?php
 						}
 						?>
@@ -859,8 +927,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 		</div>
 		<div>
-			<div class="noThanks">
-				<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity. I understand that I will not receive this special offer again.
+			<div style="font-size: 20px" class="noThanks">
+				<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
 			</div>
 		</div>
 	</div>
