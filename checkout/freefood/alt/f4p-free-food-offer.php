@@ -39,7 +39,7 @@ include_once ('template-top.php');
 						<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and Granny's Homestyle Potato Soup.&nbsp;</p>
 						<p>Here&rsquo;s exactly what you&rsquo;ll get:</p>
 						<ul>
-							<li>&ldquo;Disaster-Proof&rdquo; packaging: Mylar pouches keep out air, moisture and light to keep your food fresh and delicious for up to 25 years</li>
+							<li>Mylar pouches keep out air, moisture and light to keep your food fresh and delicious</li>
 							<li>Instantly protects you and your family from going hungry in a disaster</li>
 							<li>Simple to prepare: just add boiling water, simmer, and serve</li>
 							<li>Rushed to your door via USPS First Class Mail</li>
