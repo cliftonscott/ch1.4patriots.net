@@ -45,7 +45,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<div>
 			<h1 class="darkRed text-center">&quot;<?php echo $firstName;?>, Please Accept This $100 Discount On An Additional<br class="hidden-xs"> 3-Month Kit...&quot;</h1>
 		</div>
-		<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-09.jpg" alt="3 Month Kit"/></div>
+		<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-08.jpg" alt="3 Month Kit"/></div>
 		<div>
 			<p><?php echo $firstName;?>, one more thing... The folks in our warehouse have reserved your 3-Month Food4Patriots kit and are already busy getting it ready to ship to you.</p>
 			<p>I understand a 1-year kit may be too much for you right now, so how about one more 3-Month Kit for $100.00 off?</p>
@@ -58,13 +58,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			if($isUpgrade) {
 				?>
 				<div class="text-center">
-					<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+					<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 				</div>
 				<?php
 			} else {
 				?>
 				<div class="text-center">
-					<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+					<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br>Add To Cart - $397</strong></a>
 				</div>
 				<?php
 			}
