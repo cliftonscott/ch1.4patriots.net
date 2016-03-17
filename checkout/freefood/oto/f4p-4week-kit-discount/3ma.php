@@ -45,7 +45,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div style="padding-bottom:20px;"><img class="img-responsive center-block"src="/media/images/f4p/f4p-4-week-kit-07.jpg" alt="4 Week Food4Patriots Kit"/></div>
 			<div>
 				<p><?php echo $firstName;?>, once again, congratulations for making the great decision to get the 4-week Food4Patriots kit.</p>
-				<p>I know you declined the previous offer of getting a 3-month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. I totally understand…but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
+				<p>I know you declined the previous offer of getting a 3-month Food4Patriots kit at $100 off. Maybe you felt the $397 was simply too much to invest in survival food at one time. I totally understand… but I also want to make sure I do everything I can to help you build your food stockpile as quickly and easily as possible.</p>
 				<p>So to thank you for becoming a customer today, I am offering you an <strong>exclusive $50.00 discount (that’s 25% off)</strong> on an additional 4-week kit.</p>
 				<p>That’s right, you can get ONE MORE 4-week Food4Patriots kit for just $147 if you act now.</p>
 				<p>Look, I want to help you get where you need to be with your food stockpile…but without breaking the bank to get there.</p>
@@ -56,14 +56,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				if($isUpgrade) {
 					?>
 					<div class="text-center">
-						<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+						<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $397</span><br>Add To Cart - $147</strong></a>
 					</div>
 					<?php
 				} else {
 					?>
 
 					<div class="text-center">
-						<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a>
+						<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $397</span><br>Add To Cart - $147</strong></a>
 					</div>
 
 
