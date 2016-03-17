@@ -94,7 +94,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 			clearInterval(jsTimer);
 		}
 	}
-	
+
 	function changeVeggieSubmitButton() {
 		vsb = document.getElementById("veggieSubmitButton");
 		vsb.src = "/assets/images/buttons/btn-red-expired-01.png";
@@ -102,14 +102,14 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 		vsf=  document.getElementById("optin-form");
 		vsf.action = "javascript: expired()";
 	}
-	
+
 	function expired() {
 		//alert("This offer has expired!");
 		//this intentionally does nothing, it's kind of like that page that is left blank
 	}
-	
+
 	function changeKitQuantity() {
-		
+
 		jsKitCost = 27;
 
 		orderSummaryParagraph = document.getElementById("orderSummary");
@@ -119,7 +119,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 		} else {
 			jsQuantity = jsQuantityInput.value;
 		}
-		
+
 		if(jsQuantity == 1) {
 			jsSummaryText = "Add 1 vault to my order for $" + jsKitCost + ".";
 		} else {
@@ -145,7 +145,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 			default:
 				orderSummaryParagraph.innerHTML = jsSummaryText;
 			break;
-		}		
+		}
 	}
 </script>
 <section>
@@ -160,21 +160,21 @@ $offerName = $_SESSION["firstName"];
 			<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/p4p/p4p-platinum-package-01.jpg" width="360" height="230" alt="3 Month Food Supply">
 			<div id="timer" style="top:-135px;">10:00</div></a>
 			</div>
-		<p><?php echo $offerName;?>, 
+		<p><?php echo $offerName;?>,
 			Waiting on content <a href="https://jira4patriots.atlassian.net/browse/PPG-105">PPG-105</a>. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
-		
-		<p><b>Click the big, green ‘Add to Order’ button below in the next 10 minutes (before our warehouse finalizes your 
-			shipping details)</b> and we’ll add our <i>Medicinal Herb Garden</i> for just one additional payment of <b>$27 
+
+		<p><b>Click the big, green ‘Add to Order’ button below in the next 10 minutes (before our warehouse finalizes your
+			shipping details)</b> and we’ll add our <i>Medicinal Herb Garden</i> for just one additional payment of <b>$27
 				per garden vault (free shipping)</b>.</p>
-				
-		<p>The <i>Medicinal Herb Garden</i> contains only the highest quality, open-pollinated heirloom flower and herb 
+
+		<p>The <i>Medicinal Herb Garden</i> contains only the highest quality, open-pollinated heirloom flower and herb
 			seeds that are <b>100% Non-GMO</b>.</p>
-			
-		<p>Your <i>Medicinal Herb Garden</i> is also packed in a convenient durable metal storage can with re-sealable, 
-			reusable triple-layered foil seed packets that are dried & <b>sealed airtight</b> for <u>longer seed shelf 
+
+		<p>Your <i>Medicinal Herb Garden</i> is also packed in a convenient durable metal storage can with re-sealable,
+			reusable triple-layered foil seed packets that are dried & <b>sealed airtight</b> for <u>longer seed shelf
 				life.</u></p>
-				
+
 		<p>Furthermore, each <i>Medicinal Herb Garden</i> comes with 10 different varieties of easy-to-grow plants including:</p>
 
 		<!-- OLD SEEDS LIST CURRENTLY USED UNTIL WE RUN OUT -->
@@ -205,16 +205,16 @@ $offerName = $_SESSION["firstName"];
 			<li>Catnip (250+ Seeds / Packet)</li>
 		</ul>
 		-->
-		<p>This offer is exclusive ONLY to trusted Patriots who’ve <b>grabbed their FREE Rutgers Tomato Heirloom Seeds</b> 
+		<p>This offer is exclusive ONLY to trusted Patriots who’ve <b>grabbed their FREE Rutgers Tomato Heirloom Seeds</b>
 			and it’s likely this will be the <u>only time</u> you see the <i>Medicinal Herb Garden</i> <span style="color:#CC0000;font-weight:bold;">
 				this special price.</span> </p>
-		
+
 		<p>You’ve come this far to ensure the safety and well-being of your loved ones, wouldn’t you want to take the next step and include this critical component in your long-term emergency preparedness plans?</p>
-		
+
 		<p><b>Click the big, green 'Add to Order'</b> button below now.</p>
-		
+
 		<p class="notification">An additional $27.00 per Medicinal Herb Garden will be added to your credit card (free shipping). Remember, all orders are backed by our double-your-money-back guarantee and are 100% refundable.</p>
-		
+
 		<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 <?php
 if($typUpsellMaxQuantity > 1) {
@@ -226,16 +226,16 @@ if($typUpsellMaxQuantity > 1) {
 				echo "<option value='" . $qty . "'>" . $qty . "</option>\n";
 			}
 			?>
-		</select>	
+		</select>
 	<?php
 } else {
 	?>
 		<input type="hidden" name="quantity" id="quantity" value="1">
-	<?php	
+	<?php
 }
 ?>
 		</p>
-			
+
 		<!--
 		//-->
 		<p style="text-align:center;">

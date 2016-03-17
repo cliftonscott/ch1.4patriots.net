@@ -145,7 +145,7 @@ var jsTimer = setInterval(function(){timerChange()},1000);
 $offerName = $_SESSION["firstName"];
 ?>
 	<a name="exclusive-offer"></a>
-	<div id="belcher-box" class="hidden-xs">
+	<div id="belcher-box">
 		<div class="box-title">A Special One-Time-Only Offer for Fruit and Veggie Snack Pack Customer...</div>
 		<div class="box-body">
 			<p>Congratulations, Patriot! You’ve decided, <strong>“I’m not waiting in fear of the next disaster, I’m taking action!”</strong> And guess what? You’ve done just that with your order of the Fruit and Veggie Snack Pack.</p>
@@ -165,7 +165,7 @@ $offerName = $_SESSION["firstName"];
 			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 				<input type="hidden" name="quantity" id="quantity" value="1">
 				<p style="text-align:center;">
-					<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
+					<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit img-responsive center-block" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
 				</p>
 			</form>
 			<p id="orderSummary" style="text-align:center;">Add 1 kit to my order for $147.</p>
