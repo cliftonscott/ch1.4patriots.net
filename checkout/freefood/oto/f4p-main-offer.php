@@ -846,7 +846,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
 				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it.</p>
 				<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
-				<p>Click the '<strong>Add To Cart'</strong>&nbsp;button for the kit that best fits your families needs.</p>
+				<p>Click the '<strong>Click to Accept'</strong>&nbsp;button for the kit that best fits your families needs.</p>
 			</div>
 		</div>
 	</div>
@@ -941,7 +941,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Perfect for covert storage and packaged for a longer crisis.</p>
+							<p>Perfect for covert storage and packaged for a<br class="hidden-xs"> longer crisis.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
@@ -969,6 +969,18 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	<div style="font-size: 20px" class="noThanks">
 		<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
 	</div>
+	<div style="font-size: 20px;" class="outLineBoxDarkBlue">
+		<p><img style="padding-right: 10px;" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+		<div class="clearfix"></div>
+	</div>
+
+	<div style="font-size: 20px" class="outLineBoxDarkBlue">
+		<p><img style="margin-bottom: 20px;padding-right: 10px;" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
+
+		<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
+	</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -989,7 +1001,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							12. <em>Fox News</em>. &ldquo; FEMA asking disabled, elderly residents to repay aid from superstorm Sandy.&rdquo; 2015.<br>
 							13. <em>Before It&rsquo;s News</em>. &ldquo;Disaster Looms: FEMA Scrambles to Stockpile Food Reserves.&rdquo; 2015.<br>
 							14. CBS News. Reid, C. &ldquo;In the Dark of Power Grid Security.&rdquo; 2015.<br>
-							15. <em>AARP</em>. Green, C. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism and lessons learned over his long career.&rdquo; 2015.<br>
+							15. <em>AARP</em>. Green, C. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism.&rdquo; 2015.<br>
 							16. <em>The Telegraph</em>. Lean, G. &ldquo;There's a food crisis coming. Are we ready?.&rdquo; 2015.<br>
 							17. <em>Fox News</em>. &ldquo;New Reports of looting in Baltimore as national guard join police in patrolling streets.&rdquo; 2015.<br>
 							18. <em>Washington Examiner.</em> Bedard, P. &ldquo;New Isis threat: America&rsquo;s electric grid; blackout could kill 9 of 10&rdquo;. 2014.
