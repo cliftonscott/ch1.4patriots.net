@@ -1,6 +1,9 @@
 <?php
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-01.png";
+if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) {
+	$_SESSION["customTemplate"]["price"] = 27;
+}
 ?>
 <style>
 	p{
