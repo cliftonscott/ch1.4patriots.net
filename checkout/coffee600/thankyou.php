@@ -9,7 +9,6 @@ $funnelData = $productObj->initFunnel("OTO-C600-TYP");
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
-
 <script src="/js/audio.js"></script>
 <div class="container-main">
 	<div class="breadcrumb2">
@@ -49,11 +48,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}
 			?>
 		</div>
-
 		<div class="margin-tb-20">
 			<?php include_once("products/F4P-coffeefunnel-protein-pid230.php"); ?>
 		</div>
-
 		<div class="margin-tb-20">
 			<?php
 			if( $detect->isTablet() || !$detect->isMobile() ){
