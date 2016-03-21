@@ -15,10 +15,19 @@ $productObj = new Product();
 $productDataObj = $productObj->getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
+$submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-01.png";
+
+
 //include template top AFTER the product information is set
 include_once ('template-top.php');
 ?>
-<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?> 
+<?php include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/?>
+
+<style>
+	p{
+		margin: 8px;
+	}
+</style>
 
 <div class="container-main">
 
@@ -36,15 +45,14 @@ include_once ('template-top.php');
 					</div>
 					<div class="col-lg-12 margin-b-10">
 						<p>All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<strong> FREE</strong> (just cover postage) while supplies last!</p>
-						<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and Granny's Homestyle Potato Soup.&nbsp;</p>
-						<p>Here&rsquo;s exactly what you&rsquo;ll get:</p>
+						<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and Granny's Homestyle Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
 						<ul>
-							<li>Mylar pouches keep out air, moisture and light to keep your food fresh and delicious</li>
 							<li>Instantly protects you and your family from going hungry in a disaster</li>
 							<li>Simple to prepare: just add boiling water, simmer, and serve</li>
+							<li>Space-age Mylar pouches keep out air, moisture and light to keep your food fresh and delicious</li>
 							<li>Rushed to your door via USPS First Class Mail</li>
 						</ul>
-						<p><strong>Regularly priced at $27.00 plus shipping, today it&rsquo;s FREE while supplies last </strong>(limit one per household, just cover postage)<strong>&nbsp;--&nbsp;</strong>get yours now before it&rsquo;s gone!</p>
+						<p><strong>Regularly priced at $27.00 plus shipping, today it&rsquo;s <strong class="darkRed">FREE</strong> while supplies last </strong>(limit one per household, just cover postage)!</p>
 					</div>
 					<div class="col-lg-12 text-center hidden-xs">
 						<img src="/assets/images/buttons/btn-order-now-green-left-01.png" alt="Frank" class="img-responsive center-block">

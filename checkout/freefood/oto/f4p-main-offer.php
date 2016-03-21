@@ -24,6 +24,73 @@ $declineUrl = $funnelData["declineUrl"];
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
+<script type="text/javascript">
+	$(document).ready(function() {
+		// navigation click actions
+		$('.scroll-link').on('click', function(event){
+			event.preventDefault();
+			var sectionID = $(this).attr("data-id");
+			scrollToID('#' + sectionID, 750);
+		});
+		// scroll to top action
+		$('.scroll-top').on('click', function(event) {
+			event.preventDefault();
+			$('html, body').animate({scrollTop:0}, 'slow');
+		});
+		// mobile nav toggle
+		$('#nav-toggle').on('click', function (event) {
+			event.preventDefault();
+			$('#main-nav').toggleClass("open");
+		});
+	});
+	// scroll function
+	function scrollToID(id, speed){
+		var offSet = 50;
+		var targetOffset = $(id).offset().top - offSet;
+		var mainNav = $('#main-nav');
+		$('html,body').animate({scrollTop:targetOffset}, speed);
+		if (mainNav.hasClass("open")) {
+			mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+			mainNav.removeClass("open");
+		}
+	}
+	if (typeof console === "undefined") {
+		console = {
+			log: function() { }
+		};
+	}
+</script>
+<script>
+	$(document ).ready(function () {
+		$("#reportsPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"4 FREE Written Reports",
+			content: "<img src=/media/images/bonuses/f4p-written-reports-01.jpg>"
+		});
+
+	});
+	$(document ).ready(function () {
+		$("#toolPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"11-in-1 Survival Tool",
+			content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
+		});
+
+	});
+	$(document ).ready(function () {
+		$("#seedsPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"Liberty Seed Vault",
+			content: function() {
+				return $('#lsv').html();
+			},
+		});
+
+	});
+</script>
 <style>
 	/*Pricing Page
 ------------------------------------*/
@@ -34,6 +101,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		border-radius:3px;
 		margin-bottom:15px;
 		box-shadow:0 0 5px #eee;
+	}
+	#pricing{
+		position: relative;
 	}
 	.pricing:hover {
 		box-shadow:0 0 15px #b5b5b5;
@@ -97,7 +167,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	.pricing-content  {
 		margin-bottom: 0px;
 	}
-	.pricing-content li {
+	.pricing-content li {   
 		color:#888;
 		font-size:15px;
 		padding:7px 15px;
@@ -106,7 +176,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	.pricing-content li i {
 		color:#72c02c;
 		font-size:16px;
-		margin-right:5px;
 		position:relative;
 	}
 
@@ -325,35 +394,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	}
 </style>
 <script>
-	/*
-	 This is the countdown timer, used for the visual display of the 'clock'.
-	 It uses a date object where the last three integers are hours, minutes, seconds.
-	 When the timer reaches zero it clears the timer object and calls a function
-	 to call the CSR Modal Window.
-
-	 This timer requires a block object (div) with an id of 'countDownTimer'.
-	 */
-	var jsTimer = setInterval(function(){timerChange()},1000);
-
-	timerDateObj = new Date(2014, 01, 01, 12, 50, 00);51;
-
-	function timerChange() {
-		time = timerDateObj.getTime();
-		newTime = time - 1000;
-		timerDateObj.setTime(newTime);
-		m = timerDateObj.getMinutes();
-		s = timerDateObj.getSeconds();
-		if(s < 10) {
-			s = "0" + s;
-		}
-		$("#countDownTimer").html(m + ":" + s);
-		if(parseInt(s) + parseInt(m) == 0) {
-			clearInterval(jsTimer);
-			showCsrModal();
-		}
-	}
-</script>
-<script>
 	// Change these values for the content within the "buttons" div to appear at this time.
 
 	$(document).ready(function(){
@@ -401,38 +441,31 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
 	});
 </script>
-<div class="container subheader" onclick="showProductModal()"></div>
 <div class="container-main">
+	<div class="breadcrumb1">
+		<a>CHECKOUT</a>
+		<a class="current">ORDER CUSTOMIZATION</a>
+		<a>ORDER CONFIRMATION</a>
+	</div>
 	<div class="container">
-		<div class="row hoverride">
-			<div class="col-md-12">
-				<div class="center-block text-center">
-					<h1><strong>Why Was This Video Banned?</strong></h1>
-				</div>
+		<div class="col-md-12">
+			<div class="center-block text-center">
+				<h1><strong>Why Was This Video Banned?</strong></h1>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div id="videobox">
+				<iframe src="//fast.wistia.net/embed/iframe/6kiay1gnhp" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+				<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 			</div>
 			<div class="col-md-12">
+				<div id="reserve" style="display:none;">
+					<div class="text-center center-block"><img src="/assets/images/misc/loading-01.gif" width="600" height="205" alt=""/> </div>
+				</div>
 
-				<div id="buyButton" class="center-block text-center">
+				<div id="buyButton2" class="center-block text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
-				</div>
-			</div>
-			<div class="col-md-12">
-				<div id="videobox">
-					<iframe src="//fast.wistia.net/embed/iframe/6kiay1gnhp" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
-					<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-				</div>
-				<div class="col-md-12">
-					<div id="reserve" style="display:none;">
-						<div class="text-center center-block"><img src="/assets/images/misc/loading-01.gif" width="600" height="205" alt=""/> </div>
-					</div>
-
-					<div id="buyButton2" class="center-block text-center">
-						<h2 class="darkRed" style="margin-top: 5px; margin-bottom:0px;"><strong>Act Fast! Your Reservation and Discount <br> are Guaranteed Until....</strong></h2>
-						<div id="countDownTimer"></div>
-						<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
-						<p style="color:#002287;">(This Takes You To The Kit Options)</p>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -444,6 +477,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<style>.navbar,.navbar-phone-contain{max-width:958px!important;}h1,h2{font-weight:700;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;margin-top:20px;margin-bottom:25px;line-height:1.1}.button.big,h1,h2{font-weight:700}p{font-size:15pt}blockquote{margin:5px}h1{font-size:36px}h2{font-size:30px;color:inherit}.button,.button:visited,h1.large,h2.large{font-family:Oswald,sans-serif}img{margin-bottom:10px}ul{list-style-image:none}ul li{margin:0 25px;font-size:16px}.fa-check{color:#34C901}.button.big{font-size:39px;margin-bottom:18px}.button,.button:visited{display:inline-block;font-weight:400;padding:8px 84px;text-decoration:none;color:#777;outline:0;cursor:pointer;text-shadow:1px 1px 0 rgba(0,0,0,.1);-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;background:-webkit-gradient(linear,left top,left bottom,color-stop(.05,#ededed),color-stop(1,#dfdfdf));background:-moz-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:-webkit-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:-o-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:-ms-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background-color:#ededed}.button:hover{text-decoration:none;background:-webkit-gradient(linear,left top,left bottom,color-stop(.05,#dfdfdf),color-stop(1,#ededed));background:-moz-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:-webkit-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:-o-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:-ms-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background-color:#dfdfdf}.button:active{position:relative;top:1px}.blue.button{background:#002bba;background:-moz-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,43,186,1)),color-stop(100%,rgba(1,1,134,1)));background:-webkit-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:-o-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:-ms-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:linear-gradient(to bottom,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);color:#fff!important}.blue.button:hover{background:#010186;background:-moz-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(1,1,134,1)),color-stop(100%,rgba(0,43,186,1)));background:-webkit-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:-o-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:-ms-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:linear-gradient(to bottom,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%)}.color-red{color:#d01f22}h1.large,h2.large{font-size:48px;font-weight:700;margin-bottom:18px}</style>
 
 			<div class="container oto-width">
+				<p>We all know a crisis is coming. What's going to happen when disaster strikes? Are you prepared to feed your family?</p>
+				<p>I don't know about you, but I'm sure not counting on the government to help me. In fact, they may be behind disappearing food stockpiles all over the country; and I've got the proof.</p>
+
 				<h2 class="darkRed text-center">A Letter From The Feds That Chilled<br class="hidden-sm"> Me To The Bone...</h2>
 				<p>Not too long ago, FEMA went directly to my supplier and tried to buy up my entire stockpile of high-quality survival food. It sounds crazy, but I'll show you the exact letter they sent in a minute.</p>
 				<p>Revealing their plot could land me in hot water, but I think you deserve to know <strong>exactly what they're doing.</strong></p>
@@ -459,7 +495,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Here's what happened: FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many...&nbsp;</p>
 				<p>Well, maybe I should just let Matt tell you about it, since he was the one who received the letter that proves it...</p>
 				<img src="/media/images/f4p/letter/f4p-letter-fema-letter-2.jpg" alt="FEMA letter" class="img-responsive center-block">
-				<p style="text-align: center;" class="caption">100% Genuine letter from FEMA... demanding to know how much<br class="hidden-sm hidden-xs"> food we can ship and how fast!</p> <blockquote style="font-size:16px;border: none;margin-bottom: 0">
+				<p style="text-align: center;line-height:1.0" class="caption"><em style="font-size: 15px;font-style: normal;">100% Genuine letter from FEMA... demanding to know how much<br class="hidden-sm hidden-xs"> food we can ship and how fast!</em></p>
+				<blockquote style="font-size:16px;border: none;margin-bottom: 20px;background-color:lightgrey;border-radius: 15px;">
 					<p><em>&ldquo;Thanks Frank. Well, it was kind of crazy to get this letter from FEMA. I don't mean to sound paranoid, but they were asking some questions that make me pretty nervous.</em></p>
 					<p><em>FEMA and the Department of Homeland Security demanded to know:</em></p>
 					<ul>
@@ -628,10 +665,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">Just to Remind You, We’re Offering These Kits on A 100% First-Come, First-Serve Basis</h2>
 				<p>As of this writing, kits are in stock and available for immediate shipment. However, we can&rsquo;t say how long this will remain the case.</p>
 				<p>Look, I'd rather you get your own personal food stockpile than see the government hoard them. Since they&rsquo;re clearing out fast I'll be ordering as many as I can to keep up with the demand. But if the supply of raw ingredients dries up or food prices skyrocket, there may be no way of restocking quickly or economically.</p>
-				<img class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
+				<img class="img-responsive pull-left img-padding-right" width="270px" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
 				<p>So why is our survival food flying off the shelves?</p>
-				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>.</p>
-				<p>Just add boiling water, simmer and serve.&nbsp;</p>
+				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>. Just add boiling water, simmer and serve.&nbsp;</p>
 				<p>Can you picture how easy this is? It's so simple even kids can make our food.</p>
 
 				<h2 class="darkRed text-center">Each Food4Patriots Survival Food Kit<br class="hidden-xs"> Is Packed With Variety</h2>
@@ -668,7 +704,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream...<br class="hidden-xs">Here’s My Food, Come Take It</h2>
 				<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 7px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
 				<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy,  waterproof and<br class="hidden-xs"> easy-to-stack.</p>
 				<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 				<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
@@ -722,12 +758,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
-					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
-					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 				</div>
 				<p>The 3-month kit is far and away our most popular. However, there&rsquo;s a kit size available for every budget and need.</p>
-				<img class="img-responsive center-block margin-tb-20" style="width:541px " src="/media/images/f4p/letter/f4p-letter-storage-totes-v2.jpg" alt="">
+				<img class="img-responsive center-block margin-tb-20" style="width:541px " src="/media/images/f4p/letter/f4p-3-month-kit-05.jpg" alt="">
 
 				<p>Just so you know what to expect, a few weeks after you order and receive your food kit, we&rsquo;ll politely ask you to please review your purchase. It&rsquo;s totally optional, we just really appreciate the feedback so we can make things better.</p>
 				<p>And to date we&rsquo;ve gotten 1,338 verified 4- and 5-star reviews back from customers. These are not anonymous, paid, fake reviews, folks. Only real Food4Patriots customers can review a food kit they purchased.&nbsp;</p>
@@ -747,7 +780,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>So many folks are jumping on board with us to make sure their families don&rsquo;t go hungry in a crisis. So many, in fact, that we recently celebrated getting 13 million meals into the hands of American families who want to be prepared. WOW!</p>
 				<p>As you can see we&rsquo;re no fly-by-night operation. No sir.</p>
 				<p>Our office is located in Nashville, Tennessee and is just a few of miles from the famous Ryman Auditorium, home of the Grande Ole Opry.</p>
-				<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-recent-csr-team.jpg" alt="">
+				<img style="margin-top: 7px" class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-recent-csr-team.jpg" alt="">
 				<p>Here&rsquo;s a recent snapshot we took at the office here in Nashville so you can see we&rsquo;re real people &ndash; Americans &ndash; not some 800 number being routed over to some foreign basement call center in India or the Philippines, forced to talk with someone named &ldquo;Bob&rdquo; with an accent you can barely understand.&nbsp;</p>
 				<p>With us, you&rsquo;ll only be dealing with Josh, Bonnie, Ray, Lisa and other good folks right here in the USA. People who own and have eaten Food4Patriots themselves and know the product inside out.</p>
 				<p>Now to help make this a complete no-brainer for you.</p>
@@ -755,19 +788,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE<br class="hidden-xs"> Bonus Reports That Will Be A Perfect<br class="hidden-xs"> Complement To Your Food</h2>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-10-items-after-crisis.jpg" width="100%" alt="Bonus 1" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - Top 10 Items Sold Out After a Crisis: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - <strong>Top 10 Items Sold Out After a Crisis</strong>: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-water-survival-guide.jpg" width="100%" alt="Bonus 2" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - The Water Survival Guide: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - <strong>The Water Survival Guide</strong>: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-the-survival-garden-guide.jpg" width="100%" alt="Bonus 3" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - The Survival Garden Guide: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - <strong>The Survival Garden Guide</strong>: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-cut-grocery-bills-half.jpg" width="100%" alt="Bonus 4" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- How to Cut Your Grocery Bills in Half: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- <strong>How to Cut Your Grocery Bills in Half</strong>: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
 				</div>
 				<p>And when you click the button below you'll see a couple of special deals I just added&hellip; including <strong>FREE SHIPPING</strong> on our most popular kit, the 3-month supply.</p>
 				<p>&nbsp;As you&rsquo;ve seen there&rsquo;s a lot involved in making survival food of this quality and that is guaranteed to last for 25 years.</p>
@@ -796,9 +829,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="text-center">
 					<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 					<p style="color:#002287;">(This Takes You To The Kit Options)</p>
-					<img src="/media/images/f4p/letter/f4p-letter-credid-cards.png" width="198" height="22"/><br><br>
-					<span class="small gray">Order Online Any Time<br>24 Hours a Day / 7 Days a Week / 365 days a Year</span><br>
-					<img src="/media/images/f4p/letter/f4p-letter-mcaffe.png" width="197" height="52"/><br>
 				</div>
 				<p>Now, bear with me for another few seconds and picture something in your mind because it&rsquo;s important.</p>
 				<p>Imagine that it's 9:07 a.m. and the "you know what" has just hit the fan. People are panicking. It's all over the radio and TV.</p>
@@ -814,9 +844,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>One thing is clear&hellip; you&rsquo;ve got to make a choice.</p>
 				<p>Be sure to make the right one.</p>
 				<p>You&rsquo;ve seen enough to know that something bad can happen, and it&rsquo;s plain common sense to prepare, just in case.</p>
-				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it. Click the button below. You'll be glad you did.</p>
+				<p>You can get started risk free because you&rsquo;re backed by a 100% money-back guarantee for 365 days. It&rsquo;s like trying it before you buy it.</p>
 				<p>Remember, this is delicious food good for 25 years of storage. So even if we&rsquo;re dead wrong about the direction we&rsquo;re heading and everything turns out fine, you'll still come out ahead with your food stockpile because if you don't need it, just eat it!</p>
-				<p>Click the '<strong>Add To Cart'</strong>&nbsp;button for the kit that best fits your families needs.</p>
+				<p>Click the '<strong>Click to Accept'</strong>&nbsp;button for the kit that best fits your families needs.</p>
 			</div>
 		</div>
 	</div>
@@ -831,11 +861,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="pricing hover-effect">
 						<div class="pricing-head">
 							<h3>1-Week Kit<span>Includes 40 Servings</span></h3>
-							<img class="product-img" src="http://chris01.4patriots.net/assets/img/tables/1-week-kit.jpg">
+							<img class="product-img" src="/media/images/f4p/f4p-1-week-kit-09.jpg">
 							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
 							<!--<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
 							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
@@ -847,11 +877,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						<?php
 						if($isUpgrade) {
 							?>
-							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
 							<?php
 						}
 						?>
@@ -863,30 +893,32 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<input id="taxState_19" type="hidden" value="<?php echo strtolower($billingStateName);?>">
 				<input id="productData[19]" type="hidden" value="{'productId':19,'price':497,'shipping':0}">
 				<div class="col-xs-6 col-sm-4 tables-fw">
-					<div class="pricing hover-effect price-active">
-						<div class="sticker-right">Value</div>
-						<div class="pricing-head">
-							<h3>3-Month Kit<span>Includes 450 Servings</span></h3>
-							<img class="product-img" src="http://chris01.4patriots.net/assets/img/tables/3-month-kit.jpg">
-							<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
+					<div class="hover-effect price-active">
+						<div style="box-shadow:none;border: none" class="pricing price-active">
+							<div class=" sticker-right">Value</div>
+							<div class="pricing-head">
+								<h3>3-Month Kit<span>Includes 450 Servings</span></h3>
+								<img class="product-img" src="//media.4patriots.com/images/f4p/f4p-1year-totes-bonuses-veggies-300x200.jpg">
+								<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
+							</div>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Free 4 Bonus Hardcover Reports</li>
-							<li><i class="fa fa-check"></i> Free Survival Tool<span></span></li>
-							<li><i class="fa fa-check"></i> Free Seed Vault<span></span></li>
+							<li><i class="fa fa-check"></i> Free 4 Written Reports <a href="#info" id="reportsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a></li>
+							<li><i class="fa fa-check"></i> Free Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
+							<li><i class="fa fa-check"></i> Free Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
 							<li><i class="fa fa-check"></i> Free Shipping <span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Deluxe kit that will leave you feel fully prepared. </p>
+							<p>Best value deluxe kit leaving you fully prepared</p>
 						</div>
 						<?php
 						if($isUpgrade) {
 							?>
-							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
 							<?php
 						}
 						?>
@@ -901,68 +933,57 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div class="pricing hover-effect">
 						<div class="pricing-head">
 							<h3>4-Week Kit<span>Includes 140 Servings</span></h3>
-							<img class="product-img" src="http://media.4patriots.com/images/f4p/f4p-4week-totes-bonuses-veggies-300x200.jpg">
+							<img class="product-img" src="/media/images/f4p/f4p-1month-kit-01.jpg">
 							<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
 						</div>
 						<ul class="pricing-content list-unstyled">
-							<li><i class="fa fa-check"></i> Free 4 Bonus Digital Reports</li>
+							<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
 							<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
 						</ul>
 						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-							<p>Perfect for covert storage and packaged for a longer crisis.</p>
+							<p>Perfect for covert storage and packaged for a<br class="hidden-xs"> longer crisis.</p>
 						</div>
 						<?php
 						if($isUpgrade) {
 							?>
-							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
 							<?php
 						} else {
 							?>
-							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
 							<?php
 						}
 						?>
 					</div>
-				</form>
-			</div>
+				</div>
+			</form>
 		</div>
-		<div>
-			<div style="font-size: 20px" class="noThanks">
-				<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
-			</div>
+	<div>
 		</div>
+		</div>
+	<p></p>
+	<img class="img-responsive center-block"  src="/media/images/f4p/f4p-testimonials-07b.jpg" alt="Food4Patriots Testimonial">
+	<p></p>
+	<img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-17.jpg" alt="Food4Patriots Testimonial">
+	<p></p>
+	<div style="font-size: 20px" class="noThanks">
+		<a href="<?php echo $declineUrl;?>" onClick="">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
+	</div>
+	<div style="font-size: 20px;" class="outLineBoxDarkBlue">
+		<p><img style="padding-right: 10px;" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+		<div class="clearfix"></div>
+	</div>
+
+	<div style="font-size: 20px" class="outLineBoxDarkBlue">
+		<p><img style="margin-bottom: 20px;padding-right: 10px;" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+		<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
+
+		<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
 	</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<script>
-						function flipTV() {
-							tvBadges = document.getElementById("tvBadges");
-							tvText = document.getElementById("tvText");
-							if(tvBadges.style.visibility == "visible") {
-								tvBadges.style.visibility = "hidden";
-								tvBadges.style.display = "none";
-								tvText.style.visibility = "visible";
-								tvText.style.display = "block";
-							} else {
-								tvBadges.style.visibility = "visible";
-								tvBadges.style.display = "block";
-								tvText.style.visibility = "hidden";
-								tvText.style.display = "none";
-							}
-						}
-					</script>
-					<div class="tv">
-						<div id="tvBadges" style="visibility: visible; display: block;">
-							<p><img src="/assets/images/video-lander/as-seen-advertised-on-01.jpg" class="img-responsive center-block" onclick="flipTV();"></p>
-						</div>
-						<div id="tvText" style="visibility: hidden;">
-							<p style="margin:0px; "><span id="tvClose" class="glyphicon glyphicon glyphicon-remove" onclick="flipTV();"></span>
-								Food4Patriots has been seen and advertised on 100's of websites (GlennBeck.com, <br>PersonalLiberty.com) and news outlets (TheBlaze, WND, etc) since it's launch in late 2013. For recent news stories, interviews and press releases about Food4Patriots, please visit our <a href="/newsroom.php?" target="_blank">Newsroom</a>.
-							</p>
-						</div>
-					</div>
-					<div id="clear"></div>
 					<div id="video-references">
 						<div>Research References</div>
 						<p style="font-size: 12px !important;">
@@ -980,7 +1001,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							12. <em>Fox News</em>. &ldquo; FEMA asking disabled, elderly residents to repay aid from superstorm Sandy.&rdquo; 2015.<br>
 							13. <em>Before It&rsquo;s News</em>. &ldquo;Disaster Looms: FEMA Scrambles to Stockpile Food Reserves.&rdquo; 2015.<br>
 							14. CBS News. Reid, C. &ldquo;In the Dark of Power Grid Security.&rdquo; 2015.<br>
-							15. <em>AARP</em>. Green, C. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism and lessons learned over his long career.&rdquo; 2015.<br>
+							15. <em>AARP</em>. Green, C. &ldquo;A Conversation With Ted Koppel The former 'Nightline' anchor talks about cyberterrorism.&rdquo; 2015.<br>
 							16. <em>The Telegraph</em>. Lean, G. &ldquo;There's a food crisis coming. Are we ready?.&rdquo; 2015.<br>
 							17. <em>Fox News</em>. &ldquo;New Reports of looting in Baltimore as national guard join police in patrolling streets.&rdquo; 2015.<br>
 							18. <em>Washington Examiner.</em> Bedard, P. &ldquo;New Isis threat: America&rsquo;s electric grid; blackout could kill 9 of 10&rdquo;. 2014.
@@ -1055,87 +1076,17 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 	</div>
 </div>
+<div id="lsv" style="display:none;">
+	<p class="popul">You’ll Get More Than 5,640 Survival Seeds from 22 varieties Of Hardy & Delicious Heirloom Seeds Passed Down From Our Forefathers In An Airtight Storage Vault Rated For 5+ Years Of Storage.</p>
+	<div class="center">
+		<img src="/media/images/ss4p/ss4p-lsv-spread-03.jpg" width="500" height="317" alt="Your Survival Seeds Bonus!">
+	</div>
+</div>
 
 <?php include_once ("footer.php")?>
 
-<script>
-	$(document ).ready(function () {
-		$("#4wkPopover").popover({
-			html:true,
-			trigger: 'hover',
-			title:"4 Week Kit May Include:",
-			content: function() {
-				return $('#4wk').html();
-			},
-		});
 
-	});
-	$(document ).ready(function () {
-		$("#3mkPopover").popover({
-			html:true,
-			trigger: 'hover',
-			title:"3 Month Kit May Include:",
-			content: function() {
-				return $('#3mk').html();
-			},
-		});
 
-	});
-	$(document ).ready(function () {
-		$("#toolPopover").popover({
-			html:true,
-			trigger: 'hover',
-			title:"11-in-1 Survival Tool",
-			content: "<img src=/media/images/ppg/ppg-bonus-tool-01.jpg>"
-		});
 
-	});
-	$(document ).ready(function () {
-		$("#seedsPopover").popover({
-			html:true,
-			trigger: 'hover',
-			title:"Liberty Seed Vault",
-			content: function() {
-				return $('#lsv').html();
-			},
-		});
 
-	});
-</script>
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		// navigation click actions
-		$('.scroll-link').on('click', function(event){
-			event.preventDefault();
-			var sectionID = $(this).attr("data-id");
-			scrollToID('#' + sectionID, 750);
-		});
-		// scroll to top action
-		$('.scroll-top').on('click', function(event) {
-			event.preventDefault();
-			$('html, body').animate({scrollTop:0}, 'slow');
-		});
-		// mobile nav toggle
-		$('#nav-toggle').on('click', function (event) {
-			event.preventDefault();
-			$('#main-nav').toggleClass("open");
-		});
-	});
-	// scroll function
-	function scrollToID(id, speed){
-		var offSet = 50;
-		var targetOffset = $(id).offset().top - offSet;
-		var mainNav = $('#main-nav');
-		$('html,body').animate({scrollTop:targetOffset}, speed);
-		if (mainNav.hasClass("open")) {
-			mainNav.css("height", "1px").removeClass("in").addClass("collapse");
-			mainNav.removeClass("open");
-		}
-	}
-	if (typeof console === "undefined") {
-		console = {
-			log: function() { }
-		};
-	}
-</script>
