@@ -257,8 +257,8 @@
 
 <div class="container-main">
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 col-sm-push-6 col-md-7 col-md-push-0 nopadding nomargin">
+		<div class="row nopadding nomargin">
+			<div class="col-sm-6 col-md-7 nopadding nomargin">
 				<div class="row ">
 					<div class="col-lg-12 text-center center-block hidden-xs nopaddingsm">
 						<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
@@ -267,7 +267,7 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 col-lg-12 nopadding">
-						<img src="/assets/images/logo-small.png" width="384" height="103" alt="power4patriots" class="img-responsive center-block" style="max-width: 286px;">
+						<img src="/assets/images/logo-small.png" width="384" height="103" alt="food4patriots" class="img-responsive center-block" style="max-width: 286px;">
 					</div>
 				</div>
 				<div class="row">
@@ -288,13 +288,13 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="row">
-					<div class="col-sm-12 nopadding">
+					<div class="col-sm-12">
 						<img src="/assets/images/checkout/satisfaction-seal-03.jpg" alt="Frank" width="99" height="84" class="img-responsive pull-left">
 						<p class="guarantee-text text-center"><strong>365-Day Full Money Back Guarantee</strong> – If at any time during the next year – for any reason – you are not satisfied with your Food4Patriots survival food, simply return it for a full refund.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-sm-pull-6 col-md-5 col-md-pull-0 nopaddingsm">
+			<div class="col-sm-6 col-md-5 nopaddingsm">
 				<?php include_once ('customer-form-validation.php'); ?>
 			</div>
 		</div>
@@ -303,7 +303,7 @@
 
 <div class="container-fluid" style="background-color: #f8f8f8;padding: 20px; border-top: 1px solid #EFEFEF;">
 	<div class="row center-block" style="max-width: 980px;">
-		<div class="col-sm-2 col-md-3" style="padding-bottom:20px;">
+		<div class="col-sm-3 col-md-3" style="padding-bottom:20px;">
 			<!--Norton security/seal-->
 			<div class="text-center">
 				<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
@@ -314,16 +314,16 @@
 				<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
 			</div>
 		</div>
-		<div class="col-sm-2 col-md-3  text-center" style="padding-top: 20px;">
+		<div class="col-sm-3 col-md-3  text-center" style="padding-top: 20px;">
 			<!--honesty online badge-->
 			<div>
-				<a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!" border="0"style="margin-right:20px;"></a>
+				<a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!" border="0"></a>
 			</div>
 		</div>
-		<div class="col-sm-2 col-md-3 text-center">
+		<div class="col-sm-3 col-md-3 text-center">
 			<img src="/assets/images/checkout/secure-seal-made-usa.png" width="91" height="82" alt="Trust Seals" style="margin-top: 6px;">
 		</div>
-		<div class="col-sm-2 col-md-3 text-center" style="padding-top: 10px;">
+		<div class="col-sm-3 col-md-3 text-center" style="padding-top: 10px;">
 			<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
 			<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
 		</div>
@@ -482,7 +482,7 @@
 </div>
 <div class="container-fluid" style="background-color: #f8f8f8;padding: 20px; border-top: 1px solid #EFEFEF;">
 	<div class="row center-block" style="max-width: 980px;">
-		<div class="col-sm-2 col-md-3" style="padding-bottom:20px;">
+		<div class="col-sm-3 col-md-3" style="padding-bottom:20px;">
 			<!--Norton security/seal-->
 			<div class="text-center">
 				<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
@@ -493,16 +493,16 @@
 				<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
 			</div>
 		</div>
-		<div class="col-sm-2 col-md-3  text-center" style="padding-top: 20px;">
+		<div class="col-sm-3 col-md-3  text-center" style="padding-top: 20px;">
 			<!--honesty online badge-->
 			<div>
-				<a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!" border="0"style="margin-right:20px;"></a>
+				<a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!" border="0"></a>
 			</div>
 		</div>
-		<div class="col-sm-2 col-md-3 text-center">
+		<div class="col-sm-3 col-md-3 text-center">
 			<img src="/assets/images/checkout/secure-seal-made-usa.png" width="91" height="82" alt="Trust Seals" style="margin-top: 6px;">
 		</div>
-		<div class="col-sm-2 col-md-3 text-center" style="padding-top: 10px;">
+		<div class="col-sm-3 col-md-3 text-center" style="padding-top: 10px;">
 			<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
 			<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
 		</div>
