@@ -278,7 +278,7 @@
 				<div class="row center-block" style="margin: 15px 0;">
 					<div class="col-sm-12 nopadding">
 						<ul class="fa-ul blue-check">
-							<li><i class="fa-li fa fa-check fa-2x"></i> 16 Servings of Great-tasting Survival Food</li>
+							<li><i class="fa-li fa fa-check fa-2x"></i> 16 Servings of Great-tasting Survival Food  <a href="#info" id="72hrPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><i class="fa-li fa fa-check fa-2x"></i> Packaged In Airtight, Re-sealable Mylar Pouches</li>
 							<li><i class="fa-li fa fa-check fa-2x"></i> Quick And Easy To Prepare </li>
 							<li><i class="fa-li fa fa-check fa-2x"></i> 100% Satisfaction Guarentee</li>
@@ -508,6 +508,28 @@
 		</div>
 	</div>
 </div>
+<script>
+	$(document ).ready(function () {
+		$("72hrPopover").popover({
+			html:true,
+			trigger: 'hover',
+			title:"72 Hour Kit May Include:",
+			content: function() {
+				return $('#72hr').html();
+			}
+		});
+	});
+</script>
+<div id="72hr" style="display:none;">
+	<img src="/media/images/f4p/f4p-72-hour-kit-03.jpg" style="max-width: 260px;margin-top:10px;" alt="Trust Seals">
+	<ul class="fa-ul popul">
+		<li><i class="fa-li fa fa-caret-right"></i>Broccoli &amp; Cheese Soup (4)</li>
+		<li><i class="fa-li fa fa-caret-right"></i>Blue Ribbon Cheesy Rice (4)</li>
+		<li><i class="fa-li fa fa-caret-right"></i>Granny's Homestyle Potato Soup (4)</li>
+		<li><i class="fa-li fa fa-caret-right"></i>Liberty Bell Potato Cheddar Soup (4)</li>
+	</ul>
+</div>
+
 <div class="container-fluid">
 	<?php $platform->renderCsrModal();?>
 </div> <!--end div from opening file-->
