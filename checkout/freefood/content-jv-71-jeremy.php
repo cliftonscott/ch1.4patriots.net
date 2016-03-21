@@ -1,5 +1,5 @@
 <style>
-	body{background-color: #ffffff}
+	body{background-color: #ffffff; font-size:14pt;}
 	.container-main, .container {
 		max-width: 980px;
 	}
@@ -31,7 +31,10 @@
 	.blue-check .fa-check{color:#003F9A; margin-top: -12px;}
 	u.underline-red{ -moz-text-decoration-color: red; /* Code for Firefox */
 		text-decoration-color: red;}
-	.topbanner{font-size: 2.9em}
+	.topbanner{font-size: 2.2em}
+	.topbanner u {
+		color: #AD0808;
+	}
 	.topbanner2{font-size: 2em; font-style: italic;color: #808080;}
 	#secure-order-bar{background-color: #0f6ea6; background-image: none;    border: 1px solid #0f6ea6;}
 	.navbar-default {
@@ -43,6 +46,162 @@
 	.video-row{padding-right: 0;padding-left: 0}
 	.container.footer{background-color: #011839; margin-bottom: 0; max-width:100%}
 	.topTimer{background-color: orange}
+	.panel-title {font-size: 14pt;}
+	em{
+		color: transparent;
+		text-shadow: 0 0 5px rgba(0,93,158,1.0);
+		font-style:normal;
+	}
+	em .fb-dropdown{
+		float:right;
+	}
+	.fb-group-picrow img{
+		direction: ltr;
+		display: block;
+		font-family: helvetica, arial, 'lucida grande', sans-serif;
+		font-size: 12px;
+		height: 50px;
+		line-height: 17px;
+		text-align: left;
+		/*width: 50px;*/
+		float:left;
+		padding-right:8px;
+	}
+	.mock-outer{
+		background-color: rgb(255, 255, 255);
+		border-bottom-color: rgb(208, 209, 213);
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		border-image-outset: 0px;
+		border-image-repeat: stretch;
+		border-image-slice: 100%;
+		border-image-source: none;
+		border-image-width: 1;
+		border-left-color: rgb(223, 224, 228);
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right-color: rgb(223, 224, 228);
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-top-color: rgb(229, 230, 233);
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		border-top-style: solid;
+		border-top-width: 1px;
+		color: rgb(20, 24, 35);
+		display: block;
+		font-family: helvetica, arial, 'lucida grande', sans-serif;
+		font-size: 12px;
+		height: auto;
+		line-height: 17;
+		margin: 10px auto;
+		padding: 12px;
+		text-align: left;
+		max-width: 700px;
+		word-wrap: break-word;
+	}
+
+	.mock-inner{
+		direction: ltr;
+		display: block;
+	}
+
+	.usertext{
+		color: rgb(20, 24, 35);
+		direction: ltr;
+		display: inline;
+		font-size: 14px;
+		font-weight: normal;
+		height: auto;
+		line-height: 20px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		text-align: left;
+		width: auto;
+		word-wrap: break-word;
+
+	}
+	.mock-title-cap-text{
+		color:#005D9E;
+		direction: ltr;
+		display: block;
+		font-size: 12px;
+		line-height: 11px;
+		margin-top:30px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		text-align: left;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		width: 100%;
+		word-wrap: break-word;
+	}
+	.fb-group-picrow{
+		color: rgb(20, 24, 35);
+		direction: ltr;
+		display: block;
+		font-family: helvetica, arial, 'lucida grande', sans-serif;
+		font-size: 12px;
+		height: 40px;
+		line-height: 17px;
+		margin-bottom: 25px;
+		text-align: left;
+	}
+	.fbh5{
+		color:#005D9E;
+		direction: ltr;
+		display: block;
+		font-family: helvetica, arial, 'lucida grande', sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		height: 19px;
+		line-height: 20px;
+		margin-bottom: 2px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 22px;
+		padding-top: 0px;
+		text-align: left;
+		/*width: 86px;*/
+	}
+	.fb-group-text{
+		color: rgb(20, 24, 35);
+		direction: ltr;
+		display: block;
+		font-family: helvetica, arial, 'lucida grande', sans-serif;
+		font-size: 12px;
+		height: 40px;
+		line-height: 17px;
+		text-align: left;
+		width: 100%;
+		word-wrap: break-word;
+	}
+	.fb-group-date{
+		color: rgb(145, 151, 163);
+		direction: ltr;
+		display: inline;
+		font-family: helvetica, arial, 'lucida grande', sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		height: auto;
+		line-height: 17px;
+		text-align: left;
+		width: auto;
+	}
+	@media screen and (max-width: 760px) {
+		.mock-outer{
+			width: 90%;
+		}
+	}
 	/* Extra small devices (phones, less than 768px) */
 	/* No media query since this is the default in Bootstrap */
 
@@ -85,7 +244,7 @@
 <div class="container-fluid" style="background-color: #f7f7f7">
 	<div class="row">
 		<div class="col-xs-12 text-center">
-			<span class="topbanner"><strong><u>WARNING:</u></strong> Free Survival Food is Almost Gone…</span>
+			<span class="topbanner"><strong><u>WARNING</u></strong>: Free Survival Food is Almost Gone…</span>
 		</div>
 	</div>
 	<hr class="short">
@@ -113,10 +272,10 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12 nopaddingsm">
-						<p class="text-center">This isn&rsquo;t ordinary food... this is delicious, nutritious, good for 25 years &ldquo;super survival food&rdquo; that could literally save your life in a disaster!</p>
+						<div class="text-center center-block" style="max-width: 85%; line-height: 1.3;padding: 5px 0;">This isn&rsquo;t ordinary food... this is delicious, nutritious, good for 25 years &ldquo;super survival food&rdquo; that could literally save your life in a disaster!</div>
 					</div>
 				</div>
-				<div class="row center-block margin-b-10">
+				<div class="row center-block" style="margin: 15px 0;">
 					<div class="col-sm-12 nopadding">
 						<ul class="fa-ul blue-check">
 							<li><i class="fa-li fa fa-check fa-2x"></i> 16 Servings of Great-tasting Survival Food</li>
@@ -128,7 +287,7 @@
 					</div>
 				</div>
 				<div class="clearfix"></div>
-				<div class="row margin-t-20">
+				<div class="row">
 					<div class="col-sm-12 nopadding">
 						<img src="/assets/images/checkout/satisfaction-seal-03.jpg" alt="Frank" width="99" height="84" class="img-responsive pull-left">
 						<p class="guarantee-text text-center"><strong>365-Day Full Money Back Guarantee</strong> – If at any time during the next year – for any reason – you are not satisfied with your Food4Patriots survival food, simply return it for a full refund.</p>
@@ -141,6 +300,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="container-fluid" style="background-color: #f8f8f8;padding: 20px; border-top: 1px solid #EFEFEF;">
 	<div class="row center-block" style="max-width: 980px;">
 		<div class="col-sm-2 col-md-3" style="padding-bottom:20px;">
@@ -169,6 +329,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="container-fluid">
 	<div class="row" style="background-color:#0058a2;">
 		<div class="col-sm-12">
@@ -178,22 +339,62 @@
 	<div class="row" style="background-color: #efefef">
 		<div class="container"
 		<div class="col-sm-12" style="padding: 35px;">
-			<img class="img-responsive media pull-right" src="/media/images/f4p/food/lasagna.jpg" width="200" height="133" alt="Mountain Man Granola">
+			<img class="img-responsive media pull-right" style="margin: 0 0 20px 20px;" src="/media/images/f4p/f4p-food-table-01.jpg" width="350" height="221" alt="Food4Patriots 72 Food Kit Meals">
 			<p>There&rsquo;s a lot going on in the world to be concerned about – terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more. You owe it to your family to prepare now for uncertain days ahead.</p>
 			<p>For sure, no one knows where the next crisis will hit… or when. But when it does hit, finding food could be near-impossible as stores are quickly sold out or have their shelves stripped bare by hungry mobs.</p>
 			<p>You don&rsquo;t want your family standing in line with thousands of desperate strangers like those poor folks had to in Hurricane Katrina – or be forced to dig through dumpsters like New Yorkers did during Superstorm Sandy. You owe it to them to make sure they&rsquo;ll have all the food they need when they need it… no matter what.</p>
 			<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. The regular price is $27.00 plus shipping. But right now it&rsquo;s yours FREE. All we ask is you help cover the low shipping cost.</p>
-			<img class="img-responsive media pull-left" src="/media/images/f4p/72hr-pouches-275x160.png"  alt="Liberty Bell Potato Cheddar Soup">
+			<img class="img-responsive media pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
 			<p>Every 72-hour kit contains four servings each of such familiar dishes as Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and the American favorite – Granny&rsquo;s Homestyle Potato Soup. Our survival foods contain no harmful chemicals, GMOs or added MSG. and are prepared with award-winning recipes, so they&rsquo;re loaded with flavor!</p>
 			<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
 			<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. Click the big button below now! </p>
 			<div class="text-center margin-b-10">
-				<button class="btn-3">YES... I Want My FREE Survival Food Kit!</button>
+				<button class="btn-3" onclick="$('#firstName').focus();">YES... I Want My FREE Survival Food Kit!</button>
 			</div>
 		</div>
 	</div>
 </div>
 
+<div class="container-fluid" style="background-color: #F8F8F8;border: 1px solid #EFEFEF;">
+	<div class="container">
+		<div class="row" style="padding: 20px 0;">
+			<div class="col-sm-12 col-md-6">
+				<div class="mock-outer ">
+					<div class="mock-inner">
+						<div class="fb-group-picrow">
+							<img src="/media/images/misc/img-testimonial-diana.jpg">
+							<div class="fb-group-text">
+								<h5 class="fbh5"><b>Colleen <em>Carter</em></b></h5>
+								<span class="fb-group-date">August 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
+							</div>
+						</div>
+						<div class="usertext">
+							<p>I am very happy with all the survival foods I have purchased & their prices are very reasonable & they are also non-GMO. Taste great & they are healthy for your body… "Food 4 Patriots" is the way to get the best for your money!!!!</p>
+						</div>
+						<div class="mock-title-cap-text">Like &#183; Comment &#183; Share</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-6">
+				<div class="mock-outer">
+					<div class="mock-inner">
+						<div class="fb-group-picrow">
+							<img src="/media/images/misc/img-testimonial-rolf.jpg"">
+							<div class="fb-group-text">
+								<h5 class="fbh5"><b>Herron <em>Dedrick</em></b></h5>
+								<span class="fb-group-date">May 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
+							</div>
+						</div>
+						<div class="usertext">
+							<p>I now feel very secure in the event of an emergency that might cut off food distribution channels. Also, in the event that our economy crashes (not if, but when… Again, thank you for what you have put together to help folks like me.</p>
+						</div>
+						<div class="mock-title-cap-text">Like &#183; Comment &#183; Share</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 <div class="container-main">
 	<div class="container">
@@ -277,6 +478,34 @@
 			</div>
 		</div>
 
+	</div>
+</div>
+<div class="container-fluid" style="background-color: #f8f8f8;padding: 20px; border-top: 1px solid #EFEFEF;">
+	<div class="row center-block" style="max-width: 980px;">
+		<div class="col-sm-2 col-md-3" style="padding-bottom:20px;">
+			<!--Norton security/seal-->
+			<div class="text-center">
+				<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
+					<tr>
+						<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=secure.food4patriots.com&amp;size=M&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script></td>
+					</tr>
+				</table>-->
+				<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
+			</div>
+		</div>
+		<div class="col-sm-2 col-md-3  text-center" style="padding-top: 20px;">
+			<!--honesty online badge-->
+			<div>
+				<a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!" border="0"style="margin-right:20px;"></a>
+			</div>
+		</div>
+		<div class="col-sm-2 col-md-3 text-center">
+			<img src="/assets/images/checkout/secure-seal-made-usa.png" width="91" height="82" alt="Trust Seals" style="margin-top: 6px;">
+		</div>
+		<div class="col-sm-2 col-md-3 text-center" style="padding-top: 10px;">
+			<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
+			<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
+		</div>
 	</div>
 </div>
 <div class="container-fluid">
