@@ -122,7 +122,7 @@ class Product {
 				break;
 			case 17: //main product - 72 Hour Kit
 				$productObj->pmaSku = null;
-				$productObj->price = 27;
+				$productObj->price = 0;
 				$productObj->originalPrice = 27;
 				$productObj->shippingIdDomestic = 14;
 				$productObj->shippingIdInternational = 19;
