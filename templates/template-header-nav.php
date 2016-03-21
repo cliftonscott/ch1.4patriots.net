@@ -51,7 +51,7 @@
     <div class="container nopadding">
         <div class="navbar-phone">
             <?php
-            if ($productId = 17) {
+            if($productId = 17) {
                 echo("<div id=\"phone-txt\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-598-5012</div>
  			<div id=\"phone-button\"><button type=\"button\" class=\"btn btn-primary\"><a href=\"tel:1-800-598-5012\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-598-5012</a></button></div>");
             }

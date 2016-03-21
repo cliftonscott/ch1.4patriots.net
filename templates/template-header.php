@@ -37,9 +37,9 @@
 	<div class="container nopadding">
 		<div class="navbar-phone">
 			<?php
-			if ($productId = 17) {
-				echo("<div id=\"phone-txt\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-555-5555</div>
-				<div id=\"phone-button\"><button type=\"button\" class=\"btn btn-primary\"><a href=\"tel:1-800-728-0008\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-555-5555</a></button></div>");
+			if($productId = 17) {
+				echo("<div id=\"phone-txt\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-598-5012</div>
+				<div id=\"phone-button\"><button type=\"button\" class=\"btn btn-primary\"><a href=\"tel:1-800-598-5012\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-598-5012</a></button></div>");
 			}
 			else {
 				echo("<div id=\"phone-txt\"><span class=\"glyphicon glyphicon-earphone\"></span> Phone: 1-800-728-0008</div>
