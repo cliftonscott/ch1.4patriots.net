@@ -10,7 +10,7 @@
 		background: #67BC07;
 		color:#fff;
 		font-weight: bolder;
-		font-size:33px;
+		font-size:31px;
 		letter-spacing: 1px;
 		padding: 10px 25px;
 		text-decoration: none;
@@ -31,7 +31,7 @@
 	.blue-check .fa-check{color:#003F9A; margin-top: -12px;}
 	u.underline-red{ -moz-text-decoration-color: red; /* Code for Firefox */
 		text-decoration-color: red;}
-	.topbanner{font-size: 2.2em}
+	.topbanner{font-size: 2em; font-weight: normal;line-height: 1.2;}
 	.topbanner u {
 		color: #AD0808;
 	}
@@ -197,22 +197,22 @@
 		text-align: left;
 		width: auto;
 	}
-	@media screen and (max-width: 760px) {
-		.mock-outer{
-			width: 90%;
-		}
+	.nopaddinglg{padding: inherit !important;}
+
+	@media screen and (max-width: 768px) {
+		.mock-outer{ width: 90%;}
+		.topbanner{font-size: 2.2em; font-weight: bold;line-height: 1.2;}
 	}
-	/* Extra small devices (phones, less than 768px) */
-	/* No media query since this is the default in Bootstrap */
 
-	/* Small devices (tablets, 768px and up) */
-	@media (min-width: @screen-sm-min) { .nopaddingsm{padding: 0px !important;}}
+	@media screen and (max-width: 992px) {
+		.nopaddinglg{padding: 0 15px !important;}
+		.topbanner{font-size: 2.2em; font-weight: bold;line-height: 1.2;}
+	}
 
-	/* Medium devices (desktops, 992px and up) */
-	@media (min-width: @screen-md-min) {  }
-
-	/* Large devices (large desktops, 1200px and up) */
-	@media (min-width: @screen-lg-min) { }
+	@media screen and (max-width: 1200px) {
+		.nopaddinglg{padding: 0 15px !important;}
+		.topbanner{font-size: 2.2em; font-weight: bold;line-height: 1.2;}
+	}
 
 	#popupTimer {
 		margin: 0 auto;
@@ -257,10 +257,10 @@
 
 <div class="container-main">
 	<div class="container">
-		<div class="row nopadding nomargin">
-			<div class="col-sm-6 col-md-7 nopadding nomargin">
+		<div class="row">
+			<div class="col-sm-6 col-md-7 nopaddinglg nomargin">
 				<div class="row ">
-					<div class="col-lg-12 text-center center-block hidden-xs nopaddingsm">
+					<div class="col-lg-12 text-center center-block hidden-xs">
 						<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 					</div>
@@ -271,7 +271,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 nopaddingsm">
+					<div class="col-sm-12">
 						<div class="text-center center-block" style="max-width: 85%; line-height: 1.3;padding: 5px 0;">This isn&rsquo;t ordinary food... this is delicious, nutritious, good for 25 years &ldquo;super survival food&rdquo; that could literally save your life in a disaster!</div>
 					</div>
 				</div>
@@ -294,7 +294,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-5 nopaddingsm">
+			<div class="col-sm-6 col-md-5">
 				<?php include_once ('customer-form-validation.php'); ?>
 			</div>
 		</div>
@@ -339,12 +339,12 @@
 	<div class="row" style="background-color: #efefef">
 		<div class="container"
 		<div class="col-sm-12" style="padding: 35px;">
-			<img class="img-responsive media pull-right" style="margin: 0 0 20px 20px;" src="/media/images/f4p/f4p-food-table-01.jpg" width="350" height="221" alt="Food4Patriots 72 Food Kit Meals">
+			<img class="img-responsive pull-right" style="margin: 0 0 20px 20px;" src="/media/images/f4p/f4p-food-table-01.jpg" width="350" height="221" alt="Food4Patriots 72 Food Kit Meals">
 			<p>There&rsquo;s a lot going on in the world to be concerned about – terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more. You owe it to your family to prepare now for uncertain days ahead.</p>
 			<p>For sure, no one knows where the next crisis will hit… or when. But when it does hit, finding food could be near-impossible as stores are quickly sold out or have their shelves stripped bare by hungry mobs.</p>
 			<p>You don&rsquo;t want your family standing in line with thousands of desperate strangers like those poor folks had to in Hurricane Katrina – or be forced to dig through dumpsters like New Yorkers did during Superstorm Sandy. You owe it to them to make sure they&rsquo;ll have all the food they need when they need it… no matter what.</p>
 			<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. The regular price is $27.00 plus shipping. But right now it&rsquo;s yours FREE. All we ask is you help cover the low shipping cost.</p>
-			<img class="img-responsive media pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
+			<img class="img-responsive pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
 			<p>Every 72-hour kit contains four servings each of such familiar dishes as Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and the American favorite – Granny&rsquo;s Homestyle Potato Soup. Our survival foods contain no harmful chemicals, GMOs or added MSG. and are prepared with award-winning recipes, so they&rsquo;re loaded with flavor!</p>
 			<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
 			<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. Click the big button below now! </p>
