@@ -512,10 +512,10 @@
 	$(document ).ready(function () {
 		$("72hrPopover").popover({
 			html:true,
-			trigger: 'hover',
+			trigger: "hover",
 			title:"72 Hour Kit May Include:",
 			content: function() {
-				return $('#72hr').html();
+				return $("#72hr").html();
 			}
 		});
 	});

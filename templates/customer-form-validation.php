@@ -354,9 +354,9 @@ if($_SESSION['errorMessage'] != '') {
 
 	  <div>
 		  <?php if($_SESSION["Funnel"]["activeFunnel"] === 'kicaps'): ?>
-			  <input id="submitButton" type="image" src="/assets/images/buttons/btn-rush-caps-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue">
+			  <input id="submitButton" type="image" src="/assets/images/buttons/btn-rush-caps-01.png" value="" id="get_started" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue">
 		  <?php else: ?>
-		      <input id="submitButton" type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" onclick="exitConfirmation=true;ga('send', 'event', 'checkout', 'power-generator-buy', 'click-to-continue');" id="get_started" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue">
+		      <input id="submitButton" type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" id="get_started" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue">
 		  <?php endif; ?>
 	  </div>
 	</form>
