@@ -521,7 +521,7 @@
 	});
 </script>
 <div id="72hr" style="display:none;">
-	<img src="/media/images/f4p/f4p-72-hour-kit-03.jpg" style="max-width: 260px;margin-top:10px;" alt="Trust Seals">
+	<img src="/media/images/f4p/f4p-72-hour-kit-03.jpg" style="max-width: 260px;margin-top:10px;" alt="72 Hour Kit">
 	<ul class="fa-ul popul">
 		<li><i class="fa-li fa fa-caret-right"></i>Broccoli &amp; Cheese Soup (4)</li>
 		<li><i class="fa-li fa fa-caret-right"></i>Blue Ribbon Cheesy Rice (4)</li>
