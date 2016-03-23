@@ -54,7 +54,6 @@ if(!empty($customerDataObj->shippingCity)) {
 } else {
 	$view->customer->shippingCityState = " your area";
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
@@ -94,16 +93,8 @@ if(!empty($customerDataObj->shippingCity)) {
 	<script src="/assets/js/common/bootstrap.min.js"></script>
 	<script src="/js/patriot.js"></script>
 
-	<!--TODO only pull in if we need the exit confirm-->
-	<script src="/js/floating-1.12.js"></script>
-	<?php
-	echo "\n<script src='/js/jquery.validate.min.js'></script>";
-	//set this variable on a page that uses the customer-form.php template file to provide validation/states functions
-	if($template["formType"] === "customerForm") {
-		echo "\n<script src='/js/checkout-states.js'></script>";
-		echo "\n<script src='/js/customer-form-validation.js'></script>";
-	}
-	?>
+	<script src='/js/checkout-states-jv-71-t.js'></script>
+
 	<script>
 		setInterval(function time() {
 			var d = new Date();
@@ -120,6 +111,34 @@ if(!empty($customerDataObj->shippingCity)) {
 		}, 1000);
 	</script>
 	<style>
+		/**/
+		/* error state */
+		/**/
+		.sky-form .state-error input,
+		.sky-form .state-error select,
+		.sky-form .state-error select + i,
+		.sky-form .state-error textarea,
+		.sky-form .radio.state-error i,
+		.sky-form .checkbox.state-error i,
+		.sky-form .toggle.state-error i,
+		.sky-form .toggle.state-error input:checked + i {
+			background: #fff0f0;
+		}
+
+		/**/
+		/* success state */
+		/**/
+		.sky-form .state-success input,
+		.sky-form .state-success select,
+		.sky-form .state-success select + i,
+		.sky-form .state-success textarea,
+		.sky-form .radio.state-success i,
+		.sky-form .checkbox.state-success i,
+		.sky-form .toggle.state-success i,
+		.sky-form .toggle.state-success input:checked + i {
+			background: #f0fff0;
+		}
+
 		.arrowR{
 			width:83px;
 			position: absolute;
@@ -526,313 +545,10 @@ if(!empty($customerDataObj->shippingCity)) {
 			<div class="pad-30-b">
 				<div class="block text-center btn-width"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 			</div>
-			<div style="margin-bottom:15px" class="row" id="order-form">
-				<div class="col-xs-6 form-fw stepone">
-					<form accept-charset="UTF-8" action="/" class="require-validation " data-cc-on-file="false" data-stripe-publishable-key="pk_bQQaTxnaZlzv4FnnuZ28LFHccVSaj" id="payment-form" method="post">
-						<div class='form-row'>
-							<div class="form-group col-xs-12">
-								<h1 class="color-red dark"><em style="font-style: normal;font-size:25px">Step: 1</em></h1>
-								<h2>Enter Contact Details</h2>
-								<hr style="height:2px;background-color:#eee;color:#eee;border: 0 none;">
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6 required">
-								<label class="control-label">First Name</label>
-								<input class='form-control fname' size='4' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6 required">
-								<label class="control-label">Last Name</label>
-								<input class='form-control lname' size='4' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6 required">
-								<label class="control-label">E-mail</label>
-								<input class='form-control email' size='4' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">Phone</label>
-								<input class='form-control' size='4' type='text' placeholder="Optional">
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-xs-12 required">
-								<label class="control-label">Billing Address</label>
-								<input class='form-control address' size='4' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">City</label>
-								<input class='form-control city' size='4' type='text'>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">State</label>
-								<select id="state" name="state" class="form-control state">
-									<option value="" selected="selected">Select State</option>
-									<option value="AK">AK</option>
-									<option value="AL">AL</option>
-									<option value="AR">AR</option>
-									<option value="AZ">AZ</option>
-									<option value="CA">CA</option>
-									<option value="CO">CO</option>
-									<option value="CT">CT</option>
-									<option value="DC">DC</option>
-									<option value="DE">DE</option>
-									<option value="FL">FL</option>
-									<option value="GA">GA</option>
-									<option value="HI">HI</option>
-									<option value="IA">IA</option>
-									<option value="ID">ID</option>
-									<option value="IL">IL</option>
-									<option value="IN">IN</option>
-									<option value="KS">KS</option>
-									<option value="KY">KY</option>
-									<option value="LA">LA</option>
-									<option value="MA">MA</option>
-									<option value="MD">MD</option>
-									<option value="ME">ME</option>
-									<option value="MI">MI</option>
-									<option value="MN">MN</option>
-									<option value="MO">MO</option>
-									<option value="MS">MS</option>
-									<option value="MT">MT</option>
-									<option value="NC">NC</option>
-									<option value="ND">ND</option>
-									<option value="NE">NE</option>
-									<option value="NH">NH</option>
-									<option value="NJ">NJ</option>
-									<option value="NM">NM</option>
-									<option value="NV">NV</option>
-									<option value="NY">NY</option>
-									<option value="OH">OH</option>
-									<option value="OK">OK</option>
-									<option value="OR">OR</option>
-									<option value="PA">PA</option>
-									<option value="RI">RI</option>
-									<option value="SC">SC</option>
-									<option value="SD">SD</option>
-									<option value="TN">TN</option>
-									<option value="TX">TX</option>
-									<option value="UT">UT</option>
-									<option value="VA">VA</option>
-									<option value="VT">VT</option>
-									<option value="WA">WA</option>
-									<option value="WI">WI</option>
-									<option value="WV">WV</option>
-									<option value="WY">WY</option>
-								</select>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">Zip</label>
-								<input class='form-control' size='4' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">Country</label>
-								<select id="country" name="country" class="form-control">
-									<option value="" selected="selected">Select Country</option>
-									<option value="CA">Canada</option>
-									<option value="US">United States</option>
-								</select>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-xs-12 required">
-								<input style="cursor: pointer;margin-bottom: 10px;" type="checkbox" id="desel" value=""> <em style="font-style: normal;color: #0c83e7">My Shipping Address Is The Same As Billing</em><br>
-								<label class="control-label">Shipping Address</label>
-								<input class='form-control address' size='4' type='text' disabled>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">City</label>
-								<input class='form-control city' size='4' type='text' disabled>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">State</label>
-								<select name="state" class="form-control state" disabled>
-									<option value="" selected="selected">Select State</option>
-									<option value="AK">AK</option>
-									<option value="AL">AL</option>
-									<option value="AR">AR</option>
-									<option value="AZ">AZ</option>
-									<option value="CA">CA</option>
-									<option value="CO">CO</option>
-									<option value="CT">CT</option>
-									<option value="DC">DC</option>
-									<option value="DE">DE</option>
-									<option value="FL">FL</option>
-									<option value="GA">GA</option>
-									<option value="HI">HI</option>
-									<option value="IA">IA</option>
-									<option value="ID">ID</option>
-									<option value="IL">IL</option>
-									<option value="IN">IN</option>
-									<option value="KS">KS</option>
-									<option value="KY">KY</option>
-									<option value="LA">LA</option>
-									<option value="MA">MA</option>
-									<option value="MD">MD</option>
-									<option value="ME">ME</option>
-									<option value="MI">MI</option>
-									<option value="MN">MN</option>
-									<option value="MO">MO</option>
-									<option value="MS">MS</option>
-									<option value="MT">MT</option>
-									<option value="NC">NC</option>
-									<option value="ND">ND</option>
-									<option value="NE">NE</option>
-									<option value="NH">NH</option>
-									<option value="NJ">NJ</option>
-									<option value="NM">NM</option>
-									<option value="NV">NV</option>
-									<option value="NY">NY</option>
-									<option value="OH">OH</option>
-									<option value="OK">OK</option>
-									<option value="OR">OR</option>
-									<option value="PA">PA</option>
-									<option value="RI">RI</option>
-									<option value="SC">SC</option>
-									<option value="SD">SD</option>
-									<option value="TN">TN</option>
-									<option value="TX">TX</option>
-									<option value="UT">UT</option>
-									<option value="VA">VA</option>
-									<option value="VT">VT</option>
-									<option value="WA">WA</option>
-									<option value="WI">WI</option>
-									<option value="WV">WV</option>
-									<option value="WY">WY</option>
-								</select>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">Zip</label>
-								<input class='form-control' size='4' type='text' disabled>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-sm-6 col-xs-6 col-md-6">
-								<label class="control-label">Country</label>
-								<select id="country" name="country" class="form-control" disabled >
-									<option value="" selected="selected">Select Country</option>
-									<option value="CA">Canada</option>
-									<option value="US">United States</option>
-								</select>
-							</div>
-						</div>
-					</form>
-				</div>
-				<div class='hidden-xs' style='float:right;cursor:pointer;'><a href='#csr' onclick='showCsrModal();'><img src='http://chris01.4patriots.net/assets/images/misc/customer-service-rep-02.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>
-				<div style="background-color:#eeeeee;padding:0" class="col-xs-6 form-fw"><script src='https://js.stripe.com/v2/' type='text/javascript'></script>
-					<form accept-charset="UTF-8" action="/" class="require-validation" data-cc-on-file="false" data-stripe-publishable-key="pk_bQQaTxnaZlzv4FnnuZ28LFHccVSaj" id="payment-form" method="post">
-						<div style="margin:0;padding:0;display:inline">
-							<input name="utf8" type="hidden" value="✓" />
-							<input name="_method" type="hidden" value="PUT" />
-							<input name="authenticity_token" type="hidden" value="qLZ9cScer7ZxqulsUWazw4x3cSEzv899SP/7ThPCOV8=" />
-						</div>
-						<div class='form-row'>
-							<div class="form-group col-xs-12">
-								<h1 class="color-red dark"><em style="font-style: normal;font-size:25px">Step: 2</em></h1>
-								<h2>Enter Payment Info</h2>
-								<hr style="height:2px;background-color:#fff;color:#fff;border: 0 none;">
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class='col-xs-12 form-group required'>
-								<label class='control-label'>Name on Card</label>
-								<input class='form-control' size='4' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class='col-xs-12 form-group card required'>
-								<label class='control-label'>Card Number <i class="fa fa-cc-mastercard"> <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-discover"></i> </i> <i class="fa fa-cc-amex"></i></label>
-								<input autocomplete='off' class='form-control card-number' size='20' type='text'>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class='col-xs-4 form-group cvc required'>
-								<label class='control-label'>CVC</label>
-								<a href="#info" title="Credit Verification Value (CVV):" data-html="true" data-toggle="popover" data-trigger="hover" data-content="<img src='http://dev.sf4p.4patriots.net/assets/images/checkout/cvv2.png'/>" data-placement="bottom"><i style="font-size: 15px" class="fa fa-question-circle"></i></a>
-								<input autocomplete='off' class='form-control card-cvc' placeholder='ex. 311' size='4' type='text'>
-							</div>
-							<div class='col-xs-4 form-group expiration required'>
-								<label class='control-label'>Expiration</label>
-								<input class='form-control card-expiry-month' placeholder='MM / YYYY' size='6' type='text'>
-							</div>
-							<div class='col-xs-4 form-group expiration required'>
-								<label class='control-label'>Quantity</label>
-								<select id="quantity" name="quantity" class="form-control">
-									<option value="01">
-										1
-									</option>
-									<option value="02">
-										2
-									</option>
-									<option value="03">
-										3
-									</option>
-								</select>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div class='col-md-12'>
-								<div style="width: 100%;font-size: 20px" class='total'>
-									Item:<span class='productid'><strong> Product Name</strong></span><br>
-									Price:<span class='amount'> $0.00</span><br>
-									S&H:<span class='shipping'> <s>$9.95</s> <strong class="color-red dark">FREE</strong></span><br>
-									Total:<span class='total'> $9.95</span><br>
-								</div>
-							</div>
-						</div>
-						<div class='form-row'>
-							<div style="margin:0 auto;padding-top:15px;padding-bottom:10px" class='col-md-12 form-group text-center'>
-								<img class="arrowR" src="http://chris01.4patriots.net/assets/images/buttons/arrow-right.gif"><button style="margin-bottom: 10px;" type="button-2" class="btn-2"><b>Click To Continue</b></button><img class="arrowL" src="http://chris01.4patriots.net/assets/images/buttons/arrow-right.gif">
-							</div>
-						</div>
-						<div class='form-row'>
-							<div style="margin:0 auto;padding-top:5px;background-color: #b4b4c7;" class='col-md-12 form-group text-center'>
-								<h1 style="font-size: 18px">Shopping Is Safe & Secure - Guaranteed!</h1>
-							</div>
-							<div style=";padding-top: 15px;background-color: #cdcdda;" class='col-md-12 form-group text-center safety'>
-								<p style="font-size: 15px;"><img src="http://dev.sf4p.4patriots.net/assets/images/checkout/secure-order-lock-02.png" width="30px"> Secure credit card payment - this is a secure 256-bit SSL encrypted payment.</p>
-							</div>
-						</div>
-						<div class="row securtiy-seals">
-							<div class="col-xs-6 col-sm-3"><a name="trustlink" href="http://secure.trust-guard.com/security/8491" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img class="trustguard" name="trustseal" alt="Security Seals" src="//dw26xg4lubooo.cloudfront.net/seals/security/8491-large.gif"/></a></div>
-							<div class="col-xs-6 col-sm-3"><img class="norton" src="http://chris01.4patriots.net/assets/images/checkout/imgnortonsiteseal.png"></div>
-
-							<!-- Add the extra clearfix for only the required viewport -->
-							<div class="clearfix visible-xs-block"></div>
-
-							<div class="col-xs-6 col-sm-3"><a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img class="honest" src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!"></a></div>
-							<div class="col-xs-6 col-sm-3"><img class="trustusa" src="http://chris01.4patriots.net/assets/images/checkout/usa-seal.png" alt="Trust Seals"></div>
-						</div>
-						<div class='form-row'>
-							<div class='col-md-12 error form-group hide'>
-								<div style="margin-top: 5px;margin-bottom: 0px;" class='alert-danger alert'>
-									Please correct the errors and try again.
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
+			<?php include_once ('customer-form-v2.php'); ?>
+		</div>
 	</section>
+
 	<section class="section-2">
 		<div class="section-inner">
 			<div class="medium-size700">
@@ -920,6 +636,8 @@ if(!empty($customerDataObj->shippingCity)) {
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
 	</section>
 	<script>
 		function showCsrModal() {
@@ -944,7 +662,6 @@ if(!empty($customerDataObj->shippingCity)) {
 	</div>
 </div>
 <?php include_once ('template-bottom.php'); ?>
-
 <!--<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 		f[z]=function(){
 			(a.s=a.s||[]).push(arguments)};var a=f[z]._={
@@ -1024,69 +741,6 @@ end olark code -->
 	}
 </script>
 
-<script>
-	$(function() {
-		$('form.require-validation').bind('submit', function(e) {
-			var $form         = $(e.target).closest('form'),
-				inputSelector = ['input[type=email]', 'input[type=password]',
-					'input[type=text]', 'input[type=file]',
-					'textarea'].join(', '),
-				$inputs       = $form.find('.required').find(inputSelector),
-				$errorMessage = $form.find('div.error'),
-				valid         = true;
-
-			$errorMessage.addClass('hide');
-			$('.has-error').removeClass('has-error');
-			$inputs.each(function(i, el) {
-				var $input = $(el);
-				if ($input.val() === '') {
-					$input.parent().addClass('has-error');
-					$errorMessage.removeClass('hide');
-					e.preventDefault(); // cancel on first error
-				}
-			});
-		});
-	});
-
-	$(function() {
-		var $form = $("#payment-form");
-
-		$form.on('submit', function(e) {
-			if (!$form.data('cc-on-file')) {
-				e.preventDefault();
-				Stripe.setPublishableKey($form.data('stripe-publishable-key'));
-				Stripe.createToken({
-					number: $('.card-number').val(),
-					cvc: $('.card-cvc').val(),
-					exp_month: $('.card-expiry-month').val(),
-					exp_year: $('.card-expiry-year').val()
-				}, stripeResponseHandler);
-			}
-		});
-
-		function stripeResponseHandler(status, response) {
-			if (response.error) {
-				$('.error')
-					.removeClass('hide')
-					.find('.alert')
-					.text(response.error.message);
-			} else {
-				// token contains id, last4, and card type
-				var token = response['id'];
-				// insert the token into the form so it gets submitted to the server
-				$form.find('input[type=text]').empty();
-				$form.append("<input type='hidden' name='reservation[stripe_token]' value='" + token + "'/>");
-				$form.get(0).submit();
-			}
-		}
-	})
-</script>
-<script>
-	$('#desel').on('click', function(e){
-		$('input').attr('disabled', false);
-		$('select').attr('disabled', false);
-	})
-</script>
 <!-- begin olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 		f[z]=function(){
