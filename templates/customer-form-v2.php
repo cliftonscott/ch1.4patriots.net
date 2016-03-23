@@ -305,12 +305,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 				</div>
 			</div>
 			<div class='form-row'>
-				<div class='col-xs-12 form-group'>
-					<label for="firstName">Name on Card:</label>
-					<input type="text" class="form-control" id="firstName" name="firstNamecard" value="<?php echo $preFill['firstName'];?>">
-				</div>
-			</div>
-			<div class='form-row'>
 				<div class='col-xs-12 form-group card'>
 					<label name="creditcard">Card Number: <i class="fa fa-cc-mastercard"> <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-discover"></i> </i> <i class="fa fa-cc-amex"></i></label>
 					<input type="text" class="form-control inspectletIgnore card-number" id="creditCardNumber" name="creditCardNumber"value="">

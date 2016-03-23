@@ -21,10 +21,6 @@ var Validation = function () {
 	                {
 	                    required: true
 	                },
-					"firstNamecard":
-					{
-						required: true
-					},
 					"lastName":
 	                {
 	                    required: true
