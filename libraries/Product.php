@@ -122,10 +122,11 @@ class Product {
 				break;
 			case 17: //main product - 72 Hour Kit
 				$productObj->pmaSku = null;
-				$productObj->price = 0;
+				$productObj->price = 9.95;
+				$productObj->isCustomPrice = true;
 				$productObj->originalPrice = 27;
-				$productObj->shippingIdDomestic = 14;
-				$productObj->shippingIdInternational = 19;
+				$productObj->shippingIdDomestic = 13;
+				$productObj->shippingIdInternational = 6;
 				$productObj->shippingCostDomestic = 9.95;
 				$productObj->shippingCostInternational = 9.95;
 				$productObj->mpsId = 17;
@@ -984,6 +985,16 @@ class Product {
 				"googleBrand" => "F4P-FREE-72HR",
 			),
 		);
+		// Dynamically changes price if user is viewing full price version of checkout page.
+		if (isset($_GET["fullprice"]) || $_SESSION["fullprice"]) {
+			$funnelData["food-free"] = array(
+					"checkout" => array (
+						"price" =>27,
+						"shippingIdDomestic" => 29,
+						"shippingIdInternational" => 29,
+					),
+			);
+		}
 
 		/*
 		 * ============================================

@@ -22,6 +22,13 @@ $productObj = new Product();
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 $funnelData = $productObj->initFunnel("checkout");
 
+
+if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) {
+	$_SESSION["customTemplate"]["price"] = 27;
+}else{
+	$_SESSION["customTemplate"]["price"] = 0;
+}
+
 require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
