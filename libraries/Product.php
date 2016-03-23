@@ -990,8 +990,6 @@ class Product {
 			$funnelData["food-free"] = array(
 					"checkout" => array (
 						"price" =>27,
-						"shippingIdDomestic" => 29,
-						"shippingIdInternational" => 29,
 					),
 			);
 		}
