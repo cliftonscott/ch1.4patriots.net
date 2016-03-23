@@ -954,14 +954,14 @@ class Product {
 					"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
 				),
 				92 => array (
-					"nextUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount/f4p-4week-kit-discount-1wa.php",
+					"nextUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount-1wa.php",
 				),
 				"declineUrl" => "/checkout/freefood/thankyou.php",
 				"googleBrand" => "F4P-FREE-72HR",
 			),
 			"F4P-OTO-3MK-DIS" => array (
 				"nextUrl" => "/checkout/freefood/oto/f4p-1year-kit.php",
-				"declineUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount/f4p-4week-kit-discount-3ma.php",
+				"declineUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount-3ma.php",
 				"googleBrand" => "F4P-FREE-72HR",
 			),
 			"F4P-OTO-4WK-3MA-DIS" => array (
@@ -976,7 +976,7 @@ class Product {
 			),
 			"F4P-OTO-1YK" => array (
 				"nextUrl" => "/checkout/freefood/thankyou.php",
-				"declineUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount/f4p-3month-kit-discount-1ya.php",
+				"declineUrl" => "/checkout/freefood/oto/f4p-3month-kit-discount-1ya.php",
 				"googleBrand" => "F4P-FREE-72HR",
 			),
 			"F4P-OTO-3MK-1YA-DIS" => array (
