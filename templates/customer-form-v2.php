@@ -212,13 +212,13 @@ if($_SESSION["soldout"]["flag"] === true) {
 					<div class="form-group col-xs-12">
 						<input style="cursor: pointer;margin-bottom: 10px;" type="checkbox" class="ba" value=""> <em style="font-style: normal;color: #0c83e7">My Shipping Address Is Different Than Billing</em><br>
 						<label for="shipping-city">City:</label>
-						<input disabled type="text" class="form-control tex" id="shipping-address" name="shipping-address" value="<?php echo $preFill['shipping-address'];?>">
+						<input disabled type="text" class="form-control tex" id="shipping-address" name="shipping-address">
 					</div>
 				</div>
 
 				<div class="form-group col-sm-6 col-xs-6 col-md-6">
 					<label for="shipping-city">City:</label>
-					<input disabled type="text" class="form-control tex" id="shipping-city" name="shipping-city" value="<?php echo $preFill['shipping-city'];?>">
+					<input disabled type="text" class="form-control tex" id="shipping-city" name="shipping-city">
 				</div>
 				<div class="form-group col-sm-6 col-xs-6 col-md-6">
 					<label for="shipping-country">Country:</label>
@@ -289,7 +289,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 				</div>
 				<div class="form-group col-sm-6 col-xs-6 col-md-6">
 					<label for="shipping-zip">Zip:</label>
-					<input disabled type="text" class="form-control zip-field tex" id="shipping-zip" name="shipping-zip" value="<?php echo $preFill['shipping-zip'];?>">
+					<input disabled type="text" class="form-control zip-field tex" id="shipping-zip" name="shipping-zip">
 				</div><!--End Shipping-->
 			</div>
 		</div>
@@ -412,12 +412,12 @@ if($_SESSION["soldout"]["flag"] === true) {
 			</div>
 		</div>
 		<div class="row securtiy-seals">
-			<div class="col-xs-6 col-sm-3"><a name="trustlink" href="http://secure.trust-guard.com/security/8491" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img class="trustguard" name="trustseal" alt="Security Seals" src="//dw26xg4lubooo.cloudfront.net/seals/security/8491-large.gif"/></a></div>
-			<div class="col-xs-6 col-sm-3"><img class="norton" src="http://chris01.4patriots.net/assets/images/checkout/imgnortonsiteseal.png"></div>
+			<div class="col-xs-6 col-sm-3"><img class="norton" src="/assets/images/checkout/secure-seal-norton.png"></div>
+			<div class="col-xs-6 col-sm-3"><a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img class="honest" src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!"></a></div>
 			<!-- Add the extra clearfix for only the required viewport -->
 			<div class="clearfix visible-xs-block"></div>
-			<div class="col-xs-6 col-sm-3"><a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img class="honest" src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!"></a></div>
-			<div class="col-xs-6 col-sm-3"><img class="trustusa" src="http://chris01.4patriots.net/assets/images/checkout/usa-seal.png" alt="Trust Seals"></div>
+			<div class="col-xs-6 col-sm-3"><img class="trustusa" src="/assets/images/checkout/secure-seal-made-usa.png" alt="Trust Seals"></div>
+			<div class="col-xs-6 col-sm-3"><img class="mcafee" src="/assets/images/checkout/secure-seal-mcafee.png" alt="Trust Seals" style="margin-top: 6px;"></div>
 		</div>
 	</form>
 </div>
