@@ -138,6 +138,9 @@ if(!empty($customerDataObj->shippingCity)) {
 		.sky-form .toggle.state-success input:checked + i {
 			background: #f0fff0;
 		}
+		.usertext p{
+			line-height: 25px;
+		}
 
 		.arrowR{
 			width:83px;
@@ -238,8 +241,8 @@ if(!empty($customerDataObj->shippingCity)) {
 		.securtiy-seals{
 			padding: 10px 10px 10px 10px;
 		}
-		.trustguard{
-			padding-top:10px;
+		.mcafee{
+			padding-top:11px;
 			width: 100%;
 		}
 		.norton{
@@ -248,11 +251,12 @@ if(!empty($customerDataObj->shippingCity)) {
 		}
 		.honest{
 			padding-top:19px;
+			padding-left: 8px;
 			width: 100%;
 		}
 		.trustusa{
 			padding-top:10px;
-			width: 100%;
+			padding-left: 19px;
 			height: 68px;
 		}
 		@media (max-width: 997px){
@@ -273,8 +277,8 @@ if(!empty($customerDataObj->shippingCity)) {
 				padding: 10px 0 10px 0;
 				text-align: center;
 			}
-			.trustguard{
-				padding-top:10px;
+			.mcafee{
+				padding-top:11px;
 				width: 105px;
 			}
 			.norton{
@@ -287,7 +291,7 @@ if(!empty($customerDataObj->shippingCity)) {
 			}
 			.trustusa{
 				padding-top:10px;
-				width: 105px;
+				padding-left: 0;
 				height: 68px;
 			}
 		}
@@ -296,7 +300,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				padding: 10px 0 10px 0;
 				text-align: center;
 			}
-			.trustguard{
+			.mcafee{
 				padding-top:0;
 				width: 105px;
 			}
@@ -310,7 +314,6 @@ if(!empty($customerDataObj->shippingCity)) {
 			}
 			.trustusa{
 				padding-top:10px;
-				width: 105px;
 				height: 68px;
 			}
 			.phone-number{
@@ -368,8 +371,8 @@ if(!empty($customerDataObj->shippingCity)) {
 	<div style="background-color: #B90003">
 		<div class="row section-inner">
 			<div class="phone-number navbar-phone-contain">
-				<div id="phone-txt"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</div>
-				<div id="phone-button"><button type="button" class="btn phone-btn"><a href="tel:1-800-728-0008"><span class="glyphicon glyphicon-earphone"></span> Phone: 1-800-728-0008</a></button></div>
+				<div id="phone-txt"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
+				<div id="phone-button"><button type="button" class="btn phone-btn"><a href="tel:1-800-728-0008"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</a></button></div>
 			</div>
 		</div>
 	</div>
@@ -392,14 +395,14 @@ if(!empty($customerDataObj->shippingCity)) {
 								<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 							</div>
 						</div>
-						<div class="block text-center btn-width"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
+						<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 
 					</div>
 
 					<h2 style="text-align: center" class="color-black dark pad-10-t">The Rush is on as Thousands Claim FREE Food4Patriots <br class="hidden-xs">72-Hour Survival Food Kits!
 					</h2>
 					<div class="pad-30-b medium-size700">
-						<img style="width: 100%" class="img-responsive center-block pad-20-t" src="http://dev.sw4p.4patriots.net/media/images/app/app-pro-product-image-05.jpg" alt="Alexapure Pro"/>
+						<img style="width: 100%" class="img-responsive center-block pad-20-t" src="/media/images/f4p/f4p-72-hour-kit-05.jpg" alt="Alexapure Pro"/>
 					</div>
 					<div class="row text-center">
 						<div class="col-xs-6 col-sm-4 whole-thing2"><img class="pad-10-b" style="width:50px" src="http://chris01.4patriots.net/assets/images/misc/oct_icon.svg"><h4 class="pad-10-b">25-Year Shelf Life</h4><p>Space-age resealable Mylar packaging keeps our food fresh for 25 years or more.</p></div>
@@ -451,7 +454,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="mock-outer ">
 					<div class="mock-inner">
 						<div class="fb-group-picrow">
-							<img src="https://www.govloop.com/wp-content/uploads/avatars/15079/924239b448927b76e24ab278a9c08d84-bpthumb.jpeg">
+							<img src="/media/images/misc/img-testimonial-diana.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Colleen <em>Carter</em></b></h5>
 								<span class="fb-group-date">August 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
@@ -466,7 +469,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="mock-outer">
 					<div class="mock-inner">
 						<div class="fb-group-picrow">
-							<img src="https://www.govloop.com/wp-content/uploads/avatars/15079/924239b448927b76e24ab278a9c08d84-bpthumb.jpeg">
+							<img src="/media/images/misc/img-testimonial-lynn.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Linda <em>Peters</em></b></h5>
 								<span class="fb-group-date">July 21 at 3:47pm &#183; <i class="fa fa-user"></i></span>
@@ -481,7 +484,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="mock-outer ">
 					<div class="mock-inner">
 						<div class="fb-group-picrow">
-							<img src="https://www.govloop.com/wp-content/uploads/avatars/15079/924239b448927b76e24ab278a9c08d84-bpthumb.jpeg">
+							<img src="/media/images/misc/img-testimonial-rolf.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Herron <em>Dedrick</em></b></h5>
 								<span class="fb-group-date">May 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
@@ -496,7 +499,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="mock-outer">
 					<div class="mock-inner">
 						<div class="fb-group-picrow">
-							<img src="https://www.govloop.com/wp-content/uploads/avatars/15079/924239b448927b76e24ab278a9c08d84-bpthumb.jpeg">
+							<img src="/media/images/misc/img-testimonial-jeff.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Andy <em>Kinard</em></b></h5>
 								<span class="fb-group-date">July 1 at 11:33am &#183; <i class="fa fa-user"></i></span>
@@ -523,9 +526,8 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section style="padding-bottom: 30px" class="section-2">
 		<div class="section-inner">
 			<div class="medium-size700 pad-30-t-b">
-				<img style="width: 100%" class="img-responsive center-block" src="http://dev.sw4p.4patriots.net/media/images/app/app-pro-product-image-05.jpg" alt="Alexapure Pro"/>
+				<img style="width: 100%" class="img-responsive center-block" src="/media/images/f4p/f4p-72-hour-kit-04.jpg" alt="Alexapure Pro"/>
 			</div>
-			<div>
 				<p>All Food4Patriots survival food is made from the finest local-grown ingredients, prepared and packaged with pride in the USA!</p>
 				<p>And thanks to advanced Mylar packaging, our foods are guaranteed to taste as good in 25 years as they do today.&nbsp;</p>
 				<p>Every 72-hour kit that&rsquo;s being given away contains four servings each of such familiar dishes as:</p>
@@ -541,9 +543,8 @@ if(!empty($customerDataObj->shippingCity)) {
 				<p>You owe it to your family to prepare now for uncertain days ahead.</p>
 				<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. All we ask is that you pay a small $9.95 fee to offset the shipping cost.</p>
 				<p><strong>Regularly priced at $27.00 plus shipping, now FREE while supplies last </strong>(limit one per household, just cover postage)<strong>&nbsp;--&nbsp;</strong>get yours now before it&rsquo;s gone!</p>
-			</div>
 			<div class="pad-30-b">
-				<div class="block text-center btn-width"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
+				<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 			</div>
 			<?php include_once ('customer-form-v2.php'); ?>
 		</div>
@@ -555,7 +556,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="mock-outer ">
 					<div class="mock-inner">
 						<div class="fb-group-picrow">
-							<img src="https://www.govloop.com/wp-content/uploads/avatars/15079/924239b448927b76e24ab278a9c08d84-bpthumb.jpeg">
+							<img src="/media/images/misc/img-testimonial-matt.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Matt <em>Grout</em></b></h5>
 								<span class="fb-group-date">May 3 at 1:19pm &#183; <i class="fa fa-user"></i></span>
@@ -570,7 +571,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div style="margin-bottom: 40px" class="mock-outer">
 					<div class="mock-inner">
 						<div class="fb-group-picrow">
-							<img src="https://www.govloop.com/wp-content/uploads/avatars/15079/924239b448927b76e24ab278a9c08d84-bpthumb.jpeg">
+							<img src="/media/images/misc/img-testimonial-luther.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Luther <em>Cauthen</em></b></h5>
 								<span class="fb-group-date">November 20 at 10:05am &#183; <i class="fa fa-user"></i></span>
@@ -590,10 +591,10 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 			<h2 style="text-align: center" class="color-red dark pad-30-t-b">Don’t Be Disappointed – Claim Your FREE Food4Patriots 72-Hour<br class="hidden-xs"> Survival Food Kit Before They’re All Gone!</h2>
 			<div class="pad-30-b">
-				<div class="block text-center btn-width"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">Claim Your Free Product Now</a></div>
+				<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">Claim My Free Product Now</a></div>
 			</div>
 		</div>
-		<div class="priority-lists">
+		<div style="background-color: #f8f8f8" class="priority-lists pad-30-t-b">
 			<h2 style="font-size: 30px" class="color-red dark section-inner pad-10-b">Frequently Asked Questions:</h2>
 			<div class="panel-group" id="accordion">
 				<div style="border-radius: 0" class="panel panel-default section-inner">
@@ -601,8 +602,8 @@ if(!empty($customerDataObj->shippingCity)) {
 						<p style="font-size: 20px;color: #0c83e7" class="panel-title accordion-toggle section-inner"><strong>Q: Where is your food made?</strong></p>
 					</div>
 					<div id="faq1" class="panel-collapse collapse">
-						<div class="panel-body">
-							<div style="padding-left:20px" class="row"><p>Our food is made in an FDA approved and inspected facility right here in the United States. We source US-grown ingredients and the entire food production process happens right here in the good ole US of A!</p></div>
+						<div style="background-color: #f8f8f8" class="panel-body">
+							<div style="padding-left:20px;" class="row"><p>Our food is made in an FDA approved and inspected facility right here in the United States. We source US-grown ingredients and the entire food production process happens right here in the good ole US of A!</p></div>
 						</div>
 					</div>
 				</div>
@@ -611,7 +612,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<p style="font-size: 20px;color: #0c83e7" class="panel-title accordion-toggle section-inner"><strong>Q: Where can I find the ingredients/nutritional information for each food?</strong></p>
 					</div>
 					<div id="faq2" class="panel-collapse collapse">
-						<div class="panel-body">
+						<div style="background-color: #f8f8f8" class="panel-body">
 							<div style="padding-left:20px" class="row"><p>We are pleased to provide you with a full list of each and every ingredient used to make our foods. We have even included the full nutritional information as well. <a href="/media/pdf/Food4Patriots-Ingredients.pdf" target="_blank">Download the full list here.</a></p></div>
 						</div>
 					</div>
@@ -621,7 +622,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<p style="font-size: 20px;color: #0c83e7" class="panel-title accordion-toggle section-inner"><strong>Q: What is the shelf life of Food4Patriots?</strong></p>
 					</div>
 					<div id="faq3" class="panel-collapse collapse">
-						<div class="panel-body">
+						<div style="background-color: #f8f8f8" class="panel-body">
 							<div style="padding-left:20px" class="row"><p>Dehydrated food, stored properly (airtight and at room temperature or below) never really expires, but after 25 years the nutritional value will slowly start to decline. For that reason we guarantee a 25 year shelf life.</p></div>
 						</div>
 					</div>
@@ -631,10 +632,38 @@ if(!empty($customerDataObj->shippingCity)) {
 						<p style="font-size: 20px;color: #0c83e7" class="panel-title accordion-toggle section-inner"><strong>Q: Where can I go to get other customer's real opinions on Food4Patriots products?</strong></p>
 					</div>
 					<div id="faq4" class="panel-collapse collapse">
-						<div class="panel-body">
+						<div style="background-color: #f8f8f8" class="panel-body">
 							<div style="padding-left:20px;padding-right: 10px" class="row"><p>We host a website where many of our customers have left honest reviews about their purchases for you to see. You can find it by <a href="http://food4patriotsreview.com" target="_blank">clicking here.</a></p></div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" style="background-color: #eee;padding: 20px; border-top: 1px solid #EFEFEF;">
+			<div class="row center-block" style="max-width: 980px;">
+				<div class="col-sm-3 col-md-3" style="padding-bottom:20px;">
+					<!--Norton security/seal-->
+					<div class="text-center">
+						<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
+							<tr>
+								<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=secure.food4patriots.com&amp;size=M&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script></td>
+							</tr>
+						</table>-->
+						<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3  text-center" style="padding-top: 20px;">
+					<!--honesty online badge-->
+					<div>
+						<a href="https://honesteonline.com/members/consumerpage.php?company=12046&link=9869" target="_blank"><img src="https://honesteonline.com/HEOSealsNewNoDate/heosealimg.php?company=12046&size=2&link=9869" alt="HONESTe Seal - Click to verify before you buy!" border="0"></a>
+					</div>
+				</div>
+				<div class="col-sm-3 col-md-3 text-center">
+					<img src="/assets/images/checkout/secure-seal-made-usa.png" width="91" height="82" alt="Trust Seals" style="margin-top: 6px;">
+				</div>
+				<div class="col-sm-3 col-md-3 text-center" style="padding-top: 10px;">
+					<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
+					<img src="/assets/images/checkout/secure-seal-mcafee.png" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
 				</div>
 			</div>
 		</div>
@@ -661,7 +690,7 @@ if(!empty($customerDataObj->shippingCity)) {
 		</div>
 	</div>
 </div>
-<?php include_once ('template-bottom.php'); ?>
+<?php include_once ('footer.php'); ?>
 <!--<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 		f[z]=function(){
 			(a.s=a.s||[]).push(arguments)};var a=f[z]._={
