@@ -98,9 +98,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			tax = taxrate * subtot;
 			gtotal = tax + subtot;
 			if (taxrate != 0){
-				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the one-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit to my order at the one-time discount sale price of $' + subtot + ' plus $' + tax.toFixed(2) + taxedstate + ' for a total of $' + gtotal.toFixed(2) + '. I will get FREE shipping and 31 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 			}else {
-				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE shipping and 27 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
+				$("#terms").html('I want to add (' + quant + ') 1-Year Food4Patriots Kit(s) to my order at the one-time discount sale price of $' + gtotal.toFixed(0) + '. I will get FREE shipping and 31 FREE Bonus Gifts including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds per kit.');
 			}
 		}
 	</script>
@@ -129,7 +129,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<div>
 					<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-year Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
-					<p>Plus I'll throw in <strong>FREE shipping and 27 FREE bonus gifts (worth over $800.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
+					<p>Plus I'll throw in <strong>FREE shipping and 31 FREE bonus gifts (worth over $700.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
 					<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 					<p style="width: 500px;margin: 0 auto;background-color: yellow;" class="text-center">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 				</div>
@@ -148,25 +148,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<?php include("f4p-1year-bonus-survivalspring.html");?>
 			<?php include("f4p-1year-bonus-survivalbooks.html");?>
 			<?php include("f4p-1year-bonus-cards.html");?>
-			<div class="container oto-width">
-				<h2 class="darkRed text-center">You Will Also Get FOUR More Sets Of All Of Your Original FREE Bonuses When You Take Advantage Of This Special Upgrade Offer!
-				</h2>
-
-				<p>Add to your own stockpile, keep at multiple locations or give to friends and loved ones so they can experience the same peace of mind. Your FREE bonuses include:</p>
-			</div>
 			<?php include("f4p-1year-bonus-seeds.html");?>
 			<?php include("f4p-1year-bonus-tool.html");?>
 			<?php include("f4p-1year-bonus-reports.html");?>
 			<div class="container oto-width">
 				<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 				<div class="outLineBoxDarkBlue">
-					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+					<p><img style="padding-right: 10px;" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 					<div class="clearfix"></div>
 				</div>
 
 				<div class="outLineBoxDarkBlue">
-					<p><img style="margin-bottom: 20px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+					<p><img style="margin-bottom: 20px;padding-right: 10px;" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any
 					of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you
 					can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
@@ -180,7 +174,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the first step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,997.</p>
 				<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 
-				<p>Plus I'll throw in 27 FREE bonus gifts worth $800+ -- including four of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
+				<p>Plus I'll throw in 31 FREE bonus gifts worth $700+ -- including four of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds -- just to make this a "no-brainer" for you!</p>
 
 				<p>I was only able to secure a limited quantity of these 1-year Food4Patriots kits and it&rsquo;s been one of our most frequent requests, so I don&rsquo;t know how long I&rsquo;m going to have them available. To make sure that you don&rsquo;t miss out on getting yours, go ahead and click the big orange &ldquo;<strong>Click To Accept</strong>&rdquo; button below to add the 1-year Food4Patriots Kit to your order today!</p>
 
@@ -191,9 +185,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div>
 					<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 					<div>
-						<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-07.jpg"  alt="Food4Patriots 1-Year Kit"/>
+						<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-08.jpg"  alt="Food4Patriots 1-Year Kit"/>
 					</div>
-					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
+					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-02.jpg" alt="Value Chart"/></div>
 					<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 
 					<a id="accept"></a>
@@ -233,7 +227,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 									<input type="checkbox" id="check1" name="check1">
 									<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 								</div>
-								<div id="terms">I want to add the 1-year Food4Patriots Kit to my order at the one-time discount sale price of $1,997. <strong>I will get FREE shipping and 27 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
+								<div id="terms">I want to add the 1-year Food4Patriots Kit to my order at the one-time discount sale price of $1,997. <strong>I will get FREE shipping and 31 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
 								</div>
 							</div>
 							<div style="margin-top:20px;">
@@ -312,13 +306,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						</div>
 					<?php } //END TEST?>
 					<div class="outLineBoxDarkBlue">
-						<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+						<p><img style="padding-right: 10px;" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
 						<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 						<div class="clearfix"></div>
 					</div>
 
 					<div class="outLineBoxDarkBlue">
-						<p><img style="margin-bottom: 20px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+						<p><img style="margin-bottom: 20px;padding-right: 10px;" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 						<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
 
 						<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
