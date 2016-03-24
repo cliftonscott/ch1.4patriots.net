@@ -24,7 +24,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-01.png";
 						</div>
 						<div class="col-lg-12 margin-b-10">
 							<p>This isn&rsquo;t ordinary food... it&rsquo;s delicious, nutritious, &ldquo;super survival food&rdquo; that could save your life in a disaster!</p>
-							<p>&nbsp;All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) : ?> <?php else: ?> <strong> FREE</strong> (just cover postage)<?php endif ?> while supplies last!&nbsp;</p>
+							<p>&nbsp;All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) : ?> for just $27 (plus the cost of postage)<?php else: ?> <strong> FREE</strong> (just cover postage)<?php endif ?> while supplies last!&nbsp;</p>
 							<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and Granny's Homestyle Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
 							<ul>
 								<li>Instantly protects you and your family from going hungry</li>
@@ -33,7 +33,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-01.png";
 								<li>Rushed to your door via USPS First Class Mail</li>
 							</ul>
 							<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) :?>
-								<p><strong>Get your kit today for $27.00 plus shipping, while supplies last </strong>(limit one per household, just cover postage).</p>
+								<p>For just $27.00 plus shipping,while supplies last (limit one per household), you can get 72-hours worth of food preparedness!</p>
 							<?php else: ?>
 								<p><strong>Regularly priced at $27.00 plus shipping, today it&rsquo;s <strong class="darkRed">FREE</strong> while supplies last </strong>(limit one per household, just cover postage).</p>
 							<?php endif ?>
