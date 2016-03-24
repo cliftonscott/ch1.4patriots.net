@@ -392,7 +392,7 @@ if(!empty($customerDataObj->shippingCity)) {
 					<div class="row">
 						<div class="wistia_responsive_padding" style="position:relative; margin-bottom: 20px">
 							<div class="wistia_responsive_wrapper">
-								<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+								<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 							</div>
 						</div>
 						<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
