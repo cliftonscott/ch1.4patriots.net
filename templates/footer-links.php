@@ -1,18 +1,18 @@
 <?php
 $targetNewArray = array (
-	"/privacy.php",
-	"/terms.php",
-	"/disclaimer.php",
-	"/returns.php",
-	"/faq.php",
-	"/newsroom.php",
-	"/testimonials.php",
-	"/contact.php",
+	"/video/index.php",
+	"/checkout/index.php",
+	"/letter/index.php",
+	"/letter/food/index.php",
+	"/checkout/thankyou.php",
+	"/checkout/freefood/alt/f4p-free-food-offer.php",
+	"/checkout/freefood/index.php",
+
 	);
 if(in_array($_SERVER["PHP_SELF"], $targetNewArray)) {
-	$footerLinkTarget = "_self";
-} else {
 	$footerLinkTarget = "_blank";
+} else {
+	$footerLinkTarget = "_self";
 }
 ?>
 <div>
