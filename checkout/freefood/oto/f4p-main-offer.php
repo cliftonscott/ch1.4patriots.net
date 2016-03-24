@@ -511,7 +511,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>I hear you, Matt. From the sounds of it, something big is about to happen and it's no wonder that our food is literally flying off the shelves. It makes sense, doesn't it?</p>
 
 				<h2 class="darkRed text-center">You Should Know That FEMA Won’t Get Even One Single Emergency Food Kit From Us</h2>
-				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-02.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-01.jpg" alt="">
 				<p>This is truly an urgent situation, but don't worry - you should know Matt and I refuse to respond to their demands. Why?</p>
 				<p>Because we don't believe that these critical emergency food kits should be in the hands of the government, <strong>stored in some secret warehouse and with the rest of us left with table scraps in a crisis</strong>.</p>
 				<p>Because we understand that without non-perishable food like this, many folks will be <strong>downright helpless and dependent on the government in an emergency</strong>.</p>
