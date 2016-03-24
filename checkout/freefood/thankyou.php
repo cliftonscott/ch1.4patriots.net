@@ -31,7 +31,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			</div>
 			<div class="margin-tb-20">
 				<p class="read-warning text-center "><strong>NOTE:</strong> Your credit card statement will show a charge
-					from Food4patriots com and your bonuses are below</p>
+					from Food4patriots com</p>
 			</div>
 			<div class="margin-tb-20">
 				<?php include("snippets/frank-thankyou-msg.html");?>
@@ -84,7 +84,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 				</div>
 			</div>
-			<div class="margin-tb-20 text-center">
+			<div style="padding-top: 5px" class="margin-tb-20 text-center">
 				<?php include ("recommendations/thankyou-ads.php");?>
 			</div>
 
