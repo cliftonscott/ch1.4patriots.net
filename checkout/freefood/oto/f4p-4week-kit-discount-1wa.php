@@ -71,18 +71,18 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<?php include("f4p-4week-whatsincluded.html");?>
 
-				<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-				<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 4-week Food4Patriots Kit when you upgrade today!</p>
+				<h2 class="darkRed text-center">Get FREE Shipping And Handling!</h2>
+				<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181" class="pull-left">You&rsquo;ll get FREE Shipping and Handling on your 4-week Food4Patriots Kit when you upgrade today!</p>
 				<p>Because we're already going to be sending you our basic kit to your address in <?php echo $shippingCity;?>, we can add the 4-week kit to the shipping box and save on fulfillment costs.</p>
 				<p>Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate boxes. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade. </p>
 
-				<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
+				<h2 class="darkRed text-center">You Are 100% Protected By My<br class="hidden-xs"> Outrageous Double Guarantee</h2>
 				<div class="outLineBoxDarkBlue">
-					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20"><h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 60 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
+					<p><img style="padding-right: 10px;"src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20"><h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for any reason, or no reason whatsoever. So there&rsquo;s absolutely no risk for you. You literally can&rsquo;t lose!</p>
 					<div class="clearfix"></div>
 				</div>
 				<div class="outLineBoxDarkBlue">
-					<p><img style="margin-bottom: 40px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+					<p><img style="margin-bottom: 40px;padding-right: 10px;" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any
 					of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you
 					can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
