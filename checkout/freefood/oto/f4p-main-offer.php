@@ -511,7 +511,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>I hear you, Matt. From the sounds of it, something big is about to happen and it's no wonder that our food is literally flying off the shelves. It makes sense, doesn't it?</p>
 
 				<h2 class="darkRed text-center">You Should Know That FEMA Won’t Get Even One Single Emergency Food Kit From Us</h2>
-				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-01.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-emergency-food-02.jpg" alt="">
 				<p>This is truly an urgent situation, but don't worry - you should know Matt and I refuse to respond to their demands. Why?</p>
 				<p>Because we don't believe that these critical emergency food kits should be in the hands of the government, <strong>stored in some secret warehouse and with the rest of us left with table scraps in a crisis</strong>.</p>
 				<p>Because we understand that without non-perishable food like this, many folks will be <strong>downright helpless and dependent on the government in an emergency</strong>.</p>
@@ -540,7 +540,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>Second, and I hope the government never gets to this point, part of me thinks that the government might have wanted to know how much food we've got in stock in case they ever decided to take it. The fact is, they could walk in and seize every single kit of food we've got in our warehouse at the drop of a hat. All it would take is the president declaring a "state of emergency.&rdquo;</p>
 
 				<h2 class="darkRed text-center">With A Stroke Of Obama’s Pen, Food Confiscation Could Start… Tomorrow</h2>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-obama-01.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-obama-01.jpg" alt="">
 				<p>The actual justification for this &ldquo;legal confiscation&rdquo; is the <strong>&ldquo;National Defense Resources Preparedness Act.&rdquo; </strong>Obama actually expanded the government&rsquo;s power to seize survival food with his recent Executive Order 16303. Now, all the president needs is a pen and food confiscation could indeed begin as soon as tomorrow.</p>
 				<p>But the real thing that keeps me up at night? The way FEMA wanted to know how many meals we could ship out in 24 hours. That&rsquo;s a really specific question that sounds urgent. It makes me even more convinced they know something that we don't. Just watch the news and you&rsquo;ll see plenty of evidence that <strong>things are headed in the wrong direction. </strong></p>
 				<h2 class="darkRed text-center">If You Don’t Prepare, The Horror Of A FEMA Camp Could Be In Your Future...</h2>
@@ -572,14 +572,14 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>And there&rsquo;s something else to consider.</p>
 
 				<h2 class="darkRed text-center">Total Anarchy When 47 Million Freeloaders Can’t Get Their Government Handouts</h2>
-				<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-info-graph.jpg" alt="">
+				<img style="margin-top: 8px" class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-info-graph.jpg" alt="">
 				<p>Since 2008 when Obama took office, the number of Americans on the government dole has increased from around a little over 27 million to 47 million today &ndash; that&rsquo;s just about <strong>15% of the whole damn country</strong>! They don&rsquo;t call him the &ldquo;Food Stamp President&rdquo; for nothing!</p>
 				<p>Now, of course you and I were raised to help others in need. The difference was, people had pride back then&hellip; they wanted gainful employment, the ability to go to work each day, and make enough to feed and clothe their families and put a roof over their head.</p>
 				<p>Nowadays when you look at the younger generation, it&rsquo;s an entirely different story.</p>
 				<p>We&rsquo;ve all heard of &ldquo;The Greatest Generation&rdquo; (this was my Dad and his buddies), The Baby Boomers, Generation X&hellip; but now, we have to contend with &ldquo;Generation Entitlement&rdquo;.</p>
 				<p>And folks, it really doesn&rsquo;t have much to do with age. It&rsquo;s a mindset. It&rsquo;s the belief that <strong>the country owes you a living for just existing and breathing air</strong>.</p>
 				<p>Just like that surfer that made the news in California, living it up on your taxpayer dime, buying LOBSTER with his food stamp card and even proud of the fact he&rsquo;s a good-for-nothing bum!</p>
-				<img style="margin-bottom: 40px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-welfare-troll.jpg" alt="">
+				<img style="margin-bottom: 40px;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-welfare-troll.jpg" alt="">
 				<p>He&rsquo;d much rather play &ldquo;rock star&rdquo; than get a job and earn a respectable living, like other hard-working Americans. It&rsquo;s losers like him that really get my blood boiling.</p>
 				<p>These are the kind of people that my Grandpa used to say &ldquo;always want something for nothing.&rdquo;</p>
 				<p>And our socialist-in-chief and the rest of the politicians are all too happy to provide it&hellip; because it keeps them and their kind in power, election after election. Just look at Obama and Hillary.</p>
@@ -587,7 +587,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<h2 class="darkRed text-center">It’s Not IF Disaster Strikes… It’s WHEN</h2>
 				<p>Which brings me to my next point. What do you think&rsquo;s going to happen when the &ldquo;you know what&rdquo; hits the industrial sized fan, and 47 million people, or &#8537; of the population, can&rsquo;t get their handouts? If a disaster hits and FEMA completely drops the ball (as usual!), <strong>it could spark riots and looting just like Katrina </strong>&ndash; except this time on an explosive, massive scale.</p>
-				<img style="margin-bottom: 0" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-powerline-bent.jpg" alt="">
+				<img style="margin-bottom: 0;margin-top: 8px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-powerline-bent.jpg" alt="">
 				<p>It can be a crisis from crazy weather that produces monster storms&hellip;</p>
 				<p>An ISIS terrorist attack on our crumbling power grid as predicted by news anchor Ted Koppel in his book <em>Lights Out</em>&hellip;</p>
 				<br class="hidden-xs">
@@ -597,7 +597,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<h2 class="darkRed text-center">I Want You To Really Think About This...</h2>
 				<p>Think about the disaster footage you’re seeing on the news these days, pretty much 24-7. How long before the disaster is at YOUR front door… hordes of desperate people roaming the streets of YOUR town… grocery stores picked over and shelves stripped bare?</p>
-				<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-looters.jpg" alt="">
+				<img style="margin-top: 8px" class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-looters.jpg" alt="">
 				<p>Get the picture? Because this is the reality we are looking at when the next big crisis happens.</p>
 				<p>At no time in history have we had so many people as dependent on government as we do today. <strong>It&rsquo;s a ticking time bomb&hellip; 47 million people strong</strong>.</p>
 				<p>These days, people want what THEY think they&rsquo;re entitled to&hellip; and they&rsquo;ll take away what we&rsquo;ve worked hard to earn.</p>
@@ -665,7 +665,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">Just to Remind You, We’re Offering These Kits on A 100% First-Come, First-Serve Basis</h2>
 				<p>As of this writing, kits are in stock and available for immediate shipment. However, we can&rsquo;t say how long this will remain the case.</p>
 				<p>Look, I'd rather you get your own personal food stockpile than see the government hoard them. Since they&rsquo;re clearing out fast I'll be ordering as many as I can to keep up with the demand. But if the supply of raw ingredients dries up or food prices skyrocket, there may be no way of restocking quickly or economically.</p>
-				<img class="img-responsive pull-left img-padding-right" width="270px" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
+				<img style="margin-top: 8px" class="img-responsive pull-left img-padding-right" width="260px" src="/media/images/f4p/letter/f4p-letter-jan-stirring.jpg" alt="">
 				<p>So why is our survival food flying off the shelves?</p>
 				<p>To begin with, this is delicious food that you can prepare in three simple steps. You don't have to worry about cooking complicated recipes when you're stuck in a disaster. You can <strong>make these meals in less than 15 minutes with no hassle</strong>. Just add boiling water, simmer and serve.&nbsp;</p>
 				<p>Can you picture how easy this is? It's so simple even kids can make our food.</p>
@@ -704,8 +704,10 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<h2 class="darkRed text-center">Survival Food That Doesn’t Scream...<br class="hidden-xs">Here’s My Food, Come Take It</h2>
 				<p>You get an easy-to-store package that takes up minimal space. Nobody wants to cram their house full of clunky food packages. Many other food storage containers are ultra-bulky and come in a lot of awkward shapes and sizes, which makes it difficult to discreetly store food reserves in the average American home.</p>
-				<img style="margin-bottom: 40px;margin-top: 7px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
-				<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you. Plus, they’re sturdy,  waterproof and<br class="hidden-xs"> easy-to-stack.</p>
+				<img style="margin-top: 7px" class="img-responsive pull-left img-padding-right" src="/media/images/f4p/letter/f4p-letter-jan-tote-under-bed.jpg" alt="">
+				<p>I've selected the most compact kits I could find so you can store them without any hassle. The storage totes your meals come in are extremely covert – so no one will know you have a secret stash of high-quality survival food -- except you.</p>
+				<br class="hidden-xs">
+				<p>Plus, they’re sturdy,  waterproof and easy-to-stack.</p>
 				<p>Your will food come to you in plain, unmarked boxes via FedEx for fast delivery.</p>
 				<p>Take a look at this checklist showing you exactly how Food4Patriots stacks up against other methods of stockpiling food. You&rsquo;ll see right away how there&rsquo;s no comparison:</p>
 				<img src="/media/images/f4p/letter/f4p-checklist-graphic-min.jpg" width="100%" class="img-responsive center-block"/>
@@ -788,25 +790,25 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">I'm Also Offering Four Incredible FREE<br class="hidden-xs"> Bonus Reports That Will Be A Perfect<br class="hidden-xs"> Complement To Your Food</h2>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-10-items-after-crisis.jpg" width="100%" alt="Bonus 1" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #1</strong> - <strong>Top 10 Items Sold Out After a Crisis</strong>: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free Bonus #1</strong> - <strong>Top 10 Items Sold Out After a Crisis</strong>: In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. You'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-water-survival-guide.jpg" width="100%" alt="Bonus 2" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #2</strong> - <strong>The Water Survival Guide</strong>: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free Bonus #2</strong> - <strong>The Water Survival Guide</strong>: Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-the-survival-garden-guide.jpg" width="100%" alt="Bonus 3" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #3</strong> - <strong>The Survival Garden Guide</strong>: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free Bonus #3</strong> - <strong>The Survival Garden Guide</strong>: A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this guide you get the lowdown on outdoor gardens, indoor gardens, freezing, and long-term storage. This is like "food insurance" so your family can get an almost endless supply of fresh-picked produce and canned delicacies.</p></div>
 				</div>
 				<div class="row">
 					<div class="col-xs-6 col-md-4"><img src="/media/images/bonuses/f4p-letter-cut-grocery-bills-half.jpg" width="100%" alt="Bonus 4" class="media left img-responsive"></div>
-					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free bonus #4 </strong>- <strong>How to Cut Your Grocery Bills in Half</strong>: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
+					<div class="col-xs-12 col-sm-6 col-md-8"><p><strong>Free Bonus #4 </strong>- <strong>How to Cut Your Grocery Bills in Half</strong>: It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p></div>
 				</div>
 				<p>And when you click the button below you'll see a couple of special deals I just added&hellip; including <strong>FREE SHIPPING</strong> on our most popular kit, the 3-month supply.</p>
 				<p>&nbsp;As you&rsquo;ve seen there&rsquo;s a lot involved in making survival food of this quality and that is guaranteed to last for 25 years.</p>
 
 				<h2 class="darkRed text-center">An Outrageous Guarantee You Won’t Find Anyplace Else – That’s How Serious I Am</h2>
-				<img class="img-responsive pull-left img-padding-right" width="270px" src="/media/images/f4p/letter/f4p-letter-guarantee-badge-blue.svg" alt="">
+				<img class="img-responsive pull-left img-padding-right" width="240px" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1">
 				<p>I also believe that you should be 100% happy with your purchase or you shouldn&rsquo;t pay a penny&hellip;&nbsp;</p>
 				<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here’s how it works: if for any reason you're not satisfied with your Food4Patriots Kit, just return it within 365 days (that’s a full year) of purchase and we'll refund 100% of your purchase price. That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
 				<p>One more thing... when you claim your Food4Patriots kit, you&rsquo;ll not only get food to feed your family in a disaster&hellip; you&rsquo;ll also get tremendous peace of mind just like our customer Jan explains:</p>
@@ -818,7 +820,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">You Have Come To A Fork In The Road And It’s Entirely Up To You Which Way You Go</h2>
 				<p>But if you're <strong>ready to take charge and look out for yourself and your family</strong>, then click on the button below. You'll be glad you did.</p>
 				<p>This is about peace of mind, knowing that you and your family are well protected in the case of man-made or natural disasters. Don't you deserve this?</p>
-				<img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-stockpile-greed.jpg" alt="">
+				<img style="margin-top: 8px" class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-stockpile-greed.jpg" alt="">
 				<p>To get your Food4Patriots kit rushed to you at this special price, plus the four free bonus reports, just click the big button below.&nbsp;</p>
 				<p>Fair warning&hellip;</p>
 				<p>If you decide to claim your package, there is something you should know about. It's a danger I call &ldquo;25-Year Stockpile Greed&rdquo;.</p>
@@ -1077,7 +1079,6 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 	</div>
 </div>
 <div id="lsv" style="display:none;">
-	<p class="popul">You’ll Get More Than 5,640 Survival Seeds from 22 varieties Of Hardy & Delicious Heirloom Seeds Passed Down From Our Forefathers In An Airtight Storage Vault Rated For 5+ Years Of Storage.</p>
 	<div class="center">
 		<img src="/media/images/ss4p/ss4p-lsv-spread-03.jpg" width="500" height="317" alt="Your Survival Seeds Bonus!">
 	</div>
