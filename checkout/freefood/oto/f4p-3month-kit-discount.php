@@ -57,13 +57,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				if($isUpgrade) {
 					?>
 					<div class="text-center">
-						<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u><u>Add To Cart - $397</u></u></strong></a>
+						<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u>Add To Cart - $397</u></strong></a>
 					</div>
 					<?php
 				} else {
 					?>
 					<div class="text-center">
-						<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u><u>Add To Cart - $397</u></u></strong></a>
+						<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u>Add To Cart - $397</u></strong></a>
 					</div>
 					<?php
 				}
@@ -77,7 +77,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>A lot of people have told me that getting their 4-week supply was a great first step, but they really wanted more. That 4 weeks was just their "starting point" and I get where they're coming from.</p>
 				<p>4 weeks is really a *minimum* recommendation...</p>
 				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and six FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
-				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get A 3-month Food4Patriots Supply Right Now...</h2>
+				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get A<br class="hidden-xs"> 3-month Food4Patriots Supply Right Now...</h2>
 				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You and Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
 				<p><strong><span class="numberCircle">2</span> You Can Barter Your Food In Times Of Crisis</strong></p>
@@ -130,7 +130,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<div class="col-sm-12 col-md-5 nopadding">
 					<div class="productList">
-						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
+						<p class="red17"><strong>FREE Hard Copy Bonus Reports:</strong></p>
 						<ul>
 							<li>10 Items Sold Out After Crisis</li>
 							<li>Water Survival Guide</li>
@@ -145,13 +145,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			if($isUpgrade) {
 				?>
 				<div class="text-center">
-					<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u><u>Add To Cart - $397</u></u></strong></a>
+					<a href="<?php echo url("/order/" . $productDataObj->productId);?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u>Add To Cart - $397</u></strong></a>
 				</div>
 				<?php
 			} else {
 				?>
 				<div class="text-center">
-					<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u><u>Add To Cart - $397</u></u></strong></a>
+					<a href="<?php echo url("/checkout/process.php"); ?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $497</span><br><u>Add To Cart - $397</u></strong></a>
 				</div>
 				<?php
 			}
@@ -225,7 +225,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<div class="col-sm-12 col-md-5 nopadding">
 					<div class="productList">
-						<p class="red17"><strong>FREE Hard Copy Bonus Reports</strong></p>
+						<p class="red17"><strong>FREE Hard Copy Bonus Reports:</strong></p>
 						<ul>
 							<li>10 Items Sold Out After Crisis</li>
 							<li>Water Survival Guide</li>
@@ -252,9 +252,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}
 			?>
 			<div>
-				<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
+				<h2 class="darkRed text-center">You Are 100% Protected By My<br class="hidden-xs"> Outrageous Double Guarantee</h2>
 				<div class="outLineBoxDarkBlue">
-					<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
+					<p><img style="padding-right: 10px;" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
 					satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I&rsquo;ll refund 100% of your purchase
 					price. If you try it and decide it&rsquo;s not as delicious and nutritious as I promised, you can have your money back for
@@ -263,7 +263,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 
 				<div class="outLineBoxDarkBlue">
-					<p><img style="margin-bottom: 20px" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
+					<p><img style="margin-bottom: 20px;padding-right: 10px;" src="/media/images/misc/seal-guarantee-money.jpg" alt="Guarantee #2" class="pull-left img-responsive media margin-t-20">
 					<h3>Guarantee #2:</h3> This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1. If you open any of your Food4Patriots meals anytime <strong>in the next 25 years</strong> and find that your food has spoiled or gone bad, you can return your entire Food4Patriots stockpile and I will <strong>triple</strong> your money back!</p>
 					<p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
 				</div>
