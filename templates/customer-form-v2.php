@@ -211,7 +211,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 				<div class='form-row'>
 					<div class="form-group col-xs-12">
 						<input style="cursor: pointer;margin-bottom: 10px;" type="checkbox" class="ba" value=""> <em style="font-style: normal;color: #0c83e7">My Shipping Address Is Different Than Billing</em><br>
-						<label for="shipping-city">City:</label>
+						<label for="shipping-address">Shipping Address:</label>
 						<input disabled type="text" class="form-control tex" id="shipping-address" name="shipping-address">
 					</div>
 				</div>
