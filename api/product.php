@@ -16,7 +16,9 @@ if($funnel = $productObj->getFunnel()) {
 		$return["price"] = $funnelData["customPrice"];
 	}
 }
-if($_SESSION["customTemplate"]["price"] >= 0) {
+if($productDataObj->productId == 17 && $_SESSION["customTemplate"]["price"] >= 0) { /*ENSURES FREE FOOD OFFER SHOWS $0*/
+	$return["price"] = $_SESSION["customTemplate"]["price"];
+}elseif($_SESSION["customTemplate"]["price"] > 0) {
 	$return["price"] = $_SESSION["customTemplate"]["price"];
 }
 echo json_encode($return);
