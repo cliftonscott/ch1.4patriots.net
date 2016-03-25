@@ -131,7 +131,7 @@ class Product {
 				$productObj->shippingCostInternational = 9.95;
 				$productObj->mpsId = 17;
 				$productObj->campaignId = 9;
-				$productObj->netRevenueEach = 17;
+				$productObj->netRevenueEach = 0;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
 				$productObj->tags = "LL, 72HKIT";
