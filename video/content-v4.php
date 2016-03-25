@@ -39,7 +39,11 @@
 		} else {
 			var hours = 0;
 			var minutes = 33;
+			<?php if (JV::in("74-a") || JV::in("74-b")) { /*JV-74 DESKTOP MONTAGE TEST*/ ?>
+			var seconds = 42;
+			<?php }else{ ?>
 			var seconds = 22;
+			<?php } ?>
 		}
 		<?php
 		//Conditionally changes the timer values
