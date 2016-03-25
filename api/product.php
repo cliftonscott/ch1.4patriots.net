@@ -16,7 +16,7 @@ if($funnel = $productObj->getFunnel()) {
 		$return["price"] = $funnelData["customPrice"];
 	}
 }
-if($_SESSION["customTemplate"]["price"] >= 0) {
+if($_SESSION["customTemplate"]["price"] > 0) {
 	$return["price"] = $_SESSION["customTemplate"]["price"];
 }
 echo json_encode($return);
