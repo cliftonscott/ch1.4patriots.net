@@ -9,25 +9,17 @@ include_once("Product.php");
 //creates a product object that is available from every template
 $productDataObj = Product::getProduct($_SESSION["productId"]);
 //include template top AFTER the product information is set
-
-/*SPLIT JV-38 11/20/15 TEST CALLED - NEEDS REDESIGNED*/
 include_once("agile/template-top.php");
-/*END TEST*/
 
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 $offerUrl = url('/checkout/index.php');
-
 ?>
 
 <div id="wrapper">
 	<?php
-	if (JV::in("61-vsl4") || JV::in("61-vsl4-1")) {
 		echo '<div class="container-main">';
-		include_once('food/content-b.php'); /*JV-56 SPLIT*/
+		include_once('food/content-v4.php'); /*F4P 4.0 Letter Content*/
 		echo '</div>';
 		include_once("template-bottom.php");
-	}else{
-		include_once('food/content.php'); /*CONTROL*/
-	};
 	?>
 </div>
