@@ -408,7 +408,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 				<h1 style="font-size: 18px">Shopping Is Safe & Secure - Guaranteed!</h1>
 			</div>
 			<div style=";padding-top: 15px;background-color: #cdcdda;" class='col-md-12 form-group text-center safety'>
-				<p style="font-size: 15px;"><img src="http://dev.sf4p.4patriots.net/assets/images/checkout/secure-order-lock-02.png" width="30px"> Secure credit card payment - this is a secure 256-bit SSL encrypted payment.</p>
+				<p style="font-size: 15px;"><img src="http://dev.sf4p.4patriots.net/assets/images/checkout/secure-order-lock-02.png" width="30px"> Secure credit card payment - this is a secure<br class="hidden-xs"> 256-bit SSL encrypted payment.</p>
 			</div>
 		</div>
 		<div class="row securtiy-seals">

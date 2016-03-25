@@ -139,7 +139,9 @@ if(!empty($customerDataObj->shippingCity)) {
 			background: #f0fff0;
 		}
 		.usertext p{
-			line-height: 25px;
+			font-family:Helvetica regular, Arial, sans-serif;
+			font-size: 14px;
+			line-height: 18px;
 		}
 
 		.arrowR{
@@ -225,12 +227,13 @@ if(!empty($customerDataObj->shippingCity)) {
 			margin-bottom: 0;
 		}
 		.phone-number{
+			background-color:transparent;
 			text-align: right;
 			margin-top: -20px;
 			padding-top: 22px;
 		}
 		.phone-btn{
-			background-color:#B90003;
+			background-color:transparent;
 		}
 		.stepone{
 			margin-top: 82px;
@@ -259,6 +262,15 @@ if(!empty($customerDataObj->shippingCity)) {
 			padding-top:10px;
 			padding-left: 20px;
 			height: 68px;
+		}
+		.btn.disabled,
+		.btn[disabled],
+		fieldset[disabled] .btn {
+			cursor:default;
+			filter: alpha(opacity=65);
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			opacity: 1.0;
 		}
 		@media (max-width: 1023px){
 			.norton{
@@ -378,7 +390,18 @@ if(!empty($customerDataObj->shippingCity)) {
 	<img src="/assets/images/misc/progressbar.gif" width="220" height="19" class="displayed" alt="" />
 </div>
 <div style="margin-top: -90px" id="wrapper">
-	<section style="margin-bottom: -30px; padding-bottom: 0;" class="section-dark-blue">
+	<div class="grad-white-brown">
+		<div class="row section-inner">
+			<div class="phone-number navbar-phone-contain">
+				<div style="color: #000" id="phone-txt"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
+				<div style="color: #000;" id="phone-button" class="phone-btn">
+					<img src="/assets/images/logo-small.png" width="150" alt="food4patriots" class="img-responsive center-block" style="position: absolute;">
+					<div class="btn disabled"> <span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section style="margin-bottom: -30px; padding-bottom: 0;background-color: #B90003">
 		<div class="section-inner">
 			<div class="row pad-15-t">
 				<div class="top-head"><p>ACT NOW, Before It's Too Late!</p></div>
@@ -386,27 +409,13 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 		</div>
 	</section>
-	<div style="background-color: #B90003">
-		<div class="row section-inner">
-			<div class="phone-number navbar-phone-contain">
-				<div id="phone-txt"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
-				<div id="phone-button"><button type="button" class="btn phone-btn"><a href="tel:1-800-728-0008"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</a></button></div>
-			</div>
-		</div>
-	</div>
-
-	<section class="section-1">
-		<div class="section-inner">
-			<div class="grad-white-brown pad-15-t pad-15-b">
-				<h2 style="text-align: center;font-size: 50px;line-height: 60px" class="color-red dark">WARNING: Free Survival Food is Almost Gone…</h2>
-			</div>
-		</div>
-	</section>
-
 	<section class="section-2">
 		<div class="section-inner">
 			<div class="block bg-white">
 				<div class="pad-10-b">
+					<div class=" pad-15-t pad-15-b">
+						<h2 style="text-align: center;font-size: 50px;line-height: 60px" class="color-red dark">WARNING: Free Survival Food is Almost Gone…</h2>
+					</div>
 					<div class="row">
 						<div class="wistia_responsive_padding" style="position:relative; margin-bottom:0">
 							<div class="wistia_responsive_wrapper">
@@ -455,7 +464,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section class="section-3">
 		<div class="section-inner">
 			<div class=" pad-30">
-				<h2 style="text-align: center" class="color-red dark">Act Now. Claim Your FREE 72-Hour Survival Food <br class="hidden-xs"> Kit While They Are Still Available</h2>
+				<h2 style="text-align: center" class="color-red dark">Act Now. Claim Your FREE 72-Hour Survival Food <br class="hidden-xs"> Kit While It Is Still Available</h2>
 			</div>
 		</div>
 	</section>
@@ -463,7 +472,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section class="section-2">
 		<div class="section-inner">
 			<p class="pad-30-t">Giving away survival food for free has never been done before. And the response has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment.</p>
-			<p>The regular price of our 72-hour survival food kit is $27.00 plus shipping. But right now it’s yours FREE. All we ask is you help cover the low shipping cost.</p>
+			<p>The regular price of our 72-hour survival food kit is $27.00 plus shipping and handling. But right now it’s yours FREE. All we ask is you help cover the low shipping cost.</p>
 
 			<h2 style="text-align: center" class="color-red dark">Here’s What Our Satisfied Customers Have To Say:</h2>
 			<p></p>
@@ -510,7 +519,7 @@ if(!empty($customerDataObj->shippingCity)) {
 							</div>
 						</div>
 						<div class="usertext">
-							<p>I now feel very secure in the event of an emergency that might cut off food distribution channels. Also, in the event that our economy crashes (not if, but when… Again, thank you for what you have put together to help folks like me.</p>
+							<p>I now feel very secure in the event of an emergency that might cut off food distribution channels. Also, in the event that our economy crashes not if, but when… Again, thank you for what you have put together to help folks like me.</p>
 						</div>
 						<div class="mock-title-cap-text">Like &#183; Comment &#183; Share</div>
 					</div>
@@ -553,6 +562,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<?php include("f4p-72hour-kit-whatsincluded.html");?>
 				<p>They’re made with award-winning recipes. Your family will enjoy meals much like those they’re eating now.</p>
 				<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
+				<p>365 Day, 100% Money-Back Guarantee On My Patriot Power Generator 1500 Let me spell it out for you (you’ll be floored by this!):</p>
 				<div class="outLineBoxDarkBlue">
 					<p><img style="margin-top: 3%" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media">
 					<p style="margin-top: 5.5%"><strong>Every purchase protected by our 365-Day Full Money Back Guarantee!</strong> You can feel completely confident that your Food4Patriots survival food will meet or exceed your expectations. Go ahead and try our products. If for any reason – or no reason at all – you are not completely satisfied, simply return your survival food within 365 days for a full refund. You literally can’t lose!</p>
@@ -561,8 +571,8 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="clearfix"></div>
 				<p>There&rsquo;s a lot going on in the world to be concerned about &ndash; terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more.</p>
 				<p>You owe it to your family to prepare now for uncertain days ahead.</p>
-				<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. All we ask is that you pay a small $9.95 fee to offset the shipping cost.</p>
-				<p><strong>Regularly priced at $27.00 plus shipping, now FREE while supplies last </strong>(limit one per household, just cover postage)<strong>&nbsp;--&nbsp;</strong>get yours now before it&rsquo;s gone!</p>
+				<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile.</p>
+				<p><strong>Regularly priced at $27.00 plus shipping and handling, now FREE while supplies last </strong>(limit one per household, just cover shipping and handling)<strong>&nbsp;--&nbsp;</strong>get yours now before it&rsquo;s gone!</p>
 			<div class="pad-30-b">
 				<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 			</div>
@@ -611,7 +621,7 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 			<h2 style="text-align: center" class="color-red dark pad-30-t-b">Don’t Be Disappointed – Claim Your FREE Food4Patriots 72-Hour<br class="hidden-xs"> Survival Food Kit Before They’re All Gone!</h2>
 			<div class="pad-30-b">
-				<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">Claim My Free Product Now</a></div>
+				<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 			</div>
 		</div>
 		<div style="background-color: #f8f8f8" class="priority-lists pad-30-t-b">
