@@ -18,7 +18,7 @@ $_SESSION['pageReturn'] = '/checkout/order.php';
 // Redirects If Already Offered 3 Month Discount
 if($_SESSION['3mDiscountSkip'] === TRUE) {
 	unset($_SESSION['3mDiscountSkip']);
-	header("Location: " . url('/checkout/thankyou.php'));
+	header("Location: " . url('/checkout/freefood/thankyou.php'));
 }
 
 include_once("Product.php");
