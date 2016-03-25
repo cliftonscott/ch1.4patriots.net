@@ -4,14 +4,25 @@
 	$buttonCTA = "Claim Your Kit";
 }
 ?>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <style>.navbar,.navbar-phone-contain{max-width: 958px !important;}h1,h2{font-weight:700;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;margin-top:20px;margin-bottom:25px;line-height:1.1}.button.big,h1,h2{font-weight:700}p{font-size:15pt}blockquote{margin:5px}h1{font-size:36px}h2{font-size:30px;color:inherit}.button,.button:visited,h1.large,h2.large{font-family:Oswald,sans-serif}img{margin-bottom:10px}ul{list-style-image:none}ul li{margin:0 25px;font-size:16px}.fa-check{color:#34C901}.button.big{font-size:39px;margin-bottom:18px}.button,.button:visited{display:inline-block;font-weight:400;padding:8px 84px;text-decoration:none;color:#777;outline:0;cursor:pointer;text-shadow:1px 1px 0 rgba(0,0,0,.1);-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;background:-webkit-gradient(linear,left top,left bottom,color-stop(.05,#ededed),color-stop(1,#dfdfdf));background:-moz-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:-webkit-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:-o-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:-ms-linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background:linear-gradient(center top,#ededed 5%,#dfdfdf 100%);background-color:#ededed}.button:hover{text-decoration:none;background:-webkit-gradient(linear,left top,left bottom,color-stop(.05,#dfdfdf),color-stop(1,#ededed));background:-moz-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:-webkit-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:-o-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:-ms-linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background:linear-gradient(center top,#dfdfdf 5%,#ededed 100%);background-color:#dfdfdf}.button:active{position:relative;top:1px}.blue.button{background:#002bba;background:-moz-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(0,43,186,1)),color-stop(100%,rgba(1,1,134,1)));background:-webkit-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:-o-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:-ms-linear-gradient(top,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);background:linear-gradient(to bottom,rgba(0,43,186,1) 0,rgba(1,1,134,1) 100%);color:#fff!important}.blue.button:hover{background:#010186;background:-moz-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(1,1,134,1)),color-stop(100%,rgba(0,43,186,1)));background:-webkit-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:-o-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:-ms-linear-gradient(top,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%);background:linear-gradient(to bottom,rgba(1,1,134,1) 0,rgba(0,43,186,1) 100%)}.color-red{color:#d01f22}h1.large,h2.large{font-size:48px;font-weight:700;margin-bottom:18px}
 </style>
 <div class="container oto-width">
 	<?php if($page == "video"): ?>
 
 	<?php else:?>
+		<?php if (JV::in("66-geo")): ?>
+			<script>
+				$(document).ready(function() {
+					$('#specialMessage').html("Breaking News For " + geolify_state_name() + " Residents:");
+				});
+			</script>
+			<div class="text-center">
+				<span id="specialMessage" style="font-size: 20px;" class="color-black">Breaking News: </span>
+				<h1 class="darkRed">FEMA Hates This <br class="hidden-xs">(#1 Item To Hoard)</h1>
+			</div>
+		<?php else: ?>
 		<div><h1 class="darkRed text-center">Breaking News:<br>FEMA Hates This (#1 Item To Hoard)</h1></div>
+		<?php endif?>
 		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/letter/f4p-letter-header-array.jpg" alt="">
 		<p>We all know a crisis is coming. What's going to happen when disaster strikes? Are you prepared to feed your family?&nbsp;</p>
 		<p>I don't know about you, but I'm sure not counting on the government to help me. In fact, they may be behind <strong>disappearing food stockpiles all over the country</strong>; and I've got the proof.</p>

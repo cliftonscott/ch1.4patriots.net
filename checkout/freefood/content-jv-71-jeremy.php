@@ -272,7 +272,8 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-12">
-						<div class="text-center center-block" style="max-width: 85%; line-height: 1.3;padding: 5px 0;">This isn&rsquo;t ordinary food... this is delicious, nutritious, good for 25 years &ldquo;super survival food&rdquo; that could literally save your life in a disaster!</div>
+						<div class="text-center center-block" style="max-width: 85%; line-height: 1.3;padding: 5px 0;">This isn&rsquo;t ordinary food... this is delicious, nutritious, good for 25 years &ldquo;super survival food&rdquo; that could literally save your life in a disaster. And today only it’s yours FREE!</div>
+
 					</div>
 				</div>
 				<div class="row center-block" style="margin: 15px 0;">
@@ -280,7 +281,7 @@
 						<ul class="fa-ul blue-check">
 							<li><i class="fa-li fa fa-check fa-2x"></i> 16 Servings of Great-tasting Survival Food  <a href="#info" id="72hrPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><i class="fa-li fa fa-check fa-2x"></i> Packaged In Airtight, Re-sealable Mylar Pouches</li>
-							<li><i class="fa-li fa fa-check fa-2x"></i> Quick And Easy To Prepare </li>
+							<li><i class="fa-li fa fa-check fa-2x"></i> Quick And Easy To Prepare - Just Add Boiling Water!</li>
 							<li><i class="fa-li fa fa-check fa-2x"></i> 100% Satisfaction Guarentee</li>
 							<li><i class="fa-li fa fa-check fa-2x"></i> Proudly Grown and Packaged in the USA!</li>
 						</ul>
@@ -306,12 +307,12 @@
 		<div class="col-sm-3 col-md-3" style="padding-bottom:20px;">
 			<!--Norton security/seal-->
 			<div class="text-center">
-				<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
+				<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
 					<tr>
 						<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=secure.food4patriots.com&amp;size=M&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script></td>
 					</tr>
-				</table>-->
-				<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
+				</table>
+				<!--<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">-->
 			</div>
 		</div>
 		<div class="col-sm-3 col-md-3  text-center" style="padding-top: 20px;">
@@ -324,8 +325,8 @@
 			<img src="/assets/images/checkout/secure-seal-made-usa.png" width="91" height="82" alt="Trust Seals" style="margin-top: 6px;">
 		</div>
 		<div class="col-sm-3 col-md-3 text-center" style="padding-top: 10px;">
-			<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
-			<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
+			<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>
+			<!--<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">-->
 		</div>
 	</div>
 </div>
@@ -343,7 +344,7 @@
 			<p>There&rsquo;s a lot going on in the world to be concerned about – terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more. You owe it to your family to prepare now for uncertain days ahead.</p>
 			<p>For sure, no one knows where the next crisis will hit… or when. But when it does hit, finding food could be near-impossible as stores are quickly sold out or have their shelves stripped bare by hungry mobs.</p>
 			<p>You don&rsquo;t want your family standing in line with thousands of desperate strangers like those poor folks had to in Hurricane Katrina – or be forced to dig through dumpsters like New Yorkers did during Superstorm Sandy. You owe it to them to make sure they&rsquo;ll have all the food they need when they need it… no matter what.</p>
-			<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. The regular price is $27.00 plus shipping. But right now it&rsquo;s yours FREE. All we ask is you help cover the low shipping cost.</p>
+			<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. The regular price is $27.00 plus shipping. But right now it&rsquo;s yours FREE. All we ask is you help cover the low shipping and handling cost.</p>
 			<img class="img-responsive pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
 			<p>Every 72-hour kit contains four servings each of such familiar dishes as Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and the American favorite – Granny&rsquo;s Homestyle Potato Soup. Our survival foods contain no harmful chemicals, GMOs or added MSG. and are prepared with award-winning recipes, so they&rsquo;re loaded with flavor!</p>
 			<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
@@ -485,12 +486,12 @@
 		<div class="col-sm-3 col-md-3" style="padding-bottom:20px;">
 			<!--Norton security/seal-->
 			<div class="text-center">
-				<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
+				<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
 					<tr>
 						<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=secure.food4patriots.com&amp;size=M&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script></td>
 					</tr>
-				</table>-->
-				<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
+				</table>
+				<!--<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">-->
 			</div>
 		</div>
 		<div class="col-sm-3 col-md-3  text-center" style="padding-top: 20px;">
@@ -503,8 +504,8 @@
 			<img src="/assets/images/checkout/secure-seal-made-usa.png" width="91" height="82" alt="Trust Seals" style="margin-top: 6px;">
 		</div>
 		<div class="col-sm-3 col-md-3 text-center" style="padding-top: 10px;">
-			<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
-			<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
+			<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>
+			<!--<img src="/assets/images/checkout/secure-seal-mcafee.jpg" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">-->
 		</div>
 	</div>
 </div>
