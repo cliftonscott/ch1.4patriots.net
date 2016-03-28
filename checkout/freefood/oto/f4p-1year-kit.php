@@ -119,7 +119,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="content">
 			<div class="container oto-width">
-				<div id="buyButton" class="text-center" style="display:none;"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><u><strong>Add To Cart $1997</strong></u></div></a></div>
+				<div id="buyButton" class="text-center" style="display:none;"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><strong>Add To Cart $1997</strong></div></a></div>
 				<div style="margin-top:50px;">
 					<p><?php echo $view->customer->firstName;?>, congratulations for making the great decision to get the 3-month Food4Patriots kit. </p>
 					<p>You&rsquo;ve taken an important step today to take charge, be more self-reliant and protect your family. I know you&rsquo;re going to sleep easier at night. The folks in our warehouse have reserved your order and they are already busy getting it ready to ship to you in <?php echo $view->customer->shippingCity;?>.</p>
@@ -141,7 +141,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
 				<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181"class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots Kit when you upgrade today!</p>
 				<p>Because we're already going to be sending you a 3-month kit, we can add the 1-year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
-				<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><u><strong>Add To Cart $1997</strong></u></div></a></div>
+				<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><strong>Add To Cart $1997</strong></div></a></div>
 				<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
 				<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-year Kit!</p>
 			</div>
