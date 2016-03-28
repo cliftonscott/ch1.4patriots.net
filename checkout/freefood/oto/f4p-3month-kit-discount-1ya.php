@@ -50,7 +50,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<p><?php echo $firstName;?>, one more thing... The folks in our warehouse have reserved your 3-Month Food4Patriots kit and are already busy getting it ready to ship to you.</p>
 			<p>I understand a 1-year kit may be too much for you right now, so how about one more 3-Month Kit for $100.00 off?</p>
 			<p>We can offer you this special one-time offer because the folks in our warehouse are already busy getting your order ready for shipment and it's easy for them to add another 3-Month kit to your package.</p>
-			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an exclusive $100.00 discount on another 3-Month Food4Patriots Kit if you act now. That drops the price to only $397 (plus you'll get Free Shipping plus all the other Free bonuses included with the 3-Month Kit).</p>
+			<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, <strong>I am offering you an exclusive $100.00 discount on another 3-Month Food4Patriots Kit if you act now</strong>. That drops the price to only $397 (plus you'll get Free Shipping plus all the other Free bonuses included with the 3-Month Kit).</p>
 			<p><?php echo $firstName;?>, please accept this opportunity to get an additional 3-Month Food4Patriots Kit for only $397 and save $100 today. Just click on the big orange "<strong>Click To Accept</strong>" button below.</p>
 		</div>
 		<div>
