@@ -511,7 +511,7 @@
 </div>
 <script>
 	$(document ).ready(function () {
-		$("72hrPopover").popover({
+		$("#72hrPopover").popover({
 			html:true,
 			trigger: "hover",
 			title:"72 Hour Kit May Include:",
