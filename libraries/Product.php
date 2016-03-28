@@ -137,7 +137,7 @@ class Product {
 				$productObj->tags = "LL, 72HKIT";
 				$productObj->googleProductName = "F4P-72HRK";
 				$productObj->googleProductSku = "PID17";
-				$productObj->googleProductCategory = "1-PAY-27";
+				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
 				$productObj->metaTitle = "Food4Patriots 72 Hour Food Supply";
 				$productObj->metaDescription = "Food4Patriots 72 Hour Food Supply";
 				$productObj->defaultQuantity = 1;
@@ -955,6 +955,9 @@ class Product {
 				),
 				92 => array (
 					"nextUrl" => "/checkout/freefood/oto/f4p-4week-kit-discount-1wa.php",
+					"shippingIdDomestic" => 30,
+					"shippingIdInternational" => 6,
+					"netRevenueEach" => 34.80,
 				),
 				"declineUrl" => "/checkout/freefood/thankyou.php",
 				"googleBrand" => "F4P-FREE-72HR",
