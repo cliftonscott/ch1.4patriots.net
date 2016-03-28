@@ -1560,11 +1560,15 @@ class Product {
 		return $results;
 	}
 
-	function initFunnel($step) {
+	function initFunnel($step, $productId = null) {
 
 		$currentFunnel = self::getFunnel();
 
 		$initData = self::getFunnelData($currentFunnel["name"],$step);
+
+		if (isset($initData["pidVariableNextUrl"]) && $initData["pidVariableNextUrl"] && $productId) {
+			$initData = array_merge($initData, $initData[$productId]);
+		}
 
 		self::setStep($step);
 		return $initData;
