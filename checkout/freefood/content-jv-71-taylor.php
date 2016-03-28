@@ -278,10 +278,10 @@ if(!empty($customerDataObj->shippingCity)) {
 			}
 
 			.mcafee{
-			padding-top:13px;
+				padding-top:13px;
 			}
 			.trustusa{
-			padding-left: 14.5px;
+				padding-left: 14.5px;
 			}
 		}
 		@media (max-width: 997px){
@@ -401,7 +401,7 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 		</div>
 	</div>
-	<section style="margin-bottom: -30px; padding-bottom: 0;background-color: #B90003">
+	<section style="margin-bottom: -30px; padding-bottom: 0;">
 		<div class="section-inner">
 			<div class="row pad-15-t">
 				<div class="top-head"><p>ACT NOW, Before It's Too Late!</p></div>
@@ -556,23 +556,24 @@ if(!empty($customerDataObj->shippingCity)) {
 			<div class="medium-size700 pad-30-t-b">
 				<img style="width: 100%" class="img-responsive center-block" src="/media/images/f4p/f4p-72-hour-kit-04.jpg" alt="Alexapure Pro"/>
 			</div>
-				<p>All Food4Patriots survival food is made from the finest local-grown ingredients, prepared and packaged with pride in the USA!</p>
-				<p>And thanks to advanced Mylar packaging, our foods are guaranteed to taste as good in 25 years as they do today.&nbsp;</p>
-				<p>Every 72-hour kit that&rsquo;s being given away contains four servings each of such familiar dishes as:</p>
-				<?php include("f4p-72hour-kit-whatsincluded.html");?>
-				<p>They’re made with award-winning recipes. Your family will enjoy meals much like those they’re eating now.</p>
-				<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
-				<p>365 Day, 100% Money-Back Guarantee On My Patriot Power Generator 1500 Let me spell it out for you (you’ll be floored by this!):</p>
-				<div class="outLineBoxDarkBlue">
-					<p><img style="margin-top: 3%" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media">
-					<p style="margin-top: 5.5%"><strong>Every purchase protected by our 365-Day Full Money Back Guarantee!</strong> You can feel completely confident that your Food4Patriots survival food will meet or exceed your expectations. Go ahead and try our products. If for any reason – or no reason at all – you are not completely satisfied, simply return your survival food within 365 days for a full refund. You literally can’t lose!</p>
-					<div class="clearfix"></div>
-				</div>
+			<p>All Food4Patriots survival food is made from the finest local-grown ingredients, prepared and packaged with pride in the USA!</p>
+			<p>And thanks to advanced Mylar packaging, our foods are guaranteed to taste as good in 25 years as they do today.&nbsp;</p>
+			<p>Every 72-hour kit that&rsquo;s being given away contains four servings each of such familiar dishes as:</p>
+			<?php include("f4p-72hour-kit-whatsincluded.html");?>
+			<p>They’re made with award-winning recipes. Your family will enjoy meals much like those they’re eating now.</p>
+			<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
+			<p>And jusy to make this a complete no-brainer for you...</p>
+			<h2 style="text-align: center" class="color-red dark pad-15-b">You Are 100% Protected By My Outrageous<br class="hidden-xs"> Double Guarantee</h2>
+			<div class="outLineBoxDarkBlue">
+				<p><img style="margin-top: 3%" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media">
+				<p style="margin-top: 5.5%"><strong>Every purchase protected by our 365-Day Full Money Back Guarantee!</strong> You can feel completely confident that your Food4Patriots survival food will meet or exceed your expectations. Go ahead and try our products. If for any reason – or no reason at all – you are not completely satisfied, simply return your survival food within 365 days for a full refund. You literally can’t lose!</p>
 				<div class="clearfix"></div>
-				<p>There&rsquo;s a lot going on in the world to be concerned about &ndash; terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more.</p>
-				<p>You owe it to your family to prepare now for uncertain days ahead.</p>
-				<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile.</p>
-				<p><strong>Regularly priced at $27.00 plus shipping and handling, now FREE while supplies last </strong>(limit one per household, just cover shipping and handling)<strong>&nbsp;--&nbsp;</strong>get yours now before it&rsquo;s gone!</p>
+			</div>
+			<div class="clearfix"></div>
+			<p>There&rsquo;s a lot going on in the world to be concerned about &ndash; terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more.</p>
+			<p>You owe it to your family to prepare now for uncertain days ahead.</p>
+			<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile.</p>
+			<p><strong>Regularly priced at $27.00 plus shipping and handling, now FREE while supplies last </strong>(limit one per household, just cover shipping and handling)<strong>&nbsp;--&nbsp;</strong>get yours now before it&rsquo;s gone!</p>
 			<div class="pad-30-b">
 				<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 			</div>
@@ -675,11 +676,11 @@ if(!empty($customerDataObj->shippingCity)) {
 					<!--Norton security/seal-->
 					<div class="text-center">
 						<!--<table class="text-center center-block" width="135" border="0" cellpadding="2" cellspacing="0" title="Click to Verify - This site chose Symantec SSL for secure e-commerce and confidential communications.">
-							<tr>
-								<td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=secure.food4patriots.com&amp;size=M&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script></td>
-							</tr>
+						   <tr>
+							  <td width="135" align="center" valign="top"><script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=secure.food4patriots.com&amp;size=M&amp;use_flash=NO&amp;use_transparent=NO&amp;lang=en"></script></td>
+						   </tr>
 						</table>-->
-						<img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals">
+						<a href="https://sealinfo.websecurity.norton.com/splash?form_file=fdf/splash.fdf&dn=secure.food4patriots.com&lang=en" target="_blank"><img src="/assets/images/checkout/secure-seal-norton.png" style="max-width: 125px;margin-top:10px;" alt="Trust Seals"></a>
 					</div>
 				</div>
 				<div class="col-sm-3 col-md-3  text-center" style="padding-top: 20px;">
@@ -693,7 +694,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				</div>
 				<div class="col-sm-3 col-md-3 text-center" style="padding-top: 10px;">
 					<!--<script src="https://cdn.ywxi.net/js/inline.js?w=120"></script>-->
-					<img src="/assets/images/checkout/secure-seal-mcafee.png" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;">
+					<a href="https://www.mcafeesecure.com/verify?host=secure.food4patriots.com" target="_blank"><img src="/assets/images/checkout/secure-seal-mcafee.png" width="129" height="59" alt="Trust Seals" style="margin-top: 6px;"></a>
 				</div>
 			</div>
 		</div>
@@ -722,23 +723,23 @@ if(!empty($customerDataObj->shippingCity)) {
 </div>
 <?php include_once ('footer.php'); ?>
 <!--<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-		f[z]=function(){
-			(a.s=a.s||[]).push(arguments)};var a=f[z]._={
-		},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-			f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-			0:+new Date};a.P=function(u){
-			a.p[u]=new Date-a.p[0]};function s(){
-			a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-			hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-			return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-			b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-			b.contentWindow[g].open()}catch(w){
-			c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-			var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-			b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-		loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
-	/* custom configuration goes here (www.olark.com/documentation) */
-	olark.identify('2445-700-10-6057');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2445-700-10-6057/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+      f[z]=function(){
+         (a.s=a.s||[]).push(arguments)};var a=f[z]._={
+      },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
+         f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
+         0:+new Date};a.P=function(u){
+         a.p[u]=new Date-a.p[0]};function s(){
+         a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
+         hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
+         return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
+         b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
+         b.contentWindow[g].open()}catch(w){
+         c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
+         var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
+         b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
+      loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+   /* custom configuration goes here (www.olark.com/documentation) */
+   olark.identify('2445-700-10-6057');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2445-700-10-6057/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 end olark code -->
 <script>
 	window.onbeforeunload = grayOut;
@@ -827,4 +828,4 @@ end olark code -->
 </body>
 </html>
 
-
+16
