@@ -1566,6 +1566,8 @@ class Product {
 
 		$initData = self::getFunnelData($currentFunnel["name"],$step);
 
+		// Dynamically merge variable PID funnel data
+		// into funnel step data if PID is provided.
 		if (isset($initData["pidVariableNextUrl"]) && $initData["pidVariableNextUrl"] && $productId) {
 			$initData = array_merge($initData, $initData[$productId]);
 		}

@@ -65,8 +65,6 @@ if($_SESSION["customTemplate"]["price"] > 0) {
 	unset($_SESSION["customTemplate"]["price"]);
 }
 
-var_dump($productDataObj); exit;
-
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Create productObj";
