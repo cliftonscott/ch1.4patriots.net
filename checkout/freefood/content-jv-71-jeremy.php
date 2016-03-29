@@ -224,6 +224,47 @@
 		width: 100%;
 		background-color: orange;
 	}
+	.arrow_box {
+		position: relative;
+		background: #289428;
+		border: 2px solid #00780c;
+		margin: 7px 80px;
+		padding: 21px;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		font-weight: 600;
+		border-radius: 6px;
+		left: 291px;
+		max-width: 280px;
+	}
+	.arrow_box:after, .arrow_box:before {
+		left: 100%;
+		top: 50%;
+		border: solid transparent;
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		pointer-events: none;
+	}
+
+	.arrow_box:after {
+		border-color: rgba(40, 148, 40, 0);
+		border-left-color: #289428;
+		border-width: 20px;
+		margin-top: -20px;
+	}
+	.arrow_box:before {
+		border-color: rgba(0, 120, 12, 0);
+		border-left-color: #00780c;
+		border-width: 23px;
+		margin-top: -23px;
+	}
+	#ctaShipping{
+		float: left;
+		margin: 3px 0 0 -656px;
+	}
 
 </style>
 <script>
@@ -243,7 +284,7 @@
 
 <div class="container-fluid" style="background-color: #f7f7f7">
 	<div class="row">
-		<div class="col-xs-12 text-center">
+		<div class="col-xs-12 text-center" style="padding: 6px 0;">
 			<span class="topbanner"><strong><u>WARNING</u></strong>: Free Survival Food is Almost Gone…</span>
 		</div>
 	</div>
@@ -260,9 +301,9 @@
 		<div class="row">
 			<div class="col-sm-6 col-md-7 nopaddinglg nomargin">
 				<div class="row ">
-					<div class="col-lg-12 text-center center-block hidden-xs">
-						<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+					<div id="vsl" class="col-lg-12 text-center center-block hidden-xs">
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+						<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper wistia_embed" id="wistia_f1958k8cul" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 					</div>
 				</div>
 				<div class="row">
@@ -297,6 +338,9 @@
 			</div>
 			<div class="col-sm-6 col-md-5">
 				<?php include_once ('customer-form-validation.php'); ?>
+				<div id="ctaShipping" class="hidden-xs hidden-sm" style="display:none;">
+					<div class="arrow_box"><i class="fa fa-truck fa-3x pull-left"></i>Where should we ship your FREE food?</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -350,7 +394,7 @@
 			<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
 			<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. Click the big button below now! </p>
 			<div class="text-center margin-b-10">
-				<button class="btn-3" onclick="$('#firstName').focus();">YES... I Want My FREE Survival Food Kit!</button>
+				<button class="btn-3" onclick="$('#firstName').focus();hideVSL();">YES... I Want My FREE Survival Food Kit!</button>
 			</div>
 		</div>
 	</div>
@@ -520,6 +564,9 @@
 			}
 		});
 	});
+	function hideVSL(){
+		$("#ctaShipping").css("display", "block");
+	}
 </script>
 <div id="72hr" style="display:none;">
 	<img src="/media/images/f4p/f4p-72-hour-kit-03.jpg" style="max-width: 260px;margin-top:10px;" alt="72 Hour Kit">
