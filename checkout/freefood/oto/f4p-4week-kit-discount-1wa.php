@@ -55,11 +55,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<?php
 				if($isUpgrade) {
 					?>
-					<p class="text-center"><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $397</span><br>Add To Cart - $147</strong></a></p>
+					<p class="text-center"><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br>Add To Cart - $147</strong></a></p>
 					<?php
 				} else {
 					?>
-					<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $397</span><br>Add To Cart - $147</strong></a></p>
+					<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br>Add To Cart - $147</strong></a></p>
 					<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
 					<?php
 				}
@@ -105,13 +105,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						?>
 						<a name="upgrade-form"></a>
 						<div class="text-center">
-							<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $397</span><br><u>Add To Cart - $147</u></strong></a>
+							<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><u>Add To Cart - $147</u></strong></a>
 						</div>
 						<?php
 					} else {
 						?>
 						<div class="text-center">
-							<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $397</span><br><u>Add To Cart - $147</u></strong></a>
+							<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><u>Add To Cart - $147</u></strong></a>
 						</div>
 
 						<?php
