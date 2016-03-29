@@ -344,20 +344,7 @@ $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Post to VWO :: " . $postVWO->success;
 
-//==============================================================================================================//
-//==============================================================================================================//
-//set auto-responders
-$stepTimerStart = microtime(true);
-if(!empty($productDataObj->listId)) {
-	include_once("Autoresponder.php");
-	$autoResponder = new Autoresponder();
-	$postAutoResponder = $autoResponder->postSale($productDataObj, $customerDataObj);
-	$saleDataObj->setAutoResponder($postAutoResponder->success);
 
-}
-$stepTimerStop = microtime(true);
-$stepTime = round($stepTimerStop - $stepTimerStart, 4);
-$stepTimeLog[] = $stepTime . " :: Post to OAP :: " . $postAutoResponder->success;
 //==============================================================================================================//
 //==============================================================================================================//
 //post purchase and status of other postings to internal db
