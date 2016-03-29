@@ -419,7 +419,7 @@ if(!empty($customerDataObj->shippingCity)) {
 					<div class="row">
 						<div class="wistia_responsive_padding" style="position:relative; margin-bottom:0">
 							<div class="wistia_responsive_wrapper">
-								<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+								<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/f1958k8cul?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed popoverhide" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
 							</div>
 						</div>
 						<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
@@ -561,9 +561,9 @@ if(!empty($customerDataObj->shippingCity)) {
 			<p>Every 72-hour kit that&rsquo;s being given away contains four servings each of such familiar dishes as:</p>
 			<?php include("f4p-72hour-kit-whatsincluded.html");?>
 			<p>They’re made with award-winning recipes. Your family will enjoy meals much like those they’re eating now.</p>
-			<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
-			<p>And jusy to make this a complete no-brainer for you...</p>
-			<h2 style="text-align: center" class="color-red dark pad-15-b">You Are 100% Protected By My Outrageous<br class="hidden-xs"> Double Guarantee</h2>
+			<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#" onclick="wistiaPause()">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
+			<p>And just to make this a complete no-brainer for you...</p>
+			<h2 style="text-align: center" class="color-red dark pad-15-b">You Are 100% Protected By My Outrageous<br class="hidden-xs"> 365-Day Full Money Back Guarantee</h2>
 			<div class="outLineBoxDarkBlue">
 				<p><img style="margin-top: 3%" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media">
 				<p style="margin-top: 5.5%"><strong>Every purchase protected by our 365-Day Full Money Back Guarantee!</strong> You can feel completely confident that your Food4Patriots survival food will meet or exceed your expectations. Go ahead and try our products. If for any reason – or no reason at all – you are not completely satisfied, simply return your survival food within 365 days for a full refund. You literally can’t lose!</p>
@@ -634,7 +634,7 @@ if(!empty($customerDataObj->shippingCity)) {
 					</div>
 					<div id="faq1" class="panel-collapse collapse">
 						<div style="background-color: #f8f8f8" class="panel-body">
-							<div style="padding-left:20px;" class="row"><p>Our food is made in an FDA approved and inspected facility right here in the United States. We source US-grown ingredients and the entire food production process happens right here in the good ole US of A!</p></div>
+							<div style="padding-left:20px;" class="row"><p>Our food is made in an FDA approved and inspected facility right here in the United States. We source US-grown ingredients whenever possible and the entire food production process happens right here in the good ole US of A!</p></div>
 						</div>
 					</div>
 				</div>
@@ -741,6 +741,20 @@ if(!empty($customerDataObj->shippingCity)) {
    /* custom configuration goes here (www.olark.com/documentation) */
    olark.identify('2445-700-10-6057');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2445-700-10-6057/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 end olark code -->
+<script>
+	function wistiaPlay() {
+		window._wq = window._wq || [];
+		_wq.push({ "f1958k8cul": function(video) {
+			video.play();
+		}});
+	}
+	function wistiaPause() {
+		window._wq = window._wq || [];
+		_wq.push({ "f1958k8cul": function(video) {
+			video.pause();
+		}});
+	}
+</script>
 <script>
 	window.onbeforeunload = grayOut;
 	function grayOut(){
