@@ -134,7 +134,7 @@ class Product {
 				$productObj->netRevenueEach = 0;
 				$productObj->taxable = TRUE;
 				$productObj->listId = 35;
-				$productObj->tags = "LL, 72HKIT";
+				$productObj->tags = "LL, 72HKIT10DOLLAR";
 				$productObj->googleProductName = "F4P-72HRK";
 				$productObj->googleProductSku = "PID17";
 				$productObj->googleProductCategory = "FREE-PLUS-SHIPPING";
