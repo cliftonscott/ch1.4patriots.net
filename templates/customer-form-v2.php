@@ -199,7 +199,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 				</div>
 
 				<!--Shipping Address-->
-				<div id="shipaddd">
 					<script>
 						$(function () {
 							$('.ba').on('change', function () {
@@ -208,9 +207,10 @@ if($_SESSION["soldout"]["flag"] === true) {
 							});
 						});
 					</script>
+				<div id="shipaddd">
 					<div class='form-row'>
 						<div class="form-group col-xs-12">
-							<input style="cursor: pointer;margin-bottom: 10px;" type="checkbox" class="ba" value=""> <em style="font-style: normal;color: #0c83e7">My Shipping Address Is Different Than Billing</em><br>
+							<input id="sameas" name="sameas" value="1" style="cursor: pointer;margin-bottom: 10px;" type="checkbox" class="ba"> <em style="font-style: normal;color: #0c83e7">My Shipping Address Is Different Than Billing</em><br>
 							<label for="shipping-address">Shipping Address:</label>
 							<input disabled type="text" class="form-control tex" id="shipping-address" name="shipping-address">
 						</div>
@@ -474,7 +474,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 		$('#sameas').change(function(){
 			changeCountry('shipping');
 			if (this.checked) {
-				$('#shipaddd').show('fast');
+				$('#shipaddd').show('always');
 				billingAddress = $("#billing-address").val();
 				//$('#shipping-address').val(billingAddress);
 
@@ -493,7 +493,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 				$('#shipping-country').trigger('change');
 
 			}else{
-				$('#shipaddd').hide('fast');
+				$('#shipaddd').show('always');
 				setStateTax();
 			}
 		});
