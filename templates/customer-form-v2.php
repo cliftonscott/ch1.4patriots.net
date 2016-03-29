@@ -207,10 +207,17 @@ if($_SESSION["soldout"]["flag"] === true) {
 							});
 						});
 					</script>
+				<div class='form-row'>
+					<div class="form-group col-xs-12">
+						<label for="sameas" class="sameas-select sameas-sm">
+							<input type="checkbox" id="sameas" name="sameas" value="1" class="ba" style="cursor: pointer;margin-top:15px">
+							<em style="font-style:normal;color: #0c83e7">My Shipping Address Is Different Than Billing</em>
+						</label>
+					</div>
+				</div>
 				<div id="shipaddd">
 					<div class='form-row'>
 						<div class="form-group col-xs-12">
-							<input id="sameas" name="sameas" value="1" style="cursor: pointer;margin-bottom: 10px;" type="checkbox" class="ba"> <em style="font-style: normal;color: #0c83e7">My Shipping Address Is Different Than Billing</em><br>
 							<label for="shipping-address">Shipping Address:</label>
 							<input disabled type="text" class="form-control tex" id="shipping-address" name="shipping-address">
 						</div>
