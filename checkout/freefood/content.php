@@ -177,12 +177,12 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 						<div class="col-lg-12 margin-b-10">
 							<p>This isn&rsquo;t ordinary food... it&rsquo;s delicious, nutritious, &ldquo;super survival food&rdquo; that could save your life in a disaster!</p>
 							<p>&nbsp;All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) : ?> for just $27 (plus the cost of postage + handling)<?php else: ?> <strong> FREE</strong> (just cover postage + handling)<?php endif ?> while supplies last!&nbsp;</p>
-							<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and Granny's Homestyle Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
+							<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Traveler's Stew, and Granny's Home style Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
 							<ul>
 								<li>&ldquo;Disaster-Proof packing&rdquo;&hellip; a military-grade Mylar pouch keeps out air, moisture and light to keep your food nutritionally sound and tasting great for up to 25 years</li>
 								<li>Instantly protects you and your family from going hungry in a disaster&hellip; store in your home, car, office or give to a friend or family member</li>
 								<li>Simple to prepare -- just add boiling water, simmer, and serve in about 15 min</li>
-								<li>Rushed right to your door via USPS First Class Mail</li>
+								<li>Rushed right to your door via Priority Mail.</li>
 							</ul>
 							<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) :?>
 								<p>For just $27.00 plus shipping,while supplies last (limit one per household), you can get 72-hours worth of food preparedness!</p>
@@ -201,12 +201,18 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 			</div>
 		</div>
 
-		<div class="guaranteeBox">
-			<p><img src="/assets/images/checkout/satisfaction-seal-02.png" alt="Frank" width="150" height="180" class="img-responsive pull-left"><strong><span class="brightBlue">Guarantee #1:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I’ll refund 100% of your purchase.</p>
-			<p>&nbsp;</p>
-			<p><strong><span class="brightBlue">Guarantee #2:&nbsp;</span></strong>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+		<div class="guaranteeBox" style="max-width:700px;">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="/assets/images/checkout/satisfaction-seal-01.png" alt="Frank" class="img-responsive pull-left" style="margin-top:10px;">
+				</div>
+				<div class="col-md-9">
+					<p><strong><span class="brightBlue">365-Day 100% Money-Back Guarantee:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Patriot Power Generator, just return it within 365 days of purchase and I’ll refund 100% of your purchase. There is absolutely no risk for you.</p>
+				</div>
+			</div>
 			<div class="clearfix"></div>
 		</div>
+
 		<div class="row" style="padding: 20px 0;">
 			<div class="col-sm-12 col-md-6">
 				<div class="mock-outer ">
