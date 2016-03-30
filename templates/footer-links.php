@@ -5,6 +5,9 @@ $targetNewArray = array (
 	"/letter/index.php",
 	"/letter/food/index.php",
 	"/checkout/thankyou.php",
+	"/checkout/freefood/alt/f4p-free-food-offer.php",
+	"/checkout/freefood/index.php",
+	"/checkout/freefood/thankyou.php",
 
 	);
 if(in_array($_SERVER["PHP_SELF"], $targetNewArray)) {

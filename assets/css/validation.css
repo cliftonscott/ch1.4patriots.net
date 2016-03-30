@@ -2,36 +2,54 @@
 
 .LV_valid {
 	color:#00CC00;
-	margin: -38px 10px 0 0;
+	margin: -24px -1px 0 0;
 	height: 22px;
 	width: 22px;
-	background: url("/assets/images/checkout/valid.png") no-repeat left top;
+	background: url("/assets/images/checkout/accept.png") no-repeat left top;
 	float: right;
 }
 
-.right-form .LV_valid{
-	margin: -38px 35px 0 0;
+.select-contain .LV_valid {
+  margin: -24px -1px 0 0;
 }
 
-
 .card-cvv2-contain .LV_valid{
-	margin: 5px -26px 0 0;
+	margin: -24px 136px 0 0;
+}
+
+.zip-contain .LV_valid{
+	margin: -24px 98px 0 0;
 }
 
 .LV_invalid {
 	color:#CC0000;
-	margin: 0 0 0 25px;
+    margin: -24px -1px 0 0;
+	height: 22px;
+	width: 22px;
+	background: url("/assets/images/checkout/cancel.png") no-repeat left top;
+	float: right;
 }
 
-.right-form .LV_invalid {
-	color:#CC0000;
-	margin: 0 0 0 0px;
+.select-contain .LV_invalid {
+	margin: -24px -1px 0 0;
 }
+
 .card-cvv2-contain .LV_invalid {
-	color:#CC0000;
-	position: absolute;
-	right: 48px;
-	top: 36px;
+	margin: -24px 136px 0 0;
+}
+
+.zip-contain .LV_invalid{
+	margin: -24px 98px 0 0;
+}
+
+.credit-card-contain .LV_invalid {
+	margin: 0 0 0 137px;
+	background: none;
+	float: none;
+}
+
+.no-icons .LV_valid, .no-icons .LV_invalid{
+	background: none!important;
 }
 
 .LV_validation_message{
@@ -119,4 +137,28 @@ p.matchFieldWithErrorReporting {
 #errorExplanation ul li {
   font-size: 12px;
   list-style: disc;
+}
+
+
+@media (max-width: 479px) {
+	.LV_valid, .LV_invalid, .select-contain .LV_valid, .select-contain .LV_invalid {
+		margin: -24px 10px 0 0;
+	}
+
+
+	.card-cvv2-contain .LV_valid, .card-cvv2-contain .LV_invalid{
+		margin: -24px 218px 0 0;
+	}
+
+	.zip-contain .LV_valid, .zip-contain .LV_invalid{
+		margin: -24px 177px 0 0;
+	}
+
+	.credit-card-contain .LV_invalid {
+		margin: 0 0 0 10px;
+	}
+}
+
+@media (max-width: 760px) {
+
 }

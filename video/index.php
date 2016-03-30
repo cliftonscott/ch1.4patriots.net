@@ -2,7 +2,7 @@
 
 // Define the current page name.
 $page = "video";
-// END TEST //
+
 
 $isSecure = false;
 if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') {
@@ -106,14 +106,7 @@ $platform->setCsrModalButtons("sample,video,letter");
 
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-	// SPLIT JV-61 DESKTOP 2/23/16
-	if (JV::in("61-vsl4")) {
-		include_once('content-jv-61-vsl4.php'); /*JV-56 SPLIT*/
-	}elseif(JV::in("61-vsl4-1")) {
-		include_once('content-jv-61-vsl4-1mix.php'); /*CONTROL*/
-	}else{
-		include_once('content.php'); /*CONTROL*/
-	};
+	include_once('content-v4.php'); /*CONTROL 4.0*/
 ?>
 <!--INCLUDE CONTENT-->
 <script>

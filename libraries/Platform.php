@@ -36,10 +36,18 @@ class Platform {
 		include_once("Analytics.php");
 		$analytics = new Analytics();
 		$queryString = $analytics->queryString;
-		self::$defaultOrderUrl = self::$defaultOrderUrl . $queryString;
-		self::$defaultVslUrl = self::$defaultVslUrl . $queryString;
-		self::$defaultLetterUrl = self::$defaultLetterUrl . $queryString;
-		self::$defaultTrialUrl = self::$defaultTrialUrl . $queryString;
+		if(!empty($_SESSION["Funnel"]["activeFunnel"])) {
+			$activeFunnel = $_SESSION["Funnel"]["activeFunnel"];
+			self::$defaultOrderUrl = "/checkout/" . $activeFunnel . "/" . $queryString;
+			self::$defaultVslUrl = "/video/" . $activeFunnel . "/" . $queryString;
+			self::$defaultLetterUrl = "/letter/" . $activeFunnel . "/" . $queryString;
+			self::$defaultTrialUrl = "/checkout/" . $activeFunnel . "/" . $queryString;
+		} else {
+			self::$defaultOrderUrl = self::$defaultOrderUrl . $queryString;
+			self::$defaultVslUrl = self::$defaultVslUrl . $queryString;
+			self::$defaultLetterUrl = self::$defaultLetterUrl . $queryString;
+			self::$defaultTrialUrl = self::$defaultTrialUrl . $queryString;
+		}
 
 		$documentRoot = $_SERVER["DOCUMENT_ROOT"];
 		self::$documentRoot = $documentRoot;
@@ -95,7 +103,7 @@ class Platform {
 				$button = "<p><a class=\"btn btn-primary\" href=\"javascript: olark('api.box.expand'); hideCsrModal();\">Chat With Us</a></p>";
 				break;
 			case "video":
-				$button = "<p><a class=\"btn btn-success\" href=\"" . self::$defaultVslUrl . "\">Return To Video</a></p>";
+				$button = "<p><a class=\"btn btn-success\" href=\"javascript: hideCsrModal();\">Return To Video</a></p>";
 				break;
 			case "letter":
 				$button = "<p><a class=\"btn btn-success\" href=\"" . self::$defaultLetterUrl . "\">Read A Description</a></p>";
@@ -104,7 +112,7 @@ class Platform {
 				$button = "<p><a class=\"btn btn-primary\" href=\"" . self::$defaultTrialUrl . "\">Try A Free Sample</a></p>";
 				break;
 			case "order":
-				$button = "<p><a class=\"btn btn-success\" href=\"" . self::$defaultOrderUrl . "\">Return To Order Form</a></p>";
+				$button = "<p><a class=\"btn btn-success\" href=\"javascript: hideCsrModal();\">Return To Order Form</a></p>";
 				break;
 		}
 
