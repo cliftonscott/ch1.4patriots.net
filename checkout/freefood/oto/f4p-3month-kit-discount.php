@@ -47,7 +47,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center center-block">Get $100.00 Off Food4Patriots<br class="hidden-xs"> 3-Month Supply Plus FREE Shipping<br class="hidden-xs"> With This One-Time Offer!</h1>
+				<h1 class="darkRed text-center center-block">Get $100.00 Off Food4Patriots<br class="hidden-xs"> 3-Month Kit Plus FREE Shipping<br class="hidden-xs"> With This One-Time Offer!</h1>
 			</div>
 			<div id="videobox" class="hidden-xs">
 				<script type="text/javascript" src="https://reboot.evsuite.com/player/M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ=/?container=evp-DCCKOWHMRF"></script><div id="evp-DCCKOWHMRF" data-role="evp-video" data-evp-id="M21vdXBzZWxsMjI2MTVfY29tcHJlc3NlZC5tcDQ="></div>
@@ -70,13 +70,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				?>
 			</div>
 			<div>
-				<p>You just got your own 4-week supply of food from Food4Patriots, and I'm super excited that you did.</p>
+				<p>You just got your own 4-week kit of food from Food4Patriots, and I'm super excited that you did.</p>
 				<p>You've joined the ranks of people who aren't leaving their safety and their family's safety up to chance.</p>
 				<p>And with the kind of shape our country is already in I don't blame you at all.</p>
 				<p>I did notice one thing that I want to bring up just to make sure you're doing all you can.</p>
-				<p>A lot of people have told me that getting their 4-week supply was a great first step, but they really wanted more. That 4 weeks was just their "starting point" and I get where they're coming from.</p>
-				<p>4 weeks is really a *minimum* recommendation...</p>
-				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month supply for $100.00 off, plus get FREE Shipping and six FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
+				<p>A lot of people have told me that getting their 4-week kit was a great first step, but they really wanted more. That 4 weeks was just their "starting point" and I get where they're coming from.</p>
+				<p>4 weeks is really a <strong>*minimum*</strong> recommendation...</p>
+				<p>I still really want you to help you get your food stockpile, protect your family and be more secure in these uncertain times. So as a <strong>special one-time offer that is only valid while you are on this page, you can get Food4Patriots 3-month kit for $100.00 off, plus get FREE Shipping and six FREE Bonus Gifts</strong>, just for being a loyal customer.</p>
 				<h2 class="darkRed text-center">Here Are 4 Reasons Why You Need To Get A<br class="hidden-xs"> 3-month Food4Patriots Supply Right Now...</h2>
 				<p><strong><span class="numberCircle">1</span> You Need More Food To Protect You and Your Family </strong></p>
 				<p>You need more food to feed your family if a natural disaster like Katrina or Sandy hits... if a terrorist attack prevents trucks from hauling food… or if a panicked mob loots the grocery stores... By stocking up on non-perishable food now, not only you will have your own &ldquo;food insurance policy&rdquo; no matter what happens, you&rsquo;ll have enough to share with friends and loved ones so they can experience the same peace of mind.</p>
@@ -119,7 +119,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3-Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-Month Kit Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
@@ -157,7 +157,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}
 			?>
 			<div class="margin-t-20">
-				<p>And don’t forget... when you order our Food4Patriots 3-month food supply, I’ll throw in six incredible bonuses absolutely FREE!</p>
+				<p>And don’t forget... when you order our Food4Patriots 3-month food kit, I’ll throw in six incredible bonuses absolutely <strong>FREE</strong>!</p>
 				<p>First, I’ll automatically upgrade all four of your digital bonus reports included in your original order (10 Items Sold Out After Crisis, Water Survival Guide, How to Cut Your Grocery Bills, and the Survival Garden Guide) to full blown hard copies and ship directly to your door so you always have them ready when needed.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Hard Copy Upgrades <br>To These Professionally Bound  Reports</h2>
@@ -205,16 +205,16 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<p>Each one of these amazing tools could be a real life-saver, yet they are no bigger than a credit card so you’ll always have it handy.</p>
 					<div><img class="img-responsive center-block" src="/media/images/bonuses/bonus-multi-tool-04.jpg" alt="Multi Tool Bonus"></div>
 				</div>
-				<p>So that's a full $100 bucks right off the top of our 3-month supply of Food4Patriots survival food, free shipping AND six awesome bonuses.</p>
+				<p>So that's a full $100 bucks right off the top of our 3-month kit of Food4Patriots survival food, free shipping AND six awesome bonuses.</p>
 				<p>All for you today. I think that's about the best deal I can make you.</p>
-				<p>Just click the link the button below and I’ll send you your goodies right away.</p>
+				<p>Just click the big orange "<strong>Click to Accept</strong>" button below and I’ll send you your goodies right away.</p>
 			</div>
 			<div><img class="img-responsive center-block"src="/media/images/f4p/f4p-3-month-kit-08.jpg" alt="3 Month Kit"/></div>
 			<div class="row">
 				<div class="col-sm-12 col-md-1"></div>
 				<div class="col-sm-12 col-md-5">
 					<div class="productList">
-						<p class="red17"><strong>3-Month Supply Includes:</strong></p>
+						<p class="red17"><strong>3-Month Kit Includes:</strong></p>
 						<ul>
 							<li>450 Servings <a href="#info" id="3mkPopover2" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							<li><strong>FREE</strong> Shipping</li>
