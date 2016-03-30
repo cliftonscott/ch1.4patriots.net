@@ -177,7 +177,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 						<div class="col-lg-12 margin-b-10">
 							<p>This isn&rsquo;t ordinary food... it&rsquo;s delicious, nutritious, &ldquo;super survival food&rdquo; that could save your life in a disaster!</p>
 							<p>&nbsp;All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) : ?> for just $27 (plus the cost of postage + handling)<?php else: ?> <strong> FREE</strong> (just cover postage + handling)<?php endif ?> while supplies last!&nbsp;</p>
-							<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Traveler's Stew, and Granny's Home style Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
+							<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Traveler's Stew, and Granny's Home Style Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
 							<ul>
 								<li>&ldquo;Disaster-Proof packing&rdquo;&hellip; a military-grade Mylar pouch keeps out air, moisture and light to keep your food nutritionally sound and tasting great for up to 25 years</li>
 								<li>Instantly protects you and your family from going hungry in a disaster&hellip; store in your home, car, office or give to a friend or family member</li>
