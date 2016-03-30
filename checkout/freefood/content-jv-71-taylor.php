@@ -241,6 +241,16 @@ if(!empty($customerDataObj->shippingCity)) {
 		a.scroll-link{
 			text-decoration: none; /*for Chrome*/
 		}
+		.top-head-logo{
+			float: left;
+			padding-bottom: 5px;
+		}
+		.top-head-phone{
+			padding-right: 0;
+			margin-right: 0;
+			float: right;
+			font-size: 18px;
+		}
 		.securtiy-seals{
 			padding: 10px 10px 10px 10px;
 		}
@@ -390,17 +400,15 @@ if(!empty($customerDataObj->shippingCity)) {
 	<img src="/assets/images/misc/progressbar.gif" width="220" height="19" class="displayed" alt="" />
 </div>
 <div style="margin-top: -90px" id="wrapper">
-	<div class="grad-white-brown">
-		<div class="row section-inner">
-			<div class="phone-number navbar-phone-contain">
-				<div style="color: #000" id="phone-txt"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
-				<div style="color: #000;" id="phone-button" class="phone-btn">
-					<img src="/assets/images/logo-small.png" width="150" alt="food4patriots" class="img-responsive center-block" style="position: absolute;">
-					<div class="btn disabled"> <span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
-				</div>
+	<section style="margin-top: -10px" class="grad-white-brown">
+		<div class="section-inner">
+			<div class="row pad-15-t">
+				<div class="top-head-logo"><img src="/assets/images/logo-small.png" width="150" alt="food4patriots" class="img-responsive center-block"></div>
+				<div class="top-head-phone btn disabled hidden-xs"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
 			</div>
 		</div>
-	</div>
+	</section>
+
 	<section style="margin-bottom: -30px; padding-bottom: 0;">
 		<div class="section-inner">
 			<div class="row pad-15-t">
@@ -425,7 +433,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<div class="block text-center btn-width" onclick="$('#firstName').focus();"><a href="#" class="green button big btn-width scroll-link" data-id="order-form">YES… Send My FREE Survival Food Kit</a></div>
 					</div>
 
-					<h2 style="text-align: center" class="color-black dark pad-10-t">The Rush is on as Thousands Claim FREE Food4Patriots <br class="hidden-xs">72-Hour Survival Food Kits!
+					<h2 style="text-align: center" class="color-black dark pad-10-t">The Rush is on as Thousands Claim FREE <br class="hidden-xs"> Food4Patriots 72-Hour Survival Food Kits!
 					</h2>
 					<div class="pad-30-b medium-size700">
 						<img style="width: 100%" class="img-responsive center-block pad-20-t" src="/media/images/f4p/f4p-72-hour-kit-05.jpg" alt="Alexapure Pro"/>
@@ -435,7 +443,7 @@ if(!empty($customerDataObj->shippingCity)) {
 						<div class="col-xs-6 col-sm-4 whole-thing2"><img class="pad-10-b" style="width:55px" src="/assets/images/misc/easy-to-prepare.svg"><h4 class="pad-10-b">Easy to Prepare</h4><p>Just add boiling water and stir. Wait a few minutes and enjoy<br class="hidden-xs"> a great meal.</p></div>
 						<!-- Optional: clear the XS cols if their content doesn't match in height -->
 						<div class="clearfix visible-xs-block"></div>
-						<div class="col-xs-6 col-sm-4 whole-thing2"><img class="pad-10-b" style="width:55px" src="/assets/images/misc/guaranteed-delicious.svg"><h4 class="pad-10-b">Guaranteed Delicious</h4><p>Love our foods or return ‘em within 365 days for your Full<br class="hidden-xs"> Money Back.</p></div>
+						<div class="col-xs-6 col-sm-4 whole-thing2"><img class="pad-10-b" style="width:55px" src="/assets/images/misc/guaranteed-delicious.svg"><h4 class="pad-10-b">Guaranteed Delicious</h4><p>Love our food or return it within 365 days for your Full<br class="hidden-xs"> Money Back.</p></div>
 					</div>
 				</div>
 			</div>
@@ -453,7 +461,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section class="section-2">
 		<div class="section-inner">
 			<div class="pad-30-t-b">
-				<p>This is delicious, nutritious, &ldquo;super survival food&rdquo; and it could save your life in a disaster!</p>
+				<p>This is delicious, nutritious, &ldquo;<strong>super survival food</strong>&rdquo; and it could save your life in a disaster!</p>
 				<p>No one knows where the next crisis will hit&hellip; or when.</p>
 				<p>But when it does hit, finding food could be near-impossible as food stores are quickly sold out or have their shelves stripped bare by hungry mobs.</p>
 				<p>You don&rsquo;t want your family standing in line with thousands of desperate strangers like those poor folks had to in Hurricane Katrina &ndash; or be forced to dig through dumpsters like New Yorkers did during Superstorm Sandy.</p>
@@ -464,7 +472,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section class="section-3">
 		<div class="section-inner">
 			<div class=" pad-30">
-				<h2 style="text-align: center" class="color-red dark">Act Now. Claim Your FREE 72-Hour Survival Food <br class="hidden-xs"> Kit While It Is Still Available</h2>
+				<h2 style="text-align: center" class="color-red dark">Act Now. Claim Your FREE 72-Hour Survival Food <br class="hidden-xs"> Kit While it is Still Available</h2>
 			</div>
 		</div>
 	</section>
@@ -472,11 +480,11 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section class="section-2">
 		<div class="section-inner">
 			<p class="pad-30-t">Giving away survival food for free has never been done before. And the response has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment.</p>
-			<p>The regular price of our 72-hour survival food kit is $27.00 plus shipping and handling. But right now it’s yours FREE. All we ask is you help cover the low shipping cost.</p>
+			<p>The regular price of our 72-hour survival food kit is $27.00 plus shipping and handling. But right now it’s yours <strong>FREE</strong>. All we ask is you help cover the low shipping cost.</p>
 
-			<h2 style="text-align: center" class="color-red dark">Here’s What Our Satisfied Customers Have To Say:</h2>
+			<h2 style="text-align: center" class="color-red dark">Here’s What Our Satisfied Customers Have to Say:</h2>
 			<p></p>
-			<p>Over the years, we’ve received countless messages from customers, telling us how much the enjoy Food4Patriots survival foods:</p>
+			<p>Over the years, we’ve received countless messages from customers, telling us how much they enjoy Food4Patriots survival foods:</p>
 			<p></p>
 			<div class="medium-size700 pad-10-b">
 				<div class="mock-outer ">
@@ -546,7 +554,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<section class="section-3">
 		<div class="section-inner">
 			<div class=" pad-30">
-				<h2 style="text-align: center" class="color-red dark">You Can Enjoy Your FREE Survival Food Tonight... <br class="hidden-xs">Or 25 Years From Now</h2>
+				<h2 style="text-align: center" class="color-red dark">You Can Enjoy Your FREE Survival Food Tonight... <br class="hidden-xs">OR 25 Years From Now</h2>
 			</div>
 		</div>
 	</section>
@@ -563,7 +571,7 @@ if(!empty($customerDataObj->shippingCity)) {
 			<p>They’re made with award-winning recipes. Your family will enjoy meals much like those they’re eating now.</p>
 			<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#" onclick="wistiaPause()">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
 			<p>And just to make this a complete no-brainer for you...</p>
-			<h2 style="text-align: center" class="color-red dark pad-15-b">You Are 100% Protected By My Outrageous<br class="hidden-xs"> 365-Day Full Money Back Guarantee</h2>
+			<h2 style="text-align: center" class="color-red dark pad-15-b">You Are 100% Protected by My Outrageous<br class="hidden-xs"> 365-Day Full Money Back Guarantee</h2>
 			<div class="outLineBoxDarkBlue">
 				<p><img style="margin-top: 3%" src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media">
 				<p style="margin-top: 5.5%"><strong>Every purchase protected by our 365-Day Full Money Back Guarantee!</strong> You can feel completely confident that your Food4Patriots survival food will meet or exceed your expectations. Go ahead and try our products. If for any reason – or no reason at all – you are not completely satisfied, simply return your survival food within 365 days for a full refund. You literally can’t lose!</p>
