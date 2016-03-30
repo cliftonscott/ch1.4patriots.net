@@ -130,7 +130,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div>
 					<p>I want to do everything I can to help you build your food stockpile as quickly and easily as possible, so to thank you for becoming a customer today, I am offering you an&nbsp;<strong>exclusive $1000.00 discount on a 1-year Food4Patriots kit if you act now</strong>. But this special sale offer is ONLY for customers so if you&rsquo;re seeing this, then good news, you qualify!</p>
 					<p>Plus I'll throw in <strong>FREE shipping and 31 FREE bonus gifts (worth over $700.00)</strong> -- including 4 of the super-popular Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds - just to make this a "no-brainer" for you!</p>
-					<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots Kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one-year&rsquo;s worth of food for just $1.11 per serving!)</p>
+					<p><?php echo $view->customer->firstName;?>, would you like to accelerate your results by adding the 1-year Food4Patriots kit to your order at a one-time discount sale price of $1,997? (That&rsquo;s a $1,000.00 discount with all the free goodies&#8230; you&rsquo;ll get one-year&rsquo;s worth of food for just $1.11 per serving!)</p>
 					<p style="width: 500px;margin: 0 auto;background-color: yellow;" class="text-center">Please read the rest of the page below and accept or decline the offer at the bottom of the page.</p>
 				</div>
 			</div>
@@ -138,12 +138,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<?php include("f4p-1year-glenbeck.html");?>
 			<?php include("f4p-1year-whatsincluded.html");?>
 			<div class="container oto-width">
-				<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
-				<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181"class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots Kit when you upgrade today!</p>
+				<h2 class="darkRed text-center">Get FREE Shipping And Handling!</h2>
+				<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181"class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year Food4Patriots kit when you upgrade today!</p>
 				<p>Because we're already going to be sending you a 3-month kit, we can add the 1-year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending 2 separate shipments. Everybody loves FREE shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
 				<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" class="img-responsive center-block"/><div><strong>Add To Cart $1997</strong></div></a></div>
 				<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
-				<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-year Kit!</p>
+				<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-year kit!</p>
 			</div>
 			<?php include("f4p-1year-bonus-survivalspring.html");?>
 			<?php include("f4p-1year-bonus-survivalbooks.html");?>
@@ -170,7 +170,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-testimonials-16.jpg" alt="Peter's Testimonial"></div>
 
-				<h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1-Year Food4Patriots Kit For $1000.00 Off Right Now!</h2>
+				<h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1-Year Food4Patriots kit For $1000.00 Off Right Now!</h2>
 				<p>Now I understand that the 1-year Food4Patriots kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $2,900, but because you&rsquo;ve already taken the first step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year Food4Patriots kit today for just $1,997.</p>
 				<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 
@@ -227,7 +227,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 									<input type="checkbox" id="check1" name="check1">
 									<img src="/assets/images/misc/yes-01.jpg" width="74" height="34" alt="Yes">
 								</div>
-								<div id="terms">I want to add the 1-year Food4Patriots Kit to my order at the one-time discount sale price of $1,997. <strong>I will get FREE shipping and 31 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
+								<div id="terms">I want to add the 1-year Food4Patriots kit to my order at the one-time discount sale price of $1,997. <strong>I will get FREE shipping and 31 FREE Bonus Gifts, including four of the life-saving Survival Spring Personal Water Filters and over 22,000+ heirloom survival seeds!</strong>
 								</div>
 							</div>
 							<div style="margin-top:20px;">
@@ -246,7 +246,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					// SPLIT JV-49 DESKTOP ONLY 12/21/15
 					if (JV::in("49-modal")) { ?>
 						<div class="noThanks">
-							<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+							<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 						</div>
 
 						<script>
@@ -294,7 +294,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 											<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
 											<p>I accept that by declining this offer, I may never see the Food4Patriots 1­year kit at this price ever again.</p>
 											<div class="text-center" style="padding:20px;"><a href="/checkout/oto/f4p-1year-kit-payments.php">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
-											<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
+											<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year kit to My Order Right Now!</button>
 										</div>
 									</div>
 								</div>
@@ -302,7 +302,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						</div>
 					<?php }else{ ?>
 						<div class="noThanks">
-							<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+							<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
 						</div>
 					<?php } //END TEST?>
 					<div class="outLineBoxDarkBlue">
