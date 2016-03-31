@@ -302,7 +302,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 			</div>
 
 			<!--Step 2-->
-			<div class='hidden-xs' style='float:right;cursor:pointer;'><a href='#csr' onclick='showCsrModal();'><img src='http://chris01.4patriots.net/assets/images/misc/customer-service-rep-02.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>
+			<div class='hidden-xs' style='float:right;cursor:pointer;'><a href='#csr' onclick='showCsrModal();'><img src='/assets/images/checkout/customer-service-rep-02.png' alt='Have Questions? Give Us A Call' class='img-responsive'/></a></div>
 			<div style="background-color:#eeeeee;padding:0" class="col-xs-6 form-fw">
 				<div class='form-row'>
 					<div class="form-group col-xs-12">
@@ -407,7 +407,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 
 				<div class='form-row'>
 					<div style="margin:0 auto;padding-top:15px;padding-bottom:10px" class='col-md-12 form-group text-center'>
-						<img class="arrowR" src="http://chris01.4patriots.net/assets/images/buttons/arrow-right.gif"><button style="margin-bottom: 10px;" type="button-2" class="btn-2" id="submitButton"><b>Click To Continue</b></button><img class="arrowL" src="http://chris01.4patriots.net/assets/images/buttons/arrow-right.gif">
+						<img class="arrowR" src="/assets/images/checkout/arrow-right.gif"><button style="margin-bottom: 10px;" type="button-2" class="btn-2" id="submitButton"><b>Click To Continue</b></button><img class="arrowL" src="/assets/images/checkout/arrow-right.gif">
 					</div>
 				</div>
 				<div class='form-row'>
