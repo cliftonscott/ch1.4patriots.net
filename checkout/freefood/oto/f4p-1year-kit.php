@@ -61,7 +61,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		$(document).ready(function(){
 			var hours = 0;
 			var minutes = 10;
-			var seconds = 45;
+			var seconds = 56;
 			// Start by converting hours to milliseconds
 			var time = hours * 60 * 60 * 1000;
 
