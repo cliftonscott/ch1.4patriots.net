@@ -597,7 +597,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<img src="/media/images/misc/img-testimonial-matt.jpg">
 									<div class="fb-group-text">
 										<h5 class="fbh5"><b>Matt <em>Grout</em></b></h5>
-										<span class="fb-group-date">May 3 at 1:19pm &#183; <i class="fa fa-user"></i></span>
+										<span class="fb-group-date">March 3 at 1:19pm &#183; <i class="fa fa-user"></i></span>
 									</div>
 								</div>
 								<div class="usertext">
@@ -612,7 +612,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<img src="/media/images/misc/img-testimonial-luther.jpg">
 									<div class="fb-group-text">
 										<h5 class="fbh5"><b>Luther <em>Cauthen</em></b></h5>
-										<span class="fb-group-date">November 20 at 10:05am &#183; <i class="fa fa-user"></i></span>
+										<span class="fb-group-date">February 20 at 10:05am &#183; <i class="fa fa-user"></i></span>
 									</div>
 								</div>
 								<div class="usertext">
