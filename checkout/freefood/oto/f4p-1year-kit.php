@@ -8,7 +8,6 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 } else {
 	$firstName = "Fellow Patriot";
 }
-
 // SET PRODUCT ID
 $_SESSION['productId'] = 40; //please keep as an integer
 $_SESSION['quantity'] = 1;
@@ -185,7 +184,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div>
 					<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 					<div>
-						<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-08.jpg"  alt="Food4Patriots 1-Year Kit"/>
+						<img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-totes-bonuses-badges-700x561.jpg"  alt="Food4Patriots 1-Year Kit"/>
 					</div>
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-02.jpg" alt="Value Chart"/></div>
 					<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
