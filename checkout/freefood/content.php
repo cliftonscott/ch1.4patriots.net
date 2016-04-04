@@ -181,8 +181,8 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 							<ul>
 								<li>&ldquo;Disaster-Proof packaging&rdquo;&hellip; a military-grade Mylar pouch keeps out air, moisture and light to keep your food nutritionally sound and tasting great for up to 25 years</li>
 								<li>Instantly protects you and your family from going hungry in a disaster&hellip; store in your home, car, office or give to a friend or family member</li>
-								<li>Simple to prepare - just add boiling water, simmer, and serve in 15 min</li>
-								<li>Rushed right to your door via First Class USPS mai.</li>
+								<li>Simple to prepare - just add boiling water, simmer, and serve in 15 mins</li>
+								<li>Rushed right to your door via First Class USPS mail.</li>
 							</ul>
 							<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) :?>
 								<p>For just $27.00 plus shipping,while supplies last (limit one per household), you can get 72-hours worth of food preparedness!</p>
@@ -221,7 +221,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 							<img src="/media/images/misc/img-testimonial-diana.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Colleen <em>Carter</em></b></h5>
-								<span class="fb-group-date">August 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
+								<span class="fb-group-date">January 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
 							</div>
 						</div>
 						<div class="usertext">
@@ -238,7 +238,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 							<img src="/media/images/misc/img-testimonial-rolf.jpg"">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Herron <em>Dedrick</em></b></h5>
-								<span class="fb-group-date">May 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
+								<span class="fb-group-date">January 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
 							</div>
 						</div>
 						<div class="usertext">
