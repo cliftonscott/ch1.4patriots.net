@@ -435,7 +435,7 @@ if(!empty($customerDataObj->shippingCity)) {
 							<h2 style="text-align: center" class="color-black dark pad-10-t">The Rush is on as Thousands Claim FREE <br class="hidden-xs"> Food4Patriots 72-Hour Survival Food Kits!
 							</h2>
 							<div class="pad-30-b medium-size700">
-								<img style="width: 100%" class="img-responsive center-block pad-20-t" src="/media/images/f4p/f4p-72-hour-kit-05.jpg" alt="Alexapure Pro"/>
+								<img style="width: 100%" class="img-responsive center-block pad-20-t" src="/media/images/f4p/f4p-72-hour-kit-06-700x523.png" alt="Alexapure Pro"/>
 							</div>
 							<div class="row text-center">
 								<div class="col-xs-6 col-sm-4 whole-thing2"><img class="pad-10-b" style="width:55px" src="/assets/images/misc/25-year-shelf-life.svg"><h4 class="pad-10-b">25-Year Shelf Life</h4><p>Space-age resealable Mylar packaging keeps our food fresh for 25 years or more.</p></div>
@@ -492,7 +492,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<img src="/media/images/misc/img-testimonial-diana.jpg">
 									<div class="fb-group-text">
 										<h5 class="fbh5"><b>Colleen <em>Carter</em></b></h5>
-										<span class="fb-group-date">August 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
+										<span class="fb-group-date">January 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
 									</div>
 								</div>
 								<div class="usertext">
@@ -507,7 +507,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<img src="/media/images/misc/img-testimonial-lynn.jpg">
 									<div class="fb-group-text">
 										<h5 class="fbh5"><b>Linda <em>Peters</em></b></h5>
-										<span class="fb-group-date">July 21 at 3:47pm &#183; <i class="fa fa-user"></i></span>
+										<span class="fb-group-date">March 21 at 3:47pm &#183; <i class="fa fa-user"></i></span>
 									</div>
 								</div>
 								<div class="usertext">
@@ -522,7 +522,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<img src="/media/images/misc/img-testimonial-rolf.jpg">
 									<div class="fb-group-text">
 										<h5 class="fbh5"><b>Herron <em>Dedrick</em></b></h5>
-										<span class="fb-group-date">May 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
+										<span class="fb-group-date">January 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
 									</div>
 								</div>
 								<div class="usertext">
@@ -537,7 +537,7 @@ if(!empty($customerDataObj->shippingCity)) {
 									<img src="/media/images/misc/img-testimonial-jeff.jpg">
 									<div class="fb-group-text">
 										<h5 class="fbh5"><b>Andy <em>Kinard</em></b></h5>
-										<span class="fb-group-date">July 1 at 11:33am &#183; <i class="fa fa-user"></i></span>
+										<span class="fb-group-date">February 1 at 11:33am &#183; <i class="fa fa-user"></i></span>
 									</div>
 								</div>
 								<div class="usertext">
