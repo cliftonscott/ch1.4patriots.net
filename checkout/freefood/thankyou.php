@@ -14,7 +14,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 	<script src="/js/audio.js"></script>
 	<div class="container-main">
-		<div class="breadcrumb2">
+		<div class="breadcrumb1">
 			<a>CHECKOUT</a>
 			<a class="breadcrumb-center">ORDER CUSTOMIZATION</a>
 			<a class="current">ORDER CONFIRMATION</a>

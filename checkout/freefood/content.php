@@ -179,10 +179,10 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 							<p>&nbsp;All Food4Patriots survival food is made in the USA from the finest ingredients and is rated for 25 years of storage. And it&rsquo;s yours<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) : ?> for just $27 (plus the cost of postage + handling)<?php else: ?> <strong> FREE</strong> (just cover postage + handling)<?php endif ?> while supplies last!&nbsp;</p>
 							<p>Get 16 servings of family-favorite dishes: Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Traveler's Stew, and Granny's Home Style Potato Soup. Here&rsquo;s exactly what you&rsquo;ll get:</p>
 							<ul>
-								<li>&ldquo;Disaster-Proof packing&rdquo;&hellip; a military-grade Mylar pouch keeps out air, moisture and light to keep your food nutritionally sound and tasting great for up to 25 years</li>
+								<li>&ldquo;Disaster-Proof packaging&rdquo;&hellip; a military-grade Mylar pouch keeps out air, moisture and light to keep your food nutritionally sound and tasting great for up to 25 years</li>
 								<li>Instantly protects you and your family from going hungry in a disaster&hellip; store in your home, car, office or give to a friend or family member</li>
-								<li>Simple to prepare -- just add boiling water, simmer, and serve in about 15 min</li>
-								<li>Rushed right to your door via Priority Mail.</li>
+								<li>Simple to prepare - just add boiling water, simmer, and serve in 15 mins</li>
+								<li>Rushed right to your door via First Class USPS mail.</li>
 							</ul>
 							<?php if(isset($_GET["fullprice"]) || $_SESSION["fullprice"]) :?>
 								<p>For just $27.00 plus shipping,while supplies last (limit one per household), you can get 72-hours worth of food preparedness!</p>
@@ -207,7 +207,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 					<img src="/assets/images/checkout/satisfaction-seal-01.png" alt="Frank" class="img-responsive pull-left" style="margin-top:10px;">
 				</div>
 				<div class="col-md-9">
-					<p><strong><span class="brightBlue">365-Day 100% Money-Back Guarantee:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Patriot Power Generator, just return it within 365 days of purchase and I’ll refund 100% of your purchase. There is absolutely no risk for you.</p>
+					<p><strong><span class="brightBlue">365-Day 100% Money-Back Guarantee:</span></strong> This is a <strong>100% money back guarantee</strong>. No questions asked. If for any reason you’re not satisfied with your Food4Patriots kit, just return it within 365 days of purchase and I’ll refund 100% of your purchase. There is absolutely no risk for you.</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -221,7 +221,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 							<img src="/media/images/misc/img-testimonial-diana.jpg">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Colleen <em>Carter</em></b></h5>
-								<span class="fb-group-date">August 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
+								<span class="fb-group-date">January 11 at 9:15am &#183; <i class="fa fa-user"></i></span>
 							</div>
 						</div>
 						<div class="usertext">
@@ -238,7 +238,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 							<img src="/media/images/misc/img-testimonial-rolf.jpg"">
 							<div class="fb-group-text">
 								<h5 class="fbh5"><b>Herron <em>Dedrick</em></b></h5>
-								<span class="fb-group-date">May 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
+								<span class="fb-group-date">January 15 at 10:08am &#183; <i class="fa fa-user"></i></span>
 							</div>
 						</div>
 						<div class="usertext">

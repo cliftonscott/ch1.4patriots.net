@@ -40,7 +40,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 		<div class="container oto-width">
 			<div>
-				<h1 class="darkRed text-center"><?php echo $firstName;?>, <span class="titles">Add A 4-Week Food<br class="hidden-xs"> Kit Today And Save $50.00?</span></h1>
+				<h1 class="darkRed text-center"><?php echo $firstName;?>, <span class="titles">Add A<br class="hidden-xs"> 4-Week Food4Patriots<br class="hidden-xs"> Kit Today And Save $50.00?</span></h1>
 			</div>
 			<div style="padding-bottom:20px;"><img class="img-responsive center-block" src="/media/images/f4p/f4p-4-week-kit-07.jpg" alt="4 Week Food4Patriots Kit"/></div>
 			<div>
@@ -55,11 +55,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<?php
 				if($isUpgrade) {
 					?>
-					<p class="text-center"><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br>Add To Cart - $147</strong></a></p>
+					<p class="text-center"><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><u>Add To Cart - $147</u></a></strong></p>
 					<?php
 				} else {
 					?>
-					<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br>Add To Cart - $147</strong></a></p>
+					<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><a href="/checkout/process.php" title="Add to Order!"><u>Add To Cart - $147</u></a></strong></p>
 					<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
 					<?php
 				}
@@ -105,13 +105,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						?>
 						<a name="upgrade-form"></a>
 						<div class="text-center">
-							<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><u>Add To Cart - $147</u></strong></a>
+							<a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><a href="/order/<?php echo $productDataObj->productId;?>" title="Add to Order!"><u>Add To Cart - $147</u></a></strong>
 						</div>
 						<?php
 					} else {
 						?>
 						<div class="text-center">
-							<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><u>Add To Cart - $147</u></strong></a>
+							<a href="/checkout/process.php" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /></a><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><a href="/checkout/process.php" title="Add to Order!"><u>Add To Cart - $147</u></a></strong>
 						</div>
 
 						<?php
@@ -119,7 +119,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					?>
 					<div class="text-center" style="margin-top:20px;"><strong>OR</strong></div>
 					<div class="noThanks">
-						<a href="<?php echo $declineUrl;?>">No Thanks</a> – I want to give up this opportunity.<br class="hidden-xs"> I understand that I will not receive this<br class="hidden-xs"> special offer again.
+						<a href="<?php echo $declineUrl;?>">No Thanks</a> – I don’t need more than 1 week of survival food.
 					</div>
 				</div>
 			</div>
