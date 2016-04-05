@@ -26,6 +26,8 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 ?>
 <link rel="stylesheet" href="/assets/css/styles-freefood.css">
 <script src="/js/audio.js"></script>
+<script src="/assets/js/video/jquery.timers-1.2.js"></script>
+<script src="/assets/js/video/jcookie.js"></script>
 <script>
     // Change these values for the content within the "buttons" div to appear at this time.
     $(document).ready(function(){
@@ -35,7 +37,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
             var seconds = 5;
         } else {
             var hours = 0;
-            var minutes = 00;
+            var minutes = 33;
             var seconds = 23;
         }
         // Start by converting hours to milliseconds
@@ -89,11 +91,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
             </div>
             <div class="col-md-12">
-                <div id="reserve" style="display:none;">
-                    <div class="text-center center-block"><img src="/assets/images/misc/loading-01.gif" width="600" height="205" alt=""/> </div>
-                </div>
-
-                <div id="buyButton2" class="center-block text-center" style="display:none">
+                               <div id="buyButton2" class="center-block text-center" style="display:none">
                     <a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
                     <p style="color:#002287;">(This Takes You To The Kit Options)</p>
                 </div>
@@ -843,7 +841,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
     </div>
     <div class="col-md-12">
         <div id="reserve" style="display:none;">
-            <div class="text-center center-block"><img src="/assets/images/misc/loading-01.gif" width="600" height="205" alt=""/> </div>
+
         </div>
 
         <div id="buyButton2" class="center-block text-center" style="display:none">
