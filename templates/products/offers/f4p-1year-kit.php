@@ -137,25 +137,22 @@
 	</div>
 	<?php include("f4p-1year-glenbeck.html");?>
 	<?php include("f4p-1year-whatsincluded.html");?>
+	<div class="container oto-width">
+		<h2 class="darkRed text-center">Get FREE Shipping & Handling!</h2>
+		<p><img src="/media/images/misc/free-shipping-burst-02.jpg" alt="FREE Shipping" width="181" class="pull-left">You&rsquo;ll get FREE Shipping &amp; Handling on your 1-year kit when you upgrade today!</p>
+		<p>Because we’re already going to be sending you your Fruit, Veggie and Snack Mix, we can add the 1-year kit to the shipping box and save on fulfillment costs. Sure, the fact is that it DOES cost more in postage to ship you a much heavier box, but it&rsquo;s still a lot more efficient than sending two separate shipments. Everybody loves FREE Shipping and I want to pass along the savings to YOU to make it even easier to upgrade.</p>
+		<div class="text-center"><a href="#accept" onclick="$('#optin-form').validate().element('#check1');" class="1yrtop"><img src="/assets/images/buttons/btn-orange-click-accept-02.jpg"class="img-responsive center-block"/><div>Add To Cart $1997</div></a></div>
+
+		<h2 class="darkRed text-center">Check Out The Amazing FREE Bonuses<br>You Can ONLY Get With The 1-Year Kit!</h2>
+		<p>You&rsquo;re going to get the &ldquo;mother lode&rdquo; of special bonuses  ONLY available with the 1-year kit!</p>
+	</div>
 	<?php include("f4p-1year-bonus-survivalspring.html");?>
 	<?php include("f4p-1year-bonus-survivalbooks.html");?>
 	<?php include("f4p-1year-bonus-cards.html");?>
-	<div class="container oto-width">
-		<h2 class="darkRed text-center">You Will Also Get FOUR More Sets Of All Of Your Original FREE Bonuses When
-			You Take Advantage Of This Special Upgrade Offer!
-		</h2>
-
-		<p>Add to your own stockpile, keep at multiple locations or give to friends and loved ones so they can
-			experience the same peace of mind. Your FREE bonuses include:</p>
-	</div>
 	<?php include("f4p-1year-bonus-seeds.html");?>
 	<?php include("f4p-1year-bonus-tool.html");?>
 	<?php include("f4p-1year-bonus-reports.html");?>
-
-
 	<div class="container oto-width">
-
-
 		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
 		<div class="outLineBoxDarkBlue">
 			<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
