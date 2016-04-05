@@ -833,7 +833,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                             <p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
                             <p>I accept that by declining this offer, I may never see the Food4Patriots kits at these prices ever again.</p>
                             <div class="text-center" style="padding:20px;"><a href="<?php echo $declineUrl;?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
-                            <button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add A <br />Food4Patriots Kit to My Order Now!</button>
+                            <button id="modalAccept" class="button" onclick="acceptModal();" style="font-size: 19px">I Changed My Mind! Send Me Back to the Page so I Can Add A <br />Food4Patriots Kit to My Order Now!</button>
                         </div>
                     </div>
                 </div>
