@@ -4,7 +4,7 @@
 	<div>
 		<div class="row">
 			<div class="col-sm-12 col-md-2 text-center"><a target="_blank" href="/templates/products/bonusDownloads.php?v=10items"><img class="img-responsive center-block" src="/media/images/f4p/f4p-bonus-top-10-sold-out-86x99.png" alt="" /></a></div>
-			<div class="col-sm-12 col-md-4 margin-b-20 right-border"><a target="_blank" href="/templates/products/bonusDownloads.php?v=10items">Top 10 Items Sold Out After Crisis</a><br />
+			<div class="col-sm-12 col-md-4 margin-b-20 right-border"><a target="_blank" href="/templates/products/bonusDownloads.php?v=10items">Top 10 Items Sold Out <br class="hidden-xs">After Crisis</a><br />
 				This is manual shows you everything you need to stock to survive a disaster.</div>
 			<div class="col-sm-12 col-md-2 text-center"><a target="_blank" href="/templates/products/bonusDownloads.php?v=groceryBills"><img class="img-responsive center-block" src="/media/images/f4p/f4p-bonus-grocery-bills-half-86x99.png" alt=""></a></div>
 			<div class="col-sm-12 col-md-4 margin-b-20"><a target="_blank" href="/templates/products/bonusDownloads.php?v=groceryBills">How To Cut Your Grocery Bills In Half Guide</a><br />
