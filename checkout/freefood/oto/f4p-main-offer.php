@@ -85,19 +85,21 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <h1><strong>Why Was This Video Banned?</strong></h1>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 margin-b-20">
             <div id="videobox">
                 <iframe src="//fast.wistia.net/embed/iframe/rznrw6fhcj" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
                 <script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
             </div>
             <div class="col-md-12">
-                               <div id="buyButton2" class="center-block text-center" style="display:none">
+                <div id="reserve" style="display:none;">
+                </div>
+                <div id="buyButton2" class="center-block text-center" style="display:none">
                     <a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
                     <p style="color:#002287;">(This Takes You To The Kit Options)</p>
                 </div>
             </div>
         </div>
-        <div class="content" >
+        <div class="content margin-t-20" >
             <div class="container oto-width">
                 <p>We all know a crisis is coming. What's going to happen when disaster strikes? Are you prepared to feed your family?</p>
                 <p>I don't know about you, but I'm sure not counting on the government to help me. In fact, they may be behind disappearing food stockpiles all over the country; and I've got the proof.</p>
@@ -108,7 +110,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <p>I'm about to show you undeniable proof that the government is on the hunt for as much survival food as they can grab in 24 hours, and I've got to tell you - <strong>it's really disturbing.</strong></p>
 
                 <h2 class="darkRed text-center">It Makes You Wonder If They Know<br class="hidden-sm"> Something We Don't</h2>
+
+
                 <img class="img-responsive pull-right img-padding-left" src="/media/images/f4p/letter/f4p-letter-hillary-obama-01.jpg" alt="">
+
+
+
                 <p>My first thought was that they must be trying to control the supply. Control the food supply and you control the people. I mean, it worked for Stalin and Mao, right? Why not Obama or Hillary?&nbsp;</p>
                 <p>But then I dug deeper and I think the situation is even worse. I think that the government knows something we don't and is worried that they see a full-scale disaster about to hit. And I think I found the factors that will trigger it.</p>
                 <h2 class="darkRed text-center">I Have Proof... They Do Know Something<br class="hidden-sm"> We Don’t Know</h2>
@@ -116,7 +123,15 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <p>It's been all over the Internet. Facebook and even some big radio programs like Alex Jones picked up this story. It seems like everyone is just plain shocked that a government agency would send a letter like this.</p>
                 <p>Here's what happened: FEMA wrote to my partner, Matt, over at the warehouse and wanted to know exactly how many...&nbsp;</p>
                 <p>Well, maybe I should just let Matt tell you about it, since he was the one who received the letter that proves it...</p>
-                <img src="/media/images/f4p/letter/f4p-letter-fema-letter-2.jpg" alt="FEMA letter" class="img-responsive center-block">
+
+                <a onclick="showFEMAModal()" ><img src="/media/images/f4p/letter/f4p-letter-fema-letter-2.jpg" alt="FEMA letter" class="img-responsive center-block"></a>
+                <div id="FEMAModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" style="">
+                        <div class="modal-content" style="">
+                            <img src="/media/images/f4p/letter/f4p-letter-fema-letter-2-707x626.jpg" alt="FEMA letter" class="img-responsive center-block">
+                        </div>
+                    </div>
+                </div>
                 <p style="text-align: center;line-height:1.0" class="caption"><em style="font-size: 15px;font-style: normal;">100% Genuine letter from FEMA... demanding to know how much<br class="hidden-sm hidden-xs"> food we can ship and how fast!</em></p>
                 <blockquote style="font-size:16px;border: none;margin-bottom: 20px;background-color:lightgrey;border-radius: 15px;">
                     <p><em>&ldquo;Thanks Frank. Well, it was kind of crazy to get this letter from FEMA. I don't mean to sound paranoid, but they were asking some questions that make me pretty nervous.</em></p>
@@ -384,7 +399,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <p>And I know every family is different and there's no one-size-fits-all survival food solution.</p>
                 <p>So I've put together a variety of Food4Patriots kits based on feeding an adult over a specific period of time. That way, <strong>you can pick the exact size that works best for you and your family</strong>. No need to buy more or less than you actually need, so nothing goes to waste.&nbsp;</p>
                 <p>Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below to get started.</p>
-                <div id="buyButton2" class="center-block text-center" style="display:none">
+                <div id="buyButton2" class="center-block text-center" >
                     <a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
                     <p style="color:#002287;">(This Takes You To The Kit Options)</p>
                 </div>
@@ -458,7 +473,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                 <p>It's easy to imagine. If they run out of food for themselves or their children, they'll be willing to take anyone's food to get them fed. And unless you have a covert stockpile, your name could very well make it on that list.&nbsp;</p>
                 <p>To keep your Food4Patriots order under the radar, we ship it in plain and unmarked packaging. There are no flashy logos, advertisements or emblems on the outside. Not even the deliveryman will know what you're getting.</p>
                 <p>As of today, inventory is still available and when you order you will instantly receive an order confirmation. We will rush your order to you and you&rsquo;ll get a shipment tracking number as well. Click the &ldquo;<strong>Choose My Kit</strong>&rdquo; button below to get started.</p>
-                <div id="buyButton2" class="center-block text-center" style="display:none">
+                <div id="buyButton2" class="center-block text-center">
                     <a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
                     <p style="color:#002287;">(This Takes You To The Kit Options)</p>
                 </div>
@@ -818,7 +833,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
                             <p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
                             <p>I accept that by declining this offer, I may never see the Food4Patriots kits at these prices ever again.</p>
                             <div class="text-center" style="padding:20px;"><a href="<?php echo $declineUrl;?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
-                            <button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add A Food4Patriots Kit to My Order Now!</button>
+                            <button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add A <br />Food4Patriots Kit to My Order Now!</button>
                         </div>
                     </div>
                 </div>
@@ -840,11 +855,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         <p>That&rsquo;s how confident I am that this food will remain just as delicious and nutritious for the next 25 years as it is on the day you buy it. Some of my friends said I was crazy to offer this double guarantee, but to be honest I&rsquo;m not really worried about it, because I am so confident you&rsquo;re going to see the value in your Food4Patriots kit as soon as you have it in your hands.</p>
     </div>
     <div class="col-md-12">
-        <div id="reserve" style="display:none;">
-
-        </div>
-
-        <div id="buyButton2" class="center-block text-center" style="display:none">
+        <div id="buyButton2" class="center-block text-center">
             <a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
             <p style="color:#002287;">(This Takes You To The Kit Options)</p>
         </div>
@@ -910,6 +921,12 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
         </div>
     </div>
     <script>
+        function showFEMAModal() {
+            $('#FEMAModal').modal('show');
+        }
+        function hideFEMAModal() {
+            $('#FEMAModal').modal('hide');
+        }
         function showProductModal() {
             $('#productModal').modal('show');
         }
