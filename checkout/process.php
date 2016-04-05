@@ -47,7 +47,7 @@ $productDataObj = $product->getProduct($productId);
 if($product->getFunnel()) {
 	//FUNNEL REDIRECT TO NEXT PAGE
 	$currentStep = $product->getStep();
-	$funnelData = $product->initFunnel($currentStep);
+	$funnelData = $product->initFunnel($currentStep, $productId);
 	if (isset($funnelData["googleBrand"]) && $funnelData["googleBrand"] !== null) {
 		$productDataObj->googleBrand = $funnelData["googleBrand"];
 	}
@@ -58,12 +58,22 @@ if($product->getFunnel()) {
 	if (isset($funnelData["netRevenueEach"]) && $funnelData["netRevenueEach"] !== null) {
 		$productDataObj->netRevenueEach = $funnelData["netRevenueEach"];
 	}
+	if (isset($funnelData["shippingIdInternational"]) && $funnelData["shippingIdInternational"] !== null) {
+		$productDataObj->shippingIdInternational = $funnelData["shippingIdInternational"];
+	}
+	if (isset($funnelData["shippingIdDomestic"]) && $funnelData["shippingIdDomestic"] !== null) {
+		$productDataObj->shippingIdDomestic = $funnelData["shippingIdDomestic"];
+	}
+	if (isset($funnelData["nextUrl"]) && $funnelData["nextUrl"] !== null) {
+		$productDataObj->nextPage = $funnelData["nextUrl"];
+	}
 }
 if($_SESSION["customTemplate"]["price"] > 0) {
 	$productDataObj->price = $_SESSION["customTemplate"]["price"];
 	$productDataObj->isCustomPrice = true;
 	unset($_SESSION["customTemplate"]["price"]);
 }
+
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Create productObj";

@@ -8,7 +8,6 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	$productDataObj = Product::getProduct($_SESSION["productId"]);
 	?>
 	<style>
-
 		#belcher-box {
 			width: 100%;
 			display: block;
@@ -50,8 +49,8 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 		}
 		#belcher-box .timer-box {
 			float: right;
-			height: auto;
-			width: 100%;
+			height: 230px;
+			width: 360px;
 			/* [disabled]background: #ffffff; */
 			/* [disabled]border: 1px solid #000000; */
 			margin-left: 10px;
@@ -78,18 +77,6 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 			text-align:center;
 			font-style:italic;
 		}
-
-		/* Small devices (tablets, 768px and up) */
-		@media (min-width: 768px) {
-			#belcher-box .timer-box {
-				height: 230px;
-				width: 360px;}
-			#belcher-box .timer-box a #timer {
-				top: -140px;
-			}
-		}
-
-
 	</style>
 	<script>
 		//setInterval(function(timerChange),1000);
@@ -172,14 +159,12 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 		$offerName = $_SESSION["firstName"];
 		?>
 		<a name="exclusive-offer"></a>
-		<div id="belcher-box" >
+		<div id="belcher-box" class="hidden-xs">
 			<div class="box-title">Exclusive Offer for Food4Patriots Customers...</div>
 			<div class="box-body">
 				<div class="timer-box">
-					<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();">
-						<img src="/media/images/f4p/f4p-product-img-snack-04.jpg" class="img-responsive"  alt="3 Month Food Supply">
-						<div id="timer">10:00</div>
-					</a>
+					<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
+						<div id="timer">10:00</div></a>
 				</div>
 				<p><?php echo $customerDataObj->firstName;?>,
 					you’ve taken the first step in ensuring the safety and well-being of your loved ones in times of crisis
@@ -197,7 +182,7 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="optin-form">
 					<input type="hidden" name="quantity" id="quantity" value="1">
 					<p style="text-align:center;">
-						<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit img-responsive center-block" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
+						<input id="veggieSubmitButton" type="image" src="/assets/images/buttons/btn-green-add-to-order-01.jpg" name="submit" class="fvskit" onClick="_gaq.push(['_trackEvent', 'Snack Pack Food Add On', 'clicked-add-to-order-button', 'Upsell at Thank You',0, false]);"/>
 					</p>
 				</form>
 				<p id="orderSummary" style="text-align:center;">Add 1 kit to my order for $97.
