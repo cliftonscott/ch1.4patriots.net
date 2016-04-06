@@ -153,7 +153,7 @@
 	<?php include("f4p-1year-bonus-tool.html");?>
 	<?php include("f4p-1year-bonus-reports.html");?>
 	<div class="container oto-width">
-		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
+		<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee</h2>
 		<div class="outLineBoxDarkBlue">
 			<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
 			<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason, you&rsquo;re not
@@ -187,9 +187,7 @@
 		<div>
 			<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 			<img class="img-responsive center-block small" src="/media/images/f4p/f4p-1year-totes-bonuses-badges-700x561.jpg"  alt="Food4Patriots 1-Year Kit"/>
-			<div class="col-md-12">
-				<?php include("f4p-1year-value-chart.html");?>
-			</div>
+you are 100
 			<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 			<a id="accept"></a>
 			<?php

@@ -169,7 +169,7 @@
 
 
 		<div class="container oto-width">
-			<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee.</h2>
+			<h2 class="darkRed text-center">You Are 100% Protected By My Outrageous Double Guarantee</h2>
 			<div class="outLineBoxDarkBlue">
 				<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
 				<h3>Guarantee #1:</h3> This is a 100% money back guarantee. No questions asked. If for any reason you&rsquo;re not
