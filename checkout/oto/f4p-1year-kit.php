@@ -245,69 +245,62 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					}
 					?>
 
-					<?php
-					// SPLIT JV-49 DESKTOP ONLY 12/21/15
-					if (JV::in("49-modal")) { ?>
-						<div class="noThanks">
-							<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
-						</div>
 
-						<script>
-							function showDeclineModal() {
-								$('#declineModal').modal('show');
-							}
-							function hideDeclineModal() {
-								$('#declineModal').modal('hide');
-							}
-							function acceptModal() {
-								hideDeclineModal();
-								document.getElementById("check1").checked = true;
-								location.href = "#optin-form";
-							}
-						</script>
-						<style>
-							#declineModal p {
-								margin-bottom:7px;
-							}
+					<div class="noThanks">
+						<a onclick="showDeclineModal();" style="cursor: pointer">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
+					</div>
 
-							.button {
-								border: none;
-								width: 100%;
-								background: #5fb760;
-								color: #fff;
-								padding: 15px;
-								border-radius:.5em;
-								text-decoration: none;
-							}
+					<script>
+						function showDeclineModal() {
+							$('#declineModal').modal('show');
+						}
+						function hideDeclineModal() {
+							$('#declineModal').modal('hide');
+						}
+						function acceptModal() {
+							hideDeclineModal();
+							document.getElementById("check1").checked = true;
+							location.href = "#optin-form";
+						}
+					</script>
+					<style>
+						#declineModal p {
+							margin-bottom:7px;
+						}
 
-							.button:hover {
-								background: #489c48;
-								cursor:pointer;
-								-webkit-tap-highlight-color: rgba(0,0,0,0);
-							}
-						</style>
-						<div id="declineModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg" style="width:620px;">
-								<div class="modal-content" style="">
-									<div style="padding:10px;width:620px;">
-										<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideDeclineModal();"></div>
-										<div style="padding:10px;">
-											<h3 class="text-center"><span class="darkRed">WAIT!</span> This is your final opportunity to claim your exclusive $1,000.00 discount on our Food4Patriots 1­year kit and you MUST CONFIRM you are permanently giving up this one­time special offer!</h3>
-											<p>I understand that these kits are flying off the shelves and may sell out any time.</p>
-											<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
-											<p>I accept that by declining this offer, I may never see the Food4Patriots 1­year kit at this price ever again.</p>
-											<div class="text-center" style="padding:20px;"><a href="<?php echo url('/checkout/oto/f4p-1year-kit-payments.php'); ?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
-											<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
-										</div>
+						.button {
+							border: none;
+							width: 100%;
+							background: #5fb760;
+							color: #fff;
+							padding: 15px;
+							border-radius:.5em;
+							text-decoration: none;
+						}
+
+						.button:hover {
+							background: #489c48;
+							cursor:pointer;
+							-webkit-tap-highlight-color: rgba(0,0,0,0);
+						}
+					</style>
+					<div id="declineModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg" style="max-width:620px;">
+							<div class="modal-content" style="">
+								<div style="padding:10px;max-width:620px;">
+									<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideDeclineModal();"></div>
+									<div style="padding:10px;">
+										<h3 class="text-center"><span class="darkRed">WAIT!</span> This is your final opportunity to claim your exclusive $1,000.00 discount on our Food4Patriots 1­year kit and you MUST CONFIRM you are permanently giving up this one­time special offer!</h3>
+										<p>I understand that these kits are flying off the shelves and may sell out any time.</p>
+										<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
+										<p>I accept that by declining this offer, I may never see the Food4Patriots 1­year kit at this price ever again.</p>
+										<div class="text-center" style="padding:20px;"><a href="<?php echo url('/checkout/oto/f4p-1year-kit-payments.php'); ?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
+										<button id="modalAccept" class="button" onclick="acceptModal();">I Changed My Mind! Send Me Back to the Page so I Can Add the Food4Patriots 1­Year Kit to My Order Right Now!</button>
 									</div>
 								</div>
 							</div>
 						</div>
-					<?php }else{ ?>
-						<div class="noThanks">
-							<a href="<?php echo $declineUrl;?>">No Thanks</a> – I am choosing to abandon my steeply discounted 1-year Kit that has already been reserved for me and understand I’ll likely never see it at this special price again.
-						</div>
-					<?php } //END TEST?>
+					</div>
 
 					<div class="outLineBoxDarkBlue">
 						<p><img src="/media/images/misc/seal-guarantee-satisfaction.jpg" alt="Guarantee #1" class="pull-left img-responsive media margin-t-20">
