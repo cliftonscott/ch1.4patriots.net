@@ -214,52 +214,10 @@
 				<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 
 				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-1year-totes-bonuses-badges-700x561.jpg"  alt="Food4Patriots 1-Year Kit"/>
-
-
 				<div class="col-md-12">
-					<div class="col-md-10 col-md-offset-1" >
-						<style>.bigredstrike {
-								position: relative;
-							}
-							.bigredstrike::after {
-								border-bottom: 0.200em solid #be0004;
-								content: "";
-								left: 0;
-								margin-top: calc(0.125em / 2 * -1);
-								position: absolute;
-								right: 0;
-								top: 50%;
-							}</style>
-						<ul class="fa-ul">
-							<li><i class="fa-li fa fa-check"></i> 1-year kit <span class="pull-right"><strong>$2200.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Playing Cards - 52 Items to Hoard Before A Crisis <span class="pull-right"><strong>$9.97</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Survival Spring Personal Water Filters X4 <span class="pull-right"><strong>$99.80</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Hard Copy of Survival 101 <span class="pull-right"><strong>$37.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Hard Copy of Survive Urban Chaos <span class="pull-right"><strong>$27.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Liberty Seed Vaults (22,000+ seeds) X4 <span class="pull-right"><strong>$268.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> 11-in-1 Survival Tools X4 <span class="pull-right"><strong>$38.90</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Bonus #1: Top 10 Items Sold Out After Crisis X4  <span class="pull-right"><strong>$68.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Bonus #2: The Water Survival Guide X4 <span class="pull-right"><strong>$68.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Bonus #3: The Survival Garden Guide X4 <span class="pull-right"><strong>$68.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><i class="fa-li fa fa-check"></i> Bonus #4: How To Cut Your Grocery Bills in Half X4 <span class="pull-right"><strong>$68.00</strong></span></li>
-							<div class="clearfix"></div>
-							<li><strong>Total Value</strong> <span class="pull-right bigredstrike" ><strong style="color:black">$2952.67</strong></span></li>
-							<div class="clearfix"></div>
-						</ul>
-					</div>
+					<?php include("f4p-1year-value-chart.html");?>
 				</div>
 				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
-
 				<a id="accept"></a>
 				<?php
 					if($isUpgrade) {
