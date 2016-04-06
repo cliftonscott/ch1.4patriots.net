@@ -196,7 +196,7 @@
 			<h2 class="darkRed title-max-600 center-block text-center"><?php echo $firstName;?>, Get On The ‘Fast Track’ - Claim Your 1-Year
 				Food4Patriots Kit For $1000.00 Off Right Now!</h2>
 
-			<p>Now I understand that the 1-year kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $3,000, but because you&rsquo;ve already taken the first step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year kit today for just $1,997.</p>
+			<p>Now I understand that the 1-year kit is the right choice for folks who are looking for the ultimate in food security. This kit plus all the bonuses is valued at over $2,900, but because you&rsquo;ve already taken the first step, and because I appreciate you putting your trust in us by being a customer, you can get your 1-year kit today for just $1,997.</p>
 
 			<p>You get a year&rsquo;s worth of delicious survival food for $1.11 per serving!</p>
 
@@ -218,7 +218,9 @@
 
 				<img class="img-responsive center-block small" src="/media/images/f4p/f4p-1year-totes-bonuses-badges-700x561.jpg"  alt="Food4Patriots 1-Year Kit"/>
 
-				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-value-chart-01.jpg" alt="Value Chart"/></div>
+				<div class="col-md-12">
+					<?php include("f4p-1year-value-chart.html");?>
+				</div>
 				<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 
 				<a id="accept"></a>
