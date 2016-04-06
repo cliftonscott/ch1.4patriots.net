@@ -14,7 +14,6 @@ if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true)
 <script>
 	dataLayer = [];
 	dataLayer.push({
-		<?php if (JV::in("67-nopop")) { echo "'ExitPop': 'false',"; /* JV-66 TABLET SPLIT*/ } ?>
 		<?php if($testTran != true) { echo JV::getGoogleAnalyticsData(); }?>
 		<?php if(!empty($googleTransaction["customerId"])) { ?>
 		<?php if($testTran === true) { echo "/*"; }?>
