@@ -236,32 +236,6 @@ $saleDataObj->setMps($postPatriotsApi->success);
 $stepTimerStop = microtime(true);
 $stepTime = round($stepTimerStop - $stepTimerStart, 4);
 $stepTimeLog[] = $stepTime . " :: Post to 4Patriots Api :: " . $postPatriotsApi->success;
-//==============================================================================================================//
-//==============================================================================================================//
-//post purchase to FFH (if applicable)
-if($platform->isApiEnabled("ffh") === true) {
-	$stepTimerStart = microtime(true);
-	if($productDataObj->ffhId > 0) {
-		include_once("Ffh.php");
-		$ffh = new Ffh();
-		$ffh->setOrderId($postLimelight->orderId);
-		$ffh->setQuantity($quantity);
-		$postFfh = $ffh->postSale($productDataObj, $customerDataObj);
-		if($postFfh->success === TRUE) {
-			$myDevLog.="FFH Results:<br>";
-			$myDevLog.="Successfully posted to FFH<br>";
-			$myDevLog.=$postFfh->ffhOrderNumber . "<br>";
-		} else {
-			$myDevLog.="FFH Results:<br>";
-			$myDevLog.="Failed to post to FFH<br>";
-			$myDevLog.="FFH Error: " . $postFfh->ffhError . "<br>";
-		}
-		$saleDataObj->setFfh($postFfh->success);
-	}
-	$stepTimerStop = microtime(true);
-	$stepTime = round($stepTimerStop - $stepTimerStart, 4);
-	$stepTimeLog[] = $stepTime . " :: Post to FFH :: " . $postFfh->success;
-}
 
 //==============================================================================================================//
 //==============================================================================================================//
