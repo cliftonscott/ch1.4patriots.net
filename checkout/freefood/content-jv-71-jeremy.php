@@ -1,3 +1,6 @@
+<?php
+$submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
+?>
 <style>
 	body{background-color: #ffffff; font-size:14pt;}
 	.container-main, .container {
@@ -267,21 +270,11 @@
 	}
 
 </style>
-<script>
-	/*
-	 $(document).ready(function() {
-	 $('#popupTimer').delay(10000).fadeIn(600);
-	 });
-</script>
+
 
 
 </div>
 </div>
-<!--<div class="container-fluid " id="popupTimer">
-	<div class="col-xs-12 text-center">
-		<p style="font-size:18px;margin-bottom: 0">Low Inventory Warning #PID811: Warehouse has been notified. Reserved inventory for current session expires in <span id="theTime" class="timeClass">19:28</span>...</p>
-	</div>
-</div>-->
 
 <div class="container-fluid" style="background-color: #f7f7f7">
 	<div class="row">

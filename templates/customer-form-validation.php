@@ -2,7 +2,10 @@
 if($_SESSION["soldout"]["flag"] === true) {
 	include_once("sold-out-form.php");
 } else {
-?>
+	if(!$submitButtonSource) {
+		$submitButtonSource = "/assets/images/buttons/btn-click-continue-green-01.png";
+	}
+	?>
 <script src='/js/live-validation.js'></script>
 <link href="/assets/css/validation.css" rel="stylesheet">
 <script>
@@ -353,11 +356,7 @@ if($_SESSION['errorMessage'] != '') {
 		</div><!-- *PRODUCT INFO -->
 
 	  <div>
-		  <?php if($_SESSION["Funnel"]["activeFunnel"] === 'kicaps'): ?>
-			  <input id="submitButton" type="image" src="/assets/images/buttons/btn-rush-caps-01.png" value="" id="get_started" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue">
-		  <?php else: ?>
-		      <input id="submitButton" type="image" src="/assets/images/buttons/btn-click-continue-green-01.png" value="" id="get_started" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue">
-		  <?php endif; ?>
+		  <div><input id="submitButton" type="image" src="<?php echo $submitButtonSource;?>" value="" class="start-now img-responsive center-block exit-safe gray-out" alt="Click To Continue"></div>
 	  </div>
 	</form>
 </div>

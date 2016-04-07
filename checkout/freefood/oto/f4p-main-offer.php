@@ -528,21 +528,25 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 
 				function productChange(whichSelect){
 					selectedProductId = parseInt(whichSelect);
+					buttonPrice = document.getElementById('buttonPrice');
 					switch(selectedProductId) {
 						case 19:
 							document.getElementById('3mk').style.display = 'block';
 							document.getElementById('4wk').style.display = 'none';
 							document.getElementById('1wk').style.display = 'none';
+							buttonPrice.innerHTML = "Add To Cart - $497";
 							break;
 						case 18:
 							document.getElementById('3mk').style.display = 'none';
 							document.getElementById('4wk').style.display = 'block';
 							document.getElementById('1wk').style.display = 'none';
+							buttonPrice.innerHTML = "Add To Cart - $197";
 							break;
 						case 92:
 							document.getElementById('3mk').style.display = 'none';
 							document.getElementById('4wk').style.display = 'none';
 							document.getElementById('1wk').style.display = 'block';
+							buttonPrice.innerHTML = "Add To Cart - $67";
 							break;
 					}
 				}
@@ -550,13 +554,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div id="order-form" style="padding:10px;">
 				<div id="3mk">
 					<div class="row nomargin">
-						<div class="col-sm-12 col-md-7">
-							<img src="/media/images/f4p/f4p-3-month-kit-06.jpg" class="img-responsive center-block">
+						<div class="col-sm-12 col-md-7 col-md-offset-0 text-center">
+							<img src="/media/images/f4p/f4p-3-month-kit-11.jpg" class="img-responsive center-block">
 						</div>
-						<div class="col-sm-12 col-md-5 text-center" style="margin: 23px 0 0;">
-							<h2 class="darkRed">3-Month Supply</h2>
-							<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
-							<ul class="pricing-content list-unstyled">
+						<div class="col-sm-12 col-md-4" style="margin: 28px 0 0;">
+							<h2 class="darkRed text-center">3-Month Supply</h2>
+							<h4 class="text-center"><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
+							<ul class="pricing-content list-unstyled" style="max-width: 300px;margin: 0 auto;">
 								<li><i class="fa fa-check"></i> <strong>Free</strong> Shipping <span></span></li>
 								<li><i class="fa fa-check"></i> <strong>Free</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs" data-original-title="" title=""><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
 								<li><i class="fa fa-check"></i> <strong>Free</strong> 4 Written Reports <a href="#info" id="reportsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs" data-original-title="" title=""><i style="color: #0c83e7" class="fa fa-info-circle"></i></a></li>
@@ -567,14 +571,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<div id="4wk" style="display:none;">
 					<div class="row">
-						<div class="col-sm-12 col-md-5 col-md-offset-1 text-center">
-
-							<img src="/media/images/f4p/f4p-4-week-kit-06.jpg" class="img-responsive center-block">
+						<div class="col-sm-12 col-md-6 col-md-offset-1 text-center">
+							<img src="/media/images/f4p/f4p-4-week-kit-08.jpg" class="img-responsive center-block">
 						</div>
-						<div class="col-sm-12 col-md-5 text-center" style="margin: 26px 0 0;">
-							<h2 class="darkRed">4-Week Supply</h2>
-							<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
-							<ul class="pricing-content list-unstyled">
+						<div class="col-sm-12 col-md-4">
+							<h2 class="darkRed text-center">4-Week Supply</h2>
+							<h4 class="text-center"><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
+							<ul class="pricing-content list-unstyled" style="max-width: 300px;margin: 0 auto;">
 								<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
 								<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
 							</ul>
@@ -583,13 +586,13 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				</div>
 				<div id="1wk" style="display:none;">
 					<div class="row">
-						<div class="col-sm-12 col-md-5 col-md-offset-1">
-							<img src="/media/images/f4p/f4p-1-week-kit-09.jpg" class="img-responsive center-block">
+						<div class="col-sm-12 col-md-5 col-md-offset-1 text-center">
+							<img src="/media/images/f4p/f4p-1-week-kit-10.jpg" class="img-responsive center-block" style="margin: 17px 0 0;">
 						</div>
-						<div class="col-sm-12 col-md-5 text-center" style="margin: 16px 0 0;">
-							<h2 class="darkRed">1-Week Supply</h2>
-							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
-							<ul class="pricing-content list-unstyled">
+						<div class="col-sm-12 col-md-5">
+							<h2 class="darkRed text-center">1-Week Supply</h2>
+							<h4 class="text-center"><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
+							<ul class="pricing-content list-unstyled" style="max-width: 300px;margin: 0 auto;">
 								<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
 								<li><i class="fa fa-check"></i> $5.95 S/H ($72.95 total)</li>
 							</ul>
@@ -597,7 +600,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 				</div>
 
-				<form method="post" action="<?php echo url('/checkout/process.php'); ?>">
+				<form method="post" action="<?php echo url('/checkout/process.php'); ?>" id="order-process">
 					<div class="text-center center-block">
 						<input id="taxState_92" type="hidden" value="<?php echo strtolower($billingStateName);?>">
 						<label for="productId" style="font-size: 11pt;display: block;margin: 30px 0 0">Choose Your Kit:</label>
@@ -607,7 +610,9 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 							<option value="92">1-Week Supply</option>
 						</select>
 						<div style="margin:0 auto;padding: 30px 0 37px 0">
-							<button type="button-1" class="btn-1">Click to Accept</button>
+							<div class="text-center">
+								<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
+							</div>
 						</div>
 					</div>
 				</form>
@@ -689,7 +694,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 						</div>
 					</div>
 				</form>
-				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
+				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process3">
 					<input name="productId" type="hidden" value="18">
 					<input id="taxState_18" type="hidden" value="<?php echo strtolower($billingStateName);?>">
 					<input id="productData[18]" type="hidden" value="{'productId':18,'price':197,'shipping':0}">
