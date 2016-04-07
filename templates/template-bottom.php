@@ -25,6 +25,7 @@ if(!in_array($_SERVER["PHP_SELF"], $suppressOlark)) {
 	include_once("chat-olark.php");
 }
 ?>
+<?php if($suppressLoadingDiv != true) { ?>
 <script>
 window.onbeforeunload = grayOut;
 function grayOut(){
@@ -32,6 +33,7 @@ var ldiv = document.getElementById('LoadingDiv');
 ldiv.style.display='block';
 }
 </script>
+<?php } ?>
 <?php
 if($template["exitPopType"] == "vwo") {
 	include_once ('exit-pop-vwo.php');
