@@ -139,7 +139,7 @@ if($_SESSION['errorMessage'] != '') {
 			margin-left:17px;
 		}
 	</style>
-	<form role="form" action="/checkout/process.php" method="post" accept-charset="utf-8" id="billing-form">
+	<form role="form" action="<?php echo url('/checkout/process.php'); ?>" method="post" accept-charset="utf-8" id="billing-form">
 		<input type="hidden" name="productId" id="productId" value="<?php echo $productDataObj->productId;?>" onchange="setStateTax();">
 	  <div class="form-group">
 		<label for="firstName">First Name:</label>

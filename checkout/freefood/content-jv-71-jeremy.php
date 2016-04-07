@@ -326,7 +326,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-5">
-				<?php include_once ('customer-form-validation.php'); ?>
+				<?php include_once ('customer-form.php'); ?>
 				<div id="ctaShipping" class="hidden-xs hidden-sm" style="display:none;">
 					<div class="arrow_box"><i class="fa fa-truck fa-3x pull-left"></i>Where should we ship your FREE food?</div>
 				</div>
