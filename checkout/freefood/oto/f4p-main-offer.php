@@ -12,8 +12,8 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 $page = "oto";
 $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 // SET PRODUCT ID
-//$_SESSION['productId'] = 164; //please keep as an integer
-//$_SESSION['quantity'] = '1';
+$_SESSION['productId'] = 19; //please keep as an integer
+$_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
@@ -80,12 +80,19 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		<a>ORDER CONFIRMATION</a>
 	</div>
 	<div class="container">
-		<div class="col-md-12">
+		
+		<div class="col-md-12 hidden-xs">
 			<div class="center-block text-center">
 				<h1><strong>Why Was This Video Banned?</strong></h1>
 			</div>
 		</div>
-		<div class="col-md-12 margin-b-20">
+		<div class="col-md-12 hidden-sm hidden-md hidden-lg">
+			<div class="center-block text-center">
+				<h1><strong>Breaking News:<br />
+						FEMA Hates This (#1 Item To Hoard)</strong></h1>
+			</div>
+		</div>
+		<div class="col-md-12 margin-b-20 hidden-xs">
 			<div id="videobox">
 				<iframe src="//fast.wistia.net/embed/iframe/rznrw6fhcj" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 				<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
@@ -316,16 +323,20 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<p>But that couldn&rsquo;t be further from the truth.</p>
 				<img src="/media/images/f4p/letter/f4p-letter-food-array.jpg" width="100%" class="img-responsive center-block"/>
 				<p></p>
-				<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
-				<ul style="margin-left: 30px;list-style-type: none;">
-					<li style="font-size: 20px"><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
-					<li style="font-size: 20px"><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
-					<li style="font-size: 20px"><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
-					<li style="font-size: 20px"><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice</li>
-					<li style="font-size: 20px;"><i style="color:#fff" class="fa fa-check"></i> <em>(My kids actually beg me to make this one all the time!)</em></li>
-					<li style="font-size: 20px"><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
-					<li style="font-size: 20px"><i class="fa fa-check"></i> Creamy Stroganoff</li>
-				</ul>
+
+					<p>I've picked some of my favorites to give you variety. Here's a list of just a few of the choices:</p>
+					<div class="col-md-12">
+						<ul style="list-style-type: none;">
+							<li style="font-size: 20px"><i class="fa fa-check"></i> Maple Grove Oatmeal</li>
+							<li style="font-size: 20px"><i class="fa fa-check"></i> Country Cottage Mac & Cheese</li>
+							<li style="font-size: 20px"><i class="fa fa-check"></i> Granny's Home Style Potato Soup</li>
+							<li style="font-size: 20px"><i class="fa fa-check"></i> Blue Ribbon Creamy Chicken Rice</li>
+							<li style="font-size: 20px;"><i style="color:#fff" class="fa fa-check"></i> <em>(My kids actually beg me to make this one all the time!)</em></li>
+							<li style="font-size: 20px"><i class="fa fa-check"></i> Heartland’s Best Mashed Potatoes</li>
+							<li style="font-size: 20px"><i class="fa fa-check"></i> Creamy Stroganoff</li>
+						</ul>
+					</div>
+
 				<p>And just to prove we’re on the level about how good this food really tastes, we did a secret taste test with the folks over at The Blaze, one of the country’s most popular conservative news website.</p>
 				<p>They loved the taste. They had no idea they’d been eating survival food. In fact, they thought it had been a catered lunch!</p>
 
@@ -782,17 +793,41 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			}
 		</style>
 		<div id="declineModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg" style="width:620px;">
-				<div class="modal-content" style="">
-					<div style="padding:10px;width:620px;">
+			<div class="modal-dialog modal-lg" style="max-width:620px;">
+				<div class="modal-content" >
+					<div class="modal-body">
 						<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideDeclineModal();"></div>
 						<div style="padding:10px;">
-							<h3 class="text-center"><span class="darkRed">WAIT!</span> This is your final opportunity to claim your exclusive discount on your Food4Patriots kit and you MUST CONFIRM you are permanently giving up this one­-time special offer!!</h3>
-							<p>I understand that these kits are flying off the shelves and may sell out any time.</p>
-							<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
-							<p>I accept that by declining this offer, I may never see the Food4Patriots kits at these prices ever again.</p>
-							<div class="text-center" style="padding:20px;"><a href="<?php echo $declineUrl;?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
-							<button id="modalAccept" class="button" onclick="acceptModal();" style="font-size: 19px">I Changed My Mind! Send Me Back to the Page so I Can Add A <br />Food4Patriots Kit to My Order Now!</button>
+							<div class="row">
+								<div class="col-xs-12">
+									<h3 class="text-center"><span class="darkRed">WAIT!</span> This is your final opportunity to claim your exclusive discount on your Food4Patriots kit and you MUST CONFIRM you are permanently giving up this one­-time special offer!!</h3>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<p>I understand that these kits are flying off the shelves and may sell out any time.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<p>Yes, I am giving up my chance to get this “stockpiler’s dream” that could feed my entire family in the event of a crisis or emergency situation.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<p>I accept that by declining this offer, I may never see the Food4Patriots kits at these prices ever again.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="text-center" style="padding:20px;"><a href="<?php echo $declineUrl;?>">No thanks, I’ll take my chances. Give another patriot my kit(s).</a></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12">
+									<button id="modalAccept" class="button" onclick="acceptModal();" style="font-size: 19px">I Changed My Mind! Send Me Back to the Page so I Can Add A <br />Food4Patriots Kit to My Order Now!</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -982,5 +1017,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 	</div>
 </div>
-
+<script>
+	window.onbeforeunload = grayOut;
+	function grayOut(){
+		var ldiv = document.getElementById('LoadingDiv');
+		ldiv.style.display='block';
+	}
+</script>
 <?php include_once ("footer.php")?>
