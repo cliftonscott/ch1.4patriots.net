@@ -12,8 +12,8 @@ if(($isUpgrade !== TRUE) && (!empty($_SESSION["customerDataArray"]["firstName"])
 $page = "oto";
 $billingStateName = $_SESSION["customerDataArray"]["billingStateName"];
 // SET PRODUCT ID
-//$_SESSION['productId'] = 164; //please keep as an integer
-//$_SESSION['quantity'] = '1';
+$_SESSION['productId'] = 19; //please keep as an integer
+$_SESSION['quantity'] = '1';
 $_SESSION['upsell'] = TRUE; //must stay a boolean
 $_SESSION['pageReturn'] = '/checkout/order.php';
 include_once("Product.php");
