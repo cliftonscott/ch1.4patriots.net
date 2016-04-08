@@ -68,7 +68,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<h1 class="darkRed text-center center-block">Get $100.00 Off Food4Patriots<br class="hidden-xs"> 3-Month Kit Plus FREE Shipping<br class="hidden-xs"> With This One-Time Offer!</h1>
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-12 hidden-xs">
 				<div id="videobox">
 					<iframe src="//fast.wistia.net/embed/iframe/0srmzb213j?seo=false" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 					<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
