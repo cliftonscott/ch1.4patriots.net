@@ -403,7 +403,7 @@ if(!empty($customerDataObj->shippingCity)) {
 				<div class="section-inner">
 					<div class="row pad-15-t">
 						<div class="top-head-logo"><img src="/assets/images/logo-small.png" width="150" alt="food4patriots" class="img-responsive center-block"></div>
-						<div class="top-head-phone btn disabled hidden-xs"><span><i class="fa fa-phone"></i></span> Phone: 1-800-728-0008</div>
+						<div class="top-head-phone btn disabled hidden-xs"><span><i class="fa fa-phone"></i></span> Phone: 1-800-598-5012</div>
 					</div>
 				</div>
 			</section>
