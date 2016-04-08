@@ -84,7 +84,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					</div>
 				</div>
 			</div>
-			<div style="padding-top: 5px" class="margin-tb-20 text-center">
+			<div style="padding-top: 5px" class="margin-tb-20 text-center hidden-xs">
 				<?php include ("recommendations/thankyou-ads.php");?>
 			</div>
 
