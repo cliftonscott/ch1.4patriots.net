@@ -1017,5 +1017,11 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 		</div>
 	</div>
 </div>
-
+<script>
+	window.onbeforeunload = grayOut;
+	function grayOut(){
+		var ldiv = document.getElementById('LoadingDiv');
+		ldiv.style.display='block';
+	}
+</script>
 <?php include_once ("footer.php")?>
