@@ -60,7 +60,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				} else {
 					?>
 					<p class="text-center"><a href="/checkout/process.php" title="Add to Order!"><img src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Add To Order!" class="img-responsive center-block" /></a><strong style="font-size: 20px;"><span class="darkRedStrike">Add To Cart - $197</span><br><a href="/checkout/process.php" title="Add to Order!"><u>Add To Cart - $147</u></a></strong></p>
-					<p class="text-center"><i>Click the button above if <a href="/checkout/process.php" title="Add to Order!" onClick=""><u>you're ready to accept the special offer now</u></a>, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
+					<p class="text-center"><i>Click the button above if you're ready to accept the special offer now, or read the rest of the page below and accept or decline the offer at the bottom of the page.</i></p>
 					<?php
 				}
 				?>
