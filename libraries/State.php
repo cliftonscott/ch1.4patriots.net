@@ -433,9 +433,12 @@ class State {
 			case "New Brunswick":
 			    $abbreviation = 'NB';
 			    break;
-			case "Newfoundland and Labrador":
-			    $abbreviation = 'NL';
-			    break;
+			case "Labrador":
+				$abbreviation = 'NL';
+				break;
+			case "Newfoundland":
+				$abbreviation = 'NL';
+				break;
 			case "Northwest Territories":
 			    $abbreviation = 'NT';
 			    break;
