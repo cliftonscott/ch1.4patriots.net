@@ -215,9 +215,7 @@ if($_SESSION["soldout"]["flag"] === true) {
 				<script>
 					var billingZip = new LiveValidation('billing-zip', { validMessage: ' ', onlyOnBlur: true});
 					billingZip.add(Validate.Presence, {failureMessage: ' '});
-					billingZip.add(Validate.Numericality, {failureMessage: ' '});
 					billingZip.add(Validate.Length, {minimum: 5, maximum: 7});
-
 				</script>
 			</div>
 			<div id="secure-guarantee">
