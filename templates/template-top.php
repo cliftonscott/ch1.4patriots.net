@@ -67,6 +67,7 @@ if(!empty($customerDataObj->shippingCity)) {
 	<?php echo $metaDataObj->keywords;?>
 	<meta name="generator" content="Bootply" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
 	<link href="/assets/css/bootstrap.css" rel="stylesheet">
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link href="/assets/css/styles.css" rel="stylesheet">
