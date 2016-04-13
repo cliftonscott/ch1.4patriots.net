@@ -481,7 +481,7 @@ if(!empty($customerDataObj->shippingCity)) {
 
 			<section class="section-2">
 				<div class="section-inner">
-					<p class="pad-30-t">Giving away survival food for free has never been done before. And the response has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment.</p>
+					<p class="pad-30-t">Giving away survival food for free has never been done before. And the response has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. We may not be able to keep this page up for long - in fact, we’re only guaranteeing this deal will still be available through midnight tonight!</p>
 					<p>The regular price of our 72-hour survival food kit is $27.00 plus shipping and handling. But right now it’s yours <strong>FREE</strong>. All we ask is you help cover the low shipping cost.</p>
 
 					<h2 style="text-align: center" class="color-red dark">Here’s What Our Satisfied Customers Have to Say:</h2>
