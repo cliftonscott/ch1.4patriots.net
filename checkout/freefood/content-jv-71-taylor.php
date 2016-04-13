@@ -111,6 +111,9 @@ if(!empty($customerDataObj->shippingCity)) {
 		}, 1000);
 	</script>
 	<style>
+		body.modal-open {
+			overflow: visible;
+		}
 		/**/
 		/* error state */
 		/**/
@@ -478,7 +481,7 @@ if(!empty($customerDataObj->shippingCity)) {
 
 			<section class="section-2">
 				<div class="section-inner">
-					<p class="pad-30-t">Giving away survival food for free has never been done before. And the response has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment.</p>
+					<p class="pad-30-t">Giving away survival food for free has never been done before. And the response has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. We may not be able to keep this page up for long - in fact, we’re only guaranteeing this deal will still be available through midnight tonight!</p>
 					<p>The regular price of our 72-hour survival food kit is $27.00 plus shipping and handling. But right now it’s yours <strong>FREE</strong>. All we ask is you help cover the low shipping cost.</p>
 
 					<h2 style="text-align: center" class="color-red dark">Here’s What Our Satisfied Customers Have to Say:</h2>
@@ -568,7 +571,7 @@ if(!empty($customerDataObj->shippingCity)) {
 					<p>Every 72-hour kit that&rsquo;s being given away contains four servings each of such familiar dishes as:</p>
 					<?php include("f4p-72hour-kit-whatsincluded.html");?>
 					<p>They’re made with award-winning recipes. Your family will enjoy meals much like those they’re eating now.</p>
-					<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_1ljg134yzq popover=true popoverAnimateThumbnail=true popoverContent=link" style="display:inline"><a href="#" onclick="wistiaPause()">Click here</a></span> to see the Traveler’s Stew being prepared. </p>
+					<p>And the best part about Food4Patriots meals, is that they are quick and easy to make. <a  onclick="showCookingModal();wistiaPause();" >Click here</a> to see the Traveler’s Stew being prepared. </p>
 					<p>And just to make this a complete no-brainer for you...</p>
 					<h2 style="text-align: center" class="color-red dark pad-15-b">You Are 100% Protected by My Outrageous<br class="hidden-xs"> 365-Day Full Money Back Guarantee</h2>
 					<div class="outLineBoxDarkBlue">
@@ -706,14 +709,6 @@ if(!empty($customerDataObj->shippingCity)) {
 					</div>
 				</div>
 			</section>
-			<script>
-				function showCsrModal() {
-					$('#csrModal').modal('show');
-				}
-				function hideCsrModal() {
-					$('#csrModal').modal('hide');
-				}
-			</script>
 			<style>#csrModal p{margin-bottom:7px;}</style>
 			<div id="csrModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg" style="width:500px;height:300px;">
@@ -722,6 +717,17 @@ if(!empty($customerDataObj->shippingCity)) {
 							<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideCsrModal();"></div>
 							<div style="position:relative;top:160px;width:300px;">
 								<p><a class="btn btn-primary" href="javascript: olark('api.box.expand'); hideCsrModal();">Chat With Us</a></p><p><a class="btn btn-success" onclick="hideCsrModal();">Return To Order Form</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="CookingModal"  class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" >
+				<div class="modal-dialog modal-lg" style="width:960px; height: 700px;" >
+					<div class="modal-content">
+						<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+							<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
+								<div class="wistia_embed wistia_async_1ljg134yzq videoFoam=true autoplay" style="height:100%;width:100%">&nbsp;</div>
 							</div>
 						</div>
 					</div>
@@ -749,16 +755,36 @@ if(!empty($customerDataObj->shippingCity)) {
 		   olark.identify('2445-700-10-6057');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2445-700-10-6057/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
 		end olark code -->
 		<script>
-			function wistiaPlay() {
+			function showCsrModal() {
+				$('#csrModal').modal('show');
+			}
+			function hideCsrModal() {
+				$('#csrModal').modal('hide');
+			}
+			function showCookingModal() {
+				$('#CookingModal').modal('toggle');
+			}
+			function hideCookingModal() {
+				$('#CookingModal').modal('hide');
+			}
+
+			$('#CookingModal').on('hidden.bs.modal', function (e) {
 				window._wq = window._wq || [];
 				_wq.push({ "f1958k8cul": function(video) {
 					video.play();
 				}});
-			}
+			});
+
 			function wistiaPause() {
 				window._wq = window._wq || [];
 				_wq.push({ "f1958k8cul": function(video) {
 					video.pause();
+				}});
+			}
+			function wistiaPlay() {
+				window._wq = window._wq || [];
+				_wq.push({ "f1958k8cul": function(video) {
+					video.play();
 				}});
 			}
 		</script>

@@ -1,7 +1,7 @@
 var Validation = function () {
 
     return {
-        
+
         //Validation
         initValidation: function () {
 	        $("#sky-form1").validate({
@@ -55,9 +55,9 @@ var Validation = function () {
 	                {
 	                    required: true,
 	                    rangelength: [3, 4]
-	                },
+	                }
+
 	            },
-	                                
 	            // Do not change code below
 	            errorPlacement: function(error, element)
 	            {

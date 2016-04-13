@@ -76,8 +76,8 @@ if(!empty($customerDataObj->shippingCity)) {
 	<?php echo $metaDataObj->keywords;?>
 	<meta name="generator" content="Bootply" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="/favicon.ico">
-
 	<!-- Latest compiled and minified CSS. -->
 	<?php $assets->css(); ?>
 	<?php if ($page === "letter" || $page == "video"): ?>
