@@ -34,7 +34,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 	.blue-check .fa-check{color:#003F9A; margin-top: -12px;}
 	u.underline-red{ -moz-text-decoration-color: red; /* Code for Firefox */
 		text-decoration-color: red;}
-	.topbanner{font-size: 2em; font-weight: normal;line-height: 1.2;}
+	.topbanner{font-size: 2em; font-weight: bold;/*line-height: 1.2;*/}
 	.topbanner u {
 		color: #AD0808;
 	}
@@ -273,9 +273,39 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 
 
 
+<script>
+	<?php if ($detect->isMobile()) { ?>
+	$(document).ready(function() {
+		$('#popupTimer').delay(3000).fadeIn(600);
+	});
+	<?php }else{ ?>
+	$(document).ready(function() {
+		$('#popupTimer').delay(30000).fadeIn(600);
+	});
+	<?php }; ?>
+	setInterval(function time() {
+		var d = new Date();
+		var hours = 23 - d.getHours();
+		var min = 59 - d.getMinutes();
+		if ((min + '').length == 1) {
+			min = '0' + min;
+		}
+		var sec = 59 - d.getSeconds();
+		if ((sec + '').length == 1) {
+			sec = '0' + sec;
+		}
+		jQuery('#the-countdown').html(hours + ' Hours ' + min + ' Minutes ' + sec + ' Seconds')
+	}, 1000);
+</script>
+
 </div>
 </div>
 
+<div class="container-fluid " id="popupTimer">
+	<span class="col-xs-12 text-center">
+		<p style="font-size:26px;margin-bottom: 0">Free Food Offer Ends In <span id="the-countdown"></span></p>
+</div>
+</div>
 <div class="container-fluid" style="background-color: #f7f7f7">
 	<div class="row">
 		<div class="col-xs-12 text-center" style="padding: 6px 0;">
@@ -285,10 +315,34 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 	<hr class="short">
 </div>
 
+<?php if ($detect->isMobile()) { ?>
+	<div class="container-fluid">
+		<div class="row" style="background-color: #efefef">
+			<div class="container"
+			<div class="col-sm-12" style="padding: 35px;">
+				<img class="img-responsive pull-right" style="margin: 0 0 20px 20px;" src="/media/images/f4p/f4p-food-table-01.jpg" width="350" height="221" alt="Food4Patriots 72 Food Kit Meals">
+				<p>There&rsquo;s a lot going on in the world to be concerned about – terrorist attacks, earthquakes, tornadoes, economic unrest, and so much more. You owe it to your family to prepare now for uncertain days ahead.</p>
+				<p>For sure, no one knows where the next crisis will hit… or when. But when it does hit, finding food could be near-impossible as stores are quickly sold out or have their shelves stripped bare by hungry mobs.</p>
+				<p>You don&rsquo;t want your family standing in line with thousands of desperate strangers like those poor folks had to in Hurricane Katrina – or be forced to dig through dumpsters like New Yorkers did during Superstorm Sandy. You owe it to them to make sure they&rsquo;ll have all the food they need when they need it… no matter what.</p>
+				<p>A free Food 4Patriots 72-hour survival food kit is the ideal way to get started on or add to a survival food stockpile. The regular price is $27.00 plus shipping. But right now it&rsquo;s yours FREE. All we ask is you help cover the low shipping and handling cost.</p>
+				<img class="img-responsive pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
+				<p>Every 72-hour kit contains four servings each of such familiar dishes as Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and the American favorite – Granny&rsquo;s Homestyle Potato Soup. Our survival foods contain no harmful chemicals, GMOs or added MSG. and are prepared with award-winning recipes, so they&rsquo;re loaded with flavor!</p>
+				<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
+				<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. Tell us where to ship your free food below now! </p>
+			</div>
+		</div>
+	</div>
+<?php }; ?>
+
 <div class="container-main">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-7 nopaddinglg nomargin">
+				<div class="row">
+					<div class="col-sm-12 col-lg-12 nopadding">
+						<img src="/assets/images/logo-small.png" width="384" height="103" alt="food4patriots" class="img-responsive center-block" style="max-width: 286px;">
+					</div>
+				</div>
 				<div class="row ">
 					<div id="vsl" class="col-lg-12 text-center center-block hidden-xs">
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
@@ -296,14 +350,8 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-12 col-lg-12 nopadding">
-						<img src="/assets/images/logo-small.png" width="384" height="103" alt="food4patriots" class="img-responsive center-block" style="max-width: 286px;">
-					</div>
-				</div>
-				<div class="row">
 					<div class="col-sm-12">
 						<div class="text-center center-block" style="max-width: 85%; line-height: 1.3;padding: 5px 0;">This isn&rsquo;t ordinary food... this is delicious, nutritious, good for 25 years &ldquo;super survival food&rdquo; that could literally save your life in a disaster. And today only it’s yours FREE!</div>
-
 					</div>
 				</div>
 				<div class="row center-block" style="margin: 15px 0;">
@@ -320,7 +368,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 				<div class="clearfix"></div>
 				<div class="row">
 					<div class="col-sm-12">
-						<img src="/assets/images/checkout/satisfaction-seal-03.jpg" alt="Frank" width="99" height="84" class="img-responsive pull-left">
+						<img src="/assets/images/checkout/satisfaction-seal-03.jpg" alt="Frank" width="99" height="84" class="img-responsive pull-left media">
 						<p class="guarantee-text text-center"><strong>365-Day Full Money Back Guarantee</strong> – If at any time during the next year – for any reason – you are not satisfied with your Food4Patriots survival food, simply return it for a full refund.</p>
 					</div>
 				</div>
@@ -364,6 +412,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 	</div>
 </div>
 
+<?php if (!$detect->isMobile()) {?>
 <div class="container-fluid">
 	<div class="row" style="background-color:#0058a2;">
 		<div class="col-sm-12">
@@ -388,6 +437,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 		</div>
 	</div>
 </div>
+<?php }; ?>
 
 <div class="container-fluid" style="background-color: #F8F8F8;border: 1px solid #EFEFEF;">
 	<div class="container">
