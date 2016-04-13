@@ -32,6 +32,9 @@ function grayOut(){
 var ldiv = document.getElementById('LoadingDiv');
 ldiv.style.display='block';
 }
+$('.ignore-gray-out').click(function(){
+	window.onbeforeunload = function() { setTimeout(function() { window.onbeforeunload = grayOut; }, 1000); };
+});
 </script>
 <?php } ?>
 <?php
