@@ -111,7 +111,7 @@
 		<!-- JS Implementing Plugins -->
 		<script src="/assets/js/jquery.validate.min.js"></script>
 		<!-- JS Page Level -->
-		<script type="text/javascript" src="/assets/js/validation.js"></script>
+		<script type="text/javascript" src="/js/validation-jv-71-t.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
 				Validation.initValidation();
@@ -238,58 +238,7 @@
 							<div class="form-group col-sm-6 col-xs-6 col-md-6">
 								<label for="shipping-state" id="shipping-state-label">State:</label>
 								<select disabled class="form-control tex" id="shipping-state" name="shipping-state"  onchange="setStateTax();">
-									<option value="" selected="selected">Select State</option>
-									<option value="AK">AK</option>
-									<option value="AL">AL</option>
-									<option value="AR">AR</option>
-									<option value="AZ">AZ</option>
-									<option value="CA">CA</option>
-									<option value="CO">CO</option>
-									<option value="CT">CT</option>
-									<option value="DC">DC</option>
-									<option value="DE">DE</option>
-									<option value="FL">FL</option>
-									<option value="GA">GA</option>
-									<option value="HI">HI</option>
-									<option value="IA">IA</option>
-									<option value="ID">ID</option>
-									<option value="IL">IL</option>
-									<option value="IN">IN</option>
-									<option value="KS">KS</option>
-									<option value="KY">KY</option>
-									<option value="LA">LA</option>
-									<option value="MA">MA</option>
-									<option value="MD">MD</option>
-									<option value="ME">ME</option>
-									<option value="MI">MI</option>
-									<option value="MN">MN</option>
-									<option value="MO">MO</option>
-									<option value="MS">MS</option>
-									<option value="MT">MT</option>
-									<option value="NC">NC</option>
-									<option value="ND">ND</option>
-									<option value="NE">NE</option>
-									<option value="NH">NH</option>
-									<option value="NJ">NJ</option>
-									<option value="NM">NM</option>
-									<option value="NV">NV</option>
-									<option value="NY">NY</option>
-									<option value="OH">OH</option>
-									<option value="OK">OK</option>
-									<option value="OR">OR</option>
-									<option value="PA">PA</option>
-									<option value="RI">RI</option>
-									<option value="SC">SC</option>
-									<option value="SD">SD</option>
-									<option value="TN">TN</option>
-									<option value="TX">TX</option>
-									<option value="UT">UT</option>
-									<option value="VA">VA</option>
-									<option value="VT">VT</option>
-									<option value="WA">WA</option>
-									<option value="WI">WI</option>
-									<option value="WV">WV</option>
-									<option value="WY">WY</option>
+									<!--dynamically built w/ javascript-->
 								</select>
 								<input type="text" class="form-control tex" id="other-shipping-state" name="other-shipping-state" style="display:none;visibility:hidden;">
 							</div>
