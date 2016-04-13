@@ -9,6 +9,7 @@ $template["formType"] = "customerForm"; //designates that this is a form using c
 // THIS IS SET TO THE 3 MONTH KIT FOR DEFAULT
 $_SESSION['productId'] = 17; //please keep as an integer
 $_SESSION['quantity'] = 1;
+$maxQuantity = 1;
 include_once("Product.php");
 
 
