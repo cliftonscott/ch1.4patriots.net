@@ -240,7 +240,7 @@
 								<select disabled class="form-control tex" id="shipping-state" name="shipping-state"  onchange="setStateTax();">
 									<!--dynamically built w/ javascript-->
 								</select>
-								<input type="text" class="form-control" id="other-shipping-state" name="other-shipping-state" style="display:none;visibility:hidden;">
+								<input type="text" class="form-control tex" id="other-shipping-state" name="other-shipping-state" style="display:none;visibility:hidden;">
 							</div>
 						</div>
 						<div class="form-group col-sm-6 col-xs-6 col-md-6">
