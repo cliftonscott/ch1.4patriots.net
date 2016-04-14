@@ -460,7 +460,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 			<div>
 				<div>
 					<h3 class="darkRed text-center">Bonus #7: 72 Hour Survival Food Kit (a $27 value): </h3>
-					<img src="/media/images/ppg/ppg-product-72hrkit-01.jpg"  class="img-responsive center-block margin-b-10">
+					<img src="/media/images/ppg/f4p-72hr-food-line-700x174.jpg"  class="img-responsive center-block margin-b-10">
 					<p>You&rsquo;ll get<strong> </strong>a 72-hour emergency food kit packed in airtight packaging that&rsquo;s rated for 25 years of storage. That is 16 full servings of survival food, 3 days of complete meals. These meals are delicious, nutritious, easy to prepare and can literally save your life in a crisis.</p>
 				</div>
 				<div class="clearfix"></div>
