@@ -280,7 +280,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 	});
 	<?php }else{ ?>
 	$(document).ready(function() {
-		$('#popupTimer').delay(30000).fadeIn(600);
+		$('#popupTimer').delay(28000).fadeIn(600);
 	});
 	<?php }; ?>
 	setInterval(function time() {
@@ -294,7 +294,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 		if ((sec + '').length == 1) {
 			sec = '0' + sec;
 		}
-		jQuery('#the-countdown').html(hours + ' Hours ' + min + ' Minutes ' + sec + ' Seconds')
+		jQuery('#the-countdown').html( hours + ' Hours ' + min + ' Minutes ' + sec + ' Seconds')
 	}, 1000);
 </script>
 
@@ -303,7 +303,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 
 <div class="container-fluid " id="popupTimer">
 	<span class="col-xs-12 text-center">
-		<p style="font-size:26px;margin-bottom: 0">Free Food Offer Ends In <span id="the-countdown"></span></p>
+		<p style="font-size:26px;margin-bottom: 0"><span class="hidden-xs">Only Guaranteed For The Next...</span><br class="hidden-xl hidden-lg hidden-xs"> <span id="the-countdown"></span></p>
 </div>
 </div>
 <div class="container-fluid" style="background-color: #f7f7f7">
@@ -328,7 +328,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 				<img class="img-responsive pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
 				<p>Every 72-hour kit contains four servings each of such familiar dishes as Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and the American favorite – Granny&rsquo;s Homestyle Potato Soup. Our survival foods contain no harmful chemicals, GMOs or added MSG. and are prepared with award-winning recipes, so they&rsquo;re loaded with flavor!</p>
 				<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
-				<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. Tell us where to ship your free food below now! </p>
+				<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. We may not be able to keep this page up for long - in fact, we’re only guaranteeing this deal will still be available through midnight tonight. Tell us where to ship your free food below now! </p>
 			</div>
 		</div>
 	</div>
@@ -430,7 +430,7 @@ $submitButtonSource = "/assets/images/buttons/btn-orange-click-continue-03.jpg";
 			<img class="img-responsive pull-left" src="/media/images/f4p/f4p-72-hour-kit-03.jpg" width="400" height="256" alt="Food4Patriots 72 Food Kit Packets">
 			<p>Every 72-hour kit contains four servings each of such familiar dishes as Liberty Bell Potato Cheddar Soup, Blue Ribbon Creamy Chicken Rice, Travelers Stew, and the American favorite – Granny&rsquo;s Homestyle Potato Soup. Our survival foods contain no harmful chemicals, GMOs or added MSG. and are prepared with award-winning recipes, so they&rsquo;re loaded with flavor!</p>
 			<p>Thanks to advanced Mylar packaging, all our foods are guaranteed to taste as good in 25 years as they do today. You can enjoy your FREE survival food tonight… or 25 years from now! While others are searching for whatever food they can find, your family can be enjoying meals much like those they&rsquo;re eating now.</p>
-			<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment. Click the big button below now! </p>
+			<p>Giving away survival food for free has never been done before. And the response to this offer has been overwhelming! Our supply of 72-hour kits that we can give away is rapidly disappearing, so fast action is absolutely necessary to avoid disappointment.We may not be able to keep this page up for long - in fact, we’re only guaranteeing this deal will still be available through midnight tonight. Click the big button below now! </p>
 			<div class="text-center margin-b-10">
 				<button class="btn-3" onclick="$('#firstName').focus();hideVSL();">YES... I Want My FREE Survival Food Kit!</button>
 			</div>
