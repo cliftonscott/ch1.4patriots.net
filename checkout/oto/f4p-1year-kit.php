@@ -26,6 +26,13 @@ include_once("agile/template-top.php");
 $funnelData = $productObj->initFunnel("F4P-OTO#3-1A3-F4P-1YK");
 $declineUrl = url($funnelData["declineUrl"]);
 
+/*JV-78 DESKTOP OTO EXIT POP 4/14/16*/
+if (JV::in("78-pop")) {
+	$_SESSION['templateVariation'] = '';
+}else {
+	$_SESSION['templateVariation'] = 'np';
+};
+
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 
