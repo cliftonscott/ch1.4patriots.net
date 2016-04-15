@@ -15,8 +15,11 @@ if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true)
 	dataLayer = [];
 	dataLayer.push({
 		<?php if($testTran != true) { echo JV::getGoogleAnalyticsData(); }?>
-		<?php if(JV::in("78-pop")): /*JV-78 DESKTOP EXIT POP */?>
+		<?php if(JV::in("78-pop")) : /*JV-78 DESKTOP EXIT POP */?>
 		'ExitPop': 'true',
+		<?php elseif(!JV::in("78-pop")): ?>
+		'ExitPop': 'false',
+		<?php else : ?>
 		<?php endif ?>
 		<?php if(!empty($googleTransaction["customerId"])) { ?>
 		<?php if($testTran === true) { echo "/*"; }?>
