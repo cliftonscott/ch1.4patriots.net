@@ -17,8 +17,6 @@ if(isset($googleTransaction["isTest"]) && $googleTransaction["isTest"] === true)
 		<?php if($testTran != true) { echo JV::getGoogleAnalyticsData(); }?>
 		<?php if(JV::in("78-pop")): /*JV-78 DESKTOP EXIT POP */?>
 		'ExitPop': 'true',
-		<?php else: ?>
-		'ExitPop': 'false',
 		<?php endif ?>
 		<?php if(!empty($googleTransaction["customerId"])) { ?>
 		<?php if($testTran === true) { echo "/*"; }?>
