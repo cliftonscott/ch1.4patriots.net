@@ -12,7 +12,7 @@ include_once "MobileDetect.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.4.1
+ * @version 1.4.2
  *
  * Class JavelinApi
  */
@@ -59,7 +59,7 @@ class JavelinApi {
 	 * @var array
 	 */
 	static $urls = array(
-		'dev' 			=> 'http://bf.dash01.4patriots.net/api/javelin/variation',
+		'dev' 			=> 'http://stage.dash.4patriots.net/api/javelin/variation',
 		'stage' 		=> 'http://stage.dash.4patriots.net/api/javelin/variation',
 		'production' 	=> 'http://dashboard.4patriots.com/api/javelin/variation'
 	);
@@ -71,7 +71,7 @@ class JavelinApi {
 	 * @var array
 	 */
 	static $apiTokens = array(
-		'dev' 			=> 'zTwf7rCxSkFLGf7X',
+		'dev' 			=> 'S2tEScyt4tWRxhAf',
 		'stage' 		=> 'S2tEScyt4tWRxhAf',
 		'production' 	=> '6PRsVdNQFffJckVY'
 	);
@@ -216,20 +216,19 @@ class JavelinApi {
 		// Attempt to decode the JSON data from the Javelin API.
 		$data = $instance->getAnalytics();
 
-		// Return empty content if no GA data is available for
-		// the current visitor.
+		// Enforce an array for our participation data.
+		// Unset indexes will be checked for and handled below.
 		if (! is_array($data)) {
-			return "";
+			$data = [];
 		}
 
-		// Iterate over each variation the current visitor
-		// is participating in, building a JS code string that
-		// can be printed into the GA data layer push call.
-		$dimension = 1;
+		// Always report all three custom Javelin GA dimensions,
+		// with an empty string for unused dimensions.
 		$string = "";
-		foreach ($data as $variation) {
-			$string .= "'jv$dimension': '$variation',";
-			$dimension++;
+		for ($i = 1; $i <= 3; $i++) {
+			$variation = isset($data[$i]) ? $data[$i] : "";
+			$string .= "'jv$i': '$variation',";
+			$i++;
 		}
 
 		// Return the constructed JS code string.
@@ -719,7 +718,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.4.1
+ * @version 1.4.2
  *
  * Class JV
  */
