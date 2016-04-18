@@ -141,9 +141,14 @@ class Limelight {
 
 			if($productDataObj->isBonus !== TRUE) {
 
-				$_SESSION["orders"][] = $productDataObj->metaTitle . " - Ref. #" . $resultsArray["orderId"];
 				$_SESSION['vwoRevenue'] = $_SESSION['vwoRevenue'] + $productDataObj->netRevenueEach;
 				$_SESSION["purchasedIds"][] = $productDataObj->productId;
+
+				//create order detail session entry
+				$orderDetail["orderId"] = $resultsArray["orderId"];
+				$orderDetail["productId"] = $productDataObj->productId;
+				$orderDetail["productName"] = $productDataObj->metaTitle;
+				$_SESSION["orders"][] = $orderDetail;
 
 				//create specific session array for google posting w/ecommerce on next page
 				$_SESSION["googleTransaction"]["customerId"] = $resultsArray['customerId'];

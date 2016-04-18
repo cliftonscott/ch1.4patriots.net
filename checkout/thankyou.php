@@ -81,7 +81,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				echo "<h2 class='darkRed'>Your Order</h2>\n";
 				echo "<ul>\n";
 				foreach($_SESSION["orders"] as $orderNumber) {
-					echo "<li>" . $orderNumber . "</li>\n";
+					echo "<li>" . $orderNumber["productName"] . " (#" . $orderNumber["orderId"] . ")</li>\n";
 				}
 				echo "</ul>\n";
 				echo "<h2 class='darkRed'>Shipping To</h2>\n";
