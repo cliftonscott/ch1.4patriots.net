@@ -91,7 +91,7 @@ class Limelight {
 
 		//set OPT value (development tracking vals)
 		$opt = $analyticsObj->serverId;
-		$opt.= "::" . session_id();
+		$opt.= "::" . getenv("APP_NAME") . '::' . session_id();
 		$limelightParams["OPT"] = $opt;
 
 
