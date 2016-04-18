@@ -12,7 +12,7 @@ include_once "MobileDetect.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.4.0
+ * @version 1.4.1
  *
  * Class JavelinApi
  */
@@ -172,6 +172,33 @@ class JavelinApi {
 
 		// Otherwise, return false.
 		return false;
+	}
+
+	/**
+	 * Get a comma-separated flat list of the variation
+	 * titles that the current visitor is participating in.
+	 *
+	 * Example: "W4P-PRE-35:V1,W4P-PRE-36:Control"
+	 *
+	 * @return string|null
+	 */
+	public static function getParticipationList()
+	{
+		// Load the singleton if required.
+		$instance = self::getInstance();
+
+		// Attempt to decode the JSON data from the Javelin API.
+		$data = $instance->getAnalytics();
+
+		// Return empty content if no participation data is available for
+		// the current visitor.
+		if (! is_array($data)) {
+			return "";
+		}
+
+		// Return a comma-separated list of the variation names
+		// the current visitor is participatiing in.
+		return implode(",", $data);
 	}
 
 	/**
@@ -692,7 +719,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.4.0
+ * @version 1.4.1
  *
  * Class JV
  */
@@ -717,6 +744,16 @@ class JV {
 	static function in($string)
 	{
 		return JavelinApi::in($string);
+	}
+
+	/**
+	 * @see JavelinApi::getParticipationList()
+	 *
+	 * @return string|null
+	 */
+	static function getParticipationList()
+	{
+		return JavelinApi::getParticipationList();
 	}
 
 	/**

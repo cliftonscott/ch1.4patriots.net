@@ -1,37 +1,40 @@
 <?php
 /**
  * Order Processing utilities
- * 
- * 
+ *
+ *
  * @author Brian Gibbins
  * @copyright 2014
  * @see http://en.wikipedia.org/wiki/PHPDoc
+ *
+ * @version 1.1
  */
 class Limelight {
-	
+
 	static $appMessagesAry = array();
 	static $appErrorsAry = array();
-	
+
 	const USERNAME = "secure.food4patriots.com";
 	const PASSWORD = "yuTHYcxrVszGKg";
 	const URL = "https://www.securecart1.com/admin/transact.php";
 	const LOOKUP_URL = "https://www.securecart1.com/admin/membership.php";
-	
+
 	public function __construct() {
-		
+
 	}
-	
+
 	function postSale($saleDataObj, $productDataObj, $analyticsObj) {
 
+		include_once("JavelinApi.php");
 		include_once("Customer.php");
 		$customerObj = new Customer();
 		$customerDataObj = $customerObj->getStoredCustomer();
-		
+
 		$postSale = new stdClass();
-		
+
 		//TODO error check that these values are objects
 		//TODO be sure and add custom pricing
-		
+
 		$limelightParams = array(
 			'username' => self::USERNAME,
 			'password' => self::PASSWORD,
@@ -39,25 +42,25 @@ class Limelight {
 			'tranType' => 'Sale',
 
 			'ipAddress' => self::getIpAddress(),
-			
+
 			'click_id' => $analyticsObj->clickId,
 			'product_qty_' . $productDataObj->productId => $saleDataObj->quantity,
-			'C1' => $analyticsObj->sspData,
+			'C1' => JV::getParticipationList(),
 			'C2' => $analyticsObj->subId2,
-			'C3' => $productDataObj->netRevenueEach * $saleDataObj->quantity,
+			'C3' => $productDataObj->netRevenueEach,
 
 			'productId' => $productDataObj->productId,
 			'campaignId' => $productDataObj->campaignId,
-			
+
 			'email' => $customerDataObj->email,
 			'firstName' => $customerDataObj->firstName,
 			'lastName' => $customerDataObj->lastName,
-			
+
 			'creditCardType' => $customerDataObj->creditCardType,
 			'creditCardNumber' => $customerDataObj->creditCardNumber,
 			'expirationDate' => $customerDataObj->expirationDate,
 			'CVV' => $customerDataObj->cvv,
-			
+
 			'billingAddress1' => $customerDataObj->billingAddress1,
 			'billingCity' => $customerDataObj->billingCity,
 			'billingState' => $customerDataObj->billingState,
@@ -73,7 +76,7 @@ class Limelight {
 		);
 
 		$limelightParams["shippingId"] = self::getShippingId($productDataObj, $customerDataObj);
-		
+
 		//override phone because we don't require it on the front end
 		if(!empty($customerDataObj->phone)) {
 			$limelightParams["phone"] = $customerDataObj->phone;
@@ -85,14 +88,7 @@ class Limelight {
 		if($productDataObj->isCustomPrice === true) {
 			$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $productDataObj->price;
 		}
-		include_once("Product.php");
-		$productObj = new Product();
-		if($funnel = $productObj->getFunnel()) {
-			$funnelData = $productObj->initFunnel($funnel["step"]);
-			if($funnelData["customPrice"]) {
-				$limelightParams["dynamic_product_price_" . $productDataObj->productId] = $funnelData["customPrice"];
-			}
-		}
+
 		//set OPT value (development tracking vals)
 		$opt = $analyticsObj->serverId;
 		$opt.= "::" . session_id();
@@ -113,27 +109,27 @@ class Limelight {
 			$limelightParams['AFID'] = $analyticsObj->affiliateId;
 		} else {
 			$limelightParams['AFID'] = "EMPTY";
-//			include_once("Dblog.php");
-//			$dblog = Dblog::setDblog("EMPTY","AFID");
 		}
+
+
 
 
 		//doCurl call
 		$configObj = new stdClass();
 		$configObj->url = self::URL;
 		$configObj->fields = $limelightParams;
-		
+
 		include_once("Curl.php");
 		$curl = new Curl();
-		
+
 		$postResults = $curl->doCurl($configObj);
 		$resultsString = urldecode($postResults->results);
 		$postSale->serverResponse = $resultsString;
 		parse_str($resultsString, $resultsArray);
-		
+
 		$postSale->responseCode = intval($resultsArray["responseCode"]);
 		//check results string
-		
+
 		if(intval($resultsArray["responseCode"]) !== 100) {
 			$postSale->success = FALSE;
 			$postSale->errorMessage = $resultsArray["errorMessage"];
@@ -142,7 +138,7 @@ class Limelight {
 			$postSale->success = TRUE;
 			$postSale->customerId = $resultsArray["customerId"];
 			$postSale->orderId = $resultsArray["orderId"];
-			
+
 			if($productDataObj->isBonus !== TRUE) {
 
 				$_SESSION["orders"][] = $productDataObj->metaTitle . " - Ref. #" . $resultsArray["orderId"];
@@ -162,18 +158,19 @@ class Limelight {
 				$_SESSION["googleTransaction"]["orderSku"] = $productDataObj->googleProductSku;
 				$_SESSION["googleTransaction"]["orderCategory"] = $productDataObj->googleProductCategory;
 				$_SESSION["googleTransaction"]["isTest"] = $customerDataObj->isTest;
+
 			}
-			
+
 
 		}
 
 
 		return $postSale;
-		
+
 	}
 
 	function getShippingId($productDataObj, $customerDataObj) {
-		
+
 		switch($customerDataObj->billingCountry) {
 			case "US":
 				$shippingId = $productDataObj->shippingIdDomestic;
@@ -182,52 +179,52 @@ class Limelight {
 				$shippingId = $productDataObj->shippingIdInternational;
 				break;
 		}
-		
+
 		return $shippingId;
-		
+
 	}
-	
+
 	function getIpAddress() {
-		
-		if (isset($_SERVER["REMOTE_ADDR"])) { 
-			$ipAddress = $_SERVER["REMOTE_ADDR"]; 
-			
-		} else if (isset($_SERVER["HTTP_X_FORWARDED_FOR"])) { 
-			$ipAddress = $_SERVER["HTTP_X_FORWARDED_FOR"]; 
-			
-		} else if (isset($_SERVER["HTTP_CLIENT_IP"])) { 
-			$ipAddress = $_SERVER["HTTP_CLIENT_IP"]; 
-			
+
+		if (isset($_SERVER["REMOTE_ADDR"])) {
+			$ipAddress = $_SERVER["REMOTE_ADDR"];
+
+		} else if (isset($_SERVER["HTTP_X_FORWARDED_FOR"])) {
+			$ipAddress = $_SERVER["HTTP_X_FORWARDED_FOR"];
+
+		} else if (isset($_SERVER["HTTP_CLIENT_IP"])) {
+			$ipAddress = $_SERVER["HTTP_CLIENT_IP"];
+
 		} else {
 			$ipAddress = '127.0.0.1';
 		}
-		
-		return $ipAddress;	
+
+		return $ipAddress;
 	}
 
 	function getCustomerByEmail($email) {
-		
+
 		//make sure there are not spaces at the beginning or end
 		$email = trim($email);
-		
+
 		//make sure this isn't submitted blank
 		if(empty($email)) {
 			return false;
-		}		
-		
+		}
+
 		//urldecode		
 		$email = urldecode($email);
-		
+
 		//remove wildcard characters from search
 		$email = str_replace("%", "", $email);
-		
+
 		$customerDataObj = new stdClass();
-		
+
 		$fromDate = date('m/d/Y', strtotime("-2 year"));
 		$toDate = date('m/d/Y');
 		$criteria = "";
 		$campaignId = "";
-		
+
 		$lookupParms = array(
 			'username' => self::USERNAME,
 			'password' => self::PASSWORD,
@@ -239,7 +236,7 @@ class Limelight {
 			'campaign_id' => "all",
 			'return_type' => 'order_view'
 		);
-		
+
 		//doCurl call
 		$configObj = new stdClass();
 		$configObj->url = self::LOOKUP_URL;
@@ -247,42 +244,42 @@ class Limelight {
 		include_once("State.php");
 		include_once("Curl.php");
 		$curl = new Curl();
-		
+
 		$postResults = $curl->doCurl($configObj);
-		
+
 		parse_str($postResults->results, $order_response_string_as_array);
-		
+
 		$json_orders = json_decode(stripslashes($order_response_string_as_array['data']), true);
 		krsort($json_orders);
 		$order_id = key($json_orders);
-		
+
 		$customerDataObj->firstName = $json_orders[$order_id]["first_name"];
 		$customerDataObj->lastName = $json_orders[$order_id]["last_name"];
 		$customerDataObj->email = $email;
-		
+
 		$customerDataObj->billingAddress1 = $json_orders[$order_id]["billing_street_address"];
 		$customerDataObj->billingCity = $json_orders[$order_id]["billing_city"];
 		$customerDataObj->billingCountry = $json_orders[$order_id]["billing_country"];
 		$customerDataObj->billingState = $json_orders[$order_id]["billing_state"];
 		$customerDataObj->billingStateName = State::getStateNameByAbbreviation($json_orders[$order_id]["billing_state"]);
 		$customerDataObj->billingZip = $json_orders[$order_id]["billing_postcode"];
-		
+
 		$customerDataObj->shippingAddress1 = $json_orders[$order_id]["shipping_street_address"];
 		$customerDataObj->shippingCity = $json_orders[$order_id]["shipping_city"];
 		$customerDataObj->shippingState = $json_orders[$order_id]["shipping_state"];
 		$customerDataObj->shippingStateName = State::getStateNameByAbbreviation($json_orders[$order_id]["shipping_state"]);
 		$customerDataObj->shippingZip = $json_orders[$order_id]["shipping_postcode"];
 		$customerDataObj->shippingCountry = $json_orders[$order_id]["shipping_country"];
-		
+
 		$customerDataObj->ccLast4 = $json_orders[$order_id]["cc_number"];
-		
+
 		$customerDataObj->previousOrderId = $order_id;
 
 		return $customerDataObj;
-		
+
 	}
-	
-		
+
+
 //ERROR AND MESSAGE HANDLING
 	function setMessage($msg) {
 		$message = array("timestamp" => microtime(), "message" => $msg);
