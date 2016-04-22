@@ -64,9 +64,9 @@ if(!empty($customerDataObj->shippingCity)) {
 
 	<title>4Patriots | Free + Shipping</title>
 
-	<meta name='description' content=''>
-	<meta name='keywords' content=''>
-	<meta name="generator" content="" />
+	<?php echo $metaDataObj->title;?>
+	<?php echo $metaDataObj->description;?>
+	<?php echo $metaDataObj->keywords;?>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -74,7 +74,6 @@ if(!empty($customerDataObj->shippingCity)) {
 	<link rel="shortcut icon" href="">
 	<link href="/assets/css/styles-content-t.css" rel="stylesheet">
 	<link href="/assets/css/styles-t.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="/assets/css/ie10-t.css" media="screen, projection"/><![endif]-->
 
 	<link href='//fonts.googleapis.com/css?family=Allerta+Stencil' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
@@ -82,18 +81,20 @@ if(!empty($customerDataObj->shippingCity)) {
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,600,300,800' rel='stylesheet' type='text/css'>
 
-	<script type="text/javascript" src="/assets/js/html5shiv.js"></script>
-	<script type="text/javascript" src="/assets/js/respond.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	<script src="/assets/js/common/bootstrap.min.js"></script>
 	<script src="/assets/js/modernizr-2.5.2.js" type="text/javascript"></script>
 	<script src="/assets/js/jquery.easing.min.js"></script>
 	<script src="/assets/js/scrolling-nav.js"></script>
-	<script src="<?php echo $REQUEST_PROTOCOL;?>://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-	<script src="/assets/js/common/bootstrap.min.js"></script>
 	<script src="/js/patriot.js"></script>
-
 	<script src='/js/checkout-states-jv-71-t.js'></script>
+
+	<?php if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) { ?>
+		<script src="<?php echo $REQUEST_PROTOCOL;?>://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" type="text/css" href="/assets/css/ie10-t.css" media="screen, projection"/>
+		<script type="text/javascript" src="/assets/js/html5shiv.js"></script>
+		<script type="text/javascript" src="/assets/js/respond.min.js"></script>
+	<?php } ?>
 
 	<script>
 		setInterval(function time() {
@@ -735,25 +736,6 @@ if(!empty($customerDataObj->shippingCity)) {
 			</div>
 		</div>
 		<?php include_once ('footer.php'); ?>
-		<!--<script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
-		      f[z]=function(){
-		         (a.s=a.s||[]).push(arguments)};var a=f[z]._={
-		      },q=c.methods.length;while(q--){(function(n){f[z][n]=function(){
-		         f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={
-		         0:+new Date};a.P=function(u){
-		         a.p[u]=new Date-a.p[0]};function s(){
-		         a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){
-		         hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){
-		         return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){
-		         b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{
-		         b.contentWindow[g].open()}catch(w){
-		         c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{
-		         var t=b.contentWindow[g];t.write(p());t.close()}catch(x){
-		         b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({
-		      loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
-		   /* custom configuration goes here (www.olark.com/documentation) */
-		   olark.identify('2445-700-10-6057');/*]]>*/</script><noscript><a href="https://www.olark.com/site/2445-700-10-6057/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
-		end olark code -->
 		<script>
 			function showCsrModal() {
 				$('#csrModal').modal('show');

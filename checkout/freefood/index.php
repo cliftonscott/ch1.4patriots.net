@@ -40,10 +40,14 @@ $javelinApi = JV::load();
 if (JV::in("71-t")) {
 	include_once('content-jv-71-taylor.php');
 }elseif(JV::in("71-j")) {
-	include_once ('template-top.php');
+	// Define the current page name.
+	$page = "checkout";
+	include_once ('agile/template-top.php');
 	include_once('content-jv-71-jeremy.php');
 }else{
-	include_once ('template-top.php');
+	// Define the current page name.
+	$page = "checkout";
+	include_once ('agile/template-top.php');
 	include_once('content.php'); /*CONTROL*/
 };
 
