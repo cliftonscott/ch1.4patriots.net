@@ -50,7 +50,7 @@ echo $analyticsObj->serverId;
 -->
 
 	<?php JV::establishClickGoalService(); ?>
-
+	<?php include_once('snippets/footer_tag.php'); ?>
 	</body>
 </html>
 <?php
