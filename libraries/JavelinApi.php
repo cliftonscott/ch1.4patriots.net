@@ -228,7 +228,6 @@ class JavelinApi {
 		for ($i = 1; $i <= 3; $i++) {
 			$variation = isset($data[$i]) ? $data[$i] : "";
 			$string .= "'jv$i': '$variation',";
-			$i++;
 		}
 
 		// Return the constructed JS code string.
