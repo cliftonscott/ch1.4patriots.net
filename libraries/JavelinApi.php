@@ -226,7 +226,7 @@ class JavelinApi {
 		// with an empty string for unused dimensions.
 		$string = "";
 		for ($i = 1; $i <= 3; $i++) {
-			$variation = isset($data[$i - 1]) ? $data[$i - 1] : "";
+			$variation = isset($data[$i - 1]) ? $data[$i - 1] : "EMPTY";
 			$string .= "'jv$i': '$variation',";
 		}
 
