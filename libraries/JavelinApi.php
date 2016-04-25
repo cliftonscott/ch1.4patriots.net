@@ -12,7 +12,7 @@ include_once "MobileDetect.php";
  * that the class is instantiated only once per request
  * and therefore that only one API call is made per request.
  *
- * @version 1.4.2
+ * @version 1.4.2.1
  *
  * Class JavelinApi
  */
@@ -717,7 +717,7 @@ class JavelinApi {
  * for working with current Javelin participation data
  * for the current visitor.
  *
- * @version 1.4.2
+ * @version 1.4.2.1
  *
  * Class JV
  */
