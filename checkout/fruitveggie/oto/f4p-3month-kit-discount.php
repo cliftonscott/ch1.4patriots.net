@@ -163,41 +163,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 					<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-ebook-bonus-01.jpg" alt="Bonus 1" width="550" height="207" ></div>
 				</div>
 				<p>Next, I want to help you get to the next level of food independence and to do that I'm going to throw in one of my Liberty Seed Vaults.</p>
-				<div class="rcBoxR10">
-					<h2 class="darkRed text-center">FREE Liberty Seed Vault</h2>
-					<p>More than 5,640 survival seeds from 22 varieties of hardy and delicious heirloom seeds passed down from our forefathers. No GMO crap or hybrids here. Sealed in an airtight container rated for 5+ years of storage.</p>
-					<p>All the seeds are re-harvestable and can be re-grown over and over again giving you 1000's of pounds of fresh, nutrient dense food… for literally pennies per pound. Enough to last your family a lifetime.</p>
-					<p>These survival seeds are the perfect companion to your survivalfood stockpile. Some companies charge over $200 for seeds that don't even come close to the quality I'm giving you today.</p>
-					<div class="row">
-						<div class="col-sm-12 col-md-5 "><img src="/media/images/ss4p/ss4p-lsv-single-bluebg.jpg" alt="Survival Seeds" class="img-responsive center-block" /></div>
-						<div class="col-sm-12 col-md-7 center-block" style="font-size: 14px;">
-							<ul class="fa-ul" style="max-width: 350px;margin-right: auto;margin-left: auto;">
-								<li><i class="fa-li fa fa-check"></i>Blue Lake Bush Bean - over 150 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>California Wonder Bell Pepper - over 70 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Marketmore Cucumber - over 150 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Scarlet Nantes Carrot - over 800 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Parris Island Cos Romaine Lettuce - over 900 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Golden Acre Cabbage - over 530 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Detroit Dark Red Beet - over 260 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Lincoln Shell Sweet Pea - over 100 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Beefsteak Tomato - over 180 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Champion Radish - over 320 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Green Sprouting Broccoli - over 500 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Waltham Butternut Winter Squash - over 100 seeds</li>
-								<li><i class="fa-li fa fa-check"></i>Bloomsdale Long Standing Spinach - over 260 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Yellow Sweet Spanish Onion - over 145 seeds</li>
-								<li><i class="fa-li fa fa-check"></i>Black Turtle Bean – over 70 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Stowell's Evergreen Sweet Corn - over 250 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Hales Best Cantaloupe - over 70 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Snowball Cauliflower - over 285 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Black Beauty Zucchini - over 50 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Crimson Sweet Watermelon - over 60 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Dwarf Blue Curled Scotch Kale - over 250 seeds </li>
-								<li><i class="fa-li fa fa-check"></i>Pinto Bean - over 85 seeds </li>
-							</ul>
-						</div>
-					</div>
-				</div>
+				<?php include_once("f4p-seeds-whats-included.html"); ?>
 				<p>And last, but certainly not least - I'm going to send you our compact and powerful 11-in-1 survival tool. You never know what you're going to run into in a survival situation. This little tool just might save the day. Eleven full functions in a tool that will fit handily in your wallet.</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE 11-in-1 Survival Tools</h2>
