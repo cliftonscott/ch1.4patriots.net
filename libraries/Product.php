@@ -133,7 +133,7 @@ class Product {
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 0;
 				$productObj->taxable = TRUE;
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 72HKIT10DOLLAR";
 				$productObj->googleProductName = "F4P-72HRK";
 				$productObj->googleProductSku = "PID17";
@@ -158,7 +158,7 @@ class Product {
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 113.27;
 				$productObj->taxable = TRUE;
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 4WKIT";
 				$productObj->googleProductName = "F4P-4WK";
 				$productObj->googleProductSku = "PID18";
@@ -184,7 +184,7 @@ class Product {
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 227.79;
 				$productObj->taxable = TRUE;
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 3MKIT";
 				$productObj->googleProductName = "F4P-3MK";
 				$productObj->googleProductSku = "PID19";
@@ -201,7 +201,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 4WKITUP";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
@@ -232,7 +232,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/oto/f4p-1year-kit.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 3MKITUP";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
@@ -349,7 +349,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/oto/f4p-generator.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 1YRKIT";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
@@ -387,7 +387,7 @@ class Product {
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 40.45;
 				$productObj->taxable = TRUE;
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 1WKIT";
 				$productObj->googleProductName = "F4P-1WK";
 				$productObj->googleProductSku = "PID92";
@@ -404,7 +404,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, 1YRKIT3PAYMENT";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
@@ -434,7 +434,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, FVSNACK";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
@@ -703,7 +703,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/thankyou.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, F4PSuperPak";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
@@ -733,7 +733,7 @@ class Product {
 				//process file
 				$productObj->campaignId = 9;
 				$productObj->nextPage = "/checkout/protein/thankyou.php";
-				$productObj->listId = 35;
+				$productObj->listId = 133;
 				$productObj->tags = "LL, F4PMeatProteinKit";
 				$productObj->shippingIdDomestic = 30;
 				$productObj->shippingIdInternational = 6;
