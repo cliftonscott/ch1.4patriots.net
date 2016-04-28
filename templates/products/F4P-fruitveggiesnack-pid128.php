@@ -57,6 +57,20 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 			margin-bottom: 5px;
 			margin-top: 15px;
 			text-align: center;
+			background-color:white;
+			border-radius: 15px;
+		}
+		#belcher-box .timer-heading {
+			background-color:#f7f7f7;
+			color:#636363;
+			padding:5px 0 0 2px;
+			border-radius: 15px 15px 0 0;
+			font-weight: bold;
+		}
+		#belcher-box .timer-link {
+			font-size: 16px;
+			color:blue;
+			text-decoration:underline;
 		}
 		#belcher-box .timer-box a {
 			/* [disabled]text-shadow: 2px 2px #000000; */
@@ -163,7 +177,9 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 			<div class="box-title">Exclusive Offer for Food4Patriots Customers...</div>
 			<div class="box-body">
 				<div class="timer-box">
-					<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-04.jpg" width="360" height="230" alt="3 Month Food Supply">
+					<div class="timer-heading">Fruit, Veggie and Snack Mix</div>
+					<a id="fancybox-veggies" href="javascript:void();" onclick="showTimerModal();"><img src="/media/images/f4p/f4p-product-img-snack-05.jpg" alt="Fruit, Veggie and Snack Mix">
+						<div class="timer-link">Click Here For Contents And Servings</div>
 						<div id="timer">10:00</div></a>
 				</div>
 				<p><?php echo $customerDataObj->firstName;?>,
@@ -201,10 +217,12 @@ if(Customer::havePurchased($_SESSION['productId']) !== TRUE) {
 	</script>
 	<div id="timerModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg" style="width:700px;height:750px;">
-			<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-fvs-mix-details-01.jpg);background-size: 700px;background-repeat: no-repeat;background-position: bottom;">
+			<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-fvs-mix-details-01.jpg);background-size: 700px;background-repeat: no-repeat;background-position: top;">
 				<div style="text-align:center;padding:10px;width:700px;height:750px;">
 					<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
+					<div style="font-family:Impact;text-transform:uppercase;font-size:28px;">Fruit, Veggie and Snack Mix – 114 Servings, May Include:</div>
 				</div>
+
 			</div>
 		</div>
 	</div>

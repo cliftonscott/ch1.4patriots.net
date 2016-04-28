@@ -154,10 +154,13 @@ margin-top: 109px;" src="/assets/images/misc/speaker_off.gif" onclick="toggleAud
 			}
 		</script>
 		<div id="productModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-					<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;padding:10px;" onclick="hideProductModal();"></div>
-					<img class="img-responsive center-block" src="/media/images/f4p/f4p-fvs-mix-details-01.jpg">
+			<div class="modal-dialog modal-lg" style="width:700px;height:750px;">
+				<div class="modal-content" style="background-image:url(/media/images/f4p/f4p-fvs-mix-details-01.jpg);background-size: 700px;background-repeat: no-repeat;background-position: top;">
+					<div style="text-align:center;padding:10px;width:700px;height:750px;">
+						<div class="glyphicon glyphicon-remove-circle" style="float:right;cursor:pointer;" onclick="hideTimerModal();"></div>
+						<div style="font-family:Impact;text-transform:uppercase;font-size:28px;">Fruit, Veggie and Snack Mix – 114 Servings, May Include:</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
