@@ -133,7 +133,7 @@ class Product {
 				$productObj->campaignId = 9;
 				$productObj->netRevenueEach = 0;
 				$productObj->taxable = TRUE;
-				$productObj->listId = 133;
+				$productObj->listId = 118;
 				$productObj->tags = "LL, 72HKIT10DOLLAR";
 				$productObj->googleProductName = "F4P-72HRK";
 				$productObj->googleProductSku = "PID17";
