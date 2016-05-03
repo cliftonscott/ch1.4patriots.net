@@ -32,6 +32,10 @@ if($isLion) {
 	}
 }
 include_once("agile/template-top.php");
+if($customerDataObj->shippingCountry === "CA" || $customerDataObj->shippingState === "HI" || $customerDataObj->shippingState === "AK"){
+	header("Location: " . url('/checkout/thankyou.php?'));
+	exit;
+}
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
 ?>
 <script src="/js/audio.js"></script>
