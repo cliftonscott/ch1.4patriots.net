@@ -39,7 +39,7 @@ $declineUrl = url($funnelData["declineUrl"]);
 include_once("template-top.php");
 
 if($customerDataObj->shippingCountry === "CA" || $customerDataObj->shippingState === "HI" || $customerDataObj->shippingState === "AK"){
-	header("Location: " . url('/checkout/thankyou.php?'));
+	header("Location: " . url('/checkout/coffee/thankyou.php?'));
 	exit;
 }
 
