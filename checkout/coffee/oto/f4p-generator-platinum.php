@@ -35,6 +35,10 @@ $funnelData = $productObj->initFunnel("oto6");
 $declineUrl = url($funnelData["declineUrl"]);
 
 include_once("template-top.php");
+if($customerDataObj->shippingCountry === "CA" || $customerDataObj->shippingState === "HI" || $customerDataObj->shippingState === "AK"){
+	header("Location: " . url('/checkout/coffee/thankyou.php?'));
+	exit;
+}
 include_once('template-header.php'); /*Add template-header-nav.php to add top menu*/
 include_once("products/offers/f4p-generator-platinum.php");
 include_once("template-bottom.php");
