@@ -187,7 +187,6 @@
 		<div>
 			<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 			<img class="img-responsive center-block small" src="/media/images/f4p/f4p-1year-totes-bonuses-badges-700x561.jpg"  alt="Food4Patriots 1-Year Kit"/>
-you are 100
 			<div class="text-center"><h2 id="save" class="darkRed">Act Today And Save Over $1000</h2></div>
 			<a id="accept"></a>
 			<?php
