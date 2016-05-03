@@ -23,6 +23,33 @@ $funnelData = $productObj->initFunnel("F4P-OTO-MAIN-OFFER");
 $declineUrl = $funnelData["declineUrl"];
 include_once("template-top.php");
 include_once ('template-header.php'); /*Add template-header-nav.php to add top menu*/
+
+/*
+ * FFP-1435:
+ *
+ * HasOffers Postback: Food4Patriots - Free 72 Hour Kit - CPC - CID53
+ */
+if (isset($_GET["CID"]) && $_GET["CID"] === "53") {
+
+	// Use session tracking to prevent duplicate conversions when possible.
+	if (! isset($_SESSION["HASOFFERS-53-CPC-POSTED"]) || ! $_SESSION["HASOFFERS-53-CPC-POSTED"]) {
+
+		$curl = curl_init();
+
+		curl_setopt_array($curl, array(
+			CURLOPT_RETURNTRANSFER 	=> 1,
+			CURLOPT_URL 			=> 'http://trk.rebootmarketing.com/SP8R?amount=0&transaction_id=' . $_GET["click_id"],
+			CURLOPT_CONNECTTIMEOUT	=> 2,
+			CURLOPT_TIMEOUT			=> 2
+		));
+
+		$response = curl_exec($curl);
+		curl_close($curl);
+
+		$_SESSION["HASOFFERS-53-CPC-POSTED"] = true;
+	}
+}
+
 ?>
 <link rel="stylesheet" href="/assets/css/styles-freefood.css">
 <script src="/js/audio.js"></script>
