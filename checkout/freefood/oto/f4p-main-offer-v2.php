@@ -188,8 +188,8 @@ if (isset($_GET["CID"]) && $_GET["CID"] === "53") {
 				<p>And just to say thanks for ordering the 3-Month Food4Patriots Kit &ndash; I&rsquo;ll also send you a Liberty Seed Vault, which sells for $27, totally free.</p>
 				<p>This vault has more than 5,340 survival seeds from 22 varieties of hardy &amp; delicious heirloom plants passed down from our forefathers. No GMO crap or hybrids &ndash; these are cream-of-the-crop seeds sealed in heavy-duty foil envelopes and packed in an airtight storage vault &ndash; the perfect start to your survival food garden.</p>
 				<p>And you get it FREE when you add the 3-month kit to your order today.</p>
-				<img class="img-responsive pull-left img-padding-right" src="/media/images/bonuses/bonus-multi-tool-text-free.jpg" alt="">
 				<p>Plus, I&rsquo;ll also send you a handy 11-in-1 multi-tool that you can fit right in your wallet.</p>
+				<img class="img-responsive pull-left img-padding-right" src="/media/images/bonuses/bonus-multi-tool-text-free.jpg" alt="">
 				<p>Another $9.95 value&hellip; yours free when you order the 3-month kit.</p>
 				<p>Why so many kit choices? Different people come from different circumstances and I don&rsquo;t want a single person to leave here today without a chance to upgrade their food stockpile and get the peace of mind that comes with it. Protecting you and your family is not something I take lightly &ndash; and I&rsquo;ll bet you don&rsquo;t either.</p>
 				<p>Now in addition to the food kits and all the free gifts, I&rsquo;m also going to back your order with 2&nbsp;IRONCLAD guarantees so that you don&rsquo;t risk a single penny.</p>
