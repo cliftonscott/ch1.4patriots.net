@@ -50,6 +50,10 @@ if (isset($_GET["CID"]) && $_GET["CID"] === "53") {
 	}
 }
 
+if (JV::in("79-v2")) { /*JV-76 BUTTON SPLIT TEST*/
+	include("f4p-main-offer-v2.php");
+	exit();
+};
 ?>
 <link rel="stylesheet" href="/assets/css/styles-freefood.css">
 <script src="/js/audio.js"></script>
@@ -535,240 +539,117 @@ if (isset($_GET["CID"]) && $_GET["CID"] === "53") {
 			</div>
 		</div>
 	</div>
-	<?php if (JV::in("76-dropdown")) : /*JV-76 BUTTON SPLIT TEST*/ ?>
-		<div class="oto-full-width">
-			<link rel="stylesheet" href="/assets/css/bootstrap-select.min.css">
-			<script src="/assets/js/bootstrap-select.min.js"></script>
-			<style>
-				.container .bootstrap-select li {
-					margin-bottom: 5px;
-				}
-				.bootstrap-select .btn, .bootstrap-select li {
-					font-weight: bold;
-					font-size: 12pt;
-				}
-				.bootstrap-select .btn:hover, .btn:focus {
-					color: #000000;
-				}
-				@media screen and (max-width: 550px){
-					.btn-2{
-						font-size: 21px;
-					}
-			</style>
-			<script>
-				$('.selectpicker').selectpicker({
-					style: 'btn-info',
-					size: 4
-				});
-				if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-					$('.selectpicker').selectpicker('mobile');
-				}
-
-				function productChange(whichSelect){
-					selectedProductId = parseInt(whichSelect);
-					buttonPrice = document.getElementById('buttonPrice');
-					switch(selectedProductId) {
-						case 19:
-							document.getElementById('3mk').style.display = 'block';
-							document.getElementById('4wk').style.display = 'none';
-							document.getElementById('1wk').style.display = 'none';
-							buttonPrice.innerHTML = "Add To Cart - $497";
-							break;
-						case 18:
-							document.getElementById('3mk').style.display = 'none';
-							document.getElementById('4wk').style.display = 'block';
-							document.getElementById('1wk').style.display = 'none';
-							buttonPrice.innerHTML = "Add To Cart - $197";
-							break;
-						case 92:
-							document.getElementById('3mk').style.display = 'none';
-							document.getElementById('4wk').style.display = 'none';
-							document.getElementById('1wk').style.display = 'block';
-							buttonPrice.innerHTML = "Add To Cart - $67";
-							break;
-					}
-				}
-			</script>
-			<div id="order-form" style="padding:10px;">
-				<div id="3mk">
-					<div class="row nomargin">
-						<div class="col-sm-12 col-md-7 col-md-offset-0 text-center">
-							<img src="/media/images/f4p/f4p-3-month-kit-11.jpg" class="img-responsive center-block">
+	<div style="margin-top: 0;padding-top: 0" class="container content" id="order-form">
+		<div class="row margin-bottom-40 pricing-sticker">
+			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
+				<input name="productId" type="hidden" value="92">
+				<input id="taxState_92" type="hidden" value="<?php echo strtolower($billingStateName);?>">
+				<input id="productData[92]" type="hidden" value="{'productId':92,'price':67,'shipping':0}">
+				<div class="col-xs-6 col-sm-4 tables-fw">
+					<div class="pricing hover-effect">
+						<div class="pricing-head">
+							<h3>1-Week Kit<span>Includes 40 Servings</span></h3>
+							<img class="product-img" src="/media/images/f4p/f4p-1-week-kit-09.jpg">
+							<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
 						</div>
-						<div class="col-sm-12 col-md-4" style="margin: 28px 0 0;">
-							<h2 class="darkRed text-center">3-Month Supply</h2>
-							<h4 class="text-center"><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
-							<ul class="pricing-content list-unstyled" style="max-width: 300px;margin: 0 auto;">
-								<li><i class="fa fa-check"></i> <strong>Free</strong> Shipping <span></span></li>
-								<li><i class="fa fa-check"></i> <strong>Free</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs" data-original-title="" title=""><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
-								<li><i class="fa fa-check"></i> <strong>Free</strong> 4 Written Reports <a href="#info" id="reportsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs" data-original-title="" title=""><i style="color: #0c83e7" class="fa fa-info-circle"></i></a></li>
-								<li><i class="fa fa-check"></i> <strong>Free</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs" data-original-title="" title=""><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
-							</ul>
+						<ul class="pricing-content list-unstyled">
+							<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
+							<li><i class="fa fa-check"></i> $5.95 S/H ($72.95 total)</li>
+							<!--<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Product Fact<span></span></li>
+							<li><i class="fa fa-check"></i> Product Fact<span></span></li>-->
+						</ul>
+						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
+							<p>Great for a little extra peace of mind in a crisis</p>
 						</div>
+						<?php
+						if($isUpgrade) {
+							?>
+							<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
+							<?php
+						} else {
+							?>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
+							<?php
+						}
+						?>
 					</div>
 				</div>
-				<div id="4wk" style="display:none;">
-					<div class="row">
-						<div class="col-sm-12 col-md-6 col-md-offset-1 text-center">
-							<img src="/media/images/f4p/f4p-4-week-kit-08.jpg" class="img-responsive center-block">
-						</div>
-						<div class="col-sm-12 col-md-4">
-							<h2 class="darkRed text-center">4-Week Supply</h2>
-							<h4 class="text-center"><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
-							<ul class="pricing-content list-unstyled" style="max-width: 300px;margin: 0 auto;">
-								<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
-								<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div id="1wk" style="display:none;">
-					<div class="row">
-						<div class="col-sm-12 col-md-5 col-md-offset-1 text-center">
-							<img src="/media/images/f4p/f4p-1-week-kit-10.jpg" class="img-responsive center-block" style="margin: 17px 0 0;">
-						</div>
-						<div class="col-sm-12 col-md-5">
-							<h2 class="darkRed text-center">1-Week Supply</h2>
-							<h4 class="text-center"><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
-							<ul class="pricing-content list-unstyled" style="max-width: 300px;margin: 0 auto;">
-								<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
-								<li><i class="fa fa-check"></i> $5.95 S/H ($72.95 total)</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
-				<form method="post" action="<?php echo url('/checkout/process.php'); ?>" id="order-process">
-					<div class="text-center center-block">
-						<input id="taxState_92" type="hidden" value="<?php echo strtolower($billingStateName);?>">
-						<label for="productId" style="font-size: 11pt;display: block;margin: 30px 0 0">Choose Your Kit:</label>
-						<select class="selectpicker show-menu-arrow" data-width="auto" name="productId" id="productId" style="margin:20px auto;" onchange="productChange(this.value);">
-							<option value="19">3-Month Supply</option>
-							<option value="18">4-Week Supply</option>
-							<option value="92">1-Week Supply</option>
-						</select>
-						<div style="margin:0 auto;padding: 30px 0 37px 0">
-							<div class="text-center">
-								<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-	<?php else : ?>
-		<div style="margin-top: 0;padding-top: 0" class="container content" id="order-form">
-			<div class="row margin-bottom-40 pricing-sticker">
-				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process1">
-					<input name="productId" type="hidden" value="92">
-					<input id="taxState_92" type="hidden" value="<?php echo strtolower($billingStateName);?>">
-					<input id="productData[92]" type="hidden" value="{'productId':92,'price':67,'shipping':0}">
-					<div class="col-xs-6 col-sm-4 tables-fw">
-						<div class="pricing hover-effect">
+			</form>
+			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
+				<input name="productId" type="hidden" value="19">
+				<input id="taxState_19" type="hidden" value="<?php echo strtolower($billingStateName);?>">
+				<input id="productData[19]" type="hidden" value="{'productId':19,'price':497,'shipping':0}">
+				<div class="col-xs-6 col-sm-4 tables-fw">
+					<div class="hover-effect price-active">
+						<div style="box-shadow:none;border: none" class="pricing price-active">
+							<div class=" sticker-right">Value</div>
 							<div class="pricing-head">
-								<h3>1-Week Kit<span>Includes 40 Servings</span></h3>
-								<img class="product-img" src="/media/images/f4p/f4p-1-week-kit-09.jpg">
-								<h4><i>$</i>67<i>.00</i> <span>($10/day)</span></h4>
+								<h3>3-Month Kit<span>Includes 450 Servings</span></h3>
+								<img class="product-img" src="/media/images/f4p/f4p-3-month-kit-11-300x200.jpg">
+								<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
 							</div>
-							<ul class="pricing-content list-unstyled">
-								<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
-								<li><i class="fa fa-check"></i> $5.95 S/H ($72.95 total)</li>
-								<!--<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-								<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-								<li><i class="fa fa-check"></i> Product Fact<span></span></li>
-								<li><i class="fa fa-check"></i> Product Fact<span></span></li>-->
-							</ul>
-							<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-								<p>Great for a little extra peace of mind in a crisis</p>
-							</div>
-							<?php
-							if($isUpgrade) {
-								?>
-								<a class="btn-u" href="/order/92" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
-								<?php
-							} else {
-								?>
-								<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
-								<?php
-							}
-							?>
 						</div>
-					</div>
-				</form>
-				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process2">
-					<input name="productId" type="hidden" value="19">
-					<input id="taxState_19" type="hidden" value="<?php echo strtolower($billingStateName);?>">
-					<input id="productData[19]" type="hidden" value="{'productId':19,'price':497,'shipping':0}">
-					<div class="col-xs-6 col-sm-4 tables-fw">
-						<div class="hover-effect price-active">
-							<div style="box-shadow:none;border: none" class="pricing price-active">
-								<div class=" sticker-right">Value</div>
-								<div class="pricing-head">
-									<h3>3-Month Kit<span>Includes 450 Servings</span></h3>
-									<img class="product-img" src="/media/images/f4p/f4p-3-month-kit-11-300x200.jpg">
-									<h4><i>$</i>497<i>.00</i> <span>($5/day)</span></h4>
-								</div>
-							</div>
-							<ul class="pricing-content list-unstyled">
-								<li><i class="fa fa-check"></i> <strong>Free</strong> Shipping <span></span></li>
-								<li><i class="fa fa-check"></i> <strong>Free</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
-								<li><i class="fa fa-check"></i> <strong>Free</strong> 4 Written Reports <a href="#info" id="reportsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a></li>
-								<li><i class="fa fa-check"></i> <strong>Free</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
-							</ul>
-							<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-								<p>Best value deluxe kit leaving you fully prepared</p>
-							</div>
-							<?php
-							if($isUpgrade) {
-								?>
-								<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
-								<?php
-							} else {
-								?>
-								<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
-								<?php
-							}
-							?>
+						<ul class="pricing-content list-unstyled">
+							<li><i class="fa fa-check"></i> <strong>Free</strong> Shipping <span></span></li>
+							<li><i class="fa fa-check"></i> <strong>Free</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
+							<li><i class="fa fa-check"></i> <strong>Free</strong> 4 Written Reports <a href="#info" id="reportsPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a></li>
+							<li><i class="fa fa-check"></i> <strong>Free</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover"  data-placement="bottom" data-toggle="tooltip" class="tooltip-content hidden-xs"><i style="color: #0c83e7" class="fa fa-info-circle"></i></a><span></span></li>
+						</ul>
+						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
+							<p>Best value deluxe kit leaving you fully prepared</p>
 						</div>
-					</div>
-				</form>
-				<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process3">
-					<input name="productId" type="hidden" value="18">
-					<input id="taxState_18" type="hidden" value="<?php echo strtolower($billingStateName);?>">
-					<input id="productData[18]" type="hidden" value="{'productId':18,'price':197,'shipping':0}">
-					<div class="col-xs-6 col-sm-4 tables-fw">
-						<div class="pricing hover-effect">
-							<div class="pricing-head">
-								<h3>4-Week Kit<span>Includes 140 Servings</span></h3>
-								<img class="product-img" src="/media/images/f4p/f4p-1month-kit-01.jpg">
-								<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
-							</div>
-							<ul class="pricing-content list-unstyled">
-								<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
-								<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
-							</ul>
-							<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
-								<p>Optimal for covert storage and packaged for a<br class="hidden-xs"> longer crisis</p>
-							</div>
-							<?php
-							if($isUpgrade) {
-								?>
-								<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
-								<?php
-							} else {
-								?>
-								<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
-								<?php
-							}
+						<?php
+						if($isUpgrade) {
 							?>
-						</div>
+							<a class="btn-u" href="/order/19" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
+							<?php
+						} else {
+							?>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
+							<?php
+						}
+						?>
 					</div>
-				</form>
-			</div>
-			<div>
-			</div>
+				</div>
+			</form>
+			<form action="/checkout/process.php" method="post" accept-charset="utf-8" id="order-process3">
+				<input name="productId" type="hidden" value="18">
+				<input id="taxState_18" type="hidden" value="<?php echo strtolower($billingStateName);?>">
+				<input id="productData[18]" type="hidden" value="{'productId':18,'price':197,'shipping':0}">
+				<div class="col-xs-6 col-sm-4 tables-fw">
+					<div class="pricing hover-effect">
+						<div class="pricing-head">
+							<h3>4-Week Kit<span>Includes 140 Servings</span></h3>
+							<img class="product-img" src="/media/images/f4p/f4p-1month-kit-01.jpg">
+							<h4><i>$</i>197<i>.00</i> <span>($7/day)</span></h4>
+						</div>
+						<ul class="pricing-content list-unstyled">
+							<li><i class="fa fa-check"></i> Free Shipping<span></span></li>
+							<li><i class="fa fa-check"></i> Free 4 Digital Reports</li>
+						</ul>
+						<div style="line-height: 25px;padding-bottom:10px" class="pricing-footer">
+							<p>Optimal for covert storage and packaged for a<br class="hidden-xs"> longer crisis</p>
+						</div>
+						<?php
+						if($isUpgrade) {
+							?>
+							<a href="/order/18" class="btn-u"  name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</a>
+							<?php
+						} else {
+							?>
+							<button class="btn-u" name="submit" onClick=""><i class="fa fa-shopping-cart"></i> Click to Accept</button>
+							<?php
+						}
+						?>
+					</div>
+				</div>
+			</form>
 		</div>
-	<?php endif ?>
+		<div>
+		</div>
+	</div>
 
 
 	<div class=" content" >
