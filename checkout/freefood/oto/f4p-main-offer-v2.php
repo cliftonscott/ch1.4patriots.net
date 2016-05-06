@@ -136,7 +136,7 @@ if (isset($_GET["CID"]) && $_GET["CID"] === "53") {
 		</div>
 		<div class="col-md-12 margin-b-20 hidden-xs">
 			<div id="videobox">
-				<iframe src="//fast.wistia.net/embed/iframe/rznrw6fhcj" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+				<iframe src="//fast.wistia.net/embed/iframe/1xvjeubn1j?seo=false" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 				<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 			</div>
 		</div>
