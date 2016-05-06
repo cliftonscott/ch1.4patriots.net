@@ -50,7 +50,7 @@ if (isset($_GET["CID"]) && $_GET["CID"] === "53") {
 	}
 }
 
-if (JV::in("79-v2")) { /*JV-76 BUTTON SPLIT TEST*/
+if (JV::in("79-v2")) { /*JV-79 TEMPLATE SPLIT TEST*/
 	include("f4p-main-offer-v2.php");
 	exit();
 };
