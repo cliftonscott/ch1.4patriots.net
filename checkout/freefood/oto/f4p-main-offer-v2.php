@@ -49,6 +49,9 @@
 	.footer {
 		color: black;
 	}
+	ul li {
+		margin-bottom:5px;
+	}
 </style>
 <div class="container-main">
 	<div class="breadcrumb1">
@@ -156,6 +159,34 @@
 				<p>...Then&nbsp;<strong>y​ou owe it to yourself</strong>&nbsp;to add a long-term Food4Patriots survival food kit to your order right now.</p>
 				<p>Simply click the big, orange &ldquo;<strong>Click to Accept</strong>&rdquo; button below next to the kit that best suits your needs and we&rsquo;ll add it to your order.</p>
 				<p>Keep in mind, this is first come, first served and this is the only time you&rsquo;ll see this special offer.</p>
+
+
+				<img src="/media/images/f4p/f4p-3month-bonuses-veggies-totes-title-dealburst-720x560.jpg" class="center-block img-responsive">
+				<div class="row">
+					<div class="col-sm-12 col-md-5 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+							<ul>
+								<li>450 Servings <a href="#info" id="3mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Shipping</li>
+								<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-7 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>FREE Hardcopy and Digital <br class="hidden-xs" />Bonus Reports:</strong></p>
+							<ul>
+								<li>10 Items Sold Out After Crisis</li>
+								<li>Water Survival Guide</li>
+								<li>How to Cut Your Grocery Bills</li>
+								<li>Survival Garden Guide</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>
