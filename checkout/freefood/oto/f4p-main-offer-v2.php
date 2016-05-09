@@ -49,8 +49,8 @@
 	.footer {
 		color: black;
 	}
-	ul li {
-		margin-bottom:5px;
+	.summary li {
+		margin-bottom:5px!important;
 	}
 </style>
 <div class="container-main">
@@ -160,37 +160,10 @@
 				<p>Simply click the big, orange &ldquo;<strong>Click to Accept</strong>&rdquo; button below next to the kit that best suits your needs and we&rsquo;ll add it to your order.</p>
 				<p>Keep in mind, this is first come, first served and this is the only time you&rsquo;ll see this special offer.</p>
 
-
-				<img src="/media/images/f4p/f4p-3month-bonuses-veggies-totes-title-dealburst-720x560.jpg" class="center-block img-responsive">
-				<div class="row">
-					<div class="col-sm-12 col-md-5 nopadding">
-						<div class="productList">
-							<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
-							<ul>
-								<li>450 Servings <a href="#info" id="3mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-								<li><strong>FREE</strong> Shipping</li>
-								<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-								<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-7 nopadding">
-						<div class="productList">
-							<p class="text-center red17"><strong>FREE Hardcopy and Digital <br class="hidden-xs" />Bonus Reports:</strong></p>
-							<ul>
-								<li>10 Items Sold Out After Crisis</li>
-								<li>Water Survival Guide</li>
-								<li>How to Cut Your Grocery Bills</li>
-								<li>Survival Garden Guide</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-
 			</div>
 		</div>
 	</div>
-	<div class="oto-full-width">
+	<div class="container oto-width">
 		<link rel="stylesheet" href="/assets/css/bootstrap-select.min.css">
 		<script src="/assets/js/bootstrap-select.min.js"></script>
 		<style>
@@ -247,21 +220,88 @@
 			<div id="3mk">
 				<div class="row nomargin">
 					<div class="text-center">
-						<img src="/media/images/f4p/f4p-3-month-kit-11.jpg" class="img-responsive center-block">
+						<img src="/media/images/f4p/f4p-3month-bonuses-veggies-totes-title-dealburst-720x560.jpg" class="center-block img-responsive">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-5 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
+							<ul class="summary">
+								<li>450 Servings <a href="#info" id="3mkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Shipping</li>
+								<li><strong>FREE</strong> Survival Tool <a href="#info" id="toolPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Seed Vault <a href="#info" id="seedsPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-7 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>FREE Hardcopy and Digital Bonus Reports:</strong></p>
+							<ul class="summary">
+								<li>10 Items Sold Out After Crisis</li>
+								<li>Water Survival Guide</li>
+								<li>How to Cut Your Grocery Bills</li>
+								<li>Survival Garden Guide</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div id="4wk" style="display:none;">
-				<div class="row">
+				<div class="row nomargin">
 					<div class="text-center">
-						<img src="/media/images/f4p/f4p-4-week-kit-08.jpg" class="img-responsive center-block">
+						<img src="/media/images/f4p/f4p-4week-bonuses-totes-title-720x426.jpg" class="img-responsive center-block">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-5 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>4 Week Supply Includes:</strong></p>
+							<ul class="summary">
+								<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+								<li><strong>FREE</strong> Shipping</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-7 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>FREE Bonus Reports (Digital):</strong></p>
+							<ul class="summary">
+								<li>10 Items Sold Out After Crisis</li>
+								<li>Water Survival Guide</li>
+								<li>How to Cut Your Grocery Bills</li>
+								<li>Survival Garden Guide</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div id="1wk" style="display:none;">
-				<div class="row">
+				<div class="row nomargin">
 					<div class="text-center">
-						<img src="/media/images/f4p/f4p-1-week-kit-10.jpg" class="img-responsive center-block" style="margin: 17px 0 0;">
+						<img src="/media/images/f4p/f4p-1week-title-720x426.jpg" class="img-responsive center-block" style="margin: 17px 0 0;">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-5 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>1 Week Supply Includes:</strong></p>
+							<ul class="summary">
+								<li>40 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-7 nopadding">
+						<div class="productList">
+							<p class="text-center red17"><strong>FREE Bonus Reports (Digital):</strong></p>
+							<ul class="summary">
+								<li>10 Items Sold Out After Crisis</li>
+								<li>Water Survival Guide</li>
+								<li>How to Cut Your Grocery Bills</li>
+								<li>Survival Garden Guide</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -417,6 +457,36 @@
 		});
 		/* ----- Popovers---- */
 		$(document ).ready(function () {
+			$("#1wkPopover").popover({
+				html:true,
+				trigger: 'hover',
+				title:"1 Week Kit May Include:",
+				content: function() {
+					return $('#1wkt').html();
+				},
+			});
+		});
+		$(document ).ready(function () {
+			$("#4wkPopover").popover({
+				html:true,
+				trigger: 'hover',
+				title:"4 Week Kit May Include:",
+				content: function() {
+					return $('#4wkt').html();
+				},
+			});
+		});
+		$(document ).ready(function () {
+			$("#3mkPopover").popover({
+				html:true,
+				trigger: 'hover',
+				title:"3 Month Kit May Include:",
+				content: function() {
+					return $('#3mkt').html();
+				}
+			});
+		});
+		$(document ).ready(function () {
 			$("#reportsPopover").popover({
 				html:true,
 				trigger: 'hover',
@@ -507,4 +577,13 @@
 		ldiv.style.display='block';
 	}
 </script>
+<div id="1wkt" style="display:none;">
+	<?php include_once("f4p-product-info-1wk.html"); ?>
+</div>
+<div id="4wkt" style="display:none;">
+	<?php include_once("f4p-product-info-4wk.html"); ?>
+</div>
+<div id="3mkt" style="display:none;">
+	<?php include_once("f4p-product-info-3mk.html"); ?>
+</div>
 <?php include_once ("footer.php")?>
