@@ -45,7 +45,8 @@ $platform->setCsrOrderFormUrl("/checkout/fruitveggie/index.php");
 									</a>
 									<div id="chooseProductThree" class="panel-collapse collapse in">
 										<div class="panel-body">
-											<a href="#info" onclick="showProductModal()"><img src="/media/images/f4p/f4p-fvs-kit-tote-01.jpg" class="img-responsive center-block"></a>
+											<h2 class="darkRed text-center" style="letter-spacing:-1px; font-size:31px;">FRUIT, VEGGIE AND SNACK MIX</h2>
+											<a href="#info" onclick="showProductModal()"><img src="https://media.4patriots.com/images/f4p/f4p-fvs-array-tote-jars-servingburst-900x600.jpg" class="img-responsive center-block"></a>
 											<div class="nopadding">
 												<div class="row">
 													<div class="col-sm-12 text-center red17"><strong>Fruit, Veggie and Snack Mix Includes:</strong></div>

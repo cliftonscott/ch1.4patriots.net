@@ -37,7 +37,7 @@
 	<p>Well, you’re not.</p>
 
 	<h2 class="darkRed text-center">Get All the Plant Based Nutrition You Need With Food4Patriots Fruit, Veggie and Snack Mix – Wholesome, Delicious, and Good for 25 Years</h2>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-02.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="https://media.4patriots.com/images/f4p/f4p-fvs-array-tote-jars-servingburst-900x600.jpg" alt="">
 	<p>Our Fruit, Veggie and Snack Mix comes in the same re-sealable, airtight, space-age Mylar pouches and tucked inside a stackable tote you’ve come to expect with our other survival food kits.</p>
 	<p>Keep all your individual packs in the tote, or take them on the go – it’s your choice.</p>
 	<p>Compact and discreet, you can store them anywhere – your garage, basement, RV, cabin, bug-out bag, or even your car!</p>
@@ -107,7 +107,25 @@
 
 
 	<div class="margin-tb-50 center-block text-center">
-		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-03.jpg" alt="">
+		<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="https://media.4patriots.com/images/f4p/f4p-fvs-array-tote-jars-priceburst-900x600.jpg" alt="">
+		<div class="row" style="font-size:17px;text-align:left;">
+			<div class="col-md-6">
+				<ul class="fa-ul">
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>24 servings of freeze-dried corn</li>
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>16 servings of freeze-dried broccoli</li>
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>8 servings of freeze-dried blueberries</li>
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>24 servings of freeze-dried green beans</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<ul class="fa-ul">
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>16 servings of freeze-dried strawberries</li>
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>8 servings of freeze-dried pineapple</li>
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>8 servings of <span style="letter-spacing:-.3px">honey-coated banana chips</span></li>
+					<li><i class="fa-li fa fa-check" aria-hidden="true"></i>10 servings of chocolate pudding</li>
+				</ul>
+			</div>
+		</div>
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97.00</strong></a>
 	</div>
 
@@ -139,7 +157,25 @@
 	<p>I hate to be the bearer of bad news, but I just don’t know how long I’m going to be able to offer these Fruit, Veggie and Snack Mix at this low price, or even <strong><i>at all… </i></strong></p>
 	<p>Survival food supplies are vanishing before our eyes.</p>
 	<p>So claim your kit NOW by clicking the <strong>“Add to Cart”</strong> button, and have true peace of mind your loved ones WON’T starve in the coming crisis…</p>
-	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="/media/images/f4p/f4p-fvs-kit-tote-03.jpg" alt="">
+	<img class="img-responsive center-block margin-tb-20" style="width: 100%" src="https://media.4patriots.com/images/f4p/f4p-fvs-array-tote-jars-priceburst-900x600.jpg" alt="">
+	<div class="row" style="font-size:17px;text-align:left;">
+		<div class="col-md-6">
+			<ul class="fa-ul">
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>24 servings of freeze-dried corn</li>
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>16 servings of freeze-dried broccoli</li>
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>8 servings of freeze-dried blueberries</li>
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>24 servings of freeze-dried green beans</li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<ul class="fa-ul">
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>16 servings of freeze-dried strawberries</li>
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>8 servings of freeze-dried pineapple</li>
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>8 servings of <span style="letter-spacing:-.3px">honey-coated banana chips</span></li>
+				<li><i class="fa-li fa fa-check" aria-hidden="true"></i>10 servings of chocolate pudding</li>
+			</ul>
+		</div>
+	</div>
 	<div class="margin-tb-50 center-block text-center">
 		<a href="<?php echo $offerUrl; ?>"><img src="/assets/images/buttons/btn-orange-add-cart-fruitveggie.jpg" class="img-responsive center-block" alt="Add To Cart"><strong>Add to Cart - $97.00</strong></a>
 	</div>
