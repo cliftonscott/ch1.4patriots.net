@@ -25,31 +25,13 @@ $badgeInvert = true;
 		time += seconds * 1000;
 		if ($.cookie("sawbutton")) {
 			// If return visitor that saw button, show alt button
-			$("#content").oneTime(time, function() {
-				$("#content").css("display", "block");
-			});
-			$("#content2").oneTime(time, function() {
-				$("#content2").css("display", "block");
-			});
-			$("#content3").oneTime(time, function() {
-				$("#content3").css("display", "block");
-			});
-			$("#content4").oneTime(time, function() {
-				$("#content4").css("display", "block");
+			$("#buyButton").oneTime(time, function() {
+				$("#buyButton").css("display", "block");
 			});
 		} else {
 			// If visitor hasn't seen button yet, show default button
-			$("#content").oneTime(time, function() {
-				$("#content").css("display", "block");
-			});
-			$("#content2").oneTime(time, function() {
-				$("#content2").css("display", "block");
-			});
-			$("#content3").oneTime(time, function() {
-				$("#content3").css("display", "block");
-			});
-			$("#content4").oneTime(time, function() {
-				$("#content4").css("display", "block");
+			$("#buyButton").oneTime(time, function() {
+				$("#buyButton").css("display", "block");
 			});
 		}
 		setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
@@ -98,8 +80,8 @@ $badgeInvert = true;
 			</div>
 		</div>
 
-		<div class="content margin-t-20" id="content" style="padding-bottom:0!important;display:none;">
-			<div id="buyButton" class="center-block text-center">
+		<div class="content margin-t-20" id="content" style="padding-bottom:0!important;">
+			<div id="buyButton" class="center-block text-center" style="display:none;">
 				<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 				<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 			</div>
@@ -184,7 +166,7 @@ $badgeInvert = true;
 			</div>
 		</div>
 	</div>
-	<div class="container oto-width" id="content2" style="display:none;">
+	<div class="container oto-width">
 		<link rel="stylesheet" href="/assets/css/bootstrap-select.min.css">
 		<script src="/assets/js/bootstrap-select.min.js"></script>
 		<style>
@@ -271,10 +253,10 @@ $badgeInvert = true;
 				<img class="img-responsive center-block" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt=""/>
 				<h2 class="text-center">3-Month Food Supply</h2>
 				<div class="text-center" style="font-size:28px;font-weight:bold;">
-					<span style="color:red;text-decoration:line-through;margin-right:50px;">$804.00</span>
+					<strike style="color:red"><span style='color:black'>$804.00</span></strike>
 					<span style="color:blue;">$497 - Free Shipping</span>
 				</div>
-				<p class="text-center" style="color:blue;"><strong>($5 Per Day)</strong></p>
+				<p class="text-center" style="color:#9e9e9e;">($5 Per Day)</p>
 			</div>
 			<div id="4wk" style="display:none;">
 				<div class="row nomargin">
@@ -308,7 +290,7 @@ $badgeInvert = true;
 				<div class="text-center" style="font-size:28px;font-weight:bold;">
 					<span style="color:blue;">$197 - Free Shipping</span>
 				</div>
-				<p class="text-center" style="color:blue;"><strong>($7 Per Day)</strong></p>
+				<p class="text-center" style="color:#9e9e9e;">($7 Per Day)</p>
 			</div>
 			<div id="1wk" style="display:none;">
 				<div class="row nomargin">
@@ -341,7 +323,7 @@ $badgeInvert = true;
 				<div class="text-center" style="font-size:28px;font-weight:bold;">
 					<span style="color:blue;">$67</span>
 				</div>
-				<p class="text-center" style="color:blue;"><strong>($10 Per Day)</strong></p>
+				<p class="text-center" style="color:#9e9e9e;">($10 Per Day)</p>
 			</div>
 
 			<form method="post" action="<?php echo url('/checkout/process.php'); ?>" id="order-process">
@@ -367,10 +349,10 @@ $badgeInvert = true;
 		<p class="text-center" style="padding-top:20px;"><strong>OR</strong></p>
 	</div>
 
-	<div style="font-size: 20px; max-width:580px;display:none;" class="noThanks" id="content3">
+	<div style="font-size: 20px; max-width:580px;" class="noThanks">
 		<a  onclick="showDeclineModal();">No Thanks</a> – I don’t want to get better results and more peace of mind with the full-sized Food4Patriots Survival Food Kits.
 	</div>
-	<div class="container oto-width" id="content4" style="display:none;">
+	<div class="container oto-width">
 		<div class="outLineBoxDarkBlue">
 			<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;" src="/assets/images/misc/satisfaction-100.jpg" alt="">
 			<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if for any reason you're not satisfied with your Food4 Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price.</p>
