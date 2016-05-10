@@ -1,4 +1,6 @@
-<?php $badgeInvert = true; ?>
+<?php
+$badgeInvert = true;
+?>
 <link rel="stylesheet" href="/assets/css/styles-freefood.css">
 <script src="/js/audio.js"></script>
 <script src="/assets/js/video/jquery.timers-1.2.js"></script>
@@ -23,13 +25,31 @@
 		time += seconds * 1000;
 		if ($.cookie("sawbutton")) {
 			// If return visitor that saw button, show alt button
-			$("#buyButton").oneTime(time, function() {
-				$("#buyButton").css("display", "block");
+			$("#content").oneTime(time, function() {
+				$("#content").css("display", "block");
+			});
+			$("#content2").oneTime(time, function() {
+				$("#content2").css("display", "block");
+			});
+			$("#content3").oneTime(time, function() {
+				$("#content3").css("display", "block");
+			});
+			$("#content4").oneTime(time, function() {
+				$("#content4").css("display", "block");
 			});
 		} else {
 			// If visitor hasn't seen button yet, show default button
-			$("#buyButton").oneTime(time, function() {
-				$("#buyButton").css("display", "block");
+			$("#content").oneTime(time, function() {
+				$("#content").css("display", "block");
+			});
+			$("#content2").oneTime(time, function() {
+				$("#content2").css("display", "block");
+			});
+			$("#content3").oneTime(time, function() {
+				$("#content3").css("display", "block");
+			});
+			$("#content4").oneTime(time, function() {
+				$("#content4").css("display", "block");
 			});
 		}
 		setTimeout(function(){$.cookie("sawbutton", "1", { expires: 30 });}, 30000);
@@ -76,12 +96,13 @@
 				<iframe src="//fast.wistia.net/embed/iframe/1xvjeubn1j?seo=false" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="390"></iframe>
 				<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 			</div>
-			<div id="buyButton" class="center-block text-center" style="display:none">
+		</div>
+
+		<div class="content margin-t-20" id="content" style="padding-bottom:0!important;display:none;">
+			<div id="buyButton" class="center-block text-center">
 				<a href="" class="scroll-link" data-id="order-form"><button type="button-1" class="btn-1">Choose My Kit</button></a>
 				<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 			</div>
-		</div>
-		<div class="content margin-t-20" style="padding-bottom:0!important;">
 			<div class="container oto-width">
 				<p>This is your <span style="text-decoration: underline;">ONE chance</span> to upgrade your order!</p>
 				<p>I&rsquo;m going to make you a special offer right now that you won&rsquo;t see again, so read this very carefully.</p>
@@ -109,7 +130,6 @@
 				<h2 class="darkRed text-center">FREE Gift #3 – The Survival Garden Guide <br class="hidden-sm">($19.95 value)</h2>
 				<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-survival-garden-guide.jpg" alt="">
 				<p>A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this 21-page report you get insider info on outdoor gardens, indoor gardens, freezing, and long-term storage.</p>
-				<p>It walks you through everything you need to think about for your survival garden from pest control to canning and storing seeds for next year's garden. If you are new to gardening, it will help get your ideas flowing and spur you to finally get your hands dirty and grow your own, nutritious and delicious foods.&nbsp;</p>
 				<p>After reading it, you&rsquo;ll feel safe knowing that you&rsquo;ve got a blueprint for taking care of yourself and your loved ones &ndash; it&rsquo;s like "food insurance" so your family can get an almost endless supply of fresh picked produce and canned delicacies.</p>
 				<p>This guide is yours FREE when you add the 1-Week, 4-Week or 3-Month Food4Patriots Kit to your order.</p>
 				<p>And last but not least, I&rsquo;m going to throw in one more FREE gift for you&hellip;</p>
@@ -164,7 +184,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container oto-width">
+	<div class="container oto-width" id="content2" style="display:none;">
 		<link rel="stylesheet" href="/assets/css/bootstrap-select.min.css">
 		<script src="/assets/js/bootstrap-select.min.js"></script>
 		<style>
@@ -347,10 +367,10 @@
 		<p class="text-center" style="padding-top:20px;"><strong>OR</strong></p>
 	</div>
 
-	<div style="font-size: 20px; max-width:580px;" class="noThanks">
+	<div style="font-size: 20px; max-width:580px;display:none;" class="noThanks" id="content3">
 		<a  onclick="showDeclineModal();">No Thanks</a> – I don’t want to get better results and more peace of mind with the full-sized Food4Patriots Survival Food Kits.
 	</div>
-	<div class="container oto-width">
+	<div class="container oto-width" id="content4" style="display:none;">
 		<div class="outLineBoxDarkBlue">
 			<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;" src="/assets/images/misc/satisfaction-100.jpg" alt="">
 			<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if for any reason you're not satisfied with your Food4 Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price.</p>
@@ -360,6 +380,8 @@
 			<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;"d src="/assets/images/misc/satisfaction-300.jpg" alt="">
 			<p>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find th at your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
 		</div>
+		<div><h4 class="darkRed">Frequently Asked Questions:</h4></div>
+		<?php include_once ('snippets/faq-accordian-1wk.html'); ?>
 	</div>
 
 	<!--- Decline Modal ---->
@@ -471,6 +493,18 @@
 		</div>
 	</div>
 	<script>
+		$('#initial').find('.panel-heading').addClass("active-panel");
+		$('#accordion > .panel').on('show.bs.collapse', function (e) {
+			$(this).find('.panel-heading').addClass("active-panel");
+		});
+		$('#accordion > .panel').on('hide.bs.collapse', function (e) {
+			$(this).find('.panel-heading').removeClass('active-panel');
+		});
+		$('#accordion .panel-heading').on('click',function(e){
+			if($(this).parents('.panel').children('.panel-collapse').hasClass('in')){
+				e.stopPropagation();
+			}
+		});
 		function showFEMAModal() {
 			$('#FEMAModal').modal('show');
 		}
@@ -602,6 +636,7 @@
 			</div>
 		</div>
 	</div>
+	<?php include("security-seals.php")?>
 </div>
 <script>
 	window.onbeforeunload = grayOut;
