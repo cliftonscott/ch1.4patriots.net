@@ -14,8 +14,8 @@ $badgeInvert = true;
 			var seconds = 5;
 		} else {
 			var hours = 0;
-			var minutes = 10;
-			var seconds = 12;
+			var minutes = 9;
+			var seconds = 55;
 		}
 		// Start by converting hours to milliseconds
 		var time = hours * 60 * 60 * 1000;
