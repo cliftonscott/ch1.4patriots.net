@@ -194,7 +194,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 												</div>
 											</div>
 										</div>
-										<img class="img-responsive center-block" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt="Wounded Warrior Project"/>
+										<img class="img-responsive center-block" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt=""/>
 									</div>
 								</div>
 							</div>

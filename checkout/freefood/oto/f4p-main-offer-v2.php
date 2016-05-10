@@ -1,3 +1,4 @@
+<?php $badgeInvert = true; ?>
 <link rel="stylesheet" href="/assets/css/styles-freefood.css">
 <script src="/js/audio.js"></script>
 <script src="/assets/js/video/jquery.timers-1.2.js"></script>
@@ -72,7 +73,7 @@
 		</div>
 		<div class="col-md-12 margin-b-20 hidden-xs">
 			<div id="videobox">
-				<iframe src="//fast.wistia.net/embed/iframe/1xvjeubn1j?seo=false" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
+				<iframe src="//fast.wistia.net/embed/iframe/1xvjeubn1j?seo=false" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="390"></iframe>
 				<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 			</div>
 			<div id="buyButton" class="center-block text-center" style="display:none">
@@ -80,7 +81,7 @@
 				<p style="color:#002287;">(This Takes You To The Kit Options)</p>
 			</div>
 		</div>
-		<div class="content margin-t-20" >
+		<div class="content margin-t-20" style="padding-bottom:0!important;">
 			<div class="container oto-width">
 				<p>This is your <span style="text-decoration: underline;">ONE chance</span> to upgrade your order!</p>
 				<p>I&rsquo;m going to make you a special offer right now that you won&rsquo;t see again, so read this very carefully.</p>
@@ -135,10 +136,10 @@
 				<p>Now in addition to the food kits and all the free gifts, I&rsquo;m also going to back your order with 2&nbsp;IRONCLAD guarantees so that you don&rsquo;t risk a single penny.</p>
 
 				<h2 class="darkRed text-center">Your Order Is Backed By BOTH Of Our 100%<br class="hidden-sm"> and 300% Money-Back Guarantees</h2>
-				<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/satisfaction-100.jpg" alt="">
+				<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;" src="/assets/images/misc/satisfaction-100.jpg" alt="">
 				<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if for any reason you're not satisfied with your Food4 Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price.</p>
 				<p>That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
-				<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/satisfaction-300.jpg" alt="">
+				<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;"d src="/assets/images/misc/satisfaction-300.jpg" alt="">
 				<p>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find th at your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
 				<p><span class="darkRed">REMINDER:</span>&nbsp; These kits routinely sell out and because we source our ingredients from local farmers all over this great country, it takes some time for us to get restocked. If you&rsquo;re ready to upgrade your food supply I highly suggest doing it today and taking advantage of one of these great offers.</p>
 				<p>Chances are, we will sell out soon.</p>
@@ -247,6 +248,13 @@
 						</div>
 					</div>
 				</div>
+				<img class="img-responsive center-block" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt=""/>
+				<h2 class="text-center">3-Month Food Supply</h2>
+				<div class="text-center" style="font-size:28px;font-weight:bold;">
+					<span style="color:red;text-decoration:line-through;margin-right:50px;">$804.00</span>
+					<span style="color:blue;">$497 - Free Shipping</span>
+				</div>
+				<p class="text-center" style="color:blue;"><strong>($5 Per Day)</strong></p>
 			</div>
 			<div id="4wk" style="display:none;">
 				<div class="row nomargin">
@@ -276,6 +284,11 @@
 						</div>
 					</div>
 				</div>
+				<h2 class="text-center">4-Week Food Supply</h2>
+				<div class="text-center" style="font-size:28px;font-weight:bold;">
+					<span style="color:blue;">$197 - Free Shipping</span>
+				</div>
+				<p class="text-center" style="color:blue;"><strong>($7 Per Day)</strong></p>
 			</div>
 			<div id="1wk" style="display:none;">
 				<div class="row nomargin">
@@ -304,6 +317,11 @@
 						</div>
 					</div>
 				</div>
+				<h2 class="text-center">1-Week Food Supply</h2>
+				<div class="text-center" style="font-size:28px;font-weight:bold;">
+					<span style="color:blue;">$67</span>
+				</div>
+				<p class="text-center" style="color:blue;"><strong>($10 Per Day)</strong></p>
 			</div>
 
 			<form method="post" action="<?php echo url('/checkout/process.php'); ?>" id="order-process">
@@ -317,16 +335,31 @@
 					</select>
 					<div style="margin:0 auto;padding: 30px 0 37px 0">
 						<div class="text-center">
-							<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-01.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
+							<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
 						</div>
 					</div>
 				</div>
 			</form>
 		</div>
+
+		<?php include_once("testimonials/fb-testimonial-bob.html"); ?>
+		<?php include_once("testimonials/fb-testimonial-brian.html"); ?>
+		<p class="text-center" style="padding-top:20px;"><strong>OR</strong></p>
 	</div>
 
-	<div style="font-size: 20px" class="noThanks">
-		<a  onclick="showDeclineModal();">No Thanks</a> – I don’t want better protection for myself and my family with the full-sized Food4Patriots kit.
+	<div style="font-size: 20px; max-width:580px;" class="noThanks">
+		<a  onclick="showDeclineModal();">No Thanks</a> – I don’t want to get better results and more peace of mind with the full-sized Food4Patriots Survival Food Kits.
+	</div>
+	<div class="container oto-width">
+		<div class="outLineBoxDarkBlue">
+			<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;" src="/assets/images/misc/satisfaction-100.jpg" alt="">
+			<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if for any reason you're not satisfied with your Food4 Patriots Kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price.</p>
+			<p>That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
+		</div>
+		<div class="outLineBoxDarkBlue">
+			<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;"d src="/assets/images/misc/satisfaction-300.jpg" alt="">
+			<p>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find th at your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+		</div>
 	</div>
 
 	<!--- Decline Modal ---->
