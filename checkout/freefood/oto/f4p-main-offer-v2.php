@@ -149,7 +149,7 @@ $badgeInvert = true;
 				<p>Once we&rsquo;re out of stock, you&rsquo;re out of luck until the next harvest comes in and we can replenish our shelves. </p>
 
 				<h2 class="darkRed text-center">So Here’s What You Need To Do Now…</h2>
-				<p>Simply select the kit that works for you and click the big, orange &ldquo;<strong>Add To Cart</strong>&rdquo; button below.</p>
+				<p>Simply select the kit that works for you and click the big, orange <strong>“Click to Accept”</strong> button below.</p>
 				<p>Remember, you&rsquo;ll get the best deal (and&nbsp;<strong>ALL THE FREE GIFTS</strong>)​ when you select our most popular option, the 3-month supply.</p>
 				<p>You &rsquo;ll also get&nbsp;<strong>FREE shipping</strong>&nbsp;​on your order, rushed right to your door via UPS.</p>
 				<p>If you&rsquo;re sick of...</p>
@@ -160,7 +160,7 @@ $badgeInvert = true;
 					<li>Always second guessing your preparations&hellip;</li>
 				</ul>
 				<p>Then&nbsp;<strong>y​ou owe it to yourself</strong>&nbsp;to add a long-term Food4Patriots survival food kit to your order right now.</p>
-				<p>Simply choose your kit from the dropdown menu then click the big, orange &ldquo;<strong>Add to Cart</strong>&rdquo; button below and we&rsquo;ll add it to your order.</p>
+				<p>Simply select the kit that works for you and click the big, orange <strong>“Click to Accept”</strong> button below and we&rsquo;ll add it to your order.</p>
 				<p>Keep in mind, this is first come, first served and this is the only time you&rsquo;ll see this special offer.</p>
 
 			</div>
@@ -337,7 +337,7 @@ $badgeInvert = true;
 					</select>
 					<div style="margin:0 auto;padding: 30px 0 37px 0">
 						<div class="text-center">
-							<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-add-cart-02.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
+							<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
 						</div>
 					</div>
 				</div>
