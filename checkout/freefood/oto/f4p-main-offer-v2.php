@@ -321,7 +321,7 @@ $badgeInvert = true;
 				</div>
 				<h2 class="text-center">1-Week Food Supply</h2>
 				<div class="text-center" style="font-size:28px;font-weight:bold;">
-					<span style="color:blue;">$67</span>
+					<span style="color:blue;">$67 + $5.95 Shipping</span>
 				</div>
 				<p class="text-center" style="color:#9e9e9e;">($10 Per Day)</p>
 			</div>
