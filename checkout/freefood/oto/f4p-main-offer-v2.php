@@ -53,7 +53,15 @@ $badgeInvert = true;
 		color: black;
 	}
 	.summary li {
-		margin-bottom:5px!important;
+		margin-bottom:0!important;
+		font-size:14pt!important;
+	}
+	.red17 {
+		margin-bottom:10px;
+	}
+	.productList {
+		margin-top:0;
+		margin-bottom:5px;
 	}
 </style>
 <div class="container-main">
@@ -94,55 +102,66 @@ $badgeInvert = true;
 				<p>If you&rsquo;re interested in upgrading, then I suggest that you don&rsquo;t wait.</p>
 				<p>There are three great options for you to choose from when you upgrade your order today, although one of them is far and away our most popular (I&rsquo;ll tell you which one, in just a second).</p>
 				<p>Here&rsquo;s what you get when you add the full-sized to your order today.</p>
-
+				
 				<h2 class="darkRed text-center">Food4Patriots 1-Week, <br class="hidden-sm">4-Week and 3-Month Kits</h2>
 				<p><strong>Food4Patriots </strong>survival food is specifically designed to save your life in a disaster. It&rsquo;s delicious, nutritious, made in the USA from the finest ingredients, and rated for 25 years of storage.</p>
 				<p>You can add a <strong>1-week, 4-week or 3-month kit </strong>to your current order on this page (down below). Each kit in this special offer has some great bonuses I&rsquo;m throwing in for you today.</p>
-
-				<h2 class="darkRed text-center">FREE Gift #1 – Top 10 Items Sold Out After <br class="hidden-sm">A Crisis ($19.95 value)</h2>
-				<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-10-items-after-crisis.jpg" alt="">
-				<p>In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. In this 12-page report you'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
-				<p>Plus, when you add a full-sized kit to your order today you&rsquo;ll also get our #1 most-requested report&hellip;</p>
-
+				<div class="rcBoxR10">
+					<h2 class="darkRed text-center">FREE Gift #1 – Top 10 Items Sold Out After <br class="hidden-sm">A Crisis ($19.95 value)</h2>
+					<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-10-items-after-crisis.png" alt="">
+					<p>In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. In this 12-page report you'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
+					<p>Plus, when you add a full-sized kit to your order today you&rsquo;ll also get our #1 most-requested report&hellip;</p>
+				</div>
+				<div class="rcBoxR10">
 				<h2 class="darkRed text-center">FREE Gift #2 – The Water Survival Guide <br class="hidden-sm">($19.95 value)</h2>
-				<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:20px;" src="/media/images/bonuses/f4p-the-water-survival-guide.jpg" alt="">
-				<p>Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p>
-				<p>Not only that, you&rsquo;ll get one of our best-selling reports ever (people all over the country love this)&hellip;</p>
-
+					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:30px;" src="/media/images/bonuses/f4p-the-water-survival-guide.png" alt="">
+					<p>Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p>
+					<p style="letter-spacing:-.2px;">Not only that, you&rsquo;ll get one of our best-selling reports ever (people all over the country love this)&hellip;</p>
+				</div>
+				<div class="rcBoxR10">
 				<h2 class="darkRed text-center">FREE Gift #3 – The Survival Garden Guide <br class="hidden-sm">($19.95 value)</h2>
-				<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-survival-garden-guide.jpg" alt="">
-				<p>A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this 21-page report you get insider info on outdoor gardens, indoor gardens, freezing, and long-term storage.</p>
-				<p>After reading it, you&rsquo;ll feel safe knowing that you&rsquo;ve got a blueprint for taking care of yourself and your loved ones &ndash; it&rsquo;s like "food insurance" so your family can get an almost endless supply of fresh picked produce and canned delicacies.</p>
-				<p>This guide is yours FREE when you add the 1-week, 4-week or 3-month Food4Patriots kit to your order.</p>
+					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:30px;" src="/media/images/bonuses/f4p-survival-garden-guide.png" alt="">
+					<p>A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this 21-page report you get insider info on outdoor gardens, indoor gardens, freezing, and long-term storage.</p>
+					<p>After reading it, you&rsquo;ll feel safe knowing that you&rsquo;ve got a blueprint for taking care of yourself and your loved ones &ndash; it&rsquo;s like "food insurance" so your family can get an almost endless supply of fresh picked produce and canned delicacies.</p>
+					<p>This guide is yours FREE when you add the 1-week, 4-week or 3-month Food4Patriots kit to your order.</p>
+				</div>
 				<p>And last but not least, I&rsquo;m going to throw in one more FREE gift for you&hellip;</p>
-
-				<h2 class="darkRed text-center">FREE Gift #4 – How To Cut Your Grocery Bills <br class="hidden-sm">In Half ($19.95 Value)</h2>
-				<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-cutting-grocery-bill-in-half.jpg" alt="">
-				<p>It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p>
-				<p>Not only that, when you order the 4-week kit or the 3-month kit, you&rsquo;ll...</p>
-
-				<h2 class="darkRed text-center"><span class="hidden-xs">* * </span>Unlock an EXTRA FREE Gift <span class="hidden-xs">* * </span></h2>
+				<div class="rcBoxR10">
+					<h2 class="darkRed text-center">FREE Gift #4 – How To Cut Your Grocery <br class="hidden-sm">Bills In Half ($19.95 Value)</h2>
+					<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-cutting-grocery-bill-in-half.png" alt="">
+					<p>It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p>
+				</div>
 				<p>Each kit comes with the special digital bonuses I showed you&hellip; trust me, you&rsquo;re going to love having them at-the-ready.</p>
-				<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/free-ship-burst.jpg" alt="">
-				<p>Not only that, when you order the 4-week kit or the 3-month kit, you&rsquo;ll unlock an <strong>EXTRA </strong>free gift. My personal favorite&hellip; FREE shipping (up to a $40 value).</p>
-				<p>Now here&rsquo;s where things get really interesting and why I can hardly keep these kits in stock&hellip;</p>
+				<div class="rcBoxR10">
+					<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/free-ship-burst.png" alt="">
+					<p>Not only that, when you order the 4-week kit or the 3-month kit, you&rsquo;ll unlock an <strong>EXTRA </strong>free gift. My personal favorite&hellip; FREE shipping (up to a $40 value).</p>
+					<p>Now here&rsquo;s where things get really interesting and why I can hardly keep these kits in stock&hellip;</p>
+				</div>
 				<p>If you order the 3-month kit <strong>(our MOST popular kit by far!) </strong>you&rsquo;ll not only get free shipping and free digital bonus reports, I&rsquo;ll ship you 4 FREE hard copies of the bonus reports, too!</p>
-				<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:20px;"  src="/media/images/ss4p/ss4p-lsv-new.jpg" alt="">
-				<p>And just to say thanks for ordering the 3-month Food4Patriots kit &ndash; I&rsquo;ll also send you a Liberty Seed Vault, which sells for $47, totally free.</p>
-				<p>This vault has more than 5,340 survival seeds from 22 varieties of hardy and delicious heirloom plants passed down from our forefathers. No GMO crap or hybrids &ndash; these are cream-of-the-crop seeds sealed in heavy-duty foil envelopes and packed in an airtight storage vault &ndash; the perfect start to your survival food garden.</p>
-				<p>And you get it FREE when you add the 3-month kit to your order today.</p>
-				<p>Plus, I&rsquo;ll also send you a handy 11-in-1 multi-tool that you can fit right in your wallet.</p>
-				<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/bonus-multi-tool-text-free.jpg" alt="">
-				<p>Another $9.95 value&hellip; yours free when you order the 3-month kit.</p>
-				<p>Why so many kit choices? Different people come from different circumstances and I don&rsquo;t want a single person to leave here today without a chance to upgrade their food stockpile and get the peace of mind that comes with it. Protecting you and your family is not something I take lightly &ndash; and I&rsquo;ll bet you don&rsquo;t either.</p>
+				<div class="rcBoxR10">
+					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:20px;"  src="/media/images/ss4p/ss4p-lsv-new.png" alt="">
+					<p>And just to say thanks for ordering the 3-month Food4Patriots kit &ndash; I&rsquo;ll also send you a Liberty Seed Vault, which sells for $47, totally free.</p>
+					<p style="letter-spacing:-.1px;">This vault has more than 5,340 survival seeds from 22 varieties of hardy and delicious heirloom plants passed down from our forefathers. No GMO crap or hybrids &ndash; these are cream-of-the-crop seeds sealed in heavy-duty foil envelopes and packed in an airtight storage vault &ndash; the perfect start to your survival food garden.</p>
+					<p>And you get it FREE when you add the 3-month kit to your order today.</p>
+				</div>
+				<div class="rcBoxR10">
+					<p>Plus, I&rsquo;ll also send you a handy 11-in-1 multi-tool that you can fit right in your wallet.</p>
+					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:10px;" src="/media/images/bonuses/bonus-multi-tool-text-free.png" alt="">
+					<p>Another $9.95 value&hellip; yours free when you order the 3-month kit.</p>
+					<p>Why so many kit choices? Different people come from different circumstances and I don&rsquo;t want a single person to leave here today without a chance to upgrade their food stockpile and get the peace of mind that comes with it. Protecting you and your family is not something I take lightly &ndash; and I&rsquo;ll bet you don&rsquo;t either.</p>
+				</div>
 				<p>Now in addition to the food kits and all the free gifts, I&rsquo;m also going to back your order with 2&nbsp;IRONCLAD guarantees so that you don&rsquo;t risk a single penny.</p>
 
 				<h2 class="darkRed text-center">Your Order Is Backed By BOTH Of Our 100%<br class="hidden-sm"> and 300% Money-Back Guarantees</h2>
-				<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;" src="/assets/images/misc/satisfaction-100.jpg" alt="">
-				<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if for any reason you're not satisfied with your Food4Patriots kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price.</p>
-				<p>That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
-				<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;"d src="/assets/images/misc/satisfaction-300.jpg" alt="">
-				<p>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+				<div class="outLineBoxDarkBlue">
+					<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;" src="/assets/images/misc/satisfaction-100.jpg" alt="">
+					<p>So I am giving you a 100% money-back guarantee for 365 days with no questions asked. Here&rsquo;s how it works: if for any reason you're not satisfied with your Food4Patriots kit, just return it within 365 days (that&rsquo;s a full year) of purchase and we'll refund 100% of your purchase price.</p>
+					<p>That way there's absolutely no risk for you. And you can keep the free reports as gifts for giving Food4Patriots a try.</p>
+				</div>
+				<div class="outLineBoxDarkBlue">
+					<img class="img-responsive pull-left img-padding-right media" style="margin-top:0;"d src="/assets/images/misc/satisfaction-300.jpg" alt="">
+					<p>This is an unheard of 300% money back guarantee. It&rsquo;s in addition to guarantee #1.&nbsp;If you open any of your Food4Patriots meals anytime&nbsp;<strong>in the next 25 years</strong>&nbsp;and find that your food has spoiled, you can return your entire Food4Patriots stockpile and I will&nbsp;<strong>triple</strong>&nbsp;your money back!</p>
+				</div>
 				<p><span class="darkRed">REMINDER:</span>&nbsp; These kits routinely sell out and because we source our ingredients from local farmers all over this great country, it takes some time for us to get restocked. If you&rsquo;re ready to upgrade your food supply I highly suggest doing it today and taking advantage of one of these great offers.</p>
 				<p>Chances are, we will sell out soon.</p>
 				<p>I&rsquo;ve had MANY men and women email me after we have run out to see if I could &ldquo;pull some strings&rdquo; and get them a fresh supply of food, but I just can&rsquo;t do it.</p>
@@ -161,7 +180,7 @@ $badgeInvert = true;
 				</ul>
 				<p>Then&nbsp;<strong>y​ou owe it to yourself</strong>&nbsp;to add a long-term Food4Patriots survival food kit to your order right now.</p>
 				<p>Simply select the kit that works for you and click the big, orange <strong>“Click to Accept”</strong> button below and we&rsquo;ll add it to your order.</p>
-				<p>Keep in mind, this is first come, first served and this is the only time you&rsquo;ll see this special offer.</p>
+				<p style="margin-bottom:0;">Keep in mind, this is first come, first served and this is the only time you&rsquo;ll see this special offer.</p>
 
 			</div>
 		</div>
@@ -202,18 +221,21 @@ $badgeInvert = true;
 						document.getElementById('3mk').style.display = 'block';
 						document.getElementById('4wk').style.display = 'none';
 						document.getElementById('1wk').style.display = 'none';
+						document.getElementById('charity').style.display = 'block';
 						buttonPrice.innerHTML = "Add To Cart - $497";
 						break;
 					case 18:
 						document.getElementById('3mk').style.display = 'none';
 						document.getElementById('4wk').style.display = 'block';
 						document.getElementById('1wk').style.display = 'none';
+						document.getElementById('charity').style.display = 'none';
 						buttonPrice.innerHTML = "Add To Cart - $197";
 						break;
 					case 92:
 						document.getElementById('3mk').style.display = 'none';
 						document.getElementById('4wk').style.display = 'none';
 						document.getElementById('1wk').style.display = 'block';
+						document.getElementById('charity').style.display = 'none';
 						buttonPrice.innerHTML = "Add To Cart - $67";
 						break;
 				}
@@ -223,10 +245,10 @@ $badgeInvert = true;
 			<div id="3mk">
 				<div class="row nomargin">
 					<div class="text-center">
-						<img src="/media/images/f4p/f4p-3month-bonuses-veggies-totes-title-dealburst-720x560.jpg" class="center-block img-responsive">
+						<img src="/media/images/f4p/f4p-3month-bonuses-veggies-totes-title-dealburst-560x436.jpg" class="center-block img-responsive">
 					</div>
 				</div>
-				<div class="row">
+				<div class="row nomargin">
 					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
@@ -240,7 +262,7 @@ $badgeInvert = true;
 					</div>
 					<div class="col-sm-12 col-md-7 nopadding">
 						<div class="productList">
-							<p class="text-center red17"><strong>FREE Hardcopy and Digital Bonus Reports:</strong></p>
+							<p class="text-center red17"><strong>FREE Hardcopy Bonus Reports:</strong></p>
 							<ul class="summary">
 								<li>10 Items Sold Out After Crisis</li>
 								<li>Water Survival Guide</li>
@@ -250,18 +272,16 @@ $badgeInvert = true;
 						</div>
 					</div>
 				</div>
-				<img class="img-responsive center-block" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt=""/>
-				<h2 class="text-center">3-Month Food Supply</h2>
-				<div class="text-center" style="font-size:28px;font-weight:bold;">
+				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.25;">
 					<strike style="color:red"><span style='color:black'>$804.00</span></strike>
 					<span style="color:blue;">$497 - Free Shipping</span>
 				</div>
-				<p class="text-center" style="color:#9e9e9e;">($5 Per Day)</p>
+				<p class="text-center" style="color:#9e9e9e;margin-bottom:0;font-size:12pt!important;">($5 Per Day)</p>
 			</div>
 			<div id="4wk" style="display:none;">
 				<div class="row nomargin">
 					<div class="text-center">
-						<img src="/media/images/f4p/f4p-4week-bonuses-totes-title-720x426.jpg" class="img-responsive center-block">
+						<img src="/media/images/f4p/f4p-4week-bonuses-totes-title-560x331.jpg" class="img-responsive center-block">
 					</div>
 				</div>
 				<div class="row">
@@ -286,16 +306,16 @@ $badgeInvert = true;
 						</div>
 					</div>
 				</div>
-				<h2 class="text-center">4-Week Food Supply</h2>
-				<div class="text-center" style="font-size:28px;font-weight:bold;">
+				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.2;">
+					<strike style="color:red"><span style='color:black'>$268.00</span></strike>
 					<span style="color:blue;">$197 - Free Shipping</span>
 				</div>
-				<p class="text-center" style="color:#9e9e9e;">($7 Per Day)</p>
+				<p class="text-center" style="color:#9e9e9e;margin-bottom:0;font-size:12pt!important;">($7 Per Day)</p>
 			</div>
 			<div id="1wk" style="display:none;">
 				<div class="row nomargin">
 					<div class="text-center">
-						<img src="/media/images/f4p/f4p-1week-title-720x426.jpg" class="img-responsive center-block" style="margin: 17px 0 0;">
+						<img src="/media/images/f4p/f4p-1week-title-560x331.jpg" class="img-responsive center-block">
 					</div>
 				</div>
 				<div class="row">
@@ -319,29 +339,29 @@ $badgeInvert = true;
 						</div>
 					</div>
 				</div>
-				<h2 class="text-center">1-Week Food Supply</h2>
-				<div class="text-center" style="font-size:28px;font-weight:bold;">
+				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.2;">
 					<span style="color:blue;">$67 + $5.95 Shipping</span>
 				</div>
-				<p class="text-center" style="color:#9e9e9e;">($10 Per Day)</p>
+				<p class="text-center" style="color:#9e9e9e;margin-bottom:0;font-size:12pt!important;">($10 Per Day)</p>
 			</div>
 
 			<form method="post" action="<?php echo url('/checkout/process.php'); ?>" id="order-process">
 				<div class="text-center center-block">
 					<input id="taxState_92" type="hidden" value="<?php echo strtolower($billingStateName);?>">
-					<label for="productId" style="font-size: 11pt;display: block;margin: 30px 0 0">Choose Your Kit:</label>
+					<label for="productId" style="font-size: 11pt;display: block;margin: 10px 0 0">Choose Your Kit:</label>
 					<select class="selectpicker show-menu-arrow" data-width="auto" name="productId" id="productId" style="margin:20px auto;" onchange="productChange(this.value);">
 						<option value="19">3-Month Supply</option>
 						<option value="18">4-Week Supply</option>
 						<option value="92">1-Week Supply</option>
 					</select>
-					<div style="margin:0 auto;padding: 30px 0 37px 0">
+					<div style="margin:0 auto;padding: 10px 0 17px 0">
 						<div class="text-center">
 							<a href="javascript:{};" onclick="document.getElementById('order-process').submit(); return false;" title="Add to Order!"><img class="img-responsive center-block" src="/assets/images/buttons/btn-orange-click-accept-02.jpg" alt="Buy It Now!" border="0" /><span id="buttonPrice" style="font-size: 20px;font-weight: bold;">Add To Cart - $497</span></a>
 						</div>
 					</div>
 				</div>
 			</form>
+			<img class="img-responsive center-block" id="charity" src="/assets/images/checkout/f4p-charity-banner.jpg" width="530" height="118" alt=""/>
 		</div>
 
 		<?php include_once("testimonials/fb-testimonial-bob.html"); ?>
