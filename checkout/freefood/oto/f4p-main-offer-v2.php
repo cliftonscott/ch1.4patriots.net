@@ -123,7 +123,6 @@ $badgeInvert = true;
 					<p>A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this 21-page report you get insider info on outdoor gardens, indoor gardens, freezing, and long-term storage.</p>
 					<p>After reading it, you&rsquo;ll feel safe knowing that you&rsquo;ve got a blueprint for taking care of yourself and your loved ones &ndash; it&rsquo;s like "food insurance" so your family can get an almost endless supply of fresh picked produce and canned delicacies.</p>
 				</div>
-				<p>And last but not least, I&rsquo;m going to throw in one more FREE gift for you&hellip;</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Gift #4 – How To Cut Your Grocery <br class="hidden-sm">Bills In Half ($19.95 Value)</h2>
 					<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-cutting-grocery-bill-in-half.png" alt="">
@@ -132,22 +131,22 @@ $badgeInvert = true;
 				</div>
 				<p>Each kit comes with the special digital bonuses I showed you&hellip; trust me, you&rsquo;re going to love having them at-the-ready.</p>
 				<div class="">
-					<h2 class="darkRed text-center">FREE Shipping?</h2>
-					<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/free-ship-burst.png" alt="">
+					<h2 class="darkRed text-center">FREE Shipping, Too?</h2>
+					<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/free-ship-burst.png" alt="" style="margin-top: -15px;">
 					<p>Not only that, when you order the <strong>4-week kit</strong> or the <strong>3-month kit</strong>, you&rsquo;ll unlock an <strong>EXTRA </strong>free gift. </p>
 					<p>My personal favorite&hellip; FREE shipping (up to a $40 value).</p>
-					<p>Now here&rsquo;s where things get really interesting and why I can hardly keep these kits in stock&hellip;</p>
 					<div class="clearfix"></div>
 				</div>
 				<h2 class="darkRed text-center">Even More FREE Bonus Gifts When You Upgrade to the 3-Month Kit!</h2>
-				<p>If you order the 3-month kit <strong>(our MOST popular kit by far!) </strong>you&rsquo;ll not only get free shipping and free digital bonus reports, I&rsquo;ll ship you 4 FREE hard copies of the bonus reports, too!</p>
+				<p>Now here&rsquo;s where things get really interesting and why I can hardly keep these kits in stock&hellip;</p>
+				<p>When you order the 3-month kit (our MOST popular kit by far!) you’ll not only get FREE SHIPPING but we’ll also upgrade your 4 digital bonus reports to hardcover version and deliver them directly to your door so you have them in hand rather than on your computer.</p>
+				<p>But that’s not all…when you upgrade to the Food4Patriots 3-month Kit we’ll also throw in the following bonuses FREE as a part of your order:</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">Liberty Seed Vault</h2>
 					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:20px;"  src="/media/images/ss4p/ss4p-lsv-new.png" alt="">
-					<p>And just to say thanks for ordering the 3-month Food4Patriots kit &ndash; I&rsquo;ll also send you a Liberty Seed Vault, which sells for $47, totally free.</p>
-					<p style="letter-spacing:-.1px;">This vault has more than 5,340 survival seeds from 22 varieties of hardy and delicious heirloom plants passed down from our forefathers.</p>
+					<p style="letter-spacing:-.1px;">The Liberty Seed Vault has more than 5,340 survival seeds from 22 varieties of hardy and delicious heirloom plants passed down from our forefathers.</p>
 					<p>No GMO crap or hybrids &ndash; these are cream-of-the-crop seeds sealed in heavy-duty foil envelopes and packed in an airtight storage vault &ndash; the perfect start to your survival food garden.</p>
-					<p>And you get it FREE when you add the 3-month kit to your order today.</p>
+					<p>And you get this Liberty Seed Vault, a $47 value, FREE when you add the 3-month kit to your order today.</p>
 				</div>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">11-in-1 Multi-Tool</h2>
