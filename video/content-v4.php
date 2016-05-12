@@ -39,11 +39,7 @@
 		} else {
 			var hours = 0;
 			var minutes = 33;
-			<?php if (JV::in("74-a") || JV::in("74-b")) { /*JV-74 DESKTOP MONTAGE TEST*/ ?>
 			var seconds = 42;
-			<?php }else{ ?>
-			var seconds = 22;
-			<?php } ?>
 		}
 		<?php
 		//Conditionally changes the timer values
@@ -154,17 +150,8 @@
 					<?php
 					}else {
 					?>
-						<?php if (JV::in("74-a")) { /*JV-74 DESKTOP MONTAGE TEST*/ ?>
 						<iframe src="//fast.wistia.net/embed/iframe/0iq8lvxtsh" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
 						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<?php } elseif(JV::in("74-b")) { ?>
-						<iframe src="//fast.wistia.net/embed/iframe/4h81mp93fv" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
-						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<?php } else { ?>
-						<iframe src="//fast.wistia.net/embed/iframe/6kiay1gnhp" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe>
-						<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-						<?php }; ?>
-
 					<?php
 					}
 					?>
