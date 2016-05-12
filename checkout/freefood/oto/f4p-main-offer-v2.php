@@ -109,46 +109,50 @@ $badgeInvert = true;
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Gift #1 – Top 10 Items Sold Out After <br class="hidden-sm">A Crisis ($19.95 value)</h2>
 					<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-10-items-after-crisis.png" alt="">
-					<p>In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. In this 12-page report you'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
-					<p>Plus, when you add a full-sized kit to your order today you&rsquo;ll also get our #1 most-requested report&hellip;</p>
+					<p>In this report you'll learn the 10 items you absolutely need to hoard. If you miss this you'll be forced to go without them in a crisis. </p>
+					<p>In this 12-page report you'll also learn how to snag them on the cheap, sort them securely, and pump out every ounce of nutrition they have to offer.</p>
 				</div>
 				<div class="rcBoxR10">
 				<h2 class="darkRed text-center">FREE Gift #2 – The Water Survival Guide <br class="hidden-sm">($19.95 value)</h2>
 					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:30px;" src="/media/images/bonuses/f4p-the-water-survival-guide.png" alt="">
 					<p>Look, without clean water you can't prepare a scrap of food. You've got to have this report to complete your preps. This down-and-dirty guide will show you desperate-times water sources and filtration techniques to keep your family from going thirsty. It'll also walk you through the basics of water storage and tricks to easily grab water in an emergency.</p>
-					<p style="letter-spacing:-.2px;">Not only that, you&rsquo;ll get one of our best-selling reports ever (people all over the country love this)&hellip;</p>
 				</div>
 				<div class="rcBoxR10">
 				<h2 class="darkRed text-center">FREE Gift #3 – The Survival Garden Guide <br class="hidden-sm">($19.95 value)</h2>
 					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:30px;" src="/media/images/bonuses/f4p-survival-garden-guide.png" alt="">
 					<p>A long-term food stockpile works best when you can add in some delicious, mouth-watering fruits and veggies from your garden. In this 21-page report you get insider info on outdoor gardens, indoor gardens, freezing, and long-term storage.</p>
 					<p>After reading it, you&rsquo;ll feel safe knowing that you&rsquo;ve got a blueprint for taking care of yourself and your loved ones &ndash; it&rsquo;s like "food insurance" so your family can get an almost endless supply of fresh picked produce and canned delicacies.</p>
-					<p>This guide is yours FREE when you add the 1-week, 4-week or 3-month Food4Patriots kit to your order.</p>
 				</div>
 				<p>And last but not least, I&rsquo;m going to throw in one more FREE gift for you&hellip;</p>
 				<div class="rcBoxR10">
 					<h2 class="darkRed text-center">FREE Gift #4 – How To Cut Your Grocery <br class="hidden-sm">Bills In Half ($19.95 Value)</h2>
 					<img class="img-responsive pull-left img-padding-right media" src="/media/images/bonuses/f4p-cutting-grocery-bill-in-half.png" alt="">
-					<p>It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p>
+					<p>It's sad to see how much most Americans are forced to spend every time they go to the grocery store. Odds are you've seen an increase in spending too. Well it doesn't have to be like that. </p>
+					<p>To help out I'm going to show you my down-and-dirty tricks to getting the best deal&hellip; and no, it&rsquo;s not just about clipping coupons!</p>
 				</div>
 				<p>Each kit comes with the special digital bonuses I showed you&hellip; trust me, you&rsquo;re going to love having them at-the-ready.</p>
-				<div class="rcBoxR10">
+				<div class="">
+					<h2 class="darkRed text-center">FREE Shipping?</h2>
 					<img class="img-responsive pull-left img-padding-right media" src="/assets/images/misc/free-ship-burst.png" alt="">
-					<p>Not only that, when you order the 4-week kit or the 3-month kit, you&rsquo;ll unlock an <strong>EXTRA </strong>free gift. My personal favorite&hellip; FREE shipping (up to a $40 value).</p>
+					<p>Not only that, when you order the <strong>4-week kit</strong> or the <strong>3-month kit</strong>, you&rsquo;ll unlock an <strong>EXTRA </strong>free gift. </p>
+					<p>My personal favorite&hellip; FREE shipping (up to a $40 value).</p>
 					<p>Now here&rsquo;s where things get really interesting and why I can hardly keep these kits in stock&hellip;</p>
+					<div class="clearfix"></div>
 				</div>
+				<h2 class="darkRed text-center">Even More FREE Bonus Gifts When You Upgrade to the 3-Month Kit!</h2>
 				<p>If you order the 3-month kit <strong>(our MOST popular kit by far!) </strong>you&rsquo;ll not only get free shipping and free digital bonus reports, I&rsquo;ll ship you 4 FREE hard copies of the bonus reports, too!</p>
 				<div class="rcBoxR10">
+					<h2 class="darkRed text-center">Liberty Seed Vault</h2>
 					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:20px;"  src="/media/images/ss4p/ss4p-lsv-new.png" alt="">
 					<p>And just to say thanks for ordering the 3-month Food4Patriots kit &ndash; I&rsquo;ll also send you a Liberty Seed Vault, which sells for $47, totally free.</p>
-					<p style="letter-spacing:-.1px;">This vault has more than 5,340 survival seeds from 22 varieties of hardy and delicious heirloom plants passed down from our forefathers. No GMO crap or hybrids &ndash; these are cream-of-the-crop seeds sealed in heavy-duty foil envelopes and packed in an airtight storage vault &ndash; the perfect start to your survival food garden.</p>
+					<p style="letter-spacing:-.1px;">This vault has more than 5,340 survival seeds from 22 varieties of hardy and delicious heirloom plants passed down from our forefathers.</p>
+					<p>No GMO crap or hybrids &ndash; these are cream-of-the-crop seeds sealed in heavy-duty foil envelopes and packed in an airtight storage vault &ndash; the perfect start to your survival food garden.</p>
 					<p>And you get it FREE when you add the 3-month kit to your order today.</p>
 				</div>
 				<div class="rcBoxR10">
-					<p>Plus, I&rsquo;ll also send you a handy 11-in-1 multi-tool that you can fit right in your wallet.</p>
-					<img class="img-responsive pull-left img-padding-right media" style="padding-bottom:10px;" src="/media/images/bonuses/bonus-multi-tool-text-free.png" alt="">
-					<p>Another $9.95 value&hellip; yours free when you order the 3-month kit.</p>
-					<p>Why so many kit choices? Different people come from different circumstances and I don&rsquo;t want a single person to leave here today without a chance to upgrade their food stockpile and get the peace of mind that comes with it. Protecting you and your family is not something I take lightly &ndash; and I&rsquo;ll bet you don&rsquo;t either.</p>
+					<h2 class="darkRed text-center">11-in-1 Multi-Tool</h2>
+					<p>Plus, I&rsquo;ll also send you a handy 11-in-1 multi-tool that you can fit right in your wallet. Another $9.95 value&hellip; yours free when you order the 3-month kit.</p>
+					<img class="img-responsive center-block media" style="padding-bottom:10px;" src="/media/images/bonuses/bonus-multi-tool-04.jpg" alt="">
 				</div>
 				<p>Now in addition to the food kits and all the free gifts, I&rsquo;m also going to back your order with 2&nbsp;IRONCLAD guarantees so that you don&rsquo;t risk a single penny.</p>
 
@@ -274,9 +278,9 @@ $badgeInvert = true;
 				</div>
 				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.25;">
 					<strike style="color:red"><span style='color:black'>$804.00</span></strike>
-					<span style="color:blue;">$497 - Free Shipping</span>
+					<span style="color:#003399;">$497 - Free Shipping</span>
 				</div>
-				<p class="text-center" style="color:#9e9e9e;margin-bottom:0;font-size:12pt!important;">($5 Per Day)</p>
+				<p class="text-center" style="color:#003399;margin-bottom:0;font-size:12pt!important;">($5 Per Day)</p>
 			</div>
 			<div id="4wk" style="display:none;">
 				<div class="row nomargin">
@@ -308,9 +312,9 @@ $badgeInvert = true;
 				</div>
 				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.2;">
 					<strike style="color:red"><span style='color:black'>$268.00</span></strike>
-					<span style="color:blue;">$197 - Free Shipping</span>
+					<span style="color:#003399;">$197 - Free Shipping</span>
 				</div>
-				<p class="text-center" style="color:#9e9e9e;margin-bottom:0;font-size:12pt!important;">($7 Per Day)</p>
+				<p class="text-center" style="color:#003399;margin-bottom:0;font-size:12pt!important;">($7 Per Day)</p>
 			</div>
 			<div id="1wk" style="display:none;">
 				<div class="row nomargin">
@@ -340,9 +344,9 @@ $badgeInvert = true;
 					</div>
 				</div>
 				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.2;">
-					<span style="color:blue;">$67 + $5.95 Shipping</span>
+					<span style="color:#003399;">$67 + $5.95 Shipping</span>
 				</div>
-				<p class="text-center" style="color:#9e9e9e;margin-bottom:0;font-size:12pt!important;">($10 Per Day)</p>
+				<p class="text-center" style="color:#003399;margin-bottom:0;font-size:12pt!important;">($10 Per Day)</p>
 			</div>
 
 			<form method="post" action="<?php echo url('/checkout/process.php'); ?>" id="order-process">
