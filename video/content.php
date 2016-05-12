@@ -219,7 +219,7 @@
 					}
 				</style>
 			<!--4.0 LETTER GOES HERE-->
-			<?php include("../letter/food/content-v4.php"); ?>
+			<?php include("../letter/food/content.php"); ?>
 		</div>
 </div>
 		<div class="container">

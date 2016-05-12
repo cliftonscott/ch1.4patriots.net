@@ -106,7 +106,7 @@ $platform->setCsrModalButtons("sample,video,letter");
 
 <!--INCLUDE CONTENT - ADD IF STATEMENT TO SWITCH CONTENT -->
 <?php
-	include_once('content-v4.php'); /*CONTROL 4.0*/
+	include_once('content.php'); /*CONTROL 4.0*/
 ?>
 <!--INCLUDE CONTENT-->
 <script>

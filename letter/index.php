@@ -18,7 +18,7 @@ $offerUrl = url('/checkout/index.php');
 <div id="wrapper">
 	<?php
 		echo '<div class="container-main">';
-		include_once('food/content-v4.php'); /*F4P 4.0 Letter Content*/
+		include_once('food/content.php'); /*F4P 4.0 Letter Content*/
 		echo '</div>';
 		include_once("template-bottom.php");
 	?>
