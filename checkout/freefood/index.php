@@ -1,4 +1,7 @@
 <?php
+// Define the current page name.
+$page = "checkout";
+
 /*
  * use session soldout multidimensional array to indicate sold out conditions and associated
  * variables
@@ -34,22 +37,9 @@ require_once("JavelinApi.php");
 $javelinApi = JV::load();
 
 //include template top AFTER the product information is set
-/*include_once ('template-top.php');*/
+include_once ('agile/template-top.php');
 
-// SPLIT JV-71 ALL DEVICES 3/21/16
-if (JV::in("71-t")) {
-	include_once('content-jv-71-taylor.php');
-}elseif(JV::in("71-j")) {
-	// Define the current page name.
-	$page = "checkout";
-	include_once ('agile/template-top.php');
-	include_once('content-jv-71-jeremy.php');
-}else{
-	// Define the current page name.
-	$page = "checkout";
-	include_once ('agile/template-top.php');
-	include_once('content.php'); /*CONTROL*/
-};
+include_once('content.php');
 
 ?>
 
