@@ -45,19 +45,24 @@ $badgeInvert = true;
 	body {
 		background-color: #E7E7E7;
 	}
-	li {
+	.contentlist li {
 		font-size:15pt!important;
 		margin: 0 0 20px!important;
+	}
+	li {
+		font-size:12pt!important;
+		margin: 0!important;
 	}
 	.footer {
 		color: black;
 	}
 	.summary li {
 		margin-bottom:0!important;
-		font-size:14pt!important;
+		font-size:12pt!important;
 	}
 	.red17 {
 		margin-bottom:10px;
+		font-size: 13pt!important;
 	}
 	.productList {
 		margin-top:0;
@@ -175,7 +180,7 @@ $badgeInvert = true;
 				<p>Remember, you&rsquo;ll get the best deal (and&nbsp;<strong>ALL THE FREE GIFTS</strong>)​ when you select our most popular option, the 3-month supply.</p>
 				<p>You &rsquo;ll also get&nbsp;<strong>FREE shipping</strong>&nbsp;​on your order, rushed right to your door via UPS.</p>
 				<p>If you&rsquo;re sick of...</p>
-				<ul>
+				<ul class="contentlist">
 					<li>Worrying about your family&rsquo;s well-being in a crisis</li>
 					<li>Not knowing where your food might come from in an emergency</li>
 					<li>Wondering if you have enough, or the right kind of food on hand</li>
@@ -226,6 +231,7 @@ $badgeInvert = true;
 						document.getElementById('1wk').style.display = 'none';
 						document.getElementById('charity').style.display = 'block';
 						buttonPrice.innerHTML = "Add To Cart - $497";
+						$('#3mk').goTo();
 						break;
 					case 18:
 						document.getElementById('3mk').style.display = 'none';
@@ -233,6 +239,7 @@ $badgeInvert = true;
 						document.getElementById('1wk').style.display = 'none';
 						document.getElementById('charity').style.display = 'none';
 						buttonPrice.innerHTML = "Add To Cart - $197";
+						$('#4wk').goTo();
 						break;
 					case 92:
 						document.getElementById('3mk').style.display = 'none';
@@ -240,9 +247,18 @@ $badgeInvert = true;
 						document.getElementById('1wk').style.display = 'block';
 						document.getElementById('charity').style.display = 'none';
 						buttonPrice.innerHTML = "Add To Cart - $67";
+						$('#1wk').goTo();
 						break;
 				}
 			}
+			(function($) {
+				$.fn.goTo = function() {
+					$('html, body').animate({
+						scrollTop: $(this).offset().top + 'px'
+					}, 'fast');
+					return this; // for chaining...
+				}
+			})(jQuery);
 		</script>
 		<div id="order-form" style="padding:10px;">
 			<div id="3mk">
@@ -252,6 +268,7 @@ $badgeInvert = true;
 					</div>
 				</div>
 				<div class="row nomargin">
+					<div class="col-md-1"></div>
 					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>3 Month Supply Includes:</strong></p>
@@ -263,7 +280,7 @@ $badgeInvert = true;
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-7 nopadding">
+					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>FREE Hardcopy Bonus Reports:</strong></p>
 							<ul class="summary">
@@ -274,6 +291,7 @@ $badgeInvert = true;
 							</ul>
 						</div>
 					</div>
+					<div class="col-md-1"></div>
 				</div>
 				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.25;">
 					<strike style="color:red"><span style='color:black'>$804.00</span></strike>
@@ -288,16 +306,17 @@ $badgeInvert = true;
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-md-1"></div>
 					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>4 Week Supply Includes:</strong></p>
-							<ul class="summary">
+							<ul class="summary" style="margin-left: 64px;">
 								<li>140 Servings <a href="#info" id="4wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 								<li><strong>FREE</strong> Shipping</li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-7 nopadding">
+					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>FREE Bonus Reports (Digital):</strong></p>
 							<ul class="summary">
@@ -308,6 +327,7 @@ $badgeInvert = true;
 							</ul>
 						</div>
 					</div>
+					<div class="col-md-1"></div>
 				</div>
 				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.2;">
 					<strike style="color:red"><span style='color:black'>$268.00</span></strike>
@@ -322,15 +342,16 @@ $badgeInvert = true;
 					</div>
 				</div>
 				<div class="row">
+					<div class="col-md-1"></div>
 					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>1 Week Supply Includes:</strong></p>
-							<ul class="summary">
+							<ul class="summary" style="margin-left: 64px;">
 								<li>40 Servings <a href="#info" id="1wkPopover" rel="popover" data-placement="bottom" data-toggle="tooltip" class="hidden-xs"><i class="fa fa-info-circle"></i></a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-7 nopadding">
+					<div class="col-sm-12 col-md-5 nopadding">
 						<div class="productList">
 							<p class="text-center red17"><strong>FREE Bonus Reports (Digital):</strong></p>
 							<ul class="summary">
@@ -341,6 +362,7 @@ $badgeInvert = true;
 							</ul>
 						</div>
 					</div>
+					<div class="col-md-1"></div>
 				</div>
 				<div class="text-center" style="font-size:28px;font-weight:bold;line-height:1.2;">
 					<span style="color:#003399;">$67 + $5.95 Shipping</span>
