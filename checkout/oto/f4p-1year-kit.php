@@ -182,7 +182,7 @@ include_once ('template-header.php'); /*Add template-header-nav.php to add top m
 				<div>
 					<!--				<div><img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/></div>-->
 					<div>
-						<img class="img-responsive center-block" src="/media/images/f4p/f4p-1-year-kit-01.jpg"  alt="Food4Patriots 1-Year Kit"/>
+						<img class="img-responsive center-block" src="/media/images/f4p/f4p-1year-totes-bonuses-badges-700x561.jpg"  alt="Food4Patriots 1-Year Kit"/>
 					</div>
 					<div class="col-md-12">
 						<?php include("f4p-1year-value-chart.html");?>
