@@ -6,8 +6,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 		$submitButtonSource = "/assets/images/buttons/btn-click-continue-green-01.png";
 	}
 	?>
-	<script src='/js/live-validation-min.js'></script>
-	<link href="/assets/css/validation.css" rel="stylesheet">
 	<script>
 		function setStateTax() {
 			pId = document.getElementById("productId").value;
@@ -144,27 +142,14 @@ if($_SESSION["soldout"]["flag"] === true) {
 			<div class="form-group">
 				<label for="firstName">First Name:</label>
 				<input type="text" class="form-control" id="firstName" name="firstName" value="<?php echo $preFill['firstName'];?>">
-				<script>
-					var firstName = new LiveValidation('firstName', { validMessage: ' ',onlyOnBlur: true});
-					firstName.add(Validate.Presence, {failureMessage: ' '});
-				</script>
 			</div>
 			<div class="form-group">
 				<label for="lastName">Last Name:</label>
 				<input type="text" class="form-control" id="lastName" name="lastName" value="<?php echo $preFill['lastName'];?>">
-				<script>
-					var lastName = new LiveValidation('lastName', { validMessage: ' ',onlyOnBlur: true});
-					lastName.add(Validate.Presence, {failureMessage: ' '});
-				</script>
 			</div>
 			<div class="form-group">
 				<label for="email">Email:</label>
 				<input type="text" class="form-control" id="email" name="email" value="<?php echo $preFill['email'];?>">
-				<script>
-					var email = new LiveValidation('email', { validMessage: ' ',onlyOnBlur: true});
-					email.add(Validate.Presence, {failureMessage: ' '});
-					email.add( Validate.Email, {failureMessage: ' '});
-				</script>
 			</div>
 			<div class="form-group">
 				<label for="phone">Phone:</label>
@@ -173,30 +158,17 @@ if($_SESSION["soldout"]["flag"] === true) {
 			<div class="form-group">
 				<label for="billing-address">Billing Address:</label>
 				<input type="text" class="form-control" id="billing-address" name="billing-address" value="<?php echo $preFill['billing-address'];?>">
-				<script>
-					var billingAddress = new LiveValidation('billing-address', { validMessage: ' ',onlyOnBlur: true});
-					billingAddress.add(Validate.Presence, {failureMessage: ' '});
-				</script>
 			</div>
 			<div class="form-group">
 				<label for="billing-city">City:</label>
 				<input type="text" class="form-control" id="billing-city" name="billing-city" value="<?php echo $preFill['billing-city'];?>">
-				<script>
-					var billingCity = new LiveValidation('billing-city', { validMessage: ' ', onlyOnBlur: true});
-					billingCity.add(Validate.Presence, {failureMessage: ' '});
-				</script>
 			</div>
 			<div class="form-group">
 				<label for="billing-country">Country:</label>
-				<select class="form-control valid LV_valid_field" id="billing-country" name="billing-country"  onchange="changeCountry('billing');">
+				<select class="form-control" id="billing-country" name="billing-country"  onchange="changeCountry('billing');">
 					<option value="US">United States</option>
 					<option value="CA">Canada</option>
 				</select>
-				<script>
-					var billingcountry = new LiveValidation('billing-country', { validMessage: ' '});
-					billingcountry.add(Validate.Presence, {failureMessage: ' '});
-				</script>
-				<span class=" LV_validation_message LV_valid"> </span>
 			</div>
 			<div class="form-group">
 				<label for="billing-state" id="billing-state-label">State:</label>
@@ -204,19 +176,10 @@ if($_SESSION["soldout"]["flag"] === true) {
 					<!--dynamically built w/ javascript-->
 				</select>
 				<input type="text" class="form-control" id="other-billing-state" name="other-billing-state" style="display:none;visibility:none;">
-				<script>
-					var billingState = new LiveValidation('billing-state', { validMessage: ' '});
-					billingState.add(Validate.Presence, {failureMessage: ' '});
-				</script>
 			</div>
 			<div class="form-group zip-contain">
 				<label for="billing-zip">Zip:</label>
 				<input type="text" class="form-control zip-field" id="billing-zip" name="billing-zip" value="<?php echo $preFill['billing-zip'];?>">
-				<script>
-					var billingZip = new LiveValidation('billing-zip', { validMessage: ' ', onlyOnBlur: true});
-					billingZip.add(Validate.Presence, {failureMessage: ' '});
-					billingZip.add(Validate.Length, {minimum: 5, maximum: 7});
-				</script>
 			</div>
 			<div id="secure-guarantee">
 				<div id="secure-guarantee-header">Shopping  Is Safe &amp; Secure - Guaranteed!</div>
@@ -262,12 +225,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 			<div class="form-group">
 				<label for="creditCardNumber">Card Number:</label>
 				<input type="text" class="form-control" id="creditCardNumber" name="creditCardNumber" value="">
-				<script>
-					var creditCardNumber = new LiveValidation('creditCardNumber', { validMessage: ' ', onlyOnBlur: true});
-					creditCardNumber.add(Validate.Presence,{failureMessage: ' '});
-					creditCardNumber.add(Validate.Numericality, {failureMessage: ' '});
-					creditCardNumber.add(Validate.Length, {minimum: 13, maximum: 20});
-				</script>
 			</div>
 			<div class="form-inline expiration">
 				<div class="form-group">
@@ -304,10 +261,6 @@ if($_SESSION["soldout"]["flag"] === true) {
 				<label for="card-cvv2">
 					CVV:<a href="#info" id="cvvPopover" rel="popover" class="btn ccv-tooltip" data-placement="bottom" data-toggle="tooltip">?</a></label>
 				<input type="text" class="form-control cvv2-field" id="card-cvv2" name="card-cvv2" value="">
-				<script>
-					var ccv2 = new LiveValidation('card-cvv2', { validMessage: ' ', onlyOnBlur: true});
-					ccv2.add(Validate.Presence, {failureMessage: ' '});
-				</script>
 			</div>
 
 			<!-- *PRODUCT INFO -->
@@ -460,6 +413,20 @@ if($_SESSION["soldout"]["flag"] === true) {
 				}
 			})
 		});
+
+
+		/*
+		 Init checkout form validation jquery.form-validation.js
+		 */
+		(function($){
+			'use strict';
+			$(function(){
+				$('#billing-form').formValidate();
+			});
+		})(jQuery);
+
+
+
 	</script>
 	<?php
 }
